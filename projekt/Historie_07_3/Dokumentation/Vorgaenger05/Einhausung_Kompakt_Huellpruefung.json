@@ -1,0 +1,40 @@
+{
+  "native_nx_executed": false,
+  "method": "ADDITIVE_PRIMITIVE_AABB_AT_EIGHT_AXIS_RANGE_CORNERS",
+  "note": "Konservative Modellhuellen. Kein Maschinen-Kollisionstest, keine reale Balg-/Kabel-/Werkstueckpruefung. Aufstellebene z=0 ist erlaubter Kontakt.",
+  "pose_count": 8,
+  "checked_part_count": 286,
+  "interior_limits_mm": [
+    -753.0,
+    -435.0,
+    0,
+    877.0,
+    523.0,
+    1200.0
+  ],
+  "swept_bounds_mm": [
+    -690.0,
+    -382.0,
+    0.0,
+    814.0,
+    427.0,
+    1111.0
+  ],
+  "boundary_parts": [
+    "CNC_X_Loslager_Brueckenwinkel",
+    "CNC_Y_Motorschutz_Haube",
+    "Basis_Guss_Foto",
+    "CNC_X_Motorschutz_Haube",
+    "Blechsaeule_Seitenwand_links",
+    "CNC_Z_Haltebremse_Bauraum"
+  ],
+  "margins_mm": [
+    63.0,
+    53.0,
+    0.0,
+    63.0,
+    96.0,
+    89.0
+  ],
+  "violations": []
+}

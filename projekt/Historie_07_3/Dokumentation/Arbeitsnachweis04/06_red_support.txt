@@ -1,0 +1,34 @@
+/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+FFF...............
+======================================================================
+FAIL: test_counterbalance_reserves_clear_fixed_front_glass (test_lift04.LiftSupportTests.test_counterbalance_reserves_clear_fixed_front_glass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_lift04.py", line 97, in test_counterbalance_reserves_clear_fixed_front_glass
+    self.assertFalse(all(min(a[k+3],b[k+3])-max(a[k],b[k])>1e-6 for k in range(3)))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_sampling_tool_moves_z (test_lift04.LiftSupportTests.test_sampling_tool_moves_z)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_lift04.py", line 100, in test_sampling_tool_moves_z
+    self.assertIn("translate((0,0,v['door_travel']*q))",s)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "translate((0,0,v['door_travel']*q))" not found in '"""Independent CAD sampling of the drawn door parts; not native NX or a safety proof."""\nfrom pathlib import Path\nimport sys,json\nROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/\'tools\'))\nimport cnc_ansichtsmodell as m\nfrom ansichtsnetz_erzeugen import make_tool\n\ndef run():\n p=m.load_parameters(ROOT/\'Parameter.json\');p[\'door_open\']=0.;v=m.all_values(p)\n ds=[d for d in m.recipe() if d[\'group\']==\'15_Einhausung\'];bodies={}\n for d in ds:\n  body=None\n  for o in d[\'ops\']:\n   t=make_tool(o,v)\n   if body is None:body=t\n   elif o[\'op\']==\'add\':body=body.fuse(t).clean()\n   else:body=body.cut(t).clean()\n  bodies[d[\'name\']]=body\n moving=[d for d in ds if d.get(\'door_leaf\')];fixed=[d for d in ds if not d.get(\'door_leaf\')]\n conflicts=[];count=0;exact=0;states=[i/8 for i in range(9)]\n for q in states:\n  moved={d[\'name\']:bodies[d[\'name\']].translate(((-1 if d[\'door_leaf\']==\'L\' else 1)*v[\'door_travel\']*q,0,0)) for d in moving}\n  pairs=[(d,e) for d in moving for e in fixed]+[(d,e) for d in moving for e in moving if d[\'door_leaf\']==\'L\' and e[\'door_leaf\']==\'R\']\n  for d,e in pairs:\n   a=moved[d[\'name\']];b=moved[e[\'name\']] if e.get(\'door_leaf\') else bodies[e[\'name\']];aa=a.BoundingBox();bb=b.BoundingBox();count+=1\n   if not all(min(getattr(aa,k+\'max\'),getattr(bb,k+\'max\'))-max(getattr(aa,k+\'min\'),getattr(bb,k+\'min\'))>1e-6 for k in \'xyz\'):continue\n   exact+=1;vol=a.intersect(b).Volume()\n   if vol>.01:conflicts.append(dict(door_open=q,a=d[\'name\'],b=e[\'name\'],intersection_mm3=vol))\n result=dict(native_nx_executed=False,method=\'OpenCascade sampled solid intersections\',positions=states,pairs_checked=count,solid_comparisons=exact,conflicts=conflicts,limits=\'Only drawn doors vs enclosure and opposed leaf. Intra-leaf joining/contact excluded. No continuous path, elastic seal, workpiece, real hardware or safety verification.\')\n path=ROOT/\'Dokumentation/Tuerbewegung_Stichproben.json\';path.write_text(json.dumps(result,indent=2,ensure_ascii=False));print(json.dumps(result,indent=2))\n if conflicts:raise RuntimeError(\'Tuerkonflikte vorhanden, siehe Bericht\')\n return result\nif __name__==\'__main__\':run()\n'
+
+======================================================================
+FAIL: test_supports_end_at_upper_tie_not_inside (test_lift04.LiftSupportTests.test_supports_end_at_upper_tie_not_inside)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_lift04.py", line 90, in test_supports_end_at_upper_tie_not_inside
+    self.assertAlmostEqual(post[5],tie[2])
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: 2215.0 != 2185.0 within 7 places (30.0 difference)
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.548s
+
+FAILED (failures=3)

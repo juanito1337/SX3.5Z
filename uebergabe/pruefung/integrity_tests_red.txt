@@ -1,0 +1,21 @@
+test_verify_package (unittest.loader._FailedTest.test_verify_package) ... ERROR
+
+======================================================================
+ERROR: test_verify_package (unittest.loader._FailedTest.test_verify_package)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_verify_package
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.13/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/mnt/data/codex_handoff_work/SX35Z_Codex_Projekt/tools_handoff/test_verify_package.py", line 7, in <module>
+    from verify_package import verify_manifest
+ModuleNotFoundError: No module named 'verify_package'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

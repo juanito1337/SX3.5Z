@@ -1,0 +1,25 @@
+../mnt/data/SX35Z_CNC_Gesamtansicht_02/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+..................FF
+======================================================================
+FAIL: test_machine_heads_clear_fixed_housing (test_ausbau02.JointAccessTests.test_machine_heads_clear_fixed_housing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Gesamtansicht_02/tests/test_ausbau02.py", line 53, in test_machine_heads_clear_fixed_housing
+    self.assertGreater(abs(u)-4.8,30)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: 23.2 not greater than 30
+
+======================================================================
+FAIL: test_motor_screw_heads_are_between_plates_not_buried_in_motor (test_ausbau02.JointAccessTests.test_motor_screw_heads_are_between_plates_not_buried_in_motor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Gesamtansicht_02/tests/test_ausbau02.py", line 45, in test_motor_screw_heads_are_between_plates_not_buried_in_motor
+    self.assertIn('Motorbefestigung_Kopf_vorne',[o['label'] for o in d['ops']])
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Motorbefestigung_Kopf_vorne' not found in ['Huellzylinder', 'Huellzylinder']
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.771s
+
+FAILED (failures=2)

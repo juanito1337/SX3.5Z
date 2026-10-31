@@ -1,0 +1,493 @@
+{
+  "schema": "ACTUAL_MEASUREMENTS_ONLY",
+  "instructions": "Nur tatsächlich gemessene Werte eintragen. Null ist unbekannt, nicht0mm. Foto-/CAD-Annahmen sind keine Istwerte. Koordinatenlisten dürfen als Text/Dateiverweis eingetragen werden.",
+  "measurements": [
+    {
+      "id": "X01",
+      "part": "Tisch / Sattel",
+      "description": "Original-Spindelachse zu bearbeiteter Bezugsfläche",
+      "method": "Messplatte/Parallelleisten und Höhenmessgerät; Bezugskizze beilegen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "X02",
+      "part": "Tisch / Sattel",
+      "description": "Befestigungslochbild Antriebsseite, Durchmesser/Gewinde/Tiefe",
+      "method": "Messschieber plus Gewindelehre/Tiefenmaß; Koordinatenliste statt gerundetem Foto",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "X03",
+      "part": "Tisch / Sattel",
+      "description": "Gegenlager-Anschlussfläche und Lochbild",
+      "method": "Abstand zur Achse, ebene Auflage, verfügbare Schraubeneingriffe",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "X04",
+      "part": "Tisch / Sattel",
+      "description": "Mutteranschluss: Flächenhöhe, Lochbild und freier Querschnitt",
+      "method": "An mehreren Hubpositionen mit eingesetztem Schlitten messen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "X05",
+      "part": "Tisch / Sattel",
+      "description": "Abstand geplanter Fest-/Loslager-Stirnflächen",
+      "method": "Entlang Spindelachse messen; beide Anschläge und Mutterüberstand eintragen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "X06",
+      "part": "Tisch / Sattel",
+      "description": "Nutzbarer Hub mit Führungsüberdeckung und Anschlagreserve",
+      "method": "Unbestromt gesichert bewegen; nicht bis zum Verlust der Führung schieben",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "X07",
+      "part": "Tisch / Sattel",
+      "description": "Restwand um mögliche Freistellungen",
+      "method": "Messbare Wand plus Gussrippen dokumentieren; verdeckteWand ggf.Fachmessung",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "X08",
+      "part": "Tisch / Sattel",
+      "description": "Verschiebekraft und Losbrechkraft",
+      "method": "Kraftmessgerät bei korrekt eingestellter/schmierter Führung; Z separat sichern",
+      "unit": "N",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Y01",
+      "part": "Basis / Sattel",
+      "description": "Original-Spindelachse zu bearbeiteter Bezugsfläche",
+      "method": "Messplatte/Parallelleisten und Höhenmessgerät; Bezugskizze beilegen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Y02",
+      "part": "Basis / Sattel",
+      "description": "Befestigungslochbild Antriebsseite, Durchmesser/Gewinde/Tiefe",
+      "method": "Messschieber plus Gewindelehre/Tiefenmaß; Koordinatenliste statt gerundetem Foto",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Y03",
+      "part": "Basis / Sattel",
+      "description": "Gegenlager-Anschlussfläche und Lochbild",
+      "method": "Abstand zur Achse, ebene Auflage, verfügbare Schraubeneingriffe",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Y04",
+      "part": "Basis / Sattel",
+      "description": "Mutteranschluss: Flächenhöhe, Lochbild und freier Querschnitt",
+      "method": "An mehreren Hubpositionen mit eingesetztem Schlitten messen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Y05",
+      "part": "Basis / Sattel",
+      "description": "Abstand geplanter Fest-/Loslager-Stirnflächen",
+      "method": "Entlang Spindelachse messen; beide Anschläge und Mutterüberstand eintragen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Y06",
+      "part": "Basis / Sattel",
+      "description": "Nutzbarer Hub mit Führungsüberdeckung und Anschlagreserve",
+      "method": "Unbestromt gesichert bewegen; nicht bis zum Verlust der Führung schieben",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Y07",
+      "part": "Basis / Sattel",
+      "description": "Restwand um mögliche Freistellungen",
+      "method": "Messbare Wand plus Gussrippen dokumentieren; verdeckteWand ggf.Fachmessung",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Y08",
+      "part": "Basis / Sattel",
+      "description": "Verschiebekraft und Losbrechkraft",
+      "method": "Kraftmessgerät bei korrekt eingestellter/schmierter Führung; Z separat sichern",
+      "unit": "N",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z01",
+      "part": "Säule / Kopf",
+      "description": "Original-Spindelachse zu bearbeiteter Bezugsfläche",
+      "method": "Messplatte/Parallelleisten und Höhenmessgerät; Bezugskizze beilegen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z02",
+      "part": "Säule / Kopf",
+      "description": "Befestigungslochbild Antriebsseite, Durchmesser/Gewinde/Tiefe",
+      "method": "Messschieber plus Gewindelehre/Tiefenmaß; Koordinatenliste statt gerundetem Foto",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z03",
+      "part": "Säule / Kopf",
+      "description": "Gegenlager-Anschlussfläche und Lochbild",
+      "method": "Abstand zur Achse, ebene Auflage, verfügbare Schraubeneingriffe",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z04",
+      "part": "Säule / Kopf",
+      "description": "Mutteranschluss: Flächenhöhe, Lochbild und freier Querschnitt",
+      "method": "An mehreren Hubpositionen mit eingesetztem Schlitten messen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z05",
+      "part": "Säule / Kopf",
+      "description": "Abstand geplanter Fest-/Loslager-Stirnflächen",
+      "method": "Entlang Spindelachse messen; beide Anschläge und Mutterüberstand eintragen",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z06",
+      "part": "Säule / Kopf",
+      "description": "Nutzbarer Hub mit Führungsüberdeckung und Anschlagreserve",
+      "method": "Unbestromt gesichert bewegen; nicht bis zum Verlust der Führung schieben",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z07",
+      "part": "Säule / Kopf",
+      "description": "Restwand um mögliche Freistellungen",
+      "method": "Messbare Wand plus Gussrippen dokumentieren; verdeckteWand ggf.Fachmessung",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z08",
+      "part": "Säule / Kopf",
+      "description": "Verschiebekraft und Losbrechkraft",
+      "method": "Kraftmessgerät bei korrekt eingestellter/schmierter Führung; Z separat sichern",
+      "unit": "N",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G02",
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "Z09",
+      "part": "Spindelkopf",
+      "description": "Bewegte Gesamtmasse inkl.Motor/Abdeckungen",
+      "method": "Mit geeignetem Hebezeug sichern und wiegen; keine Schätzung aus CAD-Hüllvolumen",
+      "unit": "kg",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G03",
+        "G08"
+      ]
+    },
+    {
+      "id": "C01",
+      "part": "Schaltschrank",
+      "description": "Netzanschluss / Netzform / vorhandener Schutz",
+      "method": "Elektrofachkraft dokumentiert; nicht selbst an offenem Netz messen",
+      "unit": "Text",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G06",
+        "G07"
+      ]
+    },
+    {
+      "id": "S01",
+      "part": "Spindelantrieb",
+      "description": "Freigabe-/Sollwertschnittstelle und galvanische Trennung",
+      "method": "Hersteller-Schaltplan und Prüfung durch Elektrofachkraft",
+      "unit": "Text",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G07",
+        "G08",
+        "G09"
+      ]
+    },
+    {
+      "id": "D01",
+      "part": "Hubtür",
+      "description": "Masse jedes fertigen Segments",
+      "method": "KompletteRahmen/Scheiben/Beschläge getrennt wiegen",
+      "unit": "kg",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G08"
+      ]
+    },
+    {
+      "id": "D02",
+      "part": "Hubtür",
+      "description": "Verfügbarer Feder-/Seil-/Kettenbauraum",
+      "method": "Geschlossene und offene Stellung, Hub515/1030mm und Endstopps dokumentieren",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G08"
+      ]
+    }
+  ]
+}

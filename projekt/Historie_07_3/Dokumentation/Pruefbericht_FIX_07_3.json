@@ -1,0 +1,93 @@
+{
+  "patch": "07.3",
+  "sheetmetal_adapter_unchanged": "07.2",
+  "status": "OFFLINE_TESTS_PASSED_NATIVE_NX_TEST_PENDING",
+  "created_utc": "2026-10-30T13:30:32.438201+00:00",
+  "input_log": {
+    "name": "NX_Fehlerprotokoll(8).txt",
+    "sha256": "26c94b7975ff9e030ca258df46b8afef44d49ddc00ddcbd7d1105dd1251399d8",
+    "reported_successfully_saved_machine_parts": 406,
+    "reported_sheetmetal_success_messages_including_coupon": 17,
+    "failed_part": "A407_KSS_Trichter_links",
+    "failed_feature": "001_Geneigtes_Blech_Normaldicke",
+    "failed_assignment": "b.Limits.EndExtend.Value.RightHandSide=self.expr_text(op[\"height\"])",
+    "error": "NXOpen.NXException: Bemaßung stimmt nicht überein (Binär-Operation)",
+    "basis": "User-provided log; no independent access to the generated PRT files"
+  },
+  "root_cause": "Numeric millimetre recipe grades were inserted unchanged into a typed NX expression; lengths and dimensionless values mixed in sqrt argument.",
+  "fix": "Normalise length parameters inside the supported thickness*sqrt(...) form by a fresh native 1-mm expression. Keep thickness dimensioned and parameter dependencies intact.",
+  "baseline_tests": 180,
+  "offline_tests_passed": 198,
+  "new_regression_tests": 18,
+  "version_specific_existing_test_updated": "Only expected output prefix 07_2 -> 07_3; sheetmetal 07.2 guard retained.",
+  "execution_environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "siemens_nx_available": false
+  },
+  "python_3_10_grammar": {
+    "passed": true,
+    "files": 33
+  },
+  "red_green": {
+    "original_failure_reproduced_in_actual_adapter_setter_path_with_unit_algebra_fixture": true,
+    "native_NX_reproduction_by_assistant": false,
+    "red_log": "Dokumentation/Regression_07_3_RED.txt",
+    "green_log": "Dokumentation/Tests_07_3_GREEN.txt"
+  },
+  "checks": {
+    "all_10_sloped_KSS_height_formulas_same_numeric_result_and_correct_length_dimension": true,
+    "all_4_funnel_formulas_re_evaluated_for_5_parameter_changes": true,
+    "typed_factory_modes_and_Number_mm_tested": true,
+    "unrecognised_AST_and_unknown_parameters_rejected": true,
+    "ordinary_extrusion_formulas_path_unchanged": true,
+    "model_recipe_and_parameter_files_byte_identical": true
+  },
+  "unchanged_files_sha256": {
+    "Parameter.json": "4229942e5ecc89447b4d4e41ff4aeb6d88b334c9d228455fa7bf64071a176db9",
+    "CNC_Parameter.json": "c08fa4da67acc80545e8d863e6db9cfea2d7055aba1c438a6c68cd3265e07f06",
+    "Ausbau_Parameter.json": "20a93f4fc2f29360a7fb4eb18d678d767fcb07fc9aca99df07f933793a38db10",
+    "NX_Farben.json": "641cfbb8a37ba247ba83d8e66f43ebdf43de3c7f3de99def469500808acae33f",
+    "NX_Ausgabe.json": "5bb8dc5e776408d02aa826909636a6fce6691ad9ccc4c0c8ab09a0a31bfe70b0",
+    "Blech_Optionen.json": "dae4f5f5855357d85c5c80ba30651dbe86e98ac5e9899019d2ebf5f8257c8e12",
+    "cnc_ansichtsmodell.py": "69021b46c7027201b260297fc35b1c93effa23f80c9487357dda371a79605803",
+    "cnc_ansichtsmodell01.py": "548c91ed360468d61e496ebd571252f7eab9159e1640a40c4e64f46c06fa0f50",
+    "modell_v4.py": "c44dd27e6affce912bc1410f741747a4e99e432cd52e8bb8220457d98d467af4",
+    "v3_geometriebasis.py": "88435136e931d4798c33cad09bc55f339c4191a7250bbb6954cbe955f824072d",
+    "ruecklauf07.py": "a88f701b9a0eb05c2c35da76e59c8cf50b53e7f8b7c75c5b7ef45686c0b73dae",
+    "blech06.py": "009289274f947c5701d939797c309992d04d9f1a603f450a8f9d0fc355b4066a",
+    "formeln07.py": "bc0c228fec1960348877461a783b37976904104644398eb5151749bda4bbfa8b",
+    "nx_sheetmetal06.py": "cfb50313079e0fecbc8a439fb48e2d8e5557e49921698e400fba1485ae795e92",
+    "nx_files.py": "62f0dae57c6d4c3b4d48cfc9706f0ebfcf3b4823f2bb3f24b0a86816b2575bf7",
+    "nx_geometry.py": "3455911ea26ced5489e7bbaa46191ab23c6414ebaf657818159ff060ff5f9e58",
+    "Geometrie_Referenz_Ansicht.json": "778c92ff0233646b4acd3c9accdf791d3f247fc3e96d232a38066a687cb42ac0",
+    "Ansicht_3D.html": "6729f43fbf40eaf1e59aa6b5300c50f5e93d733fc24425b307463cbf633f4aeb"
+  },
+  "native_runtime_checks_implemented_not_executed_here": [
+    "four real funnel recipes in early API preflight",
+    "existing volume/bounds comparison retained",
+    "short test builds ten sloped KSS solids"
+  ],
+  "installation": {
+    "replace": [
+      "nx_native.py",
+      "NX_CNC_Gesamtansicht.py"
+    ],
+    "add": [
+      "nx_formeln073.py",
+      "NX_KSS_Pruefen.py"
+    ],
+    "preserve_user_configuration": true,
+    "required_base": "Gesamtansicht 07.2"
+  },
+  "new_native_NX_execution": false,
+  "assembly_completion_confirmed": false,
+  "geometry_or_parameter_design_changed": false,
+  "manufacturing_released": false,
+  "review": "Author self-review of diff and independent test arithmetic. No independent reviewer/subagent available.",
+  "limits": [
+    "The dimensional evaluator is not the NX expression engine.",
+    "No PRT files created in this environment.",
+    "No automatic resume of a previous incomplete run.",
+    "Previous collision, fabrication, leakage, structural and safety limits remain unchanged."
+  ]
+}

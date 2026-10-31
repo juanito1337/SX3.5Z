@@ -1,0 +1,7 @@
+{
+  "scope": "Added09 bodies vs all bodies in default pose; no movement sweep, no strength or tolerance proof",
+  "native_nx_executed": false,
+  "pair_count": 62125,
+  "solid_intersection_checks": 293,
+  "collisions": []
+}

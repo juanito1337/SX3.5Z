@@ -1,0 +1,121 @@
+{
+  "schema": "SX35Z_CNC_GESAMTANSICHT_07_VERIFICATION",
+  "date": "2026-10-29",
+  "native_nx_executed": false,
+  "native_prt_in_package": false,
+  "status": "INDEPENDENT_PREFORM_CHECKS_PASSED_NOT_MANUFACTURING_RELEASED",
+  "tests": {
+    "passed": 141,
+    "subtests_passed": 9,
+    "baseline06_passed": 118,
+    "new_test_methods": 23,
+    "warnings": 25843,
+    "warning_note": "Inherited ast.Num deprecation under local Python 3.13; target NX Python 3.10 grammar checked. No native NX test inferred.",
+    "exit_code": 0,
+    "log": "Arbeitsnachweis07/22_suite_final.txt"
+  },
+  "python310_syntax_files": 28,
+  "geometry": {
+    "parts": 472,
+    "groups": 17,
+    "operations": 1541,
+    "all_intermediate_single_solids_valid": true,
+    "all_operations_material_effect": true,
+    "triangles": 206488,
+    "native_sheet_conversions_requested": 19,
+    "source": "Geometrie/Geometriepruefung.json",
+    "parameter_sha256": "6e028261774509993ab3fda1bbc3c445667419ed37507e4f24188ec24c64f771",
+    "recipe_sha256": "65c541fc4ebddd4ac917b7d863d244c77ee9c6181ecd11e8594d0ff16b87178a"
+  },
+  "new_return_checks": {
+    "native_nx_executed": false,
+    "method": "Independent OpenCascade solid intersection after analytic AABB screen",
+    "exact_comparisons": 46,
+    "static_conflicts": [],
+    "axis_poses_checked": 8,
+    "axis_pose_conflicts": [],
+    "nonrigid_parts_not_swept": [
+      "Faltenbalg_Z",
+      "Faltenbalg_Y_hinten"
+    ],
+    "basket_strokes_mm": [
+      0,
+      55,
+      110,
+      165,
+      220
+    ],
+    "basket_conflicts": [],
+    "limits": "Changed KSS vs drawn parts and cabinet vs stand/enclosure. Known original machine conflicts unchanged. Weld/contact tolerances, continuous motion, chip/fluid transport, strength, seals and safety not proven."
+  },
+  "door_checks": {
+    "native_nx_executed": false,
+    "method": "OpenCascade solid intersections after conservative AABB screening",
+    "positions": [
+      0.0,
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0
+    ],
+    "pairs_checked": 191925,
+    "solid_comparisons": 296,
+    "conflicts": [],
+    "minimum_moving_part_floor_clearance_mm": 127.0,
+    "limits": "Nine samples. All drawn stationary model parts vs moving door; cross-segment pairs included. Intra-segment assembly/contact excluded. No continuous path, actual hardware, tolerances, deformation, seal, drainage or safety proof."
+  },
+  "browser": {
+    "browser": "Chromium via Playwright set_content (file URLs blocked in host policy)",
+    "native_nx_executed": false,
+    "door_states_checked": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "door_motion": "two segments -Z, upper 1030 mm / lower 515 mm",
+    "render_changes_when_open": true,
+    "rotation_control": true,
+    "zoom_control": true,
+    "modes_checked": 7,
+    "javascript_errors": []
+  },
+  "enclosure_check": {
+    "rigid_parts": 284,
+    "violations": 0,
+    "source": "Einhausung_Huellraumpruefung.json"
+  },
+  "preservation": {
+    "unchanged_source_files": {
+      "modell_v4.py": true,
+      "v3_geometriebasis.py": true,
+      "cnc_ansichtsmodell01.py": true,
+      "CNC_Parameter.json": true,
+      "Parameter.json": true,
+      "nx_files.py": true,
+      "nx_geometry.py": true,
+      "nx_sheetmetal06.py": true,
+      "Blech_Optionen.json": true
+    },
+    "moving_door_parts06": 49,
+    "moving_door_parts07": 49,
+    "moving_door_recipe_identical": true,
+    "door_layout_identical": true,
+    "comparison_note": "Sequential part IDs/filename prefixes excluded because removing the right glass shifts later numbering; all remaining door definition fields are identical."
+  },
+  "known_old_casting_conflicts": 6,
+  "design_data": "Spaene_KSS_Entwurfsdaten.json",
+  "review": "Author self-review; no independent reviewer/subagent was used.",
+  "limits": [
+    "No Siemens NX execution. Required Sheet Metal conversion and actual saved PRT assembly unverified.",
+    "Collision checks apply to sharp-edged independent preforms and selected parts/poses only, not converted final parts or continuous motion.",
+    "Original machine attachment conflicts remain; no fabrication or operation approval.",
+    "Chip transport, filter mesh, seals, weld joints, clogging/overflow, coolant flow, thermal capacity and cabinet mounting strength are not validated.",
+    "Door coupling, force compensation and fall-prevention still need engineering."
+  ]
+}

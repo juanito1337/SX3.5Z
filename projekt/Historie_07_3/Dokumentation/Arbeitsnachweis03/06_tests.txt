@@ -1,0 +1,55 @@
+test_all_three_drives_present (test_ansichtsmodell.RecipeTests.test_all_three_drives_present) ... ok
+test_entire_machine_not_only_drive_samples (test_ansichtsmodell.RecipeTests.test_entire_machine_not_only_drive_samples) ... ok
+test_invalid_bearing_size_rejected (test_ansichtsmodell.RecipeTests.test_invalid_bearing_size_rejected) ... /mnt/data/compact03_work/SX35Z_CNC_Gesamtansicht_03/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+ok
+test_invalid_motor_size_rejected (test_ansichtsmodell.RecipeTests.test_invalid_motor_size_rejected) ... ok
+test_manual_feeds_replaced_but_quill_retained (test_ansichtsmodell.RecipeTests.test_manual_feeds_replaced_but_quill_retained) ... ok
+test_motor_and_screw_coaxial (test_ansichtsmodell.RecipeTests.test_motor_and_screw_coaxial) ... ok
+test_native_requires_no_audit_or_original_files (test_ansichtsmodell.RecipeTests.test_native_requires_no_audit_or_original_files) ... ok
+test_no_fabrication_release (test_ansichtsmodell.RecipeTests.test_no_fabrication_release) ... ok
+test_poses_produce_valid_recipes (test_ansichtsmodell.RecipeTests.test_poses_produce_valid_recipes) ... ok
+test_recipe_valid_and_unique (test_ansichtsmodell.RecipeTests.test_recipe_valid_and_unique) ... ok
+test_x_motor_moves_xy_nut_only_y (test_ansichtsmodell.RecipeTests.test_x_motor_moves_xy_nut_only_y) ... ok
+test_z_nut_moves_head_motor_stays (test_ansichtsmodell.RecipeTests.test_z_nut_moves_head_motor_stays) ... ok
+test_enclosure_stand_cabinet (test_ausbau02.AusbauTests.test_enclosure_stand_cabinet) ... ok
+test_every_part_has_source_status_palette_and_unique_name (test_ausbau02.AusbauTests.test_every_part_has_source_status_palette_and_unique_name) ... ok
+test_floor_table_height (test_ausbau02.AusbauTests.test_floor_table_height) ... ok
+test_length_report_all_target_ends (test_ausbau02.AusbauTests.test_length_report_all_target_ends) ... ok
+test_mounting_chain_exists (test_ausbau02.AusbauTests.test_mounting_chain_exists) ... ok
+test_no_manual_quill_drive (test_ausbau02.AusbauTests.test_no_manual_quill_drive) ... ok
+test_no_nx_execution_claim_in_model (test_ausbau02.AusbauTests.test_no_nx_execution_claim_in_model) ... ok
+test_originals_retained_except_handdrive (test_ausbau02.AusbauTests.test_originals_retained_except_handdrive) ... ok
+test_rotating_shoulder_clears_stationary_housing_entry (test_ausbau02.BearingClearanceTests.test_rotating_shoulder_clears_stationary_housing_entry) ... ok
+test_machine_heads_clear_fixed_housing (test_ausbau02.JointAccessTests.test_machine_heads_clear_fixed_housing) ... ok
+test_motor_screw_heads_have_own_clearance (test_ausbau02.JointAccessTests.test_motor_screw_heads_have_own_clearance) ... ok
+test_xy_motor_flange_retains_catalog_through_holes (test_ausbau02.SourceFlangeTests.test_xy_motor_flange_retains_catalog_through_holes) ... ok
+test_modes_include_machine_and_cabinet (test_ausbau02.ViewerContractTests.test_modes_include_machine_and_cabinet) ... ok
+test_motor_heads_are_outside_flange_and_body_is_reliefed (test_ausbau02.ViewerContractTests.test_motor_heads_are_outside_flange_and_body_is_reliefed) ... ok
+test_no_stale_part_count (test_ausbau02.ViewerContractTests.test_no_stale_part_count) ... ok
+test_browser_controls_and_real_state (test_compact03.CompactTests.test_browser_controls_and_real_state) ... ok
+test_closed_leaves_cover_aperture (test_compact03.CompactTests.test_closed_leaves_cover_aperture) ... ok
+test_conservative_report_covers_travel (test_compact03.CompactTests.test_conservative_report_covers_travel) ... ok
+test_door_parameters_exist (test_compact03.CompactTests.test_door_parameters_exist) ... ok
+test_explicit_invalid_positions (test_compact03.CompactTests.test_explicit_invalid_positions) ... ok
+test_full_open_is_within_width (test_compact03.CompactTests.test_full_open_is_within_width) ... ok
+test_glass_within_both_side_sheets (test_compact03.CompactTests.test_glass_within_both_side_sheets) ... ok
+test_height_unchanged (test_compact03.CompactTests.test_height_unchanged) ... ok
+test_invalid_envelope_not_silently_accepted (test_compact03.CompactTests.test_invalid_envelope_not_silently_accepted) ... ok
+test_leaf_parts_are_rigid_translations (test_compact03.CompactTests.test_leaf_parts_are_rigid_translations) ... ok
+test_new_parts_source_and_no_release (test_compact03.CompactTests.test_new_parts_source_and_no_release) ... ok
+test_no_old_swing_leaf_or_fixed_center_overlap (test_compact03.CompactTests.test_no_old_swing_leaf_or_fixed_center_overlap) ... ok
+test_plan_geometry_and_available_opening (test_compact03.CompactTests.test_plan_geometry_and_available_opening) ... ok
+test_reduced_plan_dimensions (test_compact03.CompactTests.test_reduced_plan_dimensions) ... ok
+test_reference_is_current_version (test_compact03.CompactTests.test_reference_is_current_version) ... ok
+test_target_travel_not_reduced (test_compact03.CompactTests.test_target_travel_not_reduced) ... ok
+test_too_high_aperture_rejected (test_compact03.CompactTests.test_too_high_aperture_rejected) ... ok
+test_too_wide_aperture_rejected (test_compact03.CompactTests.test_too_wide_aperture_rejected) ... ok
+test_both_leaves_have_fixed_switch_reserve (test_compact03.DoorSwitchTests.test_both_leaves_have_fixed_switch_reserve) ... ok
+test_switch_body_outside_leaf_sweep (test_compact03.DoorSwitchTests.test_switch_body_outside_leaf_sweep) ... ok
+test_front_sheets_do_not_overlap_posts (test_compact03.FrontPanelTests.test_front_sheets_do_not_overlap_posts) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 5.457s
+
+OK

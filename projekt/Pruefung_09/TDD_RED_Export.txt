@@ -1,0 +1,18 @@
+...F                                                                     [100%]
+=================================== FAILURES ===================================
+_____________________ test_export_module_and_full_mapping ______________________
+
+    def test_export_module_and_full_mapping():
+>       assert (ROOT/'umbau_daten09.py').exists(),'09 single source export missing'
+E       AssertionError: 09 single source export missing
+E       assert False
+E        +  where False = exists()
+E        +    where exists = (PosixPath('/mnt/data/SX35Z_CNC_Umsetzung_09') / 'umbau_daten09.py').exists
+
+tests09/test_delivery09.py:29: AssertionError
+=========================== short test summary info ============================
+FAILED tests09/test_delivery09.py::test_export_module_and_full_mapping - AssertionError: 09 single source export missing
+assert False
+ +  where False = exists()
+ +    where exists = (PosixPath('/mnt/data/SX35Z_CNC_Umsetzung_09') / 'umbau_daten09.py').exists
+1 failed, 3 passed in 0.16s

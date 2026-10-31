@@ -1,0 +1,5 @@
+# Nur optionale separate Offline-Testumgebung, NIEMALS in NX-Python installieren.
+# Diese Direktversionen wurden bei der Übergabe unter Linux/Python3.13.5 verwendet.
+# Kein vollständiger Lockfile und kein Nachweis der Installation unter Windows/Python3.10.
+pytest==9.0.2
+cadquery==2.8.0

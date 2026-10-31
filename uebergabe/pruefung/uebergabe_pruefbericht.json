@@ -1,0 +1,46 @@
+{
+  "schema": "SX35Z_CODEX_HANDOFF_REVIEW",
+  "date": "2026-10-31",
+  "machine_revision": "CNC_UMSETZUNG_09",
+  "handoff_changes_machine_geometry": false,
+  "source_archive": "SX35Z_CNC_Umsetzung_09.zip",
+  "baseline_files_byte_identical": 335,
+  "source_files_in_references": 104,
+  "original_photos": 72,
+  "older_cad_screenshots": 7,
+  "offline_suite": {
+    "command": "python -m pytest -q -p no:cacheprovider",
+    "cwd": "projekt",
+    "exit_code": 0,
+    "passed": 112,
+    "subtests_passed": 91,
+    "evidence": "offline_tests_uebergabe.txt"
+  },
+  "helper_tests": {
+    "command": "python -m unittest discover -s tools_handoff -p test_*.py -v",
+    "exit_code": 0,
+    "tests_passed": 10,
+    "evidence": "integrity_tests_green.txt",
+    "red_before_implementation": "integrity_tests_red.txt"
+  },
+  "syntax_check": {
+    "scope": "Python 3.10 grammar only",
+    "files": 57,
+    "errors": [],
+    "evidence": "python310_grammatik.json"
+  },
+  "native_nx_executed": false,
+  "native_prt_files_included": false,
+  "full_geometry_rebuilt_for_handoff": false,
+  "manufacturing_released": false,
+  "purchase_released": false,
+  "atc_operational": false,
+  "scope_limits": [
+    "No new NX execution, no native assembly validation",
+    "Historical 09 reports retained without relabeling",
+    "No new manufacturer geometry, prices or availability verified",
+    "Actual user PRT files and local parameter edits not available; input folders prepared",
+    "Superpowers plugin not installed or bundled by this archive"
+  ],
+  "zip_readback_report": "External file SX35Z_Codex_Uebergabe_Pruefung.json accompanies final delivery"
+}

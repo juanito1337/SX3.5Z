@@ -1,0 +1,26 @@
+{
+  "formula_count": 78,
+  "excel_error_cells": [],
+  "catalog_rows": 69,
+  "new_rows": 13,
+  "model_bodies": 560,
+  "open_measures": 35,
+  "atc_retract_reserve_mm": 16.600000000000023,
+  "all_firm_prices_empty": true,
+  "price_indices_separate": true,
+  "sheets": [
+    "Start",
+    "Einkauf",
+    "Neu09",
+    "ATC_Suche",
+    "ATC_Raum",
+    "Aufmass",
+    "Fertigung",
+    "Modell",
+    "Freigaben",
+    "Quellen",
+    "Bearbeitung"
+  ],
+  "material_correction_verified": true,
+  "file_sha256": "2f8d3b3b7f7d10861a4552ed665ec4884a9eac536e26b93a18b3e2dde9c70e57"
+}

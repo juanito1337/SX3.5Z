@@ -1,0 +1,2350 @@
+SX3.5 Fräse – automatisch erkannter Text
+OCR-Ausgabe des bereinigten Scans. Nicht redaktionell korrigiert.
+Zahlen, Teilenummern und kleine Bildbeschriftungen anhand des sichtbaren Scans prüfen.
+Die PDF-Seitenfolge entspricht der hochgeladenen Datei.
+
+===== PDF-Seite 01 / 64 =====
+
+Betriebsanleitung zur Bohr- und Fräsmaschine
+
+Typ: SX3.5Z
+
+Original-Betriebsanleitung
+
+AUFBEWAHREN ZUM NACHSCHLAGEN
+
+Ausgabe: 11.05.2023
+Version: 1.2
+
+===== PDF-Seite 02 / 64 =====
+
+paulimot gi
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+Inhaltsverzeichnis
+
+1 Benutzerhinweise 3
+1.1 Herstellerangaben 3
+1.2 Zu Ihrer Sicherheit 3
+1.3 _ Zweck und Zielgruppe 3
+1.4 Gewährleistung und Haftung 4
+1.5 Gültigkeit der Anleitung 4
+1.6 Darstellungskonventionen 5
+1.7 Aufbewahrung 5
+2 Sicherheit 6
+2.1 Sicherheitshinweise 6
+2.2 Bestimmungsgemäße Verwendung 7
+2.3 Vorhersehbare Fehlanwendung, Grenzen der erlaubten Verwendung 8
+2.4 Betreiberpflichten 9
+25 Allgemeine Sicherheitsvorschriften 9
+2.6 Personalqualifikation 10
+2.7 Persönliche Schutzausrüstung 11
+2.8 Schutzeinrichtungen 12
+2.8.1 Trennende Schutzeinrichtungen 12
+2.8.2  Not-Halt 13
+2.9 Verhalten im Notfall 13
+2.10 Beschilderung 13
+3 Produktbeschreibung 16
+3.1 Gesamtansicht 16
+3.2 Funktionsweise 19
+3.3 Typenschild 19
+3.4 Technische Daten 20
+3.5 Lärmemission 21
+3.6 Lebensdauer 21
+4 Transport und Montage 22
+4.1 Personalqualifikation 22
+4.2 Persönliche Schutzausrüstung 22
+4.3 Sicherheitshinweise bei Transport und Montage 22
+4.4 Verpackung und Transport 23
+4.5 Lieferumfang 23
+4.6 Montage 24
+4.6.1 Aufstellbedingungen 24
+4.6.2  Aufstellort 24
+4.6.3 Aufstellen 24
+4.7 Inbetriebnahme 25
+Version 1.2 1
+
+===== PDF-Seite 03 / 64 =====
+
+paulimotff
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3.52
+
+4.7.1 Anschließen 25
+4.7.2 Funktionstest 25
+5 Bedienung 26
+5.1 Personalqualifikation 26
+5.2 Persönliche Schutzausrüstung 26
+5.3 Sicherheitshinweise zur Bedienung 26
+5.4 Bohr- und Fräswerkzeug wechseln 28
+5.5 Spannen von Werkzeugen 29
+5.6 Einspannen von Werkstticken 31
+5.7 Einschalten der Bohr- und Fräsmaschine 33
+5.8 Bohr- und Fraskopf heben oder senken 34
+5.9 Vorschub Pinole 34
+5.10 Feinvorschub Pinole 35
+5.11 Bohrtiefenanzeige 36
+5.12 Pinole klemmen 36
+5.13 Kreuztisch einstellen 37
+5.14 Bohren 38
+5.15 Fräsen 39
+5.16 Gewinde schneiden 40
+5.17 Drehzahlbereich einstellen 41
+6 Wartung und Instandhaltung 42
+6.1 Personalqualifikation 42
+6.2 Persönliche Schutzausrüstung 42
+6.3 Sicherheitshinweise für die Wartung 42
+6.4 Schmier- und Betriebsstoffe 43
+6.5 Wartungsintervalle 44
+6.6 Spiel in der Führung 45
+6.7 Sicherheitsprüfung nach Wartung 46
+7 Instandsetzung und Störung 47
+7.1 Personalqualifikation 47
+7.2 Verhalten im Notfall 47
+7.3 Störungssuche und Störungsbeseitigung 48
+8 Außerbetriebnahme 49
+8.1 Entsorgung 49
+9 Anhang 50
+9.1 EG-Konformitätserklärung 50
+9.2 Ersatzteilliste 51
+Version 1.2 2
+
+===== PDF-Seite 04 / 64 =====
+
+paul imot xt Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+1 Benutzerhinweise
+
+1.1 Herstellerangaben
+
+Paulitschek Maschinen- und Warenvertriebsgesellschaft mbH
+Zeppelinstraße 3
+89231 NEU-ULM
+DEUTSCHLAND
+
+Tel.: 0731 276 76
+Fax: 0731 276 76
+info@paulimot.de
+www. paulimot.de
+
+1.2 Zu Ihrer Sicherheit
+
+Die Bohr- und Fräsmaschine ist nach dem Stand der Technik und den anerkannten
+sicherheitstechnischen Regeln gebaut. Dennoch können bei der Verwendung der Bohr- und
+Fräsmaschine Gefahren für Leib und Leben des Benutzers oder Dritter bzw. Beeinträchtigungen der
+Bohr- und Fräsmaschine und anderer Sachwerte entstehen, wenn sie von nicht unterwiesenem
+Personal unsachgemäß oder zu nicht bestimmungsgemäßem Gebrauch eingesetzt wird.
+
+Führen Sie nur Arbeiten aus, die in dieser Betriebsanleitung beschrieben sind, siehe Sicherheit [6).
+
+1.3 Zweck und Zielgruppe
+Die Betriebsanleitung ermöglicht das sichere und sachgerechte Bedienen der Bohr- und
+Fräsmaschine,
+
+Die Betriebsanleitung muss von allen Personen, die die Bohr- und Fräsmaschine benutzen, gelesen
+und verstanden werden.
+
+Diese Betriebsanleitung wendet sich an folgende Personen:
+
+s Betreiber
+e Bediener
+s Montage- und Wartungspersonal
+
+Diese Personen sind mit der Bedienung der Bohr- und Frasmaschine vertraut und über mögliche
+Gefahren bei unsachgemäßem Verhalten informiert.
+
+Die Einweisung des Bedieners liegt in der Verantwortung des Betreibers. Der Betreiber ist
+verantwortlich für das Einhalten der beschriebenen Sicherheitsmaßnahmen.
+
+Weitere Informationen siehe Personalqualifikation [10].
+
+Version 1.2 3
+
+===== PDF-Seite 05 / 64 =====
+
+paulimot Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+1.4 Gewährleistung und Haftung
+
+Grundsätzlich gelten die Allgemeinen Geschäftsbedingungen des Herstellers. Der Hersteller schließt
+Gewährleistung und Haftungsansprüche bei Personen- oder Sachschäden aus, wenn sie auf eine
+oder mehrere der folgenden Ursachen zurückzuführen sind:
+
+e Nicht bestimmungsgemäße Verwendung der Bohr- und Fräsmaschine.
+
+«e Bedienen der Bohr- und Fräsmaschine durch nicht unterwiesene Personen.
+
+e Nichtbeachten der Hinweise, Gebote und Verbote der Betriebsanleitung.
+
+« Eigenmachtige bauliche Veränderungen an der Bohr- und Fräsmaschine.
+
+« Mangelhafte Überwachung von Teilen, die Verschleiß unterliegen.
+
+e Verwendung nicht originaler Ersatz- und Verschleißteile.
+
+« Nicht sachgemäß und nicht rechtzeitig durchgeführte Wartungs- und Instandhaltungsarbeiten.
+e Reparaturen durch Dritte und/oder nicht autorisierte Fachkräfte.
+
+e Verwenden von nicht geeigneten Schmier- und Betriebsstoffen, siehe Schmier- und
+Betriebsstoffe [43].
+
+1.5 Gültigkeit der Anleitung
+
+Diese Betriebsanleitung enthält wichtige Hinweise für die sachgerechte Bedienung, Wartung und
+Instandhaltung der Bohr- und Fräsmaschine. Diese Betriebsanleitung hilft Gefahren zu vermeiden,
+Reparaturkosten und Ausfallzeiten zu verhindern und die Lebensdauer der Bohr- und Fräsmäschine
+zu erhöhen.
+
+Die Betriebsanleitung richtet sich an den Betreiber und das Personal und ist von jeder Person zu
+lesen, zu verstehen und anzuwenden, die mit folgenden Arbeiten an der Bohr- und Fräsmaschine
+beauftragt ist:
+
+e Transport
+
+« Montage und Inbetriebnahme
+
+« Bedienung und Betrieb
+
+« Störungsbehebung
+
+s Wartung und Instandhaltung
+
+« Außerbetriebnahme
+
+Version 1.2 4
+
+===== PDF-Seite 06 / 64 =====
+
+p aulimot xt Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+1.6 Darstellungskonventionen
+
+Darstellung von Handlungsanweisungen
+Handlungsanweisungen zur Bedienung und zum Betrieb des Gerätes werden wie folgt dargestellt:
+
+1. Handlungsschritt 1
+2. Handlungsschritt 2
+
+> Zwischenergebnis Schritt 2
+3, Handlungsschritt 3
+
+¥ Ergebnis
+
+Einzeine Handlungsanweisungen werden wie folgt dargestellt:
+
+1. Handlungsschritt
+v Ergebnis
+
+Darstellung von Querverweisen
+
+Querverweise auf andere Kapitel werden durch die Bemerkung "siehe", den Kapitelnamen und die
+Seitenzahl des Kapitels in "[ ]" dargestellt, z. B.
+
+Siehe Benutzerhinweise [3].
+
+1.7. Aufbewahrung
+
+Die Betriebsanleitung muss griffbereit in der Nähe der Bohr- und Fräsmaschine aufbewahrt werden.
+Wird die Maschine verkauft, geben Sie die Betriebsanleitung an den nachfolgenden Eigentümer
+weiter.
+
+Version 1.2 5
+
+===== PDF-Seite 07 / 64 =====
+
+paulimot ff
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+2 Sicherheit
+2.1 Sicherheitshinweise
+
+A GEFAHR
+
+Ein Piktogramm in Verbindung mit dem Wort "GEFAHR" warnt vor einer
+unmittelbar drohenden GEFAHR für die Gesundheit und das Leben von
+Personen.
+
+Die Missachtung dieser Sicherheitshinweise führt zu schwersten Verletzungen,
+auch mit Todesfolge.
+
+> Unbedingt die beschriebenen Maßnahmen zur Vermeidung dieser Gefahr
+beachten.
+
+/\
+
+Ein Piktogramm in Verbindung mit dem Wort "WARNUNG" warnt vor einer
+möglicherweise gefährlichen Situation für die Gesundheit und das Leben
+von Personen.
+
+Die Missachtung dieser Sicherheitshinweise kann zu schwersten Verletzungen
+führen, auch mit Todesfolge.
+
+» Unbedingt die beschriebenen Maßnahmen zur Vermeidung dieser Gefahren
+beachten,
+
+A VORSICHT
+
+Ein Piktogramm in Verbindung mit dem Wort "VORSICHT" warnt vor
+möglicherweise gefährlichen Situationen für die Gesundheit von Personen
+oder Sach- und Umweltschäden.
+
+Die Missachtung dieser Sicherheitshinweise kann zu Verletzungen oder Sach-
+und Umweltschäden führen.
+
+> Unbedingt die beschriebenen Maßnahmen zur Vermeidung dieser Gefahren
+beachten.
+
+=
+A
+0
+
+Weist auf eine méglicherweise gefahrliche Situation hin, welche zu
+Sachschäden führen kann, wenn sie nicht gemieden wird.
+
+> Auflistung aller Maßnahmen, die zur Vermeidung der Folgen ergriffen
+werden müssen.
+
+Wichtige Informationen
+
+Zur Kennzeichnung von wichtigen Hinweisen, Zusatzinformationen und Tipps.
+
+Version 1.2
+
+===== PDF-Seite 08 / 64 =====
+
+paulimot ft Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+2.2 Bestimmungsgemäße Verwendung
+
+Die Bohr- und Fräsmaschine ist zur Bearbeitung von kaltem Metall, Guss- und Kunststoffen oder
+ähnlichen, nicht gesundheitsgefährdenden oder stauberzeugenden Materialien konstruiert und gebaut.
+Der Antrieb erfolgt über einen bürstenlosen Gleichstrommotor und dynamischer Steuerung.
+
+Erlaubte Verwendung
+
+s Die Bohr- und Fräsmaschine darf gewerblich und privat genutzt werden.
+e Bohren und Fräsen von geeigneten Materialien wie Metallen und Kunststoffen,
+
+e Die Bohr- und Fräsmaschine darf nur in trockenen und belüfteten Räumen aufgestellt und
+betrieben werden.
+
+» Der Einsatz ist nur in geschlossenen Räumen erlaubt.
+e Die technischen Grenzen der Bohr- und Fräsmaschine müssen eingehalten werden.
+
+Folgende Tätigkeiten an der Bohr- und Fräsmaschine sind vom Hersteller vorgesehen:
+
+e Betreiben der Bohr- und Fräsmaschine
+
+« Überwachen der Maschinenfunktionen im Betrieb
+
+« Reinigen der Bohr- und Fräsmaschine
+
+e Durchführen regelmäßiger Sichtkontrollen auf Beschädigungen
+« Durchführen von Wartungs- und Inständhaltungsarbeiten
+
+e Störungsbeseitigung
+
+Weitere Einschränkungen
+
+« Die Bohr- und Fräsmaschine darf nicht in explosionsgefährdeter Umgebung eingesetzt werden.
+
+e Die Bedienperson muss mindestens 18 Jahre alt sein. Jugendliche ab 16 Jahre dürfen die Bohr-
+und Fräsmaschine nur unter ständiger Aufsicht einer erfahrenen Person bedienen.
+
+e Das Bedienen der Bohr- und Fräsmaschine ist unter Einfluss von Alkohol, Drogen und
+Medikamenten strengstens verboten.
+
+Version 1.2 7
+
+===== PDF-Seite 09 / 64 =====
+
+pauh imot set Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+2.3 Vorhersehbare Fehlanwendung, Grenzen der erlaubten
+Verwendung
+
+Folgende Betriebsbedingungen werden als Fehlgebrauch eingestuft:
+
+e Der Betrieb ohne angemessene Überwachung oder Aufsicht.
+« Der Betrieb bei ungenügender Wartung,
+
+« Der Betrieb außerhalb geschlossener Räume.
+
+* Der Betrieb in Räumen die nicht trocken und gut durchlüftet sind.
+e Die Verwendung von Nicht-Originalteilen als Ersatzteile.
+
+« Bearbeiten von giftigen Materialien.
+
+e Bearbeiten von staubentwickelnden Materialien.
+
+« Bearbeiten von heißen Metallen oder Kunststoffen.
+
+« Bearbeiten von Holz.
+
+« Bearbeiten von leicht entzündlichen Materialien.
+
+« Zubereitung oder Bearbeitung von Nahrungsmitteln.
+
+« Bearbeitung mit von Hand gehaltenen Werkzeugen.
+
+« Einsatz in explosionsgefährdeten Bereichen.
+
+Folgende Betriebsbedingungen werden als Zweckentfremdung eingestuft:
+
+e Der Betrieb außerhalb der definierten Betriebsparameter.
+« Der Betrieb mit nicht vom Hersteller genehmigten Modifikationen.
+» Der Betrieb mit defekten, deaktivierten oder modifizierten Sicherheitseinrichtungen.
+
+Version 1.2 8
+
+===== PDF-Seite 10 / 64 =====
+
+paulimot yg Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+2.4 Betreiberpflichten
+
+Der Betreiber ist verpflichtet, die Bediener sowie das Montage- und Wartungspersonal zu schulen und
+das Personal für die notwendigen Arbeiten mit der Bohr- und Fräsmaschine entsprechend zu
+qualifizieren, siehe Sicherheit [6].
+
+Der Betreiber der Bohr- und Fräsmaschine ist verpflichtet, nur qualifizierte oder unterwiesene
+Personen die Bedienung durchführen zu lassen.
+
+2.5 Allgemeine Sicherheitsvorschriften
+
+Alle Sicherheitshinweise in dieser Betriebsanleitung müssen unbedingt beachtet werden, Alle an
+der Bohr- und Fräsmaschine angebrachten Sicherheitshinweise müssen beachtet werden. Sie
+müssen immer vollzählig vorhanden und gut lesbar sein.
+
+Voraussetzung für einen sicheren und störungsfreien Betrieb der Bohr- und Fräsmaschine ist das
+Befolgen der Anweisungen in der Betriebsanleitung. Lesen Sie diese vor der Inbetriebnahme
+aufmerksam durch. Eine Nichtbeachtung kann Verletzungen oder Schäden an der Bohr- und
+Fräsmaschine zur Folge haben.
+
+Die Bohr- und Fräsmaschine ist nach dem Stand der Technik und den anerkannten
+sicherheitstechnischen Regeln gebaut. Dennoch können bei der Verwendung Gefahren für Leib
+und Leben des Benutzers oder Dritter bzw. Beeinträchtigungen der Bohr- und Fräsmaschine und
+anderer Sachwerte entstehen, wenn sie von nicht unterwiesenem Personal unsachgemäß oder zu
+nicht bestimmungsgemäßem Gebrauch eingesetzt wird.
+
+Arbeiten, die in dieser Betriebsanleitung nicht beschrieben sind, dürfen nur von autorisierten und
+qualifizierten Personen ausgeführt werden. Halten Sie Kinder und andere Personen vom
+Arbeitsbereich fern.
+
+Für den Betrieb und die Wartung der Bohr- und Fräsmaschine sind die landesspezifischen
+Sicherheitsvorschriften zu beachten.
+
+Schützeinrichtungen dürfen niemals verändert, entfernt oder durch Veränderungen an der Bohr-
+und Fräsmaschine umgangen werden.
+
+Führen Sie Umrüst-, Einstell-, Mess- und Reinigungsarbeiten nur bei ausgeschalteter Bohr- und
+Fräsmaschine durch. Warten Sie den Stillstand der Bohr- und Frasmaschine ab.
+
+Tragen Sie eng anliegende Arbeitskleidung.
+Tragen Sie bei eingeschalteter Bohr- und Fräsmaschine keine Sicherheitshandschuhe.
+Spannen Sie Werkstücke nur mit dem mitgelieferten Futterschlüssel im Böhrfutter ein.
+
+Beachten Sie die richtige Drehzahl an der Bohr- und Fräsmaschine, Überlasten Sie die Bohr- und
+Fräsmaschine nicht. Verwenden Sie das richtige Werkzeug.
+
+Verwenden Sie richtig dimensionierte Verlängerungskabel. Überzeugen Sie sich, dass das
+Verlängerungskabel in sicherem Zustand ist.
+
+Entfernen Sie Späne nicht mit der Hand und keinesfalls bei laufender Bohr- und Fräsmaschine.
+
+Sorgen Sie für eine ausreichende Beleuchtung innerhalb des Arbeitsbereiches. Die Beleuchtung
+muss min. 500 Lux bei geöffneter Schutzeinrichtung betragen.
+
+Version 1.2
+
+===== PDF-Seite 11 / 64 =====
+
+Pp aulimot Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+2.6 Personalqualifikation
+
+Lebensphase Personalqualifikation
+
+1. | Transport Unterwiesene Person
+2. | Montage, Inbetriebnahme Unterwiesene Person
+3. | Verwendung
+
+a. | Einrichten, Umrüsten Unterwiesene Person
+b. | Betrieb Unterwiesene Person
+c. | Wartung, Instandhaltung Fachkraft
+
+d. | Störungssuche und Störungsbeseitigung Fachkraft
+
+e. | Elektrik, Elektronik Fachkraft
+
+4. | Außerbetriebnahme, Demontage Unterwiesene Person
+5. | Reinigung Unterwiesene Person
+
+Fachkraft
+
+Als Fachkraft gilt eine Person, die auf Grund ihrer fachlichen Ausbildung, Kenntnisse und Erfahrungen
+die ihr übertragenen Arbeiten beurteilen und mögliche Gefahren erkennen kann. Weiterhin besitzt sie
+Kenntnis über die einschlägigen Bestimmungen. Es kommt nur ausgebildetes Fachpersonal oder
+solches Personal in Betracht, das nach Auswahl des Betreibers für qualifiziert befunden wurde.
+
+Unterwiesene Person
+
+Als geschulte oder unterwiesene Person gilt eine Person, die über die ihr übertragenen Aufgaben und
+die möglichen Gefahren bei unsachgemäßem Verhalten unterrichtet und erforderlichenfalls angelernt
+wurde. Auch über die notwendigen Schutzeinrichtungen und Schutzmaßnahmen wurde sie belehrt. Zu
+schulendes, anzulernendes, einzuweisendes oder im Rahmen einer allgemeinen Ausbildung
+befindliches Personal darf nur unter ständiger Aufsicht einer erfahrenen Person tätig werden.
+
+Version 1.2 10
+
+===== PDF-Seite 12 / 64 =====
+
+paulimot gt Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+Sicherheitshandschuhe können von dem Drehfutter oder dem Werkstück erfasst
+werden. Durch die Rotationsgeschwindigkeit der Bohr- und Fräsmaschine kann
+es zum Abreißen eines Fingers oder der Hand kommen.
+
+> Tragen Sie bei eingeschalteter Bohr- und Fräsmaschine keine
+Sicherheitshandschuhe.
+
+Für Transport-, Aufstell-, Montage-, Bedien- und Wartungstätigkeiten muss die erforderliche
+persönliche Schutzausrüstung und Schutzbekleidung verfügbar sein.
+
+Die Schutzausrüstung muss sich in einwandfreiem Zustand befinden. Ersetzen Sie schadhäfte
+Schutzausrüstungen sofort.
+
+Zum persönlichen Schutz in bestimmten Situationen bei Montage-, Bedienungs-, Wartungs- und
+Instandhaltungsarbeiten müssen folgende Hinweise beachtet werden:
+
+® @
+
+Schutzbrille tragen Nasen- und Sicherheitsschuhe Sicherheitshandschuhe
+Mundschutz tragen tragen tragen
+
+Haarnetz tragen
+
+Version 1.2 11
+
+===== PDF-Seite 13 / 64 =====
+
+paulimot 33 Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+2.8 Schutzeinrichtungen
+
+A GEFAHR
+Verletzungen aufgrund fehlender Schutzeinrichtungen.
+
+N Die Bohr- und Frasmaschine ist mit Schutzeinrichtungen ausgestattet, um
+Verletzungen bei der Bedienung, Wartung und Instandhaltung zu verhindern.
+> Stellen Sie die Funktion der Schutzeinrichtungen nach der Montage und
+
+während des Betriebes sicher.
+
+> Demontieren Sie keine Schutzeinrichtungen. Die Bohr- und Fräsmaschine
+darf nur mit'wirksamen Schutzeinrichtungen betrieben werden.
+
+Schutzeinrichtungen schützen Ihre Gesundheit und Ihr Leben.
+
+2.8.1 Trennende Schutzeinrichtungen
+Schutzeinrichtungen
+
+Die bewegliche trennende Schutzabdeckung (3) befindet sich oberhalb der Arbeitsspindel und schützt
+vor herausspritzenden Kühl- und Schmierstoffen, herumschleudernden Spänen oder Werkstücken.
+Öffnen Sie die Schutzeinrichtung erst bei Stillstand der Bohr- und Fräsmaschine. Bei geöffneter
+Schutzeinrichtung (3) kann die Bohr- und Fräsmaschine nicht betrieben werden.
+
+Die Bohr- und Fräsmaschine darf nur mit wirksamen Schutzeinrichtungen betrieben werden.
+
+1 Sicherheitsschalter
+
+2  Rändelschraube (zur Höheneinstellung)
+
+3 Bewegliche trennende Schutzeinrichtung
+
+Version 1.2 12
+
+===== PDF-Seite 14 / 64 =====
+
+paulimot. # Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+2.8.2 Not-Halt
+
+Not-Halt-Taster
+
+Der Not-Halt-Taster (1) befindet sich am Bedienpanel und führt nach Betätigen zum Stillsetzen des
+Spindelantriebs. Der Not-Halt-Taster (1) kann durch Drehen entriegelt werden.
+
+1 Not-Halt-Taster
+
+2.9 Verhalten im Notfall
+
+Bei Unfällen ist dafür zu sorgen, dass unverzüglich Erste-Hilfe-Maßnahmen ergriffen werden.
+Es ist Folgendes zu beachten:
+
+1. Drücken Sie den Not-Halt-Taster.
+
+> Die Bohr- und Fräsmaschine ist stillgesetzt.
+
+Bringen Sie verunfallte Personen aus dem Gefahrenbereich.
+Fordern Sie einen Arzt an.
+
+Leisten Sie Erste Hilfe.
+
+Verändern Sie die Unfallstelle nicht.
+
+v  Erste-Hilfe-Maßnahmen sind durchgeführt.
+
+os © m
+
+2.10 Beschilderung
+
+Alle an der Bohr- und Fräsmaschine angebrachten Sicherheitshinweise: müssen
+beachtet werden. Sie müssen immer vollzahlig vorhanden und gut lesbar sein.
+
+An der Bohr- und Fräsmaschine befinden sich folgende Schilder:
+
+Version 1.2 13
+
+===== PDF-Seite 15 / 64 =====
+
+paulimot st Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+Typenschild Hinweisschild Technische Daten
+
+Frasmaschine
+
+pautinot SX3.5Z ceR
+Auhieistang (ma 10mm
+GevandineriiahLustung on. rn a
+Spital Droheald 80 4 00 Un!
+Werkanmauloah AKA
+Tnengroke " “Fated nee
+Binde then me |
+Malonwncung cu Lay Yeah -
+
+Hinweisschild Vorschub Ein/Aus Stromschlaggefahr
+
+Version 1.2 14
+
+===== PDF-Seite 16 / 64 =====
+
+paulimot Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+Warnhinweise Gebotszeichen
+
+g |
+~
+
+Din Nichthefokqung aar nachstehenden
+
+Warnhinweise lle Zu schweren s
+
+:
+
+13
+
+ment den Arbei
+7 Prien Sie, ee beschikdigt sing,
+bevor Se miter Maschi baie
++ Nersıchen Bis, 2
+
+I
+
+TEE
+
+Version 1.2 15
+
+===== PDF-Seite 17 / 64 =====
+
+paulimot
+
+Betriebsanleitung zur Bohr- und Frasmaschine $X3.5Z
+
+3
+
+3.1
+
+Produktbeschreibung
+
+Gesamtansicht
+
+Vorderansicht
+
+1 Bohr-/Fräskopf 9 Klemmhebel
+
+2 Sterngriff 10 Handrad Y-Achse
+
+3 Drehknopf Feinvorschub für Pinole 11 Trennende Schutzeinrichtung
+
+4 Digitale Bohrtiefenanzeige 12 Lampe
+
+5 Wekzeugaufnahme 13 Ein-/Ausschalter
+
+6 Handrad X-Achse 14 Not-AusTaster
+
+7 Kreuztisch 15 Verstellung Z-Achse (Taster seitlich)
+8 Klemmhebel
+
+Mit dem Sterngriff (2) wird der Bohr-/Fräskopf betätigt. Der Feinvorschub der Bohrspindel kann mit
+dem Feinzustell-Drehknopf (3) untersetzt bewegt werden. Auf dem Kreuztisch (7) werden die
+Werkstücke aufgespannt. Das Bedienpanel befindet sich links am Bohr-/Fräskopf.
+
+Version 1.2
+
+16
+
+===== PDF-Seite 18 / 64 =====
+
+paulimot set Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+Kreuztisch
+
+1 | Handrad X-Achse | 3 | Handrad Y-Achse
+2 | Klemmschraube | 4 | Kreuztisch
+
+Mit dem Handrad (1) kann der Kreuztisch (4) in X-Richtung verfahren werden. Mit der
+Klemmschraube (2) wird der Kreuztisch (1) fixiert. Mit dem Handrad (3) kann der Kreuztisch in Y-
+Richtung verfahren werden.
+
+Version 1.2 17
+
+===== PDF-Seite 19 / 64 =====
+
+paulimot St
+
+Bedienpanel
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+1 Bedienpanel 4 Drehzahlbegrenzung
+Gewindeschneiden
+Drehzahlanzeige 5 Ein-Aus-Taster
+Drehknopf für Drehzahlregulierung 6 NOT-AUS-Taste
+
+Am Bedienpanel ist der Not-Aus-Taster (1) angebracht, der nach Betätigen zum Stillsetzen der Bohr-
+und Fräsmaschine führt.
+
+Version 1.2 18
+
+===== PDF-Seite 20 / 64 =====
+
+paulimot xB Betriebsanleitung zur Bohr- und Frasmaschine SX3,5Z
+
+3.2 Funktionsweise
+
+Die Bohr- und Fräsmaschine kann zur Kaltbearbeitung von Stahl, Guss, allen NE-Metallen, Alu,
+Messing usw. sowie zur Bearbeitung von Kunststoffen oder ähnlichen, nicht gesundheitsgefährdenden
+oder stauberzeugenden Materialien verwendet werden. Die Bohr- und Fräsmaschine wird durch einen
+bürstenlosen Gleichstrommotor und einer dynamischen Steuerung angetrieben, Dies sorgt für ein
+hohes Drehmoment auch im niedrigen Drehzählbereich. Mit dem Drehknopf kann die Drehzahl
+stufenlos verstellt werden. Durch das Umlegen des Riemenantriebes besteht die Möglichkeit zwei
+Drehzahlbereiche auszuwählen.
+
+Die Pinole wird beim Bohren mit dem Sterngriff bewegt. Durch Umschalten kann die Pinole auch über
+den Feinzustell-Drehknopf bewegt werden. Über die Pinolenhubanzeige kann der Verfahrweg der
+Pinole abgelesen werden. Der Kreuztisch kann mittels Handrad in X- und Y-Richtung verfahren
+werden. Der Bohr-/Fraskopf kann per Taster in Z-Richtung verfahren werden. Zur Bedienung der
+Bohr- und Fräsmaschine wird nur eine Person benötigt.
+
+3.3 Typenschild
+
+Die Seriennummer der Bohr- und Fräsmaschine ist auf dem Typenschild vermerkt.
+
+Version 1.2 19
+
+===== PDF-Seite 21 / 64 =====
+
+paulimot et Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+3.4 Technische Daten
+
+Modellbezeichnung $X3.5
+Gewindeschneidleistung [mm] 12
+Frasleistung Fingerfraser (max.) [mm] 25
+Fräsleistung Messerkopf (max.) [mm] 50
+
+Werkzeugaufnahme
+
+SK30 / M12 (DIN2080)
+
+Pinolenhub [mm]
+
+78
+
+Ausladung [mm] 210
+
+Stufen Spindelgeschwindigkeit 2 - variabel
+Spindeldrehzahl (niedrige Bereich) [U/min.] 80 bis 1.500
+Spindeldrehzahl (hoher Bereich) [U/min.] 280 bis 5.000
+Tischgröße [mm] 740 x 180
+Tisch drehbar Nein
+
+Max. Distanz zwischen Spindel und 350
+Arbeitstisch [mm]
+
+Verfahrweg X-Achse [mm] 500
+Verfahrweg Y-Achse [mm] 200
+
+Verfahrweg Z-Achse [mm]
+
+240 - 290 einstellbar
+
+Anzahl der T-Nuten
+
+3
+
+Größe der T-Nuten [mm] 12 (M10)
+T-Nuten-Abstand. [mm] 53
+Motorleistung P1 [Watt] 1250
+Motorleistung P2 [Watt] 1000
+Spannung [V] 230
+Frequenz [Hz] 50
+
+Maße Maschinen-Sockel [mm] 510 x 280
+Lochabstand zur Befestigung des Maschinen- 360 und 250
+Sockels [mm]
+
+Gewicht netto [kg] 155
+
+Gewicht brutto[kg] 180
+
+Maße Maschine (L x B x H) [mm] 940 x 820 x 930
+
+Maße Verpackung (LxBxH) [mm]
+
+960 x 830 x 1040
+
+Version 1.2
+
+20
+
+===== PDF-Seite 22 / 64 =====
+
+paulimot Bt Betriebsanleitung zur Bohr- und Frasmaschine $X3.5Z
+
+3.5 Lärmemission
+
+Modellbezeichnung | $x3.5z
+
+Schalldruckpegel bei Leerlauf [dB(A)] | 72
+
+36 Lebensdauer
+
+Die Lebensdauer der Bohr- und Frasmaschine beträgt zehn Jahre.
+
+Führen Sie alle Wartungsarbeiten vollständig und regelmäßig durch, um eine lange Lebensdauer
+der Bohr- und Fräsmaschine sicherzustellen.
+
+Beachten Sie die festgelegten Wartungsintervalle.
+
+Version 1.2 21
+
+===== PDF-Seite 23 / 64 =====
+
+paulimo 7 Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+4 Transport und Montage
+
+4.1 Personalqualifikation
+
+Das Anschlusskabel der Bohr- und Fräsmaschine darf durch den Bediener in die Schutzkontaktdose
+(230 V) gesteckt werden, siehe Personalqualifikation [10].
+
+Der Transport darf nur von unterwiesenem Personal durchgeführt werden.
+Die Montage darf nur von unterwiesenem Personal durchgeführt werden.
+
+4.2 Persönliche Schutzausrüstung
+
+Tragen Sie die Persönliche Schutzausrüstung, siehe Persönliche Schutzausrüstung [11].
+
+8 @
+
+Schutzbrille tragen Haarnetz tragen Sicherheitsschuhe Sicherheitshandschuhe
+tragen tragen
+
+4.3 Sicherheitshinweise bei Transport und Montage
+
+BET AWARNUNG Sn
+
+Gefahr durch Umkippen oder Abstürzen der Bohr- und Fräsmaschine.
+
+Die Bohr- und Fräsmaschine kann beim Transport abstürzen und Personen
+
+ee erschlagen. Umkippen der Bohr- und Frasmaschine kann zu Quetschungen
+führen.
+
+> Der Transport darf nur von unterwiesenem Personal durchgeführt werden.
+
+> Tragen Sie beim Transport und der Handhabung der Bohr- und
+Fräsmaschine Sicherheitsschuhe und Schutzhandschuhe.
+
+>» Sichern Sie die Bohr- und Fräsmaschine gegen Umkippen oder Abstürzen.
+>» Halten Sie sich nicht unter schwebender Last auf.
+
+A VORSICHT
+
+Ausrutsch-, Stolper und Sturzrisiko.
+/N Personen können über unbefestigte Kabel stolpern.
+
+> Verlegen und befestigen Sie Kabel und Leitungen sicher,
+
+Transportieren Sie schwere: Bauteile mit einem Gewicht von mehr als 15 kg mit
+geeigneten Hebezeugen.
+
+Version 1.2 22
+
+===== PDF-Seite 24 / 64 =====
+
+pP aulimot xt Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+4.4 Verpackung und Transport
+
+Die Bohr- und Frasmaschine wird in einer Holzkiste geliefert. Der Transport der Bohr- und
+Fräsmaschine erfolgt über eine Spedition oder durch den Kunden selbst bei Abholung in unserem
+Fachgeschäft.
+
+Überprüfen Sie nach dem Auspacken alle Teile auf eventuelle Transportschäden und Vollständigkeit.
+
+Handelt der Kunde als Kaufmann i.S.d. § 1 HGB, trifft inn die kaufmännische Untersuchungs- und
+Rügepflicht gemäß § 377 HGB. Unterlässt der Kunde die dort geregelten Anzeigepflichten, gilt die
+Ware als genehmigt.
+
+Handelt der Kunde als Verbraucher, so wird er gebeten, angelieferte Waren mit offensichtlichen
+Transportschäden bei dem Zusteller zu reklamieren und den Verkäufer hiervon in Kenntnis zu setzen.
+Kommt der Kunde dem nicht nach, hat dies keinerlei Auswirkungen auf seine gesetzlichen oder
+
+vertraglichen Mängelansprüche.
+
+4.5 Lieferumfang
+Die Bohr- und Fräsmaschine wird standardmäßig vormontiert geliefert.
+
+Zubehör
+Die Bohr- und Fräsmaschine wird mit folgendem Zubehör ausgeliefert:
+
+Betriebsanleitung
+
+Innensechskantschlüssel
+
+T-Nuten-Stein M10
+Öltube
+
+Schlüssel-Set für Werkzeugwechsel
+
+1
+4
+3 | Gabelschlüssel
+2
+1
+4
+
+1 | Anzugsschraube M12
+
+Lieferbares Sonderzubehör
+Für die Bohr- und Fräsmaschine gibt es verschiedenes Sonderzubehör.
+
+Das Sonderzubehör ist auf www.paulimot.de einzusehen.
+
+Version 1.2 23
+
+===== PDF-Seite 25 / 64 =====
+
+paulimot sft Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+4.6 Montage
+
+4.6.1 Aufstellbedingungen
+
+Führen Sie eine Standfestigkeitsberechnung durch, bevor Sie die Bohr- und
+Fräsmaschine aufstellen.
+
+e Schutzkontaktdose (230V)
+e Tragfahiger, ebener Unterbau
+
+4.6.2 Aufstellort
+
+Die Bohr- und Fräsmaschine darf nur in geschlossenen und trockenen Räumen montiert und
+aufgestellt werden. Der Unterbau muss eben und tragfähig sein und die an ihn gestellten
+Anforderungen erfüllen.
+
+Der Unterbau muss mindestens dem Gewicht der Bohr- und Fräsmaschine und dem
+Gewicht des Werkstücks standhalten, siehe Technische Daten [20].
+
+Der Betrieb ist unter folgenden Umgebungsbedingungen zulässig:
+
+* Umgebungstemperatur am Aufstellort: +5. bis +40 °C
+e Luftfeuchtigkeit: < 80 % rel. Luftfeuchte
+
+4.6.3 Aufstellen
+
+Verwenden Sie für das Aufstellen der Bohr- und Fräsmaschine einen Kran oder eine
+Hubvorrichtung.
+
+Verschrauben Sie den Maschinensockel der Bohr- und Fräsmaschine
+
+Aufstellen der Bohr- und Fräsmaschine
+
+1. Wählen Sie einen tragfähigen Unterbau, wie z. B. eine Werkbank. Sichern Sie den Unterbau
+gegen Umfallen.
+
+2. Platzieren Sie die Bohr- und Fräsmaschine auf dem Unterbau.
+3. Verschrauben Sie die Bohr- und Fräsmaschine mit dem Unterbau.
+v_ Bohr- und Fräsmaschine ist aufgestellt.
+
+Version 1.2 24
+
+===== PDF-Seite 26 / 64 =====
+
+paulimot St
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+5 Bedienung
+
+5.1 Personalqualifikation
+
+Die Bedienung darf nur von unterwiesenen Personen durchgeführt werden, siehe
+Personalqualifikation [10].
+
+5.2 Persönliche Schutzausrüstung
+
+Gefahr von rotierenden Maschinenteilen erfasst zu werden.
+
+Sicherheitshandschuhe können von dem Bohrfutter oder dem Werkstück erfasst
+werden. Durch die Rotationsgeschwindigkeit der Bohr- und Fräsmaschine kann
+es zum Abreißen eines Fingers oder der Hand kommen.
+
+> Tragen Sie bei eingeschalteter Bohr- und Frasmaschine keine
+Sicherheitshandschuhe.
+
+Tragen Sie die Persönliche Schutzausrüstung, siehe Persönliche Schutzausrüstung [11].
+
+8 @ ©
+
+Schutzbrille tragen Nasen- und Sicherheitsschuhe Haarnetz tragen
+
+Mundschutz tragen tragen
+
+5.3 Sicherheitshinweise zur Bedienung
+
+Brandgefahr.
+Falsche Bearbeitungseinstellungen können zu Überhitzen und Brand führen.
+> Halten Sie sich an die Bearbetungsgrenzen der Bohr- und Fräsmaschine.
+
+h WAR RNUNG
+
+| Verbrennungsgefahr durch heiße Oberflächen.
+
+Beim Bearbeitungsvorgang können sich Bauteile, Werkstücke und Werkzeuge
+erhitzen.
+
+> Tragen Sie beim Umgang mit heißen Bauteilen Schutzhandschuhe.
+
+> Lassen Sie Bauteile, Werkstücke und Werkzeuge nach dem
+Bearbeitungsvorgang abkühlen.
+
+A VORSICHT
+
+Ausrutsch- und Sturzrisiko.
+
+Personen können aufgrund von herausgespritzten und verschütteten
+Schmiermitteln auf dem Boden ausrutschen.
+
+> Halten Sie den Boden im Umfeld der Bohr- und Fräsmaschine stets sauber,
+vermeiden Sie verschüttete Schmiermittel.
+
+> Saugen Sie verschüttetes Schmiermittel mit handelsüblichem Bindemittel
+auf.
+
+Version 1.2
+
+26
+
+===== PDF-Seite 27 / 64 =====
+
+paulimot Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+4.7 Inbetriebnahme
+4.7.1 Anschließen
+
+Bohr- und Fräsmaschine anschließen
+4. Stecken Sie den Schuko-Stecker in die Schutzkontaktdose.
+v Bohr- und Fräsmaschine ist an Energiequelle angeschlossen und bereit zur Inbetriebnahme.
+
+Gefahr von rotierenden Maschinenteilen erfasst zu werden.
+
+Sicherheitshandschuhe können von dem Bohrfutter oder dem Werkstück erfasst
+
+werden. Durch die Rotationsgeschwindigkeit der Bohr- und Fräsmaschine kann
+
+es zum Abreißen eines Fingers oder der Hand kommen.
+
+> Tragen Sie bei eingeschalteter Bohr- und Fräsmaschine keine
+Sicherheitshandschuhe,
+
+iy Lesen Sie zuerst das Kapitel Bedienung [26], bevor Sie einen Funktionstest
+
+durchführen.
+
+Nachdem die Bohr- und Fräsmaschine mit dem Stromnetz verbunden ist, muss diese auf
+korrekte Funktion getestet werden.
+1. Schließen Sie die bewegliche trennende Schutzeinrichtung an der Arbeitsspindel, siehe
+Schutzeinrichtungen [12].
+2. Entriegeln Sie den Not-Halt-Taster.
+> Display leuchtet auf, Drehzahl "0000" wird angezeigt.
+3. Stellen Sie die Drehzahl ein.
+4. Drücken Sie die START-Taste.
+> Die Bohr- und Fräsmaschine läuft.
+5, Testen Sie die Funktion von:
+
+e dem Not-Halt-Taster,
+
+e dem STOP-Taster,
+* dem Sicherheitsschalter der beweglichen trennenden Schutzeinrichtung an der Arbeitsspindel und
+
+Y Funktionsweise der Bohr- und Fräsmaschine nach dem Aufbau ist getestet.
+
+Vor jeder Inbetriebnahme muss die Bohr- und Fräsmaschine auf korrekte Funktion getestet
+werden. :
+1. Testen Sie die Funktion von:
+
+e dem START-Taster,
+« dem STOP-Taster,
+
+e dem Not-Halt-Taster und
+e dem Sicherheitsschalter der beweglichen trennenden Schutzeinrichtung an der Arbeitsspindel.
+
+Y Funktionsweise der Bohr- und Fräsmaschine vor der Inbetriebnahme ist getestet.
+
+Version 1.2 25
+
+===== PDF-Seite 28 / 64 =====
+
+p aulimot gt Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+Bei Störungen und Nichtgebrauch, Bohr- und Fräsmaschine ausschalten und Schuko-Stecker
+ziehen.
+
+Lassen Sie Werkzeuge oder Gegenstände nicht im Arbeitsbereich liegen.
+
+Bei Brand- oder Explosionsgefahr darf die Bohr- und Fräsmaschine nicht benutzt werden.
+
+Die Bohr- und Fräsmaschine darf nicht in nasser oder feuchter Umgebung betrieben werden.
+
+Version 1.2 27
+
+===== PDF-Seite 29 / 64 =====
+
+- aulimot xt Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+5.4 Bohr- und Fraswerkzeug wechseln
+
+Entfernen des Bohr- oder Fraswerkzeugs
+
+Tae ON =
+
+Schalten Sie die Bohr- und Fräsmaschine aus.
+Ziehen Sie den Schuko-Stecker der Bohr- und Fräsmaschine.
+Entfernen Sie die Schutzkappe (2) der Spannschraube,
+
+Halten Sie die Spindel (3) mit einem Gabelschlüssel am Mitnehmerklotz (4) fest.
+Setzen Sie den Innsechskantschlüsse) (1) in die dafür vorgesehene Bohrung in der Spindel ein.
+Lösen Sie die Spannschraube drei Umdrehungen weit,
+
+Lösen Sie die Spannschraube vor dem Austreiben niemals mehr als drei
+Umdrehungen. Es besteht sonst die Gefahr einer Beschädigung des Gewindes.
+
+Schlagen Sie mit dem Kunststoffhammer auf den Spannschraubenkopf.
+Halten Sie den Bohr- oder Fräswerkzeug und lösen Sie die Spannschraube vollständig.
+Bohr- oder Fräswerkzeug entfernt.
+
+Einsetzen des Bohr- oder Fräswerkzeugs
+
+1.
+
+oa Pf woON
+
+Reinigen Sie den Morse- bzw. den Steilkegel-Innenkonus sowie das Bohrfutter.
+
+> Bohr- oder Fräswerkzeug gereinigt.
+
+Halten Sie die Spindel (3) mit einem Gabelschlüssel am Mitnehmerklotz (4) fest.
+
+Setzen Sie den Innsechskantschlüssel (1) in die dafür vorgesehene Bohrung in der Spindel ein.
+Schrauben Sie das Bohr- oder Fräswerkzeug fest.
+
+Entfernen Sie den Innensechskantschlüssel und den Gabelschlüssel.
+
+Stecken Sie den Netzstecker wieder ein.
+
+v  Bohr- oder Fraswerkzeug ist eingesetzt.
+
+Version 1.2 28
+
+===== PDF-Seite 30 / 64 =====
+
+paulimot sft Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+5.5 Spannen von Werkzeugen
+
+Wegschleudern des Futterschlüssels:
+
+Durch das Wegschleudern des Futterschlüssels kann es zu schweren bis
+tödlichen Verletzungen kommen.
+
+> Futterschlüssel vor dem Starten der Bohr- und Fräsmaschine immer
+abziehen.
+
+Spannen Sie Bohrer bis 16 mm, Zentrierbohrer, Senker und Reibahlen mit zylindrischem Schaft im
+Bohrfutter.
+
+Fräser
+
+Schlechter Sitz
+Voraussetzung für einen korrekten Sitz ist ein absolut sauberer Konus.
+
+> Bei Werkzeugwechsel immer die Werkzeugaufnahme der Arbeitsspindel und
+den Morsekegel reinigen. Das Einsetzen der Werkzeüge in die
+
+/N Durch Lösen des Bohrfutters kann es zu schweren bis tödlichen Verletzungen
+kommen.
+
+> Das Fräsen mit’dem Bohrfutter ist verboten.
+
+Spannen Sie Schaftfräser mit Hilfe von Spannzangen.
+
+Version 1.2 29
+
+===== PDF-Seite 31 / 64 =====
+
+p aulimot yt Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+AN Durch das Lésen des Werkzeugs oder das Wegschleudern des
+Hakenschlüssels kann es zu schweren bis tödlichen Verletzungen kommen.
+> Verwenden Sie Spannzangen in der richtigen Größe.
+
+> Hakenschlüssel vor dem Starten der Bohr- und Fräsmaschine immer
+abziehen.
+
+Verwenden Sie bei Schaftfräsern ein Spannzangenfutter. Das Spannzangenfutter wird in der
+Arbeitsspindel mit einer Zugstange gesichert. Im Spannzangenfutter wird der Schaftfräser mit der
+passenden Spannzange eingespannt. Dabei ist zu beachten, dass zum Schaftdurchmesser des
+
+Werkzeuges die richtige Spannzange verwendet wird. Der Schaftfräser wird mit einem
+Hakenschlüssel fest gespannt.
+
+Version 1.2 30
+
+===== PDF-Seite 32 / 64 =====
+
+paulimot Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+5.6 Einspannen von Werkstücken
+
+JASWARNGNG) Gefahr von rotierenden Maschinenteilen erfasst zu werden. Durch die
+Rotationsgeschwindigkeit der Bohr- und Fräsmaschine kann es zum Abreißen eines Fingers oder der
+Hand kommen. Führen Sie Umrüst-, Einstell-, Mess- und Reinigungsarbeiten nur bei ausgeschalteter
+Bohr- und Fräsmaschine durch, Warten Sie den Stillstand der Bohr- und Fräsmaschine ab.
+
+Spannen von Werkstücken
+
+1. Richten Sie den Schraubstock parallel zur Schlittenführung aus.
+
+2. Achten Sie darauf, dass das Werkstück mit der gesamten Fläche aufliegt (Grafik 1).
+
+3. Verwenden Sie bei flachen Werkstücken unbedingt Parallelunterlagen (Grafik 2).
+
+4. Sie können große Werkstücke, welche nicht in einem Schraubstock gespannt werden können,
+direkt mit Spannpratzen auf den Maschinentisch spannen (Grafik 3).
+
+@)
+
+Grafik 1
+1 Schraubstockbacken
+2 Werkstück
+
+Vi
+
+Grafik 2
+1 Schraubstockbacken
+2 Werkstück
+3  Parallelauflage
+
+Version 1.2 31
+
+===== PDF-Seite 33 / 64 =====
+
+p aulimot yg Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+a
+
+Grafik 3
+4 Maschinentisch
+
+2  Spannpratzen
+
+3 Werkstück
+
+4  Stufenbock
+
+5  Spannschrauben
+
+Version 1.2 32
+
+===== PDF-Seite 34 / 64 =====
+
+p aulimot ff Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+5.7 Einschalten der Bohr- und Fräsmaschine
+
+Bohr- und Fräsmaschine einschalten
+
+1. Schließen Sie alle trennenden Schutzeinrichtungen, siehe Schutzeinrichtungen [12].
+2. Entriegeln Sie den Not-Halt-Taster (4).
+> Display leuchtet auf, Drehzahl "0000" wird angezeigt.
+3. Stellen Sie die Drehzahl über den Drehknopf (2) ein.
+4. Drücken Sie die START-STOP-Taste (3).
+
+v  Bohr- und Fräsmaschine ist eingeschaltet. Am Display (1) wird die aktuelle Drehzahl
+abgelesen, START-STOP-Taste leuchtet auf.
+
+Bohr- und Fräsmaschine anhalten
+1. Drücken Sie die START-STOP-Taste (3).
+“ Bohr- und Fräsmaschine ist angehalten, START-STOP-Taste leuchtet nicht mehr.
+
+Version 1.2 33
+
+===== PDF-Seite 35 / 64 =====
+
+paulimot SF Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+5.8 Bohr- und Fräskopf heben oder senken
+
+Lösen Sie die Klemmschraube (2) der Z-Achse.
+
+Drücken Sie den Taster (6) , um den Bohr- und Fräskopf (2) zu senken.
+Drücken Sie den Taster (5) , um den Bohr- und Fräskopf zu heben.
+Klemmen Sie den Bohr- und Fräskopf mit der Klerimschraube.
+
+v_ Arbeitshöhe von Bohr- und Fräskopf eingestellt.
+
+eS NS
+
+Achten Sie auf die richtige Einstellung der Endschalter (1+4), sowie auf festen Sitz der
+Schaltfahne am Bohr- und Fraskopf (2).
+
+5.9 Vorschub Pinole
+
+Vorschub betätigen
+
+1. Drehen Sie den Sterngriff (1) gegen den Uhrzeigersinn, um die Pinole abzusenken.
+v_ Vorschub betätigt.
+
+Version 1.2 34
+
+===== PDF-Seite 36 / 64 =====
+
+paulimot Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+5.10 Feinvorschub Pinole
+
+IN
+
+Feinvorschub betätigen
+1. Ziehen Sie die Klemmschraube (2) im Uhrzeigersinn fest.
+2. Drehen Sie den Feinzustell-Drehknopf (3) um die Pinole untersetzt abzusenken,
+
+v Feinvorschub betätigt.
+
+Version 1.2 35
+
+===== PDF-Seite 37 / 64 =====
+
+paulimot sf Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+5.11 Bohrtiefenanzeige
+
+|
+
+re
+
+ou
+
+Anzeige
+
+Feinvorschub
+Klemmschraube
+Taste ZERO
+Taste in/mm
+Taste AN/AUS
+
+ann fF WN =
+
+1. Drücken Sie die Taste (6)
+> Digitalanzeige ist eingeschaltet.
+
+2. Ziehen Sie die Klemmschraube (3) fest.
+> Feinvorschub ist aktiviert,
+
+3. Betätigen Sie den Drehknopf für Feinvorschub (2) bis die gewünschte Tiefe erreicht ist.
+v Tiefe eingestellt bzw. erreicht.
+
+5.12 Pinole klemmen
+
+Ziehen Sie alle Klemmgriffe der Bohr- und Fräsmaschine fest um Vibrationen und
+schlechte Arbeitsresultate zu vermeiden.
+
+e .Ziehen Sie die Klemmschraube fest sobald Sie die richtige Tiefe eingestellt haben.
+Y Pinole ist fixiert.
+
+Version 1.2 36
+
+===== PDF-Seite 38 / 64 =====
+
+paulimot xt Betriebsanleitung zur Bohr- und Fräsmaschine SX3.3Z
+
+5.13 Kreuztisch einstellen
+
+- L F 73
+
+ov
+
+Kreuztisch in X-Richtung verfahren
+e Drehen Sie das Handrad (1) im Uhrzeigersinn.
+> Kreuztisch (4) verfährt nach links.
+
+e Drehen Sie das Handrad (1) gegen den Uhrzeigersinn.
+
+> Kreuztisch (4) verfahrt nach rechts.
+
+Kreuztisch in Y-Richtung verfahren
+« Drehen Sie das Handrad (3) im Uhrzeigersinn.
+> Kreuztisch (4) verfährt nach hinten.
+
+e Drehen Sie das Handrad (3) gegen den Uhrzeigersinn.
+
+> Kreuztisch (4) verfährt nach vorne.
+
+Kreuztisch klemmen
+
+a Klemmhebel X-Achse
+b _ Klemmhebel Y-Achse
+
+Version 1.2
+
+37
+
+===== PDF-Seite 39 / 64 =====
+
+paulimot sft Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+5.14 Bohren
+
+Fräsmaschine
+PSKUSZ ee!
+
+1. Schwenken Sie die Schutzeinrichtung (3) am Bohr-/ Fräskopf zur Seite.
+2. Spannen Sie den Bohrer ein (2), siehe Spannen von Werkzeugen.
+
+3. Wählen Sie die richtige Drehzahl,
+
+4. Fahren Sie den Bohrer mit Hilfe des Sterngriffs (1) zum Werkstück.
+
+5
+
+Bohren Sie das Werkstück mit geringem Druck, bei tiefen Bohrlöchern den Bohrer ggfs. mehrmals
+aus dem Bohrloch fahren um die Späne abzuführen.
+
+v Werkstück ist gebohrt.
+
+Version 1.2 38
+
+===== PDF-Seite 40 / 64 =====
+
+paulimot# Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+5.15 Fräsen
+
+Sachschaden der Bohr- und Fräsmaschine.
+Durch Überlastung der Bohr- und Fräsmaschine können Beschädigungen
+auftreten.
+
+> Überschreiten Sie die maximale Leistung der Bohr- und Fräsmaschine nicht.
+
+Fräsmaschine
+v2 5X3 52 06.7 |
+
+Schwenken Sie die Schutzeinrichtung (3) am Bohr-/ Fraskopf zur Seite.
+Spannen Sie den Fraser ein, siehe Spannen von Werkzeugen [29].
+
+Fahren Sie den Fräser mit Hilfe des Sterngriffs (1) zum Werkstück.
+Bearbeiten Sie das Werkstück mit dem Fräser
+¥ Werkstück ist gefräst.
+
+1
+2.
+3. Wählen Sie die richtige Drehzahl.
+4
+5
+
+Version 1.2 39
+
+===== PDF-Seite 41 / 64 =====
+
+paulimo i Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+5.16 Gewinde schneiden
+
+Gewinde schneiden
+
+eingeschaltet ist.
+
+Wird zuerst die Gewindeschneidfunktion aktiviert und dann erst die START-STOP-
+Taste gedrückt, läuft. die Maschine nicht an. Am Display erscheint "Err".
+
+@ Die Gewindeschneidfunktion kann nur aktiviert werden, wenn die Maschine
+
+1. Drücken Sie den Schalter (1) auf "Gewindeschneiden”.
+
+2. Die eingestellte Geschwindigkeit wird halbiert. Mit dem Drehknopf (4) senken oder erhöhen Sie
+die Geschwindigkeit.
+
+3. Setzen Sie den Gewindeschneider mit Hilfe des Sterngriffs (2) zum Werkstück an. Mit den grünen
+
+Knöpfen (3) am Sterngriff (2) können Sie von Rechts- auf Linkslauf und umgekehrt umgeschaltet
+werden.
+
+v Gewinde ist geschnitten.
+
+Version 1.2 40
+
+===== PDF-Seite 42 / 64 =====
+
+p aulimot ff Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+5.17 Drehzahlbereich einstellen
+
+Führen Sie Umrüst-, Einstell-, Mess- und Reinigungsarbeiten nur bei ausgeschalteter
+Bohr- und Fräsmaschine dürch. Warten Sie den Stillstand der Bohr- und
+Fräsmaschine ab.
+
+Der Lieferumfang beinhaltet 2 Riemen:
+« Zahnriemen für den niedrigen Drehzahlbereich.
+
+« Rippenriemen für den hohen Drehzahlbereich.
+
+Drehzahlbereich einstellen
+
+1.
+2.
+3.
+
+onom»>
+
+9.
+
+Schalten Sie die Bohr- und Fräsmaschine aus.
+
+Ziehen Sie den Schuko-Stecker der Bohr- und Fräsmaschine.
+
+Lösen Sie die Rändelschraube (1) und entfernen Sie die Schutzabdeckung (2).
+
+> Riemenantrieb ist zugänglich.
+
+Lösen Sie die vier Schrauben (a) der Spannplatte (7).
+
+Legen Sie den jeweiligen Riemen (8) nach den Angaben auf dem Hinweisschild (3) um.
+Spannen Sie den Riemen mittels der Spannplatte fest.
+
+Schrauben Sie die vier Schrauben der Spannplatte fest.
+
+Montieren Sie Schutzabdeckung.
+
+Stecken Sie den Schuko-Stecker in die Schutzkontaktdose.
+
+40. Schalten Sie die Bohr- und Fräsmaschine ein.
+11. Führen Sie einen Funktionstest durch. Siehe Kapitel 4.7.2, Seite 25.
+
+Drehzahlbereich ist umgestellt.
+
+Version 1.2 41
+
+===== PDF-Seite 43 / 64 =====
+
+paulimot Bt Betriebsanleitung zur Bohr- und Fräsmaschine SX3,5Z
+
+6 Wartung und Instandhaltung
+
+6.1 Personalqualifikation
+
+Die Behebung von Störungen darf nur durch eine Fachkraft durchgeführt werden, siehe
+Personalqualifikation [10].
+
+6.2 Persönliche Schutzausrüstung
+
+Gefahr von rotierenden Maschinenteilen erfasst zu werden.
+
+Sicherheitshandschuhe können von dem Bohrfutter oder dem Werkstück erfasst
+werden. Durch die Rotationsgeschwindigkeit der Bohr- und Fräsmaschine kann
+es zum Abreißen eines Fingers oder der Hand kommen.
+
+> Tragen Sie bei eingeschalteter Bohr- und Fräsmaschine keine
+Sicherheitshandschuhe.
+
+Tragen Sie die Persönliche Schutzausrüstung, siehe 2.7 Persönliche Schutzausrüstung [11].
+
+© ® @ 9
+
+Schutzbrille tragen Haaretz tragen Sicherheitsschuhe Sicherheitshandschuhe
+tragen tragen
+
+6.3 Sicherheitshinweise für die Wartung
+
+4. GEFAHR
+
+Gefahr durch Stromschlag.
+AN Hohe elektrische Spannungen können zu lebensgefährlichen Körperströmen
+und Verletzungen durch Stromschlag führen.
+
+> Lassen Sie den elektrischen Anschluss, die Reparaturen und die
+Wartungsarbeiten am elektrischen Teil der Bohr- und Fräsmaschine nur
+durch einen qualifizierten Elektriker gemäß den nationalen und regionalen
+Vorschriften ausführen.
+
+4. GEFAHR
+G
+
+efahr durch Stromschlag.
+/N Elektrische Spannungen können zu lebensgefährlichen Körperströmen und
+Verletzungen durch Stromschlag führen.
+
+> Schalten Sie vor Reinigungs- und Wartungsarbeiten immer die Maschine
+aus und ziehen Sie den Schuko-Stecker aus der Schutzkontaktdose.
+
+nn nn WARNUNG
+Gefahr durch Verlstzungan.a an Spänen.
+/\ Schnittverletzungen an den Handen.
+> Tragen Sie die persönliche Schutzausrüstung.
+
+> Verwenden Sie einen Spänehaken oder einen Pinsel, um die Bohr- und
+Frasmaschine von Spänen zu befreien.
+
+> Verwenden Sie keine Druckluft zum Reinigen der Bohr- und Fräsmaschine.
+
+Version 1.2 42
+
+===== PDF-Seite 44 / 64 =====
+
+p aulimot gt Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+A VORSICHT
+
+Hautkontakt mit Kühl- und Schmierstoffen kann zu Hautreizungen oder
+
+Austrocknung führen.
+
+> Beachten Sie das Sicherheitsdatenblatt des Kühl-und Schmiermittels.
+
+> Tragen Sie Schutzhandschuhe beim Umgang mit dem Kühl- und
+Schmiermittel. Schutzhandschuhe müssen gegen Kühl- und Schmiermittel
+undurchlässig und beständig sein.
+
+> Beachten Sie die allgemeinen Hygienemaßnahmen im Umgang mit
+Chemikalien. Vermeiden Sie langanhaltenden oder intensiven Hautkontakt
+mit Kühl- und Schmiermitteln.
+
+Gefahr durch Hautkontakt mit Kühl- und Schmierstoffen
+
+Verwenden Sie beim Austausch von Bauteilen ausschließlich originale Bauteile des
+Herstellers.
+
+Hausmüll entsorgt werden.
+
+Die gebrauchten mit Öl, Fett und Reinigungsmittel getränkten Putzlappen sind leicht
+brennbar. Sammeln Sie diese in einem geschlossenen Behälter und entsorgen Sie
+diese Mittel umweltgerecht als Sondermüll.
+
+1) Öl, Fett und Putzmittel dürfen nicht ins Abwasser gelangen und nicht mit dem
+
+6.4 Schmier- und Betriebsstoffe
+Für die SX3.5Z empfehlen wir folgende Betriebsstoffe:
+
+Blanke Teile, Kreuztisch, Maschinenoberfläche, Führungsbahnen und Spindel:
+s Maschinenöl
+
+e Schmiertett
+
+4 Schmierfett
+& Schmieröl
+
+Version 1.2 43
+
+===== PDF-Seite 45 / 64 =====
+
+paulimot sf
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+6.5 Wartungsintervalle
+
+Bei taglicher Nutzung ergeben sich nachfolgende Wartungsintervalle.
+
+@ Passen Sie bei abweichender Nutzung die Wartungsintervalle entsprechend an.
+
+Tatigkeiten Nach Gebrauch Wochentlich Halbjahrlich
+Reinigen der x
+
+Schmieren aller blanken X
+Maschinenteile mit der Ölkanne
+
+Schmieren der Zahnräder x
+
+Schmieren der Spindeln
+
+x
+
+Schmieren der Öler x
+
+Nachstellen des Führungsspiels am x
+Bohr- /Fräskopf
+
+Nachstellen des Führungsspiels am x
+Kreuztisch
+
+Version 1.2 44
+
+===== PDF-Seite 46 / 64 =====
+
+auli F ,
+P mot. Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+6.6 Spiel in der Fuhrung
+
+Zum Nachstellen der Keilleisten muss sich der jeweilige Schlitten in Mittelstellung
+befinden.
+
+Nachstellen der Keilleiste des Bohr- und Fräskopfs
+
+1. Stellen Sie die Einstellschraube (1) im Uhrzeigersinn nach, bis ein leichtgängiges und spielfreies
+Verfahren möglich ist.
+
+v Keilleiste ist nachgestellt.
+
+Nachstellen der Keilleisten des Kreuztischs
+
+1. Stellen Sie die Einstellschraube (Y-Richtung) (1) im Uhrzeigersinn im Uhrzeigersinn nach, bis ein
+leichtgängiges und spielfreies Verfahren möglich ist.
+> Keilleiste (Y-Richtung) ist nachgestellt.
+
+2. Stellen Sie die Einstellschraube (X-Richtung) (2) im Uhrzeigersinn im Uhrzeigersinn nach, bis ein
+leichtgängiges und spielfreies Verfahren möglich ist.
+v Keilleiste (X-Richtung) ist nachgestellt.
+
+Version 1.2 45
+
+===== PDF-Seite 47 / 64 =====
+
+paul imot Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+6.7 Sicherheitsprüfung nach Wartung
+
+Nach Abschluss der Wartungsarbeiten müssen die Schutzeinrichtungen überprüft werden, siehe
+Funktionstest [25].
+
+Überprüfen der Sicherheitseinrichtungen
+1. Überprüfen Sie alle Sicherheitseinrichtungen auf korrekte Montage und festen Sitz.
+2. Überprüfen Sie alle Warnschilder und Markierungen auf Lesbarkeit.
+
+¥ Sicherheitseinrichtungen sind überprüft.
+
+Version 1.2 46
+
+===== PDF-Seite 48 / 64 =====
+
+paulimot. se
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+7
+7.1
+
+Instandsetzung und Störung
+
+Personalqualifikation
+
+Die Behebung von Störungen darf nur durch eine Fachkraft durchgefiihrt werden, siehe
+Personalqualifikation [10].
+
+7.2 Verhalten im Notfall
+
+Bei Unfällen ist dafür zu sorgen, dass unverzüglich Erste-Hilfe-Maßnahmen ergriffen werden.
+
+Es ist Folgendes zu beachten:
+
+1,
+
+aewN
+
+Driicken Sie den Not-Halt-Taster.
+
+> Die Bohr- und Fräsmaschine ist stillgesetzt.
+
+Bringen Sie verunfallte Personen aus dem Gefahrenbereich.
+Fordern Sie einen Arzt an.
+
+Leisten Sie Erste Hilfe.
+
+Verändern Sie die Unfallstelle nicht.
+
+v Erste-Hilfe-Maßnahmen sind durchgeführt.
+
+Version 1.2
+
+47
+
+===== PDF-Seite 49 / 64 =====
+
+paulimot St
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+7.3 Störungssuche und Störungsbeseitigung
+
+Störung
+
+Ursache
+
+Abhilfe
+
+Bohr- und Fräsmaschine läuft
+nicht an
+
+Netzspannung fehlt
+
+Stromzufuhr durch
+Elektrofachkraft überprüfen.
+
+Einschaltreihenfolge falsch
+
+Einschaltreihenfolge einhalten
+(siehe Bedienung [26].
+
+Schutzeinrichtung nicht
+geschlossen oder montiert
+
+Schutzeinrichtung schließen
+oder montieren.
+
+Fehler an Elektrik oder Motor
+
+Elektrik und Motor durch
+Elektrofachkraft überprüfen.
+
+Version 1.2
+
+48
+
+===== PDF-Seite 50 / 64 =====
+
+pauh imot gt Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+8 Auferbetriebnahme
+8.1 Entsorgung
+
+Werden bei den Wartungsarbeiten Teile ersetzt, so sind die Altteile entsprechend den
+hierfür geltenden Vorschriften umweltgerecht zu entsorgen.
+
+Wird die Bohr- und Fräsmaschine endgültig außer Betrieb genommen und
+verschrottet, sind die Materialien zu trennen und die Materialgruppen entsprechend
+den hierfür geltenden gesetzlichen und kommunalen Vorschriften umweltgerecht zu
+entsorgen.
+
+Motor, elektronische Teile, Kabel und Schalter müssen getrennt der
+Wertstoffverwertung zugeführt werden.
+
+Metalle
+Führen Sie Metalle der Wertstoffverwertung zu und entsorgen Sie diese umweltgerecht nach den
+örtlich geltenden Vorschriften.
+
+Kunststoffe
+Entsorgen Sie Kunststoffe umweltgerecht nach den örtlich geltenden Vorschriften.
+
+Elektrokomponenten
+
+Entsorgen Sie Elektrokomponenten umweltgerecht nach den örtlich geltenden Vorschriften für
+Elektroschrott. EG-Richtlinie 2012/19/EG (WEEE) beachten.
+
+Beachten Sie, dass Getriebeöl, Fette und Putzmittel nicht ins Abwasser gelangen und
+nicht im Hausmüll entsorgt werden dürfen.
+
+Entsorgen Sie Putzlappen, die mit Schmiermittel getränkt sind, in einem
+geschlossenen Behälter.
+
+Entsorgen Sie den Ölbehälter umweltgerecht als Sondermüll.
+
+Version 1.2 49
+
+===== PDF-Seite 51 / 64 =====
+
+p aulimot ft Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+9
+9.1
+
+Anhang
+
+EG-Konformitatserklarung
+
+Version 1.2 50
+
+===== PDF-Seite 52 / 64 =====
+
+aull . ;
+Pp ulimot gt Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+paulimot et
+
+Paulitschek Maschinen- und
+Warenvertriebsgesellschaft mbH
+
+EG-Konformitätserklärung im Sinne der EG-Richtlinie
+2006/42/EG über Maschinen (Anhang Il A)
+EC Declaration of conformity according to EC directive
+2006/42/EC on machinery (Annex II A)
+
+C€
+
+Original-Konformitatserklarung /
+Translation of original declaration of conformity
+
+Der Hersteller / The manufacturer
+
+Paulitschek Maschinen- und Warenvertriebsgesellschaft mbH
+Zeppelinstraße 3
+89231 Neu-Ulm, Deutschland
+
+erklärt hiermit, dass die Bohr-/Fräsmaschine
+herewith declares that the Drilling / milling machine
+
+Typ! Type: SIEG SX3.5Z
+
+den Anforderungen der EG-Richtlinie 2006/42/EG, der EG-Richtlinie 2014/30/EU und
+
+der EU-Richtlinie 2011/65/EU entspricht.
+meets the provisions of the EU Guideline 2006/42/EC, the EU Guideline 2014/30/EC and
+
+the EU Guideline 2011/65/EU.
+
+EN ISO 12100-1.2010
+EN ISO 13128-2001 + A2:2009
+
+EN 60204-1:2006 + A1:2009
+
+EN 55014-1-2006 + A1:2009 + A2:2011
+
+EN 55014-2:1997 + A1:2001 + A2:2008 |
+EN 61000-3-2:2014
+EN 61000-3-3:2013 |
+EN IEC 63000:2018 .|
+
+Angewandte Normen: !
+Applied standards:
+
+Diese Erklärung gilt für das oben genannte Produkt ab dem Unterzeichnungsdatum.
+This declaration is valid for the above mentioned product after the signature date below.
+
+Neu-Ulm, den 2. Januar 2020 Simone Paulitschek
+Ort/ place, Datum / date (Geschäftsführer / management)
+USt-IdNr. DE 147094032 Geschäftsführung
+
+Sir der Gesehschaft: Steuer-tie. DE HSU13H0GY71 = Ragisterparicht’ Dr Patrick, Pauisscher,
+Seon aun Fewton O731/22282  wiofßpaulnalde Steuer-Nr AT 58 62077168 py ange Simone Paulkicheh
+89231 bedi Teletax: O731E7676 www paulinarde Steuern IT OG201S20807 HAB 10388 ‘WEEE-Rog.-Nr, DE 95902713
+
+9.2 Ersatzteilliste
+
+Version 1.2
+
+51
+
+===== PDF-Seite 53 / 64 =====
+
+paulim ot get Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+Anfragen und Ersatzteilbestellungen richten Sie bitte
+
+per E-Mail an; support@paulimot.de
+
+per Fax an: 0049- (0)731-27676 oder
+
+per Post an: Paulitschek Maschinen- und Warenvertriebsgesellschaft mbH,
+Zeppelinstraße 3, 89231 Neu-Ulm, Deutschland
+
+Bitte geben Sie unbedingt die Bestellnummer an.
+
+Version 1.2 52
+
+===== PDF-Seite 54 / 64 =====
+
+paulimot gfe
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+Version 1.2
+
+53
+
+===== PDF-Seite 55 / 64 =====
+
+paulimot xt
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+Bild 1
+Nr. |Bezeichnung 1 Bestell-Nr.
+001 |Kegeldorn 56-01-001
+002. |Frässpindel 56-01-002
+003 | Oldichtring 56-01-003
+004 Lager 32907 56-01-004
+005 |Scheibe 56-01-005
+006 | Spindellauf 56-01-006
+007 |Distanzring 56-01-007
+008 |Scheibe 56-01-008
+009 | Lager 80106 56-01-009
+010 | Scheibe 56-01-0710
+011 |Lager 80106 56-01-011
+012 | Schraube M8x40 56-01-012
+013 | Nutmutter M27x1,5 56-01-0173
+014  |Stift 56-01-014
+015 |Federscheibe M8 56-01-015
+016 | Unterlegscheibe 56-01-016
+017 _ |Schneckenrad 56-01-017
+018  |Sicherheitsring 56-01-018
+019 | Stift 56-01-019
+020 | Schraube M4x10 56-01-020
+021 | Hebel Pinolenhub 56-01-021
+022 | Handgriff 56-01-022
+023  |Klemmhebel 56-01-023
+024 |Unterlegscheibe 56-01-024
+025 | Hebelflansch 56-01-025
+026 |Stahlkugel 56-01-026
+027 | Passfeder 4x8 56-01-027
+028 |Abdeckung 56-01-028
+029  |Ritzelwelle 56-01-029
+030 | Stift M6x14 56-01-030
+031 =| Stift M6x8 56-01-031
+032 |Fräskopf 56-01-032
+033 | Motor 56-01-033
+034 |Antriebsriemen 56-01-034
+035 | Antriebsriemen 56-01-035
+036 |Passfeder 5x25 56-01-036
+037 | Unterlegscheibe 56-01-037
+038 | Federscheibe M5 56-01-038
+039 | Schraube M5x20 §6-01-039
+040 | Boilzen 56-01-040
+041 | Motorflansch 56-01-041
+042 | Keilleiste Z-Achse 56-01-042
+043 | Einstellschraube Keilleiste 56-01-043
+044 | Riemenscheibe 56-01-044
+045  |Magnetpin 56-01-045
+046 |Riemenscheibe 56-01-046
+047 |Riemenscheibe 56-01-047
+048 |Unterlegscheibe 56-01-048
+049 =| Stift 3x10 56-01-049
+050 |Schraube M6x16 56-01-050
+051 |Riemenabdeckung 56-01-0511
+052 | Unterlegscheibe 56-01-052
+053 | Handknauf 56-01-053
+
+Version 1.2
+
+54
+
+===== PDF-Seite 56 / 64 =====
+
+paulimot St
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+054 |Abdeckung Anzugsspindel 56-01-054
+055 | Gewindescheibe 56-01-0556
+056 |Anzugspindel 56-01-056
+057 | Schraube M5x16 56-01-057
+058 | Spindelflansch 56-01-058
+059 |Lager 80107 56-01-059
+060  |Sicherungsring 56-01-060
+061 |Sicherungsring 56-01-061
+062 Flansch 56-01-062
+063 |Stift 3x8 56-01-063
+064  |Sicherungsring 56-01-064
+065 | Stift 56-01-0655
+066 |Klemmgriff 56-01-066
+067 |Block 56-01-067
+068 | Schraube M6x20 56-01-068
+069 | Schraube M5x12 56-01-069
+070 |Halterung 56-01-070
+071  |Abdeckung 56-01-07
+072 | RUckholfeder 56-01-072
+073  |Stift 56-01-073
+074 | Schraube M10x25 56-01-074
+075 | Unterlegscheibe 56-01-075
+076 | Schraube M4x8 56-01-076
+077 | Winkel 56-01-077
+078 |Pinolenhubanzeige 56-01-078
+079 Schraube M3x8 56-01-079
+080 |Ritzelwelle 56-01-080
+081 |Scheibe 56-01-0841
+082 | Schraube M3x6 56-01-082
+083 |Handknauf 56-01-083
+084 |Schraube M6x6 56-01-084
+085 | Hulse 56-01-085
+0856 |Hammerkopfschraube 56-01-086
+087 |Spindelführung 56-01-087
+088 |Schraube M3x10 56-01-088
+089 | Winkelblech 56-01-089
+0SO | Mutter MS 56-01-090
+091 |Abdeckung 56-01-091
+092 |Flansch 56-01-092
+0983 |Schraube M3x12 56-01-093
+094 | Handgriff 56-01-094
+095 | Feder 0,8x6x25 56-01-095
+096 |Druckknopf 56-01-096
+097 | Sicherungsring 56-01-097
+Version 1.2 55
+
+===== PDF-Seite 57 / 64 =====
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+paulimot <3
+
+56
+
+Version 1.2
+
+===== PDF-Seite 58 / 64 =====
+
+paulimot gt
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+Bild 2
+Nr. |Bezeichnung 1 Bestell-Nr.
+001 |Z-Säule 56-02-001
+001-1 | Faltenbalg Z-Achse 56-02-001-1
+002. | Unterlegscheibe 56-02-002
+003 |Federscheibe M10 56-02-003
+004 | Schraube M10x40 56-02-004
+005 | Stift 6x32 56-02-005
+006 [Block 56-02-006
+007 | Nutmutter 56-02-007
+008 |Lager 6001 56-02-0038
+009 |Stift 6x32 56-02-009
+010 |Schraube M6x16 56-02-010
+011 |Federscheibe M6 56-02-011
+012 | Unterlegscheibe 56-02-012
+013 | Spindelhalterung 56-02-013
+014 | Spindel Z-Achse 56-02-014
+015 | Halteblock 56-02-015
+016 | Schraube M6x8 56-02-016
+017 |Spindelmutter 56-02-017
+018 | Schraube M5x12 56-02-018
+019 | Spindelflansch 56-02-019
+020 | Schraube M4x8 56-02-020
+021 | Abdeckung 56-02-0271
+022 | Motor Z-Achse 56-02-022
+023 |Schraube M6x20 56-02-023
+024 | Motorflansch 56-02-024
+025 |Kupplungsstück 56-02-025
+026 | Unterlegscheibe 56-02-026
+027 |Schraube M5x12 56-02-027
+028 |Federscheibe M5 56-02-028
+Version 1.2 57
+
+===== PDF-Seite 59 / 64 =====
+
+p aulimot gt Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+Bild 3
+
+Version 1.2 58
+
+===== PDF-Seite 60 / 64 =====
+
+paulimot xt
+
+Betriebsanleitung zur Bohr- und Frasmaschine SX3.5Z
+
+Bild 3
+Nr. Bezeichnung 1 Bestell-Nr,
+001 Maschinensockel 56-03-001
+002 | Spindel X-Achse 56-03-002
+003 |Handgriff 56-03-003
+004 =| Schraube Handgriff 56-03-004
+005 | Niete 2x4 56-03-005
+006 Frastisch 56-03-0086
+006-1 | Faltenbalg Y-Achse 56-03-006-1
+007 |Abdeckung 56-03-007
+008 |Hülse 56-03-008
+009 |Ölnippel 56-03-009
+010 |Schraube M5x12 56-03-010
+031 Abdeckung 56-03-0171
+012 |Abdeckung 56-03-012
+013 |Handradflansch 56-03-013
+014 =| Stift 4x40 56-03-014
+045 | Feder 0,5x4,65x9 56-03-015
+016 Stahlkugel © 5 56-03-0156
+017 |Skala Frästisch 56-03-017
+018 |Mutter M12 56-03-018
+019 | Unterlegscheibe 56-03-019
+020 |Handrad X-Achse 56-03-020
+021 Hülse 56-03-021
+022 |Feder 0,5x4,65x9 56-03-022
+023 |Skalenring 56-03-023
+024  \Kupplungsstück 56-03-024
+025 Lager 6001 56-03-025
+026 |Schraube M6x14 56-03-026
+027 | Spindelmutter X-Achse 56-03-027
+028 | Keilleiste X-Achse 56-03-028
+029 = | Olnippel 56-03-029
+030 | Schraube M4x16 56-03-030
+031 Einstellschraube Keilleiste 56-03-031
+032 | Basis Frästisch 56-03-032
+033 | Klemmhebel 56-03-033
+034 stift 56-03-034
+035 | Feder 1x9,2x14 56-03-035
+036 |Keilleiste Y-Achse 56-03-0365
+037 | Stift §6-03-037
+038 | Positionsanzeige 56-03-0383
+039 |Schraube M4x10 56-03-039
+040 |Schraube M6x10 56-03-040
+041  |Spindelmutter Y-Achse 56-03-041
+042 | Spindel Y-Achse 56-03-042
+043 |Handrad Y-Achse 56-03-043
+044 =| Mutter 56-03-044
+045 Hülse 56-03-045
+046 |Skalenring 56-03-0485
+047 |Handradflansch 56-03-047
+048 | Unterlegscheibe 56-03-048
+049 | Schraube M5x20 56-03-049
+050 |Abdecküung 56-03-050
+Version 1.2 59
+
+===== PDF-Seite 61 / 64 =====
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+paulimot St
+
+Bild 4
+
+60
+
+Version 1.2
+
+===== PDF-Seite 62 / 64 =====
+
+paulimot
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+Bild 4
+Nr. Bezeichnung 1 Bestell-Nr.
+001 |Endschalter QKS7 56-04-001
+002 | Schraube M4x30 56-04-002
+003 ‘| Mutter 56-04-003
+004 |Sicherungsblock 56-04-004
+005 | Mutter M3 56-04-005
+006 | Schraube M3x10 56-04-006
+007 |Kabelschuiz 56-04-007
+008 | Federscheibe M5 56-04-008
+009 | Schraube M5x8 56-04-009
+010 =| Einlegplatte unten 56-04-010
+011 Hauptplatine 56-04-011
+012 | Schraube M4x8 56-04-012
+013 | Abdeckung unten 56-04-013
+014 | Schraube M4x16 56-04-014
+015 | Ring 56-04-015
+016 |Abdeckung oben 56-04-016
+017 = |Schraube M3x6 56-04-017
+018 | Platine 56-04-018
+019 | Isolationsstift 56-04-019
+020 =| Einlegplatte oben 56-04-020
+021 | Abdeckung Z-Säule 56-04-021
+022 | Motor 56-04-022
+023  |Sicherheitsschalter QKS8 56-04-023
+024 | Sicherheitsschalter QKS8 56-04-024
+025 | Drehzahlsensor 56-04-025
+026 | Winkelblech 56-04-026
+027 | Kabelschutz 56-04-027
+028 | Kabelschutz 56-04-028
+029 | Schraube M5x16 56-04-029
+030 | Kabelschlauch §6-04-030
+031 | Kabelschlauch 56-04-0311
+032 |Schraube M3x12 56-04-032
+033 | Mutter M5 56-04-033
+034 |Abdeckung 56-04-034
+035 | Schraube 56-04-035
+036 =| Drehzahlpotentiometer 56-04-036
+037 | Glaseinsatz 56-04-037
+038 |Leistungsschütz 56-04-038
+039 | Drehzahlanzeige 56-04-039
+040 | Abdeckung Bedienpanel 56-04-040
+041  |'Not-Halt-Schalter HY57B 56-04-041
+042 |Drehknauf Drehzahlpotentiometer | 56-04-042
+043 | Elektrokasten 56-04-043
+044 |Abdeckung Elektrokasten 56-04-044
+045  |Ein-/ Ausschalter 56-04-045
+046 =| Knopf Gewindeschneidfunktion 56-04-046
+047 |\Filter 56-04-047
+048 |Display 56-04-0438
+049 |Kabelschutz 56-04-049
+050° | Kabelschutz 56-04-050
+Version 7.2 61
+
+===== PDF-Seite 63 / 64 =====
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3.5Z
+
+paulimot
+
+Bild 5
+
+62
+
+Version 1.2
+
+===== PDF-Seite 64 / 64 =====
+
+paulimot St
+
+Betriebsanleitung zur Bohr- und Fräsmaschine SX3,5Z
+
+Bild 5
+Nr. Bezeichnung 1 Besteil-Nr.
+001 |Leiste Faltenbalg 56-05-0019
+002 |Schraube M5x6 56-05-002
+003 | Faltenbalg X-Achse 56-05-003
+004. | Winkel 56-05-004
+005 | Magnetpin @ 6 56-05-005
+006 | Faltenbalg Z-Achse 56-05-006
+007 | Schraube M4x10 56-05-007
+008 |Halteplatte 56-05-008
+009 | Schraube M4x10 56-05-009
+010 | Mutter M6 56-05-010
+011 | Unterlegscheibe 56-05-0111
+012 |Hülse 56-05-012
+013 | Schraube M4x8 56-05-013
+014  |Befestigungswelle 56-05-014
+015  |Winkelblech 56-05-015
+016 |Schraube M5x20 56-05-016
+017 | Unterlegscheibe 56-05-017
+018 | Plexiglasschutz innen 56-05-018
+019 | Plexiglasschutz außen 56-05-019
+020 |Schraube M4x10 56-05-020
+021  |Madenschraube M4x6 56-05-021
+022 | Winkel 56-05-022
+023 | Unterlegscheibe 56-05-023
+Version 1.2 63
+

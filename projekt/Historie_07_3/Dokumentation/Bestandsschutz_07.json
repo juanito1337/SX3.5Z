@@ -1,0 +1,18 @@
+{
+  "unchanged_source_files": {
+    "modell_v4.py": true,
+    "v3_geometriebasis.py": true,
+    "cnc_ansichtsmodell01.py": true,
+    "CNC_Parameter.json": true,
+    "Parameter.json": true,
+    "nx_files.py": true,
+    "nx_geometry.py": true,
+    "nx_sheetmetal06.py": true,
+    "Blech_Optionen.json": true
+  },
+  "moving_door_parts06": 49,
+  "moving_door_parts07": 49,
+  "moving_door_recipe_identical": true,
+  "door_layout_identical": true,
+  "comparison_note": "Sequential part IDs/filename prefixes excluded because removing the right glass shifts later numbering; all remaining door definition fields are identical."
+}

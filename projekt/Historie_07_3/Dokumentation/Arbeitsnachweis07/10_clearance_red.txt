@@ -1,0 +1,29 @@
+..............FFF.FF                                                [100%]
+=================================== FAILURES ===================================
+___ ClearanceRegression07Tests.test_back_upstand_only_touches_enclosure_web ____
+tests/test_ruecklauf07.py:83: in test_back_upstand_only_touches_enclosure_web
+    self.assertLessEqual(a[4],self.v['enc_back']-self.p['sheet_t'])
+E   AssertionError: 525.0 not less than or equal to 523.0
+__________ ClearanceRegression07Tests.test_front_ridge_under_y_drive ___________
+tests/test_ruecklauf07.py:70: in test_front_ridge_under_y_drive
+    self.assertLessEqual(abs(m.evaluate(d['slope_x'],self.v)),5/227+.00001)
+E   AssertionError: 0.06607929515418502 not less than or equal to 0.022036431718061675
+_______ ClearanceRegression07Tests.test_ramp_grade_clears_x_motor_cover ________
+tests/test_ruecklauf07.py:67: in test_ramp_grade_clears_x_motor_cover
+    self.assertLessEqual(m.evaluate(d['slope_x'],self.v),.14)
+E   AssertionError: 0.18 not less than or equal to 0.14
+_______ ClearanceRegression07Tests.test_tank_ends_before_rear_lower_beam _______
+tests/test_ruecklauf07.py:74: in test_tank_ends_before_rear_lower_beam
+    self.assertLessEqual(a[4],b[1])
+E   AssertionError: 545.0 not less than or equal to 465.0
+________ ClearanceRegression07Tests.test_tray_starts_behind_front_posts ________
+tests/test_ruecklauf07.py:64: in test_tray_starts_behind_front_posts
+    self.assertGreaterEqual(body_bounds(d,self.v,m.evaluate)[1],self.v['enc_front']+30)
+E   AssertionError: -473.0 not greater than or equal to -445.0
+=========================== short test summary info ============================
+FAILED tests/test_ruecklauf07.py::ClearanceRegression07Tests::test_back_upstand_only_touches_enclosure_web - AssertionError: 525.0 not less than or equal to 523.0
+FAILED tests/test_ruecklauf07.py::ClearanceRegression07Tests::test_front_ridge_under_y_drive - AssertionError: 0.06607929515418502 not less than or equal to 0.022036431718061675
+FAILED tests/test_ruecklauf07.py::ClearanceRegression07Tests::test_ramp_grade_clears_x_motor_cover - AssertionError: 0.18 not less than or equal to 0.14
+FAILED tests/test_ruecklauf07.py::ClearanceRegression07Tests::test_tank_ends_before_rear_lower_beam - AssertionError: 545.0 not less than or equal to 465.0
+FAILED tests/test_ruecklauf07.py::ClearanceRegression07Tests::test_tray_starts_behind_front_posts - AssertionError: -473.0 not greater than or equal to -445.0
+5 failed, 15 passed, 1023 warnings, 5 subtests passed in 0.28s

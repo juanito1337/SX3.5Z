@@ -1,0 +1,4 @@
+{
+  "mode": "required",
+  "_Hinweis": "required: neue Kantblechteile muessen native NX-Sheet-Metal-Koerper werden (Lizenz erforderlich). solid: explizite scharfkantige Volumen-Vorform zur Ansicht, keine Blechkonvertierung. Kein stilles Fallback."
+}

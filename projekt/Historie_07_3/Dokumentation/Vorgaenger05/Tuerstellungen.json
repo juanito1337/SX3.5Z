@@ -1,0 +1,297 @@
+[
+  {
+    "door_open": 0,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "type": "TWO_PANEL_DOWNWARD_TELESCOPIC_STUDY",
+    "clear_width_mm": 760.0,
+    "clear_height_mm": 1000.0,
+    "opening_xmin": -318.0,
+    "opening_xmax": 442.0,
+    "opening_zmin": 100.0,
+    "opening_zmax": 1100.0,
+    "travels_mm": {
+      "LOWER": 515.0,
+      "UPPER": 1030.0
+    },
+    "leaves": [
+      {
+        "leaf": "LOWER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -525.0,
+        "ymax": -495.0,
+        "zmin": 80.0,
+        "zmax": 610.0,
+        "travel_mm": 515.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 830.0
+      },
+      {
+        "leaf": "UPPER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -585.0,
+        "ymax": -555.0,
+        "zmin": 590.0,
+        "zmax": 1120.0,
+        "travel_mm": 1030.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 1340.0
+      }
+    ],
+    "closed_leaf_top_from_floor_mm": 1870.0,
+    "open_leaf_top_from_floor_mm": 845.0,
+    "minimum_open_bottom_from_floor_mm": 310.0,
+    "pocket_bottom_from_floor_mm": 245.0,
+    "fixed_total_height_mm": 1952.0,
+    "note": "Zwei Segmente fahren nach UNTEN mit modelliertem Hubverhaeltnis 2:1 in eine Kassette VOR dem Gestell. Reine Sollkinematik; Kopplung, Gewichtsausgleich, Haltesicherung, Dichtungen und Verriegelung sind nicht ausgelegt. Kein Fertigungsdatensatz."
+  },
+  {
+    "door_open": 0.25,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "type": "TWO_PANEL_DOWNWARD_TELESCOPIC_STUDY",
+    "clear_width_mm": 760.0,
+    "clear_height_mm": 1000.0,
+    "opening_xmin": -318.0,
+    "opening_xmax": 442.0,
+    "opening_zmin": 100.0,
+    "opening_zmax": 1100.0,
+    "travels_mm": {
+      "LOWER": 515.0,
+      "UPPER": 1030.0
+    },
+    "leaves": [
+      {
+        "leaf": "LOWER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -525.0,
+        "ymax": -495.0,
+        "zmin": -48.75,
+        "zmax": 481.25,
+        "travel_mm": 515.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 701.25
+      },
+      {
+        "leaf": "UPPER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -585.0,
+        "ymax": -555.0,
+        "zmin": 332.5,
+        "zmax": 862.5,
+        "travel_mm": 1030.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 1082.5
+      }
+    ],
+    "closed_leaf_top_from_floor_mm": 1870.0,
+    "open_leaf_top_from_floor_mm": 845.0,
+    "minimum_open_bottom_from_floor_mm": 310.0,
+    "pocket_bottom_from_floor_mm": 245.0,
+    "fixed_total_height_mm": 1952.0,
+    "note": "Zwei Segmente fahren nach UNTEN mit modelliertem Hubverhaeltnis 2:1 in eine Kassette VOR dem Gestell. Reine Sollkinematik; Kopplung, Gewichtsausgleich, Haltesicherung, Dichtungen und Verriegelung sind nicht ausgelegt. Kein Fertigungsdatensatz."
+  },
+  {
+    "door_open": 0.5,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "type": "TWO_PANEL_DOWNWARD_TELESCOPIC_STUDY",
+    "clear_width_mm": 760.0,
+    "clear_height_mm": 1000.0,
+    "opening_xmin": -318.0,
+    "opening_xmax": 442.0,
+    "opening_zmin": 100.0,
+    "opening_zmax": 1100.0,
+    "travels_mm": {
+      "LOWER": 515.0,
+      "UPPER": 1030.0
+    },
+    "leaves": [
+      {
+        "leaf": "LOWER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -525.0,
+        "ymax": -495.0,
+        "zmin": -177.5,
+        "zmax": 352.5,
+        "travel_mm": 515.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 572.5
+      },
+      {
+        "leaf": "UPPER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -585.0,
+        "ymax": -555.0,
+        "zmin": 75.0,
+        "zmax": 605.0,
+        "travel_mm": 1030.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 825.0
+      }
+    ],
+    "closed_leaf_top_from_floor_mm": 1870.0,
+    "open_leaf_top_from_floor_mm": 845.0,
+    "minimum_open_bottom_from_floor_mm": 310.0,
+    "pocket_bottom_from_floor_mm": 245.0,
+    "fixed_total_height_mm": 1952.0,
+    "note": "Zwei Segmente fahren nach UNTEN mit modelliertem Hubverhaeltnis 2:1 in eine Kassette VOR dem Gestell. Reine Sollkinematik; Kopplung, Gewichtsausgleich, Haltesicherung, Dichtungen und Verriegelung sind nicht ausgelegt. Kein Fertigungsdatensatz."
+  },
+  {
+    "door_open": 0.75,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "type": "TWO_PANEL_DOWNWARD_TELESCOPIC_STUDY",
+    "clear_width_mm": 760.0,
+    "clear_height_mm": 1000.0,
+    "opening_xmin": -318.0,
+    "opening_xmax": 442.0,
+    "opening_zmin": 100.0,
+    "opening_zmax": 1100.0,
+    "travels_mm": {
+      "LOWER": 515.0,
+      "UPPER": 1030.0
+    },
+    "leaves": [
+      {
+        "leaf": "LOWER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -525.0,
+        "ymax": -495.0,
+        "zmin": -306.25,
+        "zmax": 223.75,
+        "travel_mm": 515.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 443.75
+      },
+      {
+        "leaf": "UPPER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -585.0,
+        "ymax": -555.0,
+        "zmin": -182.5,
+        "zmax": 347.5,
+        "travel_mm": 1030.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 567.5
+      }
+    ],
+    "closed_leaf_top_from_floor_mm": 1870.0,
+    "open_leaf_top_from_floor_mm": 845.0,
+    "minimum_open_bottom_from_floor_mm": 310.0,
+    "pocket_bottom_from_floor_mm": 245.0,
+    "fixed_total_height_mm": 1952.0,
+    "note": "Zwei Segmente fahren nach UNTEN mit modelliertem Hubverhaeltnis 2:1 in eine Kassette VOR dem Gestell. Reine Sollkinematik; Kopplung, Gewichtsausgleich, Haltesicherung, Dichtungen und Verriegelung sind nicht ausgelegt. Kein Fertigungsdatensatz."
+  },
+  {
+    "door_open": 1,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "type": "TWO_PANEL_DOWNWARD_TELESCOPIC_STUDY",
+    "clear_width_mm": 760.0,
+    "clear_height_mm": 1000.0,
+    "opening_xmin": -318.0,
+    "opening_xmax": 442.0,
+    "opening_zmin": 100.0,
+    "opening_zmax": 1100.0,
+    "travels_mm": {
+      "LOWER": 515.0,
+      "UPPER": 1030.0
+    },
+    "leaves": [
+      {
+        "leaf": "LOWER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -525.0,
+        "ymax": -495.0,
+        "zmin": -435.0,
+        "zmax": 95.0,
+        "travel_mm": 515.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 315.0
+      },
+      {
+        "leaf": "UPPER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -585.0,
+        "ymax": -555.0,
+        "zmin": -440.0,
+        "zmax": 90.0,
+        "travel_mm": 1030.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 310.0
+      }
+    ],
+    "closed_leaf_top_from_floor_mm": 1870.0,
+    "open_leaf_top_from_floor_mm": 845.0,
+    "minimum_open_bottom_from_floor_mm": 310.0,
+    "pocket_bottom_from_floor_mm": 245.0,
+    "fixed_total_height_mm": 1952.0,
+    "note": "Zwei Segmente fahren nach UNTEN mit modelliertem Hubverhaeltnis 2:1 in eine Kassette VOR dem Gestell. Reine Sollkinematik; Kopplung, Gewichtsausgleich, Haltesicherung, Dichtungen und Verriegelung sind nicht ausgelegt. Kein Fertigungsdatensatz."
+  }
+]

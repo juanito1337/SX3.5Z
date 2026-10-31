@@ -1,0 +1,161 @@
+--- 07.2/nx_native.py
++++ 07.3/nx_native.py
+@@ -8,6 +8,8 @@
+ if HERE in sys.path:sys.path.remove(HERE)
+ sys.path.insert(0,HERE)
+ import cnc_ansichtsmodell as model
++import nx_formeln073
++FORMULA_PATCH_VERSION = nx_formeln073.VERSION
+ import NXOpen, NXOpen.Features, NXOpen.GeometricUtilities, NXOpen.Assemblies
+ from nx_geometry import (BodyInspector, primitive_contract, assert_contract,
+                          assert_boolean_change)
+@@ -401,6 +403,38 @@
+             return 'sx_'+name
+         return re.sub(r'\b[A-Za-z_]\w*\b',replace,text)
+ 
++    def extrusion_height_text(self, rhs):
++        """Keep normal-thickness grades unitless without freezing parameters.
++
++        Recipes use millimetre numbers for rises/runs. A length-bearing NX
++        parameter under sqrt must therefore be expressed as a number of mm.
++        Allocate a fresh 1-mm helper per formula (no stale handles after undo).
++        Only the explicitly supported thickness*sqrt(...) form is translated.
++        All other extrusion formulas retain the existing code path.
++        """
++        text = str(rhs)
++        if not re.search(r'\bsqrt\s*\(', text):
++            return self.expr_text(text)
++        unitless = {s['name'] for s in model.SPECS if s.get('unit') == 'unitless'}
++        needs_ref = nx_formeln073.needs_length_reference(text, self.known, unitless)
++        mode = self.expression_factory.mode
++        if mode not in ('CreateNumberExpression', 'CreateNumberExpression4',
++                        'CreateWithUnits', 'CreateWithUnits4', 'Number_mm'):
++            raise RuntimeError('Normaldickenformel ohne geprueften Ausdrucksmodus.')
++        reference = None
++        if needs_ref and mode != 'Number_mm':
++            self.aux_id += 1
++            reference = 'sx_aux_%04d' % self.aux_id
++            exp = self.expression_factory.create(reference+' = 1')
++            self.expression_factory._close(exp.Value, 1.0, '1-mm-Formelreferenz')
++        result = nx_formeln073.normal_thickness_rhs(text, self.known, unitless, reference)
++        self.last_normal_thickness_formula = dict(recipe=text, native_rhs=result,
++            millimeter_reference=reference, expression_mode=mode)
++        self.log('KSS-Normaldickenformel 07.3: '+result)
++        if reference:
++            self.log('KSS-Laengennormierung: '+reference+' = 1 mm; sqrt-Argument einheitenlos.')
++        return result
++
+     def create_expressions(self, needed=None):
+         """Geometry first: NO SetUserAttribute between expression creations.
+ 
+@@ -576,7 +610,7 @@
+             b.Section=section
+             b.Direction=self.direction(op['direction'])
+             b.Limits.StartExtend.Value.RightHandSide="0"
+-            b.Limits.EndExtend.Value.RightHandSide=self.expr_text(op['height'])
++            b.Limits.EndExtend.Value.RightHandSide=self.extrusion_height_text(op['height'])
+             self.boolean(b,target,op['op'])
+             feature=b.CommitFeature()
+         finally:
+--- 07.2/NX_CNC_Gesamtansicht.py
++++ 07.3/NX_CNC_Gesamtansicht.py
+@@ -12,7 +12,7 @@
+ if HERE in sys.path:sys.path.remove(HERE)
+ sys.path.insert(0,HERE)
+ # NX retains modules between journal runs: explicitly reload this package only.
+-for _n in ('cnc_ansichtsmodell','cnc_ansichtsmodell01','modell_v4','v3_geometriebasis','nx_native','nx_files','nx_geometry','enclosure_checks03','blech06','nx_sheetmetal06','formeln07','ruecklauf07'):
++for _n in ('cnc_ansichtsmodell','cnc_ansichtsmodell01','modell_v4','v3_geometriebasis','nx_native','nx_files','nx_geometry','enclosure_checks03','blech06','nx_sheetmetal06','formeln07','ruecklauf07','nx_formeln073'):
+     if _n in sys.modules:del sys.modules[_n]
+ import cnc_ansichtsmodell as model
+ import nx_sheetmetal06
+@@ -20,7 +20,7 @@
+     SHEETMETAL_MODE=nx_sheetmetal06.validate_options(json.load(_stream))
+ import NXOpen, NXOpen.Features, NXOpen.Assemblies
+ from nx_native import (NativeModelBuilder, ExpressionFactory, RunLog,
+-                       log_environment, require_millimeter_part, JOURNAL_VERSION)
++                       log_environment, require_millimeter_part, JOURNAL_VERSION, FORMULA_PATCH_VERSION)
+ from nx_files import NativePartFiles, FILES_VERSION, prepare_output_directory
+ from nx_geometry import ReferenceCheck, GEOMETRY_VERSION
+ 
+@@ -145,9 +145,32 @@
+             points=[['200','0','0'],['210','0','1.4'],['210','20','1.4'],['200','20','0']],
+             height='sheet_t*sqrt(1+0.14*0.14)',direction=(0,0,1))
+     b.primitive(op,None,b.current_feature)
++    # 07.3: reproduce the actual FOUR parameter-dependent funnel formulas
++    # before starting hundreds of machine parts. The former constant-grade
++    # coupon did not exercise a dimensioned parameter inside sqrt.
++    funnel_rows=[]
++    try:
++        funnels=[d for d in model.recipe() if d['name'].startswith('KSS_Trichter_')]
++        if len(funnels)!=4:
++            raise RuntimeError('KSS_Formelprobe073 erwartet genau vier Trichterbleche.')
++        for definition in funnels:
++            for op in model.local_definition(definition)['ops']:
++                b.current_feature='KSS_Formelprobe073_'+definition['name']
++                b.primitive(op,None,b.current_feature)
++                funnel_rows.append(dict(part=definition['name'],
++                    formula=b.last_normal_thickness_formula, measured=b.last_measurement))
++    except Exception:
++        log('KSS-Formelvortest fehlgeschlagen: '+str(b.current_feature))
++        b.feature_diagnostics()
++        b.expression_factory.diagnostics()
++        raise
+     errors=session.UpdateManager.DoUpdate(session.SetUndoMark(NXOpen.Session.MarkVisibility.Invisible,'API update'))
+     if errors:raise RuntimeError('API-Test Updatefehler: '+str(errors))
+     b.verify_expression_values()
++    with open(os.path.join(out,'NX_KSS_Formelprobe_073.json'),'w',encoding='utf8') as f:
++        json.dump(dict(patch=FORMULA_PATCH_VERSION,scope='Vier lokale Trichter-Vorformen; keine Fertigungsfreigabe',
++                       parts=funnel_rows),f,indent=2)
++    log('KSS-Formelvortest 07.3 bestanden: 4 echte Trichterrezepte; Lage und Volumen geprueft.')
+     # The last cube tests expression creation after native_probe's rollback.
+     # Optional attributes are not interleaved with geometric operations.
+     b.write_expression_metadata()
+@@ -171,6 +194,9 @@
+         log_environment(log)
+         log('Geometriestand: '+model.VERSION+'; Untergestell/Einhausung/Schaltschrank als ENTWURF.')
+         log('Startjournal: '+os.path.abspath(__file__))
++        log('KSS-Formelpatch: '+str(FORMULA_PATCH_VERSION))
++        if FORMULA_PATCH_VERSION != '07.3':
++            raise RuntimeError('Gemischter Formelpatch: Startjournal, nx_native.py und nx_formeln073.py aus 07.3 gemeinsam verwenden.')
+         log('Blechadapter-Patch: '+str(getattr(nx_sheetmetal06,'ADAPTER_VERSION','nicht vorhanden')))
+         log('Blechadapterdatei: '+str(getattr(nx_sheetmetal06,'__file__','unbekannt')))
+         if getattr(nx_sheetmetal06,'ADAPTER_VERSION',None) != '07.2':
+@@ -180,7 +206,7 @@
+         params=model.load_parameters(os.path.join(HERE,'Parameter.json'));values=model.check_recipe(params)
+         stamp=datetime.now().strftime('%Y%m%d_%H%M%S_%f')
+         run_id=uuid4().hex[:12]
+-        out=prepare_output_directory(HERE,'SX35Z_CNC_ANSICHT_07_2_'+stamp+'_'+run_id,log)
++        out=prepare_output_directory(HERE,'SX35Z_CNC_ANSICHT_07_3_'+stamp+'_'+run_id,log)
+         log.set_output_directory(out)
+         if paths_only:
+             log('Nur Pfadtest: keine NX-Testteile oder Maschinenbauteile erzeugt.')
+@@ -247,7 +273,7 @@
+                 attr(p,'SX_VERSION',model.VERSION);attr(p,'SX_JOURNAL_VERSION',JOURNAL_VERSION);attr(p,'SX_BAUGRUPPE',model.GROUPS[group])
+                 files.save(p,path);subpaths.append((group,path))
+                 log('Unterbaugruppe gespeichert: '+group)
+-            current='FRAESMASCHINE_CNC_BLECHENTWURF_07_2'
++            current='FRAESMASCHINE_CNC_BLECHENTWURF_07_3'
+             rootpath=files.filename(out,current)
+             root=files.create(rootpath,lambda target:newpart(session,target,log))
+             for g,path in subpaths:add_component(root,path,g,(0,0,0))
+@@ -291,7 +317,7 @@
+                 log('Abbruch im Vortest; in diesem Lauf wurden noch keine Maschinen-Einzelteile aufgebaut.')
+             log('Ausgabeordner dieses Laufs (ggf. unvollstaendig): '+out)
+         log.save(failed=True)
+-        try:NXOpen.UI.GetUI().NXMessageBox.Show('SX35Z CNC-Gesamtansicht 07.2',NXOpen.NXMessageBox.DialogType.Error,'Abbruch. Details im Listing Window und NX_Fehlerprotokoll.txt. Keine fertige Baugruppe behauptet.')
++        try:NXOpen.UI.GetUI().NXMessageBox.Show('SX35Z CNC-Gesamtansicht 07.3',NXOpen.NXMessageBox.DialogType.Error,'Abbruch. Details im Listing Window und NX_Fehlerprotokoll.txt. Keine fertige Baugruppe behauptet.')
+         except Exception:pass
+         raise
+ 
+--- 07.2/tests/test_nx_sheetmetal072.py
++++ 07.3/tests/test_nx_sheetmetal072.py
+@@ -222,7 +222,8 @@
+     def test_entrypoint_matches_new_adapter_patch(self):
+         source = (Path(__file__).resolve().parents[1] / 'NX_CNC_Gesamtansicht.py').read_text()
+         self.assertIn("!= '07.2'", source)
+-        self.assertIn('SX35Z_CNC_ANSICHT_07_2_', source)
++        # The sheet adapter stays 07.2; the formula patch uses its own 07.3 output.
++        self.assertIn('SX35Z_CNC_ANSICHT_07_3_', source)
+ 
+ 
+ if __name__ == '__main__':

@@ -1,0 +1,33 @@
+../mnt/data/SX35Z_CNC_Gesamtansicht_02/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+...................FF.E.
+======================================================================
+ERROR: test_motor_heads_are_outside_flange_and_body_is_reliefed (test_ausbau02.ViewerContractTests.test_motor_heads_are_outside_flange_and_body_is_reliefed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Gesamtansicht_02/tests/test_ausbau02.py", line 67, in test_motor_heads_are_outside_flange_and_body_is_reliefed
+    head=next(o for o in d['ops'] if o['label']=='Motorbefestigung_Kopf_hinter_Flansch')
+StopIteration
+
+======================================================================
+FAIL: test_motor_screw_heads_have_own_clearance (test_ausbau02.JointAccessTests.test_motor_screw_heads_have_own_clearance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Gesamtansicht_02/tests/test_ausbau02.py", line 45, in test_motor_screw_heads_have_own_clearance
+    self.assertIn('Motorbefestigung_Kopf_hinter_Flansch',[o['label'] for o in d['ops']])
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Motorbefestigung_Kopf_hinter_Flansch' not found in ['Motorbefestigung_Schaft', 'Motorbefestigung_Kopf_vorne']
+
+======================================================================
+FAIL: test_xy_motor_flange_retains_catalog_through_holes (test_ausbau02.SourceFlangeTests.test_xy_motor_flange_retains_catalog_through_holes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Gesamtansicht_02/tests/test_ausbau02.py", line 79, in test_xy_motor_flange_retains_catalog_through_holes
+    self.assertEqual(len(holes),4)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0 != 4
+
+----------------------------------------------------------------------
+Ran 26 tests in 2.709s
+
+FAILED (failures=2, errors=1)

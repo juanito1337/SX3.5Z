@@ -1,0 +1,50 @@
+FFFFF
+======================================================================
+FAIL: test_missing_api_fails_required (test_nx_sheetmetal06.AdapterTests.test_missing_api_fails_required)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/nx06_work/SX35Z_CNC_Gesamtansicht_06/tests/test_nx_sheetmetal06.py", line 30, in test_missing_api_fails_required
+    m=module();self.assertIsNotNone(m)
+               ~~~~~~~~~~~~~~~~~~~~^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_no_select_by_first_face (test_nx_sheetmetal06.AdapterTests.test_no_select_by_first_face)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/nx06_work/SX35Z_CNC_Gesamtansicht_06/tests/test_nx_sheetmetal06.py", line 21, in test_no_select_by_first_face
+    m=module();self.assertIsNotNone(m)
+               ~~~~~~~~~~~~~~~~~~~~^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_select_base_plane_unambiguous (test_nx_sheetmetal06.AdapterTests.test_select_base_plane_unambiguous)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/nx06_work/SX35Z_CNC_Gesamtansicht_06/tests/test_nx_sheetmetal06.py", line 16, in test_select_base_plane_unambiguous
+    m=module();self.assertIsNotNone(m)
+               ~~~~~~~~~~~~~~~~~~~~^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_solid_mode_explicit_not_a_sheetmetal_success (test_nx_sheetmetal06.AdapterTests.test_solid_mode_explicit_not_a_sheetmetal_success)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/nx06_work/SX35Z_CNC_Gesamtansicht_06/tests/test_nx_sheetmetal06.py", line 26, in test_solid_mode_explicit_not_a_sheetmetal_success
+    m=module();self.assertIsNotNone(m)
+               ~~~~~~~~~~~~~~~~~~~~^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_supported_modes_reject_unknown (test_nx_sheetmetal06.AdapterTests.test_supported_modes_reject_unknown)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/nx06_work/SX35Z_CNC_Gesamtansicht_06/tests/test_nx_sheetmetal06.py", line 12, in test_supported_modes_reject_unknown
+    m=module();self.assertIsNotNone(m,'new native sheetmetal adapter missing')
+               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : new native sheetmetal adapter missing
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=5)

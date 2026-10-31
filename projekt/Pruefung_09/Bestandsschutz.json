@@ -1,0 +1,32 @@
+{
+  "changed_existing_parts": [
+    "Staender_Blechschuerze_links",
+    "Staender_Blechschuerze_rechts",
+    "KSS_Serviceklappe_hinten",
+    "Schaltschrank_Hohlschale"
+  ],
+  "new_bodies": 125,
+  "unchanged_moving_door_parts": 49,
+  "unchanged_original_components": [
+    "Basis_Guss_Foto",
+    "Saeule_Guss_Foto",
+    "Kreuzschlitten_Guss_Detail",
+    "Arbeitstisch_Foto",
+    "Spindelkopf_Guss_Detail",
+    "Pinole_Huelse_Detail",
+    "Spindelnase_SK30_Normreferenz",
+    "Werkzeugspindel_Durchgehende_Huelle"
+  ],
+  "byte_identical_files_from_08": [
+    "nx_native.py",
+    "nx_files.py",
+    "nx_geometry.py",
+    "nx_sheetmetal06.py",
+    "nx_formeln073.py",
+    "modell_v4.py",
+    "Parameter.json",
+    "CNC_Parameter.json",
+    "Ausbau_Parameter.json"
+  ],
+  "original_nx_files_modified": false
+}

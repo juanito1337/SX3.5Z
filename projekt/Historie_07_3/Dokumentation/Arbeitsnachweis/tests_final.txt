@@ -1,0 +1,7 @@
+../mnt/data/SX35Z_CNC_Gesamtansicht_02/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+.........................
+----------------------------------------------------------------------
+Ran 27 tests in 3.020s
+
+OK

@@ -1,0 +1,9 @@
+{
+  "native_nx_executed": false,
+  "scope": "Fixed flagged sheet precursors vs fixed stand/enclosure parts only; not all machine, not formed NX bodies",
+  "fixed_sheet_count": 10,
+  "target_part_count": 66,
+  "conflicts": [],
+  "method": "OpenCascade intersections after AABB screening, overlap volume >0.01 mm3 flagged",
+  "manufacturing_released": false
+}

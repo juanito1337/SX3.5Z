@@ -1,0 +1,17 @@
+SX3.5Z Detailmodell v4 -- Native Einzelteile zuerst, danach Baugruppen.
+FOTO-REKONSTRUKTION; Anschlussmasse unbestaetigt. KEIN Fertigungsdatensatz.
+Journal-Version: 4.0
+Python: 3.10.12 (main, Mar  5 2024, 17:56:48) [MSC v.1929 64 bit (AMD64)]
+NXOpen-Modul: C:\Siemens\nx2406\nxbin\python\NXOpen.pyd
+Bitte bei Problemen die NX-Versionsnummer aus Hilfe / Info zusammen mit diesem Protokoll angeben.
+Traceback (most recent call last):
+  File "C:\Users\Jan\Downloads\SX35Z_Detailmodell_v4_NX_Gesamtpaket\SX35Z_Detailmodell_v4\NX_Detailbaugruppe_erzeugen.py", line 131, in main
+    mode=probe(session,params,log,os.path.join(out,'_API_Test'))
+  File "C:\Users\Jan\Downloads\SX35Z_Detailmodell_v4_NX_Gesamtpaket\SX35Z_Detailmodell_v4\NX_Detailbaugruppe_erzeugen.py", line 106, in probe
+    b.expression_factory.select();b.create_expressions();b.native_probe()
+  File "C:\Users\Jan\Downloads\SX35Z_Detailmodell_v4_NX_Gesamtpaket\SX35Z_Detailmodell_v4\nx_native.py", line 135, in select
+    raise RuntimeError("Dieses Journal unterstuetzt nur Millimeterteile.")
+RuntimeError: Dieses Journal unterstuetzt nur Millimeterteile.
+
+Betroffenes Teil: None
+Bereits gespeicherte Einzelteile bleiben erhalten; keine Vollstaendigkeitszusage: C:\Users\Jan\Downloads\SX35Z_Detailmodell_v4_NX_Gesamtpaket\SX35Z_Detailmodell_v4\NX_Output\SX35Z_v4_20261023_081935_352370

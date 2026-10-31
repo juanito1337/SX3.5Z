@@ -1,0 +1,100 @@
+import json,unittest
+from pathlib import Path
+import cnc_ansichtsmodell as m
+from enclosure_checks03 import body_bounds
+from tools.laengen_und_huellraum import signature
+ROOT=Path(__file__).resolve().parents[1]
+
+class LiftTests(unittest.TestCase):
+ def p(self):return m.load_parameters(ROOT/'Parameter.json')
+ def test_revision(self):self.assertEqual(m.VERSION,'CNC_ANSICHT_07')
+ def test_two_downward_segments(self):
+  r=m.door_layout(self.p())
+  self.assertEqual(len(r['leaves']),2)
+  self.assertEqual(r['direction'],[0,0,-1])
+ def test_closed_covers_opening_in_x_z(self):
+  r=m.door_layout(self.p());leaf=r['leaves'][0]
+  self.assertLessEqual(leaf['xmin'],r['opening_xmin'])
+  self.assertGreaterEqual(leaf['xmax'],r['opening_xmax'])
+  self.assertLessEqual(leaf['zmin'],r['opening_zmin'])
+  self.assertGreaterEqual(max(x['zmax'] for x in r['leaves']),r['opening_zmax'])
+ def test_open_leaves_clear_aperture_below(self):
+  r=m.door_layout(dict(self.p(),door_open=1));leaf=r['leaves'][0]
+  self.assertTrue(all(x['zmax']<=r['opening_zmin']-5 for x in r['leaves']))
+ def test_motion_is_rigid_in_z_only(self):
+  p=self.p();v=m.all_values(p);w=m.all_values(dict(p,door_open=1))
+  moving=[d for d in m.recipe() if d.get('door_leaf')]
+  self.assertGreaterEqual(len(moving),8)
+  for d in moving:
+   self.assertEqual(signature(d,v),signature(d,w),d['name'])
+   a=[m.evaluate(x,v) for x in d['datum']];b=[m.evaluate(x,w) for x in d['datum']]
+   self.assertAlmostEqual(a[0],b[0],msg=d['name']);self.assertAlmostEqual(a[1],b[1],msg=d['name'])
+   self.assertAlmostEqual(b[2]-a[2],-w['door_travel_'+d['door_leaf'].lower()],msg=d['name'])
+ def test_footprint_height_and_travels_unchanged(self):
+  p=self.p();self.assertEqual([p[k] for k in ('stand_w','stand_d','enclosure_h','travel_x','travel_y','z_travel_used')],[1650,1000,1200,500,200,240])
+  self.assertEqual(m.all_values(p)['workheight'],930)
+ def test_fixed_structure_does_not_exceed_roof(self):
+  r=m.door_layout(self.p());self.assertEqual(r['fixed_total_height_mm'],1952)
+  self.assertGreaterEqual(r['fixed_total_height_mm'],r['open_leaf_top_from_floor_mm'])
+ def test_old_horizontal_hardware_removed(self):
+  names=[d['name'] for d in m.recipe()]
+  self.assertFalse(any(x.startswith('Schiebetuer_') for x in names))
+  self.assertIn('Senktuer_UPPER_Rahmen',names);self.assertIn('Senktuer_LOWER_Rahmen',names)
+ def test_other_groups_numerically_unchanged(self):
+  snapshot=json.loads((ROOT/'tests/fixtures/unveraendert03.json').read_text())
+  v=m.all_values(self.p());ds=[d for d in m.recipe() if int(d['group'][:2])<=14 and not d['name'].startswith('Schrank_')]
+  self.assertEqual({d['name'] for d in ds},{n for n in snapshot if n in {a['name'] for a in m.recipe() if int(a['group'][:2])<=14 and not a['name'].startswith('Schrank_')}})
+  for d in ds:
+   old=snapshot[d['name']]
+   self.assertEqual(json.loads(json.dumps(signature(d,v))),old['signature'],d['name'])
+   self.assertEqual([m.evaluate(x,v) for x in d['datum']],old['datum'],d['name'])
+   self.assertEqual(d['material'],old['material'])
+ def test_guides_cover_carriage_travel(self):
+  ds=m.recipe();guides=[d for d in ds if d['name'].startswith('Senktuer_Fuehrung_')]
+  self.assertEqual(len(guides),4)
+  for f in (0,.25,.5,.75,1):
+   v=m.all_values(dict(self.p(),door_open=f));bounds=[body_bounds(d,v,m.evaluate) for d in guides]
+   sliders=[body_bounds(d,v,m.evaluate) for d in ds if d['name'].startswith('Senktuer_Schlitten_')]
+   self.assertEqual(len(sliders),8)
+   for b in sliders:
+    self.assertTrue(any(a[0]<b[0] and a[3]>b[3] and a[2]<=b[2] and a[5]>=b[5] for a in bounds))
+ def test_false_positions_rejected(self):
+  for f in (-1,1.1,True,float('nan')):
+   with self.assertRaises(ValueError):m.validate(dict(self.p(),door_open=f))
+ def test_safe_fallback_not_claimed(self):
+  rows=[d for d in m.recipe() if 'Fangsicherung' in d['name'] or 'Gewichtsausgleich' in d['name']]
+  self.assertGreaterEqual(len(rows),2)
+  for d in rows:self.assertFalse(d['manufacturing_released'])
+ def test_browser_moves_on_z(self):
+  s=(ROOT/'tools/viewer_template.html').read_text()
+  self.assertIn('doorShiftZ',s)
+  self.assertNotIn('w[0]+=m.doorShift',s)
+
+if __name__=='__main__':unittest.main()
+
+class ViewerVerticalProjectionTests(unittest.TestCase):
+ def test_projected_vertices_are_shifted_on_z(self):
+  s=(ROOT/'tools/viewer_template.html').read_text()
+  self.assertIn('p[2]+vertDoorShiftZ[vi]*(doorFraction-DOOR_REFERENCE)-center[2]',s)
+  self.assertNotIn('p[0]+vertDoorShiftZ',s)
+ def test_face_sorting_follows_vertical_motion(self):
+  s=(ROOT/'tools/viewer_template.html').read_text()
+  self.assertIn('s.doorShiftZ*(doorFraction-DOOR_REFERENCE)*view[2]',s)
+
+class LiftSupportTests(unittest.TestCase):
+ def test_supports_end_at_upper_tie_not_inside(self):
+  p=m.load_parameters(ROOT/'Parameter.json');v=m.all_values(p);ds={d['name']:d for d in m.recipe()}
+  tie=body_bounds(ds['Senktuer_Obertraverse'],v,m.evaluate)
+  for k in ('L','R'):
+   post=body_bounds(ds['Senktuer_Traeger_'+k],v,m.evaluate)
+   self.assertAlmostEqual(post[5],tie[2])
+ def test_counterbalance_reserves_clear_fixed_front_glass(self):
+  p=m.load_parameters(ROOT/'Parameter.json');v=m.all_values(p);ds=m.recipe()
+  for d in [d for d in ds if d['name'].startswith('Senktuer_Gewichtsausgleich_')]:
+   a=body_bounds(d,v,m.evaluate)
+   for e in [d for d in ds if d['name'].startswith('Einhausung_Festfeldscheibe_')]:
+    b=body_bounds(e,v,m.evaluate)
+    self.assertFalse(all(min(a[k+3],b[k+3])-max(a[k],b[k])>1e-6 for k in range(3)))
+ def test_sampling_tool_moves_z(self):
+  s=(ROOT/'tools/tuerbewegung_pruefen.py').read_text()
+  self.assertIn('motion_delta(d,v,q)',s)

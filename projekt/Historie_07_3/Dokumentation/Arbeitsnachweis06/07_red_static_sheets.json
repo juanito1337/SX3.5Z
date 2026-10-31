@@ -1,0 +1,107 @@
+[
+  {
+    "a": "Einhausung_Rueckwand",
+    "b": "Einhausung_Seitenwand_links",
+    "volume_mm3": 55199.99999999999
+  },
+  {
+    "a": "Einhausung_Dach",
+    "b": "Einhausung_Seitenwand_links",
+    "volume_mm3": 45999.999999999985
+  },
+  {
+    "a": "Einhausung_Seitenwand_links",
+    "b": "Einhausung_Tuerpfosten_0",
+    "volume_mm3": 55200.0
+  },
+  {
+    "a": "Einhausung_Seitenwand_links",
+    "b": "Einhausung_Tuerriegel_0",
+    "volume_mm3": 3180.0
+  },
+  {
+    "a": "Einhausung_Seitenwand_links",
+    "b": "Einhausung_Tuerriegel_1",
+    "volume_mm3": 3179.9999999999995
+  },
+  {
+    "a": "Einhausung_Rueckwand",
+    "b": "Einhausung_Seitenwand_rechts",
+    "volume_mm3": 55199.99999999999
+  },
+  {
+    "a": "Einhausung_Dach",
+    "b": "Einhausung_Seitenwand_rechts",
+    "volume_mm3": 45999.999999999985
+  },
+  {
+    "a": "Einhausung_Seitenwand_rechts",
+    "b": "Einhausung_Tuerpfosten_1",
+    "volume_mm3": 55200.0
+  },
+  {
+    "a": "Einhausung_Seitenwand_rechts",
+    "b": "Einhausung_Tuerriegel_0",
+    "volume_mm3": 3180.0
+  },
+  {
+    "a": "Einhausung_Seitenwand_rechts",
+    "b": "Einhausung_Tuerriegel_1",
+    "volume_mm3": 3180.0
+  },
+  {
+    "a": "Einhausung_Dach",
+    "b": "Einhausung_Tuerriegel_1",
+    "volume_mm3": 2760.0
+  },
+  {
+    "a": "Einhausung_Festfeld_links",
+    "b": "Senktuer_Obertraverse",
+    "volume_mm3": 420.0
+  },
+  {
+    "a": "Einhausung_Festfeld_links",
+    "b": "Senktuer_Kassette_Rueckwand",
+    "volume_mm3": 379.99999999999994
+  },
+  {
+    "a": "Einhausung_Festfeld_rechts",
+    "b": "Senktuer_Obertraverse",
+    "volume_mm3": 420.0
+  },
+  {
+    "a": "Einhausung_Festfeld_rechts",
+    "b": "Senktuer_Kassette_Rueckwand",
+    "volume_mm3": 379.99999999999994
+  },
+  {
+    "a": "Senktuer_Federkanal06_L",
+    "b": "Senktuer_Kassette_Front",
+    "volume_mm3": 2399.9999999999995
+  },
+  {
+    "a": "Senktuer_Federkanal06_R",
+    "b": "Senktuer_Kassette_Front",
+    "volume_mm3": 2399.9999999999995
+  },
+  {
+    "a": "Senktuer_Fangsicherung_L_Bauraum",
+    "b": "Senktuer_Federkanal06_L",
+    "volume_mm3": 3499.999999999999
+  },
+  {
+    "a": "Senktuer_Federkanal06_L",
+    "b": "Senktuer_Kassette_Boden",
+    "volume_mm3": 484.0
+  },
+  {
+    "a": "Senktuer_Fangsicherung_R_Bauraum",
+    "b": "Senktuer_Federkanal06_R",
+    "volume_mm3": 3499.999999999999
+  },
+  {
+    "a": "Senktuer_Federkanal06_R",
+    "b": "Senktuer_Kassette_Boden",
+    "volume_mm3": 484.0
+  }
+]

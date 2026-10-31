@@ -1,0 +1,211 @@
+{
+  "status": "PARTIAL_ENGINEERING_DELIVERY_NOT_ORDER_OR_BUILD_RELEASED",
+  "revision": "08",
+  "date": "2026-10-30",
+  "tests": {
+    "design_data_regressions": 28,
+    "nx_adapter_offline_regressions": 67,
+    "total": 95,
+    "results": "PASS",
+    "native_nx_runtime": false,
+    "scope": "Offline-Code; reale NX-Funktionen teilweise nachgebildet"
+  },
+  "python310_grammar_files": 41,
+  "geometry": {
+    "bodies": 435,
+    "operations": 1470,
+    "independent_kernel": "OpenCascade via CadQuery",
+    "single_solids_valid": true,
+    "selected_static_pairs": 28,
+    "open_intersections": 6,
+    "full_motion_collision_check": false,
+    "native_nx_executed": false
+  },
+  "model_bom": {
+    "version": "CNC_UMSETZUNG_08",
+    "parts": 435,
+    "operations": 1470,
+    "catalog_rows": 48,
+    "catalog_instances_in_model": 84,
+    "manufactured_item_rows": 133,
+    "model_map_rows": 435,
+    "parameter_sha256": "6090a975e6b76daccfa28239e471e11b4a53eb81a9dd070d88acb9706dfaf88f",
+    "recipe_sha256": "ca60a7f8b718ef2572467b506f76a05bcdb481938f11236b55910d36e94959d2",
+    "catalog_sha256": "34d81a84b574594b105f279156e93f733b9a869976b3476f7264d511ac3fd7a2",
+    "native_nx_executed": false,
+    "all_released": false,
+    "spindles": [
+      {
+        "axis": "X",
+        "nominal_diameter_mm": 16.0,
+        "lead_mm": 5.0,
+        "envelope_core_length_mm": 763.0,
+        "total_envelope_length_mm": 853.0,
+        "required_reserve_mm": 10.0,
+        "minimum_reserve_mm": 20.0,
+        "poses": [
+          {
+            "pose_mm": -250.0,
+            "left_mm": 520.0,
+            "right_mm": 189.0
+          },
+          {
+            "pose_mm": 250.0,
+            "left_mm": 20.0,
+            "right_mm": 689.0
+          }
+        ],
+        "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH",
+        "note": "Entwurf: nominaler Gewindekern ohne Ausläufe; Lieferzeichnung und Maschinenaufmaß fehlen. Keine Bestelllänge.",
+        "order_length_mm": null
+      },
+      {
+        "axis": "Y",
+        "nominal_diameter_mm": 16.0,
+        "lead_mm": 5.0,
+        "envelope_core_length_mm": 335.0,
+        "total_envelope_length_mm": 425.0,
+        "required_reserve_mm": 10.0,
+        "minimum_reserve_mm": 25.0,
+        "poses": [
+          {
+            "pose_mm": -100.0,
+            "left_mm": 225.0,
+            "right_mm": 56.0
+          },
+          {
+            "pose_mm": 100.0,
+            "left_mm": 25.0,
+            "right_mm": 256.0
+          }
+        ],
+        "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH",
+        "note": "Entwurf: nominaler Gewindekern ohne Ausläufe; Lieferzeichnung und Maschinenaufmaß fehlen. Keine Bestelllänge.",
+        "order_length_mm": null
+      },
+      {
+        "axis": "Z",
+        "nominal_diameter_mm": 20.0,
+        "lead_mm": 5.0,
+        "envelope_core_length_mm": 484.0,
+        "total_envelope_length_mm": 595.0,
+        "required_reserve_mm": 10.0,
+        "minimum_reserve_mm": 23.25,
+        "poses": [
+          {
+            "pose_mm": 0,
+            "left_mm": 263.25,
+            "right_mm": 159.25
+          },
+          {
+            "pose_mm": 240.0,
+            "left_mm": 23.25,
+            "right_mm": 399.25
+          }
+        ],
+        "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH",
+        "note": "Entwurf: nominaler Gewindekern ohne Ausläufe; Lieferzeichnung und Maschinenaufmaß fehlen. Keine Bestelllänge.",
+        "order_length_mm": null
+      }
+    ]
+  },
+  "documents": {
+    "manual_pdf_pages": 21,
+    "editable_docx": true,
+    "xlsx_sheets": [
+      "Start",
+      "Einkauf",
+      "Fertigung",
+      "Aufmass",
+      "Bearbeitung",
+      "Freigaben",
+      "Modell",
+      "Quellen",
+      "Auslegung"
+    ],
+    "xlsx_formula_errors": 0,
+    "xlsx_catalog_rows_match_json_csv": true,
+    "manual_visual_QA": "Alle 21 Seiten der Erstfassung geprüft; geänderte Seiten15,16,17,20,21 nach finalem Render erneut geprüft",
+    "xlsx_visual_QA": "Start, Auslegung und Einkauf geprüft"
+  },
+  "browser": {
+    "browser": "Chromium via Playwright set_content (file URLs blocked in host policy)",
+    "native_nx_executed": false,
+    "door_states_checked": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "door_motion": "two segments -Z, upper 1030 mm / lower 515 mm",
+    "render_changes_when_open": true,
+    "rotation_control": true,
+    "zoom_control": true,
+    "modes_checked": 7,
+    "javascript_errors": []
+  },
+  "remaining": {
+    "schema": "SX35Z_RELEASE_08",
+    "build_ready": false,
+    "purchase_release": false,
+    "native_nx_run_this_revision": false,
+    "note": "Dieser Export ist ein Planungsnachweis, keine externe Freigabeautomatik. Selbst ausgefüllte Checkboxen sind keine Sicherheitsvalidierung.",
+    "missing_measurement_count": 29,
+    "missing_measurements": [
+      "X01",
+      "X02",
+      "X03",
+      "X04",
+      "X05",
+      "X06",
+      "X07",
+      "X08",
+      "Y01",
+      "Y02",
+      "Y03",
+      "Y04",
+      "Y05",
+      "Y06",
+      "Y07",
+      "Y08",
+      "Z01",
+      "Z02",
+      "Z03",
+      "Z04",
+      "Z05",
+      "Z06",
+      "Z07",
+      "Z08",
+      "Z09",
+      "C01",
+      "S01",
+      "D01",
+      "D02"
+    ],
+    "open_gates": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  "review": {
+    "type": "Autoren-Selbstprüfung",
+    "independent_reviewer": false,
+    "notes": "Kein Subagent oder externe Fachabnahme verfügbar; keine Sicherheitsfreigabe."
+  },
+  "limits": [
+    "Keine hier erzeugten nativen .prt-Dateien",
+    "Keine Original-Hersteller-STEP-Dateien beschafft; gekennzeichnete Kataloghüllen und Reserven",
+    "Maschinenseitige Anschlussmaße fehlen",
+    "Fertigungsgerechte Einzelzeichnungen/Abwicklungen und vollständiger Stromlaufplan fehlen",
+    "Dynamische Antriebs-, Sicherheits-, Tür- und Untergestellauslegung offen",
+    "Preise und Lieferverfügbarkeit nicht bestätigt"
+  ]
+}

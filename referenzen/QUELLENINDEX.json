@@ -1,0 +1,734 @@
+{
+  "date": "2026-10-31",
+  "note": "Lokale Herkunftserfassung, keine erneute technische Verifizierung der Herstellerangaben.",
+  "files": [
+    {
+      "file": "referenzen/anforderungen/Eingefügter Text(7).txt",
+      "original_name": "Eingefügter Text(7).txt",
+      "source_kind": "USER_REQUIREMENTS",
+      "sha256": "2b89ee279c12d88f8823e5fe367d9b907243fad010806f70c22fd9fd42d08bd9",
+      "note": "Original unverändert; verbindliche NX-Anforderungen."
+    },
+    {
+      "file": "referenzen/maschine/SX3.5 Fräse.pdf",
+      "original_name": "SX3.5 Fräse.pdf",
+      "source_kind": "MANUAL_OR_OCR",
+      "sha256": "f9c066565f49d3f348268f73377b57a4f2fbae612e804aa01a97d27b0c897c0b",
+      "note": "Nur übernommen; OCR kann Lesefehler enthalten. Original und eigene Maschine abgleichen."
+    },
+    {
+      "file": "referenzen/maschine/SX3.5_Fraese_gerade_OCR.pdf",
+      "original_name": "SX3.5_Fraese_gerade_OCR.pdf",
+      "source_kind": "MANUAL_OR_OCR",
+      "sha256": "c0815a2efd7feeaf6406654e367d1049a3721506805f23fd8503fd43967475aa",
+      "note": "Nur übernommen; OCR kann Lesefehler enthalten. Original und eigene Maschine abgleichen."
+    },
+    {
+      "file": "referenzen/maschine/SX3.5_Fraese_OCR_Text.txt",
+      "original_name": "SX3.5_Fraese_OCR_Text.txt",
+      "source_kind": "MANUAL_OR_OCR",
+      "sha256": "834e2e9c3057de28547268d9b06b65d7731fc7f35e93531e6069c110df64e330",
+      "note": "Nur übernommen; OCR kann Lesefehler enthalten. Original und eigene Maschine abgleichen."
+    },
+    {
+      "file": "referenzen/bf20/BF20_alt.zip",
+      "original_name": "BF20_alt.zip",
+      "source_kind": "USER_REFERENCE_ARCHIVE",
+      "sha256": "05562726440ab2e3ffbd2c5cde2a791df83d0643d9f3b1c20507486a185d8e51",
+      "note": "BF20-Referenz, nicht ohne Schnittstellenprüfung auf SX3.5Z übertragen."
+    },
+    {
+      "file": "referenzen/bf20/BF20_neu.zip",
+      "original_name": "BF20_neu.zip",
+      "source_kind": "USER_REFERENCE_ARCHIVE",
+      "sha256": "101062a044b1723729c65884000ed20ef11f7f4714352a2af6f2eb1f0bc99c62",
+      "note": "BF20-Referenz, nicht ohne Schnittstellenprüfung auf SX3.5Z übertragen."
+    },
+    {
+      "file": "referenzen/archiv/SX35Z_NX_Journale_v4_8.zip",
+      "original_name": "SX35Z_NX_Journale_v4_8.zip",
+      "source_kind": "HISTORICAL_CODE",
+      "sha256": "8189af9c0aaa2cc352887c160b639e111bcf29444a150e4522a805dd877b8112",
+      "note": "Getrennter Zweig; nicht mit projekt/ überkopieren. Entwicklung10 enthält historische Bestandsanalyse."
+    },
+    {
+      "file": "referenzen/archiv/CNC_UMBAU_NXOPEN_Entwicklung_10.zip",
+      "original_name": "CNC_UMBAU_NXOPEN_Entwicklung_10.zip",
+      "source_kind": "HISTORICAL_CODE",
+      "sha256": "874ffda53fac3390affd050d4ed99e985f0ef404bdac5bc4c8eab4cdd792b403",
+      "note": "Getrennter Zweig; nicht mit projekt/ überkopieren. Entwicklung10 enthält historische Bestandsanalyse."
+    },
+    {
+      "file": "referenzen/fotos/1000047824.jpg",
+      "original_name": "1000047824.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "c17ee997218bf8ecd827a0dee353814afa70a6c0784394374e94610255c383f7",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047826.jpg",
+      "original_name": "1000047826.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "fcb727b390221e66637a45cdcac916b81e563a1bac1fcedc225327468f6619dd",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047828.jpg",
+      "original_name": "1000047828.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "2f0ee2530628d34d66e19de9faf4d35ec3a1dc1aaa372ef9eea05944930da21e",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047829.jpg",
+      "original_name": "1000047829.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "6b2c7054a5b84fe57a659f988295508c424232e3fc9bc9e1186fc68d54feed44",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047830.jpg",
+      "original_name": "1000047830.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "8cf6f74f5abf15a2ca0a09e94ceff7659e9f2e30b8372401d344d6ae06f4ad98",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047831.jpg",
+      "original_name": "1000047831.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "b5a6ba8954772eaf9619b6d8037b118b81c6c29e8512ba5a6765254eb4554a3f",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047833.jpg",
+      "original_name": "1000047833.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "1dccfb086b8f88077aa9b511c443dfbc84892447068774479d520a1b9b3837ae",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047834.jpg",
+      "original_name": "1000047834.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "f33fb22e09de5391c9abe5c6c77a46c784b15a5904b8a3ae2dba95864d7a4065",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047835.jpg",
+      "original_name": "1000047835.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "09bfcc7872a39ddf0b30e596d6d14182520e80514f02635e0d3a8977286a10ad",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047836.jpg",
+      "original_name": "1000047836.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "0bf1696b99caeb0be71e91e53e9d6837f1ced6e0e0571d8c38d3c4e3070f8e9d",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047837.jpg",
+      "original_name": "1000047837.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "187dfa751d2ba1a7699cf623fd128aa880e57df521bfec9e1f463dfd23fb5a08",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047838.jpg",
+      "original_name": "1000047838.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "2269d8e9ad51b7d9d7327be1fea433093a7c99a688db716d826ff1f18fe7db7a",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047839.jpg",
+      "original_name": "1000047839.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "73a1e7772a0fb65908a72ebb4cb975cf2f127a606d76ff2ea6a92b07e7867e77",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047840.jpg",
+      "original_name": "1000047840.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "bc836826ff7669541ad17b0d878b2cebfb02c0a7e3283f64a6fee14d2ad1a940",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047841.jpg",
+      "original_name": "1000047841.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "aa5890905cead72ffb7c91bb5af42ec5e87e212cec5a9f930d0ccc88fd8632af",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047842.jpg",
+      "original_name": "1000047842.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "df5c35cfbc0d3e7ffedf9a2a31e7cc9e36558b7480a058f50e634465a6224f94",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047959.jpg",
+      "original_name": "1000047959.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "e42bc4f20c622945c82b46c24fd9346f744215e2da384f4d8dafc7f7016b644e",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047960.jpg",
+      "original_name": "1000047960.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "2538808e9b29857f4d33b7de8ac38b34ca352a15fe152bf664f7509d0a49c7b4",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047961.jpg",
+      "original_name": "1000047961.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "887ff3c250213d7d7090e6e0ed3c4283256e679a9cba0d0b012b0c27d253f723",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047962.jpg",
+      "original_name": "1000047962.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "887e21651e6d6170478c52d60310c5b4e104b2d0c13592a22036b3aa1ca02a8c",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047963.jpg",
+      "original_name": "1000047963.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "11666f0e238c968059367554cfe21c331ae0feb4aa20e69c4f97748f85689be8",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047964.jpg",
+      "original_name": "1000047964.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "4d030e8d62b812f3b0d54f6349f96b141fbbe106c1c4aec2ae5af2a5d6ba9f85",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047965.jpg",
+      "original_name": "1000047965.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "bb3077a1b860a161c203540ad7855141e96c1f3a8ad021173f8269d4d7cd1807",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047966.jpg",
+      "original_name": "1000047966.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "ea55847a6e8201322df26696d820d1a05b70e0c449c7059be3795ddeaca06295",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047969.jpg",
+      "original_name": "1000047969.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "94c60b571223d1560b9b2995ee0284f6480416a000bffab1b8c32ae60a076c60",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047970.jpg",
+      "original_name": "1000047970.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "fe142b923ca7158384522f8aa7966219f1565154c42ac8927cb080566213d053",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047972.jpg",
+      "original_name": "1000047972.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "6e4c7f068ec95457fbbf3a5277f76b04a655b99867b3e042c32819e1887f903c",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047981.jpg",
+      "original_name": "1000047981.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "bba8e68966966e7ece63bc871c9055fbeb9d8d9e1ae7ed844dad1970b0811d1b",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047983.jpg",
+      "original_name": "1000047983.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "e0c8ddb8bc934992f2957b209ad865d100a856146c5916fe605ad9ae09a767b1",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047985.jpg",
+      "original_name": "1000047985.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "6176bd01706685e924e70f73c8010d3c0977bb4e023615d2f6c398fc4f79ecc8",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047987.jpg",
+      "original_name": "1000047987.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "9172ad7ae1ccb288b41da106bbd326d35f875b89fafe8d6be68dbf74c04bea60",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047988.jpg",
+      "original_name": "1000047988.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "69583b2a95f44264358da59f4cc7530cf535e6b641f858ef6e3de735413f0cc0",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047989.jpg",
+      "original_name": "1000047989.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "66c96bbcc355b000f09ecc41ab926e0506c0a519c36c7197d2436a41f3ef2f97",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047990.jpg",
+      "original_name": "1000047990.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "dcbfafcb54f5d205b8272578cfc91abfadcbf5be8340d3d3e56819c41652dc0a",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047991.jpg",
+      "original_name": "1000047991.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "656da7cd73b09b050f428dac5cc0fbcd33478fc75a60284112bc7ef67a3550d6",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047992.jpg",
+      "original_name": "1000047992.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "d8deb8a3f01571d6bde4045fb2c2c6cbc9950ee8e996697bd00a9f09bef1855f",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047993.jpg",
+      "original_name": "1000047993.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "d1a8755b31bd782582ef2e2edae9a2f418843b20ac905ba265576ceb46a07b65",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047994.jpg",
+      "original_name": "1000047994.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "4be7aedca602a3f92027cd1ac939d93f650fd1714287575227a630c5bbecc130",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047995.jpg",
+      "original_name": "1000047995.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "a84c9e1b58b79c4581db81d2002ff9f29b43e65a2660f50b503097ebf5578037",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047996.jpg",
+      "original_name": "1000047996.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "bc65786cdbb8c5fc8ac426639fa94f7c5980525c465f6b38587312ee9f4f7d97",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047997.jpg",
+      "original_name": "1000047997.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "cf47df250e4905a792ba8a2b25988a74e20a78a84b54a21c833eb3d0c9c3ea04",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047998.jpg",
+      "original_name": "1000047998.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "7cdb8c052ca66e57c941e9a5550f72450541d60547b961d19927b75389c0e8c6",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000047999.jpg",
+      "original_name": "1000047999.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "96206275cdd2c8393ee9149408e35a386a11baf537cb36f0d879a51d48e7a875",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048000.jpg",
+      "original_name": "1000048000.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "b42346927fb28655e3e98bfb24b6769c97380689737b153e290d53b8c0750214",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048001.jpg",
+      "original_name": "1000048001.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "c054072a352527caab129abff3c5ca039ad5e8ba216afa0a03b25f00eb676f31",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048002.jpg",
+      "original_name": "1000048002.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "3f1aeef25371971d730662ab1006f93ab22323c22f4de5648a96fc7a919bd9b0",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048003.jpg",
+      "original_name": "1000048003.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "a16ec53b6281b6fda40f0f20a621ee5a3dcfc6bac60f23e35867ca54f43aafed",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048004.jpg",
+      "original_name": "1000048004.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "e7e36ea3186be6f5a22c0d13bf86750941101c03470c84d8b47d72c36f1f636c",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048006.jpg",
+      "original_name": "1000048006.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "c037f08d4cfd74913b7a4123533e3b34cbd4995fc9d846cfd9f264da87e63296",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048007.jpg",
+      "original_name": "1000048007.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "b3fdb9bb780e3ffc6be05807a1b2a969fa32d9d543a0b809058dddd9340633b7",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048008.jpg",
+      "original_name": "1000048008.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "059c7efedd81984d1fdf35c720f273865d5f8feb3f7d256d18f5cf38a5be184e",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048009.jpg",
+      "original_name": "1000048009.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "3bf2028603a99c4b13e60f0f66766de7c508fca78454966842ee73b34033dbb2",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048010.jpg",
+      "original_name": "1000048010.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "b6a5920b2dc537524d337c02fb9071368b6ffeccaef752c0fb3a4eb5b63585a7",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048011.jpg",
+      "original_name": "1000048011.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "12664530e23ae152d23ec13f65e89b0ce7dd550b7ae14565ef85790e25bcd412",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048012.jpg",
+      "original_name": "1000048012.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "90f0fe8560c00e56e7c33e0c8fa72d69c27471e6318441b6f7084d44f7e415f9",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048013.jpg",
+      "original_name": "1000048013.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "ff082f5371296931fbf73da493d3dc87cc864049b3809bcbb2f9b757ea048e49",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048014.jpg",
+      "original_name": "1000048014.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "a93509db7320b0c199ce418254e5bbf7ed71b4c2f99e72d039e4579f4f4457be",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048015.jpg",
+      "original_name": "1000048015.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "5710c9316cd82c997c10c8450b43cce3ce1cf431b665731b2044a0e5080954fd",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048016.jpg",
+      "original_name": "1000048016.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "9715b5d7a17ba875bab8b5933638f15a2ebe93fb53e11cfd5e4dd3d5b0ac739b",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048017.jpg",
+      "original_name": "1000048017.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "b9783bce05c0636b299acb1391d4a83b0ebce7539f9b6fcc20d37591854a31c0",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048018.jpg",
+      "original_name": "1000048018.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "f3b5a5427c3102e13cccfb9b6554924fa6096520b930e2b63f44b3d4f9087b7a",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048019.jpg",
+      "original_name": "1000048019.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "c57725a956c2803c06f00df2afbb39138cee3cedc4b785f48d1ad603dc1fd0d9",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048020.jpg",
+      "original_name": "1000048020.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "0c0dbc75587a582c2c0e5f0787d00b7318865ceece31b7cf5bf2e1731822037c",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048022.jpg",
+      "original_name": "1000048022.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "250e5cbcead4ff6ed742e043f1f9119525cf55cb0fcc1b97d4ce5ebe2dbd37e2",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048024.jpg",
+      "original_name": "1000048024.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "16cda6f821d5bc9296676f088c43f9ffabde6e5d6e0dff6e65edf14d4951ed99",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048025.jpg",
+      "original_name": "1000048025.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "719ea8aef65ff6c3b75ef4e3295f1ac365a97b88f7b1909f9baa4392c5eaa676",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048026.jpg",
+      "original_name": "1000048026.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "c1733d56071b944c74d1323d722e667d4e08d0d1e3fcad3961e445e8abd4ed80",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048027.jpg",
+      "original_name": "1000048027.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "ae744ea8f0d69207b299eb5cc9688d7c455e56abf659e042df1a550d661f24ee",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048028.jpg",
+      "original_name": "1000048028.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "563d4ed2cf9265e1bdf4bbbc029a5cd0c914ef4e7d92bad434277db7479251ee",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048029.jpg",
+      "original_name": "1000048029.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "f39a3db5e322326959e91cdf3843eaf69a225f42b0653361e86ad4328f3cc6ce",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048031.jpg",
+      "original_name": "1000048031.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "c29117911d52b08ce870cf1e9319f12b6b29ab50e3cb9d4da021cf7490eb013d",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/fotos/1000048033.jpg",
+      "original_name": "1000048033.jpg",
+      "source_kind": "USER_PHOTO",
+      "sha256": "8fc7281b6b72d33be1887b0647d2ee5db2985dc074baf1687b2a715b0c9c5bf3",
+      "note": "Kein kalibrierter Messdatensatz; Originaldatei unverändert."
+    },
+    {
+      "file": "referenzen/nx_screenshots/image(20261026-155908).png",
+      "original_name": "image(20261026-155908).png",
+      "source_kind": "USER_CAD_SCREENSHOT",
+      "sha256": "9cf99e211ed3a3975001c27e7c5da18d585a326b560657e3e98ba90a3a8c2550",
+      "note": "Älterer Modellstand; Screenshot ist kein Maßnachweis."
+    },
+    {
+      "file": "referenzen/nx_screenshots/image(20261028-154227).png",
+      "original_name": "image(20261028-154227).png",
+      "source_kind": "USER_CAD_SCREENSHOT",
+      "sha256": "30a52eed7ef6e06f831dca3a53f42dc84dd0b5a226745f5efd42d12251990bf3",
+      "note": "Älterer Modellstand; Screenshot ist kein Maßnachweis."
+    },
+    {
+      "file": "referenzen/nx_screenshots/image(20261028-154258).png",
+      "original_name": "image(20261028-154258).png",
+      "source_kind": "USER_CAD_SCREENSHOT",
+      "sha256": "91ecb9780a4e6b8e4b126803b7ba57303714255b054c981963e1b48fd95393c0",
+      "note": "Älterer Modellstand; Screenshot ist kein Maßnachweis."
+    },
+    {
+      "file": "referenzen/nx_screenshots/image(20261028-154335).png",
+      "original_name": "image(20261028-154335).png",
+      "source_kind": "USER_CAD_SCREENSHOT",
+      "sha256": "4909c38b8753a9cccc508000cdc71577d24e408bffcc03b015fb270ed5d10392",
+      "note": "Älterer Modellstand; Screenshot ist kein Maßnachweis."
+    },
+    {
+      "file": "referenzen/nx_screenshots/image(20261028-154431).png",
+      "original_name": "image(20261028-154431).png",
+      "source_kind": "USER_CAD_SCREENSHOT",
+      "sha256": "d4f3e5f708c689f8b6c9421a4b0efe0aaccab7d7cb374725e1e907cfffa70602",
+      "note": "Älterer Modellstand; Screenshot ist kein Maßnachweis."
+    },
+    {
+      "file": "referenzen/nx_screenshots/image(20261028-154505).png",
+      "original_name": "image(20261028-154505).png",
+      "source_kind": "USER_CAD_SCREENSHOT",
+      "sha256": "377bd9195057e2750e700b7957a5266a0dccbb08da0eb6ad052c9e552abce969",
+      "note": "Älterer Modellstand; Screenshot ist kein Maßnachweis."
+    },
+    {
+      "file": "referenzen/nx_screenshots/image(20261028-154548).png",
+      "original_name": "image(20261028-154548).png",
+      "source_kind": "USER_CAD_SCREENSHOT",
+      "sha256": "760e35eb30ba6fcbfd29113b723b0616fd5c6bb2edb4727e797807763de5c2b9",
+      "note": "Älterer Modellstand; Screenshot ist kein Maßnachweis."
+    },
+    {
+      "file": "referenzen/konzeptbilder/compact_cnc_mill_enclosure_render.png",
+      "original_name": "compact_cnc_mill_enclosure_render.png",
+      "source_kind": "GENERATED_CONCEPT_IMAGE",
+      "sha256": "b88fbb9602f8044e5e66cc694f55bb63d613009bf2e5152aaa9148a7bf3c5f17",
+      "note": "Nur gestalterische Referenz, keine maßhaltige CAD-Geometrie."
+    },
+    {
+      "file": "referenzen/konzeptbilder/exploded_cnc_milling_machine_interior.png",
+      "original_name": "exploded_cnc_milling_machine_interior.png",
+      "source_kind": "GENERATED_CONCEPT_IMAGE",
+      "sha256": "8fc8dfbad9d5b37f6e8b9660be732157f84763a4d13001f4cb64c6a010851145",
+      "note": "Nur gestalterische Referenz, keine maßhaltige CAD-Geometrie."
+    },
+    {
+      "file": "referenzen/konzeptbilder/imagegen.png",
+      "original_name": "imagegen.png",
+      "source_kind": "GENERATED_CONCEPT_IMAGE",
+      "sha256": "b88fbb9602f8044e5e66cc694f55bb63d613009bf2e5152aaa9148a7bf3c5f17",
+      "note": "Nur gestalterische Referenz, keine maßhaltige CAD-Geometrie."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll(1).txt",
+      "original_name": "NX_Fehlerprotokoll(1).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "a0d95e040f890c51cfce8423a776513327279fd6208287b35e5f313482b2d81f",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll(2).txt",
+      "original_name": "NX_Fehlerprotokoll(2).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "f236af7968530c55cb3a4c3d68c00ba59ef23c93074413789ed5b12e4aaf9d69",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll(3).txt",
+      "original_name": "NX_Fehlerprotokoll(3).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "f0d695d7da48e0238066e178fc8b5ad206d1cf46e55707a7a239f1eb771dee02",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll(4).txt",
+      "original_name": "NX_Fehlerprotokoll(4).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "20545f6bed3739a94eee615ede276bc1186f5bf5ecfa90cd94be7cfbdb726aa8",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll(5).txt",
+      "original_name": "NX_Fehlerprotokoll(5).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "d54027b1933149a11212ab3a238fe9bb44fca8c397295212647b13953bf1bcd6",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll(6).txt",
+      "original_name": "NX_Fehlerprotokoll(6).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "63ed208ebbcfae54f20be8d1dbbfc3587696c571b3a89d0e6438c2a7ba93d6e8",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll(7).txt",
+      "original_name": "NX_Fehlerprotokoll(7).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "d0493bff52e4ab69245cb21fd81d0d412003eacd66de84484bb4e9e203b2a9c8",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll(8).txt",
+      "original_name": "NX_Fehlerprotokoll(8).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "26c94b7975ff9e030ca258df46b8afef44d49ddc00ddcbd7d1105dd1251399d8",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/NX_Fehlerprotokoll.txt",
+      "original_name": "NX_Fehlerprotokoll.txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "fab233f00b38f3b00bf1a3a8c829fa3174b59396e2a80a67af85ce5f6658c154",
+      "note": "Historisch, enthält lokale Benutzernamen/Pfade. Nicht als aktueller 09-Gesamtlauf ausgeben."
+    },
+    {
+      "file": "referenzen/nx_protokolle/Eingefügter Text(8).txt",
+      "original_name": "Eingefügter Text(8).txt",
+      "source_kind": "USER_NX_LOG",
+      "sha256": "58c6894e230281e9a5f979dd40cb6d56a18c5ad72902745f3354df741b29c19f",
+      "note": "Historischer 07-Fehlerbericht, keine zusätzliche Projektanforderung."
+    },
+    {
+      "file": "referenzen/patch_hinweise/SX35Z_NX_Fix_07_1_Anleitung.md",
+      "original_name": "SX35Z_NX_Fix_07_1_Anleitung.md",
+      "source_kind": "HISTORICAL_PATCH_GUIDE",
+      "sha256": "a9af6bff40763c3a33f99fa314500a2c05a6f3e31ca7753e06d9e8a3e2c01f1a",
+      "note": "Fehlerhistorie; keine alten Adapter über den Stand09 kopieren."
+    },
+    {
+      "file": "referenzen/patch_hinweise/SX35Z_NX_Fix_07_2_Anleitung.md",
+      "original_name": "SX35Z_NX_Fix_07_2_Anleitung.md",
+      "source_kind": "HISTORICAL_PATCH_GUIDE",
+      "sha256": "e4bd83fa7760d11c74c4b7e7181d13639d05ad1cde1f9aae5cb66f1a169361e9",
+      "note": "Fehlerhistorie; keine alten Adapter über den Stand09 kopieren."
+    },
+    {
+      "file": "referenzen/patch_hinweise/SX35Z_NX_Fix_07_3_Anleitung.md",
+      "original_name": "SX35Z_NX_Fix_07_3_Anleitung.md",
+      "source_kind": "HISTORICAL_PATCH_GUIDE",
+      "sha256": "2e1c51819e03d3f691d6ecc68216c13e7e380f1a89b70bcae74f87cb11e35802",
+      "note": "Fehlerhistorie; keine alten Adapter über den Stand09 kopieren."
+    },
+    {
+      "file": "referenzen/bestandsrekonstruktion/SX35Z_Detailbaugruppe_v4.step",
+      "original_name": "SX35Z_Detailmodell_v4/SX35Z_Detailbaugruppe_v4.step",
+      "source_kind": "GENERATED_REFERENCE_CAD",
+      "sha256": "f051f7d370d4b3e4c16da5e826ad5c1f6cd25548bef06a5aca0dee1fb08ca903",
+      "note": "Ältere Foto-Rekonstruktion, KEIN natives NX-Original, KEIN aktueller CNC-Umbau09."
+    }
+  ]
+}

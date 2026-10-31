@@ -1,0 +1,106 @@
+F.FFFF..F.                                                               [100%]
+=================================== FAILURES ===================================
+________________________ test_revision09_is_implemented ________________________
+
+    def test_revision09_is_implemented():
+>       assert model.VERSION=='CNC_UMSETZUNG_09'
+E       AssertionError: assert 'CNC_UMSETZUNG_08' == 'CNC_UMSETZUNG_09'
+E         
+E         - CNC_UMSETZUNG_09
+E         ?                ^
+E         + CNC_UMSETZUNG_08
+E         ?                ^
+
+tests09/test_increment09.py:8: AssertionError
+_____________________ test_new_purchase_mapping_and_counts _____________________
+
+    def test_new_purchase_mapping_and_counts():
+>       cat=json.loads((ROOT/'Einkauf/Kaufteile_09.json').read_text())['items']
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests09/test_increment09.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.13/pathlib/_local.py:548: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/usr/lib/python3.13/pathlib/_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/mnt/data/SX35Z_CNC_Umsetzung_09/Einkauf/Kaufteile_09.json')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/SX35Z_CNC_Umsetzung_09/Einkauf/Kaufteile_09.json'
+
+/usr/lib/python3.13/pathlib/_local.py:539: FileNotFoundError
+_______________ test_six_pockets_not_a_claim_of_operational_atc ________________
+
+    def test_six_pockets_not_a_claim_of_operational_atc():
+>       assert hasattr(model,'atc_report'), 'ATC interface/reach gate is missing'
+E       AssertionError: ATC interface/reach gate is missing
+E       assert False
+E        +  where False = hasattr(model, 'atc_report')
+
+tests09/test_increment09.py:32: AssertionError
+______________________ test_atc_pitch_too_small_rejected _______________________
+
+    def test_atc_pitch_too_small_rejected():
+>       assert hasattr(model,'atc_report'), 'ATC validation missing'
+E       AssertionError: ATC validation missing
+E       assert False
+E        +  where False = hasattr(model, 'atc_report')
+
+tests09/test_increment09.py:42: AssertionError
+__________ test_new_catalog_dimensions_cannot_be_silently_overridden ___________
+
+    def test_new_catalog_dimensions_cannot_be_silently_overridden():
+        p=model.load_parameters(ROOT/'Parameter.json');p['n09_grip_pitch']=171
+>       with pytest.raises(ValueError):model.validate(p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09/test_increment09.py:48: Failed
+___________________ test_hardware_has_matching_mounting_cuts ___________________
+
+    def test_hardware_has_matching_mounting_cuts():
+        ds={d['name']:d for d in model.recipe()}
+>       assert sum('09_Griffdurchgang' in o['label'] for o in ds['KSS_Serviceklappe_hinten']['ops'])==2
+E       assert 0 == 2
+E        +  where 0 = sum(<generator object test_hardware_has_matching_mounting_cuts.<locals>.<genexpr> at 0x7fcb51f7f1d0>)
+
+tests09/test_increment09.py:63: AssertionError
+=============================== warnings summary ===============================
+tests09/test_increment09.py: 1169 warnings
+  /mnt/data/SX35Z_CNC_Umsetzung_09/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    if isinstance(n, ast.Num): return float(n.n)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests09/test_increment09.py::test_revision09_is_implemented - AssertionError: assert 'CNC_UMSETZUNG_08' == 'CNC_UMSETZUNG_09'
+  
+  - CNC_UMSETZUNG_09
+  ?                ^
+  + CNC_UMSETZUNG_08
+  ?                ^
+FAILED tests09/test_increment09.py::test_new_purchase_mapping_and_counts - FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/SX35Z_CNC_Umsetzung_09/Einkauf/Kaufteile_09.json'
+FAILED tests09/test_increment09.py::test_six_pockets_not_a_claim_of_operational_atc - AssertionError: ATC interface/reach gate is missing
+assert False
+ +  where False = hasattr(model, 'atc_report')
+FAILED tests09/test_increment09.py::test_atc_pitch_too_small_rejected - AssertionError: ATC validation missing
+assert False
+ +  where False = hasattr(model, 'atc_report')
+FAILED tests09/test_increment09.py::test_new_catalog_dimensions_cannot_be_silently_overridden - Failed: DID NOT RAISE <class 'ValueError'>
+FAILED tests09/test_increment09.py::test_hardware_has_matching_mounting_cuts - assert 0 == 2
+ +  where 0 = sum(<generator object test_hardware_has_matching_mounting_cuts.<locals>.<genexpr> at 0x7fcb51f7f1d0>)
+6 failed, 4 passed, 1169 warnings in 0.98s

@@ -1,0 +1,72 @@
+SX3.5Z Detailmodell v4 -- Native Einzelteile zuerst, danach Baugruppen.
+FOTO-REKONSTRUKTION; Anschlussmasse unbestaetigt. KEIN Fertigungsdatensatz.
+Journal-Version: 4.3
+Python: 3.10.12 (main, Mar  5 2024, 17:56:48) [MSC v.1929 64 bit (AMD64)]
+NXOpen-Modul: C:\Siemens\nx2406\nxbin\python\NXOpen.pyd
+Adapterdatei: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_3\SX35Z_NX_Journale_v4_3\nx_native.py
+Geometriedatei: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_3\SX35Z_NX_Journale_v4_3\modell_v4.py
+Geometriestand: 4.0; Journal-Patch: 4.3
+Startjournal: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_3\SX35Z_NX_Journale_v4_3\NX_Detailbaugruppe_erzeugen.py
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x0000021E483684D0>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x0000021E483684D0>; Typ=NXOpen.BasePartUnitsMemberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+API-Testphase 1: API-Auswahl mit Punktprobe UND allen Modell-Ausdruecken
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x0000021E483684D0>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x0000021E483684D0>; Typ=NXOpen.BasePartUnitsMemberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+Pruefe Ausdrucks-API-Kandidat: CreateNumberExpression4
+API-Kandidat nicht bestanden: CreateNumberExpression4 / Ausdruckserzeugung: SyntaxError: Funktion übernimmt 2 Argumente, 4 übergeben.
+Letzte Gleichung: 'sxprobe_a = 10.25'
+Pruefe Ausdrucks-API-Kandidat: CreateNumberExpression
+Erzeuge 210 Eingabe- und 49 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/259: sx_table_x
+  Ausdruck 2/259: sx_table_y
+  Ausdruck 3/259: sx_slot_w
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 259/259.
+Ausdrucks-API ausgewaehlt: CreateNumberExpression
+Vollstaendiger Modell-Ausdruckstest nach Undo bestanden.
+API-Testphase 2: Alle Modell-Ausdruecke nach Test-Ruecknahme erneut erzeugen
+Erzeuge 210 Eingabe- und 49 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/259: sx_table_x
+  Ausdruck 2/259: sx_table_y
+  Ausdruck 3/259: sx_slot_w
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 259/259.
+API-Testphase 3: Native Featuretypen und Parameteraktualisierung
+Featureprobe START: SXPROBE_Block
+Featureprobe OK: SXPROBE_Block
+Featureprobe START: SXPROBE_Bohrung
+Featureprobe OK: SXPROBE_Bohrung
+Featureprobe START: SXPROBE_Kegel
+Featureprobe OK: SXPROBE_Kegel
+Featureprobe START: SXPROBE_Kegelabzug_Rohteil
+Featureprobe OK: SXPROBE_Kegelabzug_Rohteil
+Featureprobe START: SXPROBE_Kegelabzug_minusX
+Featureprobe OK: SXPROBE_Kegelabzug_minusX
+Featureprobe START: SXPROBE_Profil
+Featureprobe OK: SXPROBE_Profil
+Native API-Probe bestanden: Block, Zylinderabzug, Kegel, Kegelabzug -X, Profil-Extrusion; Ausdrucksaenderung bewegt/skaliert Block.
+API-Testphase 4: Speichern und Einfuegen einer Testkomponente
+Metadatenhinweis: Attribut SX_STATUS: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_BESCHREIBUNG: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_QUELLE: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_EINHEIT: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_STATUS: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_BESCHREIBUNG: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_QUELLE: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_EINHEIT: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_STATUS: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Metadatenhinweis: Attribut SX_BESCHREIBUNG: Funktionalität versucht, in der aktuellen Version von OM nicht möglich
+Traceback (most recent call last):
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_3\SX35Z_NX_Journale_v4_3\NX_Detailbaugruppe_erzeugen.py", line 156, in main
+    mode=probe(session,params,log,os.path.join(out,'_API_Test'))
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_3\SX35Z_NX_Journale_v4_3\NX_Detailbaugruppe_erzeugen.py", line 134, in probe
+    path=os.path.join(out,'API_Testteil.prt');saveas(p,path)
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_3\SX35Z_NX_Journale_v4_3\NX_Detailbaugruppe_erzeugen.py", line 40, in saveas
+    status=part.SaveAs(path)
+NXOpen.NXException: Datei bereits vorhanden
+
+Betroffenes Teil: None
+Abbruch im Vortest; in diesem Lauf wurden noch keine Maschinen-Einzelteile aufgebaut.
+Ausgabeordner dieses Laufs (ggf. unvollstaendig): C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_3\SX35Z_NX_Journale_v4_3\NX_Output\SX35Z_v4_3_20261023_103704_274885

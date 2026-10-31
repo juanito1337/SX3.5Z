@@ -1,0 +1,54 @@
+[
+  {
+    "file": "BF20_neu/Umbauanleitung.pdf",
+    "sha256": "dbb2f9b671751253db9259f04f43a71c8b0c141a24141d42980155024bbceecd"
+  },
+  {
+    "file": "BF20_neu/Stückliste anzufertigende Teile.pdf",
+    "sha256": "080432e889f7a3c6a12068c6f64e487655b67e744acbad6f4540d181384fc925"
+  },
+  {
+    "file": "BF20_neu/BF20_neu.pdf",
+    "sha256": "9f15ee63fb38ec385d4735a9e8c9a9868a65fdd6a45b4c02073c1abb92d1f2af"
+  },
+  {
+    "file": "BF20_neu/Stückliste Kaufteile BF20.pdf",
+    "sha256": "214a9d93dccf1438e4791fc580d9e01785abbc2bd0167d9a2d3052c7e6420910"
+  },
+  {
+    "file": "BF20_neu/Montage der Z-Spindel.pdf",
+    "sha256": "beba379f4175711ebc4f6e5868cfa896ec7bc65d802fdd4b9b1520d77fabd886"
+  },
+  {
+    "file": "BF20_neu/Einbau Kugelgewindemuttern.pdf",
+    "sha256": "b3379d359e6c50d5b94559d80cc91e4f255a24249f9a1051fc9adf964e29b551"
+  },
+  {
+    "file": "BF20_alt/Explosionszeichnung_alt.pdf",
+    "sha256": "322abde0a277866acfec79753c24e2bdac8605e002239fe249ef7186b1289808"
+  },
+  {
+    "file": "BF20_alt/Umbauanleitung.pdf",
+    "sha256": "dbb2f9b671751253db9259f04f43a71c8b0c141a24141d42980155024bbceecd"
+  },
+  {
+    "file": "BF20_alt/Stückliste anzufertigende Teile.pdf",
+    "sha256": "080432e889f7a3c6a12068c6f64e487655b67e744acbad6f4540d181384fc925"
+  },
+  {
+    "file": "BF20_alt/BF20alt_Paulimot_HBM.pdf",
+    "sha256": "8117d587c2df7b58ae3165494c8e435f1c8be1ef6f0a2534a4539267fa517852"
+  },
+  {
+    "file": "BF20_alt/Stückliste Kaufteile BF20.pdf",
+    "sha256": "214a9d93dccf1438e4791fc580d9e01785abbc2bd0167d9a2d3052c7e6420910"
+  },
+  {
+    "file": "BF20_alt/Montage der Z-Spindel.pdf",
+    "sha256": "beba379f4175711ebc4f6e5868cfa896ec7bc65d802fdd4b9b1520d77fabd886"
+  },
+  {
+    "file": "BF20_alt/Einbau Kugelgewindemuttern.pdf",
+    "sha256": "b3379d359e6c50d5b94559d80cc91e4f255a24249f9a1051fc9adf964e29b551"
+  }
+]

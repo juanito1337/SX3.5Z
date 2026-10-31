@@ -1,0 +1,16 @@
+/mnt/data/SX35Z_CNC_Umsetzung_08/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+F.......
+======================================================================
+FAIL: test_glazing_is_not_a_steel_machining_order (test_review08.ManufacturingReview08.test_glazing_is_not_a_steel_machining_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_review08.py", line 40, in test_glazing_is_not_a_steel_machining_order
+    self.assertNotIn('S355',r['material'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'S355' unexpectedly found in 'S355 als Halterentwurf, sonst noch festlegen'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.891s
+
+FAILED (failures=1)

@@ -1,0 +1,85 @@
+{
+  "schema": "ATC09_PLANNING_ONLY",
+  "original_spindle": "SK30/M12 DIN2080",
+  "required_spindle_interface": "BT30 automatic clamping",
+  "machine_operation_enabled": false,
+  "spindle_clamping_verified": false,
+  "trajectory_verified": false,
+  "pockets": [
+    {
+      "pocket": 1,
+      "table_local_x_mm": -235.0,
+      "table_local_y_mm": -53.0,
+      "required_pos_x_mm": 235.0,
+      "required_pos_y_mm": 53.0,
+      "required_gauge_z_mm": 315.0,
+      "xy_in_nominal_travel": true
+    },
+    {
+      "pocket": 2,
+      "table_local_x_mm": -141.0,
+      "table_local_y_mm": -53.0,
+      "required_pos_x_mm": 141.0,
+      "required_pos_y_mm": 53.0,
+      "required_gauge_z_mm": 315.0,
+      "xy_in_nominal_travel": true
+    },
+    {
+      "pocket": 3,
+      "table_local_x_mm": -47.0,
+      "table_local_y_mm": -53.0,
+      "required_pos_x_mm": 47.0,
+      "required_pos_y_mm": 53.0,
+      "required_gauge_z_mm": 315.0,
+      "xy_in_nominal_travel": true
+    },
+    {
+      "pocket": 4,
+      "table_local_x_mm": 47.0,
+      "table_local_y_mm": -53.0,
+      "required_pos_x_mm": -47.0,
+      "required_pos_y_mm": 53.0,
+      "required_gauge_z_mm": 315.0,
+      "xy_in_nominal_travel": true
+    },
+    {
+      "pocket": 5,
+      "table_local_x_mm": 141.0,
+      "table_local_y_mm": -53.0,
+      "required_pos_x_mm": -141.0,
+      "required_pos_y_mm": 53.0,
+      "required_gauge_z_mm": 315.0,
+      "xy_in_nominal_travel": true
+    },
+    {
+      "pocket": 6,
+      "table_local_x_mm": 235.0,
+      "table_local_y_mm": -53.0,
+      "required_pos_x_mm": -235.0,
+      "required_pos_y_mm": 53.0,
+      "required_gauge_z_mm": 315.0,
+      "xy_in_nominal_travel": true
+    }
+  ],
+  "gauge_z_mm": 315.0,
+  "highest_stored_holder_z_mm": 393.4,
+  "safe_traverse_gauge_z_mm": 513.4,
+  "min_gauge_z_mm": 290.0,
+  "max_gauge_z_mm": 530.0,
+  "nominal_reach_ok": true,
+  "safe_retract_reserve_mm": 16.600000000000023,
+  "tool_length_extra_mm": 35.0,
+  "reserved_table_strip_mm": [
+    620.0,
+    100.0
+  ],
+  "blockers": [
+    "Automatische Spindelspannung fehlt",
+    "BT30 passt nicht als bestätigtes System an DIN2080",
+    "Spindelorientierung und Halterindexierung offen",
+    "Anzugsbolzen nur als 30mm-Reserve, Artikel unbestätigt",
+    "Werkstück/Spannmittel und reale Wechselbahn nicht geprüft",
+    "Spänehaube oben/Antrieb fehlen",
+    "Sichere Ventil-/Sensor-/Freigabekette fehlt"
+  ]
+}

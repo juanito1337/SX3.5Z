@@ -1,0 +1,15 @@
+REQUEST FOR QUOTATION – BT30 ATC retrofit for SX3.5Z mill
+Date: 2026-10-30. Enquiry only, no order.
+
+The existing mill uses SK30/M12 DIN2080 and a 1 kW belt-driven motor. We are NOT assuming BT30 compatibility. Please quote a complete, technically documented BT30 automatic-clamping solution suitable for metal milling and identify everything NOT included.
+
+1. Exact item/variant, manufacturer, revision, price, Incoterms, delivery country Germany, shipping, VAT/import charges and lead time.
+2. Dimensioned drawing and STEP: cartridge diameter/length, mounting lands, gauge-line position, pulley, release cylinder, clearance and maintenance space; complete mass and centre of gravity.
+3. Rated torque/speed/duty curve and permitted radial/axial loads; runout definition, taper specification, bearings, lubrication, service life and spares. Do not quote peak or high-speed power as low-speed cutting torque.
+4. Exact pull-stud drawing and compatible BT30 holder drawing; clamp force at the tool, release stroke, eject stroke, wear limit, force-measurement procedure, retention after air/power failure.
+5. Pressure range, flow, air quality, valve arrangement and ports; clamp/released/tool-present sensing, electrical ratings, pin assignments, diagnostic behaviour and safety-related limitations.
+6. Spindle orientation: required angular tolerance, drive/encoder and confirmation output. The motor presently installed must not be assumed to provide orientation.
+7. Six-position magazine alternative: complete mounting drawing, pitch/diameter, tool capacity/weight/diameter/length, tool retention, anti-rotation, indexing, actuator, home/position sensors and chip cover.
+8. For a spindle kit: specify motor, drive, encoder, release cylinder, mount, belts, pulleys and toolholder/pull-stud quantities individually. Supply manuals and declarations applicable to supplied components.
+
+The proposed table magazine has six pockets, pitch94mm, base620x100mm; it is a space study, not a supplied interface specification. No purchase until the actual spindle/holder and collision review are complete.

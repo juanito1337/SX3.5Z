@@ -1,0 +1,57 @@
+{
+  "schema": "K07_DRAIN_LAYOUT",
+  "native_nx_executed": false,
+  "manufacturing_released": false,
+  "cabinet": {
+    "gap_mm": 0.0,
+    "wall_outer_x_mm": 889.0,
+    "cabinet_back_x_mm": 889.0,
+    "right_window": false,
+    "note": "Rueckseite gegen geschlossene Nassraumwand, Last auf eigenem Gestell. Keine Rueckseitenbelueftung vorgesehen; Kuehlung/Abdichtung offen."
+  },
+  "side_slope_percent": 14.0,
+  "side_slope_angle_deg": 7.96961039432136,
+  "longitudinal_slope_percent": 2.5,
+  "outlet_outer_mm": [
+    350.0,
+    60.0
+  ],
+  "outlet_clear_mm": [
+    346.0,
+    56.0
+  ],
+  "outlet_y_limits_mm": [
+    400.0,
+    460.0
+  ],
+  "basket_outer_mm": [
+    420,
+    160,
+    70
+  ],
+  "basket_gross_inner_litres": 4.412928,
+  "basket_slots": {
+    "count": 50,
+    "size_mm": [
+      28,
+      3
+    ],
+    "gross_open_area_mm2": 4200
+  },
+  "rear_extraction_stroke_mm": 220,
+  "rear_service_space_proposed_mm": 500,
+  "flow_sequence": [
+    "Leitbleche um Maschineninsel",
+    "hinterer Trichter",
+    "rechteckiger Spaeneschacht",
+    "entnehmbarer Grobkorb",
+    "offene Feinfilterreserve",
+    "KSS-Stutzen",
+    "Tank"
+  ],
+  "limitations": [
+    "Keine garantierte selbsttaetige Spanfoerderung. Lange Spaene manuell entfernen.",
+    "Schweissnaehte, Dichtungen, Gewebe, Verstopfung/Notueberlauf und hydraulischer Durchsatz offen.",
+    "Korb nach hinten: Wartungsfreiraum erforderlich. Fronttuer/Tankzugang nicht ersetzt."
+  ]
+}

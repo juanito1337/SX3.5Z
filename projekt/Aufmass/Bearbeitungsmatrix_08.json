@@ -1,0 +1,90 @@
+[
+  {
+    "id": "B01",
+    "part": "Arbeitstisch – Unterseite",
+    "model_name": "Arbeitstisch_Foto",
+    "finding": "X-Mutteraufnahme schneidet Foto-Rekonstruktion (11230 mm³ im ausgewählten statischen Vergleich).",
+    "possible_operation": "Lokale Muttertasche / Zugang; zuerst kleinerer zulässiger Mutterhalter oder geänderte Lage prüfen.",
+    "machining_needed": "NICHT ENTSCHEIDBAR OHNE AUFMASS",
+    "cnc_needed": "CNC sinnvoll für lagegenaue Tasche, konventionelles Fräsen möglich. Nicht zwingend CNC.",
+    "measurements": "X01 X04 X06 X07",
+    "instruction": "Führungsflächen und T-Nut-Restwand unangetastet lassen; keinen Volumenwert als Frästiefe verwenden."
+  },
+  {
+    "id": "B02",
+    "part": "Kreuzschlitten / Sattel",
+    "model_name": "Kreuzschlitten_Guss_Detail",
+    "finding": "X-Mutterblock und Spindelhülle schneiden Modell; bisheriger Vierloch-Pad ist nicht vollständig vermessen.",
+    "possible_operation": "Mutterauflage planfräsen, neue Befestigung / lokale Freistellung nur nach Restwand- und Führungsprüfung.",
+    "machining_needed": "WAHRSCHEINLICHER PRUEFPUNKT, NICHT FREIGEGEBEN",
+    "cnc_needed": "CNC/Koordinatenbohren bevorzugt für reproduzierbare Bezugslage; nicht aufgrund des Fotos zwingend.",
+    "measurements": "X01 X04 X07 Y01 Y04 Y07",
+    "instruction": "X-/Y-Aufspannbezüge erhalten. Nicht beide Führungsseiten zur Anpassung abschleifen."
+  },
+  {
+    "id": "B03",
+    "part": "Basis / Y-Anschluss",
+    "model_name": "Basis_Guss_Foto",
+    "finding": "Y-Spindelhülle schneidet Modell (864 mm³). Y-Durchführung und Anschlussgewinde sind Annahmen.",
+    "possible_operation": "Durchgang lokal aufweiten oder separate Adapterbrücke; nicht den Guss als Lagerpassung ohne Zeichnung ausbohren.",
+    "machining_needed": "OFFEN; ADAPTERLOESUNG VOR GUSSABTRAG",
+    "cnc_needed": "Je nach Kontur konventionelles Ausspindeln/Fräsen ausreichend; Lochlage präzise führen.",
+    "measurements": "Y01 Y02 Y03 Y05 Y07",
+    "instruction": "Basis plan und spannungsarm aufspannen; Gussrippen / Schmierwege prüfen."
+  },
+  {
+    "id": "B04",
+    "part": "Säule oben / Z-Lagertragbrücke",
+    "model_name": "Saeule_Guss_Foto",
+    "finding": "Last muss in Gusssäule; gezeichnete Halteranbindung ist keine geprüfte Verbindung.",
+    "possible_operation": "Separate geschraubte Tragbrücke über vorhandene Gewinde; neue Planfläche/Gewinde nur bei Bedarf.",
+    "machining_needed": "OFFEN; KEIN ZWINGENDER GUSSABTRAG NACHGEWIESEN",
+    "cnc_needed": "CNC nicht zwingend; Lage-/Parallelitätsanforderung aus endgültiger Zeichnung.",
+    "measurements": "Z01 Z02 Z03 Z05 Z07 Z09",
+    "instruction": "Kein Motor-/Kopfgewicht an dünne Elektrikabdeckung hängen."
+  },
+  {
+    "id": "B05",
+    "part": "Spindelkopf / Z-Mutteranschluss",
+    "model_name": "Spindelkopf_Guss_Detail",
+    "finding": "Mutteranschlussfläche, Gewinde und Bauraum nicht ausreichend belegt.",
+    "possible_operation": "Neue Adapterplatte; mögliche lokale Planbearbeitung / Gewinde; Pinolenklemmung erhalten.",
+    "machining_needed": "OFFEN",
+    "cnc_needed": "Nur bei erforderlicher Plan-/Taschenbearbeitung; keine Bearbeitung der Pinolenbohrung geplant.",
+    "measurements": "Z01 Z04 Z07 Z09",
+    "instruction": "Kopf während jeder Montage gegen Absinken sichern; keine Pinolenpassung verändern."
+  },
+  {
+    "id": "B06",
+    "part": "Oberes Blech der Elektriksäule",
+    "model_name": "Blechsaeule_Stirnblech_oben",
+    "finding": "Z-Adapter/Spindelhülle überschneiden das vorhandene Deckblech.",
+    "possible_operation": "Neues ausgespartes Kantblech mit Dicht-/Spritzschutzabschluss, anstatt Guss zu bearbeiten.",
+    "machining_needed": "BLECH AENDERN / ERSETZEN IM GEWAEHLTEN ENTWURF",
+    "cnc_needed": "Keine CNC-Fräse erforderlich; Laser-/Blechbearbeitung nach fertiger Kontur.",
+    "measurements": "Z01 Z02 Z05",
+    "instruction": "Abdeckung vorbearbeiten, entfernen; elektrische Komponenten beim Spanen schützen."
+  },
+  {
+    "id": "B07",
+    "part": "Motorplatten / Lageradapter / Distanzsäulen",
+    "model_name": "CNC_X/Y/Z_*",
+    "finding": "Neue Sonderteile, keine Originalkomponenten. THK-/Motoranschlüsse nominal modelliert.",
+    "possible_operation": "Platten fräsen/bohren/gewinden/reiben; Distanzstücke drehen.",
+    "machining_needed": "JA, NEUTEILE HERSTELLEN ODER FERTIGEN LASSEN",
+    "cnc_needed": "CNC zweckmäßig, nicht grundsätzlich erforderlich; Bohrbilder/Passungen konventionell erreichbar.",
+    "measurements": "X02 Y02 Z02 X03 Y03 Z03",
+    "instruction": "Fertigung erst nach vollständiger Zeichnung einschließlich Gussanschluss."
+  },
+  {
+    "id": "B08",
+    "part": "Kugelgewindespindel-Enden",
+    "model_name": "CNC_X/Y/Z_Kugelspindel_Huelle",
+    "finding": "Nur nominale Wellenstufen, keine freigegebenen Lager-/Gewinde-/Ringnutmaße.",
+    "possible_operation": "Enden durch Spindellieferanten fertig bearbeiten lassen, ggf. lokal weichbearbeiten / schleifen nach dessen Prozess.",
+    "machining_needed": "JA, ZUKAUF MIT FERTIGER ENDENBEARBEITUNG",
+    "cnc_needed": "Präzisionsdrehen/Schleifen statt zwingend CNC-Fräsen.",
+    "measurements": "X05 Y05 Z05 X06 Y06 Z06",
+    "instruction": "Keine bestellte Standardspindel eigenmächtig aus ungeprüfter Gesamtlänge ablängen."
+  }
+]

@@ -1,0 +1,8 @@
+..........                                                               [100%]
+=============================== warnings summary ===============================
+tests09/test_increment09.py: 2775 warnings
+  /mnt/data/SX35Z_CNC_Umsetzung_09/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    if isinstance(n, ast.Num): return float(n.n)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+10 passed, 2775 warnings in 1.23s

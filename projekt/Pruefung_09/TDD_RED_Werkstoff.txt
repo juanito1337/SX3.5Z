@@ -1,0 +1,15 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_________ test_magazine_sheet_thickness_in_manufacturing_matches_model _________
+
+    def test_magazine_sheet_thickness_in_manufacturing_matches_model():
+        import umbau_daten09 as data
+        p=model.load_parameters(ROOT/'Parameter.json')
+        rows={r['name']:r for r in data.manufacturing_rows(model.recipe(),p,model)}
+>       assert '4mm' in rows['ATC_Magazintraeger_Kantblech']['material']
+E       AssertionError: assert '4mm' in 'Stahlblech2mm als Entwurf'
+
+tests09/test_delivery09.py:42: AssertionError
+=========================== short test summary info ============================
+FAILED tests09/test_delivery09.py::test_magazine_sheet_thickness_in_manufacturing_matches_model - AssertionError: assert '4mm' in 'Stahlblech2mm als Entwurf'
+1 failed in 0.16s

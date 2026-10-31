@@ -1,0 +1,14 @@
+.................................................................... [ 57%]
+..................................................                       [100%]
+=============================== warnings summary ===============================
+tests/test_ansichtsmodell.py: 540803 warnings
+tests/test_ausbau02.py: 8258 warnings
+tests/test_blech06.py: 150898 warnings
+tests/test_compact03.py: 259139 warnings
+tests/test_lift04.py: 72019 warnings
+tests/test_senktuer05.py: 82683 warnings
+  /mnt/data/cabinet_drain07_work/SX35Z_CNC_Gesamtansicht_07/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    if isinstance(n, ast.Num): return float(n.n)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+118 passed, 1113800 warnings, 4 subtests passed in 29.11s

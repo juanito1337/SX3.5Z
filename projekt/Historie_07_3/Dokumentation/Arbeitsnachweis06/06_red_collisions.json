@@ -1,0 +1,213 @@
+{
+  "native_nx_executed": false,
+  "method": "OpenCascade solid intersections after conservative AABB screening",
+  "positions": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "pairs_checked": 185751,
+  "solid_comparisons": 364,
+  "conflicts": [
+    {
+      "door_open": 0.0,
+      "a": "Senktuer_LOWER_Kantquerholm_0",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.0,
+      "a": "Senktuer_LOWER_Kantquerholm_0",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.0,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.0,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.0,
+      "a": "Senktuer_LOWER_Fensterklemmrahmen",
+      "b": "Tuerueberwachung_LOWER_Bauraum",
+      "intersection_mm3": 300.0
+    },
+    {
+      "door_open": 0.0,
+      "a": "Senktuer_UPPER_Fensterklemmrahmen",
+      "b": "Tuerueberwachung_UPPER_Bauraum",
+      "intersection_mm3": 300.0
+    },
+    {
+      "door_open": 0.125,
+      "a": "Senktuer_LOWER_Kantquerholm_0",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.125,
+      "a": "Senktuer_LOWER_Kantquerholm_0",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.125,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.125,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.25,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.25,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.375,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.375,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.5,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.5,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.625,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.625,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.75,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.75,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.875,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.875,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 0.875,
+      "a": "Gasfeder06_S2_-1_Kolbenstange_BAURAUM",
+      "b": "Senktuer_Kassette_Boden",
+      "intersection_mm3": 157.07963267949017
+    },
+    {
+      "door_open": 0.875,
+      "a": "Gasfeder06_S2_1_Kolbenstange_BAURAUM",
+      "b": "Senktuer_Kassette_Boden",
+      "intersection_mm3": 157.07963267949015
+    },
+    {
+      "door_open": 1.0,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_links",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 1.0,
+      "a": "Senktuer_LOWER_Kantquerholm_1",
+      "b": "Einhausung_Festfeld_rechts",
+      "intersection_mm3": 56.00000000000003
+    },
+    {
+      "door_open": 1.0,
+      "a": "Gasfeder06_S1_-1_Zylinder_BAURAUM",
+      "b": "Senktuer_Kassette_Boden",
+      "intersection_mm3": 1005.3096491487343
+    },
+    {
+      "door_open": 1.0,
+      "a": "Gasfeder06_S2_-1_Zylinder_BAURAUM",
+      "b": "Senktuer_Kassette_Boden",
+      "intersection_mm3": 1005.3096491487345
+    },
+    {
+      "door_open": 1.0,
+      "a": "Gasfeder06_S2_-1_Kolbenstange_BAURAUM",
+      "b": "Senktuer_Kassette_Boden",
+      "intersection_mm3": 157.07963267949017
+    },
+    {
+      "door_open": 1.0,
+      "a": "Gasfeder06_S1_1_Zylinder_BAURAUM",
+      "b": "Senktuer_Kassette_Boden",
+      "intersection_mm3": 1005.309649148734
+    },
+    {
+      "door_open": 1.0,
+      "a": "Gasfeder06_S2_1_Zylinder_BAURAUM",
+      "b": "Senktuer_Kassette_Boden",
+      "intersection_mm3": 1005.309649148734
+    },
+    {
+      "door_open": 1.0,
+      "a": "Gasfeder06_S2_1_Kolbenstange_BAURAUM",
+      "b": "Senktuer_Kassette_Boden",
+      "intersection_mm3": 157.07963267949015
+    }
+  ],
+  "minimum_moving_part_floor_clearance_mm": 127.0,
+  "limits": "Nine samples. All drawn stationary model parts vs moving door; cross-segment pairs included. Intra-segment assembly/contact excluded. No continuous path, actual hardware, tolerances, deformation, seal, drainage or safety proof."
+}

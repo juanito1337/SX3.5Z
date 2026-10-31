@@ -1,0 +1,1251 @@
+{
+  "schema": "SX35Z_PROCUREMENT_08",
+  "checked_on": "2026-10-30",
+  "currency": "EUR",
+  "release_policy": "Keine Bestell- oder Fertigungsfreigabe ohne abgeschlossene Gates. Artikelbestand ist nicht Lieferverfügbarkeit.",
+  "items": {
+    "K-MOT-XY": {
+      "id": "K-MOT-XY",
+      "description": "Closed-Loop-Schrittmotor X/Y",
+      "manufacturer": "Leadshine",
+      "article": "CS-M22326 (Zeichnungsstand 2022)",
+      "planned_quantity": 2,
+      "unit": "Stk",
+      "dims": {
+        "width": 56.4,
+        "length": 103,
+        "shaft_d": 8,
+        "shaft_l": 21,
+        "pilot_d": 38.1,
+        "pilot_h": 1.6,
+        "pitch": 47.14,
+        "hole_d": 5,
+        "flange_t": 5
+      },
+      "source_ids": [
+        "S01"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G03",
+        "G06"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-MOT-Z": {
+      "id": "K-MOT-Z",
+      "description": "Closed-Loop-Schrittmotor mit Haltebremse Z",
+      "manufacturer": "Leadshine",
+      "article": "CS-M23445B — Lieferrevision offen",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "width": 86,
+        "length": 144,
+        "shaft_d": 14,
+        "shaft_l": 40,
+        "pilot_d": 60,
+        "pilot_h": 1.6,
+        "pitch": 69.6,
+        "hole_d": 6.5,
+        "flange_t": 10
+      },
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G06",
+        "G08"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "REVISION: Herstellerseite nennt135/144mm und4/6A.144mm als reservierte Tabellenlänge; Flansch/Welle aus Nicht-B-Familienzeichnung, B-Zeichnung bestätigen. Keine unabhängige Absturzsicherung.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-DRV-XY": {
+      "id": "K-DRV-XY",
+      "description": "Closed-Loop-Treiber X/Y",
+      "manufacturer": "Leadshine",
+      "article": "CS-D508",
+      "planned_quantity": 2,
+      "unit": "Stk",
+      "dims": {
+        "width": 26.5,
+        "height": 116,
+        "depth": 69.2
+      },
+      "source_ids": [
+        "S03"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G03",
+        "G06",
+        "G07"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "20–50VDC. Step/Dir5V. Ein programmierbarer Ausgang, nicht gleichzeitig drei unabhängige Meldungen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-DRV-Z": {
+      "id": "K-DRV-Z",
+      "description": "Closed-Loop-Treiber Z",
+      "manufacturer": "Leadshine",
+      "article": "CS-D1008E",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "width": 53,
+        "height": 151,
+        "depth": 97
+      },
+      "source_ids": [
+        "S04"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G01",
+        "G03",
+        "G06",
+        "G07",
+        "G08"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "24–110VDC oder18–80VAC laut Handbuch. Drehmomentkennlinie/Encoderkompatibilität zum bestellten B-Motor bestätigen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-FK12": {
+      "id": "K-FK12",
+      "description": "Festlagereinheit 12",
+      "manufacturer": "THK",
+      "article": "FK12",
+      "planned_quantity": 2,
+      "unit": "Stk",
+      "dims": {
+        "shaft_d": 12,
+        "length": 27,
+        "flange_t": 10,
+        "spigot_l": 17,
+        "spigot_d": 36,
+        "envelope_d": 54,
+        "pcd": 44,
+        "hole_d": 4.5,
+        "counter_d": 8,
+        "counter_depth": 4
+      },
+      "source_ids": [
+        "S05",
+        "S19"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Komplette Einheit inkl.Lagersatz/Kragen/Dichtung/Sicherungsmutter. Keine Doppelbestellung der inneren Lager. Runde konservative Flanschhülle statt exakter Eckkontur.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-FK15": {
+      "id": "K-FK15",
+      "description": "Festlagereinheit 15",
+      "manufacturer": "THK",
+      "article": "FK15",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "shaft_d": 15,
+        "length": 32,
+        "flange_t": 15,
+        "spigot_l": 17,
+        "spigot_d": 40,
+        "envelope_d": 63,
+        "pcd": 50,
+        "hole_d": 5.5,
+        "counter_d": 9.5,
+        "counter_depth": 6
+      },
+      "source_ids": [
+        "S05",
+        "S19"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Komplette Einheit inkl.Lagersatz/Kragen/Dichtung/Sicherungsmutter. Keine Doppelbestellung der inneren Lager. Runde konservative Flanschhülle statt exakter Eckkontur.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-FF12": {
+      "id": "K-FF12",
+      "description": "Abstützlagereinheit 12",
+      "manufacturer": "THK",
+      "article": "FF12",
+      "planned_quantity": 2,
+      "unit": "Stk",
+      "dims": {
+        "shaft_d": 10,
+        "length": 15,
+        "flange_t": 7,
+        "spigot_l": 8,
+        "spigot_d": 34,
+        "envelope_d": 52,
+        "pcd": 42,
+        "hole_d": 4.5,
+        "counter_d": 8,
+        "counter_depth": 4
+      },
+      "source_ids": [
+        "S06",
+        "S19"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Einheit inkl.Lager/Sicherungsring. Sitz und Sicherungsringnut am Spindelende nach Lieferzeichnung. Nicht mit zweitem axialem Festlager verspannen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-FF15": {
+      "id": "K-FF15",
+      "description": "Abstützlagereinheit 15",
+      "manufacturer": "THK",
+      "article": "FF15",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "shaft_d": 15,
+        "length": 17,
+        "flange_t": 9,
+        "spigot_l": 8,
+        "spigot_d": 40,
+        "envelope_d": 63,
+        "pcd": 50,
+        "hole_d": 5.5,
+        "counter_d": 9.5,
+        "counter_depth": 5.5
+      },
+      "source_ids": [
+        "S06",
+        "S19"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Einheit inkl.Lager/Sicherungsring. Sitz und Sicherungsringnut am Spindelende nach Lieferzeichnung. Nicht mit zweitem axialem Festlager verspannen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-KUP-XY": {
+      "id": "K-KUP-XY",
+      "description": "Spielfreie Klemmnabenkupplung X/Y",
+      "manufacturer": "KTR",
+      "article": "ROTEX GS14, Naben2.0, 98ShA, Bohrungen8/10mm",
+      "planned_quantity": 2,
+      "unit": "Stk",
+      "dims": {
+        "diameter": 30,
+        "length": 35,
+        "hub_l": 11,
+        "gap": 13,
+        "head_envelope": 32.2,
+        "bore_a": 10,
+        "bore_b": 8
+      },
+      "source_ids": [
+        "S07"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G03",
+        "G04"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Konfigurationsbezeichnung, keine erfundene Bestellnummer. Klemmmoment kleiner Wellenbohrung begrenzt vor Elastomer-Nennmoment. Nabenrevision/Drehmoment bestätigen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-KUP-Z": {
+      "id": "K-KUP-Z",
+      "description": "Spielfreie Klemmnabenkupplung Z",
+      "manufacturer": "KTR",
+      "article": "ROTEX GS19, Naben2.5, 98ShA, Bohrungen14/12mm",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "diameter": 40,
+        "length": 66,
+        "hub_l": 25,
+        "gap": 16,
+        "head_envelope": 46,
+        "bore_a": 12,
+        "bore_b": 14
+      },
+      "source_ids": [
+        "S07"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G01",
+        "G02",
+        "G03",
+        "G04"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Drei zusammengehörige Lieferbestandteile; als eine konfigurierte Kupplung zählen. Keine sichere Haltefunktion bei Kupplungsbruch.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-NUT16": {
+      "id": "K-NUT16",
+      "description": "Rundmutter16×5",
+      "manufacturer": "isel",
+      "article": "213505",
+      "planned_quantity": 2,
+      "unit": "Stk",
+      "dims": {
+        "diameter": 28,
+        "length": 50,
+        "screw_d": 16,
+        "lead": 5
+      },
+      "source_ids": [
+        "S08",
+        "S20"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G04"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Innenbohrung im CAD nur Darstellung, keine Kugellaufbahn. Mit Spindel als zusammengehörigen Satz liefern lassen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-NUT20": {
+      "id": "K-NUT20",
+      "description": "Rundmutter20×5",
+      "manufacturer": "isel",
+      "article": "213420 0005",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "diameter": 33,
+        "length": 50,
+        "screw_d": 20,
+        "lead": 5
+      },
+      "source_ids": [
+        "S08",
+        "S20"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G03",
+        "G04"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Vorspannung/Spielklasse, Schmierung und Abstreifer in Lieferangebot ausdrücklich nennen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-NUTH16": {
+      "id": "K-NUTH16",
+      "description": "Fuß-Spannblock für16-mm-Spindelfamilie",
+      "manufacturer": "isel",
+      "article": "213500",
+      "planned_quantity": 2,
+      "unit": "Stk",
+      "dims": {
+        "width": 47,
+        "height": 33,
+        "length": 54,
+        "bore_d": 28,
+        "axis_h": 16.5
+      },
+      "source_ids": [
+        "S09"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Fußlochbild und Klemmmechanik noch nicht abgeleitet. H1 als Achshöhe interpretiert. Kein vollständiges Einbaumodell.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-NUTH20": {
+      "id": "K-NUTH20",
+      "description": "Fuß-Spannblock für20-mm-Spindelfamilie",
+      "manufacturer": "isel",
+      "article": "213600",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "width": 53,
+        "height": 40,
+        "length": 61.5,
+        "bore_d": 33,
+        "axis_h": 20
+      },
+      "source_ids": [
+        "S09"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Spannmutter Lieferumfang prüfen. Fußlochbild und H1-Achshöhe in Lieferzeichnung bestätigen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-SCREW-X": {
+      "id": "K-SCREW-X",
+      "description": "Bearbeitete Kugelgewindespindel X",
+      "manufacturer": "isel / autorisierter Endenbearbeiter",
+      "article": "16×5, kundenspezifische Enden gemäß freizugebender Zeichnung",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "screw_d": 16,
+        "lead": 5
+      },
+      "source_ids": [
+        "S08",
+        "S19",
+        "S20"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Axiale Entwurfshülle, keine fertig bemaßte Endenbearbeitung",
+      "type": "Kaufteil",
+      "note": "KEINE BESTELLLÄNGE. Angebot muss zu THK-FK/FF und KTR passen; Mutter, Lager und Kupplung separat in dieser Liste, Doppelzählung bei Satzangebot vermeiden.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-SCREW-Y": {
+      "id": "K-SCREW-Y",
+      "description": "Bearbeitete Kugelgewindespindel Y",
+      "manufacturer": "isel / autorisierter Endenbearbeiter",
+      "article": "16×5, kundenspezifische Enden gemäß freizugebender Zeichnung",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "screw_d": 16,
+        "lead": 5
+      },
+      "source_ids": [
+        "S08",
+        "S19",
+        "S20"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Axiale Entwurfshülle, keine fertig bemaßte Endenbearbeitung",
+      "type": "Kaufteil",
+      "note": "KEINE BESTELLLÄNGE. Angebot muss zu THK-FK/FF und KTR passen; Mutter, Lager und Kupplung separat in dieser Liste, Doppelzählung bei Satzangebot vermeiden.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-SCREW-Z": {
+      "id": "K-SCREW-Z",
+      "description": "Bearbeitete Kugelgewindespindel Z",
+      "manufacturer": "isel / autorisierter Endenbearbeiter",
+      "article": "20×5, kundenspezifische Enden gemäß freizugebender Zeichnung",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "screw_d": 20,
+        "lead": 5
+      },
+      "source_ids": [
+        "S08",
+        "S19",
+        "S20"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "model_scope": "Axiale Entwurfshülle, keine fertig bemaßte Endenbearbeitung",
+      "type": "Kaufteil",
+      "note": "KEINE BESTELLLÄNGE. Angebot muss zu THK-FK/FF und KTR passen; Mutter, Lager und Kupplung separat in dieser Liste, Doppelzählung bei Satzangebot vermeiden.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-CAB": {
+      "id": "K-CAB",
+      "description": "Stahlschaltschrank mit geschlossener Tür",
+      "manufacturer": "Schneider Electric",
+      "article": "NSYCRN86300",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "width": 600,
+        "height": 800,
+        "depth": 300
+      },
+      "source_ids": [
+        "S14"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07"
+      ],
+      "model_scope": "Nominelle Außenhülle; Tür/Scharnier/Glandplatte vereinfacht",
+      "type": "Kaufteil",
+      "note": "Ohne Montageplatte. Schutzart des unveränderten Kaufteils gilt nicht automatisch nach eigenen Bohrungen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-CABPL": {
+      "id": "K-CABPL",
+      "description": "Montageplatte",
+      "manufacturer": "Schneider Electric",
+      "article": "NSYMM86",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "width": 550,
+        "height": 750,
+        "thickness": 2.5
+      },
+      "source_ids": [
+        "S15"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "Flache Hauptfläche dargestellt, Randform/Befestigung nach Lieferzeichnung. Eigene Bohrungen nach Schaltschrankplan.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-MESA": {
+      "id": "K-MESA",
+      "description": "Motion-/I/O-Karte",
+      "manufacturer": "Mesa Electronics",
+      "article": "7i95T",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [
+        "S10"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07",
+        "G09"
+      ],
+      "model_scope": "Reservierter Einbauraum; genaue Leiterplattenkontur/Bohrungen noch nicht übertragen",
+      "type": "Kaufteil",
+      "note": "5V±5%,max500mA ohne externe Last. Step/Dir ist keine Motorleistungsversorgung und keine Sicherheitssteuerung.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-PS-AX": {
+      "id": "K-PS-AX",
+      "description": "DC-Achsnetzteil, vorläufig44V-Einstellung",
+      "manufacturer": "MEAN WELL",
+      "article": "RSP-500-48",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "width": 127,
+        "height": 230,
+        "depth": 40.5
+      },
+      "source_ids": [
+        "S11"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G03",
+        "G06",
+        "G07"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "48V10,5A; Einstellbereich41–56V.44V×10,5A=462W, nicht504W. Rückspeisung kann50V-Grenze desCS-D508 überschreiten; DC-Bremsbegrenzung ungeklärt.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-PS24": {
+      "id": "K-PS24",
+      "description": "24-V-Steuerversorgung",
+      "manufacturer": "MEAN WELL",
+      "article": "HDR-60-24",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "width": 52.5,
+        "height": 90,
+        "depth": 54.5
+      },
+      "source_ids": [
+        "S12"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07",
+        "G08"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "24V2,5A; endgültige Lastbilanz einschließlich Z-Bremse fehlt.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-PS5": {
+      "id": "K-PS5",
+      "description": "5-V-Mesa-Versorgung",
+      "manufacturer": "MEAN WELL",
+      "article": "HDR-15-5",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {
+        "width": 17.5,
+        "height": 90,
+        "depth": 54.5
+      },
+      "source_ids": [
+        "S13"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07"
+      ],
+      "model_scope": "Hauptmaße / vereinfachte Geometrie",
+      "type": "Kaufteil",
+      "note": "5V2,4A. Spannung an der Karte einschließlich Leitungsabfall prüfen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "K-SENSOR": {
+      "id": "K-SENSOR",
+      "description": "Achs-Referenz-/Endsensor",
+      "manufacturer": "ifm",
+      "article": "IFS206",
+      "planned_quantity": 6,
+      "unit": "Stk",
+      "dims": {
+        "diameter": 12,
+        "length": 45,
+        "nominal_range": 4
+      },
+      "source_ids": [
+        "S16"
+      ],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G07",
+        "G09"
+      ],
+      "model_scope": "Im separaten Kaufteil-Prüffeld; endgültige Achspositionen noch offen",
+      "type": "Kaufteil",
+      "note": "PNP-Öffner10–30VDC, M12×1, bündig. Kein Sicherheitsbauteil. Zwei je Achse geplant, nicht automatisch zusätzliche Sicherheits-Endschalter.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-ENC": {
+      "id": "O-ENC",
+      "description": "Passende Encoderkabel Motor→Treiber",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 3,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G01",
+        "G07"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Steckervariante und Schleppkettenlänge erst am ausgewählten Motorsatz bestätigen; nicht parallel an Mesa anschließen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-MOTORC": {
+      "id": "O-MOTORC",
+      "description": "Geschirmte Motorleitungen",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 3,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G01",
+        "G07"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Adernzahl, Querschnitt, Biegeradius und konfektionierte Enden festlegen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-SENSORC": {
+      "id": "O-SENSORC",
+      "description": "M12-Sensorleitungen",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 6,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G07"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Passende3-/4-polige Ausführung, PUR/KSS-Beständigkeit und Länge erst nach Verlegung.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-ETH": {
+      "id": "O-ETH",
+      "description": "Geschirmte Ethernet-Verbindung",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07",
+        "G09"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Dedizierte Netzwerkschnittstelle, Länge nach Standort.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-REGEN": {
+      "id": "O-REGEN",
+      "description": "DC-Rückspeisebegrenzung / Bremschopper",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G06",
+        "G07"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Keine freigegebene Artikelwahl: muss50V-Treibergrenze unter dynamischer Rückspeisung schützen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-SAFE": {
+      "id": "O-SAFE",
+      "description": "Sicherheitssteuerung, Schütze, Rückführung und Schutztürsystem",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07",
+        "G08"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Erforderliche Funktionen und erreichte Zuverlässigkeit erst nach Risikobeurteilung; normalerMesa-Ausgang reicht nicht.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-BRAKE": {
+      "id": "O-BRAKE",
+      "description": "Z-Bremsansteuerung und zusätzliche Absturzsicherung",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G01",
+        "G08"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Motorhaltebremse allein nicht für jeden Einzelfehler ausreichend.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-MAINS": {
+      "id": "O-MAINS",
+      "description": "Hauptschalter, Schutzorgane, Filter, PE, Klemmen",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Dimensionierung anhand Netzform/Anschlussleistung/Leitungen durch Elektrofachkraft.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-DIN": {
+      "id": "O-DIN",
+      "description": "DIN-Schienen, Verdrahtungskanäle und Klemmen",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Zuschnitt und Klemmenplan nach finalem Stromlaufplan, alte Hüllen keine Kaufteilspezifikation.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-HOST": {
+      "id": "O-HOST",
+      "description": "LinuxCNC-PC und Bedieneinheit",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G09"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "PREEMPT_RT/Latenzprüfung, Netzwerkschnittstelle, Bedienposition.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-SPINDLE": {
+      "id": "O-SPINDLE",
+      "description": "Galvanisch getrennte Spindel-Sollwert/Freigabeschnittstelle",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07",
+        "G08",
+        "G09"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "VorhandenerW92-1000F/XMT-1000-Treiber bleibt; Pinbelegung/Isolation nicht aus Drahtfarben ableiten.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-LUBE": {
+      "id": "O-LUBE",
+      "description": "Schmierung für Führungen/Kugelmuttern",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G04"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Herstellerfreigegebener Schmierstoff; Anschlüsse/Leitungen/Pumpe noch auswählen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-COVER": {
+      "id": "O-COVER",
+      "description": "Spindel-/Kupplungsabdeckungen und Schleppketten",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 3,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G05"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Verfahrweghüllen und Biegeradien prüfen; nicht aus statischer Ansicht bestellen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-DOOR": {
+      "id": "O-DOOR",
+      "description": "Führungen, Segmentgleichlauf, Gewichtsausgleich, Fallsicherung",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G08"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Bestehende Tür ist Konzept; vier Gasfedern keine bestätigten Artikel.515mmRelativhub passt nicht beliebig zu500mmFeder.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-GLASS": {
+      "id": "O-GLASS",
+      "description": "Maschinen-Schutzscheiben und Dichtungen",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G08"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Gezeichnete8mm-Stärke ist kein Festigkeitsnachweis. Lieferanten-Schutzsystem wählen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-KSS": {
+      "id": "O-KSS",
+      "description": "KSS-Pumpe, Filtermedium, Schläuche und Dichtungen",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G07",
+        "G08"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Rücklauf/Überlauf/Späneverstopfung und KSS-Verträglichkeit nachweisen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-FEET": {
+      "id": "O-FEET",
+      "description": "Maschinenfüße / Befestigung des Untergestells",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 4,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G03",
+        "G08"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Tragfähigkeit, Kippstabilität und Bodenbefestigung erst nach Gewichten prüfen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "O-MACHINE-BOLTS": {
+      "id": "O-MACHINE-BOLTS",
+      "description": "Schrauben/Dübel für tatsächliche Maschinenanschlüsse",
+      "manufacturer": "noch auszuwählen",
+      "article": "KEIN FREIGEGEBENER ARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Stk",
+      "dims": {},
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G02",
+        "G05"
+      ],
+      "model_scope": "Nicht modelliert oder nur RESERVE",
+      "type": "Offene Beschaffung",
+      "note": "Gewindegrößen, Eingriff, Schraubengüte und Lagerandruck nach Aufmaß festlegen.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "N-M4x12": {
+      "id": "N-M4x12",
+      "description": "Zylinderschraube ISO4762 M4×12,8.8",
+      "manufacturer": "Normteil, Lieferant festzulegen",
+      "article": "ISO4762 M4×12,8.8",
+      "planned_quantity": 8,
+      "unit": "Stk",
+      "dims": {
+        "d": 4,
+        "l": 12
+      },
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G05"
+      ],
+      "model_scope": "Schaft-/Kopfhülle ohne Gewinde",
+      "type": "Normteil",
+      "note": "Entwurfslänge aus dieser Adaptermaßkette. Festigkeit, Einschraublänge und Anzugsmoment der fertigen Verbindung noch festlegen; keine Ringscheiben mitgerechnet.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "N-M5x20": {
+      "id": "N-M5x20",
+      "description": "Zylinderschraube ISO4762 M5×20,8.8",
+      "manufacturer": "Normteil, Lieferant festzulegen",
+      "article": "ISO4762 M5×20,8.8",
+      "planned_quantity": 8,
+      "unit": "Stk",
+      "dims": {
+        "d": 5,
+        "l": 20
+      },
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G05"
+      ],
+      "model_scope": "Schaft-/Kopfhülle ohne Gewinde",
+      "type": "Normteil",
+      "note": "Entwurfslänge aus dieser Adaptermaßkette. Festigkeit, Einschraublänge und Anzugsmoment der fertigen Verbindung noch festlegen; keine Ringscheiben mitgerechnet.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "N-M4x16": {
+      "id": "N-M4x16",
+      "description": "Zylinderschraube ISO4762 M4×16,8.8",
+      "manufacturer": "Normteil, Lieferant festzulegen",
+      "article": "ISO4762 M4×16,8.8",
+      "planned_quantity": 16,
+      "unit": "Stk",
+      "dims": {
+        "d": 4,
+        "l": 16
+      },
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G05"
+      ],
+      "model_scope": "Schaft-/Kopfhülle ohne Gewinde",
+      "type": "Normteil",
+      "note": "Entwurfslänge aus dieser Adaptermaßkette. Festigkeit, Einschraublänge und Anzugsmoment der fertigen Verbindung noch festlegen; keine Ringscheiben mitgerechnet.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "N-M5x16": {
+      "id": "N-M5x16",
+      "description": "Zylinderschraube ISO4762 M5×16,8.8",
+      "manufacturer": "Normteil, Lieferant festzulegen",
+      "article": "ISO4762 M5×16,8.8",
+      "planned_quantity": 4,
+      "unit": "Stk",
+      "dims": {
+        "d": 5,
+        "l": 16
+      },
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G05"
+      ],
+      "model_scope": "Schaft-/Kopfhülle ohne Gewinde",
+      "type": "Normteil",
+      "note": "Entwurfslänge aus dieser Adaptermaßkette. Festigkeit, Einschraublänge und Anzugsmoment der fertigen Verbindung noch festlegen; keine Ringscheiben mitgerechnet.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "N-M6x80": {
+      "id": "N-M6x80",
+      "description": "Zylinderschraube ISO4762 M6×80,8.8",
+      "manufacturer": "Normteil, Lieferant festzulegen",
+      "article": "ISO4762 M6×80,8.8",
+      "planned_quantity": 8,
+      "unit": "Stk",
+      "dims": {
+        "d": 6,
+        "l": 80
+      },
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G05"
+      ],
+      "model_scope": "Schaft-/Kopfhülle ohne Gewinde",
+      "type": "Normteil",
+      "note": "Entwurfslänge aus dieser Adaptermaßkette. Festigkeit, Einschraublänge und Anzugsmoment der fertigen Verbindung noch festlegen; keine Ringscheiben mitgerechnet.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    },
+    "N-M6x120": {
+      "id": "N-M6x120",
+      "description": "Zylinderschraube ISO4762 M6×120,8.8",
+      "manufacturer": "Normteil, Lieferant festzulegen",
+      "article": "ISO4762 M6×120,8.8",
+      "planned_quantity": 4,
+      "unit": "Stk",
+      "dims": {
+        "d": 6,
+        "l": 120
+      },
+      "source_ids": [],
+      "release": "ANFRAGE / NICHT BESTELLFREIGEGEBEN",
+      "gates": [
+        "G05"
+      ],
+      "model_scope": "Schaft-/Kopfhülle ohne Gewinde",
+      "type": "Normteil",
+      "note": "Entwurfslänge aus dieser Adaptermaßkette. Festigkeit, Einschraublänge und Anzugsmoment der fertigen Verbindung noch festlegen; keine Ringscheiben mitgerechnet.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
+    }
+  }
+}

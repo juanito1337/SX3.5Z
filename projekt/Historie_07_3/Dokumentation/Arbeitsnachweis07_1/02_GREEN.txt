@@ -1,0 +1,38 @@
+test_missing_api_fails_required (test_nx_sheetmetal06.AdapterTests.test_missing_api_fails_required) ... ok
+test_no_select_by_first_face (test_nx_sheetmetal06.AdapterTests.test_no_select_by_first_face) ... ok
+test_select_base_plane_unambiguous (test_nx_sheetmetal06.AdapterTests.test_select_base_plane_unambiguous) ... ok
+test_solid_mode_explicit_not_a_sheetmetal_success (test_nx_sheetmetal06.AdapterTests.test_solid_mode_explicit_not_a_sheetmetal_success) ... ok
+test_supported_modes_reject_unknown (test_nx_sheetmetal06.AdapterTests.test_supported_modes_reject_unknown) ... ok
+test_license_exception_is_not_swallowed (test_nx_sheetmetal06.ConvertContractTests.test_license_exception_is_not_swallowed) ... ok
+test_native_success_requires_type_and_thickness (test_nx_sheetmetal06.ConvertContractTests.test_native_success_requires_type_and_thickness) ... ok
+test_non_sheet_result_is_not_success (test_nx_sheetmetal06.ConvertContractTests.test_non_sheet_result_is_not_success) ... ok
+test_nonfinite_normal_cannot_be_matched (test_nx_sheetmetal06.ConvertContractTests.test_nonfinite_normal_cannot_be_matched) ... ok
+test_wrong_thickness_is_not_success (test_nx_sheetmetal06.ConvertContractTests.test_wrong_thickness_is_not_success) ... ok
+test_ambiguous_plane_never_selects_first_face (test_nx_sheetmetal071.NamespaceRegression.test_ambiguous_plane_never_selects_first_face) ... ok
+test_later_builder_error_records_stage_and_destroys_builder (test_nx_sheetmetal071.NamespaceRegression.test_later_builder_error_records_stage_and_destroys_builder) ... ok
+test_legacy_modl_binding_still_supported (test_nx_sheetmetal071.NamespaceRegression.test_legacy_modl_binding_still_supported) ... ok
+test_missing_queries_report_capabilities_without_preferences_change (test_nx_sheetmetal071.NamespaceRegression.test_missing_queries_report_capabilities_without_preferences_change) ... ok
+test_modeling_available_without_modl_object (test_nx_sheetmetal071.NamespaceRegression.test_modeling_available_without_modl_object) ... ok
+test_modlgeneral_accepted_only_if_callable_present (test_nx_sheetmetal071.NamespaceRegression.test_modlgeneral_accepted_only_if_callable_present) ... ok
+test_no_plane_match_is_not_ignored (test_nx_sheetmetal071.NamespaceRegression.test_no_plane_match_is_not_ignored) ... ok
+test_noncallable_modeling_attribute_does_not_mask_legacy_method (test_nx_sheetmetal071.NamespaceRegression.test_noncallable_modeling_attribute_does_not_mask_legacy_method) ... ok
+test_prefer_modeling_and_never_call_other_group_after_selection (test_nx_sheetmetal071.NamespaceRegression.test_prefer_modeling_and_never_call_other_group_after_selection) ... ok
+test_query_exception_is_not_retried_in_other_namespace (test_nx_sheetmetal071.NamespaceRegression.test_query_exception_is_not_retried_in_other_namespace) ... ok
+test_raw_query_attributeerror_is_not_misread_as_missing_namespace (test_nx_sheetmetal071.NamespaceRegression.test_raw_query_attributeerror_is_not_misread_as_missing_namespace) ... ok
+test_reported_missing_modl_method_can_use_modeling (test_nx_sheetmetal071.NamespaceRegression.test_reported_missing_modl_method_can_use_modeling) ... ok
+test_success_record_names_resolved_binding_and_patch (test_nx_sheetmetal071.NamespaceRegression.test_success_record_names_resolved_binding_and_patch) ... ok
+test_wrong_tuple_not_treated_as_planar_face (test_nx_sheetmetal071.NamespaceRegression.test_wrong_tuple_not_treated_as_planar_face) ... ok
+test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) ... ok
+test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) ... ok
+test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) ... ok
+test_negative_normal_has_same_plane (test_nx_sheetmetal071.PlaneValidation.test_negative_normal_has_same_plane) ... ok
+test_no_namespace_selection_needed_in_explicit_solid_mode (test_nx_sheetmetal071.PlaneValidation.test_no_namespace_selection_needed_in_explicit_solid_mode) ... ok
+test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) ... ok
+test_nonfinite_point_never_silently_skipped (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_point_never_silently_skipped) ... ok
+test_nonplanar_surface_is_not_used (test_nx_sheetmetal071.PlaneValidation.test_nonplanar_surface_is_not_used) ... ok
+test_nonunit_normal_is_normalized (test_nx_sheetmetal071.PlaneValidation.test_nonunit_normal_is_normalized) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.003s
+
+OK

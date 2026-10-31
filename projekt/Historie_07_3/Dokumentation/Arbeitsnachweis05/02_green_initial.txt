@@ -1,0 +1,27 @@
+test_clearance_cannot_be_negative (test_senktuer05.DownwardDoorTests.test_clearance_cannot_be_negative) ... /mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+ok
+test_closed_panels_cover_aperture_with_overlap (test_senktuer05.DownwardDoorTests.test_closed_panels_cover_aperture_with_overlap) ... ok
+test_each_leaf_has_position_switch_reserve (test_senktuer05.DownwardDoorTests.test_each_leaf_has_position_switch_reserve) ... ok
+test_fully_open_both_below_opening (test_senktuer05.DownwardDoorTests.test_fully_open_both_below_opening) ... ok
+test_glass_not_too_thick_for_lane (test_senktuer05.DownwardDoorTests.test_glass_not_too_thick_for_lane) ... ok
+test_ground_and_ceiling_bound_all_door_hardware (test_senktuer05.DownwardDoorTests.test_ground_and_ceiling_bound_all_door_hardware) ... ok
+test_ground_clearance_throughout (test_senktuer05.DownwardDoorTests.test_ground_clearance_throughout) ... ok
+test_guides_cover_all_carriages (test_senktuer05.DownwardDoorTests.test_guides_cover_all_carriages) ... ok
+test_invalid_low_stand_rejected (test_senktuer05.DownwardDoorTests.test_invalid_low_stand_rejected) ... ok
+test_model_motion_metadata_is_segment_specific (test_senktuer05.DownwardDoorTests.test_model_motion_metadata_is_segment_specific) ... ok
+test_no_manufacturing_release (test_senktuer05.DownwardDoorTests.test_no_manufacturing_release) ... ok
+test_no_upward_names (test_senktuer05.DownwardDoorTests.test_no_upward_names) ... ok
+test_old_one_piece_downward_would_hit_floor (test_senktuer05.DownwardDoorTests.test_old_one_piece_downward_would_hit_floor) ... ok
+test_other_groups_unchanged (test_senktuer05.DownwardDoorTests.test_other_groups_unchanged) ... ok
+test_outer_enclosure_and_heights_retained (test_senktuer05.DownwardDoorTests.test_outer_enclosure_and_heights_retained) ... ok
+test_panels_use_different_depth_lanes (test_senktuer05.DownwardDoorTests.test_panels_use_different_depth_lanes) ... ok
+test_parameters_have_no_mixed_revision (test_senktuer05.DownwardDoorTests.test_parameters_have_no_mixed_revision) ... ok
+test_revision (test_senktuer05.DownwardDoorTests.test_revision) ... ok
+test_rigid_motion_and_2to1_ratio (test_senktuer05.DownwardDoorTests.test_rigid_motion_and_2to1_ratio) ... ok
+test_two_downward_segments (test_senktuer05.DownwardDoorTests.test_two_downward_segments) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.323s
+
+OK

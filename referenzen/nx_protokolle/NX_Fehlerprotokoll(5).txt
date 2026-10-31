@@ -1,0 +1,245 @@
+SX3.5Z Detailmodell v4 -- Native Einzelteile zuerst, danach Baugruppen.
+FOTO-REKONSTRUKTION; Anschlussmasse unbestaetigt. KEIN Fertigungsdatensatz.
+Journal-Version: 4.5
+Python: 3.10.12 (main, Mar  5 2024, 17:56:48) [MSC v.1929 64 bit (AMD64)]
+NXOpen-Modul: C:\Siemens\nx2406\nxbin\python\NXOpen.pyd
+Adapterdatei: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\nx_native.py
+Geometriedatei: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\modell_v4.py
+Geometriestand: 4.0; Journal-Patch: 4.5
+Startjournal: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\NX_Detailbaugruppe_erzeugen.py
+Dateiverwaltung: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\nx_files.py
+Laufkennung fuer ALLE Dateinamen: a9a87b00cf29
+Speicherweg: NewDisplay am endgueltigen Pfad, dann Save; kein SaveAs.
+Abweichende Parameter/Rezept: kein Standard-Referenzvergleich; Werkzeuglage, Werkzeugvolumen und boolesche Wirkung werden weiterhin in NX geprueft.
+Neues NX-Teil am endgueltigen Ziel: c:\users\jan\downloads\sx35z_nx_journale_v4_5\sx35z_nx_journale_v4_5\nx_output\sx35z_v4_5_20261026_090604_767050_a9a87b00cf29\_api_test\api_testteil__a9a87b00cf29.prt
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x000002DC63F5C8F0>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x000002DC63F5C8F0>; Typ=NXOpen.BasePartUnitsMemberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+NX FullPath bestaetigt: c:\users\jan\downloads\sx35z_nx_journale_v4_5\sx35z_nx_journale_v4_5\nx_output\sx35z_v4_5_20261026_090604_767050_a9a87b00cf29\_api_test\api_testteil__a9a87b00cf29.prt
+API-Testphase 1: API-Auswahl mit Punktprobe UND allen Modell-Ausdruecken
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x000002DC63F5C8F0>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x000002DC63F5C8F0>; Typ=NXOpen.BasePartUnitsMemberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+Pruefe Ausdrucks-API-Kandidat: CreateNumberExpression4
+API-Kandidat nicht bestanden: CreateNumberExpression4 / Ausdruckserzeugung: SyntaxError: Funktion übernimmt 2 Argumente, 4 übergeben.
+Letzte Gleichung: 'sxprobe_a = 10.25'
+Pruefe Ausdrucks-API-Kandidat: CreateNumberExpression
+Erzeuge 210 Eingabe- und 49 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/259: sx_table_x
+  Ausdruck 2/259: sx_table_y
+  Ausdruck 3/259: sx_slot_w
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 259/259.
+Ausdrucks-API ausgewaehlt: CreateNumberExpression
+Vollstaendiger Modell-Ausdruckstest nach Undo bestanden.
+API-Testphase 2: Alle Modell-Ausdruecke nach Test-Ruecknahme erneut erzeugen
+Erzeuge 210 Eingabe- und 49 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/259: sx_table_x
+  Ausdruck 2/259: sx_table_y
+  Ausdruck 3/259: sx_slot_w
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 259/259.
+API-Testphase 3: Native Featuretypen und Parameteraktualisierung
+Featureprobe START: SXPROBE_Block
+API-Testteil: api_testteil__a9a87b00cf29
+API-Testfeature: SXPROBE_Block
+--- Feature-API-Diagnose ---
+Feature: SXPROBE_Block
+Letzter Builder-Aufruf: None
+Uebergebener Nullobjekt-Typ: None
+Letzte Geometrieoperation: {'kind': 'box', 'op': 'add', 'origin': ['pos_x', '0', '0'], 'size': ['table_x/100', '10', '10']}
+Letzter Geometrievergleich: None
+Features.CreateBlockFeatureBuilder: erwartet NXOpen.Features.Feature.Null; vorhanden=True
+Features.CreateCylinderBuilder: erwartet NXOpen.Features.Feature.Null; vorhanden=True
+Features.CreateConeBuilder: erwartet NXOpen.Features.Cone.Null; vorhanden=True
+Features.CreateExtrudeBuilder: erwartet NXOpen.Features.Feature.Null; vorhanden=True
+Features.CreateBooleanBuilder: erwartet NXOpen.Features.BooleanFeature.Null; vorhanden=True
+BaseFeatures.CreateAssociativeLineBuilder: erwartet NXOpen.Features.AssociativeLine.Null; vorhanden=True
+--- Ausdrucks-API-Diagnose ---
+Ausgewaehlter Modus: CreateNumberExpression
+Letzter Ausdruck: sx_z_nut_center = sx_head_bottom_z+sx_head_h*0.55
+Erfolgreiche Create-Aufrufe inkl. zurueckgenommener Tests: 521
+Expressions-Typ: ExpressionCollection
+Letzter Unit-Typ: NoneType
+Letzter Unit-Tag (nur Diagnose): None
+CreateNumberExpression vorhanden: True
+Overloaded method CreateNumberExpression
+
+
+
+
+* ``CreateNumberExpression(expressionString, unitType)`` 
+* ``CreateNumberExpression(name, formula, isUserLocked, units)`` 
+
+``-------------------------------------``
+
+Creates a number expression.
+The calculated units of the formula must be compatible
+with the given units for the expression. A unitless expression may be created
+by setting the units to None. In that case, the formula should also be a unitless number.
+
+
+Signature ``CreateNumberExpression(expressionString, unitType)`` 
+
+:param expressionString:  The expression as a string.  Must be in the format: "name = formula".                                   For example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:param unitType:  units for the expression  
+:type unitType: :py:class:`NXOpen.Unit` 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX1847.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+
+
+CreateWithUnits vorhanden: True
+Overloaded method CreateWithUnits
+
+
+
+
+* ``CreateWithUnits(expressionString, unitType)`` 
+* ``CreateWithUnits(leftHandSide, rightHandSide, isUserLocked, units)`` 
+
+``-------------------------------------``
+
+Creates a number expression with units. 
+The calculated units of the formula must be compatible
+with the given units for the expression. A unitless expression may be created
+by setting the units to None.
+
+NOTE: Avoid this legacy function in new application code.
+The calculated dimensionality of the given formula must generally match the dimensionality
+of the expression being edited. If the formula's units are determined to be unitless, then
+this function will assume that its units match the units of the expression.
+
+
+
+
+This function may set a modified equation formula if the expression involves angles.
+The modification performed by this function can, if needed for some parts, be
+suppressed by setting the environment variable UGII_KF_DONT_CONVERT_FORMULAS_FOR_RADIAN_UNITS.
+If the units of the expression and the formula do not have
+matching angle dimensions then the legacy system required that a conversion factor
+be applied as follows (no matter what units were used for arcAngle):
+
+
+
+
+arcLength = arcRadius * arcAngle * pi() / 180.
+units: mm
+
+
+
+
+This is no longer needed and, in fact, will give wrong results. Expressions
+are modified on load to remove this conversion factor. However, legacy code may
+expect to need it and therefore have added it, so this function will remove it
+before writing it to the expression object. Note that the inverse of the
+previously needed conversion factor is added. The function does not attempt to
+actually remove the existing conversion factor text.
+
+
+
+
+arcLength = (arcRadius * arcAngle * pi() / 180.) * (180. / pi())
+units: mm
+
+
+
+
+To properly create an expression, use instead :py:meth:`NXOpen.ExpressionCollection.CreateNumberExpression` 
+with a formula as follows:
+
+
+
+
+arcLength = arcRadius * arcAngle
+units: mm
+
+
+
+
+
+Signature ``CreateWithUnits(expressionString, unitType)`` 
+
+:param expressionString:  The expression as a string.  Must be in the format: "name = formula".                                                 For example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:param unitType:  units for the expression  
+:type unitType: :py:class:`NXOpen.Unit` 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX4.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+
+
+CreateExpression vorhanden: True
+Creates an expression of the specified type.  
+
+
+If the expression is a number, it creates a unitless
+expression.
+
+
+Signature ``CreateExpression(expressionType, expressionString)`` 
+
+:param expressionType:  The type of the expression, such as "Number", "String", "Boolean", "Integer", "Point" and "Vector"  
+:type expressionType: str 
+:param expressionString:  the full expression string.  Must be in the format: "name = formula".                                                 For example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX5.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\NX_Detailbaugruppe_erzeugen.py", line 166, in main
+    mode=probe(session,params,log,os.path.join(out,'_API_Test'),files)
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\NX_Detailbaugruppe_erzeugen.py", line 118, in probe
+    b.native_probe()
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\nx_native.py", line 739, in native_probe
+    _,body=self._probe_primitive(op,None,'SXPROBE_Block')
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\nx_native.py", line 720, in _probe_primitive
+    result = self.primitive(op, target, name)
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\nx_native.py", line 572, in primitive
+    if self.inspector is None:self.inspector=BodyInspector(self.part,self.log)
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\nx_geometry.py", line 121, in __init__
+    self.mass=self._method('AskMassProps3d')
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\nx_geometry.py", line 128, in _method
+    raise RuntimeError('NX UF-Messfunktion fehlt: '+name)
+RuntimeError: NX UF-Messfunktion fehlt: AskMassProps3d
+
+Betroffenes Teil: None
+Abbruch im Vortest; in diesem Lauf wurden noch keine Maschinen-Einzelteile aufgebaut.
+Ausgabeordner dieses Laufs (ggf. unvollstaendig): C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_5\SX35Z_NX_Journale_v4_5\NX_Output\SX35Z_v4_5_20261026_090604_767050_a9a87b00cf29

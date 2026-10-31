@@ -1,0 +1,47 @@
+--- 07/NX_CNC_Gesamtansicht.py
++++ 07.1/NX_CNC_Gesamtansicht.py
+@@ -171,12 +171,16 @@
+         log_environment(log)
+         log('Geometriestand: '+model.VERSION+'; Untergestell/Einhausung/Schaltschrank als ENTWURF.')
+         log('Startjournal: '+os.path.abspath(__file__))
++        log('Blechadapter-Patch: '+str(getattr(nx_sheetmetal06,'ADAPTER_VERSION','nicht vorhanden')))
++        log('Blechadapterdatei: '+str(getattr(nx_sheetmetal06,'__file__','unbekannt')))
++        if getattr(nx_sheetmetal06,'ADAPTER_VERSION',None) != '07.1':
++            raise RuntimeError('Gemischter Blechpatch: NX_CNC_Gesamtansicht.py und nx_sheetmetal06.py aus 07.1 gemeinsam verwenden.')
+         if JOURNAL_VERSION != '4.8' or FILES_VERSION != '4.8' or GEOMETRY_VERSION != '4.6' or model.VERSION != 'CNC_ANSICHT_07':
+             raise RuntimeError('Gemischte Journalversionen. Alle Patchdateien im selben Ordner ablegen.')
+         params=model.load_parameters(os.path.join(HERE,'Parameter.json'));values=model.check_recipe(params)
+         stamp=datetime.now().strftime('%Y%m%d_%H%M%S_%f')
+         run_id=uuid4().hex[:12]
+-        out=prepare_output_directory(HERE,'SX35Z_CNC_ANSICHT_07_'+stamp+'_'+run_id,log)
++        out=prepare_output_directory(HERE,'SX35Z_CNC_ANSICHT_07_1_'+stamp+'_'+run_id,log)
+         log.set_output_directory(out)
+         if paths_only:
+             log('Nur Pfadtest: keine NX-Testteile oder Maschinenbauteile erzeugt.')
+@@ -243,7 +247,7 @@
+                 attr(p,'SX_VERSION',model.VERSION);attr(p,'SX_JOURNAL_VERSION',JOURNAL_VERSION);attr(p,'SX_BAUGRUPPE',model.GROUPS[group])
+                 files.save(p,path);subpaths.append((group,path))
+                 log('Unterbaugruppe gespeichert: '+group)
+-            current='FRAESMASCHINE_CNC_BLECHENTWURF_07'
++            current='FRAESMASCHINE_CNC_BLECHENTWURF_07_1'
+             rootpath=files.filename(out,current)
+             root=files.create(rootpath,lambda target:newpart(session,target,log))
+             for g,path in subpaths:add_component(root,path,g,(0,0,0))
+@@ -260,7 +264,7 @@
+         with open(os.path.join(out,'Parameter_beim_Aufbau.json'),'w',encoding='utf8') as f:json.dump(params,f,indent=2)
+         if _metadata_warnings:log('Optionale Metadatenwarnungen: %d; Geometrie dadurch nicht uebersprungen.'%len(_metadata_warnings))
+         with open(os.path.join(out,'Blech_Nachweis.json'),'w',encoding='utf8') as stream:
+-            json.dump(dict(mode=SHEETMETAL_MODE,parts=[m for m in manifest if m.get('sheetmetal')],manufacturing_released=False),stream,indent=2)
++            json.dump(dict(adapter_version=nx_sheetmetal06.ADAPTER_VERSION,mode=SHEETMETAL_MODE,parts=[m for m in manifest if m.get('sheetmetal')],manufacturing_released=False),stream,indent=2)
+         log('FERTIG: %d native Einzelteile. Ihre bereits offenen Dateien wurden nicht bearbeitet.'%len(manifest))
+         log('Formaenderungen lokal: Ausdruecke sx_. Maschinenstellung: Parameter.json; CNC-Baugruppen: CNC_Parameter.json; Ausbau: Ausbau_Parameter.json. Gesamtansicht neu aufbauen.')
+         log('Ausgabeordner komplett zusammenhalten: Teile + Unterbaugruppen + Hauptbaugruppe.')
+@@ -287,7 +291,7 @@
+                 log('Abbruch im Vortest; in diesem Lauf wurden noch keine Maschinen-Einzelteile aufgebaut.')
+             log('Ausgabeordner dieses Laufs (ggf. unvollstaendig): '+out)
+         log.save(failed=True)
+-        try:NXOpen.UI.GetUI().NXMessageBox.Show('SX35Z CNC-Gesamtansicht 07',NXOpen.NXMessageBox.DialogType.Error,'Abbruch. Details im Listing Window und NX_Fehlerprotokoll.txt. Keine fertige Baugruppe behauptet.')
++        try:NXOpen.UI.GetUI().NXMessageBox.Show('SX35Z CNC-Gesamtansicht 07.1',NXOpen.NXMessageBox.DialogType.Error,'Abbruch. Details im Listing Window und NX_Fehlerprotokoll.txt. Keine fertige Baugruppe behauptet.')
+         except Exception:pass
+         raise
+ 

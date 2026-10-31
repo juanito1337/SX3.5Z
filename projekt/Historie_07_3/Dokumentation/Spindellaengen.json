@@ -1,0 +1,139 @@
+{
+  "note": "Axiale H\u00fcllrechnung; keine Bestelll\u00e4ngen oder Freigabe. Gegenst\u00fcck, F\u00fchrungs\u00fcberdeckung und Kontakt fehlen.",
+  "old": [
+    {
+      "axis": "X",
+      "nominal_diameter_mm": 16.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 736.0,
+      "total_envelope_length_mm": 801.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": -20.0,
+      "poses": [
+        {
+          "pose_mm": -250.0,
+          "left_mm": 480.0,
+          "right_mm": 202.0
+        },
+        {
+          "pose_mm": 250.0,
+          "left_mm": -20.0,
+          "right_mm": 702.0
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH"
+    },
+    {
+      "axis": "Y",
+      "nominal_diameter_mm": 16.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 348.0,
+      "total_envelope_length_mm": 413.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": 25.0,
+      "poses": [
+        {
+          "pose_mm": -100.0,
+          "left_mm": 225.0,
+          "right_mm": 69.0
+        },
+        {
+          "pose_mm": 100.0,
+          "left_mm": 25.0,
+          "right_mm": 269.0
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH"
+    },
+    {
+      "axis": "Z",
+      "nominal_diameter_mm": 20.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 478.0,
+      "total_envelope_length_mm": 543.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": 3.25,
+      "poses": [
+        {
+          "pose_mm": 0,
+          "left_mm": 243.25,
+          "right_mm": 173.25
+        },
+        {
+          "pose_mm": 240.0,
+          "left_mm": 3.25,
+          "right_mm": 413.25
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH"
+    }
+  ],
+  "new": [
+    {
+      "axis": "X",
+      "nominal_diameter_mm": 16.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 776.0,
+      "total_envelope_length_mm": 841.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": 20.0,
+      "poses": [
+        {
+          "pose_mm": -250.0,
+          "left_mm": 520.0,
+          "right_mm": 202.0
+        },
+        {
+          "pose_mm": 250.0,
+          "left_mm": 20.0,
+          "right_mm": 702.0
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH"
+    },
+    {
+      "axis": "Y",
+      "nominal_diameter_mm": 16.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 348.0,
+      "total_envelope_length_mm": 413.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": 25.0,
+      "poses": [
+        {
+          "pose_mm": -100.0,
+          "left_mm": 225.0,
+          "right_mm": 69.0
+        },
+        {
+          "pose_mm": 100.0,
+          "left_mm": 25.0,
+          "right_mm": 269.0
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH"
+    },
+    {
+      "axis": "Z",
+      "nominal_diameter_mm": 20.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 498.0,
+      "total_envelope_length_mm": 563.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": 23.25,
+      "poses": [
+        {
+          "pose_mm": 0,
+          "left_mm": 263.25,
+          "right_mm": 173.25
+        },
+        {
+          "pose_mm": 240.0,
+          "left_mm": 23.25,
+          "right_mm": 413.25
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH"
+    }
+  ]
+}

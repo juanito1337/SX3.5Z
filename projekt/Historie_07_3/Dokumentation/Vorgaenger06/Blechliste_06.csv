@@ -1,0 +1,17 @@
+﻿Teil;Gruppe;Dicke_mm;Radius_Soll_mm;K_Faktor_Soll;Stegbreite_mm;Rueckkantung_mm;Profil_Laenge_mm;Biegungen;NX_Pruefung_hier;Abwicklung
+Einhausung_Seitenwand_links;15_Einhausung;2.0;3.0;0.4;1004.0;25.0;1200.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Einhausung_Seitenwand_rechts;15_Einhausung;2.0;3.0;0.4;1004.0;25.0;1200.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Einhausung_Rueckwand;15_Einhausung;2.0;3.0;0.4;1646.0;25.0;1200.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Einhausung_Dach;15_Einhausung;2.0;3.0;0.4;1658.0;25.0;1004.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Einhausung_Festfeld_links;15_Einhausung;2.0;3.0;0.4;115.0;12.0;1200.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Einhausung_Festfeld_rechts;15_Einhausung;2.0;3.0;0.4;115.0;12.0;1200.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Senktuer_LOWER_Rahmen;15_Einhausung;2.0;3.0;0.4;1460.0;30.0;530.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Senktuer_LOWER_Kantquerholm_0;15_Einhausung;2.0;3.0;0.4;45.0;28.0;1455.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Senktuer_LOWER_Kantquerholm_1;15_Einhausung;2.0;3.0;0.4;45.0;28.0;1455.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Senktuer_UPPER_Rahmen;15_Einhausung;2.0;3.0;0.4;1460.0;30.0;530.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Senktuer_UPPER_Kantquerholm_0;15_Einhausung;2.0;3.0;0.4;45.0;28.0;1455.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Senktuer_UPPER_Kantquerholm_1;15_Einhausung;2.0;3.0;0.4;45.0;28.0;1455.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Senktuer_Federkanal06_L;15_Einhausung;2.0;3.0;0.4;100.0;35.0;1800.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Senktuer_Federkanal06_R;15_Einhausung;2.0;3.0;0.4;100.0;35.0;1800.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Staender_Blechschuerze_links;15_Einhausung;2.0;3.0;0.4;860.0;25.0;550.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT
+Staender_Blechschuerze_rechts;15_Einhausung;2.0;3.0;0.4;860.0;25.0;550.0;2;NICHT_AUSGEFUEHRT;NICHT_ERZEUGT

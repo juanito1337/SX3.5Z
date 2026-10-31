@@ -1,0 +1,158 @@
+test_all_three_drives_present (test_ansichtsmodell.RecipeTests.test_all_three_drives_present) ... ok
+test_entire_machine_not_only_drive_samples (test_ansichtsmodell.RecipeTests.test_entire_machine_not_only_drive_samples) ... ok
+test_invalid_bearing_size_rejected (test_ansichtsmodell.RecipeTests.test_invalid_bearing_size_rejected) ... /mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+ok
+test_invalid_motor_size_rejected (test_ansichtsmodell.RecipeTests.test_invalid_motor_size_rejected) ... ok
+test_manual_feeds_replaced_but_quill_retained (test_ansichtsmodell.RecipeTests.test_manual_feeds_replaced_but_quill_retained) ... ok
+test_motor_and_screw_coaxial (test_ansichtsmodell.RecipeTests.test_motor_and_screw_coaxial) ... ok
+test_native_requires_no_audit_or_original_files (test_ansichtsmodell.RecipeTests.test_native_requires_no_audit_or_original_files) ... ok
+test_no_fabrication_release (test_ansichtsmodell.RecipeTests.test_no_fabrication_release) ... ok
+test_poses_produce_valid_recipes (test_ansichtsmodell.RecipeTests.test_poses_produce_valid_recipes) ... ok
+test_recipe_valid_and_unique (test_ansichtsmodell.RecipeTests.test_recipe_valid_and_unique) ... ok
+test_x_motor_moves_xy_nut_only_y (test_ansichtsmodell.RecipeTests.test_x_motor_moves_xy_nut_only_y) ... ok
+test_z_nut_moves_head_motor_stays (test_ansichtsmodell.RecipeTests.test_z_nut_moves_head_motor_stays) ... ok
+test_enclosure_stand_cabinet (test_ausbau02.AusbauTests.test_enclosure_stand_cabinet) ... ok
+test_every_part_has_source_status_palette_and_unique_name (test_ausbau02.AusbauTests.test_every_part_has_source_status_palette_and_unique_name) ... ok
+test_floor_table_height (test_ausbau02.AusbauTests.test_floor_table_height) ... ok
+test_length_report_all_target_ends (test_ausbau02.AusbauTests.test_length_report_all_target_ends) ... ok
+test_mounting_chain_exists (test_ausbau02.AusbauTests.test_mounting_chain_exists) ... ok
+test_no_manual_quill_drive (test_ausbau02.AusbauTests.test_no_manual_quill_drive) ... ok
+test_no_nx_execution_claim_in_model (test_ausbau02.AusbauTests.test_no_nx_execution_claim_in_model) ... ok
+test_originals_retained_except_handdrive (test_ausbau02.AusbauTests.test_originals_retained_except_handdrive) ... ok
+test_rotating_shoulder_clears_stationary_housing_entry (test_ausbau02.BearingClearanceTests.test_rotating_shoulder_clears_stationary_housing_entry) ... ok
+test_machine_heads_clear_fixed_housing (test_ausbau02.JointAccessTests.test_machine_heads_clear_fixed_housing) ... ok
+test_motor_screw_heads_have_own_clearance (test_ausbau02.JointAccessTests.test_motor_screw_heads_have_own_clearance) ... ok
+test_xy_motor_flange_retains_catalog_through_holes (test_ausbau02.SourceFlangeTests.test_xy_motor_flange_retains_catalog_through_holes) ... ok
+test_modes_include_machine_and_cabinet (test_ausbau02.ViewerContractTests.test_modes_include_machine_and_cabinet) ... ok
+test_motor_heads_are_outside_flange_and_body_is_reliefed (test_ausbau02.ViewerContractTests.test_motor_heads_are_outside_flange_and_body_is_reliefed) ... ok
+test_no_stale_part_count (test_ausbau02.ViewerContractTests.test_no_stale_part_count) ... ok
+test_cut_tools_do_not_enlarge_bounds (test_compact03.AnalyticBoundsTests.test_cut_tools_do_not_enlarge_bounds) ... ok
+test_cylinder_negative_axis (test_compact03.AnalyticBoundsTests.test_cylinder_negative_axis) ... ok
+test_normalizes_axis (test_compact03.AnalyticBoundsTests.test_normalizes_axis) ... ok
+test_prism_extrusion_bound (test_compact03.AnalyticBoundsTests.test_prism_extrusion_bound) ... ok
+test_zero_direction_rejected (test_compact03.AnalyticBoundsTests.test_zero_direction_rejected) ... ok
+test_browser_controls_and_real_state (test_compact03.CompactTests.test_browser_controls_and_real_state) ... ok
+test_closed_leaves_cover_aperture (test_compact03.CompactTests.test_closed_leaves_cover_aperture) ... ERROR
+test_conservative_report_covers_travel (test_compact03.CompactTests.test_conservative_report_covers_travel) ... ok
+test_door_parameters_exist (test_compact03.CompactTests.test_door_parameters_exist) ... ok
+test_explicit_invalid_positions (test_compact03.CompactTests.test_explicit_invalid_positions) ... ok
+test_full_open_is_within_width (test_compact03.CompactTests.test_full_open_is_within_width) ... FAIL
+test_glass_within_both_side_sheets (test_compact03.CompactTests.test_glass_within_both_side_sheets) ... ok
+test_height_unchanged (test_compact03.CompactTests.test_height_unchanged) ... ok
+test_invalid_envelope_not_silently_accepted (test_compact03.CompactTests.test_invalid_envelope_not_silently_accepted) ... ok
+test_leaf_parts_are_rigid_translations (test_compact03.CompactTests.test_leaf_parts_are_rigid_translations) ... FAIL
+test_new_parts_source_and_no_release (test_compact03.CompactTests.test_new_parts_source_and_no_release) ... ok
+test_no_old_swing_leaf_or_fixed_center_overlap (test_compact03.CompactTests.test_no_old_swing_leaf_or_fixed_center_overlap) ... ok
+test_plan_geometry_and_available_opening (test_compact03.CompactTests.test_plan_geometry_and_available_opening) ... ok
+test_reduced_plan_dimensions (test_compact03.CompactTests.test_reduced_plan_dimensions) ... ok
+test_reference_is_current_version (test_compact03.CompactTests.test_reference_is_current_version) ... FAIL
+test_target_travel_not_reduced (test_compact03.CompactTests.test_target_travel_not_reduced) ... ok
+test_too_high_aperture_rejected (test_compact03.CompactTests.test_too_high_aperture_rejected) ... ok
+test_too_wide_aperture_rejected (test_compact03.CompactTests.test_too_wide_aperture_rejected) ... FAIL
+test_both_leaves_have_fixed_switch_reserve (test_compact03.DoorSwitchTests.test_both_leaves_have_fixed_switch_reserve) ... FAIL
+test_switch_body_outside_leaf_sweep (test_compact03.DoorSwitchTests.test_switch_body_outside_leaf_sweep) ... ok
+test_front_sheets_do_not_overlap_posts (test_compact03.FrontPanelTests.test_front_sheets_do_not_overlap_posts) ... ok
+test_middle_cover_and_seal_clear_lower_guides (test_compact03.LabyrinthClearanceTests.test_middle_cover_and_seal_clear_lower_guides) ... ERROR
+test_fraction_spec_is_unitless (test_compact03.NativeDoorUnitTests.test_fraction_spec_is_unitless) ... ok
+test_native_expression_dispatch_for_ratio (test_compact03.NativeDoorUnitTests.test_native_expression_dispatch_for_ratio) ... ok
+test_shared_rail_consoles_no_duplicate_solids (test_compact03.RailSupportTests.test_shared_rail_consoles_no_duplicate_solids) ... FAIL
+test_browser_moves_on_z (test_lift04.LiftTests.test_browser_moves_on_z) ... ok
+test_closed_covers_opening_in_x_z (test_lift04.LiftTests.test_closed_covers_opening_in_x_z) ... ok
+test_false_positions_rejected (test_lift04.LiftTests.test_false_positions_rejected) ... ok
+test_fixed_structure_is_high_even_closed (test_lift04.LiftTests.test_fixed_structure_is_high_even_closed) ... ok
+test_footprint_height_and_travels_unchanged (test_lift04.LiftTests.test_footprint_height_and_travels_unchanged) ... ok
+test_guides_cover_carriage_travel (test_lift04.LiftTests.test_guides_cover_carriage_travel) ... ok
+test_motion_is_rigid_in_z_only (test_lift04.LiftTests.test_motion_is_rigid_in_z_only) ... ok
+test_old_horizontal_hardware_removed (test_lift04.LiftTests.test_old_horizontal_hardware_removed) ... ok
+test_open_leaf_clears_aperture_above (test_lift04.LiftTests.test_open_leaf_clears_aperture_above) ... ok
+test_other_groups_numerically_unchanged (test_lift04.LiftTests.test_other_groups_numerically_unchanged) ... ok
+test_revision (test_lift04.LiftTests.test_revision) ... ok
+test_safe_fallback_not_claimed (test_lift04.LiftTests.test_safe_fallback_not_claimed) ... ok
+test_single_upward_leaf (test_lift04.LiftTests.test_single_upward_leaf) ... ok
+test_face_sorting_follows_vertical_motion (test_lift04.ViewerVerticalProjectionTests.test_face_sorting_follows_vertical_motion) ... ok
+test_projected_vertices_are_shifted_on_z (test_lift04.ViewerVerticalProjectionTests.test_projected_vertices_are_shifted_on_z) ... ok
+
+======================================================================
+ERROR: test_closed_leaves_cover_aperture (test_compact03.CompactTests.test_closed_leaves_cover_aperture)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 28, in test_closed_leaves_cover_aperture
+    d=m.door_layout(self.p());left,right=d['leaves']
+                              ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+======================================================================
+ERROR: test_middle_cover_and_seal_clear_lower_guides (test_compact03.LabyrinthClearanceTests.test_middle_cover_and_seal_clear_lower_guides)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 142, in test_middle_cover_and_seal_clear_lower_guides
+    guide_top=max(body_bounds(ds['Schiebetuer_Unterfuehrung_'+a],v,m.evaluate)[5] for a in 'LR')
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 142, in <genexpr>
+    guide_top=max(body_bounds(ds['Schiebetuer_Unterfuehrung_'+a],v,m.evaluate)[5] for a in 'LR')
+                              ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'Schiebetuer_Unterfuehrung_L'
+
+======================================================================
+FAIL: test_full_open_is_within_width (test_compact03.CompactTests.test_full_open_is_within_width)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 24, in test_full_open_is_within_width
+    self.assertLessEqual(d['leaves'][0]['xmax'],d['opening_xmin'])
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 462.0 not less than or equal to -318.0
+
+======================================================================
+FAIL: test_leaf_parts_are_rigid_translations (test_compact03.CompactTests.test_leaf_parts_are_rigid_translations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 41, in test_leaf_parts_are_rigid_translations
+    self.assertAlmostEqual(b[0]-a[0],sign*v['door_travel']); self.assertEqual(a[1:],b[1:])
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.0 != 1025.0 within 7 places (1025.0 difference)
+
+======================================================================
+FAIL: test_reference_is_current_version (test_compact03.CompactTests.test_reference_is_current_version)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 78, in test_reference_is_current_version
+    self.assertEqual(m.VERSION,'CNC_ANSICHT_03')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'CNC_ANSICHT_04' != 'CNC_ANSICHT_03'
+- CNC_ANSICHT_04
+?              ^
++ CNC_ANSICHT_03
+?              ^
+
+
+======================================================================
+FAIL: test_too_wide_aperture_rejected (test_compact03.CompactTests.test_too_wide_aperture_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 53, in test_too_wide_aperture_rejected
+    with self.assertRaises(ValueError):m.validate(dict(self.p(),door_clear_w=1100))
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_both_leaves_have_fixed_switch_reserve (test_compact03.DoorSwitchTests.test_both_leaves_have_fixed_switch_reserve)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 85, in test_both_leaves_have_fixed_switch_reserve
+    self.assertIn('Tuerueberwachung_L_Bauraum',names)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Tuerueberwachung_L_Bauraum' not found in {'Hubtuer_Gewichtsausgleich_R_Bauraum', 'Faltenbalg_Y_hinten', 'CNC_X_Motorbefestigung_1', 'Einhausung_Dach', 'CNC_X_Maschinenanschluss_3', 'CNC_X_Kupplungsstern', 'KSS_Wannenrand_hinten', 'CNC_Z_Mutteraufnahme_Entwurf', 'CNC_Z_Motorbefestigung_4', 'Hubtuer_Scheibe', 'CNC_Y_Motorschutz_Haube', 'Hubtuer_Anschlusskonsole_R_1', 'Hubtuer_Mitnehmer_R_0', 'CNC_Y_Festlager_Befestigung_4', 'CNC_Z_Motor_Stecker_Bauraum', 'Mesa_Klemmen_Huelle_380', 'Einhausung_Festfeldscheibe_links', 'CNC_X_Anschlussplatte_Entwurf', 'CNC_X_Halteschraube_4', 'Blechsaeule_Stirnblech_unten', 'Hubtuer_Anschlusskonsole_R_0', 'Unterblech_Schraube_-1_72', 'Blechsaeule_Querlasche_530', 'Schrank_DIN_Schiene_320', 'Spindelmotor_Montageplatte', 'CNC_X_Festlager_Schulterring', '24V_Feldversorgung_BAURAUM', 'CNC_Y_Loslager_Befestigung_3', 'Pinolenanzeige_Taste_1', 'KSS_Innenaufkantung_rechts', 'CNC_X_Kupplung_Spindel', 'CNC_Z_Loslager_Befestigung_4', 'Staender_Querholm_0_0', 'CNC_X_Motorplatte_Entwurf', 'KSS_Wannenfluegel_-1', 'CNC_Y_Motor_Frontflansch', 'CNC_Z_Motor_Frontflansch', 'PE_Sammelschiene', 'Faltenbalg_Z', 'CNC_Z_Motorschutz_Haube', 'Panelhalter', 'Staender_Fuss_1_1', 'CNC_X_Loslager_Entwurf', 'Blechsaeule_Seitenwand_rechts', 'Einhausung_Festfeldscheibe_rechts', 'Motor_Riemenscheibe', 'Hubtuer_Fuehrung_R', 'Treiber_X_CS_D508_Huelle', 'Wellschlauch_1_Neutralstellung', 'Einhausung_Tuerpfosten_1', 'Schrank_Kabelkanal_20', 'CNC_Z_Festlager_Ringhuelle_2', 'Einhausung_Seitenscheibe_links', 'Bedienfront_Aluminium', 'CNC_Y_Motor_Stecker_Bauraum', 'CNC_Y_Motorbund', 'SK30_Mitnehmer_1', 'Einhausung_Seitenscheibe_rechts', 'CNC_Z_Kugelspindel_Huelle', 'Kabelverschraubung_1', 'CNC_Z_Motorbefestigung_3', 'CNC_Y_Rundmutter_Huelle', 'Hubtuer_Mitnehmer_R_1', 'Hubtuer_Fangsicherung_R_Bauraum', 'CNC_X_Motorbund', 'Sicherheitsgeraet_Reserve', 'CNC_Y_Halteschraube_1', 'CNC_X_Halteschraube_1', 'CNC_Z_Mutteranschluss_Kopf_Entwurf', 'Saeule_Guss_Foto', 'Hilfsversorgung_Trafokern', 'Lampenhalter', 'Hubtuer_Obertraverse', 'Einhausung_Tropfkante', 'CNC_Z_Festlager_Befestigung_2', '48V_Achsenversorgung_BAURAUM', 'CNC_Z_Festlager_Befestigung_1', 'CNC_Y_Distanzsaeule_1', 'Schaltschrank_Montageplatte', 'Reihenklemme_3', 'CNC_Z_Tragbruecke_Schraube_3', 'CNC_Y_Motor_Rueckdeckel', 'CNC_X_Maschinenanschluss_4', 'Pinole_Deckelschraube_2', 'Hubtuer_Schaltfahne', 'Hubtuer_Schlitten_L_1', 'CNC_Z_Kupplungsstern', 'Not_Halt_Pilz', 'Digitale_Bohrtiefenanzeige', 'CNC_X_Distanzsaeule_3', 'CNC_Y_Maschinenanschluss_2', 'CNC_X_Motorschutz_Haube', 'CNC_Z_Tragbruecke_Schraube_2', 'Blechsaeule_Seitenwand_links', 'Staender_Fuss_0_1', 'W92_1000F_Gehaeuse_Rippen', 'Z_Keilleiste_Kopf', 'Hubtuer_Fuehrung_L', 'Schuetz_Reserve', 'Treiber_Z_Reserve_KEIN_KAUFTEIL', 'KSS_Wannenrand_vorn', 'Pinole_Huelse_Detail', 'Hubtuer_Schlitten_L_0', 'KSS_Tank_Entwurf', 'CNC_X_Motor_Stecker_Bauraum', 'CNC_Z_Maschinenanschluss_2', 'Pinolenanzeige_Taste_2', 'KSS_Innenaufkantung_vorn', 'CNC_Y_Festlager_Befestigung_2', 'CNC_Y_Halteschraube_4', 'CNC_X_Loslager_Befestigung_2', 'CNC_Y_Festlager_Sicherungsmutter', 'Staender_Bein_1_1', 'Z_Endschalter_oben', 'Blechsaeule_Querlasche_210', 'Bedienpult_Taster_0', 'CNC_Y_Motorbefestigung_1', 'Mesa_Klemmen_Huelle_480', 'Hubtuer_Anschlusskonsole_L_1', 'CNC_X_Distanzsaeule_1', 'CNC_Y_Maschinenanschluss_1', 'CNC_Z_Distanzsaeule_2', 'CNC_Z_Festlager_Befestigung_4', 'Hilfsversorgung_Kuehlkoerper', 'Reihenklemme_8', 'Riemendeckel_Schraubknopf', 'Reihenklemme_0', 'Frontplatten_Schraube_1_205', 'XMT_Mikrocontroller_Huelle', 'Einhausung_Seitenwand_rechts', 'XMT_Netzdrossel_Huelle', 'CNC_X_Loslager_Befestigung_1', 'Staender_Maschinentraverse_1', 'CNC_Z_Motorbund', 'CNC_X_Festlager_Befestigung_1', 'CNC_Z_Loslager_Ringhuelle', 'Staender_Bein_1_0', 'Hubtuer_Griff', 'Treiber_Y_Steckklemmen', 'Hilfsversorgung_USB_Buchse_Huelle', 'Hubtuer_Schlitten_R_1', 'CNC_Y_Festlager_Schulterring', 'CNC_Z_Distanzsaeule_1', 'Schrank_Traegerausleger_1', 'X_Tisch_Stirnschraube_1_-55', 'Unterblech_Schraube_1_72', 'Spindelschutz_Schalterhalter', 'KSS_Tankdeckel', 'Sicherungshalter_Huelle_0', 'CNC_Z_Tragbruecke_Schraube_1', 'Frontplatten_Schraube_-1_205', 'CNC_X_Kugelspindel_Huelle', 'KSS_Innenaufkantung_links', 'Y_Massstab_Distanz_-55', 'Blechsaeule_Rueckwand', 'CNC_Z_Loslager_Befestigung_2', 'Schrank_Stuetzbein_1', 'Einhausung_Seitenwand_links', 'KSS_Wannenboden_hinten', 'XMT_Elko_04', 'Hubtuer_Gewichtsausgleich_L_Bauraum', 'CNC_X_Loslager_Befestigung_4', 'Arbeitslampe_Linse', 'Spindel_Riemenscheibe', 'KSS_Wannenrand_links', 'Staender_Laengsholm_1_1', 'CNC_Z_Festlager_Deckel', 'Einhausung_Festfeld_links', 'CNC_X_Festlager_Entwurf', 'CNC_Y_Motorbefestigung_3', 'CNC_X_Loslager_Brueckenwinkel', 'CNC_Y_Motorbefestigung_2', 'CNC_X_Motor_Rueckdeckel', 'CNC_Y_Kupplung_Motor', 'X_Massstab_Dichtlippe', 'CNC_X_Festlager_Befestigung_4', 'Pinole_Deckelschraube_1', 'Y_Massstab_Distanz_55', 'Pinolenanzeige_Taste_0', 'Staender_Laengsholm_0_0', 'Spindelschutz_Schalter_Huelle', 'Reihenklemme_6', 'Unterblech_Schraube_-1_196', 'Y_Massstab_Abdeckung', 'KSS_Ruecklaufschlauch_Huelle', 'Staender_Bein_0_1', 'Z_Taster_Auf', 'Saeulenfuss_Schraube_1_1', 'KSS_Wannenrand_rechts', 'CNC_Z_Motorbefestigung_1', 'Z_Taster_Seitenplatte', 'Reihenklemme_1', 'Reihenklemme_2', 'Gewindetaster', 'CNC_Y_Kupplung_Spindel', 'Schrank_Kabelkanal_550', 'CNC_X_Rundmutter_Huelle', 'CNC_X_Festlager_Ringhuelle', 'Schrank_DIN_Schiene_110', 'CNC_Y_Festlager_Entwurf', 'CNC_X_Motor_Frontflansch', 'Kopf_Unterblech_gelocht', 'CNC_Y_Kugelspindel_Huelle', 'X_Keilleiste_Einstellschraube', 'CNC_X_Motor_Gehaeuse', 'CNC_Y_Festlager_Befestigung_1', 'Reihenklemme_7', 'Reihenklemme_4', 'XMT_Steuer_Tochterplatine', 'CNC_Z_Kupplung_Spindel', 'Netzeinbaustecker_Huelle', 'CNC_Z_Motorplatte_Entwurf', 'W92_1000F_Frontflansch', 'CNC_Y_Mutteraufnahme_Entwurf', 'Hubtuer_Traeger_L', 'Hubtuer_Mitnehmer_L_0', 'Schrank_Kabelkanal_270', 'Motorplatte_Schraube_1_-1', 'Reihenklemme_5', 'Not_Halt_Kragen', 'Hubtuer_Mitnehmer_L_1', 'X_Massstab_Lesekopfhalter_ANNAHME', 'CNC_Y_Motorwelle', 'Mesa_7i95T_Einbauraum', 'Schrank_Traegerausleger_0', 'CNC_Y_Loslager_Entwurf', 'Z_Endschalter_unten', 'CNC_Z_Maschinenanschluss_3', 'Relais_Huelle', 'Frontplatten_Schraube_1_115', 'CNC_X_Mutteraufnahme_Entwurf', '5V_Mesa_Versorgung_BAURAUM', 'Treiber_Y_CS_D508_Huelle', 'Bedienpult_Taster_1', 'Schaltschrank_Tuer', 'CNC_Z_Festlager_Schulterring', 'Spindelschutz_oben', 'Bediengehaeuse_Hohlschale', 'Staender_Querholm_1_0', 'Einhausung_Rueckwand', 'Hilfsversorgung_Trafospule', 'Hubtuer_Schlitten_R_0', 'KSS_Ablaufstutzen', 'CNC_Z_Loslager_Befestigung_3', 'Staender_Querholm_0_1', 'Motorplatte_Schraube_-1_-1', 'CNC_X_Halteschraube_2', 'Staender_Fuss_0_0', 'Staender_Querholm_1_1', 'XMT_Elko_01', 'CNC_Y_Motorplatte_Entwurf', 'Staender_Fuss_1_0', 'CNC_Y_Festlager_Ringhuelle', 'Riemen_hoher_Bereich_Huelle', 'CNC_X_Kupplung_Motor', 'Staender_Maschinentraverse_0', 'Hubtuer_Anschlusskonsole_L_0', 'CNC_Z_Halteschraube_4', 'Spindelschutz_unten', 'Maschinen_Aufspannplatte', 'Staender_Laengsholm_0_1', 'CNC_Z_Festlager_Sicherungsmutter', 'XMT_Elko_00', 'CNC_Y_Motorbefestigung_4', 'EMV_Filter_Reserve', 'CNC_X_Loslager_Befestigung_3', 'Pinolenanzeige_LCD', 'CNC_Z_Loslager_Befestigung_1', 'Pinolenvorschub_Abdeckplatte', 'W92_1000F_Rueckdeckel', 'Riemenabdeckung_Blech', 'Frontplatten_Schraube_-1_15', 'Drehzahlanzeige_LCD_Foto', 'Mitnehmer_Schraube_1', 'CNC_X_Loslager_Anschlussbruecke', 'CNC_Z_Haltebremse_Bauraum', 'CNC_X_Festlager_Sicherungsmutter', 'CNC_Y_Kupplungsstern', 'Spindelkopf_Guss_Detail', 'CNC_Z_Festlager_Befestigung_3', 'Motorplatte_Schraube_-1_1', 'Einhausung_Tuerriegel_1', 'CNC_X_Festlager_Ringhuelle_2', 'Blechsaeule_Stirnblech_oben', 'CNC_X_Distanzsaeule_4', 'Schrank_Stuetzbein_0', 'CNC_Y_Loslager_Anschlussbruecke', 'Kopf_Frontplatte_Detail', 'Kreuzschlitten_Guss_Detail', 'Basis_Guss_Foto', 'CNC_Z_Halteschraube_1', 'Tuerueberwachung_UP_Bauraum', 'X_Tisch_Stirnschraube_-1_-55', 'Einhausung_Festfeld_rechts', 'Unterblech_Schraube_1_196', 'W92_1000F_Motorwelle_Huelle', 'Saeulenfuss_Schraube_-1_-1', 'CNC_Y_Festlager_Befestigung_3', 'XMT_Elko_03', 'CNC_X_Maschinenanschluss_1', 'Saeulenfuss_Schraube_-1_1', 'XMT_Elko_02', 'Kopf_Typenschild', 'XMT_Leistungsklemmenblock', 'CNC_Y_Loslager_Befestigung_4', 'CNC_Z_Kupplung_Motor', 'Saeulenfuss_Schraube_1_-1', 'Hubtuer_Rahmen', 'Schutz_Halter', 'CNC_Z_Tragbruecke_auf_Gusssaeule', 'Treiber_X_Steckklemmen', 'Bedienpult_Aussen_Reserve', 'CNC_X_Maschinenanschluss_2', 'Z_Taster_Ab', 'CNC_Y_Loslager_Befestigung_2', 'CNC_Y_Anschlussplatte_Entwurf', 'KSS_Wannenboden_vorn', 'Werkzeugspindel_Durchgehende_Huelle', 'CNC_X_Festlager_Befestigung_2', 'Saeulendeckel', 'CNC_Y_Festlager_Ringhuelle_2', 'CNC_Y_Distanzsaeule_3', 'CNC_Z_Anschlussplatte_Entwurf', 'CNC_Z_Motor_Rueckdeckel', 'CNC_X_Motorbefestigung_3', 'Spindelnase_SK30_Normreferenz', 'CNC_Z_Tragbruecke_Schraube_4', 'Mesa_Klemmen_Huelle_430', 'X_Tisch_Stirnschraube_-1_55', 'CNC_Z_Motor_Gehaeuse', 'CNC_Z_Halteschraube_3', 'CNC_Y_Maschinenanschluss_4', 'Hubtuer_Fangsicherung_L_Bauraum', 'CNC_X_Festlager_Deckel', 'Schaltschrank_Hohlschale', 'CNC_Y_Festlager_Deckel', 'Motorplatte_Schraube_1_1', 'Einhausung_Tuerriegel_0', 'CNC_Z_Festlager_Entwurf', 'X_Klemmhebel_1', 'Frontplatten_Schraube_1_15', 'Riemenhauben_Sicherheitsschalter', 'CNC_Z_Loslager_Entwurf', 'Schutz_Klemmschraube_-1', 'CNC_Z_Halteschraube_2', 'Einhausung_Frontsturz', 'X_Keilleiste_Sattel', 'Kabelverschraubung_0', 'Schutz_Klemmschraube_1', 'Frontplatten_Schraube_-1_115', 'CNC_X_Festlager_Befestigung_3', 'Arbeitstisch_Foto', 'X_Tisch_Stirnschraube_1_55', 'CNC_Z_Distanzsaeule_3', 'XMT_Signalklemme', 'Hubtuer_Traeger_R', 'KSS_Filterkorb', 'CNC_Z_Maschinenanschluss_1', 'CNC_Y_Distanzsaeule_2', 'SK30_Mitnehmer_-1', 'Hilfsversorgung_Platine', 'CNC_Z_Maschinenanschluss_4', 'CNC_Z_Loslager_Anschlussbruecke', 'EMI_Filter_Huelle', 'CNC_X_Halteschraube_3', 'Schrank_DIN_Schiene_600', 'Drehzahlsteller', 'PE_Schiene_Schaltschrank', 'CNC_Y_Distanzsaeule_4', 'Start_Stop_Taster', 'CNC_Z_Festlager_Ringhuelle', 'X_Klemmhebel_0', 'Pinole_Messstange', 'Staender_Bein_0_0', 'CNC_Y_Loslager_Ringhuelle', 'CNC_X_Distanzsaeule_2', 'CNC_Y_Maschinenanschluss_3', 'CNC_Z_Motorbefestigung_2', 'Wellschlauch_2_Neutralstellung', 'CNC_X_Motorbefestigung_2', 'CNC_Y_Halteschraube_3', 'Einhausung_Frontschwelle', 'Blechsaeule_Schraegblech', 'CNC_Y_Loslager_Befestigung_1', 'CNC_Y_Motor_Gehaeuse', 'Einhausung_Tuerpfosten_0', 'CNC_X_Motorbefestigung_4', 'TDE_2232_Transformator_Huelle', 'CNC_X_Loslager_Ringhuelle', 'Mitnehmer_Schraube_-1', 'X_Massstab_Lesekopf_Foto', 'Spindel_Drehzahlgeber_Huelle', 'Mesa_Klemmen_Huelle_330', 'KSS_Wannenfluegel_1', 'Staender_Laengsholm_1_0', 'CNC_X_Motorwelle', 'Sicherungshalter_Huelle_1', 'XMT_1000_DRIVER_Platine', 'CNC_Z_Distanzsaeule_4', 'CNC_Z_Rundmutter_Huelle', 'CNC_Z_Motorwelle', 'Sicherungen_Reserve', 'CNC_Y_Halteschraube_2', 'Arbeitslampe', 'KSS_Innenaufkantung_hinten', 'X_Massstab_Gehaeuse_Foto', 'Anzugspindel_Abdeckung', 'Spindel_Laengsverzahnung_Huelle', 'KSS_Pumpe_Bauraum'}
+
+======================================================================
+FAIL: test_shared_rail_consoles_no_duplicate_solids (test_compact03.RailSupportTests.test_shared_rail_consoles_no_duplicate_solids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/tests/test_compact03.py", line 113, in test_shared_rail_consoles_no_duplicate_solids
+    self.assertEqual(len(ds),3)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+AssertionError: 0 != 3
+
+----------------------------------------------------------------------
+Ran 72 tests in 5.409s
+
+FAILED (failures=6, errors=2)

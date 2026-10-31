@@ -1,0 +1,185 @@
+test_clearance_cannot_be_negative (test_senktuer05.DownwardDoorTests.test_clearance_cannot_be_negative) ... /mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+FAIL
+test_closed_panels_cover_aperture_with_overlap (test_senktuer05.DownwardDoorTests.test_closed_panels_cover_aperture_with_overlap) ... FAIL
+test_each_leaf_has_position_switch_reserve (test_senktuer05.DownwardDoorTests.test_each_leaf_has_position_switch_reserve) ... FAIL
+test_fully_open_both_below_opening (test_senktuer05.DownwardDoorTests.test_fully_open_both_below_opening) ... FAIL
+test_glass_not_too_thick_for_lane (test_senktuer05.DownwardDoorTests.test_glass_not_too_thick_for_lane) ... FAIL
+test_ground_and_ceiling_bound_all_door_hardware (test_senktuer05.DownwardDoorTests.test_ground_and_ceiling_bound_all_door_hardware) ... ok
+test_ground_clearance_throughout (test_senktuer05.DownwardDoorTests.test_ground_clearance_throughout) ... ok
+test_guides_cover_all_carriages (test_senktuer05.DownwardDoorTests.test_guides_cover_all_carriages) ... FAIL
+test_invalid_low_stand_rejected (test_senktuer05.DownwardDoorTests.test_invalid_low_stand_rejected) ... FAIL
+test_model_motion_metadata_is_segment_specific (test_senktuer05.DownwardDoorTests.test_model_motion_metadata_is_segment_specific) ... FAIL
+test_no_manufacturing_release (test_senktuer05.DownwardDoorTests.test_no_manufacturing_release) ... ok
+test_no_upward_names (test_senktuer05.DownwardDoorTests.test_no_upward_names) ... FAIL
+test_old_one_piece_downward_would_hit_floor (test_senktuer05.DownwardDoorTests.test_old_one_piece_downward_would_hit_floor) ... ok
+test_other_groups_unchanged (test_senktuer05.DownwardDoorTests.test_other_groups_unchanged) ... ok
+test_outer_enclosure_and_heights_retained (test_senktuer05.DownwardDoorTests.test_outer_enclosure_and_heights_retained) ... FAIL
+test_panels_use_different_depth_lanes (test_senktuer05.DownwardDoorTests.test_panels_use_different_depth_lanes) ... FAIL
+test_parameters_have_no_mixed_revision (test_senktuer05.DownwardDoorTests.test_parameters_have_no_mixed_revision) ... FAIL
+test_revision (test_senktuer05.DownwardDoorTests.test_revision) ... FAIL
+test_rigid_motion_and_2to1_ratio (test_senktuer05.DownwardDoorTests.test_rigid_motion_and_2to1_ratio) ... FAIL
+test_two_downward_segments (test_senktuer05.DownwardDoorTests.test_two_downward_segments) ... FAIL
+
+======================================================================
+FAIL: test_clearance_cannot_be_negative (test_senktuer05.DownwardDoorTests.test_clearance_cannot_be_negative)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 65, in test_clearance_cannot_be_negative
+    p=self.p();self.assertIn('door_panel_overlap',p)
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'door_panel_overlap' not found in OrderedDict({'table_x': 740.0, 'table_y': 180.0, 'slot_w': 12.0, 'slot_pitch': 53.0, 'travel_x': 500.0, 'travel_y': 200.0, 'travel_z_min': 240.0, 'travel_z_max': 290.0, 'quill_travel': 78.0, 'throat': 210.0, 'spindle_gap_max': 350.0, 'base_long': 510.0, 'base_short': 280.0, 'bolt_pitch_long': 360.0, 'bolt_pitch_short': 250.0, 'ref_size_l': 940.0, 'ref_size_b': 820.0, 'ref_size_h': 930.0, 'pos_x': 0.0, 'pos_y': 0.0, 'z_travel_used': 240.0, 'head_down': 60.0, 'quill_down': 0.0, 'base_h': 80.0, 'base_flange_h': 18.0, 'base_inset_x': 18.0, 'mount_hole_d': 14.0, 'guide_h': 12.0, 'guide_spacing': 140.0, 'guide_length': 360.0, 'saddle_x': 220.0, 'saddle_y': 180.0, 'saddle_h': 42.0, 'cross_h': 4.0, 'table_h': 42.0, 'slot_top_h': 9.0, 'slot_under_w': 22.0, 'slot_under_h': 10.0, 'column_x': 138.0, 'column_y': 112.0, 'column_foot_h': 18.0, 'column_cap_h': 15.0, 'head_x': 150.0, 'head_h': 220.0, 'head_front': 64.0, 'head_quill_offset': 32.0, 'belt_cover_h': 50.0, 'belt_cover_extra': 0.8, 'drawbar_cap_d': 38.0, 'drawbar_cap_h': 78.0, 'quill_d': 60.0, 'quill_bore_d': 38.0, 'quill_body_h': 110.0, 'spindle_nose_d': 80.0, 'spindle_nose_h': 16.0, 'spindle_shaft_d': 36.0, 'z_motor_d': 78.0, 'z_motor_h': 91.0, 'z_motor_flange_h': 10.0, 'z_motor_cap_h': 8.0, 'panel_x': 138.0, 'panel_y': 80.0, 'panel_h': 174.0, 'panel_gap': 28.0, 'panel_z_offset': 96.0, 'wheel_d': 125.0, 'wheel_h': 24.0, 'wheel_rim': 9.0, 'wheel_hub_d': 36.0, 'wheel_shaft_d': 16.0, 'wheel_grip_d': 16.0, 'wheel_grip_h': 47.0, 'x_wheel_offset': 69.0, 'y_wheel_offset': 73.0, 'star_hub_d': 45.0, 'star_hub_h': 24.0, 'star_bar_d': 10.0, 'star_radius': 130.0, 'star_grip_d': 19.0, 'star_grip_h': 56.0, 'shield_w': 152.0, 'shield_y': 137.0, 'shield_h': 125.0, 'shield_t': 2.0, 'bellows_w': 158.0, 'bellows_depth': 19.0, 'head_corner_r': 7.0, 'frontplate_t': 3.0, 'cover_t': 2.0, 'cover_extra_x': 12.0, 'cover_rear_extra': 48.0, 'cover_taper_h': 225.0, 'cover_top_extra': 12.0, 'table_end_margin': 12.0, 'table_end_pocket_x': 32.0, 'table_end_pocket_y': 152.0, 'table_end_pocket_h': 18.0, 'table_end_pocket_r': 5.0, 'table_drain_w': 3.0, 'table_drain_inset': 7.0, 'wheel_dish_depth': 16.0, 'wheel_dish_inner_d': 56.0, 'shield_corner': 20.0, 'shield_extension': 30.0, 'shield_lower_h': 55.0, 'bellows_sheet_t': 1.1, 'magnetpad_y': 65.0, 'magnetpad_h': 100.0, 'sk_taper_length': 48.4, 'z_screw_d': 18.0, 'sk_gauge_d': 31.75, 'base_wall': 12.0, 'base_roof_t': 14.0, 'base_end_wall': 16.0, 'base_slot_w': 78.0, 'base_slot_l': 258.0, 'base_slot_front': 85.0, 'base_rib_t': 9.0, 'base_rib_reach': 22.0, 'base_rib_h': 26.0, 'base_y_bore_d': 22.0, 'base_y_boss_d': 42.0, 'base_y_axis_drop': 14.0, 'column_seat_h': 4.0, 'column_seat_w': 34.0, 'column_mount_px': 196.0, 'column_mount_py': 84.0, 'column_mount_d': 11.0, 'column_length': 780.0, 'column_wall': 12.0, 'column_front_wall': 16.0, 'column_end_wall': 14.0, 'column_slot_w': 38.0, 'column_slot_l': 510.0, 'column_slot_bottom': 180.0, 'column_guide_proj': 12.0, 'column_guide_width': 126.0, 'column_rib_t': 12.0, 'column_rib_z1': 300.0, 'column_rib_z2': 440.0, 'column_rib_clear': 52.0, 'column_gusset_t': 9.0, 'column_gusset_reach': 18.0, 'column_inspect_d': 32.0, 'column_inspect_top': 40.0, 'column_inspect_y': 55.0, 'column_screw_offset': 38.0, 'column_top_bore_d': 28.0, 'table_under_w': 112.0, 'table_under_flare': 7.0, 'table_under_h': 10.0, 'table_channel_w': 54.0, 'table_channel_h': 19.0, 'table_end_hole_d': 5.5, 'table_end_hole_pitch': 110.0, 'table_end_hole_depth': 12.0, 'scale_depth': 10.0, 'scale_h': 20.0, 'scale_end_margin': 16.0, 'scale_reader_x': 95.0, 'scale_reader_l': 58.0, 'head_wall': 12.0, 'head_roof': 18.0, 'head_quill_boss': 92.0, 'head_window_y': 96.0, 'head_bottom_plate_t': 2.0, 'quill_outer_length': 158.0, 'spindle_top_shaft_d': 28.0, 'spindle_top_shaft_h': 54.0, 'spindle_pulley_d': 94.0, 'spindle_pulley_h': 27.0, 'motor_frame': 92.0, 'motor_length': 185.0, 'motor_plate_x': 150.0, 'motor_plate_y': 132.0, 'motor_plate_t': 6.0, 'motor_y': 142.0, 'motor_fins_t': 2.2, 'motor_fins_depth': 5.0, 'motor_pulley_d': 66.0, 'motor_timing_d': 32.0, 'z_gear_size': 80.0, 'z_gear_h': 48.0, 'z_orig_motor_h': 86.0, 'z_plate_x': 120.0, 'z_plate_y': 100.0, 'z_plate_t': 8.0, 'lead_x_d': 16.0, 'lead_y_d': 16.0, 'lead_z_d': 20.0, 'lead_z_length': 470.0, 'saddle_channel_d': 27.0, 'saddle_pocket_depth': 11.0, 'saddle_nut_x': 34.0, 'saddle_nut_w': 32.0, 'saddle_nut_h': 18.0, 'cover_length': 780.0, 'cover_width': 150.0, 'cover_deep': 215.0, 'cover_shallow': 125.0, 'cover_step_z': 150.0, 'cover_slope_l': 120.0, 'cover_sheet_t': 1.5, 'electronics_board_w': 118.0, 'electronics_board_h': 268.0, 'electronics_pcb_t': 1.6, 'electronics_gap': 9.0, 'z_nut_w': 48.0, 'z_nut_h': 60.0, 'z_nut_l': 42.0, 'quill_spindle_upper_d': 34.0, 'quill_spindle_full_h': 236.0, 'quill_pinion_d': 32.0, 'quill_pinion_w': 16.0, 'quill_feed_shaft_d': 18.0, 'cnc_x_screw_d': 16.0, 'cnc_x_lead': 5.0, 'cnc_x_nut_od': 28.0, 'cnc_x_nut_l': 50.0, 'cnc_x_nut_w': 47.0, 'cnc_x_nut_h': 33.0, 'cnc_x_nut_block_l': 54.0, 'cnc_x_journal_d': 12.0, 'cnc_x_free_journal_d': 10.0, 'cnc_x_bearing_bore': 28.0, 'cnc_x_free_bearing_bore': 24.0, 'cnc_x_motor_w': 56.4, 'cnc_x_motor_l': 103.0, 'cnc_x_motor_pitch': 47.14, 'cnc_x_pilot_d': 38.1, 'cnc_x_shaft_d': 8.0, 'cnc_x_shaft_l': 21.0, 'cnc_x_plate_w': 84.0, 'cnc_x_plate_t': 10.0, 'cnc_x_spacer_pitch': 66.0, 'cnc_x_coupling_d': 32.0, 'cnc_y_screw_d': 16.0, 'cnc_y_lead': 5.0, 'cnc_y_nut_od': 28.0, 'cnc_y_nut_l': 50.0, 'cnc_y_nut_w': 47.0, 'cnc_y_nut_h': 33.0, 'cnc_y_nut_block_l': 54.0, 'cnc_y_journal_d': 12.0, 'cnc_y_free_journal_d': 10.0, 'cnc_y_bearing_bore': 28.0, 'cnc_y_free_bearing_bore': 24.0, 'cnc_y_motor_w': 56.4, 'cnc_y_motor_l': 103.0, 'cnc_y_motor_pitch': 47.14, 'cnc_y_pilot_d': 38.1, 'cnc_y_shaft_d': 8.0, 'cnc_y_shaft_l': 21.0, 'cnc_y_plate_w': 84.0, 'cnc_y_plate_t': 10.0, 'cnc_y_spacer_pitch': 66.0, 'cnc_y_coupling_d': 32.0, 'cnc_z_screw_d': 20.0, 'cnc_z_lead': 5.0, 'cnc_z_nut_od': 33.0, 'cnc_z_nut_l': 50.0, 'cnc_z_nut_w': 53.0, 'cnc_z_nut_h': 40.0, 'cnc_z_nut_block_l': 61.5, 'cnc_z_journal_d': 15.0, 'cnc_z_free_journal_d': 12.0, 'cnc_z_bearing_bore': 32.0, 'cnc_z_free_bearing_bore': 28.0, 'cnc_z_motor_w': 86.0, 'cnc_z_motor_l': 118.0, 'cnc_z_motor_pitch': 69.6, 'cnc_z_pilot_d': 73.0, 'cnc_z_shaft_d': 14.0, 'cnc_z_shaft_l': 32.0, 'cnc_z_plate_w': 108.0, 'cnc_z_plate_t': 10.0, 'cnc_z_spacer_pitch': 88.0, 'cnc_z_coupling_d': 40.0, 'cnc_x_extra_l': 40.0, 'cnc_z_extra_l': 20.0, 'axial_reserve': 10.0, 'stand_h': 750.0, 'stand_w': 1650.0, 'stand_d': 1000.0, 'stand_cx': 62.0, 'stand_cy': 25.0, 'tube_side': 60.0, 'tube_wall': 3.0, 'enclosure_h': 1200.0, 'sheet_t': 2.0, 'window_t': 8.0, 'cab_w': 600.0, 'cab_h': 800.0, 'cab_d': 300.0, 'cab_gap': 60.0, 'cab_z': 150.0, 'tank_w': 500.0, 'tank_d': 400.0, 'tank_h': 250.0, 'door_open': 0.0, 'door_clear_w': 760.0, 'door_clear_h': 1000.0, 'door_z': 100.0, 'door_overlap': 20.0, 'door_open_clearance': 5.0, 'door_thickness': 30.0, 'lift_guide_overrun': 40.0})
+
+======================================================================
+FAIL: test_closed_panels_cover_aperture_with_overlap (test_senktuer05.DownwardDoorTests.test_closed_panels_cover_aperture_with_overlap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 22, in test_closed_panels_cover_aperture_with_overlap
+    self.assertEqual(len(ls),2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_each_leaf_has_position_switch_reserve (test_senktuer05.DownwardDoorTests.test_each_leaf_has_position_switch_reserve)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 45, in test_each_leaf_has_position_switch_reserve
+    ds=m.recipe();self.assertEqual(len([d for d in ds if d['name'].startswith('Tuerueberwachung_')]),2)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_fully_open_both_below_opening (test_senktuer05.DownwardDoorTests.test_fully_open_both_below_opening)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 15, in test_fully_open_both_below_opening
+    for leaf in r['leaves']:self.assertLessEqual(leaf['zmax'],r['opening_zmin']-5+1e-7)
+                            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2145.0 not less than or equal to 95.0000001
+
+======================================================================
+FAIL: test_glass_not_too_thick_for_lane (test_senktuer05.DownwardDoorTests.test_glass_not_too_thick_for_lane)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 68, in test_glass_not_too_thick_for_lane
+    with self.assertRaises(ValueError):m.validate(dict(self.p(),window_t=25))
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_guides_cover_all_carriages (test_senktuer05.DownwardDoorTests.test_guides_cover_all_carriages)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 70, in test_guides_cover_all_carriages
+    ds=m.recipe();gs=[d for d in ds if d['name'].startswith('Senktuer_Fuehrung_')];self.assertEqual(len(gs),4)
+                                                                                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+AssertionError: 0 != 4
+
+======================================================================
+FAIL: test_invalid_low_stand_rejected (test_senktuer05.DownwardDoorTests.test_invalid_low_stand_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 63, in test_invalid_low_stand_rejected
+    with self.assertRaises(ValueError):m.validate(dict(self.p(),stand_h=450))
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_model_motion_metadata_is_segment_specific (test_senktuer05.DownwardDoorTests.test_model_motion_metadata_is_segment_specific)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 83, in test_model_motion_metadata_is_segment_specific
+    self.assertEqual(d.get('door_motion_vector'),[0,0,-1]);self.assertIn('door_shift_z',d)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [0, 0, 1] != [0, 0, -1]
+
+First differing element 2:
+1
+-1
+
+- [0, 0, 1]
++ [0, 0, -1]
+?        +
+
+
+======================================================================
+FAIL: test_no_upward_names (test_senktuer05.DownwardDoorTests.test_no_upward_names)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 43, in test_no_upward_names
+    self.assertFalse(any(d['name'].startswith('Hubtuer_') for d in m.recipe()))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_outer_enclosure_and_heights_retained (test_senktuer05.DownwardDoorTests.test_outer_enclosure_and_heights_retained)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 33, in test_outer_enclosure_and_heights_retained
+    self.assertAlmostEqual(m.door_layout(p)['fixed_total_height_mm'],1952)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2965.0 != 1952 within 7 places (1013.0 difference)
+
+======================================================================
+FAIL: test_panels_use_different_depth_lanes (test_senktuer05.DownwardDoorTests.test_panels_use_different_depth_lanes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 28, in test_panels_use_different_depth_lanes
+    ls=m.door_layout(self.p())['leaves'];self.assertEqual(len(ls),2)
+                                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_parameters_have_no_mixed_revision (test_senktuer05.DownwardDoorTests.test_parameters_have_no_mixed_revision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 86, in test_parameters_have_no_mixed_revision
+    self.assertIn("model.VERSION != 'CNC_ANSICHT_05'",(ROOT/'NX_CNC_Gesamtansicht.py').read_text())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "model.VERSION != 'CNC_ANSICHT_05'" not found in '# -*- coding: utf-8 -*-\n"""SX3.5Z integrated CNC view -- create parts, 17 subassemblies and a root .prt.\nNot a final CNC conversion: layout study with explicit unverified adapters.\nRun with Siemens NX > Journal > Play. No external Python packages required.\nAlways writes a new timestamped directory; existing parts remain unmodified.\nThe STEP files are not read by this script.\n"""\nimport os, sys, json, re, traceback, importlib.util\nfrom uuid import uuid4\nfrom datetime import datetime\nHERE=os.path.dirname(os.path.abspath(__file__))\nif HERE in sys.path:sys.path.remove(HERE)\nsys.path.insert(0,HERE)\n# NX retains modules between journal runs: explicitly reload this package only.\nfor _n in (\'cnc_ansichtsmodell\',\'cnc_ansichtsmodell01\',\'modell_v4\',\'v3_geometriebasis\',\'nx_native\',\'nx_files\',\'nx_geometry\',\'enclosure_checks03\'):\n    if _n in sys.modules:del sys.modules[_n]\nimport cnc_ansichtsmodell as model\nimport NXOpen, NXOpen.Features, NXOpen.Assemblies\nfrom nx_native import (NativeModelBuilder, ExpressionFactory, RunLog,\n                       log_environment, require_millimeter_part, JOURNAL_VERSION)\nfrom nx_files import NativePartFiles, FILES_VERSION, prepare_output_directory\nfrom nx_geometry import ReferenceCheck, GEOMETRY_VERSION\n\n\n_metadata_warnings=[]\ndef attr(obj,key,value):\n    # Provenance metadata is optional. Geometry/file/assembly errors remain fatal.\n    try:obj.SetUserAttribute(key,-1,str(value),NXOpen.Update.Option.Now)\n    except Exception as exc:_metadata_warnings.append(\'%s: %s\'%(key,exc))\n\ndef ident():\n    m=NXOpen.Matrix3x3()\n    m.Xx=1.;m.Xy=0.;m.Xz=0.;m.Yx=0.;m.Yy=1.;m.Yz=0.;m.Zx=0.;m.Zy=0.;m.Zz=1.\n    return m\n\ndef newpart(session,name,log=None):\n    # NewDisplay explicitly requires Part.Units (NOT BasePart.Units).\n    part=session.Parts.NewDisplay(name,NXOpen.Part.Units.Millimeters)\n    # PartUnits, in contrast, returns BasePart.Units. Check every new part,\n    # including assembly containers, before creating any features.\n    require_millimeter_part(part,log)\n    part.WCS.SetOriginAndMatrix(NXOpen.Point3d(0.0,0.0,0.0),ident())\n    if not part.Preferences.Modeling.GetHistoryMode():\n        raise RuntimeError(\'NX muss im History-Modus arbeiten. Kein historienfreier Aufbau.\')\n    return part\n\ndef add_component(parent,filename,name,xyz,layer=1):\n    result=parent.ComponentAssembly.AddComponent(filename,\'Entire Part\',name,\n                        NXOpen.Point3d(*[float(x) for x in xyz]),ident(),int(layer))\n    if isinstance(result,tuple):\n        component=result[0]\n        for item in result[1:]:\n            if hasattr(item,\'NumberUnloadedParts\') and item.NumberUnloadedParts:\n                messages=[]\n                for i in range(item.NumberUnloadedParts):\n                    try:messages.append(item.GetStatusDescription(i))\n                    except Exception:pass\n                item.Dispose()\n                raise RuntimeError(\'Komponente nicht voll geladen: \'+str(messages))\n            if hasattr(item,\'Dispose\'):item.Dispose()\n    else:component=result\n    if component is None:raise RuntimeError(\'AddComponent lieferte keine Komponente: \'+name)\n    return component\n\nclass PartBuilder(NativeModelBuilder):\n    def __init__(self,session,part,parameters,definition,log,reference=None):\n        super().__init__(session,part,parameters,log)\n        self.definition=model.local_definition(definition)\n        self.source_definition=definition\n        self.reference=reference\n        self.needed=model.used_parameters(self.definition)\n        self.known=set(parameters)|set(model.DERIVED)\n    def create_expressions(self):\n        super().create_expressions(needed=self.needed)\n    def build_one(self,mode=None):\n        # Mode was tested in a separate API part. Unit objects are resolved\n        # freshly from this actual part for every expression creation.\n        if mode is None:\n            self.expression_factory.select()\n        else:\n            require_millimeter_part(self.part)\n            self.expression_factory.mode=mode\n            self.expression_factory.unit=None\n        self.create_expressions();target=None\n        for i,op in enumerate(self.definition[\'ops\'],1):\n            self.current_feature=\'%03d_%s\'%(i,op[\'label\'])\n            _,target=self.primitive(op,target,self.current_feature)\n            if self.reference is not None:self.reference.check(self.definition[\'id\'],i,self.last_measurement)\n        # All primitives exist before optional provenance metadata is attached.\n        self.verify_expression_values()\n        self.write_expression_metadata()\n        self.style(target,self.source_definition)\n        for key,value in {\'SX_VERSION\':model.VERSION,\'SX_JOURNAL_VERSION\':JOURNAL_VERSION,\'SX_PART_ID\':self.definition[\'id\'],\'SX_TEILNAME\':self.definition[\'name\'],\n                          \'SX_GRUPPE\':self.definition[\'group\'],\'SX_QUELLE\':self.definition[\'source\'],\n                          \'SX_STATUS\':self.definition[\'status\'],\'SX_GRENZEN\':self.definition[\'note\'],\n                          \'SX_DATUM_FORMEL\':json.dumps(self.definition[\'datum\']),\n                          \'SX_EINHEIT\':\'mm\',\'SX_NX_TEST\':\'Lokaler Lauf erforderlich; keine Fertigungsfreigabe\'}.items():attr(self.part,key,value)\n        # Explicit MODEL reference set avoids exposing construction objects on import.\n        try:\n            rs=self.part.CreateReferenceSet();rs.SetName(\'MODEL\');rs.AddObjectsToReferenceSet([target])\n        except Exception as exc:self.log(\'Optionales MODEL-Referenzset nicht erzeugt: \'+str(exc))\n        return target\n\ndef probe(session,params,log,out,files):\n    """Actual runtime test on user\'s NX, including file save + component insertion.\n    The numeric part shape is checked via the existing associative probe.\n    Files are retained in _API_Test for diagnostics and are NOT in final assembly.\n    """\n    os.makedirs(out,exist_ok=True)\n    path=files.filename(out,\'API_Testteil\')\n    p=files.create(path,lambda target:newpart(session,target,log))\n    b=NativeModelBuilder(session,p,params,log)\n    try:\n        log(\'API-Testphase 1: API-Auswahl mit Punktprobe UND allen Modell-Ausdruecken\')\n        b.expression_factory.select(validate_model=b.create_expressions)\n        log(\'API-Testphase 2: Alle Modell-Ausdruecke nach Test-Ruecknahme erneut erzeugen\')\n        b.create_expressions()\n        log(\'API-Testphase 3: Native Featuretypen und Parameteraktualisierung\')\n        b.native_probe()\n    except Exception:\n        log(\'API-Testteil: \'+str(getattr(p,\'Name\',\'unbekannt\')))\n        log(\'API-Testfeature: \'+str(b.current_feature))\n        b.feature_diagnostics()\n        b.expression_factory.diagnostics()\n        raise\n    log(\'API-Testphase 4: Speichern und Einfuegen einer Testkomponente\')\n    # Build and save a small native solid so the actual assembly API is tested too.\n    op=dict(kind=\'box\',op=\'add\',origin=[\'0\',\'0\',\'0\'],size=[\'10\',\'10\',\'10\'])\n    b.primitive(op,None,\'API_Testwuerfel\')\n    errors=session.UpdateManager.DoUpdate(session.SetUndoMark(NXOpen.Session.MarkVisibility.Invisible,\'API update\'))\n    if errors:raise RuntimeError(\'API-Test Updatefehler: \'+str(errors))\n    b.verify_expression_values()\n    # The last cube tests expression creation after native_probe\'s rollback.\n    # Optional attributes are not interleaved with geometric operations.\n    b.write_expression_metadata()\n    for warning in b.warnings[:10]:log(\'Metadatenhinweis: \'+warning)\n    files.save(p,path)\n    assembly_path=files.filename(out,\'API_Testbaugruppe\')\n    a=files.create(assembly_path,lambda target:newpart(session,target,log))\n    c=add_component(a,path,\'API_Testkomponente\',(13,0,0))\n    result=c.GetPosition()\n    if not isinstance(result,tuple) or abs(result[0].X-13)>1e-6:raise RuntimeError(\'AddComponent/GetPosition API-Test nicht bestanden\')\n    files.save(a,assembly_path)\n    log(\'API-Vortest bestanden: Ausdruecke, Parameteraenderung, Features, Save und AddComponent.\')\n    return b.expression_factory.mode\n\ndef main(probe_only=False,parts_only=False,part_filter=None,paths_only=False):\n    session=NXOpen.Session.GetSession();log=RunLog(session)\n    current=None;builder=None;out=None;mark=None;files=None\n    try:\n        log(\'SX3.5Z CNC-GESAMTANSICHT -- gesamte Maschine, XYZ-Antriebe und Baugruppen in einem Lauf.\')\n        log(\'ANSICHTSMODELL: plausible Montage auf v4.8-Modellkoordinaten. Kein Audit erforderlich. KEINE FERTIGUNGS-/BESTELLFREIGABE.\')\n        log_environment(log)\n        log(\'Geometriestand: \'+model.VERSION+\'; Untergestell/Einhausung/Schaltschrank als ENTWURF.\')\n        log(\'Startjournal: \'+os.path.abspath(__file__))\n        if JOURNAL_VERSION != \'4.8\' or FILES_VERSION != \'4.8\' or GEOMETRY_VERSION != \'4.6\' or model.VERSION != \'CNC_ANSICHT_04\':\n            raise RuntimeError(\'Gemischte Journalversionen. Alle Patchdateien im selben Ordner ablegen.\')\n        params=model.load_parameters(os.path.join(HERE,\'Parameter.json\'));values=model.check_recipe(params)\n        stamp=datetime.now().strftime(\'%Y%m%d_%H%M%S_%f\')\n        run_id=uuid4().hex[:12]\n        out=prepare_output_directory(HERE,\'SX35Z_CNC_ANSICHT_04_\'+stamp+\'_\'+run_id,log)\n        log.set_output_directory(out)\n        if paths_only:\n            log(\'Nur Pfadtest: keine NX-Testteile oder Maschinenbauteile erzeugt.\')\n            log.save();return\n        files=NativePartFiles(session,out,run_id,log)\n        log(\'Dateiverwaltung: \'+os.path.join(HERE,\'nx_files.py\'))\n        log(\'Geometriepruefung: \'+os.path.join(HERE,\'nx_geometry.py\')+\' / \'+GEOMETRY_VERSION)\n        log(\'Laufkennung fuer ALLE Dateinamen: \'+run_id)\n        log(\'Speicherweg: NewDisplay am endgueltigen Pfad, dann Save; kein SaveAs.\')\n        reference=ReferenceCheck(os.path.join(HERE,\'Geometrie_Referenz_Ansicht.json\'),params,model.recipe(),log)\n        with open(os.path.join(out,\'Parameter_beim_Aufbau.json\'),\'w\',encoding=\'utf8\') as f:json.dump(params,f,indent=2)\n        mode=probe(session,params,log,os.path.join(out,\'_API_Test\'),files)\n        if probe_only:log.save();return\n        definitions=model.recipe()\n        if part_filter:definitions=[d for d in definitions if d[\'id\'] in part_filter or d[\'name\'] in part_filter]\n        if not definitions:raise ValueError(\'Keine Teile im Filter\')\n        partsdir=os.path.join(out,\'Teile\');groupsdir=os.path.join(out,\'Unterbaugruppen\')\n        os.makedirs(partsdir);os.makedirs(groupsdir)\n        manifest=[]\n        for index,d in enumerate(definitions,1):\n            current=d[\'filename\'];log(\'[%03d/%03d] %s\'%(index,len(definitions),current))\n            path=files.filename(partsdir,d[\'filename\'])\n            p=files.create(path,lambda target:newpart(session,target,log))\n            mark=session.SetUndoMark(NXOpen.Session.MarkVisibility.Visible,\'V4 \'+d[\'name\'])\n            builder=PartBuilder(session,p,params,d,log,reference);body=builder.build_one(mode)\n            errors=session.UpdateManager.DoUpdate(mark)\n            if errors:raise RuntimeError(\'NX Update meldet %d Fehler\'%errors)\n            if len(list(p.Bodies))!=1:raise RuntimeError(\'Einzelteil enthaelt nicht genau einen Koerper: \'+current)\n            try:p.ModelingViews.WorkView.Orient(NXOpen.View.Canned.Isometric,NXOpen.View.ScaleAdjustment.Fit)\n            except Exception:pass\n            files.save(p,path)\n            with open(path+\'.geometrie.json\',\'w\',encoding=\'utf8\') as f:json.dump(builder.geometry_trace,f,indent=2)\n            item=dict(id=d[\'id\'],name=d[\'name\'],file=os.path.relpath(path,out),group=d[\'group\'],datum=[model.evaluate(x,values) for x in d[\'datum\']],datum_formula=d[\'datum\'],native_feature_count=builder.feature_count,expression_mode=mode,journal_version=JOURNAL_VERSION)\n            manifest.append(item)\n            with open(os.path.join(out,\'Erzeugte_Teile.json\'),\'w\',encoding=\'utf8\') as f:json.dump(manifest,f,indent=2)\n            for w in builder.warnings[:2]:log(\'Darstellungshinweis: \'+w)\n            # Do not close all parts or modify existing user documents.\n            mark=None\n        if not parts_only:\n            subpaths=[]\n            for group in model.GROUPS:\n                members=[m for m in manifest if m[\'group\']==group]\n                if not members:continue\n                current=group\n                path=files.filename(groupsdir,group)\n                p=files.create(path,lambda target:newpart(session,target,log))\n                for m in members:\n                    c=add_component(p,os.path.join(out,m[\'file\']),m[\'id\']+\'_\'+m[\'name\'],m[\'datum\'],model.LAYERS[group])\n                    attr(c,\'SX_PART_ID\',m[\'id\']);attr(c,\'SX_PLATZIERUNG\',\'Parameter.json; explizite Lage, keine Montagezwangsbedingungen\')\n                attr(p,\'SX_VERSION\',model.VERSION);attr(p,\'SX_JOURNAL_VERSION\',JOURNAL_VERSION);attr(p,\'SX_BAUGRUPPE\',model.GROUPS[group])\n                files.save(p,path);subpaths.append((group,path))\n                log(\'Unterbaugruppe gespeichert: \'+group)\n            current=\'FRAESE_CNC_ANSICHT_UNGEPRUEFT\'\n            rootpath=files.filename(out,current)\n            root=files.create(rootpath,lambda target:newpart(session,target,log))\n            for g,path in subpaths:add_component(root,path,g,(0,0,0))\n            attr(root,\'CNC_ANSICHTSTATUS\',\'ANSCHAUUNG; Anschlussgeometrie, Verfahrwege, Kaufteilauswahl nicht freigegeben\')\n            attr(root,\'SX_VERSION\',model.VERSION);attr(root,\'SX_JOURNAL_VERSION\',JOURNAL_VERSION);attr(root,\'SX_MODELLTYP\',\'Native Dateibaugruppe; parametrisierte Einzelteile, explizite Einbaupositionen\')\n            attr(root,\'SX_GRENZEN\',\'Zusammengebaute CNC-Ansicht mit ENTWURFSANSCHLUESSEN. Keine Montagezwangsbedingungen, keine freigegebenen Kollisionen oder Fertigungsmasse.\')\n            for n in [\'pos_x\',\'pos_y\',\'head_down\',\'quill_down\']:attr(root,\'SX_STELLUNG_\'+n,params[n])\n            try:root.ModelingViews.WorkView.Orient(NXOpen.View.Canned.Isometric,NXOpen.View.ScaleAdjustment.Fit)\n            except Exception:pass\n            files.save(root,rootpath)\n            with open(os.path.join(out,\'HAUPTBAUGRUPPE.txt\'),\'w\',encoding=\'utf8\') as f:\n                f.write(os.path.basename(rootpath)+\'\\n\')\n            log(\'HAUPTBAUGRUPPE: \'+rootpath)\n        with open(os.path.join(out,\'Parameter_beim_Aufbau.json\'),\'w\',encoding=\'utf8\') as f:json.dump(params,f,indent=2)\n        if _metadata_warnings:log(\'Optionale Metadatenwarnungen: %d; Geometrie dadurch nicht uebersprungen.\'%len(_metadata_warnings))\n        log(\'FERTIG: %d native Einzelteile. Ihre bereits offenen Dateien wurden nicht bearbeitet.\'%len(manifest))\n        log(\'Formaenderungen lokal: Ausdruecke sx_. Maschinenstellung: Parameter.json; CNC-Baugruppen: CNC_Parameter.json; Ausbau: Ausbau_Parameter.json. Gesamtansicht neu aufbauen.\')\n        log(\'Ausgabeordner komplett zusammenhalten: Teile + Unterbaugruppen + Hauptbaugruppe.\')\n        log.save()\n    except Exception:\n        log(traceback.format_exc());log(\'Betroffenes Teil: \'+str(current))\n        if builder is not None:\n            if out:\n                try:\n                    with open(os.path.join(out,\'NX_Geometriediagnose.json\'),\'w\',encoding=\'utf8\') as f:\n                        json.dump(dict(part=current,parameters=params,completed=builder.geometry_trace,\n                                       failed=builder.last_geometry_context),f,indent=2)\n                except Exception as e:log(\'Geometriediagnose nicht geschrieben: \'+str(e))\n            log(\'Betroffenes Feature: \'+str(builder.current_feature))\n            try:\n                builder.feature_diagnostics()\n                builder.expression_factory.diagnostics()\n            except Exception:pass\n        if mark is not None:\n            try:session.UndoToMark(mark,None)\n            except Exception as e:log(\'Ruecknahme fehlgeschlagen: \'+str(e))\n        if out:\n            if current is None:\n                log(\'Abbruch im Vortest; in diesem Lauf wurden noch keine Maschinen-Einzelteile aufgebaut.\')\n            log(\'Ausgabeordner dieses Laufs (ggf. unvollstaendig): \'+out)\n        log.save(failed=True)\n        try:NXOpen.UI.GetUI().NXMessageBox.Show(\'SX35Z CNC-Gesamtansicht 04\',NXOpen.NXMessageBox.DialogType.Error,\'Abbruch. Details im Listing Window und NX_Fehlerprotokoll.txt. Keine fertige Baugruppe behauptet.\')\n        except Exception:pass\n        raise\n\ndef getUnloadOption(dummy):return NXOpen.Session.LibraryUnloadOption.Immediately\nif __name__==\'__main__\':main()\n'
+
+======================================================================
+FAIL: test_revision (test_senktuer05.DownwardDoorTests.test_revision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 10, in test_revision
+    def test_revision(self):self.assertEqual(m.VERSION,'CNC_ANSICHT_05')
+                            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'CNC_ANSICHT_04' != 'CNC_ANSICHT_05'
+- CNC_ANSICHT_04
+?              ^
++ CNC_ANSICHT_05
+?              ^
+
+
+======================================================================
+FAIL: test_rigid_motion_and_2to1_ratio (test_senktuer05.DownwardDoorTests.test_rigid_motion_and_2to1_ratio)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 39, in test_rigid_motion_and_2to1_ratio
+    self.assertEqual(x[:2],y[:2]);self.assertLess(y[2]-x[2],0)
+                                  ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: 1025.0 not less than 0
+
+======================================================================
+FAIL: test_two_downward_segments (test_senktuer05.DownwardDoorTests.test_two_downward_segments)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/downward05_work/SX35Z_CNC_Gesamtansicht_05/tests/test_senktuer05.py", line 12, in test_two_downward_segments
+    r=m.door_layout(self.p());self.assertEqual(r['direction'],[0,0,-1]);self.assertEqual(len(r['leaves']),2)
+                              ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [0, 0, 1] != [0, 0, -1]
+
+First differing element 2:
+1
+-1
+
+- [0, 0, 1]
++ [0, 0, -1]
+?        +
+
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.495s
+
+FAILED (failures=15)

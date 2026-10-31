@@ -1,0 +1,476 @@
+test_ambiguous_plane_never_selects_first_face (test_nx_sheetmetal071.NamespaceRegression.test_ambiguous_plane_never_selects_first_face) ... ERROR
+test_later_builder_error_records_stage_and_destroys_builder (test_nx_sheetmetal071.NamespaceRegression.test_later_builder_error_records_stage_and_destroys_builder) ... ERROR
+test_legacy_modl_binding_still_supported (test_nx_sheetmetal071.NamespaceRegression.test_legacy_modl_binding_still_supported) ... ok
+test_missing_queries_report_capabilities_without_preferences_change (test_nx_sheetmetal071.NamespaceRegression.test_missing_queries_report_capabilities_without_preferences_change) ... ERROR
+test_modeling_available_without_modl_object (test_nx_sheetmetal071.NamespaceRegression.test_modeling_available_without_modl_object) ... ERROR
+test_modlgeneral_accepted_only_if_callable_present (test_nx_sheetmetal071.NamespaceRegression.test_modlgeneral_accepted_only_if_callable_present) ... ERROR
+test_no_plane_match_is_not_ignored (test_nx_sheetmetal071.NamespaceRegression.test_no_plane_match_is_not_ignored) ... ERROR
+test_noncallable_modeling_attribute_does_not_mask_legacy_method (test_nx_sheetmetal071.NamespaceRegression.test_noncallable_modeling_attribute_does_not_mask_legacy_method) ... ok
+test_prefer_modeling_and_never_call_other_group_after_selection (test_nx_sheetmetal071.NamespaceRegression.test_prefer_modeling_and_never_call_other_group_after_selection) ... FAIL
+test_query_exception_is_not_retried_in_other_namespace (test_nx_sheetmetal071.NamespaceRegression.test_query_exception_is_not_retried_in_other_namespace) ... FAIL
+test_raw_query_attributeerror_is_not_misread_as_missing_namespace (test_nx_sheetmetal071.NamespaceRegression.test_raw_query_attributeerror_is_not_misread_as_missing_namespace) ... FAIL
+test_reported_missing_modl_method_can_use_modeling (test_nx_sheetmetal071.NamespaceRegression.test_reported_missing_modl_method_can_use_modeling) ... FAIL
+test_success_record_names_resolved_binding_and_patch (test_nx_sheetmetal071.NamespaceRegression.test_success_record_names_resolved_binding_and_patch) ... ERROR
+test_wrong_tuple_not_treated_as_planar_face (test_nx_sheetmetal071.NamespaceRegression.test_wrong_tuple_not_treated_as_planar_face) ... ERROR
+test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) ... 
+  test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=0.0) ... ERROR
+  test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=-1.0) ... ERROR
+  test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=nan) ... ERROR
+  test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=inf) ... FAIL
+  test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=True) ... FAIL
+test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) ... 
+  test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=-1) ... ERROR
+  test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=3) ... ERROR
+  test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=1.2) ... ERROR
+  test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=True) ... FAIL
+  test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=None) ... ERROR
+test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) ... 
+  test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) (index=1, value=[0, 0]) ... FAIL
+  test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) (index=2, value=[0, 1]) ... FAIL
+  test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) (index=2, value=[0, True, 0]) ... FAIL
+  test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) (index=2, value=[0, 'bad', 0]) ... ERROR
+test_negative_normal_has_same_plane (test_nx_sheetmetal071.PlaneValidation.test_negative_normal_has_same_plane) ... ok
+test_no_namespace_selection_needed_in_explicit_solid_mode (test_nx_sheetmetal071.PlaneValidation.test_no_namespace_selection_needed_in_explicit_solid_mode) ... ok
+test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) ... 
+  test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) (value=nan) ... ERROR
+  test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) (value=inf) ... ERROR
+  test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) (value=-inf) ... ERROR
+  test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) (value=True) ... ERROR
+test_nonfinite_point_never_silently_skipped (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_point_never_silently_skipped) ... 
+  test_nonfinite_point_never_silently_skipped (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_point_never_silently_skipped) (value=nan) ... FAIL
+  test_nonfinite_point_never_silently_skipped (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_point_never_silently_skipped) (value=inf) ... FAIL
+test_nonplanar_surface_is_not_used (test_nx_sheetmetal071.PlaneValidation.test_nonplanar_surface_is_not_used) ... ok
+test_nonunit_normal_is_normalized (test_nx_sheetmetal071.PlaneValidation.test_nonunit_normal_is_normalized) ... ok
+
+======================================================================
+ERROR: test_ambiguous_plane_never_selects_first_face (test_nx_sheetmetal071.NamespaceRegression.test_ambiguous_plane_never_selects_first_face)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 126, in test_ambiguous_plane_never_selects_first_face
+    sm.convert(p,b,m,float,str,'required',nx=nx)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'AskFaceData'
+
+======================================================================
+ERROR: test_later_builder_error_records_stage_and_destroys_builder (test_nx_sheetmetal071.NamespaceRegression.test_later_builder_error_records_stage_and_destroys_builder)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 112, in test_later_builder_error_records_stage_and_destroys_builder
+    sm.convert(p,b,m,float,str,'required',logs.append,nx=nx)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'AskFaceData'
+
+======================================================================
+ERROR: test_missing_queries_report_capabilities_without_preferences_change (test_nx_sheetmetal071.NamespaceRegression.test_missing_queries_report_capabilities_without_preferences_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 70, in test_missing_queries_report_capabilities_without_preferences_change
+    sm.convert(p, b, m, float, str, 'required', nx=nx)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'AskFaceData'
+
+======================================================================
+ERROR: test_modeling_available_without_modl_object (test_nx_sheetmetal071.NamespaceRegression.test_modeling_available_without_modl_object)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 50, in test_modeling_available_without_modl_object
+    result, _, _, _ = run_case(NS(Modeling=NS(AskFaceData=plane)))
+                      ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 34, in run_case
+    result = sm.convert(part, body, meta, float, str, 'required', log=logs.append, nx=nx)
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+                               ^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'Modl'
+
+======================================================================
+ERROR: test_modlgeneral_accepted_only_if_callable_present (test_nx_sheetmetal071.NamespaceRegression.test_modlgeneral_accepted_only_if_callable_present)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 58, in test_modlgeneral_accepted_only_if_callable_present
+    result, _, _, _ = run_case(NS(Modl=NS(), ModlGeneral=NS(AskFaceData=plane)))
+                      ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 34, in run_case
+    result = sm.convert(part, body, meta, float, str, 'required', log=logs.append, nx=nx)
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'AskFaceData'
+
+======================================================================
+ERROR: test_no_plane_match_is_not_ignored (test_nx_sheetmetal071.NamespaceRegression.test_no_plane_match_is_not_ignored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 133, in test_no_plane_match_is_not_ignored
+    sm.convert(p,b,m,float,str,'required',nx=nx)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'AskFaceData'
+
+======================================================================
+ERROR: test_success_record_names_resolved_binding_and_patch (test_nx_sheetmetal071.NamespaceRegression.test_success_record_names_resolved_binding_and_patch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 99, in test_success_record_names_resolved_binding_and_patch
+    result, _, logs, _ = run_case()
+                         ~~~~~~~~^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 34, in run_case
+    result = sm.convert(part, body, meta, float, str, 'required', log=logs.append, nx=nx)
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'AskFaceData'
+
+======================================================================
+ERROR: test_wrong_tuple_not_treated_as_planar_face (test_nx_sheetmetal071.NamespaceRegression.test_wrong_tuple_not_treated_as_planar_face)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 119, in test_wrong_tuple_not_treated_as_planar_face
+    sm.convert(p,b,m,float,str,'required',nx=nx)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'types.SimpleNamespace' object has no attribute 'AskFaceData'
+
+======================================================================
+ERROR: test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=0.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 165, in test_bad_tolerance_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(tol=value)
+                                                                 ~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 32, in select_base_face
+    if len(matches)!=1:raise RuntimeError('Blechbasisflaeche nicht eindeutig: %d Treffer'%len(matches))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+======================================================================
+ERROR: test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=-1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 165, in test_bad_tolerance_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(tol=value)
+                                                                 ~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 32, in select_base_face
+    if len(matches)!=1:raise RuntimeError('Blechbasisflaeche nicht eindeutig: %d Treffer'%len(matches))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+======================================================================
+ERROR: test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=nan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 165, in test_bad_tolerance_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(tol=value)
+                                                                 ~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 32, in select_base_face
+    if len(matches)!=1:raise RuntimeError('Blechbasisflaeche nicht eindeutig: %d Treffer'%len(matches))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+======================================================================
+ERROR: test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 157, in test_invalid_axis_is_rejected
+    with self.subTest(axis=axis),self.assertRaises(ValueError):self.select(axis=axis)
+                                                               ~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 32, in select_base_face
+    if len(matches)!=1:raise RuntimeError('Blechbasisflaeche nicht eindeutig: %d Treffer'%len(matches))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+======================================================================
+ERROR: test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 157, in test_invalid_axis_is_rejected
+    with self.subTest(axis=axis),self.assertRaises(ValueError):self.select(axis=axis)
+                                                               ~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 30, in select_base_face
+    if abs(abs(float(direction[axis])/n)-1)>1e-7:continue
+                     ~~~~~~~~~^^^^^^
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=1.2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 157, in test_invalid_axis_is_rejected
+    with self.subTest(axis=axis),self.assertRaises(ValueError):self.select(axis=axis)
+                                                               ~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 30, in select_base_face
+    if abs(abs(float(direction[axis])/n)-1)>1e-7:continue
+                     ~~~~~~~~~^^^^^^
+TypeError: list indices must be integers or slices, not float
+
+======================================================================
+ERROR: test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 157, in test_invalid_axis_is_rejected
+    with self.subTest(axis=axis),self.assertRaises(ValueError):self.select(axis=axis)
+                                                               ~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 30, in select_base_face
+    if abs(abs(float(direction[axis])/n)-1)>1e-7:continue
+                     ~~~~~~~~~^^^^^^
+TypeError: list indices must be integers or slices, not NoneType
+
+======================================================================
+ERROR: test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) (index=2, value=[0, 'bad', 0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 177, in test_malformed_vectors_are_reported
+    self.select(tuple(r))
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 28, in select_base_face
+    n=math.sqrt(sum(float(x)**2 for x in direction))
+                ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 28, in <genexpr>
+    n=math.sqrt(sum(float(x)**2 for x in direction))
+                    ~~~~~^^^
+ValueError: could not convert string to float: 'bad'
+
+======================================================================
+ERROR: test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) (value=nan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 161, in test_nonfinite_plane_is_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(coordinate=value)
+                                                                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 32, in select_base_face
+    if len(matches)!=1:raise RuntimeError('Blechbasisflaeche nicht eindeutig: %d Treffer'%len(matches))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+======================================================================
+ERROR: test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) (value=inf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 161, in test_nonfinite_plane_is_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(coordinate=value)
+                                                                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 32, in select_base_face
+    if len(matches)!=1:raise RuntimeError('Blechbasisflaeche nicht eindeutig: %d Treffer'%len(matches))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+======================================================================
+ERROR: test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) (value=-inf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 161, in test_nonfinite_plane_is_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(coordinate=value)
+                                                                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 32, in select_base_face
+    if len(matches)!=1:raise RuntimeError('Blechbasisflaeche nicht eindeutig: %d Treffer'%len(matches))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+======================================================================
+ERROR: test_nonfinite_plane_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_plane_is_rejected) (value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 161, in test_nonfinite_plane_is_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(coordinate=value)
+                                                                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 141, in select
+    return sm.select_base_face(body,query,axis,coordinate,tol)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 32, in select_base_face
+    if len(matches)!=1:raise RuntimeError('Blechbasisflaeche nicht eindeutig: %d Treffer'%len(matches))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+======================================================================
+FAIL: test_prefer_modeling_and_never_call_other_group_after_selection (test_nx_sheetmetal071.NamespaceRegression.test_prefer_modeling_and_never_call_other_group_after_selection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 64, in test_prefer_modeling_and_never_call_other_group_after_selection
+    result, _, _, _ = run_case(NS(Modeling=NS(AskFaceData=plane), Modl=NS(AskFaceData=forbidden)))
+                      ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 34, in run_case
+    result = sm.convert(part, body, meta, float, str, 'required', log=logs.append, nx=nx)
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 63, in forbidden
+    self.fail('Wrong namespace was invoked')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Wrong namespace was invoked
+
+======================================================================
+FAIL: test_query_exception_is_not_retried_in_other_namespace (test_nx_sheetmetal071.NamespaceRegression.test_query_exception_is_not_retried_in_other_namespace)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 86, in test_query_exception_is_not_retried_in_other_namespace
+    with self.assertRaisesRegex(RuntimeError, 'Native face read failed'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_raw_query_attributeerror_is_not_misread_as_missing_namespace (test_nx_sheetmetal071.NamespaceRegression.test_raw_query_attributeerror_is_not_misread_as_missing_namespace)
+----------------------------------------------------------------------
+AttributeError: 'types.SimpleNamespace' object has no attribute 'AskFaceData'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 95, in test_raw_query_attributeerror_is_not_misread_as_missing_namespace
+    with self.assertRaisesRegex(AttributeError,'Inside actual query'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "Inside actual query" does not match "'types.SimpleNamespace' object has no attribute 'AskFaceData'"
+
+======================================================================
+FAIL: test_reported_missing_modl_method_can_use_modeling (test_nx_sheetmetal071.NamespaceRegression.test_reported_missing_modl_method_can_use_modeling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 46, in test_reported_missing_modl_method_can_use_modeling
+    self.assertIsNone(error, 'Reported namespace defect reproduced: %r' % error)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AttributeError("'types.SimpleNamespace' object has no attribute 'AskFaceData'") is not None : Reported namespace defect reproduced: AttributeError("'types.SimpleNamespace' object has no attribute 'AskFaceData'")
+
+======================================================================
+FAIL: test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=inf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 165, in test_bad_tolerance_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(tol=value)
+                                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_bad_tolerance_rejected (test_nx_sheetmetal071.PlaneValidation.test_bad_tolerance_rejected) (value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 165, in test_bad_tolerance_rejected
+    with self.subTest(value=value),self.assertRaises(ValueError):self.select(tol=value)
+                                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_invalid_axis_is_rejected (test_nx_sheetmetal071.PlaneValidation.test_invalid_axis_is_rejected) (axis=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 157, in test_invalid_axis_is_rejected
+    with self.subTest(axis=axis),self.assertRaises(ValueError):self.select(axis=axis)
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) (index=1, value=[0, 0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 176, in test_malformed_vectors_are_reported
+    with self.subTest(index=index,value=value),self.assertRaisesRegex(RuntimeError,'AskFaceData'):
+                                               ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) (index=2, value=[0, 1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 176, in test_malformed_vectors_are_reported
+    with self.subTest(index=index,value=value),self.assertRaisesRegex(RuntimeError,'AskFaceData'):
+                                               ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_malformed_vectors_are_reported (test_nx_sheetmetal071.PlaneValidation.test_malformed_vectors_are_reported) (index=2, value=[0, True, 0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 176, in test_malformed_vectors_are_reported
+    with self.subTest(index=index,value=value),self.assertRaisesRegex(RuntimeError,'AskFaceData'):
+                                               ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_nonfinite_point_never_silently_skipped (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_point_never_silently_skipped) (value=nan)
+----------------------------------------------------------------------
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 170, in test_nonfinite_point_never_silently_skipped
+    with self.subTest(value=value),self.assertRaisesRegex(RuntimeError,'AskFaceData.*Punkt'):
+                                   ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "AskFaceData.*Punkt" does not match "Blechbasisflaeche nicht eindeutig: 0 Treffer"
+
+======================================================================
+FAIL: test_nonfinite_point_never_silently_skipped (test_nx_sheetmetal071.PlaneValidation.test_nonfinite_point_never_silently_skipped) (value=inf)
+----------------------------------------------------------------------
+RuntimeError: Blechbasisflaeche nicht eindeutig: 0 Treffer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/data/fix071_work/SX35Z_CNC_Gesamtansicht_07/tests/test_nx_sheetmetal071.py", line 170, in test_nonfinite_point_never_silently_skipped
+    with self.subTest(value=value),self.assertRaisesRegex(RuntimeError,'AskFaceData.*Punkt'):
+                                   ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "AskFaceData.*Punkt" does not match "Blechbasisflaeche nicht eindeutig: 0 Treffer"
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.011s
+
+FAILED (failures=12, errors=20)

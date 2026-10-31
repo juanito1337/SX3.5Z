@@ -1,0 +1,50 @@
+{
+  "retrieved": "2026-10-27",
+  "manufacturer_sources": [
+    {
+      "id": "LS-CSM-DATASHEET",
+      "url": "https://www.leadshine.com/upfiles/downloads/a5e0bafe68d54b1b5dac35ef79db01a3_1662082668689.pdf",
+      "title": "Datasheet of CS-M Series Stepper Motor",
+      "page": 4,
+      "inspection": "PDF page rendered through web screenshot; not OCR",
+      "model": "CS-M22326",
+      "nominal_model_dimensions_mm": {
+        "body_w": 56.4,
+        "motor_length": 103.0,
+        "flange_t": 5.0,
+        "pilot_d": 38.1,
+        "pilot_h": 1.6,
+        "shaft_d": 8.0,
+        "shaft_l": 21.0,
+        "hole_pitch": 47.14,
+        "hole_d": 5.0,
+        "flat_l": 15.0,
+        "flat_height": 7.5
+      },
+      "tolerances_not_applied_as_manufacturing_release": true,
+      "filename_reference_tag": "CAT2022 is internal source discriminator, not supplier part number or verified distinct orderable revision"
+    },
+    {
+      "id": "LS-CSM-PAGE",
+      "url": "https://www.leadshine.com/product-detail/closed-loop-stepper-drive/closed-loop-stepper/CS-M22326.html",
+      "facts": {
+        "length_mm": 104,
+        "holding_torque_Nm": 2.6,
+        "shaft_mm": 8,
+        "pilot_mm": 38.1
+      },
+      "conflict": "Catalogue table length 103 vs product page 104; unresolved. Do not mix into an asserted as-delivered model."
+    }
+  ],
+  "nx_docs_access": {
+    "status": "UNAVAILABLE_TO_AUTHOR",
+    "attempts": [
+      "https://docs.sw.siemens.com/en-US/doc/209349590/PL20230630714957898.nxopen_python_ref/",
+      "docs.plm.automation.siemens.com NXOpen Step214/Assemblies reference pages"
+    ],
+    "consequence": "New NX call paths are not certified for NX2406. Runtime availability/probes in code, no author execution."
+  },
+  "supplier_cad_files_downloaded": [],
+  "download_limitations": "Manufacturer CAD access/link research did not produce a downloaded, verified vendor STEP. No such file is bundled.",
+  "known_current_motor_revision_confirmed": false
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "SX35Z_CNC_ANSICHT_06_CHECK",
+  "native_nx_executed": false,
+  "native_prt_delivered": false,
+  "purpose": "Native NX-Open assembly generation, wide downward telescopic door and sheet metal conversion intent",
+  "local_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "count": 118,
+    "failed": 0,
+    "log": "Tests_Offline.txt",
+    "nx_adapter_objects": "simulated"
+  },
+  "python310_grammar_files": 24,
+  "parts": 458,
+  "groups": 17,
+  "sheetmetal_candidates": 16,
+  "geometry": {
+    "part_count": 458,
+    "operation_count": 1477,
+    "triangle_count": 205636,
+    "failures": [],
+    "recipe_sha256": "6a710d53a9885604d1de10f6b78cd2dab0fe51641a249c2041255f40545fe3aa",
+    "parameter_sha256": "6e8cae51035d6228aeaa91ea2efcfed9193cc46bbc2b953811a20487889c0bb0"
+  },
+  "sheetmetal": {
+    "default_mode": "required",
+    "checked_here": false,
+    "reference_geometry_scope": "sharp precursors only",
+    "native_bend_radius_measured": false,
+    "flat_patterns_generated": false
+  },
+  "door_motion": {
+    "native_nx_executed": false,
+    "method": "OpenCascade solid intersections after conservative AABB screening",
+    "positions": [
+      0.0,
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0
+    ],
+    "pairs_checked": 185751,
+    "solid_comparisons": 296,
+    "conflicts": [],
+    "minimum_moving_part_floor_clearance_mm": 127.0,
+    "limits": "Nine samples. All drawn stationary model parts vs moving door; cross-segment pairs included. Intra-segment assembly/contact excluded. No continuous path, actual hardware, tolerances, deformation, seal, drainage or safety proof."
+  },
+  "browser": {
+    "browser": "Chromium via Playwright set_content (file URLs blocked in host policy)",
+    "native_nx_executed": false,
+    "door_states_checked": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "door_motion": "two segments -Z, upper 1030 mm / lower 515 mm",
+    "render_changes_when_open": true,
+    "rotation_control": true,
+    "zoom_control": true,
+    "modes_checked": 6,
+    "javascript_errors": []
+  },
+  "review": "AUTHOR_SELF_REVIEW_NOT_INDEPENDENT",
+  "final_release": false,
+  "known_limits": [
+    "No NX runtime or native output here",
+    "No verified gas spring part number or end fittings",
+    "2:1 movement is geometric, no synchronization hardware",
+    "No fall protection or safety validation",
+    "No coolant leak proof",
+    "No manufacturing drawings/flat patterns",
+    "Previous machine interface conflicts remain documented separately"
+  ],
+  "fixed_sheet_precursor_check": {
+    "native_nx_executed": false,
+    "scope": "Fixed flagged sheet precursors vs fixed stand/enclosure parts only; not all machine, not formed NX bodies",
+    "fixed_sheet_count": 10,
+    "target_part_count": 66,
+    "conflicts": [],
+    "method": "OpenCascade intersections after AABB screening, overlap volume >0.01 mm3 flagged",
+    "manufacturing_released": false
+  },
+  "known_original_machine_interface_intersections": 6
+}

@@ -1,0 +1,32 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+__________ test_first_service_handle_is_connected_after_each_addition __________
+
+    def test_first_service_handle_is_connected_after_each_addition():
+        v=model.all_values(model.load_parameters(ROOT/'Parameter.json'))
+        raw=next(d for d in model.recipe() if d['name']=='Servicegriff_links')
+        d=model.local_definition(raw);shape=None
+        for op in d['ops']:
+            tool=make_tool(op,v)
+            shape=tool if shape is None else shape.fuse(tool).clean() if op['op']=='add' else shape.cut(tool).clean()
+>           assert len(shape.Solids())==1, op['label']
+E           AssertionError: Grifffuss
+E           assert 2 == 1
+E            +  where 2 = len([<cadquery.occ_impl.shapes.Solid object at 0x7f361ae77100>, <cadquery.occ_impl.shapes.Solid object at 0x7f361ae76fd0>])
+E            +    where [<cadquery.occ_impl.shapes.Solid object at 0x7f361ae77100>, <cadquery.occ_impl.shapes.Solid object at 0x7f361ae76fd0>] = Solids()
+E            +      where Solids = <cadquery.occ_impl.shapes.Compound object at 0x7f361ab23250>.Solids
+
+tests09/test_new_geometry09.py:16: AssertionError
+=============================== warnings summary ===============================
+tests09/test_new_geometry09.py: 585 warnings
+  /mnt/data/SX35Z_CNC_Umsetzung_09/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    if isinstance(n, ast.Num): return float(n.n)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests09/test_new_geometry09.py::test_first_service_handle_is_connected_after_each_addition - AssertionError: Grifffuss
+assert 2 == 1
+ +  where 2 = len([<cadquery.occ_impl.shapes.Solid object at 0x7f361ae77100>, <cadquery.occ_impl.shapes.Solid object at 0x7f361ae76fd0>])
+ +    where [<cadquery.occ_impl.shapes.Solid object at 0x7f361ae77100>, <cadquery.occ_impl.shapes.Solid object at 0x7f361ae76fd0>] = Solids()
+ +      where Solids = <cadquery.occ_impl.shapes.Compound object at 0x7f361ab23250>.Solids
+1 failed, 585 warnings in 6.51s

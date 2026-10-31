@@ -1,0 +1,27 @@
+/mnt/data/SX35Z_CNC_Umsetzung_08/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+test_axial_shaft_gaps (test_umsetzung08.Contract08.test_axial_shaft_gaps) ... ok
+test_bom_vs_model_counts (test_umsetzung08.Contract08.test_bom_vs_model_counts) ... ok
+test_catalog_controls_mapped_dimensions (test_umsetzung08.Contract08.test_catalog_controls_mapped_dimensions) ... ok
+test_catalog_entities_traceable (test_umsetzung08.Contract08.test_catalog_entities_traceable) ... ok
+test_catalog_present (test_umsetzung08.Contract08.test_catalog_present) ... ok
+test_dimensions_parametric (test_umsetzung08.Contract08.test_dimensions_parametric) ... ok
+test_every_model_body_classified (test_umsetzung08.Contract08.test_every_model_body_classified) ... ok
+test_existing_castings_never_purchase (test_umsetzung08.Contract08.test_existing_castings_never_purchase) ... ok
+test_motor_b_revision_conflict_retained (test_umsetzung08.Contract08.test_motor_b_revision_conflict_retained) ... ok
+test_no_fictitious_supports (test_umsetzung08.Contract08.test_no_fictitious_supports) ... ok
+test_originals_unchanged (test_umsetzung08.Contract08.test_originals_unchanged) ... ok
+test_positive_operations (test_umsetzung08.Contract08.test_positive_operations) ... ok
+test_purchase_instances_not_body_count (test_umsetzung08.Contract08.test_purchase_instances_not_body_count) ... ok
+test_readonly_catalog_override_guard (test_umsetzung08.Contract08.test_readonly_catalog_override_guard) ... ok
+test_release_gate_unmeasured (test_umsetzung08.Contract08.test_release_gate_unmeasured) ... ok
+test_revision (test_umsetzung08.Contract08.test_revision) ... ok
+test_unique_identifiers (test_umsetzung08.Contract08.test_unique_identifiers) ... ok
+test_unknowns_cannot_become_zero (test_umsetzung08.Contract08.test_unknowns_cannot_become_zero) ... ok
+test_z_ff15_bearing_journal (test_umsetzung08.Contract08.test_z_ff15_bearing_journal) ... ok
+test_z_pilot_real_family_not_old_73 (test_umsetzung08.Contract08.test_z_pilot_real_family_not_old_73) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.377s
+
+OK

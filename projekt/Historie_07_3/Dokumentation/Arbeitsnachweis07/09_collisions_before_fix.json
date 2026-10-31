@@ -1,0 +1,273 @@
+{
+  "native_nx_executed": false,
+  "method": "Independent OpenCascade solid intersection after analytic AABB screen",
+  "exact_comparisons": 234,
+  "static_conflicts": [
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "Einhausung_Tuerpfosten_0",
+      "mm3": 1707.5156690349888
+    },
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "Einhausung_Tuerriegel_0",
+      "mm3": 5046.221570716452
+    },
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "Einhausung_Tropfkante",
+      "mm3": 1185.7747701631754
+    },
+    {
+      "a": "KSS_Leitblech_links_hinten",
+      "b": "Einhausung_Rueckwand",
+      "mm3": 93.47851945768089
+    },
+    {
+      "a": "KSS_Leitblech_rechts_vorn",
+      "b": "Einhausung_Tuerpfosten_1",
+      "mm3": 1707.515669034986
+    },
+    {
+      "a": "KSS_Leitblech_rechts_vorn",
+      "b": "Einhausung_Tuerriegel_0",
+      "mm3": 5046.221570716548
+    },
+    {
+      "a": "KSS_Leitblech_rechts_vorn",
+      "b": "Einhausung_Tropfkante",
+      "mm3": 1185.7747701631558
+    },
+    {
+      "a": "KSS_Leitblech_rechts_hinten",
+      "b": "Einhausung_Rueckwand",
+      "mm3": 93.47851945768132
+    },
+    {
+      "a": "KSS_Leitblech_Front_links",
+      "b": "CNC_Y_Motorplatte_Entwurf",
+      "mm3": 88.64928814019581
+    },
+    {
+      "a": "KSS_Leitblech_Front_links",
+      "b": "Einhausung_Tuerriegel_0",
+      "mm3": 12738.150981911953
+    },
+    {
+      "a": "KSS_Leitblech_Front_rechts",
+      "b": "CNC_Y_Motorplatte_Entwurf",
+      "mm3": 88.64928814019694
+    },
+    {
+      "a": "KSS_Leitblech_Front_rechts",
+      "b": "Einhausung_Tuerriegel_0",
+      "mm3": 12738.150981912195
+    },
+    {
+      "a": "KSS_Rueckwand_Aufkantung",
+      "b": "Einhausung_Rueckwand",
+      "mm3": 27240.0
+    },
+    {
+      "a": "KSS_Tank_Entwurf",
+      "b": "Staender_Querholm_1_1",
+      "mm3": 10944.0
+    }
+  ],
+  "axis_poses_checked": 8,
+  "axis_pose_conflicts": [
+    {
+      "pose": [
+        -250.0,
+        -100.0,
+        0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_links",
+      "mm3": 88.64928814019581
+    },
+    {
+      "pose": [
+        -250.0,
+        -100.0,
+        0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_rechts",
+      "mm3": 88.64928814019694
+    },
+    {
+      "pose": [
+        -250.0,
+        -100.0,
+        240.0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_links",
+      "mm3": 88.64928814019581
+    },
+    {
+      "pose": [
+        -250.0,
+        -100.0,
+        240.0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_rechts",
+      "mm3": 88.64928814019694
+    },
+    {
+      "pose": [
+        -250.0,
+        100.0,
+        0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_links",
+      "mm3": 88.64928814019581
+    },
+    {
+      "pose": [
+        -250.0,
+        100.0,
+        0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_rechts",
+      "mm3": 88.64928814019694
+    },
+    {
+      "pose": [
+        -250.0,
+        100.0,
+        240.0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_links",
+      "mm3": 88.64928814019581
+    },
+    {
+      "pose": [
+        -250.0,
+        100.0,
+        240.0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_rechts",
+      "mm3": 88.64928814019694
+    },
+    {
+      "pose": [
+        250.0,
+        -100.0,
+        0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_links",
+      "mm3": 88.64928814019581
+    },
+    {
+      "pose": [
+        250.0,
+        -100.0,
+        0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_rechts",
+      "mm3": 88.64928814019694
+    },
+    {
+      "pose": [
+        250.0,
+        -100.0,
+        0
+      ],
+      "a": "CNC_X_Motorschutz_Haube",
+      "b": "KSS_Leitblech_rechts_vorn",
+      "mm3": 22.56576199609669
+    },
+    {
+      "pose": [
+        250.0,
+        -100.0,
+        240.0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_links",
+      "mm3": 88.64928814019581
+    },
+    {
+      "pose": [
+        250.0,
+        -100.0,
+        240.0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_rechts",
+      "mm3": 88.64928814019694
+    },
+    {
+      "pose": [
+        250.0,
+        -100.0,
+        240.0
+      ],
+      "a": "CNC_X_Motorschutz_Haube",
+      "b": "KSS_Leitblech_rechts_vorn",
+      "mm3": 22.56576199609669
+    },
+    {
+      "pose": [
+        250.0,
+        100.0,
+        0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_links",
+      "mm3": 88.64928814019581
+    },
+    {
+      "pose": [
+        250.0,
+        100.0,
+        0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_rechts",
+      "mm3": 88.64928814019694
+    },
+    {
+      "pose": [
+        250.0,
+        100.0,
+        240.0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_links",
+      "mm3": 88.64928814019581
+    },
+    {
+      "pose": [
+        250.0,
+        100.0,
+        240.0
+      ],
+      "a": "CNC_Y_Motorplatte_Entwurf",
+      "b": "KSS_Leitblech_Front_rechts",
+      "mm3": 88.64928814019694
+    }
+  ],
+  "nonrigid_parts_not_swept": [
+    "Faltenbalg_Z",
+    "Faltenbalg_Y_hinten"
+  ],
+  "basket_strokes_mm": [
+    0,
+    55,
+    110,
+    165,
+    220
+  ],
+  "basket_conflicts": [],
+  "limits": "Changed KSS vs drawn parts and cabinet vs stand/enclosure. Known original machine conflicts unchanged. Weld/contact tolerances, continuous motion, chip/fluid transport, strength, seals and safety not proven."
+}

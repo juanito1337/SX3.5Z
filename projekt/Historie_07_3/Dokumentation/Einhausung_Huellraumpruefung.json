@@ -1,0 +1,1454 @@
+{
+  "native_nx_executed": false,
+  "note": "Only rigid translations at eight parameter-range corners; no collision or containment proof for flexible/omitted/real components. Casting interferences remain.",
+  "interior_limits_mm": [
+    -753.0,
+    -435.0,
+    0,
+    885.0,
+    523.0,
+    1200.0
+  ],
+  "target_ranges_mm": {
+    "X": -250.0,
+    "Xmax": 250.0,
+    "Ymin": -100.0,
+    "Ymax": 100.0,
+    "Zhead_down": [
+      0,
+      240.0
+    ]
+  },
+  "checks": [
+    {
+      "name": "Basis_Guss_Foto",
+      "minimum_aabb_wall_margin_mm": 0.0,
+      "violations": []
+    },
+    {
+      "name": "Saeule_Guss_Foto",
+      "minimum_aabb_wall_margin_mm": 84.0,
+      "violations": []
+    },
+    {
+      "name": "Saeulendeckel",
+      "minimum_aabb_wall_margin_mm": 198.0,
+      "violations": []
+    },
+    {
+      "name": "Saeulenfuss_Schraube_-1_-1",
+      "minimum_aabb_wall_margin_mm": 74.0,
+      "violations": []
+    },
+    {
+      "name": "Saeulenfuss_Schraube_-1_1",
+      "minimum_aabb_wall_margin_mm": 74.0,
+      "violations": []
+    },
+    {
+      "name": "Saeulenfuss_Schraube_1_-1",
+      "minimum_aabb_wall_margin_mm": 74.0,
+      "violations": []
+    },
+    {
+      "name": "Saeulenfuss_Schraube_1_1",
+      "minimum_aabb_wall_margin_mm": 74.0,
+      "violations": []
+    },
+    {
+      "name": "Kreuzschlitten_Guss_Detail",
+      "minimum_aabb_wall_margin_mm": 85.0,
+      "violations": []
+    },
+    {
+      "name": "X_Keilleiste_Sattel",
+      "minimum_aabb_wall_margin_mm": 138.0,
+      "violations": []
+    },
+    {
+      "name": "X_Keilleiste_Einstellschraube",
+      "minimum_aabb_wall_margin_mm": 137.6,
+      "violations": []
+    },
+    {
+      "name": "Y_Massstab_Abdeckung",
+      "minimum_aabb_wall_margin_mm": 100.0,
+      "violations": []
+    },
+    {
+      "name": "Y_Massstab_Distanz_-55",
+      "minimum_aabb_wall_margin_mm": 105.0,
+      "violations": []
+    },
+    {
+      "name": "Y_Massstab_Distanz_55",
+      "minimum_aabb_wall_margin_mm": 105.0,
+      "violations": []
+    },
+    {
+      "name": "X_Klemmhebel_0",
+      "minimum_aabb_wall_margin_mm": 119.5,
+      "violations": []
+    },
+    {
+      "name": "X_Klemmhebel_1",
+      "minimum_aabb_wall_margin_mm": 119.5,
+      "violations": []
+    },
+    {
+      "name": "Arbeitstisch_Foto",
+      "minimum_aabb_wall_margin_mm": 133.0,
+      "violations": []
+    },
+    {
+      "name": "X_Tisch_Stirnschraube_-1_-55",
+      "minimum_aabb_wall_margin_mm": 120.0,
+      "violations": []
+    },
+    {
+      "name": "X_Tisch_Stirnschraube_-1_55",
+      "minimum_aabb_wall_margin_mm": 120.0,
+      "violations": []
+    },
+    {
+      "name": "X_Tisch_Stirnschraube_1_-55",
+      "minimum_aabb_wall_margin_mm": 154.75,
+      "violations": []
+    },
+    {
+      "name": "X_Tisch_Stirnschraube_1_55",
+      "minimum_aabb_wall_margin_mm": 154.75,
+      "violations": []
+    },
+    {
+      "name": "X_Massstab_Gehaeuse_Foto",
+      "minimum_aabb_wall_margin_mm": 141.0,
+      "violations": []
+    },
+    {
+      "name": "X_Massstab_Dichtlippe",
+      "minimum_aabb_wall_margin_mm": 146.0,
+      "violations": []
+    },
+    {
+      "name": "X_Massstab_Lesekopf_Foto",
+      "minimum_aabb_wall_margin_mm": 144.0,
+      "violations": []
+    },
+    {
+      "name": "X_Massstab_Lesekopfhalter_ANNAHME",
+      "minimum_aabb_wall_margin_mm": 129.0,
+      "violations": []
+    },
+    {
+      "name": "Spindelkopf_Guss_Detail",
+      "minimum_aabb_wall_margin_mm": 313.0,
+      "violations": []
+    },
+    {
+      "name": "Z_Keilleiste_Kopf",
+      "minimum_aabb_wall_margin_mm": 314.0,
+      "violations": []
+    },
+    {
+      "name": "Kopf_Frontplatte_Detail",
+      "minimum_aabb_wall_margin_mm": 322.0,
+      "violations": []
+    },
+    {
+      "name": "Kopf_Unterblech_gelocht",
+      "minimum_aabb_wall_margin_mm": 320.0,
+      "violations": []
+    },
+    {
+      "name": "Unterblech_Schraube_-1_72",
+      "minimum_aabb_wall_margin_mm": 316.0,
+      "violations": []
+    },
+    {
+      "name": "Unterblech_Schraube_-1_196",
+      "minimum_aabb_wall_margin_mm": 316.0,
+      "violations": []
+    },
+    {
+      "name": "Unterblech_Schraube_1_72",
+      "minimum_aabb_wall_margin_mm": 316.0,
+      "violations": []
+    },
+    {
+      "name": "Unterblech_Schraube_1_196",
+      "minimum_aabb_wall_margin_mm": 316.0,
+      "violations": []
+    },
+    {
+      "name": "Pinole_Huelse_Detail",
+      "minimum_aabb_wall_margin_mm": 306.0,
+      "violations": []
+    },
+    {
+      "name": "Spindelnase_SK30_Normreferenz",
+      "minimum_aabb_wall_margin_mm": 290.0,
+      "violations": []
+    },
+    {
+      "name": "Werkzeugspindel_Durchgehende_Huelle",
+      "minimum_aabb_wall_margin_mm": 306.0,
+      "violations": []
+    },
+    {
+      "name": "SK30_Mitnehmer_-1",
+      "minimum_aabb_wall_margin_mm": 287.0,
+      "violations": []
+    },
+    {
+      "name": "Mitnehmer_Schraube_-1",
+      "minimum_aabb_wall_margin_mm": 283.0,
+      "violations": []
+    },
+    {
+      "name": "SK30_Mitnehmer_1",
+      "minimum_aabb_wall_margin_mm": 287.0,
+      "violations": []
+    },
+    {
+      "name": "Mitnehmer_Schraube_1",
+      "minimum_aabb_wall_margin_mm": 283.0,
+      "violations": []
+    },
+    {
+      "name": "Spindel_Laengsverzahnung_Huelle",
+      "minimum_aabb_wall_margin_mm": 364.0,
+      "violations": []
+    },
+    {
+      "name": "Kopf_Typenschild",
+      "minimum_aabb_wall_margin_mm": 367.4,
+      "violations": []
+    },
+    {
+      "name": "Digitale_Bohrtiefenanzeige",
+      "minimum_aabb_wall_margin_mm": 328.0,
+      "violations": []
+    },
+    {
+      "name": "Pinolenanzeige_LCD",
+      "minimum_aabb_wall_margin_mm": 365.6,
+      "violations": []
+    },
+    {
+      "name": "Pinolenanzeige_Taste_0",
+      "minimum_aabb_wall_margin_mm": 335.0,
+      "violations": []
+    },
+    {
+      "name": "Pinolenanzeige_Taste_1",
+      "minimum_aabb_wall_margin_mm": 344.0,
+      "violations": []
+    },
+    {
+      "name": "Pinolenanzeige_Taste_2",
+      "minimum_aabb_wall_margin_mm": 353.0,
+      "violations": []
+    },
+    {
+      "name": "Pinole_Messstange",
+      "minimum_aabb_wall_margin_mm": 306.0,
+      "violations": []
+    },
+    {
+      "name": "Frontplatten_Schraube_-1_15",
+      "minimum_aabb_wall_margin_mm": 333.6,
+      "violations": []
+    },
+    {
+      "name": "Frontplatten_Schraube_-1_115",
+      "minimum_aabb_wall_margin_mm": 364.0,
+      "violations": []
+    },
+    {
+      "name": "Frontplatten_Schraube_-1_205",
+      "minimum_aabb_wall_margin_mm": 364.0,
+      "violations": []
+    },
+    {
+      "name": "Frontplatten_Schraube_1_15",
+      "minimum_aabb_wall_margin_mm": 333.6,
+      "violations": []
+    },
+    {
+      "name": "Frontplatten_Schraube_1_115",
+      "minimum_aabb_wall_margin_mm": 364.0,
+      "violations": []
+    },
+    {
+      "name": "Frontplatten_Schraube_1_205",
+      "minimum_aabb_wall_margin_mm": 364.0,
+      "violations": []
+    },
+    {
+      "name": "W92_1000F_Gehaeuse_Rippen",
+      "minimum_aabb_wall_margin_mm": 334.7,
+      "violations": []
+    },
+    {
+      "name": "W92_1000F_Rueckdeckel",
+      "minimum_aabb_wall_margin_mm": 334.0,
+      "violations": []
+    },
+    {
+      "name": "W92_1000F_Frontflansch",
+      "minimum_aabb_wall_margin_mm": 335.0,
+      "violations": []
+    },
+    {
+      "name": "W92_1000F_Motorwelle_Huelle",
+      "minimum_aabb_wall_margin_mm": 368.0,
+      "violations": []
+    },
+    {
+      "name": "Spindelmotor_Montageplatte",
+      "minimum_aabb_wall_margin_mm": 315.0,
+      "violations": []
+    },
+    {
+      "name": "Motorplatte_Schraube_-1_-1",
+      "minimum_aabb_wall_margin_mm": 406.0,
+      "violations": []
+    },
+    {
+      "name": "Motorplatte_Schraube_-1_1",
+      "minimum_aabb_wall_margin_mm": 329.9,
+      "violations": []
+    },
+    {
+      "name": "Motorplatte_Schraube_1_-1",
+      "minimum_aabb_wall_margin_mm": 406.0,
+      "violations": []
+    },
+    {
+      "name": "Motorplatte_Schraube_1_1",
+      "minimum_aabb_wall_margin_mm": 329.9,
+      "violations": []
+    },
+    {
+      "name": "Spindel_Riemenscheibe",
+      "minimum_aabb_wall_margin_mm": 377.0,
+      "violations": []
+    },
+    {
+      "name": "Motor_Riemenscheibe",
+      "minimum_aabb_wall_margin_mm": 348.0,
+      "violations": []
+    },
+    {
+      "name": "Riemen_hoher_Bereich_Huelle",
+      "minimum_aabb_wall_margin_mm": 346.0,
+      "violations": []
+    },
+    {
+      "name": "Riemenabdeckung_Blech",
+      "minimum_aabb_wall_margin_mm": 312.0,
+      "violations": []
+    },
+    {
+      "name": "Anzugspindel_Abdeckung",
+      "minimum_aabb_wall_margin_mm": 289.5,
+      "violations": []
+    },
+    {
+      "name": "Riemendeckel_Schraubknopf",
+      "minimum_aabb_wall_margin_mm": 341.5,
+      "violations": []
+    },
+    {
+      "name": "Spindel_Drehzahlgeber_Huelle",
+      "minimum_aabb_wall_margin_mm": 405.5,
+      "violations": []
+    },
+    {
+      "name": "Panelhalter",
+      "minimum_aabb_wall_margin_mm": 417.5,
+      "violations": []
+    },
+    {
+      "name": "Bediengehaeuse_Hohlschale",
+      "minimum_aabb_wall_margin_mm": 368.0,
+      "violations": []
+    },
+    {
+      "name": "Bedienfront_Aluminium",
+      "minimum_aabb_wall_margin_mm": 368.0,
+      "violations": []
+    },
+    {
+      "name": "Not_Halt_Kragen",
+      "minimum_aabb_wall_margin_mm": 365.0,
+      "violations": []
+    },
+    {
+      "name": "Not_Halt_Pilz",
+      "minimum_aabb_wall_margin_mm": 346.0,
+      "violations": []
+    },
+    {
+      "name": "Start_Stop_Taster",
+      "minimum_aabb_wall_margin_mm": 362.0,
+      "violations": []
+    },
+    {
+      "name": "Gewindetaster",
+      "minimum_aabb_wall_margin_mm": 363.0,
+      "violations": []
+    },
+    {
+      "name": "Drehzahlsteller",
+      "minimum_aabb_wall_margin_mm": 352.0,
+      "violations": []
+    },
+    {
+      "name": "Drehzahlanzeige_LCD_Foto",
+      "minimum_aabb_wall_margin_mm": 369.0,
+      "violations": []
+    },
+    {
+      "name": "Z_Taster_Seitenplatte",
+      "minimum_aabb_wall_margin_mm": 389.0,
+      "violations": []
+    },
+    {
+      "name": "Z_Taster_Auf",
+      "minimum_aabb_wall_margin_mm": 398.5,
+      "violations": []
+    },
+    {
+      "name": "Z_Taster_Ab",
+      "minimum_aabb_wall_margin_mm": 398.5,
+      "violations": []
+    },
+    {
+      "name": "Blechsaeule_Seitenwand_links",
+      "minimum_aabb_wall_margin_mm": 96.0,
+      "violations": []
+    },
+    {
+      "name": "Blechsaeule_Seitenwand_rechts",
+      "minimum_aabb_wall_margin_mm": 96.0,
+      "violations": []
+    },
+    {
+      "name": "Blechsaeule_Rueckwand",
+      "minimum_aabb_wall_margin_mm": 96.0,
+      "violations": []
+    },
+    {
+      "name": "Blechsaeule_Schraegblech",
+      "minimum_aabb_wall_margin_mm": 96.0,
+      "violations": []
+    },
+    {
+      "name": "Blechsaeule_Stirnblech_unten",
+      "minimum_aabb_wall_margin_mm": 96.0,
+      "violations": []
+    },
+    {
+      "name": "Blechsaeule_Stirnblech_oben",
+      "minimum_aabb_wall_margin_mm": 186.0,
+      "violations": []
+    },
+    {
+      "name": "Blechsaeule_Querlasche_210",
+      "minimum_aabb_wall_margin_mm": 287.0,
+      "violations": []
+    },
+    {
+      "name": "Blechsaeule_Querlasche_530",
+      "minimum_aabb_wall_margin_mm": 287.0,
+      "violations": []
+    },
+    {
+      "name": "Kabelverschraubung_0",
+      "minimum_aabb_wall_margin_mm": 226.5,
+      "violations": []
+    },
+    {
+      "name": "Kabelverschraubung_1",
+      "minimum_aabb_wall_margin_mm": 226.5,
+      "violations": []
+    },
+    {
+      "name": "Z_Endschalter_unten",
+      "minimum_aabb_wall_margin_mm": 266.0,
+      "violations": []
+    },
+    {
+      "name": "Z_Endschalter_oben",
+      "minimum_aabb_wall_margin_mm": 266.0,
+      "violations": []
+    },
+    {
+      "name": "XMT_1000_DRIVER_Platine",
+      "minimum_aabb_wall_margin_mm": 104.9,
+      "violations": []
+    },
+    {
+      "name": "XMT_Steuer_Tochterplatine",
+      "minimum_aabb_wall_margin_mm": 121.9,
+      "violations": []
+    },
+    {
+      "name": "XMT_Mikrocontroller_Huelle",
+      "minimum_aabb_wall_margin_mm": 123.5,
+      "violations": []
+    },
+    {
+      "name": "XMT_Elko_00",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "XMT_Elko_01",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "XMT_Elko_02",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "XMT_Elko_03",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "XMT_Elko_04",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "XMT_Leistungsklemmenblock",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "XMT_Signalklemme",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "XMT_Netzdrossel_Huelle",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "EMI_Filter_Huelle",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "PE_Sammelschiene",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "TDE_2232_Transformator_Huelle",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "Relais_Huelle",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "Hilfsversorgung_Platine",
+      "minimum_aabb_wall_margin_mm": 104.9,
+      "violations": []
+    },
+    {
+      "name": "Hilfsversorgung_Trafokern",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "Hilfsversorgung_Trafospule",
+      "minimum_aabb_wall_margin_mm": 125.5,
+      "violations": []
+    },
+    {
+      "name": "Hilfsversorgung_Kuehlkoerper",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "Hilfsversorgung_USB_Buchse_Huelle",
+      "minimum_aabb_wall_margin_mm": 106.5,
+      "violations": []
+    },
+    {
+      "name": "Spindelschutz_oben",
+      "minimum_aabb_wall_margin_mm": 197.0,
+      "violations": []
+    },
+    {
+      "name": "Spindelschutz_unten",
+      "minimum_aabb_wall_margin_mm": 167.0,
+      "violations": []
+    },
+    {
+      "name": "Schutz_Halter",
+      "minimum_aabb_wall_margin_mm": 201.0,
+      "violations": []
+    },
+    {
+      "name": "Schutz_Klemmschraube_-1",
+      "minimum_aabb_wall_margin_mm": 217.5,
+      "violations": []
+    },
+    {
+      "name": "Schutz_Klemmschraube_1",
+      "minimum_aabb_wall_margin_mm": 217.5,
+      "violations": []
+    },
+    {
+      "name": "Lampenhalter",
+      "minimum_aabb_wall_margin_mm": 319.775,
+      "violations": []
+    },
+    {
+      "name": "Arbeitslampe",
+      "minimum_aabb_wall_margin_mm": 290.0,
+      "violations": []
+    },
+    {
+      "name": "Arbeitslampe_Linse",
+      "minimum_aabb_wall_margin_mm": 289.0,
+      "violations": []
+    },
+    {
+      "name": "Riemenhauben_Sicherheitsschalter",
+      "minimum_aabb_wall_margin_mm": 315.0,
+      "violations": []
+    },
+    {
+      "name": "Wellschlauch_1_Neutralstellung",
+      "minimum_aabb_wall_margin_mm": 235.205,
+      "violations": []
+    },
+    {
+      "name": "Wellschlauch_2_Neutralstellung",
+      "minimum_aabb_wall_margin_mm": 235.205,
+      "violations": []
+    },
+    {
+      "name": "Netzeinbaustecker_Huelle",
+      "minimum_aabb_wall_margin_mm": 179.0,
+      "violations": []
+    },
+    {
+      "name": "Sicherungshalter_Huelle_0",
+      "minimum_aabb_wall_margin_mm": 182.5,
+      "violations": []
+    },
+    {
+      "name": "Sicherungshalter_Huelle_1",
+      "minimum_aabb_wall_margin_mm": 182.5,
+      "violations": []
+    },
+    {
+      "name": "Spindelschutz_Schalterhalter",
+      "minimum_aabb_wall_margin_mm": 296.0,
+      "violations": []
+    },
+    {
+      "name": "Spindelschutz_Schalter_Huelle",
+      "minimum_aabb_wall_margin_mm": 284.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Kugelspindel_Huelle",
+      "minimum_aabb_wall_margin_mm": 85.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Rundmutter_Huelle",
+      "minimum_aabb_wall_margin_mm": 134.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Mutteraufnahme_Entwurf",
+      "minimum_aabb_wall_margin_mm": 131.5,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Anschlussplatte_Entwurf",
+      "minimum_aabb_wall_margin_mm": 106.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Entwurf",
+      "minimum_aabb_wall_margin_mm": 122.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Ringhuelle",
+      "minimum_aabb_wall_margin_mm": 134.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Loslager_Entwurf",
+      "minimum_aabb_wall_margin_mm": 85.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Loslager_Ringhuelle",
+      "minimum_aabb_wall_margin_mm": 85.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Kupplung_Spindel",
+      "minimum_aabb_wall_margin_mm": 132.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Kupplung_Motor",
+      "minimum_aabb_wall_margin_mm": 132.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Kupplungsstern",
+      "minimum_aabb_wall_margin_mm": 133.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Distanzsaeule_1",
+      "minimum_aabb_wall_margin_mm": 109.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Halteschraube_1",
+      "minimum_aabb_wall_margin_mm": 110.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Distanzsaeule_2",
+      "minimum_aabb_wall_margin_mm": 175.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Halteschraube_2",
+      "minimum_aabb_wall_margin_mm": 176.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Distanzsaeule_3",
+      "minimum_aabb_wall_margin_mm": 109.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Halteschraube_3",
+      "minimum_aabb_wall_margin_mm": 110.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Distanzsaeule_4",
+      "minimum_aabb_wall_margin_mm": 175.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Halteschraube_4",
+      "minimum_aabb_wall_margin_mm": 176.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motorplatte_Entwurf",
+      "minimum_aabb_wall_margin_mm": 106.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motor_Gehaeuse",
+      "minimum_aabb_wall_margin_mm": 89.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motor_Frontflansch",
+      "minimum_aabb_wall_margin_mm": 119.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motor_Rueckdeckel",
+      "minimum_aabb_wall_margin_mm": 84.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motorbund",
+      "minimum_aabb_wall_margin_mm": 128.95,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motorwelle",
+      "minimum_aabb_wall_margin_mm": 144.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motor_Stecker_Bauraum",
+      "minimum_aabb_wall_margin_mm": 89.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Kugelspindel_Huelle",
+      "minimum_aabb_wall_margin_mm": 58.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Rundmutter_Huelle",
+      "minimum_aabb_wall_margin_mm": 52.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Mutteraufnahme_Entwurf",
+      "minimum_aabb_wall_margin_mm": 49.5,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Anschlussplatte_Entwurf",
+      "minimum_aabb_wall_margin_mm": 24.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Entwurf",
+      "minimum_aabb_wall_margin_mm": 40.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Ringhuelle",
+      "minimum_aabb_wall_margin_mm": 52.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Loslager_Entwurf",
+      "minimum_aabb_wall_margin_mm": 44.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Loslager_Ringhuelle",
+      "minimum_aabb_wall_margin_mm": 54.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Kupplung_Spindel",
+      "minimum_aabb_wall_margin_mm": 50.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Kupplung_Motor",
+      "minimum_aabb_wall_margin_mm": 50.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Kupplungsstern",
+      "minimum_aabb_wall_margin_mm": 51.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Distanzsaeule_1",
+      "minimum_aabb_wall_margin_mm": 27.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Halteschraube_1",
+      "minimum_aabb_wall_margin_mm": 28.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Distanzsaeule_2",
+      "minimum_aabb_wall_margin_mm": 93.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Halteschraube_2",
+      "minimum_aabb_wall_margin_mm": 94.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Distanzsaeule_3",
+      "minimum_aabb_wall_margin_mm": 27.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Halteschraube_3",
+      "minimum_aabb_wall_margin_mm": 28.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Distanzsaeule_4",
+      "minimum_aabb_wall_margin_mm": 93.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Halteschraube_4",
+      "minimum_aabb_wall_margin_mm": 94.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motorplatte_Entwurf",
+      "minimum_aabb_wall_margin_mm": 24.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motor_Gehaeuse",
+      "minimum_aabb_wall_margin_mm": 37.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motor_Frontflansch",
+      "minimum_aabb_wall_margin_mm": 37.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motor_Rueckdeckel",
+      "minimum_aabb_wall_margin_mm": 37.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motorbund",
+      "minimum_aabb_wall_margin_mm": 46.95,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motorwelle",
+      "minimum_aabb_wall_margin_mm": 62.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motor_Stecker_Bauraum",
+      "minimum_aabb_wall_margin_mm": 58.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Kugelspindel_Huelle",
+      "minimum_aabb_wall_margin_mm": 265.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Rundmutter_Huelle",
+      "minimum_aabb_wall_margin_mm": 258.5,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Mutteraufnahme_Entwurf",
+      "minimum_aabb_wall_margin_mm": 255.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Mutteranschluss_Kopf_Entwurf",
+      "minimum_aabb_wall_margin_mm": 295.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Anschlussplatte_Entwurf",
+      "minimum_aabb_wall_margin_mm": 221.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Entwurf",
+      "minimum_aabb_wall_margin_mm": 249.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Ringhuelle",
+      "minimum_aabb_wall_margin_mm": 259.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Loslager_Entwurf",
+      "minimum_aabb_wall_margin_mm": 253.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Loslager_Ringhuelle",
+      "minimum_aabb_wall_margin_mm": 261.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Kupplung_Spindel",
+      "minimum_aabb_wall_margin_mm": 255.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Kupplung_Motor",
+      "minimum_aabb_wall_margin_mm": 251.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Kupplungsstern",
+      "minimum_aabb_wall_margin_mm": 256.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Distanzsaeule_1",
+      "minimum_aabb_wall_margin_mm": 242.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Halteschraube_1",
+      "minimum_aabb_wall_margin_mm": 226.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Distanzsaeule_2",
+      "minimum_aabb_wall_margin_mm": 225.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Halteschraube_2",
+      "minimum_aabb_wall_margin_mm": 226.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Distanzsaeule_3",
+      "minimum_aabb_wall_margin_mm": 242.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Halteschraube_3",
+      "minimum_aabb_wall_margin_mm": 226.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Distanzsaeule_4",
+      "minimum_aabb_wall_margin_mm": 225.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Halteschraube_4",
+      "minimum_aabb_wall_margin_mm": 226.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motorplatte_Entwurf",
+      "minimum_aabb_wall_margin_mm": 221.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motor_Gehaeuse",
+      "minimum_aabb_wall_margin_mm": 119.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motor_Frontflansch",
+      "minimum_aabb_wall_margin_mm": 227.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motor_Rueckdeckel",
+      "minimum_aabb_wall_margin_mm": 114.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motorbund",
+      "minimum_aabb_wall_margin_mm": 232.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motorwelle",
+      "minimum_aabb_wall_margin_mm": 232.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motor_Stecker_Bauraum",
+      "minimum_aabb_wall_margin_mm": 119.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Haltebremse_Bauraum",
+      "minimum_aabb_wall_margin_mm": 89.0,
+      "violations": []
+    },
+    {
+      "name": "Pinolenvorschub_Abdeckplatte",
+      "minimum_aabb_wall_margin_mm": 353.0,
+      "violations": []
+    },
+    {
+      "name": "Pinole_Deckelschraube_1",
+      "minimum_aabb_wall_margin_mm": 404.0,
+      "violations": []
+    },
+    {
+      "name": "Pinole_Deckelschraube_2",
+      "minimum_aabb_wall_margin_mm": 356.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motorbefestigung_1",
+      "minimum_aabb_wall_margin_mm": 120.83,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motorbefestigung_2",
+      "minimum_aabb_wall_margin_mm": 167.97,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motorbefestigung_3",
+      "minimum_aabb_wall_margin_mm": 120.83,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motorbefestigung_4",
+      "minimum_aabb_wall_margin_mm": 167.97,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Ringhuelle_2",
+      "minimum_aabb_wall_margin_mm": 134.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Deckel",
+      "minimum_aabb_wall_margin_mm": 122.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Befestigung_1",
+      "minimum_aabb_wall_margin_mm": 127.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Befestigung_2",
+      "minimum_aabb_wall_margin_mm": 161.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Befestigung_3",
+      "minimum_aabb_wall_margin_mm": 127.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Befestigung_4",
+      "minimum_aabb_wall_margin_mm": 161.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Sicherungsmutter",
+      "minimum_aabb_wall_margin_mm": 138.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Festlager_Schulterring",
+      "minimum_aabb_wall_margin_mm": 139.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Maschinenanschluss_1",
+      "minimum_aabb_wall_margin_mm": 151.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Maschinenanschluss_2",
+      "minimum_aabb_wall_margin_mm": 167.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Maschinenanschluss_3",
+      "minimum_aabb_wall_margin_mm": 151.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Maschinenanschluss_4",
+      "minimum_aabb_wall_margin_mm": 167.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Loslager_Anschlussbruecke",
+      "minimum_aabb_wall_margin_mm": 77.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Loslager_Befestigung_1",
+      "minimum_aabb_wall_margin_mm": 79.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Loslager_Befestigung_2",
+      "minimum_aabb_wall_margin_mm": 79.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Loslager_Befestigung_3",
+      "minimum_aabb_wall_margin_mm": 79.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Loslager_Befestigung_4",
+      "minimum_aabb_wall_margin_mm": 79.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Motorschutz_Haube",
+      "minimum_aabb_wall_margin_mm": 71.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_X_Loslager_Brueckenwinkel",
+      "minimum_aabb_wall_margin_mm": 63.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motorbefestigung_1",
+      "minimum_aabb_wall_margin_mm": 38.83,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motorbefestigung_2",
+      "minimum_aabb_wall_margin_mm": 85.97,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motorbefestigung_3",
+      "minimum_aabb_wall_margin_mm": 38.83,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motorbefestigung_4",
+      "minimum_aabb_wall_margin_mm": 85.97,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Ringhuelle_2",
+      "minimum_aabb_wall_margin_mm": 52.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Deckel",
+      "minimum_aabb_wall_margin_mm": 40.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Befestigung_1",
+      "minimum_aabb_wall_margin_mm": 45.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Befestigung_2",
+      "minimum_aabb_wall_margin_mm": 79.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Befestigung_3",
+      "minimum_aabb_wall_margin_mm": 45.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Befestigung_4",
+      "minimum_aabb_wall_margin_mm": 79.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Sicherungsmutter",
+      "minimum_aabb_wall_margin_mm": 56.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Festlager_Schulterring",
+      "minimum_aabb_wall_margin_mm": 57.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Maschinenanschluss_1",
+      "minimum_aabb_wall_margin_mm": 69.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Maschinenanschluss_2",
+      "minimum_aabb_wall_margin_mm": 85.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Maschinenanschluss_3",
+      "minimum_aabb_wall_margin_mm": 69.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Maschinenanschluss_4",
+      "minimum_aabb_wall_margin_mm": 85.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Loslager_Anschlussbruecke",
+      "minimum_aabb_wall_margin_mm": 38.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Loslager_Befestigung_1",
+      "minimum_aabb_wall_margin_mm": 47.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Loslager_Befestigung_2",
+      "minimum_aabb_wall_margin_mm": 77.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Loslager_Befestigung_3",
+      "minimum_aabb_wall_margin_mm": 47.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Loslager_Befestigung_4",
+      "minimum_aabb_wall_margin_mm": 77.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Y_Motorschutz_Haube",
+      "minimum_aabb_wall_margin_mm": 29.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motorbefestigung_1",
+      "minimum_aabb_wall_margin_mm": 223.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motorbefestigung_2",
+      "minimum_aabb_wall_margin_mm": 223.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motorbefestigung_3",
+      "minimum_aabb_wall_margin_mm": 223.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motorbefestigung_4",
+      "minimum_aabb_wall_margin_mm": 223.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Ringhuelle_2",
+      "minimum_aabb_wall_margin_mm": 259.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Deckel",
+      "minimum_aabb_wall_margin_mm": 249.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Befestigung_1",
+      "minimum_aabb_wall_margin_mm": 280.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Befestigung_2",
+      "minimum_aabb_wall_margin_mm": 254.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Befestigung_3",
+      "minimum_aabb_wall_margin_mm": 280.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Befestigung_4",
+      "minimum_aabb_wall_margin_mm": 254.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Sicherungsmutter",
+      "minimum_aabb_wall_margin_mm": 263.5,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Festlager_Schulterring",
+      "minimum_aabb_wall_margin_mm": 264.5,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Maschinenanschluss_1",
+      "minimum_aabb_wall_margin_mm": 262.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Maschinenanschluss_2",
+      "minimum_aabb_wall_margin_mm": 246.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Maschinenanschluss_3",
+      "minimum_aabb_wall_margin_mm": 262.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Maschinenanschluss_4",
+      "minimum_aabb_wall_margin_mm": 246.2,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Loslager_Anschlussbruecke",
+      "minimum_aabb_wall_margin_mm": 247.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Loslager_Befestigung_1",
+      "minimum_aabb_wall_margin_mm": 286.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Loslager_Befestigung_2",
+      "minimum_aabb_wall_margin_mm": 256.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Loslager_Befestigung_3",
+      "minimum_aabb_wall_margin_mm": 286.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Loslager_Befestigung_4",
+      "minimum_aabb_wall_margin_mm": 256.8,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Motorschutz_Haube",
+      "minimum_aabb_wall_margin_mm": 101.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Tragbruecke_auf_Gusssaeule",
+      "minimum_aabb_wall_margin_mm": 201.0,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Tragbruecke_Schraube_1",
+      "minimum_aabb_wall_margin_mm": 293.6,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Tragbruecke_Schraube_2",
+      "minimum_aabb_wall_margin_mm": 243.6,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Tragbruecke_Schraube_3",
+      "minimum_aabb_wall_margin_mm": 293.6,
+      "violations": []
+    },
+    {
+      "name": "CNC_Z_Tragbruecke_Schraube_4",
+      "minimum_aabb_wall_margin_mm": 243.6,
+      "violations": []
+    }
+  ],
+  "not_checked": [
+    {
+      "name": "Faltenbalg_Z",
+      "reason": "local_shape_changes_with_pose_not_translation_only"
+    },
+    {
+      "name": "Faltenbalg_Y_hinten",
+      "reason": "local_shape_changes_with_pose_not_translation_only"
+    }
+  ]
+}

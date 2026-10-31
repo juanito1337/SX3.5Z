@@ -1,0 +1,21 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_ DrainReportConsistency07Tests.test_reported_slope_angle_matches_reported_grade _
+
+self = <test_ruecklauf07.DrainReportConsistency07Tests testMethod=test_reported_slope_angle_matches_reported_grade>
+
+    def test_reported_slope_angle_matches_reported_grade(self):
+     p=m.load_parameters(ROOT/'Parameter.json');r=m.drain_report(p)
+>    self.assertAlmostEqual(r['side_slope_angle_deg'], math.degrees(math.atan(r['side_slope_percent']/100.)))
+E    AssertionError: 10.203973721731684 != 7.96961039432136 within 7 places (2.234363327410324 difference)
+
+tests/test_ruecklauf07.py:99: AssertionError
+=============================== warnings summary ===============================
+tests/test_ruecklauf07.py: 293 warnings
+  /mnt/data/cabinet_drain07_work/SX35Z_CNC_Gesamtansicht_07/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    if isinstance(n, ast.Num): return float(n.n)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_ruecklauf07.py::DrainReportConsistency07Tests::test_reported_slope_angle_matches_reported_grade - AssertionError: 10.203973721731684 != 7.96961039432136 within 7 places (2.234363327410324 difference)
+1 failed, 22 deselected, 293 warnings in 0.10s

@@ -1,0 +1,76 @@
+{
+  "gates": [
+    {
+      "id": "G01",
+      "title": "Z-Motor Lieferrevision",
+      "required_evidence": "B-Motor-Zeichnung,144/135mm,6/4A,Flansch,Welle,Bremsspannung/-strom und Encoderkompatibilität schriftlich bestätigt",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    },
+    {
+      "id": "G02",
+      "title": "Maschinen-Aufmaß",
+      "required_evidence": "Funktionsflächen, Lochbilder, Wände, Schraubenachsen und verfügbare Wege vor Ort aufgenommen",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    },
+    {
+      "id": "G03",
+      "title": "Antriebs-/Lastrechnung",
+      "required_evidence": "Massen, Reibkräfte, Schnittlastannahmen, Beschleunigung, Drehmoment bei Drehzahl, Knickung/kritische Drehzahl und Gestell geprüft",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    },
+    {
+      "id": "G04",
+      "title": "Spindel-/Muttersatz",
+      "required_evidence": "Anbieterzeichnung für Gewinde-/Gesamtlängen, Schulterlage, Sitze, Ringnut, Mutterhalterlochbild, Spielklasse freigegeben",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    },
+    {
+      "id": "G05",
+      "title": "Mechanische Integration",
+      "required_evidence": "Eigene Zeichnungen vollständig, Originalbearbeitung freigegeben, Montage-/Bewegungskollisionen beseitigt, realePassprobe",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    },
+    {
+      "id": "G06",
+      "title": "DC-Leistungsversorgung",
+      "required_evidence": "RMS-Leistungsbedarf, Spannungseinstellung und Rückspeisespitzen incl.Netzteil-Abschalten/Not-Halt nachgewiesen",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    },
+    {
+      "id": "G07",
+      "title": "Elektroplanung/-prüfung",
+      "required_evidence": "Stromlauf-, Kabel-, Klemmen-, Schutz-, PE- und Wärmeplan durch Fachkraft dimensioniert/geprüft",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    },
+    {
+      "id": "G08",
+      "title": "Maschinensicherheit",
+      "required_evidence": "Z-Absturz, Türfallen, Verriegelung/Stillstand, Spindelnachlauf, KSS-/Spänecontainment und unerwarteterAnlauf bewertet/validiert",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    },
+    {
+      "id": "G09",
+      "title": "NX-/LinuxCNC-Abnahme",
+      "required_evidence": "NeueNX-Baugruppe erzeugt/geprüft; I/O-Test, Referenzieren, Wege, Skalierung, Fehlerreaktionen und Wiederholgenauigkeit dokumentiert",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+........F.
+======================================================================
+FAIL: test_nonfinite_normal_cannot_be_matched (test_nx_sheetmetal06.ConvertContractTests.test_nonfinite_normal_cannot_be_matched)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/nx06_work/SX35Z_CNC_Gesamtansicht_06/tests/test_nx_sheetmetal06.py", line 63, in test_nonfinite_normal_cannot_be_matched
+    with self.assertRaises(RuntimeError):m.select_base_face(body,uf,1,0)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+FAILED (failures=1)

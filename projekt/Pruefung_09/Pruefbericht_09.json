@@ -1,0 +1,185 @@
+{
+  "schema": "SX35Z_REVISION09_FINAL_REVIEW",
+  "date": "2026-10-30",
+  "review_type": "Autoren-Selbstprüfung; keine unabhängige technische Abnahme",
+  "native_nx_executed": false,
+  "native_prt_files_provided": false,
+  "manufacturing_released": false,
+  "purchase_released": false,
+  "atc_operational": false,
+  "summary": {
+    "version": "CNC_UMSETZUNG_09",
+    "model_bodies": 560,
+    "operations": 1829,
+    "catalog_rows": 69,
+    "manufactured_item_rows": 148,
+    "new_bodies": 125,
+    "new_catalog_rows": 13,
+    "purchase_instances": 193,
+    "native_nx_executed": false,
+    "purchase_released": false,
+    "atc_operational": false,
+    "parameter_sha256": "cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0",
+    "recipe_sha256": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+    "catalog_sha256": "a437a83a29ee5b1d8dd2d18f9053c9d63a3ad4848504747410546d480b2de5a4"
+  },
+  "independent_geometry": {
+    "bodies": 560,
+    "operations": 1829,
+    "failures": [],
+    "triangle_count": 254208,
+    "scope": "Analytische scharfkantige Vorformen außerhalb NX, nicht nach nativer NXSM-Konvertierung"
+  },
+  "new_part_static_checks": {
+    "scope": "Added09 bodies vs all bodies in default pose; no movement sweep, no strength or tolerance proof",
+    "native_nx_executed": false,
+    "pair_count": 62125,
+    "solid_intersection_checks": 293,
+    "collisions": []
+  },
+  "atc_endpoint_checks": {
+    "pairs": 1368,
+    "collisions": [],
+    "scope": "6 pick-up endpoints; head casting/front plate/quill vs magazine except selected holder. NO full path, guards, workpiece, spindle-joint or replacement-head proof."
+  },
+  "retained_base_conflicts": [
+    {
+      "component": "CNC_X_Mutteraufnahme_Entwurf",
+      "casting": "Arbeitstisch_Foto",
+      "intersection_mm3": 11230.3275,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_X_Mutteraufnahme_Entwurf",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 4928.6036,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_X_Kugelspindel_Huelle",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 117.3271,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Y_Kugelspindel_Huelle",
+      "casting": "Basis_Guss_Foto",
+      "intersection_mm3": 863.938,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Z_Anschlussplatte_Entwurf",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 12553.013,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Z_Kugelspindel_Huelle",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 265.0719,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    }
+  ],
+  "tests": {
+    "passed": 112,
+    "subtests_passed": 91,
+    "scope": "pytest.ini: tests + tests08 + tests09; Historie_07_3 bleibt Archiv",
+    "evidence": "Gesamttests_09.txt",
+    "cache_required": false
+  },
+  "python310_grammar": {
+    "count": 55,
+    "errors": [],
+    "scope": "All Python files including historical modules, grammar only"
+  },
+  "workbook": {
+    "formula_count": 78,
+    "excel_error_cells": [],
+    "catalog_rows": 69,
+    "new_rows": 13,
+    "model_bodies": 560,
+    "open_measures": 35,
+    "atc_retract_reserve_mm": 16.600000000000023,
+    "all_firm_prices_empty": true,
+    "price_indices_separate": true,
+    "sheets": [
+      "Start",
+      "Einkauf",
+      "Neu09",
+      "ATC_Suche",
+      "ATC_Raum",
+      "Aufmass",
+      "Fertigung",
+      "Modell",
+      "Freigaben",
+      "Quellen",
+      "Bearbeitung"
+    ],
+    "material_correction_verified": true,
+    "file_sha256": "2f8d3b3b7f7d10861a4552ed665ec4884a9eac536e26b93a18b3e2dde9c70e57"
+  },
+  "browser": {
+    "browser": "Chromium via Playwright set_content (file URLs blocked in host policy)",
+    "native_nx_executed": false,
+    "door_states_checked": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "door_motion": "two segments -Z, upper 1030 mm / lower 515 mm",
+    "render_changes_when_open": true,
+    "rotation_control": true,
+    "zoom_control": true,
+    "modes_checked": 9,
+    "javascript_errors": []
+  },
+  "preservation": {
+    "changed_existing_parts": [
+      "Staender_Blechschuerze_links",
+      "Staender_Blechschuerze_rechts",
+      "KSS_Serviceklappe_hinten",
+      "Schaltschrank_Hohlschale"
+    ],
+    "new_bodies": 125,
+    "unchanged_moving_door_parts": 49,
+    "unchanged_original_components": [
+      "Basis_Guss_Foto",
+      "Saeule_Guss_Foto",
+      "Kreuzschlitten_Guss_Detail",
+      "Arbeitstisch_Foto",
+      "Spindelkopf_Guss_Detail",
+      "Pinole_Huelse_Detail",
+      "Spindelnase_SK30_Normreferenz",
+      "Werkzeugspindel_Durchgehende_Huelle"
+    ],
+    "byte_identical_files_from_08": [
+      "nx_native.py",
+      "nx_files.py",
+      "nx_geometry.py",
+      "nx_sheetmetal06.py",
+      "nx_formeln073.py",
+      "modell_v4.py",
+      "Parameter.json",
+      "CNC_Parameter.json",
+      "Ausbau_Parameter.json"
+    ],
+    "original_nx_files_modified": false
+  },
+  "documentation": {
+    "pdf_pages": 13,
+    "docx_rendered": true,
+    "all_pages_visually_reviewed": true,
+    "pdf_sha256": "ecd9de9260c32cf911ce80160833360e25e8a198490db5eef471811be640e869"
+  },
+  "open_measured_values": 35,
+  "limits": [
+    "Keine automatische Spann-/Löseeinheit für die Original-SK30-Spindel geliefert",
+    "Kein bestätigt kompatibler AliExpress-Lieferumfang, keine Livepreise",
+    "Keine originale Hersteller-STEP-Datei der neuen Kaufteile",
+    "Keine vollständige Achs-/Werkstück-/Tür-/ATC-Bahnsimulation",
+    "Keine Sicherheits-, Dichtheits-, Tragfähigkeits- oder Herstellungsfreigabe",
+    "Bisherige sechs Grundmaschinen-Anschlusskonflikte bleiben bestehen"
+  ]
+}

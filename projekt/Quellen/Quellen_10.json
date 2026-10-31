@@ -1,0 +1,58 @@
+{
+  "schema": "CNC_NUTMOUNT_CATALOGUE_10",
+  "manufacturer": "isel Germany GmbH",
+  "catalogue_revision": "April 2025",
+  "source_url": "https://www.isel.com/fileadmin/user_upload/Kataloge/20250403_Katalog_Kugelgewindespindeln_de.pdf",
+  "research_date": "2026-10-27",
+  "blocks": {
+    "213500": {
+      "article_number": "213500",
+      "screw_diameter_mm": 16,
+      "bore_d_mm": 28,
+      "length_mm": 54,
+      "width_mm": 47,
+      "height_mm": 33,
+      "axis_height_mm": 16.5,
+      "bore_fit_label": "H7",
+      "material_label": "Stahl, brüniert",
+      "foot_holes": null,
+      "source_page": 9
+    },
+    "213600": {
+      "article_number": "213600",
+      "screw_diameter_mm": 20,
+      "bore_d_mm": 33,
+      "length_mm": 61.5,
+      "width_mm": 53,
+      "height_mm": 40,
+      "axis_height_mm": 20,
+      "bore_fit_label": "H7",
+      "material_label": "Stahl, brüniert",
+      "foot_holes": null,
+      "source_page": 9
+    }
+  },
+  "evidence": {
+    "original_cad_obtained": false,
+    "pdf_bytes_obtained": false,
+    "drawing_visually_verified": false,
+    "foot_hole_positions_verified": false,
+    "retention_geometry_verified": false,
+    "physical_part_measured": false,
+    "cad_portal_attempt": "https://www.traceparts.com/els/isel/de/search/isel-germany-gmbh?CatalogPath=ISEL%3AISEL.1"
+  },
+  "source_basis": "Manufacturer PDF parsed table page9: foot mounting. No drawing-derived hole coordinates.",
+  "retrieval_attempts": [
+    "Web PDF text readable; screenshots pages6-9 returned Cache miss",
+    "Direct download failed; requests DNS resolution unavailable",
+    "Manufacturer product pages unavailable; manufacturer Traceparts catalogue Cache miss"
+  ],
+  "missing_geometry": [
+    "foot hole positions and counterbore depths",
+    "clamping slits",
+    "adjustment and fixing screws",
+    "lubrication nipple",
+    "213600 tension nut details"
+  ],
+  "limits": "Nominal main body only; B/H/L/M/H1 with H1 interpreted as axis-to-foot in named table. Not complete manufacturer CAD."
+}

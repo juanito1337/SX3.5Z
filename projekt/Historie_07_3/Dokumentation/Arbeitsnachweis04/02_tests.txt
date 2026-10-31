@@ -1,0 +1,20 @@
+test_browser_moves_on_z (test_lift04.LiftTests.test_browser_moves_on_z) ... ok
+test_closed_covers_opening_in_x_z (test_lift04.LiftTests.test_closed_covers_opening_in_x_z) ... /mnt/data/lift04_work/SX35Z_CNC_Gesamtansicht_04/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+ok
+test_false_positions_rejected (test_lift04.LiftTests.test_false_positions_rejected) ... ok
+test_fixed_structure_is_high_even_closed (test_lift04.LiftTests.test_fixed_structure_is_high_even_closed) ... ok
+test_footprint_height_and_travels_unchanged (test_lift04.LiftTests.test_footprint_height_and_travels_unchanged) ... ok
+test_guides_cover_carriage_travel (test_lift04.LiftTests.test_guides_cover_carriage_travel) ... ok
+test_motion_is_rigid_in_z_only (test_lift04.LiftTests.test_motion_is_rigid_in_z_only) ... ok
+test_old_horizontal_hardware_removed (test_lift04.LiftTests.test_old_horizontal_hardware_removed) ... ok
+test_open_leaf_clears_aperture_above (test_lift04.LiftTests.test_open_leaf_clears_aperture_above) ... ok
+test_other_groups_numerically_unchanged (test_lift04.LiftTests.test_other_groups_numerically_unchanged) ... ok
+test_revision (test_lift04.LiftTests.test_revision) ... ok
+test_safe_fallback_not_claimed (test_lift04.LiftTests.test_safe_fallback_not_claimed) ... ok
+test_single_upward_leaf (test_lift04.LiftTests.test_single_upward_leaf) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.460s
+
+OK

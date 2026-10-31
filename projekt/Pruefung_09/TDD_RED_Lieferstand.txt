@@ -1,0 +1,40 @@
+FFF                                                                      [100%]
+=================================== FAILURES ===================================
+___________ test_new_native_entrypoint_reloads_and_checks_revision09 ___________
+
+    def test_new_native_entrypoint_reloads_and_checks_revision09():
+        s=(ROOT/'NX_CNC_Gesamtansicht.py').read_text()
+>       assert "'CNC_UMSETZUNG_09'" in s
+E       assert "'CNC_UMSETZUNG_09'" in '# -*- coding: utf-8 -*-\n"""SX3.5Z integrated CNC view -- create parts, 18 subassemblies and a root .prt.\nNot a fina...\ndef getUnloadOption(dummy):return NXOpen.Session.LibraryUnloadOption.Immediately\nif __name__==\'__main__\':main()\n'
+
+tests09/test_delivery09.py:9: AssertionError
+_________ test_planned_new_catalog_quantities_match_physical_instances _________
+
+    def test_planned_new_catalog_quantities_match_physical_instances():
+        cat=json.loads((ROOT/'Einkauf/Kaufteile_09.json').read_text())['items']
+        ds=model.recipe()
+        for key,item in cat.items():
+            if not key.startswith(('K09','N09')):continue
+            inst={d['purchase_instance'] for d in ds if d.get('item_id')==key and d.get('supply_kind')=='BUY'}
+>           assert item['planned_quantity']==len(inst),key
+E           AssertionError: K09-GN425
+E           assert 0 == 3
+E            +  where 3 = len({'Servicegriff_KSS', 'Servicegriff_links', 'Servicegriff_rechts'})
+
+tests09/test_delivery09.py:20: AssertionError
+___________ test_magazine_slot_geometry_changes_require_revalidation ___________
+
+    def test_magazine_slot_geometry_changes_require_revalidation():
+        p=model.load_parameters(ROOT/'Parameter.json');p['slot_pitch']=50
+>       with pytest.raises(ValueError):model.validate(p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09/test_delivery09.py:24: Failed
+=========================== short test summary info ============================
+FAILED tests09/test_delivery09.py::test_new_native_entrypoint_reloads_and_checks_revision09 - assert "'CNC_UMSETZUNG_09'" in '# -*- coding: utf-8 -*-\n"""SX3.5Z integrated CNC view -- create parts, 18 subassemblies and a root .prt.\nNot a fina...\ndef getUnloadOption(dummy):return NXOpen.Session.LibraryUnloadOption.Immediately\nif __name__==\'__main__\':main()\n'
+FAILED tests09/test_delivery09.py::test_planned_new_catalog_quantities_match_physical_instances - AssertionError: K09-GN425
+assert 0 == 3
+ +  where 3 = len({'Servicegriff_KSS', 'Servicegriff_links', 'Servicegriff_rechts'})
+FAILED tests09/test_delivery09.py::test_magazine_slot_geometry_changes_require_revalidation - Failed: DID NOT RAISE <class 'ValueError'>
+3 failed in 0.15s

@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-10-31",
+  "scope": "Nur Bedienung/Projektanweisungen für Codex, keine neue Maschinenrecherche.",
+  "sources": [
+    {
+      "title": "OpenAI – Projects and chats",
+      "url": "https://learn.chatgpt.com/docs/projects",
+      "supports": "Lokaler Projektordner, primärer Ordner und Trennung von Chatsynchronisierung/Dateizugriff."
+    },
+    {
+      "title": "OpenAI – Custom instructions with AGENTS.md",
+      "url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+      "supports": "Projektregeln im Projektstamm, automatische Erkennung."
+    },
+    {
+      "title": "OpenAI – Plugins",
+      "url": "https://learn.chatgpt.com/docs/plugins",
+      "supports": "Plugin-/Skill-Verfügbarkeit in der tatsächlich benutzten Oberfläche prüfen."
+    }
+  ]
+}

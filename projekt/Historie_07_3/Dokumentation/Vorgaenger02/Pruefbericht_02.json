@@ -1,0 +1,77 @@
+{
+  "model": "CNC_ANSICHT_02",
+  "date": "2026-10-28",
+  "native_nx_executed": false,
+  "native_prt_files_in_package": 0,
+  "offline_unittest_count": 27,
+  "offline_suite_returncode": 0,
+  "python310_parse_count": 13,
+  "independent_geometry": {
+    "parts": 385,
+    "operations": 1346,
+    "triangles": 192936,
+    "failures": [],
+    "backend": "CadQuery/OpenCascade, not Siemens NX"
+  },
+  "enclosure_translation_screen": {
+    "tested_parts": 284,
+    "unexamined_variable_shape_parts": [
+      {
+        "name": "Faltenbalg_Z",
+        "reason": "local_shape_changes_with_pose_not_translation_only"
+      },
+      {
+        "name": "Faltenbalg_Y_hinten",
+        "reason": "local_shape_changes_with_pose_not_translation_only"
+      }
+    ],
+    "wall_aabb_violations": 0,
+    "not_a_machine_collision_proof": true
+  },
+  "known_static_casting_conflicts": 6,
+  "browser": {
+    "embedded_html_tested_offline": true,
+    "file_url_test": "container_browser_policy_blocks_file_URLs; embedded_same_HTML_tested_with_network_disabled",
+    "modes": [
+      {
+        "mode": "gesamt",
+        "triangles": 96283,
+        "render_count": 3
+      },
+      {
+        "mode": "maschine",
+        "triangles": 95661,
+        "render_count": 5
+      },
+      {
+        "mode": "schrank",
+        "triangles": 222,
+        "render_count": 7
+      },
+      {
+        "mode": "cnc",
+        "triangles": 33656,
+        "render_count": 9
+      },
+      {
+        "mode": "innen",
+        "triangles": 64202,
+        "render_count": 11
+      }
+    ],
+    "rotate_and_zoom": true,
+    "js_errors": [],
+    "is_nx_export": false
+  },
+  "unchanged_base_files": {
+    "modell_v4.py": true,
+    "v3_geometriebasis.py": true,
+    "Parameter.json": true,
+    "CNC_Parameter.json": true,
+    "nx_native.py": true,
+    "nx_files.py": true,
+    "nx_geometry.py": true
+  },
+  "review": "author_self_review",
+  "status": "VIEW_AND_INTERFACE_STUDY_NOT_RELEASED"
+}

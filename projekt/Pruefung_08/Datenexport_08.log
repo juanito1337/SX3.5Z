@@ -1,0 +1,88 @@
+{
+  "version": "CNC_UMSETZUNG_08",
+  "parts": 435,
+  "operations": 1470,
+  "catalog_rows": 48,
+  "catalog_instances_in_model": 84,
+  "manufactured_item_rows": 133,
+  "model_map_rows": 435,
+  "parameter_sha256": "6090a975e6b76daccfa28239e471e11b4a53eb81a9dd070d88acb9706dfaf88f",
+  "recipe_sha256": "ca60a7f8b718ef2572467b506f76a05bcdb481938f11236b55910d36e94959d2",
+  "catalog_sha256": "34d81a84b574594b105f279156e93f733b9a869976b3476f7264d511ac3fd7a2",
+  "native_nx_executed": false,
+  "all_released": false,
+  "spindles": [
+    {
+      "axis": "X",
+      "nominal_diameter_mm": 16.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 763.0,
+      "total_envelope_length_mm": 853.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": 20.0,
+      "poses": [
+        {
+          "pose_mm": -250.0,
+          "left_mm": 520.0,
+          "right_mm": 189.0
+        },
+        {
+          "pose_mm": 250.0,
+          "left_mm": 20.0,
+          "right_mm": 689.0
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH",
+      "note": "Entwurf: nominaler Gewindekern ohne Ausläufe; Lieferzeichnung und Maschinenaufmaß fehlen. Keine Bestelllänge.",
+      "order_length_mm": null
+    },
+    {
+      "axis": "Y",
+      "nominal_diameter_mm": 16.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 335.0,
+      "total_envelope_length_mm": 425.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": 25.0,
+      "poses": [
+        {
+          "pose_mm": -100.0,
+          "left_mm": 225.0,
+          "right_mm": 56.0
+        },
+        {
+          "pose_mm": 100.0,
+          "left_mm": 25.0,
+          "right_mm": 256.0
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH",
+      "note": "Entwurf: nominaler Gewindekern ohne Ausläufe; Lieferzeichnung und Maschinenaufmaß fehlen. Keine Bestelllänge.",
+      "order_length_mm": null
+    },
+    {
+      "axis": "Z",
+      "nominal_diameter_mm": 20.0,
+      "lead_mm": 5.0,
+      "envelope_core_length_mm": 484.0,
+      "total_envelope_length_mm": 595.0,
+      "required_reserve_mm": 10.0,
+      "minimum_reserve_mm": 23.25,
+      "poses": [
+        {
+          "pose_mm": 0,
+          "left_mm": 263.25,
+          "right_mm": 159.25
+        },
+        {
+          "pose_mm": 240.0,
+          "left_mm": 23.25,
+          "right_mm": 399.25
+        }
+      ],
+      "status": "AXIAL_ENVELOPE_ONLY_NOT_ORDER_LENGTH",
+      "note": "Entwurf: nominaler Gewindekern ohne Ausläufe; Lieferzeichnung und Maschinenaufmaß fehlen. Keine Bestelllänge.",
+      "order_length_mm": null
+    }
+  ]
+}

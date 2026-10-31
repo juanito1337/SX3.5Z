@@ -1,0 +1,225 @@
+{
+  "version": "CNC_ANSICHT_05",
+  "native_nx_executed": false,
+  "native_prt_included": false,
+  "offline_tests": {
+    "count": 96,
+    "passed": true,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "python_3_10_grammar_files": 19,
+  "independent_geometry": {
+    "part_count": 428,
+    "operation_count": 1405,
+    "triangle_count": 193708,
+    "failures": [],
+    "parameter_sha256": "dbae45c18b659a97dc4e46d691dd32d008d34b57c4eea0185ffd95f665121a4e",
+    "recipe_sha256": "6a6c10e7ba80a372da730980072d0a7653f57582bd1e049b2c5c691c90209fac"
+  },
+  "unchanged_non_enclosure_parts": 366,
+  "door_closed": {
+    "door_open": 0.0,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "type": "TWO_PANEL_DOWNWARD_TELESCOPIC_STUDY",
+    "clear_width_mm": 760.0,
+    "clear_height_mm": 1000.0,
+    "opening_xmin": -318.0,
+    "opening_xmax": 442.0,
+    "opening_zmin": 100.0,
+    "opening_zmax": 1100.0,
+    "travels_mm": {
+      "LOWER": 515.0,
+      "UPPER": 1030.0
+    },
+    "leaves": [
+      {
+        "leaf": "LOWER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -525.0,
+        "ymax": -495.0,
+        "zmin": 80.0,
+        "zmax": 610.0,
+        "travel_mm": 515.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 830.0
+      },
+      {
+        "leaf": "UPPER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -585.0,
+        "ymax": -555.0,
+        "zmin": 590.0,
+        "zmax": 1120.0,
+        "travel_mm": 1030.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 1340.0
+      }
+    ],
+    "closed_leaf_top_from_floor_mm": 1870.0,
+    "open_leaf_top_from_floor_mm": 845.0,
+    "minimum_open_bottom_from_floor_mm": 310.0,
+    "pocket_bottom_from_floor_mm": 245.0,
+    "fixed_total_height_mm": 1952.0,
+    "note": "Zwei Segmente fahren nach UNTEN mit modelliertem Hubverhaeltnis 2:1 in eine Kassette VOR dem Gestell. Reine Sollkinematik; Kopplung, Gewichtsausgleich, Haltesicherung, Dichtungen und Verriegelung sind nicht ausgelegt. Kein Fertigungsdatensatz."
+  },
+  "door_open": {
+    "door_open": 1,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "type": "TWO_PANEL_DOWNWARD_TELESCOPIC_STUDY",
+    "clear_width_mm": 760.0,
+    "clear_height_mm": 1000.0,
+    "opening_xmin": -318.0,
+    "opening_xmax": 442.0,
+    "opening_zmin": 100.0,
+    "opening_zmax": 1100.0,
+    "travels_mm": {
+      "LOWER": 515.0,
+      "UPPER": 1030.0
+    },
+    "leaves": [
+      {
+        "leaf": "LOWER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -525.0,
+        "ymax": -495.0,
+        "zmin": -435.0,
+        "zmax": 95.0,
+        "travel_mm": 515.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 315.0
+      },
+      {
+        "leaf": "UPPER",
+        "xmin": -338.0,
+        "xmax": 462.0,
+        "ymin": -585.0,
+        "ymax": -555.0,
+        "zmin": -440.0,
+        "zmax": 90.0,
+        "travel_mm": 1030.0,
+        "motion_vector": [
+          0,
+          0,
+          -1
+        ],
+        "bottom_from_floor_mm": 310.0
+      }
+    ],
+    "closed_leaf_top_from_floor_mm": 1870.0,
+    "open_leaf_top_from_floor_mm": 845.0,
+    "minimum_open_bottom_from_floor_mm": 310.0,
+    "pocket_bottom_from_floor_mm": 245.0,
+    "fixed_total_height_mm": 1952.0,
+    "note": "Zwei Segmente fahren nach UNTEN mit modelliertem Hubverhaeltnis 2:1 in eine Kassette VOR dem Gestell. Reine Sollkinematik; Kopplung, Gewichtsausgleich, Haltesicherung, Dichtungen und Verriegelung sind nicht ausgelegt. Kein Fertigungsdatensatz."
+  },
+  "door_sampling": {
+    "native_nx_executed": false,
+    "method": "OpenCascade solid intersections after conservative AABB screening",
+    "positions": [
+      0.0,
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0
+    ],
+    "pairs_checked": 85023,
+    "solid_comparisons": 144,
+    "conflicts": [],
+    "minimum_moving_part_floor_clearance_mm": 310.0,
+    "limits": "Nine samples. All drawn stationary model parts vs moving door; cross-segment pairs included. Intra-segment assembly/contact excluded. No continuous path, actual hardware, tolerances, deformation, seal, drainage or safety proof."
+  },
+  "browser": {
+    "browser": "Chromium via Playwright set_content (file URLs blocked in host policy)",
+    "native_nx_executed": false,
+    "door_states_checked": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "door_motion": "two segments -Z, upper 1030 mm / lower 515 mm",
+    "render_changes_when_open": true,
+    "rotation_control": true,
+    "zoom_control": true,
+    "modes_checked": 6,
+    "javascript_errors": []
+  },
+  "machine_envelope": {
+    "pose_count": 8,
+    "checked_part_count": 286,
+    "violations": []
+  },
+  "remaining_static_machine_conflicts": [
+    {
+      "component": "CNC_X_Mutteraufnahme_Entwurf",
+      "casting": "Arbeitstisch_Foto",
+      "intersection_mm3": 11230.3275,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_X_Mutteraufnahme_Entwurf",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 4928.6036,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_X_Kugelspindel_Huelle",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 117.3271,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Y_Kugelspindel_Huelle",
+      "casting": "Basis_Guss_Foto",
+      "intersection_mm3": 667.5884,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Z_Anschlussplatte_Entwurf",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 13436.3032,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Z_Kugelspindel_Huelle",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 471.2389,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    }
+  ],
+  "limits": [
+    "No native NX execution.",
+    "Two-panel motion is a parametric visual relationship, not a designed linkage/drive.",
+    "No safety, strength, sealing, coolant-drainage or manufacturing release.",
+    "No modification of the other 366 machine/frame/cabinet/coolant parts."
+  ],
+  "review": "Author self-review only; no independent reviewer or subagent used."
+}

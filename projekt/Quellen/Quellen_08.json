@@ -1,0 +1,126 @@
+{
+  "as_of": "2026-10-30",
+  "sources": {
+    "S01": {
+      "title": "Leadshine CS-M Datenblatt 2022, Zeichnungen S.4/6",
+      "url": "https://www.leadshine.com/upfiles/downloads/a5e0bafe68d54b1b5dac35ef79db01a3_1662082668689.pdf",
+      "evidence": "Hersteller-PDF, XY-Zeichnung visuell geprüft; Z-Nichtbremsvariante als Familienreferenz",
+      "checked_on": "2026-10-30"
+    },
+    "S02": {
+      "title": "Leadshine CS-M23445B Produktseite",
+      "url": "https://www.leadshine.com/product-detail/CS-M23445B.html",
+      "evidence": "Herstellerseite: Widerspruch 135/144 mm und 4/6 A; Lieferzeichnung zwingend",
+      "checked_on": "2026-10-30"
+    },
+    "S03": {
+      "title": "Leadshine CS-D508 Produktseite",
+      "url": "https://www.leadshine.com/product-detail/CS-D508.html",
+      "evidence": "Herstellerdaten; 20–50 VDC, bis 8 A, 116×69,2×26,5 mm",
+      "checked_on": "2026-10-30"
+    },
+    "S04": {
+      "title": "Leadshine CS-D1008E Benutzerhandbuch",
+      "url": "https://www.leadshine.com/upfiles/downloads/71285275a7ed6dbaf83eadc18dafe136_1651052467954.pdf",
+      "evidence": "Hersteller-PDF; Zeichnung S.7 visuell geprüft, 151×97×53 mm",
+      "checked_on": "2026-10-30"
+    },
+    "S05": {
+      "title": "THK FK Maßblatt A15-336/337",
+      "url": "https://tech.thk.com/en/products/pdfs/en_a15_336.pdf",
+      "evidence": "Hersteller-PDF; Zeichnung und Tabellen visuell geprüft",
+      "checked_on": "2026-10-30"
+    },
+    "S06": {
+      "title": "THK FF Maßblatt A15-342/343",
+      "url": "https://tech.thk.com/en/products/pdfs/en_a15_342.pdf",
+      "evidence": "Hersteller-PDF Texttabellen; Screenshotabruf fehlgeschlagen, Zeichnungsbild offen",
+      "checked_on": "2026-10-30"
+    },
+    "S07": {
+      "title": "KTR ROTEX GS Betriebsanleitung 45510 EN, Ausgabe23",
+      "url": "https://www.hsb-automation.de/fileadmin/user_upload/Dokumente/FAQ/8-8-betrieb-und-wartung-rotex-gs_eng.pdf",
+      "evidence": "Herstellerunterlage auf Maschinenbauer-Website; Tabellen gelesen, Zeichnungsbildabruf fehlgeschlagen",
+      "checked_on": "2026-10-30"
+    },
+    "S08": {
+      "title": "isel KM Rundmuttern",
+      "url": "https://www.isel-us.com/ball-screws-and-ball-nuts/km-ball-nuts",
+      "evidence": "Hersteller-Produktdaten, äußere Hauptmaße; Laufbahn nicht modelliert",
+      "checked_on": "2026-10-30"
+    },
+    "S09": {
+      "title": "isel Fuß-Spannblöcke",
+      "url": "https://www.isel-us.com/ball-screws-and-ball-nuts/mounting-blocks-for-km-ball-nuts",
+      "evidence": "Hersteller-Tabelle; Fußlochbild nicht gesichert; H1-Achshöhe Interpretation bestätigen",
+      "checked_on": "2026-10-30"
+    },
+    "S10": {
+      "title": "Mesa 7i95T Manual V1.2",
+      "url": "https://www.mesanet.com/pdf/parallel/7i95tman.pdf",
+      "evidence": "Hersteller-PDF; TB3 visuell geprüft; mechanische Zeichnung nicht lesbar abgerufen",
+      "checked_on": "2026-10-30"
+    },
+    "S11": {
+      "title": "MEAN WELL RSP-500 Datenblatt 2025-09-26",
+      "url": "https://www.meanwell.com/Upload/PDF/RSP-500/RSP-500-SPEC.PDF",
+      "evidence": "Hersteller-PDF; elektrische Tabelle und Maßbild visuell geprüft",
+      "checked_on": "2026-10-30"
+    },
+    "S12": {
+      "title": "MEAN WELL HDR-60",
+      "url": "https://www.meanwell.com/Upload/PDF/HDR-60/HDR-60-SPEC.PDF",
+      "evidence": "Herstellerdaten über Suchindex; direkter Abruf zeitweise fehlgeschlagen",
+      "checked_on": "2026-10-30"
+    },
+    "S13": {
+      "title": "MEAN WELL HDR-15",
+      "url": "https://www.meanwell.com/Upload/PDF/HDR-15/HDR-15-SPEC.PDF",
+      "evidence": "Herstellerdaten über Suchindex; direkter Abruf zeitweise fehlgeschlagen",
+      "checked_on": "2026-10-30"
+    },
+    "S14": {
+      "title": "Schneider PanelSeT CRN NSYCRN86300",
+      "url": "https://www.se.com/us/en/product/NSYCRN86300/",
+      "evidence": "Herstellerseite: 800H×600B×300T, ohne Montageplatte",
+      "checked_on": "2026-10-30"
+    },
+    "S15": {
+      "title": "Schneider NSYMM86 Datenblatt",
+      "url": "https://iportal.se.com/Contents/docs/SQD-NSYMM86_DATASHEET.PDF",
+      "evidence": "Herstellerdaten: 750H×550B, Materialstärke2,5; Randform nicht nachgebildet",
+      "checked_on": "2026-10-30"
+    },
+    "S16": {
+      "title": "ifm IFS206",
+      "url": "https://www.ifm.com/us/en/product/IFS206",
+      "evidence": "Herstellerdaten 2025-06-26: M12×1, Länge45, PNP-Öffner, 10–30VDC; kein Sicherheitssensor",
+      "checked_on": "2026-10-30"
+    },
+    "S17": {
+      "title": "LinuxCNC HostMot2 Dokumentation",
+      "url": "https://www.linuxcnc.org/docs/html/man/man9/hostmot2.9.html",
+      "evidence": "Offizielle Dokumentation; nur Entwurfs-Skalierung, keine freigegebene Steuerkonfiguration",
+      "checked_on": "2026-10-30"
+    },
+    "S18": {
+      "title": "DGUV FBHM-005 Schwerkraftbelastete Achsen",
+      "url": "https://publikationen.dguv.de/widgets/pdf/download/article/4333",
+      "evidence": "DGUV Fachbereich; Risikobeurteilung und Sicherung vertikaler Achsen erforderlich",
+      "checked_on": "2026-10-30"
+    },
+    "S19": {
+      "title": "THK Support Units Katalog / Montage",
+      "url": "https://tech.thk.com/de/products/pdf/de_a15_317.pdf",
+      "evidence": "Hersteller-Montageanleitung; Maße der endgültigen Wellenenden aus Lieferzeichnung übernehmen",
+      "checked_on": "2026-10-30"
+    },
+    "S20": {
+      "title": "isel Kugelgewindespindeln Katalog 2025",
+      "url": "https://www.isel.com/fileadmin/user_upload/Kataloge/20250403_Katalog_Kugelgewindespindeln_de.pdf",
+      "evidence": "Hersteller-PDF Text; Rohteilraster kein Nachweis einer passend bearbeiteten Spindel",
+      "checked_on": "2026-10-30"
+    }
+  },
+  "original_manufacturer_cad_received": false
+}

@@ -1,0 +1,32 @@
+Übernimm dieses bestehende SX3.5Z-CNC-Umbauprojekt. Beginne NICHT mit einer Neukonstruktion.
+Nutze die verfügbaren Superpowers-Skills für Planung, TDD, Fehlersuche und Abschlussprüfung.
+
+Lies zuerst AGENTS.md, README_START.md, PROJECT_STATUS.md, NEXT_STEPS.md,
+NX_ENVIRONMENT.md, uebergabe/ENTSCHEIDUNGEN.md, uebergabe/SPANNPAKET_ATC.md sowie
+referenzen/anforderungen/Eingefügter Text(7).txt. Der aktive Modellcode liegt in projekt/.
+Die historischen Archive sind separate Referenzen und dürfen nicht darüberkopiert werden.
+
+Erste Aufgabe: sichere und prüfe den übernommenen Stand, ohne die Maschinengeometrie zu ändern.
+1. Prüfe das Dateimanifest und inventarisiere vorhandene lokale Nutzerparameter und NX-Dateien.
+2. Führe die vorhandene Offline-Suite aus projekt/ aus. Vergleiche die Ergebnisse mit den
+   historischen Berichten, ohne daraus einen erfolgreichen NX-Lauf abzuleiten.
+3. Prüfe, ob du tatsächlich lokal unter Windows mit Zugriff auf Siemens NX 2406 arbeitest.
+   Falls nicht, führe nur die zulässigen Offline-Schritte aus und dokumentiere die Grenze.
+4. Dokumentiere einen reproduzierbaren NX-Einzelteil-/Baugruppen-Prüfablauf in neuen
+   Ausgabeordnern. Keine Original-PRT überschreiben und keine Maschine ansteuern.
+5. Lege einen kurzen Übernahmebericht mit neuen Protokollen unter ergebnisse/ an.
+
+Danach plane das nächste abgegrenzte Arbeitspaket zur automatischen Werkzeugspannung:
+Vergleiche den Einbau einer vollständigen, dokumentierten BT30-ATC-Spindelpatrone mit der
+Nachrüstung der vorhandenen SK30/DIN2080-Spindel. Das letzte Gespräch bevorzugte die
+Untersuchung der kompletten Patrone; eine endgültige Kaufentscheidung besteht NICHT.
+Ermittle zuerst benötigte Istmaße und Lieferantenzeichnungen, den Kraftfluss beim Lösen,
+Bauraum/Riemenantrieb/Orientierung, Kopfmasse, Z-Freiräume und die Auswirkung auf das Magazin.
+Liefere einen belegten Variantenvergleich mit den offenen Messungen. Kein Spannpaket erfinden,
+keine Bohrungen oder Passungen als gemessen ausgeben und keine Bestellung auslösen.
+
+Behalte die akzeptierte breite, zweiteilige, nach UNTEN teleskopierende Tür, die geschlossene
+rechte Wand am direkt anliegenden Schaltschrank und den Späne-/KSS-Rücklauf bei.
+Die sechs bekannten Maschinen-Anschlusskonflikte bleiben offene Aufgaben, bis sie wirklich gelöst sind.
+Alle späteren Änderungen müssen zu Modell, Einkaufsliste, Fertigungsunterlagen und Anleitung passen.
+Melde genau, was neu getestet wurde, was nur aus alten Berichten stammt und was in NX noch offen ist.

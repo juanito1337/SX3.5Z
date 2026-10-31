@@ -1,0 +1,16 @@
+../mnt/data/SX35Z_CNC_Gesamtansicht_02/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+..................F......
+======================================================================
+FAIL: test_rotating_shoulder_clears_stationary_housing_entry (test_ausbau02.BearingClearanceTests.test_rotating_shoulder_clears_stationary_housing_entry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Gesamtansicht_02/tests/test_ausbau02.py", line 88, in test_rotating_shoulder_clears_stationary_housing_entry
+    self.assertGreater(m.evaluate(bore['diameter'],v),v['cnc_'+a.lower()+'_journal_d']+6)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 14.0 not greater than 18.0
+
+----------------------------------------------------------------------
+Ran 27 tests in 3.335s
+
+FAILED (failures=1)

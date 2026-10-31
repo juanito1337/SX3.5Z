@@ -1,0 +1,16 @@
+{
+  "version": "CNC_UMSETZUNG_09",
+  "model_bodies": 560,
+  "operations": 1829,
+  "catalog_rows": 69,
+  "manufactured_item_rows": 148,
+  "new_bodies": 125,
+  "new_catalog_rows": 13,
+  "purchase_instances": 193,
+  "native_nx_executed": false,
+  "purchase_released": false,
+  "atc_operational": false,
+  "parameter_sha256": "cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0",
+  "recipe_sha256": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+  "catalog_sha256": "a437a83a29ee5b1d8dd2d18f9053c9d63a3ad4848504747410546d480b2de5a4"
+}

@@ -1,0 +1,656 @@
+SX3.5Z CNC-GESAMTANSICHT -- gesamte Maschine, XYZ-Antriebe und Baugruppen in einem Lauf.
+ANSICHTSMODELL: plausible Montage auf v4.8-Modellkoordinaten. Kein Audit erforderlich. KEINE FERTIGUNGS-/BESTELLFREIGABE.
+Journal-Version: 4.8
+Python: 3.10.15 (main, Sep 30 2024, 11:52:23) [MSC v.1929 64 bit (AMD64)]
+NXOpen-Modul: C:\Siemens\NX2406\nxbin\python\NXOpen.pyd
+Adapterdatei: W:\SX35Z_CNC_Gesamtansicht_07\nx_native.py
+Geometriedatei: W:\SX35Z_CNC_Gesamtansicht_07\cnc_ansichtsmodell.py
+Geometriestand: CNC_ANSICHT_07; Journal-Patch: 4.8
+Geometriestand: CNC_ANSICHT_07; Untergestell/Einhausung/Schaltschrank als ENTWURF.
+Startjournal: W:\SX35Z_CNC_Gesamtansicht_07\NX_CNC_Gesamtansicht.py
+Standardausgabe im Benutzerprofil, unabhaengig vom Journalordner: C:\Users\1337\AppData\Local\SX35Z\NX_Output
+Journal-/Eingabeordner: W:\SX35Z_CNC_Gesamtansicht_07
+Geplante Ausgabe: C:\Users\1337\AppData\Local\SX35Z\NX_Output\SX35Z_CNC_ANSICHT_07_20261030_001134_994772_fcb51bddfc25
+Pfadtest bestanden: Aufloesen, Schreiben, Ruecklesen, Umbenennen und Entfernen der eigenen Testdatei.
+Ausgabeordner: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bddfc25
+Dateiverwaltung: W:\SX35Z_CNC_Gesamtansicht_07\nx_files.py
+Geometriepruefung: W:\SX35Z_CNC_Gesamtansicht_07\nx_geometry.py / 4.6
+Laufkennung fuer ALLE Dateinamen: fcb51bddfc25
+Speicherweg: NewDisplay am endgueltigen Pfad, dann Save; kein SaveAs.
+Referenzfingerprints: Parameter passend=True; Rezept passend=False
+Referenzfingerprint nicht identisch (kein Nachweis einer bewussten Massaenderung): kein Standard-Referenzvergleich; Werkzeuglage, We
+rkzeugvolumen und boolesche Wirkung bleiben aktiv.
+Referenzhash Parameter SOLL=6e028261774509993ab3fda1bbc3c445667419ed37507e4f24188ec24c64f771 IST=6e028261774509993ab3fda1bbc3c445667
+419ed37507e4f24188ec24c64f771; Rezept SOLL=65c541fc4ebddd4ac917b7d863d244c77ee9c6181ecd11e8594d0ff16b87178a IST=5c3ca8da59e012f9fef28b535e1c7a87ec5b90ce1756e01fd3347ba0bdab13dc
+Neues NX-Teil am endgueltigen Ziel: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bdd
+fc25\_api_test\api_testteil__fcb51bddfc25.prt
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x00000229BB8CB650>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x00000229BB8CB650>; Typ=NXOpen.BasePartUnitsM
+emberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+NX FullPath bestaetigt: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bddfc25\_api_te
+st\api_testteil__fcb51bddfc25.prt
+API-Testphase 1: API-Auswahl mit Punktprobe UND allen Modell-Ausdruecken
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x00000229BB8CB650>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x00000229BB8CB650>; Typ=NXOpen.BasePartUnitsM
+emberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+Pruefe Ausdrucks-API-Kandidat: CreateNumberExpression4
+API-Kandidat nicht bestanden: CreateNumberExpression4 / Ausdruckserzeugung: SyntaxError: Function takes 2 arguments, 4 passed.
+Letzte Gleichung: 'sxprobe_a = 10.25'
+Pruefe Ausdrucks-API-Kandidat: CreateNumberExpression
+Erzeuge 315 Eingabe- und 92 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/407: sx_table_x
+  Ausdruck 2/407: sx_table_y
+  Ausdruck 3/407: sx_slot_w
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 407/407.
+Ausdrucks-API ausgewaehlt: CreateNumberExpression
+Vollstaendiger Modell-Ausdruckstest nach Undo bestanden.
+API-Testphase 2: Alle Modell-Ausdruecke nach Test-Ruecknahme erneut erzeugen
+Erzeuge 315 Eingabe- und 92 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/407: sx_table_x
+  Ausdruck 2/407: sx_table_y
+  Ausdruck 3/407: sx_slot_w
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 407/407.
+API-Testphase 3: Native Featuretypen und Parameteraktualisierung
+Featureprobe START: SXPROBE_Block
+NX-Mess-API: BoundingBox=UF.ModlGeneral.AskBoundingBoxExact; NewMassProperties=True; UF-Masse=UF.Modeling.AskMassProps3d
+NX-Volumenmessung ausgewaehlt: manager_bodies_accuracy; Ausgabe mm^3. Soll-Ist-Kontrolle folgt am real erzeugten Koerper.
+Geometrie OK: SXPROBE_Block; Volumen 740 mm^3; Aenderung 740 mm^3
+Featureprobe OK: SXPROBE_Block
+Featureprobe START: SXPROBE_Bohrung
+Geometrie OK: SXPROBE_Bohrung; Volumen 708.584073 mm^3; Aenderung -31.4159265 mm^3
+Featureprobe OK: SXPROBE_Bohrung
+Featureprobe START: SXPROBE_Kegel
+Geometrie OK: SXPROBE_Kegel; Volumen 293.215314 mm^3; Aenderung 293.215314 mm^3
+Featureprobe OK: SXPROBE_Kegel
+Featureprobe START: SXPROBE_Kegelabzug_Rohteil
+Geometrie OK: SXPROBE_Kegelabzug_Rohteil; Volumen 8000 mm^3; Aenderung 8000 mm^3
+Featureprobe OK: SXPROBE_Kegelabzug_Rohteil
+Featureprobe START: SXPROBE_Kegelabzug_minusX
+Geometrie OK: SXPROBE_Kegelabzug_minusX; Volumen 6977.3813 mm^3; Aenderung -1022.6187 mm^3
+Featureprobe OK: SXPROBE_Kegelabzug_minusX
+Featureprobe START: SXPROBE_Profil
+Geometrie OK: SXPROBE_Profil; Volumen 180 mm^3; Aenderung 180 mm^3
+Featureprobe OK: SXPROBE_Profil
+Featureprobe START: SXPROBE_Zylinder_minusY
+Geometrie OK: SXPROBE_Zylinder_minusY; Volumen 1256.63706 mm^3; Aenderung 1256.63706 mm^3
+Featureprobe OK: SXPROBE_Zylinder_minusY
+Featureprobe START: SXPROBE_Vereinigung
+Geometrie OK: SXPROBE_Vereinigung; Volumen 1288.63706 mm^3; Aenderung 32 mm^3
+Featureprobe OK: SXPROBE_Vereinigung
+Native API-Probe bestanden: getrennte Werkzeuge/Booleans, Soll-Ist-Geometrie, Richtungen und Ausdrucksaenderung.
+API-Testphase 4: Speichern und Einfuegen einer Testkomponente
+Geometrie OK: API_Testwuerfel; Volumen 1000 mm^3; Aenderung 1000 mm^3
+Geometrie OK: API_Schraegblech07_Normaldicke; Volumen 403.900978 mm^3; Aenderung 403.900978 mm^3
+Metadatenhinweis: Attribut SX_STATUS: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_BESCHREIBUNG: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_QUELLE: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_EINHEIT: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_STATUS: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_BESCHREIBUNG: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_QUELLE: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_EINHEIT: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_STATUS: Functionality attempted not possible in the current version of the OM
+Metadatenhinweis: Attribut SX_BESCHREIBUNG: Functionality attempted not possible in the current version of the OM
+Speichern mit Save, ohne SaveAs: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bddfc2
+5\_api_test\api_testteil__fcb51bddfc25.prt
+Speicherstatus: ungespeicherte Teile=0, Objekte=0
+Gespeichert und Dateiexistenz geprueft: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb5
+1bddfc25\_api_test\api_testteil__fcb51bddfc25.prt (234961 Bytes)
+Neues NX-Teil am endgueltigen Ziel: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bdd
+fc25\_api_test\api_testbaugruppe__fcb51bddfc25.prt
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x00000229BB8CB650>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x00000229BB8CB650>; Typ=NXOpen.BasePartUnitsM
+emberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+NX FullPath bestaetigt: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bddfc25\_api_te
+st\api_testbaugruppe__fcb51bddfc25.prt
+Speichern mit Save, ohne SaveAs: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bddfc2
+5\_api_test\api_testbaugruppe__fcb51bddfc25.prt
+Speicherstatus: ungespeicherte Teile=0, Objekte=0
+Gespeichert und Dateiexistenz geprueft: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb5
+1bddfc25\_api_test\api_testbaugruppe__fcb51bddfc25.prt (60663 Bytes)
+API-Vortest bestanden: Ausdruecke, Parameteraenderung, Features, Save und AddComponent.
+Neues NX-Teil am endgueltigen Ziel: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bdd
+fc25\_api_test\blechprobe__fcb51bddfc25.prt
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x00000229BB8CB650>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x00000229BB8CB650>; Typ=NXOpen.BasePartUnitsM
+emberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+NX FullPath bestaetigt: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bddfc25\_api_te
+st\blechprobe__fcb51bddfc25.prt
+Erzeuge 3 Eingabe- und 0 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/3: sx_sheet_t
+  Ausdruck 2/3: sx_bend_r
+  Ausdruck 3/3: sx_bend_k
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 3/3.
+NX-Mess-API: BoundingBox=UF.ModlGeneral.AskBoundingBoxExact; NewMassProperties=True; UF-Masse=UF.Modeling.AskMassProps3d
+NX-Volumenmessung ausgewaehlt: manager_bodies_accuracy; Ausgabe mm^3. Soll-Ist-Kontrolle folgt am real erzeugten Koerper.
+Geometrie OK: 001_Kantprofil_Zwei_Biegungen_Vorform; Volumen 13600 mm^3; Aenderung 13600 mm^3
+NX-Blech-Pflichtmodus fehlgeschlagen: 'NXOpen.UF.Modl' object has no attribute 'AskFaceData'
+Traceback (most recent call last):
+  File "W:\SX35Z_CNC_Gesamtansicht_07\NX_CNC_Gesamtansicht.py", line 204, in main
+    builder.build_one(mode);files.save(testpart,testpath)
+  File "W:\SX35Z_CNC_Gesamtansicht_07\NX_CNC_Gesamtansicht.py", line 96, in build_one
+    target,self.sheetmetal_result=nx_sheetmetal06.convert(self.part,target,
+  File "W:\SX35Z_CNC_Gesamtansicht_07\nx_sheetmetal06.py", line 48, in convert
+    face=select_base_face(body,uf.Modl,metadata['plane_axis'],evaluate(metadata['plane_coordinate']))
+  File "W:\SX35Z_CNC_Gesamtansicht_07\nx_sheetmetal06.py", line 23, in select_base_face
+    result=modl.AskFaceData(f.Tag)
+AttributeError: 'NXOpen.UF.Modl' object has no attribute 'AskFaceData'
+Betroffenes Teil: Blech_Vortest
+Betroffenes Feature: K06_Native_Blechkonvertierung
+--- Feature-API-Diagnose ---
+Feature: K06_Native_Blechkonvertierung
+Letzter Builder-Aufruf: CreateExtrudeBuilder
+Uebergebener Nullobjekt-Typ: NXOpen.Features.Feature
+Letzte Geometrieoperation: {'kind': 'prism', 'origin': ['((0)+(0)*(1)+(0)*(0))-(0)', '((0)+(0)*(0)+(0)*(1))-(0)', '((0)+(0)*(0)+(0)*
+(0))-(0)'], 'points': [['((0)+(0)*(1)+(0)*(0))-(0)', '((0)+(0)*(0)+(0)*(1))-(0)', '((0)+(0)*(0)+(0)*(0))-(0)'], ['((0)+(80)*(1)+(0)*(0))-(0)', '((0)+(80)*(0)+(0)*(1))-(0)', '((0)+(80)*(0)+(0)*(0))-(0)'], ['((0)+(80)*(1)+(30)*(0))-(0)', '((0)+(80)*(0)+(30)*(1))-(0)', '((0)+(80)*(0)+(30)*(0))-(0)'], ['((0)+((80)-(sheet_t))*(1)+(30)*(0))-(0)', '((0)+((80)-(sheet_t))*(0)+(30)*(1))-(0)', '((0)+((80)-(sheet_t))*(0)+(30)*(0))-(0)'], ['((0)+((80)-(sheet_t))*(1)+(sheet_t)*(0))-(0)', '((0)+((80)-(sheet_t))*(0)+(sheet_t)*(1))-(0)', '((0)+((80)-(sheet_t))*(0)+(sheet_t)*(0))-(0)'], ['((0)+(sheet_t)*(1)+(sheet_t)*(0))-(0)', '((0)+(sheet_t)*(0)+(sheet_t)*(1))-(0)', '((0)+(
+Letzter Geometrievergleich: {'feature': '001_Kantprofil_Zwei_Biegungen_Vorform', 'operation': 'add', 'tool_expected': {'bounds_mm': 
+[0.0, 0.0, 0.0, 80.0, 30.0, 50.0], 'volume_mm3': 13600.0}, 'target_before': None, 'tool_actual': {'tag': 66862, 'bounds_mm': [0.0, 0.0, 0.0, 80.0, 30.0, 50.0], 'volume_mm3': 13600.000000000007, 'volume_backend': 'manager_bodies_accuracy'}, 'result': {'tag': 66862, 'bounds_mm': [0.0, 0.0, 0.0, 80.0, 30.0, 50.0], 'volume_mm3': 13600.000000000007, 'volume_backend': 'manager_bodies_accuracy'}}
+Geometrieschritt: {'feature': '001_Kantprofil_Zwei_Biegungen_Vorform', 'operation': 'add', 'tool_expected': {'bounds_mm': [0.0, 0.0,
+ 0.0, 80.0, 30.0, 50.0], 'volume_mm3': 13600.0}, 'target_before': None, 'tool_actual': {'tag': 66862, 'bounds_mm': [0.0, 0.0, 0.0, 80.0, 30.0, 50.0], 'volume_mm3': 13600.000000000007, 'volume_backend': 'manager_bodies_accuracy'}, 'result': {'tag': 66862, 'bounds_mm': [0.0, 0.0, 0.0, 80.0, 30.0, 50.0], 'volume_mm3': 13600.000000000007, 'volume_backend': 'manager_bodies_accuracy'}}
+--- NX-Mess-API-Diagnose v4.6 ---
+Messmodus: 'manager_bodies_accuracy'; letzter Aufruf: 'MeasureManager.NewMassProperties/manager_bodies_accuracy'; Einheiten: ['Squar
+eMilliMeter', 'CubicMilliMeter', 'Kilogram', 'MilliMeter', 'Newton']
+UF.Modl relevante Methoden: 
+UF.ModlGeneral relevante Methoden: AskBoundingBox, AskBoundingBoxAligned, AskBoundingBoxExact
+UF.Modeling relevante Methoden: AskMassProps3d
+NX-Mess-API UF.ModlGeneral.AskBoundingBoxExact: Refer to `UF_MODL_ask_bounding_box_exact <../ugopen_doc/uf_modl/global.html#UF_MODL_
+ask_bounding_box_exact>`_ for documentation.  
+
+
+Signature: 
+``AskBoundingBoxExact(objectArg, csysTag)``  
+
+:param objectArg:  Object identifier of object to ask bounding box.
+:type objectArg: Tag
+:param csysTag:  CSYS to use for box alignment. None - Use Work CSYS
+:type csysTag: Tag
+:returns: A Tuple
+
+:rtype: A tuple consisting of (minCorner,directions,distances) 
+
+
+    minCorner(`list of float`):  Minimum corner of box of object. [0] - minimum x value [1] - minimum y value [2] - minimum z value
+
+    directions(`list of float`):  : direction vectors of bounding box[0][] - X Direction [1][] - Y Direction [2][] - Z Direction
+
+    distances(`list of float`):  Distances to move along directions of CSYS to derive all points of the bounding box. [0] - X distan
+ce value [1] - Y distance value [2] - Z distance value
+License requirements: None
+NX-Mess-API UF.Modeling.AskMassProps3d: Refer to `UF_MODL_ask_mass_props_3d <../ugopen_doc/uf_modl/global.html#UF_MODL_ask_mass_prop
+s_3d>`_ for documentation.  
+
+
+Signature: 
+``AskMassProps3d(objects, numObjs, type, units, density, accuracy, accValue)``  
+
+:param objects:  num_objsArray of solid or sheet body identifiers, Solid bodies for analysis type 1, Sheet bodies for analysis types
+ 2 and 3
+:type objects: list of Tag
+:param numObjs:  Number of objects
+:type numObjs: int
+:param type:  Type of 3D Analysis 1 = Solid Bodies 2 = Thin Shell - Sheet Bodies 3 = Bounded by Sheet Bodies
+:type type: int
+:param units:  Units of mass and length 1 = Pounds and inches 2 = Pounds and feet 3 = Grams and centimeters 4 = Kilograms and meters
+:type units: int
+:param density:  Density - Mass per unit volume (Mass per unit area for thin shell). Not used for solid body analysis; for solid bod
+ies the densities of the solid bodies are used in the analysis and the density of the combined set of bodies is output in the mass properties array (mass_props[46]).
+:type density: float
+:param accuracy:  1 = Use Accuracy 2 = Use Relative Tolerances
+:type accuracy: int
+:param accValue:  [0] = Accuracy value between 0.0 and 1.0 if accuracy = 1 [1-10] not used if accuracy = 1 [0] = Relative Tolerance 
+for Area if accuracy = 2 [1] = Relative Tolerance for Volume [2-4] = Relative Tolerances for First Moments (centroidal) [5-7] = Relative Tolerances for Moments of Inertia (centroidal) [8-10]= Relative Tolerances for Products of Inertia (centroidal)
+:type accValue: list of float
+:returns: A Tuple
+
+:rtype: A tuple consisting of (massProps,statistics) 
+
+
+    massProps(`list of float`):  Mass properties [0] = Surface Area [1] = Volume (0.0 For Thin Shell) [2] = Mass [3-5] = Center Of M
+ass (COFM), WCS [6-8] = First Moments (centroidal) [9-11] = Moments Of Inertia, WCS [12-14] = Moments Of Inertia (centroidal) [15] = Spherical Moment Of Inertia [16-18] = Inertia Products, WCS [19-21] = Inertia Products (centroidal) [22-30] = Principal Axes, WCS [31-33] = Principal Moments (centroidal) [34-36] = Radii Of Gyration, WCS [37-39] = Radii Of Gyration (centroidal) [40] = Spherical Radius Of Gyration [41-45] = Unused [46] = Density
+
+    statistics(`list of float`):  Errors are Estimates of the Relative Tolerances achieved if accuracy = 2; otherwise +/- range erro
+rs are given [0] = Error For Surface Area [1] = Error For Volume [2] = Error For Mass [3] = Radius Of Error Sphere [4] = Error For Moment XC [5] = Error For Moment YC [6] = Error For Moment ZC [7] = Error For Moment Of Inertia XC [8] = Error For Moment Of Inertia YC [9] = Error For Moment Of Inertia ZC [10] = Error For Product Of Inertia XCYC [11] = Error For Product Of Inertia YCZC [12] = Error For Product Of Inertia XCZC
+License requirements: None
+NX-Mess-API MeasureManager.NewMassProperties: Overloaded method NewMassProperties
+
+
+
+
+* ``NewMassProperties(massUnits, accuracy, objects)`` 
+* ``NewMassProperties(massUnits, accuracy, createGeometry, objects)`` 
+* ``NewMassProperties(massUnits, accuracy, objects)`` 
+* ``NewMassProperties(massUnits, tolerances, objects)`` 
+* ``NewMassProperties(massUnits, tolerances, createGeometry, objects)`` 
+* ``NewMassProperties(massUnits, tolerances, objects)`` 
+
+``-------------------------------------``
+
+Creates a mass properties measurement object from a selection intent collection.
+
+Mass properties allow for measurement of the area, volume, mass, 
+radius of gyration, weight and centroid of a set of solid bodies.  This function does
+not allow sheet bodies as a valid input.  A typical accuracy value
+would be 0.99, and a value of 0.999 might be used for a more compute intensive and accurate
+measurement.
+
+
+
+
+Signature ``NewMassProperties(massUnits, accuracy, objects)`` 
+
+:param massUnits:  An array of input units:          Area unit, Volume unit, Mass unit, Length unit, Weight unit  
+:type massUnits: list of :py:class:`NXOpen.Unit` 
+:param accuracy:  The accuracy of the calculation (between 0.0 and 1.0)  
+:type accuracy: float 
+:param objects:  Collection of solid bodies  
+:type objects: :py:class:`NXOpen.ScCollector` 
+:returns: 
+:rtype: :py:class:`NXOpen.MeasureBodies` 
+
+.. versionadded:: NX8.5.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+Creates a mass properties measurement object from a selection intent collection with the option
+to create smart geometry.
+
+Mass properties allow for measurement of the area, volume, mass, 
+radius of gyration, weight and centroid of a set of solid bodies.  This function does
+not allow sheet bodies as a valid input.  A typical accuracy value
+would be 0.99, and a value of 0.999 might be used for a more compute intensive and accurate
+measurement.
+
+
+
+
+Signature ``NewMassProperties(massUnits, accuracy, createGeometry, objects)`` 
+
+:param massUnits:  An array of input units:          Area unit, Volume unit, Mass unit, Length unit, Weight unit  
+:type massUnits: list of :py:class:`NXOpen.Unit` 
+:param accuracy:  The accuracy of the calculation (between 0.0 and 1.0)  
+:type accuracy: float 
+:param createGeometry:  enable creation of smart geometry  
+:type createGeometry: bool 
+:param objects:  Collection of solid bodies  
+:type objects: :py:class:`NXOpen.ScCollector` 
+:returns: 
+:rtype: :py:class:`NXOpen.MeasureBodies` 
+
+.. versionadded:: NX10.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+Creates a mass properties measurement object from the list of input solid bodies.
+
+Mass properties allow for measurement of the area, volume, mass, 
+radius of gyration, weight and centroid of a set of solid bodies. This function does
+not allow sheet bodies as a valid input. A typical accuracy value
+would be 0.99, and a value of 0.999 might be used for a more compute intensive and accurate
+measurement.
+
+
+
+
+Signature ``NewMassProperties(massUnits, accuracy, objects)`` 
+
+:param massUnits:  An array of input units:          Area unit, Volume unit, Mass unit, Length unit, Weight unit  
+:type massUnits: list of :py:class:`NXOpen.Unit` 
+:param accuracy:  The accuracy of the calculation (between 0.0 and 1.0)  
+:type accuracy: float 
+:param objects:  Array of solid bodies  
+:type objects: list of :py:class:`NXOpen.IBody` 
+:returns: 
+:rtype: :py:class:`NXOpen.MeasureBodies` 
+
+.. versionadded:: NX4.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+Creates a mass properties measurement object from a selection collection of solid bodies.
+
+Mass properties allow for measurement of the area, volume, mass, 
+radius of gyration, weight and centroid of a set of solid bodies. This function does
+not allow sheet bodies as a valid input.  The 11 tolerances are
+0   - Relative tolerance for area
+1   - Relative tolerance for volume,
+2-4 - Relative tolerances for First Moments (centroidal)
+5-7 - Relative tolerances for Moments of Inertia (centroidal)
+8-10 - Relative tolerances for Products of Inertia (centroidal)
+
+
+
+
+Signature ``NewMassProperties(massUnits, tolerances, objects)`` 
+
+:param massUnits:  An array of input units:          Area unit, Volume unit, Mass unit, Length unit, Weight unit  
+:type massUnits: list of :py:class:`NXOpen.Unit` 
+:param tolerances:  An array of tolerance values  
+:type tolerances: list of float 
+:param objects:  Collection of solid bodies  
+:type objects: :py:class:`NXOpen.ScCollector` 
+:returns: 
+:rtype: :py:class:`NXOpen.MeasureBodies` 
+
+.. versionadded:: NX8.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+Creates a mass properties measurement object from a selection collection of solid bodies with the option to 
+create smart geometry.
+
+Mass properties allow for measurement of the area, volume, mass, 
+radius of gyration, weight and centroid of a set of solid bodies. This function does
+not allow sheet bodies as a valid input.  The 11 tolerances are
+0   - Relative tolerance for area
+1   - Relative tolerance for volume,
+2-4 - Relative tolerances for First Moments (centroidal)
+5-7 - Relative tolerances for Moments of Inertia (centroidal)
+8-10 - Relative tolerances for Products of Inertia (centroidal)
+
+
+
+
+Signature ``NewMassProperties(massUnits, tolerances, createGeometry, objects)`` 
+
+:param massUnits:  An array of input units:          Area unit, Volume unit, Mass unit, Length unit, Weight unit  
+:type massUnits: list of :py:class:`NXOpen.Unit` 
+:param tolerances:  An array of tolerance values  
+:type tolerances: list of float 
+:param createGeometry:  enable creation of smart geometry  
+:type createGeometry: bool 
+:param objects:  Collection of solid bodies  
+:type objects: :py:class:`NXOpen.ScCollector` 
+:returns: 
+:rtype: :py:class:`NXOpen.MeasureBodies` 
+
+.. versionadded:: NX10.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+Creates a mass properties measurement object from the list of input solid bodies.
+
+Mass properties allow for measurement of the area, volume, mass, 
+radius of gyration, weight and centroid of a set of bodies.  This function does
+not allow sheet bodies as a valid input. The 11 tolerances are
+0   - Relative tolerance for area
+1   - Relative tolerance for volume,
+2-4 - Relative tolerances for First Moments (centroidal)
+5-7 - Relative tolerances for Moments of Inertia (centroidal)
+8-10 - Relative tolerances for Products of Inertia (centroidal)
+
+
+
+
+Signature ``NewMassProperties(massUnits, tolerances, objects)`` 
+
+:param massUnits:  An array of input units:          Area unit, Volume unit, Mass unit, Length unit, Weight unit  
+:type massUnits: list of :py:class:`NXOpen.Unit` 
+:param tolerances:  An array of tolerance values  
+:type tolerances: list of float 
+:param objects:  Array of solid bodies  
+:type objects: list of :py:class:`NXOpen.IBody` 
+:returns: 
+:rtype: :py:class:`NXOpen.MeasureBodies` 
+
+.. versionadded:: NX4.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+
+Features.CreateBlockFeatureBuilder: erwartet NXOpen.Features.Feature.Null; vorhanden=True
+Features.CreateCylinderBuilder: erwartet NXOpen.Features.Feature.Null; vorhanden=True
+Features.CreateConeBuilder: erwartet NXOpen.Features.Cone.Null; vorhanden=True
+Features.CreateExtrudeBuilder: erwartet NXOpen.Features.Feature.Null; vorhanden=True
+Creates a Extrude builder  
+
+
+
+
+Signature ``CreateExtrudeBuilder(extrude)`` 
+
+:param extrude:  :py:class:`NXOpen.Features.Extrude` to be edited  
+:type extrude: :py:class:`NXOpen.Features.Feature` 
+:returns:  ExtrudeBuilder object  
+:rtype: :py:class:`NXOpen.Features.ExtrudeBuilder` 
+
+.. versionadded:: NX4.0.0
+
+
+
+
+
+
+License requirements: solid_modeling ("SOLIDS MODELING")
+
+
+
+Features.CreateBooleanBuilder: erwartet NXOpen.Features.BooleanFeature.Null; vorhanden=True
+BaseFeatures.CreateAssociativeLineBuilder: erwartet NXOpen.Features.AssociativeLine.Null; vorhanden=True
+--- Ausdrucks-API-Diagnose ---
+Ausgewaehlter Modus: CreateNumberExpression
+Letzter Ausdruck: sx_aux_0024 = ((0)+(0)*(0)+(30)*(0))-(0)
+Erfolgreiche Create-Aufrufe inkl. zurueckgenommener Tests: 27
+Expressions-Typ: ExpressionCollection
+Letzter Unit-Typ: Unit
+Letzter Unit-Tag (nur Diagnose): 67380
+CreateNumberExpression vorhanden: True
+Overloaded method CreateNumberExpression
+
+
+
+
+* ``CreateNumberExpression(expressionString, unitType)`` 
+* ``CreateNumberExpression(name, formula, isUserLocked, units)`` 
+
+``-------------------------------------``
+
+Creates a number expression.
+The calculated units of the formula must be compatible
+with the given units for the expression. A unitless expression may be created
+by setting the units to None. In that case, the formula should also be a unitless number.
+
+
+Signature ``CreateNumberExpression(expressionString, unitType)`` 
+
+:param expressionString:  The expression as a string.  Must be in the format: "name = formula".                                   Fo
+r example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:param unitType:  units for the expression  
+:type unitType: :py:class:`NXOpen.Unit` 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX1847.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+
+CreateWithUnits vorhanden: True
+Overloaded method CreateWithUnits
+
+
+
+
+* ``CreateWithUnits(expressionString, unitType)`` 
+* ``CreateWithUnits(leftHandSide, rightHandSide, isUserLocked, units)`` 
+
+``-------------------------------------``
+
+Creates a number expression with units. 
+The calculated units of the formula must be compatible
+with the given units for the expression. A unitless expression may be created
+by setting the units to None.
+
+NOTE: Avoid this legacy function in new application code.
+The calculated dimensionality of the given formula must generally match the dimensionality
+of the expression being edited. If the formula's units are determined to be unitless, then
+this function will assume that its units match the units of the expression.
+
+
+
+
+This function may set a modified equation formula if the expression involves angles.
+The modification performed by this function can, if needed for some parts, be
+suppressed by setting the environment variable UGII_KF_DONT_CONVERT_FORMULAS_FOR_RADIAN_UNITS.
+If the units of the expression and the formula do not have
+matching angle dimensions then the legacy system required that a conversion factor
+be applied as follows (no matter what units were used for arcAngle):
+
+
+
+
+arcLength = arcRadius * arcAngle * pi() / 180.
+units: mm
+
+
+
+
+This is no longer needed and, in fact, will give wrong results. Expressions
+are modified on load to remove this conversion factor. However, legacy code may
+expect to need it and therefore have added it, so this function will remove it
+before writing it to the expression object. Note that the inverse of the
+previously needed conversion factor is added. The function does not attempt to
+actually remove the existing conversion factor text.
+
+
+
+
+arcLength = (arcRadius * arcAngle * pi() / 180.) * (180. / pi())
+units: mm
+
+
+
+
+To properly create an expression, use instead :py:meth:`NXOpen.ExpressionCollection.CreateNumberExpression` 
+with a formula as follows:
+
+
+
+
+arcLength = arcRadius * arcAngle
+units: mm
+
+
+
+
+
+Signature ``CreateWithUnits(expressionString, unitType)`` 
+
+:param expressionString:  The expression as a string.  Must be in the format: "name = formula".                                     
+            For example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:param unitType:  units for the expression  
+:type unitType: :py:class:`NXOpen.Unit` 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX4.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+
+CreateExpression vorhanden: True
+Creates an expression of the specified type.  
+
+
+If the expression is a number, it creates a unitless
+expression.
+
+
+Signature ``CreateExpression(expressionType, expressionString)`` 
+
+:param expressionType:  The type of the expression, such as "Number", "String", "Boolean", "Integer", "Point" and "Vector"  
+:type expressionType: str 
+:param expressionString:  the full expression string.  Must be in the format: "name = formula".                                     
+            For example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX5.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+
+Ausgabeordner dieses Laufs (ggf. unvollstaendig): c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_9
+94772_fcb51bddfc25
+Protokoll: c:\users\1337\appdata\local\sx35z\nx_output\sx35z_cnc_ansicht_07_20261030_001134_994772_fcb51bddfc25\NX_Laufprotokoll_202
+61030_001201_460358.txt

@@ -1,0 +1,99 @@
+{
+  "measurements": [
+    {
+      "id": "M09-01",
+      "part": "Tisch / T-Nuten",
+      "description": "Nuthals, Hinterschnittbreite/-tiefe und reale Nutlage",
+      "method": "An drei Längspositionen messen; T-Nutstein nicht auf dem Nutgrund verspannen.",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "A09",
+        "G05"
+      ]
+    },
+    {
+      "id": "M09-02",
+      "part": "Spindel / Kopf",
+      "description": "Ist-Aufnahme, Zugstange, freie Kopfbauräume und Massen",
+      "method": "Bestandszeichnung/Herstellerunterlagen und gesichertes spannungsfreies Aufmaß; keine Vermutung aus SK/BT-Bezeichnung.",
+      "unit": "mm / kg",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "A09",
+        "G03"
+      ]
+    },
+    {
+      "id": "M09-03",
+      "part": "Werkzeugaufnahmen",
+      "description": "Tatsächliche komplette Werkzeughülle und Halternut",
+      "method": "Gewählten Artikel einschließlich Anzugsbolzen, Spannzange, Mutter und Werkzeug messen; Masse aufnehmen.",
+      "unit": "mm / kg",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "A09"
+      ]
+    },
+    {
+      "id": "M09-04",
+      "part": "Schaltschrank",
+      "description": "Reale Kabeleinführungsplatte und Innenabstände",
+      "method": "Herstellerzeichnung/gelieferten Schrank prüfen; Modell3mm ist keine bestätigte Anschlussblechdicke.",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G05",
+        "G06"
+      ]
+    },
+    {
+      "id": "M09-05",
+      "part": "Servicebleche",
+      "description": "Tatsächliche Blechdicke und Griffbefestigung",
+      "method": "Blech2mm/Hinterlegung2mm und Schraubenfreiraum prüfen; Dichtung nicht in Gewindeeingriff hineinrechnen.",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "G05",
+        "G08"
+      ]
+    },
+    {
+      "id": "M09-06",
+      "part": "CNC-Achsen / Wechselraum",
+      "description": "Reale Endlagen und Spindel-Bezugsebene nach ATC-Umbau",
+      "method": "Istkoordinaten, mechanische Anschläge, Werkzeuglänge und Kopfbauraum mit Kinematik prüfen. Modell-Endpunkte sind keine Maschinenkoordinaten.",
+      "unit": "mm",
+      "measured_value": null,
+      "measurement_date": null,
+      "measured_by": null,
+      "reference_photo": null,
+      "model_value_is_not_measurement": true,
+      "used_by": [
+        "A09",
+        "G04"
+      ]
+    }
+  ]
+}

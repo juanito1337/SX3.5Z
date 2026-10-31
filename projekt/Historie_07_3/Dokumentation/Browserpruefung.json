@@ -1,0 +1,17 @@
+{
+  "browser": "Chromium via Playwright set_content (file URLs blocked in host policy)",
+  "native_nx_executed": false,
+  "door_states_checked": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "door_motion": "two segments -Z, upper 1030 mm / lower 515 mm",
+  "render_changes_when_open": true,
+  "rotation_control": true,
+  "zoom_control": true,
+  "modes_checked": 7,
+  "javascript_errors": []
+}

@@ -1,0 +1,189 @@
+/mnt/data/SX35Z_CNC_Umsetzung_08/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+test_axial_shaft_gaps (test_umsetzung08.Contract08.test_axial_shaft_gaps) ... FAIL
+test_bom_vs_model_counts (test_umsetzung08.Contract08.test_bom_vs_model_counts) ... ERROR
+test_catalog_controls_mapped_dimensions (test_umsetzung08.Contract08.test_catalog_controls_mapped_dimensions) ... FAIL
+test_catalog_entities_traceable (test_umsetzung08.Contract08.test_catalog_entities_traceable) ... ERROR
+test_catalog_present (test_umsetzung08.Contract08.test_catalog_present) ... FAIL
+test_dimensions_parametric (test_umsetzung08.Contract08.test_dimensions_parametric) ... FAIL
+test_every_model_body_classified (test_umsetzung08.Contract08.test_every_model_body_classified) ... FAIL
+test_existing_castings_never_purchase (test_umsetzung08.Contract08.test_existing_castings_never_purchase) ... ERROR
+test_motor_b_revision_conflict_retained (test_umsetzung08.Contract08.test_motor_b_revision_conflict_retained) ... FAIL
+test_no_fictitious_supports (test_umsetzung08.Contract08.test_no_fictitious_supports) ... FAIL
+test_originals_unchanged (test_umsetzung08.Contract08.test_originals_unchanged) ... ok
+test_positive_operations (test_umsetzung08.Contract08.test_positive_operations) ... ok
+test_purchase_instances_not_body_count (test_umsetzung08.Contract08.test_purchase_instances_not_body_count) ... FAIL
+test_readonly_catalog_override_guard (test_umsetzung08.Contract08.test_readonly_catalog_override_guard) ... FAIL
+test_release_gate_unmeasured (test_umsetzung08.Contract08.test_release_gate_unmeasured) ... ERROR
+test_revision (test_umsetzung08.Contract08.test_revision) ... FAIL
+test_unique_identifiers (test_umsetzung08.Contract08.test_unique_identifiers) ... ok
+test_unknowns_cannot_become_zero (test_umsetzung08.Contract08.test_unknowns_cannot_become_zero) ... ERROR
+test_z_ff15_bearing_journal (test_umsetzung08.Contract08.test_z_ff15_bearing_journal) ... FAIL
+test_z_pilot_real_family_not_old_73 (test_umsetzung08.Contract08.test_z_pilot_real_family_not_old_73) ... FAIL
+
+======================================================================
+ERROR: test_bom_vs_model_counts (test_umsetzung08.Contract08.test_bom_vs_model_counts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 71, in test_bom_vs_model_counts
+    import umbau_daten08
+ModuleNotFoundError: No module named 'umbau_daten08'
+
+======================================================================
+ERROR: test_catalog_entities_traceable (test_umsetzung08.Contract08.test_catalog_entities_traceable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 66, in test_catalog_entities_traceable
+    import umbau_daten08
+ModuleNotFoundError: No module named 'umbau_daten08'
+
+======================================================================
+ERROR: test_existing_castings_never_purchase (test_umsetzung08.Contract08.test_existing_castings_never_purchase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 81, in test_existing_castings_never_purchase
+    self.assertEqual(d['supply_kind'],'EXISTING')
+                     ~^^^^^^^^^^^^^^^
+KeyError: 'supply_kind'
+
+======================================================================
+ERROR: test_release_gate_unmeasured (test_umsetzung08.Contract08.test_release_gate_unmeasured)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 58, in test_release_gate_unmeasured
+    import umbau_daten08
+ModuleNotFoundError: No module named 'umbau_daten08'
+
+======================================================================
+ERROR: test_unknowns_cannot_become_zero (test_umsetzung08.Contract08.test_unknowns_cannot_become_zero)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 63, in test_unknowns_cannot_become_zero
+    data=json.loads((ROOT/'Aufmass/Messwerte_08.json').read_text())
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 548, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 539, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/SX35Z_CNC_Umsetzung_08/Aufmass/Messwerte_08.json'
+
+======================================================================
+FAIL: test_axial_shaft_gaps (test_umsetzung08.Contract08.test_axial_shaft_gaps)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 51, in test_axial_shaft_gaps
+    self.assertGreaterEqual(front-shaft-end,3)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+AssertionError: -3.0 not greater than or equal to 3
+
+======================================================================
+FAIL: test_catalog_controls_mapped_dimensions (test_umsetzung08.Contract08.test_catalog_controls_mapped_dimensions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 53, in test_catalog_controls_mapped_dimensions
+    if not hasattr(model,'CATALOG_PARAMETER_MAP'):self.fail('catalog mapping missing')
+                                                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: catalog mapping missing
+
+======================================================================
+FAIL: test_catalog_present (test_umsetzung08.Contract08.test_catalog_present)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 15, in test_catalog_present
+    def test_catalog_present(self): self.assertTrue((ROOT/'Einkauf/Kaufteile_08.json').is_file())
+                                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_dimensions_parametric (test_umsetzung08.Contract08.test_dimensions_parametric)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 42, in test_dimensions_parametric
+    self.assertEqual(vals['cnc_x_motor_front'],84)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 78.0 != 84
+
+======================================================================
+FAIL: test_every_model_body_classified (test_umsetzung08.Contract08.test_every_model_body_classified)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 34, in test_every_model_body_classified
+    self.assertIn(d.get('supply_kind'),('BUY','MAKE','EXISTING','RESERVE'),d['name'])
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None not found in ('BUY', 'MAKE', 'EXISTING', 'RESERVE') : Basis_Guss_Foto
+
+======================================================================
+FAIL: test_motor_b_revision_conflict_retained (test_umsetzung08.Contract08.test_motor_b_revision_conflict_retained)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 19, in test_motor_b_revision_conflict_retained
+    self.assertEqual(self.p['cnc_z_motor_l'],144)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 118.0 != 144
+
+======================================================================
+FAIL: test_no_fictitious_supports (test_umsetzung08.Contract08.test_no_fictitious_supports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 24, in test_no_fictitious_supports
+    self.assertIn('CNC_'+a+'_THK_Festlager',names)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'CNC_X_THK_Festlager' not found in {'CNC_Y_Halteschraube_2', 'Senktuer_Schlitten_LOWER_L_1', 'KSS_Trichter_vorn', 'Mesa_Klemmen_Huelle_380', 'Riemendeckel_Schraubknopf', 'CNC_Z_Distanzsaeule_4', 'Spindelschutz_Schalter_Huelle', 'Senktuer_UPPER_Fensterklemmrahmen', 'Hilfsversorgung_Trafospule', 'Senktuer_Fuehrung_UPPER_R', 'CNC_Z_Motor_Gehaeuse', 'CNC_Y_Motorbefestigung_2', 'Senktuer_Kassette_Boden', 'Bedienpult_Taster_0', 'XMT_1000_DRIVER_Platine', 'Blechsaeule_Rueckwand', 'Y_Massstab_Distanz_55', 'Not_Halt_Kragen', 'Senktuer_LOWER_Kantquerholm_0', 'Senktuer_Schlitten_UPPER_L_1', 'Senktuer_Mitnehmer_UPPER_R_1', 'Gewindetaster', 'Werkzeugspindel_Durchgehende_Huelle', 'Senktuer_Mitnehmer_LOWER_R_0', 'Pinolenanzeige_Taste_0', 'Staender_Laengsholm_0_1', 'CNC_Y_Festlager_Sicherungsmutter', 'Senktuer_Kassette_Seite_R', 'CNC_Z_Motorbefestigung_2', 'Staender_Bein_1_0', 'XMT_Elko_02', 'KSS_Spaenekorb_U', 'Kopf_Typenschild', 'Pinolenanzeige_LCD', 'CNC_Z_Mutteraufnahme_Entwurf', 'CNC_Y_Festlager_Schulterring', 'Senktuer_Obertraverse', 'CNC_Z_Distanzsaeule_3', 'CNC_Z_Halteschraube_3', 'CNC_Z_Tragbruecke_Schraube_4', 'CNC_Z_Motorbund', 'CNC_Z_Tragbruecke_auf_Gusssaeule', 'Reihenklemme_2', 'KSS_Ruecklaufkasten_U', 'CNC_Z_Motor_Rueckdeckel', 'CNC_X_Motorbefestigung_4', 'Einhausung_Dach', 'Senktuer_Mitnehmer_LOWER_L_1', 'CNC_X_Motor_Gehaeuse', 'KSS_Leitblech_rechts_hinten', 'CNC_Z_Maschinenanschluss_4', 'Senktuer_Anschlusskonsole_R_0', 'Saeulenfuss_Schraube_-1_1', 'Hilfsversorgung_Kuehlkoerper', 'CNC_Y_Kupplung_Motor', 'Staender_Fuss_1_0', 'CNC_Y_Anschlussplatte_Entwurf', 'CNC_Z_Maschinenanschluss_3', 'KSS_Trichter_hinten', 'CNC_X_Halteschraube_1', 'KSS_Serviceklappe_hinten', '5V_Mesa_Versorgung_BAURAUM', 'Motor_Riemenscheibe', 'CNC_X_Maschinenanschluss_4', 'Senktuer_LOWER_Scheibe', 'CNC_Z_Festlager_Ringhuelle', 'CNC_Y_Loslager_Befestigung_3', 'Frontplatten_Schraube_-1_115', 'Hilfsversorgung_USB_Buchse_Huelle', 'Gasfeder06_S1_1_Zylinder_BAURAUM', 'Gasfeder06_S1_-1_Zylinder_BAURAUM', 'Netzeinbaustecker_Huelle', 'Senktuer_UPPER_Kantquerholm_0', 'Senktuer_LOWER_Fensterklemmrahmen', 'XMT_Elko_00', 'Bedienpult_Aussen_Reserve', 'Z_Taster_Seitenplatte', 'CNC_Z_Motorbefestigung_4', 'CNC_Y_Halteschraube_3', 'XMT_Elko_03', 'CNC_X_Loslager_Anschlussbruecke', 'CNC_Y_Motor_Frontflansch', 'Senktuer_LOWER_Rahmen', 'Staender_Querholm_0_1', 'X_Massstab_Lesekopf_Foto', 'CNC_Z_Festlager_Befestigung_2', 'Einhausung_Frontsturz', 'X_Klemmhebel_1', 'CNC_Y_Kugelspindel_Huelle', 'KSS_Tankdeckel', 'Senktuer_UPPER_Fensterschraube_3', 'Frontplatten_Schraube_-1_15', 'Maschinen_Aufspannplatte', 'Kabelverschraubung_1', 'Staender_Fuss_0_0', 'KSS_Ruecklaufkasten_Stirnwand', 'CNC_X_Festlager_Befestigung_3', 'Kabelverschraubung_0', 'Treiber_Z_Reserve_KEIN_KAUFTEIL', 'Arbeitslampe', 'Basis_Guss_Foto', 'Drehzahlsteller', 'X_Tisch_Stirnschraube_1_-55', 'CNC_Y_Maschinenanschluss_3', 'CNC_X_Loslager_Befestigung_1', 'CNC_X_Festlager_Ringhuelle_2', 'X_Keilleiste_Einstellschraube', 'CNC_Z_Halteschraube_2', 'CNC_Z_Haltebremse_Bauraum', 'Saeulendeckel', 'CNC_Y_Distanzsaeule_1', 'CNC_Y_Festlager_Ringhuelle_2', 'Riemen_hoher_Bereich_Huelle', 'CNC_X_Loslager_Befestigung_2', 'CNC_X_Kupplungsstern', 'CNC_Z_Tragbruecke_Schraube_2', 'Schutz_Klemmschraube_1', 'Senktuer_UPPER_Fensterschraube_2', 'CNC_Z_Maschinenanschluss_1', 'Treiber_X_CS_D508_Huelle', 'XMT_Netzdrossel_Huelle', 'KSS_Kastenhalter_rechts', 'CNC_X_Halteschraube_2', 'CNC_Z_Anschlussplatte_Entwurf', 'CNC_X_Loslager_Brueckenwinkel', 'Senktuer_LOWER_Kantquerholm_1', 'Z_Keilleiste_Kopf', 'Gasfeder06_S2_-1_Kolbenstange_BAURAUM', 'W92_1000F_Gehaeuse_Rippen', 'Kopf_Unterblech_gelocht', 'EMV_Filter_Reserve', 'XMT_Mikrocontroller_Huelle', 'CNC_Z_Mutteranschluss_Kopf_Entwurf', 'Gasfeder06_S2_1_Auge_unten', 'Reihenklemme_5', 'CNC_Z_Motor_Frontflansch', 'Sicherungen_Reserve', 'CNC_Z_Halteschraube_4', 'CNC_Y_Maschinenanschluss_4', 'TDE_2232_Transformator_Huelle', 'CNC_X_Festlager_Sicherungsmutter', 'Mesa_Klemmen_Huelle_480', 'CNC_Z_Motorschutz_Haube', 'KSS_Trichter_rechts', 'CNC_Y_Distanzsaeule_3', 'CNC_Z_Motorwelle', 'CNC_Y_Festlager_Deckel', 'Einhausung_Tuerriegel_0', 'CNC_Y_Loslager_Ringhuelle', 'CNC_X_Kupplung_Motor', 'CNC_Z_Rundmutter_Huelle', 'Senktuer_Anschlusskonsole_L_0', 'Treiber_Y_CS_D508_Huelle', 'Frontplatten_Schraube_1_115', 'CNC_X_Loslager_Ringhuelle', 'CNC_Y_Motorbefestigung_4', 'Spindel_Laengsverzahnung_Huelle', 'CNC_X_Motor_Stecker_Bauraum', 'X_Massstab_Gehaeuse_Foto', 'KSS_Leitblech_links_hinten', 'Pinolenanzeige_Taste_1', 'KSS_Leitblech_links_vorn', 'Y_Massstab_Distanz_-55', 'Z_Taster_Auf', 'CNC_Y_Festlager_Befestigung_1', 'CNC_Y_Rundmutter_Huelle', 'Senktuer_Mitnehmer_UPPER_L_0', 'CNC_X_Motor_Frontflansch', 'Staender_Querholm_1_1', 'CNC_X_Rundmutter_Huelle', 'Senktuer_Kassette_Rueckwand', 'CNC_X_Festlager_Schulterring', 'CNC_Y_Festlager_Befestigung_4', 'Staender_Blechschuerze_links', 'KSS_Leitblech_rechts_vorn', 'Senktuer_Schlitten_UPPER_R_1', 'CNC_Y_Motor_Gehaeuse', 'KSS_Spaeneschacht_U', 'X_Klemmhebel_0', 'Motorplatte_Schraube_-1_-1', 'KSS_Innenaufkantung_hinten', 'KSS_Pumpe_Bauraum', 'Einhausung_Festfeld_rechts', 'Wellschlauch_1_Neutralstellung', 'Senktuer_Schlitten_UPPER_L_0', 'CNC_X_Kugelspindel_Huelle', 'Motorplatte_Schraube_1_1', 'Gasfeder06_S2_-1_Auge_unten', 'PE_Schiene_Schaltschrank', 'Senktuer_Mitnehmer_UPPER_L_1', 'CNC_X_Motorschutz_Haube', 'Senktuer_LOWER_Fensterschraube_2', 'CNC_Z_Festlager_Sicherungsmutter', 'Frontplatten_Schraube_1_205', 'Senktuer_Kassette_Seite_L', 'CNC_Y_Maschinenanschluss_2', 'CNC_X_Motorplatte_Entwurf', 'Saeulenfuss_Schraube_1_-1', 'Not_Halt_Pilz', 'Senktuer_UPPER_Rahmen', 'CNC_Z_Loslager_Ringhuelle', 'Staender_Maschinentraverse_0', 'Saeule_Guss_Foto', 'Senktuer_Traeger_L', 'CNC_X_Mutteraufnahme_Entwurf', 'CNC_Z_Festlager_Entwurf', 'Senktuer_Fuehrung_UPPER_L', 'KSS_Korbauflage_rechts', 'SK30_Mitnehmer_1', 'Reihenklemme_3', 'Staender_Querholm_0_0', 'Senktuer_Schlitten_LOWER_R_1', 'Schrank_DIN_Schiene_320', 'KSS_Ablaufstutzen_nach_Korb', 'Schaltschrank_Hohlschale', 'CNC_Z_Loslager_Befestigung_2', 'XMT_Elko_04', 'Schrank_Stuetzbein_0', 'Reihenklemme_4', 'Reihenklemme_7', 'Bediengehaeuse_Hohlschale', 'Einhausung_Frontschwelle', 'Senktuer_UPPER_Griff', 'Z_Endschalter_unten', 'X_Keilleiste_Sattel', 'CNC_Z_Distanzsaeule_2', 'Einhausung_Seitenwand_rechts', 'Senktuer_Federkanal06_R', 'Hilfsversorgung_Platine', 'CNC_X_Distanzsaeule_3', 'CNC_Y_Mutteraufnahme_Entwurf', 'CNC_Y_Distanzsaeule_2', 'Reihenklemme_1', 'CNC_X_Distanzsaeule_1', 'XMT_Steuer_Tochterplatine', 'Senktuer_UPPER_Schaltfahne', 'PE_Sammelschiene', 'Pinole_Deckelschraube_1', 'Schrank_Traegerausleger_1', 'CNC_X_Loslager_Befestigung_4', 'CNC_X_Motorwelle', 'Mesa_Klemmen_Huelle_430', 'Senktuer_Anschlusskonsole_R_1', 'Blechsaeule_Seitenwand_rechts', 'Anzugspindel_Abdeckung', 'Schrank_Traegerausleger_0', 'Schrank_Stuetzbein_1', 'CNC_Z_Kugelspindel_Huelle', 'CNC_X_Festlager_Deckel', 'CNC_X_Festlager_Befestigung_4', 'Kopf_Frontplatte_Detail', 'X_Tisch_Stirnschraube_-1_55', 'KSS_Spaenekorb_Griff', 'CNC_X_Festlager_Befestigung_2', 'Senktuer_Traeger_R', 'CNC_Y_Loslager_Befestigung_2', 'Motorplatte_Schraube_-1_1', 'X_Tisch_Stirnschraube_-1_-55', 'CNC_X_Loslager_Befestigung_3', 'Blechsaeule_Querlasche_210', 'Senktuer_Schlitten_UPPER_R_0', 'CNC_Z_Festlager_Ringhuelle_2', 'Blechsaeule_Stirnblech_oben', 'CNC_Z_Kupplung_Spindel', 'Schrank_Kabelkanal_550', 'CNC_Y_Motor_Stecker_Bauraum', 'Spindelnase_SK30_Normreferenz', 'CNC_Y_Festlager_Ringhuelle', 'CNC_Z_Kupplungsstern', 'Staender_Querholm_1_0', 'Senktuer_Kassette_Front', 'Spindel_Drehzahlgeber_Huelle', 'Riemenhauben_Sicherheitsschalter', 'CNC_Z_Distanzsaeule_1', 'Blechsaeule_Schraegblech', 'CNC_Y_Halteschraube_4', 'Lampenhalter', 'Panelhalter', 'CNC_Z_Festlager_Befestigung_3', 'CNC_X_Halteschraube_4', 'Reihenklemme_0', 'Staender_Laengsholm_1_0', 'Mesa_Klemmen_Huelle_330', 'Drehzahlanzeige_LCD_Foto', 'Senktuer_Anschlusskonsole_L_1', 'Z_Endschalter_oben', 'Pinole_Messstange', 'Relais_Huelle', 'CNC_Z_Kupplung_Motor', 'Einhausung_Tuerpfosten_0', 'Einhausung_Festfeld_links', 'EMI_Filter_Huelle', 'Hilfsversorgung_Trafokern', 'CNC_X_Festlager_Ringhuelle', 'Senktuer_Federkanal06_L', 'Einhausung_Tuerriegel_1', 'CNC_X_Halteschraube_3', 'CNC_Z_Loslager_Befestigung_4', 'CNC_Y_Festlager_Befestigung_2', 'Schaltschrank_Montageplatte', 'Blechsaeule_Stirnblech_unten', 'KSS_Trichter_links', 'CNC_X_Loslager_Entwurf', 'CNC_Z_Motorbefestigung_1', 'CNC_X_Anschlussplatte_Entwurf', 'Senktuer_UPPER_Scheibe', 'Faltenbalg_Z', 'Sicherungshalter_Huelle_0', 'Mesa_7i95T_Einbauraum', 'CNC_Z_Festlager_Deckel', 'Senktuer_UPPER_Fensterschraube_1', 'KSS_Spaenekorb_Stirnwand_vorn', 'Start_Stop_Taster', 'Senktuer_Fangsicherung_R_Bauraum', 'Staender_Bein_0_0', 'CNC_Z_Festlager_Schulterring', 'Bedienfront_Aluminium', 'Staender_Laengsholm_0_0', 'Staender_Bein_0_1', 'Senktuer_UPPER_Kantquerholm_1', 'CNC_X_Motorbefestigung_1', 'CNC_Z_Tragbruecke_Schraube_1', 'CNC_Y_Festlager_Befestigung_3', 'KSS_Leitblech_Front_links', 'CNC_Z_Halteschraube_1', 'CNC_Y_Motorbefestigung_1', 'CNC_Z_Festlager_Befestigung_4', 'CNC_X_Festlager_Befestigung_1', '24V_Feldversorgung_BAURAUM', 'Pinole_Huelse_Detail', '48V_Achsenversorgung_BAURAUM', 'Saeulenfuss_Schraube_-1_-1', 'Senktuer_Mitnehmer_LOWER_R_1', 'Kreuzschlitten_Guss_Detail', 'XMT_Leistungsklemmenblock', 'CNC_Z_Maschinenanschluss_2', 'Blechsaeule_Seitenwand_links', 'Schrank_Kabelkanal_20', 'Saeulenfuss_Schraube_1_1', 'Pinolenanzeige_Taste_2', 'Einhausung_Seitenwand_links', 'Gasfeder06_S2_1_Zylinder_BAURAUM', 'Frontplatten_Schraube_1_15', 'KSS_Rueckwand_Aufkantung', 'Y_Massstab_Abdeckung', 'Spindelkopf_Guss_Detail', 'CNC_Y_Loslager_Befestigung_4', 'Unterblech_Schraube_-1_196', 'Einhausung_Tropfkante', 'Blechsaeule_Querlasche_530', 'CNC_X_Kupplung_Spindel', 'Pinolenvorschub_Abdeckplatte', 'KSS_Innenaufkantung_rechts', 'KSS_Spaeneschacht_Rueckwand', 'Pinole_Deckelschraube_2', 'Senktuer_UPPER_Fensterschraube_0', 'X_Tisch_Stirnschraube_1_55', 'Motorplatte_Schraube_1_-1', 'Faltenbalg_Y_hinten', 'Tuerueberwachung_LOWER_Bauraum', 'KSS_Kastenhalter_links', 'CNC_Y_Motorwelle', 'Schaltschrank_Tuer', 'CNC_X_Distanzsaeule_2', 'CNC_Z_Loslager_Befestigung_1', 'CNC_Y_Halteschraube_1', 'Schuetz_Reserve', 'Sicherungshalter_Huelle_1', 'W92_1000F_Frontflansch', 'Staender_Maschinentraverse_1', 'Senktuer_Schlitten_LOWER_R_0', 'Unterblech_Schraube_-1_72', 'Schutz_Klemmschraube_-1', 'Gasfeder06_S1_1_Auge_unten', 'Gasfeder06_S2_1_Kolbenstange_BAURAUM', 'CNC_X_Maschinenanschluss_1', 'Staender_Blechschuerze_rechts', 'X_Massstab_Dichtlippe', 'Mitnehmer_Schraube_1', 'Z_Taster_Ab', 'CNC_Y_Motorschutz_Haube', 'Unterblech_Schraube_1_72', 'W92_1000F_Motorwelle_Huelle', 'CNC_Y_Kupplungsstern', 'Einhausung_Seitenscheibe_links', 'Senktuer_Mitnehmer_LOWER_L_0', 'Riemenabdeckung_Blech', 'Schutz_Halter', 'CNC_Z_Motorbefestigung_3', 'CNC_Y_Loslager_Entwurf', 'Senktuer_LOWER_Schaltfahne', 'CNC_X_Maschinenanschluss_3', 'Bedienpult_Taster_1', 'Senktuer_Fuehrung_LOWER_L', 'Spindelschutz_unten', 'KSS_Leitblech_Front_rechts', 'CNC_Z_Motor_Stecker_Bauraum', 'Senktuer_Schlitten_LOWER_L_0', 'Senktuer_Fuehrung_LOWER_R', 'Sicherheitsgeraet_Reserve', 'XMT_Elko_01', 'Tuerueberwachung_UPPER_Bauraum', 'X_Massstab_Lesekopfhalter_ANNAHME', 'Arbeitstisch_Foto', 'Gasfeder06_S1_1_Kolbenstange_BAURAUM', 'KSS_Innenaufkantung_links', 'Gasfeder06_S2_1_Auge_oben', 'KSS_Innenaufkantung_vorn', 'Wellschlauch_2_Neutralstellung', 'Schrank_DIN_Schiene_110', 'Staender_Fuss_0_1', 'CNC_X_Maschinenanschluss_2', 'Frontplatten_Schraube_-1_205', 'Reihenklemme_8', 'Staender_Laengsholm_1_1', 'Gasfeder06_S1_-1_Kolbenstange_BAURAUM', 'CNC_Y_Distanzsaeule_4', 'KSS_Korbauflage_links', 'Senktuer_Mitnehmer_UPPER_R_0', 'Digitale_Bohrtiefenanzeige', 'CNC_X_Motorbefestigung_2', 'Gasfeder06_S1_-1_Auge_unten', 'KSS_Feinsieb_Klemmrahmen_Reserve', 'Spindelmotor_Montageplatte', 'CNC_Y_Motorbefestigung_3', 'CNC_X_Motorbefestigung_3', 'Gasfeder06_S2_-1_Zylinder_BAURAUM', 'Treiber_Y_Steckklemmen', 'Schrank_Kabelkanal_270', 'Einhausung_Tuerpfosten_1', 'Senktuer_LOWER_Fensterschraube_0', 'Unterblech_Schraube_1_196', 'CNC_Z_Loslager_Entwurf', 'Gasfeder06_S1_1_Auge_oben', 'SK30_Mitnehmer_-1', 'CNC_Z_Festlager_Befestigung_1', 'CNC_Y_Motor_Rueckdeckel', 'CNC_Y_Festlager_Entwurf', 'Staender_Fuss_1_1', 'Senktuer_LOWER_Fensterschraube_1', 'Senktuer_Fangsicherung_L_Bauraum', 'CNC_Y_Motorbund', 'Einhausung_Rueckwand', 'CNC_Y_Loslager_Anschlussbruecke', 'CNC_Z_Tragbruecke_Schraube_3', 'KSS_Tank_Entwurf', 'Gasfeder06_S2_-1_Auge_oben', 'Spindelschutz_Schalterhalter', 'CNC_X_Festlager_Entwurf', 'CNC_Y_Loslager_Befestigung_1', 'Treiber_X_Steckklemmen', 'Senktuer_LOWER_Fensterschraube_3', 'Spindelschutz_oben', 'Staender_Bein_1_1', 'XMT_Signalklemme', 'CNC_Y_Motorplatte_Entwurf', 'CNC_Z_Loslager_Befestigung_3', 'CNC_Y_Maschinenanschluss_1', 'Mitnehmer_Schraube_-1', 'Schrank_DIN_Schiene_600', 'W92_1000F_Rueckdeckel', 'CNC_Z_Motorplatte_Entwurf', 'CNC_X_Motor_Rueckdeckel', 'CNC_Y_Kupplung_Spindel', 'CNC_Z_Loslager_Anschlussbruecke', 'CNC_X_Motorbund', 'Reihenklemme_6', 'Gasfeder06_S1_-1_Auge_oben', 'Spindel_Riemenscheibe', 'Arbeitslampe_Linse', 'KSS_Spaenekorb_Stirnwand_hinten', 'CNC_X_Distanzsaeule_4'}
+
+======================================================================
+FAIL: test_purchase_instances_not_body_count (test_umsetzung08.Contract08.test_purchase_instances_not_body_count)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 39, in test_purchase_instances_not_body_count
+    self.assertEqual(len(instances),2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 2
+
+======================================================================
+FAIL: test_readonly_catalog_override_guard (test_umsetzung08.Contract08.test_readonly_catalog_override_guard)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 93, in test_readonly_catalog_override_guard
+    if not hasattr(model,'assert_catalog_dimensions'):self.fail('catalog guard missing')
+                                                      ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: catalog guard missing
+
+======================================================================
+FAIL: test_revision (test_umsetzung08.Contract08.test_revision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 14, in test_revision
+    def test_revision(self): self.assertEqual(model.VERSION,'CNC_UMSETZUNG_08')
+                             ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'CNC_ANSICHT_07' != 'CNC_UMSETZUNG_08'
+- CNC_ANSICHT_07
++ CNC_UMSETZUNG_08
+
+
+======================================================================
+FAIL: test_z_ff15_bearing_journal (test_umsetzung08.Contract08.test_z_ff15_bearing_journal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 17, in test_z_ff15_bearing_journal
+    def test_z_ff15_bearing_journal(self): self.assertEqual(self.p['cnc_z_free_journal_d'],15)
+                                           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 12.0 != 15
+
+======================================================================
+FAIL: test_z_pilot_real_family_not_old_73 (test_umsetzung08.Contract08.test_z_pilot_real_family_not_old_73)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_umsetzung08.py", line 16, in test_z_pilot_real_family_not_old_73
+    def test_z_pilot_real_family_not_old_73(self): self.assertEqual(self.p['cnc_z_pilot_d'],60)
+                                                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 73.0 != 60
+
+----------------------------------------------------------------------
+Ran 20 tests in 3.328s
+
+FAILED (failures=12, errors=5)

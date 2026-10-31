@@ -1,0 +1,182 @@
+{
+  "native_nx_executed": false,
+  "method": "OpenCascade sampled solid intersections",
+  "positions": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "pairs_checked": 4932,
+  "solid_comparisons": 117,
+  "conflicts": [
+    {
+      "door_open": 0.0,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 0.0,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 0.0,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    },
+    {
+      "door_open": 0.125,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 0.125,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 0.125,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    },
+    {
+      "door_open": 0.25,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 0.25,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 0.25,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    },
+    {
+      "door_open": 0.375,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 0.375,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 0.375,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    },
+    {
+      "door_open": 0.5,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 0.5,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 0.5,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    },
+    {
+      "door_open": 0.625,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 0.625,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 0.625,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    },
+    {
+      "door_open": 0.75,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 0.75,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 0.75,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    },
+    {
+      "door_open": 0.875,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 0.875,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 0.875,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    },
+    {
+      "door_open": 1.0,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 120.0
+    },
+    {
+      "door_open": 1.0,
+      "a": "Schiebetuer_R_Mittellabyrinth",
+      "b": "Schiebetuer_Unterfuehrung_R",
+      "intersection_mm3": 179.99999999999997
+    },
+    {
+      "door_open": 1.0,
+      "a": "Schiebetuer_R_Dichtleiste",
+      "b": "Schiebetuer_Unterfuehrung_L",
+      "intersection_mm3": 60.0
+    }
+  ],
+  "limits": "Only drawn doors vs enclosure and opposed leaf. Intra-leaf joining/contact excluded. No continuous path, elastic seal, workpiece, real hardware or safety verification."
+}

@@ -1,0 +1,152 @@
+import copy, math, sys, unittest
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+import cnc_ansichtsmodell as m
+
+class CompactTests(unittest.TestCase):
+ def p(self): return m.load_parameters(ROOT/'Parameter.json')
+ def test_reduced_plan_dimensions(self):
+  p=self.p(); self.assertEqual((p['stand_w'],p['stand_d'],p['enclosure_h']),(1650,1000,1200))
+ def test_target_travel_not_reduced(self):
+  p=self.p(); self.assertEqual((p['travel_x'],p['travel_y'],p['z_travel_used']),(500,200,240))
+ def test_height_unchanged(self):
+  self.assertEqual(m.all_values(self.p())['workheight'],930)
+ def test_door_parameters_exist(self):
+  self.assertIn('door_open',self.p()); self.assertEqual(self.p()['door_open'],0)
+ def test_plan_geometry_and_available_opening(self):
+  self.assertTrue(hasattr(m,'door_layout'))
+  d=m.door_layout(self.p());self.assertEqual(d['clear_width_mm'],1420);self.assertEqual(d['clear_height_mm'],1000)
+ def test_full_open_is_within_width(self):
+  p=self.p();r=m.door_layout(dict(p,door_open=1));v=m.all_values(p)
+  for leaf in r['leaves']:
+   self.assertGreaterEqual(leaf['xmin'],v['enc_left']);self.assertLessEqual(leaf['xmax'],v['enc_right'])
+  self.assertTrue(all(x['zmax']<=r['opening_zmin']-5 for x in r['leaves']))
+ def test_closed_leaves_cover_aperture(self):
+  d=m.door_layout(self.p());leaf=d['leaves'][0]
+  self.assertLessEqual(leaf['xmin'],d['opening_xmin']);self.assertGreaterEqual(leaf['xmax'],d['opening_xmax'])
+  self.assertLessEqual(leaf['zmin'],d['opening_zmin']);self.assertGreaterEqual(max(x['zmax'] for x in d['leaves']),d['opening_zmax'])
+ def test_leaf_parts_are_rigid_translations(self):
+  from tools.laengen_und_huellraum import signature
+  p=self.p();v=m.all_values(p);v1=m.all_values(dict(p,door_open=1));ds=[d for d in m.recipe() if d.get('door_leaf')]
+  self.assertGreaterEqual(len(ds),8)
+  for d in ds:
+   self.assertEqual(signature(d,v),signature(d,v1),d['name'])
+   a=[m.evaluate(x,v) for x in d['datum']];b=[m.evaluate(x,v1) for x in d['datum']]
+   self.assertEqual(a[:2],b[:2]);self.assertAlmostEqual(b[2]-a[2],-v['door_travel_'+d['door_leaf'].lower()])
+ def test_no_old_swing_leaf_or_fixed_center_overlap(self):
+  names={d['name'] for d in m.recipe()}
+  for n in ['Einhausung_Tuerrahmen_0','Einhausung_Tuerrahmen_1','Einhausung_Mittelueberdeckung']:
+   self.assertNotIn(n,names)
+ def test_explicit_invalid_positions(self):
+  p=self.p()
+  for f in [-.1,1.1,True,float('nan')]:
+   with self.subTest(f=f):
+    q=dict(p,door_open=f)
+    with self.assertRaises(ValueError):m.validate(q)
+ def test_too_wide_aperture_rejected(self):
+  with self.assertRaises(ValueError):m.validate(dict(self.p(),door_clear_w=1500))
+ def test_too_high_aperture_rejected(self):
+  with self.assertRaises(ValueError):m.validate(dict(self.p(),door_clear_h=1200))
+ def test_new_parts_source_and_no_release(self):
+  for d in m.recipe():
+   self.assertTrue(d.get('source'));self.assertTrue(d.get('note'))
+   self.assertFalse(d.get('manufacturing_released',False))
+ def test_glass_within_both_side_sheets(self):
+  v=m.all_values(self.p())
+  for d in m.recipe():
+   if not d['name'].startswith('Einhausung_Seitenscheibe_'):continue
+   op=d['ops'][0];x=m.evaluate(op['origin'][0],v);w=m.evaluate(op['size'][0],v)
+   self.assertGreaterEqual(x,v['enc_left']);self.assertLessEqual(x+w,v['enc_right'])
+ def test_conservative_report_covers_travel(self):
+  self.assertTrue(hasattr(m,'enclosure_report'))
+  r=m.enclosure_report(self.p());self.assertFalse(r['violations']);self.assertEqual(r['pose_count'],8)
+  self.assertGreaterEqual(r['checked_part_count'],284);self.assertFalse(r['native_nx_executed'])
+ def test_invalid_envelope_not_silently_accepted(self):
+  # Increase the table length instead of shrinking its travel to fit.
+  p=self.p();p['table_x']=p['table_x']+600
+  with self.assertRaises(ValueError):m.check_recipe(p)
+ def test_browser_controls_and_real_state(self):
+  html=(ROOT/'tools/viewer_template.html').read_text()
+  self.assertIn('toggleDoors',html);self.assertIn('doorShift',html)
+ def test_reference_is_current_version(self):
+  self.assertEqual(m.VERSION,'CNC_ANSICHT_07')
+
+if __name__=='__main__':unittest.main()
+
+class DoorSwitchTests(unittest.TestCase):
+ def test_single_leaf_has_fixed_switch_reserve(self):
+  names={d['name'] for d in m.recipe()}
+  self.assertIn('Tuerueberwachung_UPPER_Bauraum',names);self.assertIn('Tuerueberwachung_LOWER_Bauraum',names)
+ def test_switch_body_outside_leaf_sweep(self):
+  from enclosure_checks03 import body_bounds
+  p=m.load_parameters(ROOT/'Parameter.json');ds=m.recipe()
+  for f in [0,.25,.5,.75,1]:
+   v=m.all_values(dict(p,door_open=f))
+   for switch in [d for d in ds if d['name'].startswith('Tuerueberwachung')]:
+    a=body_bounds(switch,v,m.evaluate)
+    for leaf in [d for d in ds if d.get('door_leaf') and d['name'].endswith('_Rahmen')]:
+     b=body_bounds(leaf,v,m.evaluate)
+     self.assertFalse(all(min(a[k+3],b[k+3])-max(a[k],b[k])>1e-6 for k in range(3)),(f,switch['name'],leaf['name']))
+
+class FrontPanelTests(unittest.TestCase):
+ def test_front_sheets_do_not_overlap_posts(self):
+  from enclosure_checks03 import body_bounds
+  v=m.all_values(m.load_parameters(ROOT/'Parameter.json'));ds=m.recipe()
+  fields=[d for d in ds if d['name'].startswith('Einhausung_Festfeld_')]
+  posts=[d for d in ds if d['name'].startswith('Einhausung_Tuerpfosten_')]
+  for field in fields:
+   a=body_bounds(field,v,m.evaluate)
+   for post in posts:
+    b=body_bounds(post,v,m.evaluate)
+    self.assertFalse(all(min(a[k+3],b[k+3])-max(a[k],b[k])>1e-6 for k in range(3)),(field['name'],post['name']))
+
+class RailSupportTests(unittest.TestCase):
+ def test_guide_consoles_are_individual(self):
+  ds=[d for d in m.recipe() if d['name'].startswith('Senktuer_Anschlusskonsole_')]
+  self.assertEqual(len(ds),4)
+
+class AnalyticBoundsTests(unittest.TestCase):
+ def test_cut_tools_do_not_enlarge_bounds(self):
+  from enclosure_checks03 import body_bounds
+  d={'name':'test','ops':[{'kind':'box','op':'add','origin':[0,0,0],'size':[10,20,30]},
+      {'kind':'box','op':'cut','origin':[-100,-100,-100],'size':[1000,1000,1000]}]}
+  self.assertEqual(body_bounds(d,{},m.evaluate),[0,0,0,10,20,30])
+ def test_cylinder_negative_axis(self):
+  from enclosure_checks03 import primitive_bounds
+  d={'kind':'cylinder','origin':[1,2,3],'direction':[-1,0,0],'diameter':4,'height':5}
+  self.assertEqual(primitive_bounds(d,{},m.evaluate),[-4,0,1,1,4,5])
+ def test_normalizes_axis(self):
+  from enclosure_checks03 import primitive_bounds
+  d={'kind':'cylinder','origin':[0,0,0],'direction':[0,0,2],'diameter':4,'height':5}
+  self.assertEqual(primitive_bounds(d,{},m.evaluate),[-2,-2,0,2,2,5])
+ def test_prism_extrusion_bound(self):
+  from enclosure_checks03 import primitive_bounds
+  d={'kind':'prism','points':[[0,0,1],[4,0,2],[0,3,1]],'direction':[0,0,1],'height':5}
+  self.assertEqual(primitive_bounds(d,{},m.evaluate),[0,0,1,4,3,7])
+ def test_zero_direction_rejected(self):
+  from enclosure_checks03 import primitive_bounds
+  d={'kind':'cylinder','origin':[0,0,0],'direction':[0,0,0],'diameter':4,'height':5}
+  with self.assertRaises(ValueError):primitive_bounds(d,{},m.evaluate)
+
+class LabyrinthClearanceTests(unittest.TestCase):
+ def test_lift_door_has_no_obsolete_middle_labyrinth(self):
+  names={d['name'] for d in m.recipe()}
+  self.assertNotIn('Schiebetuer_R_Mittellabyrinth',names)
+  self.assertNotIn('Schiebetuer_R_Dichtleiste',names)
+
+class NativeDoorUnitTests(unittest.TestCase):
+ def test_fraction_spec_is_unitless(self):
+  s=next(x for x in m.SPECS if x['name']=='door_open');self.assertEqual(s['unit'],'unitless')
+ def test_native_expression_dispatch_for_ratio(self):
+  # Execute actual adapter method without NX imports; this tests dispatch only,
+  # not NX unit conversion or CAD runtime.
+  import ast,types
+  tree=ast.parse((ROOT/'nx_native.py').read_text())
+  cls=next(n for n in tree.body if isinstance(n,ast.ClassDef) and n.name=='NativeModelBuilder')
+  f=next(n for n in cls.body if isinstance(n,ast.FunctionDef) and n.name=='create_expressions')
+  ns={'model':m};exec(compile(ast.Module(body=[f],type_ignores=[]),'native_method_test','exec'),ns)
+  calls=[]
+  factory=types.SimpleNamespace(create=lambda eq:calls.append(('length',eq)),_make=lambda mode,eq:calls.append((mode,eq)))
+  obj=types.SimpleNamespace(parameters={'door_open':.5},log=lambda s:None,expression_factory=factory,verify_expression_values=lambda:None)
+  ns['create_expressions'](obj,needed={'door_open'})
+  self.assertEqual(calls,[('Number_mm','sx_door_open = 0.5')])

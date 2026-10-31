@@ -1,0 +1,16 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_____ test_magazine_does_not_intersect_retained_head_at_six_pick_endpoints _____
+
+    def test_magazine_does_not_intersect_retained_head_at_six_pick_endpoints():
+        from atc_anschlusspruefung09 import run
+        result=run('/mnt/data/work09/cache')
+>       assert not result['collisions'], result['collisions'][:3]
+E       AssertionError: [{'head': 'Spindelkopf_Guss_Detail', 'part': 'ATC_BT30_ER20_70_Raumhuelle_2', 'pocket': 1, 'volume_mm3': 4089.54509060...d': 'Spindelkopf_Guss_Detail', 'part': 'ATC_BT30_ER20_70_Raumhuelle_1', 'pocket': 2, 'volume_mm3': 4089.5450903943706}]
+E       assert not [{'head': 'Spindelkopf_Guss_Detail', 'part': 'ATC_BT30_ER20_70_Raumhuelle_2', 'pocket': 1, 'volume_mm3': 4089.54509060...Spindelkopf_Guss_Detail', 'part': 'ATC_BT30_ER20_70_Raumhuelle_2', 'pocket': 3, 'volume_mm3': 4089.5450903943706}, ...]
+
+tests09/test_new_geometry09.py:22: AssertionError
+=========================== short test summary info ============================
+FAILED tests09/test_new_geometry09.py::test_magazine_does_not_intersect_retained_head_at_six_pick_endpoints - AssertionError: [{'head': 'Spindelkopf_Guss_Detail', 'part': 'ATC_BT30_ER20_70_Raumhuelle_2', 'pocket': 1, 'volume_mm3': 4089.54509060...d': 'Spindelkopf_Guss_Detail', 'part': 'ATC_BT30_ER20_70_Raumhuelle_1', 'pocket': 2, 'volume_mm3': 4089.5450903943706}]
+assert not [{'head': 'Spindelkopf_Guss_Detail', 'part': 'ATC_BT30_ER20_70_Raumhuelle_2', 'pocket': 1, 'volume_mm3': 4089.54509060...Spindelkopf_Guss_Detail', 'part': 'ATC_BT30_ER20_70_Raumhuelle_2', 'pocket': 3, 'volume_mm3': 4089.5450903943706}, ...]
+1 failed in 2.49s

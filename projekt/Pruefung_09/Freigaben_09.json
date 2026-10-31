@@ -1,0 +1,12 @@
+{
+  "gates": [
+    {
+      "id": "A09",
+      "title": "Werkzeugwechsler vollständig auslegen und nachweisen",
+      "required_evidence": "Bestätigte ATC-Spindel/Anzugsbolzen/Orientierung; mechanische Taschenhalterung; Magazinabdeckung; Pneumatik und Verriegelung; sichere Wiederaufnahme; Werkzeuggrenzen; vollständige Kollisions-/Funktionsprüfung in NX und an realer Maschine.",
+      "complete": false,
+      "evidence_file": null,
+      "checked_by": null
+    }
+  ]
+}

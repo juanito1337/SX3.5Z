@@ -1,0 +1,173 @@
+{
+  "note": "Statische Auswahlpruefung der Rekonstruktion, NICHT reale Maschine oder Verfahrweg. Keine Freigabe.",
+  "checks": [
+    {
+      "component": "CNC_X_Mutteraufnahme_Entwurf",
+      "casting": "Arbeitstisch_Foto",
+      "intersection_mm3": 11230.3275,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_X_Mutteraufnahme_Entwurf",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 4928.6036,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_X_Anschlussplatte_Entwurf",
+      "casting": "Arbeitstisch_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_X_Anschlussplatte_Entwurf",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_X_Motor_Gehaeuse",
+      "casting": "Arbeitstisch_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_X_Motor_Gehaeuse",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_X_Kugelspindel_Huelle",
+      "casting": "Arbeitstisch_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_X_Kugelspindel_Huelle",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 117.3271,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Y_Mutteraufnahme_Entwurf",
+      "casting": "Basis_Guss_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Y_Mutteraufnahme_Entwurf",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Y_Anschlussplatte_Entwurf",
+      "casting": "Basis_Guss_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Y_Anschlussplatte_Entwurf",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Y_Motor_Gehaeuse",
+      "casting": "Basis_Guss_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Y_Motor_Gehaeuse",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Y_Kugelspindel_Huelle",
+      "casting": "Basis_Guss_Foto",
+      "intersection_mm3": 667.5884,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Y_Kugelspindel_Huelle",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Mutteraufnahme_Entwurf",
+      "casting": "Saeule_Guss_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Mutteraufnahme_Entwurf",
+      "casting": "Spindelkopf_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Mutteraufnahme_Entwurf",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Anschlussplatte_Entwurf",
+      "casting": "Saeule_Guss_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Anschlussplatte_Entwurf",
+      "casting": "Spindelkopf_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Anschlussplatte_Entwurf",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 13436.3032,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Z_Motor_Gehaeuse",
+      "casting": "Saeule_Guss_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Motor_Gehaeuse",
+      "casting": "Spindelkopf_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Motor_Gehaeuse",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Kugelspindel_Huelle",
+      "casting": "Saeule_Guss_Foto",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Kugelspindel_Huelle",
+      "casting": "Spindelkopf_Guss_Detail",
+      "intersection_mm3": 0.0,
+      "status": "NO_STATIC_OVERLAP_IN_THIS_CHECK"
+    },
+    {
+      "component": "CNC_Z_Kugelspindel_Huelle",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 471.2389,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+FAIL: test_reported_left_funnel_passes_actual_extrude_rhs_path (test_nx_normaldicke073.NormalThicknessRegression073.test_reported_left_funnel_passes_actual_extrude_rhs_path)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/fix073_work/SX35Z_CNC_Gesamtansicht_07_3/tests/test_nx_normaldicke073.py", line 138, in test_reported_left_funnel_passes_actual_extrude_rhs_path
+    self.assertIsNone(failure, 'Reported failure at EndExtend.Value.RightHandSide: %r' % failure)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError('Dimension mismatch (binary operation)') is not None : Reported failure at EndExtend.Value.RightHandSide: ValueError('Dimension mismatch (binary operation)')
+

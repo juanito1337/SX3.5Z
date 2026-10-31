@@ -1,0 +1,353 @@
+# OBERSTE PRIORITÄT: CAD-Konstruktion mit Siemens NX und NX Open Python
+
+## 1. Verbindliche Entwicklungsumgebung
+
+Die wichtigste Anforderung dieses gesamten CNC-Umbauprojekts ist die Erstellung eines vollständigen, funktionsfähigen 3D-CAD-Modells mit:
+
+**Siemens NX + NX Open API + Python**
+
+Die gesamte CAD-Konstruktion muss durch Python-Skripte erfolgen, die die offizielle NX-Open-Schnittstelle von Siemens NX verwenden.
+
+Dies ist eine zwingende Projektanforderung.
+
+Andere CAD-Systeme wie FreeCAD, Fusion 360, SolidWorks oder Inventor dürfen nicht als Ersatz verwendet werden.
+
+Auch die ausschließliche Erstellung einer STEP-Datei ist nicht ausreichend.
+
+## 2. Ausgangspunkt: Vorhandenes Siemens-NX-Modell
+
+Verwende mein vorhandenes 3D-Modell der manuellen Fräsmaschine als geometrische und konstruktive Grundlage.
+
+Analysiere zunächst die vorhandenen NX-Dateien und ihre Baugruppenstruktur.
+
+Ermittle:
+
+- Vorhandene Parts und Komponenten
+- Baugruppenhierarchie
+- Koordinatensysteme
+- Positionen und Orientierungen der Maschinenachsen
+- Geometrische Referenzen
+- Vorhandene Bohrungen und Lagerstellen
+- Befestigungsmöglichkeiten
+- Platzverhältnisse
+- Verfahrwege
+
+Die ursprünglichen NX-Dateien dürfen nicht überschrieben oder zerstört werden.
+
+Erstelle stattdessen eine neue CNC-Baugruppe, beispielsweise:
+
+`FRAESMASCHINE_CNC_UMBAU.prt`
+
+Die vorhandenen Maschinenkomponenten sollen möglichst als eigenständige NX-Komponenten weiterverwendet werden.
+
+Neue CNC-Komponenten müssen korrekt in die vorhandene Baugruppenstruktur integriert werden.
+
+## 3. Verpflichtende Verwendung von NX Open Python
+
+Entwickle ausführbare Python-Skripte unter Verwendung der offiziellen Siemens-NX-Open-Python-API.
+
+Verwende beispielsweise die NXOpen-Module und ihre jeweils passenden Klassen und Methoden:
+
+- NXOpen
+- NXOpen.Assemblies
+- NXOpen.Features
+- NXOpen.GeometricUtilities
+- NXOpen.UF, sofern erforderlich und unterstützt
+
+Die verwendeten Funktionen müssen mit der tatsächlich eingesetzten Siemens-NX-Version kompatibel sein.
+
+**Erfinde keine NX-Open-Klassen, Methoden, Eigenschaften oder API-Aufrufe.**
+
+Recherchiere bei Unsicherheit die offizielle API-Dokumentation für die verwendete NX-Version.
+
+Trenne klar zwischen verifizierten API-Aufrufen und noch nicht getesteten Implementierungen.
+
+Die Skripte müssen im dafür vorgesehenen Python-Ausführungskontext von Siemens NX lauffähig sein.
+
+Eine allgemeine Python-Installation ohne verfügbare NX-Open-Laufzeit darf nicht als ausreichende Testumgebung betrachtet werden.
+
+## 4. Parametrische Konstruktion
+
+Alle selbst herzustellenden Bauteile sollen möglichst als native, parametrisch editierbare NX-Modelle erstellt werden.
+
+Dazu gehören beispielsweise:
+
+- Motorhalterungen
+- Kugelgewindemutterhalter
+- Lageraufnahmen
+- Adapterplatten
+- Distanzstücke
+- Befestigungswinkel
+- Endschalterhalter
+- Abdeckungen
+
+Erzeuge diese Bauteile mit geeigneten NX-Funktionen, beispielsweise durch:
+
+- Skizzen
+- Extrusionen
+- Bohrungen
+- Taschen
+- Verrundungen
+- Fasen
+- Bezugsebenen
+- Koordinatensysteme
+- Parametrische Ausdrücke
+
+Verwende nachvollziehbare Parameternamen.
+
+Beispiel:
+
+`motor_flansch_breite`
+
+`motor_wellendurchmesser`
+
+`spindel_durchmesser`
+
+`spindel_steigung`
+
+`lagerbohrung_durchmesser`
+
+`halter_plattenstaerke`
+
+`befestigungslochabstand`
+
+Die Bauteilgeometrie muss anhand dieser Parameter angepasst werden können.
+
+Änderungen an einem Motortyp oder einer Kugelgewindespindel sollen möglichst ohne vollständige Neukonstruktion der betroffenen Sonderbauteile möglich sein.
+
+## 5. Original-CAD-Modelle realer Kaufteile
+
+Recherchiere für die ausgewählten Kaufteile möglichst originale 3D-CAD-Modelle der Hersteller.
+
+Beispiele:
+
+- Schrittmotoren
+- Kugelgewindetriebe
+- Kugelgewindemuttern
+- Festlager
+- Loslager
+- Kupplungen
+- Lagergehäuse
+- Referenzschalter
+
+Verwende verfügbare Herstellerdaten, beispielsweise im STEP-Format.
+
+Importiere die Kaufteilmodelle in Siemens NX und integriere sie als eigenständige Komponenten in die CNC-Baugruppe.
+
+Für jedes Kaufteil muss die Zuordnung zur Stückliste eindeutig nachvollziehbar sein.
+
+Wenn keine Hersteller-CAD-Datei verfügbar ist, darf NX Open Python ein vereinfachtes Ersatzmodell erzeugen.
+
+Dabei gelten folgende Bedingungen:
+
+1. Das tatsächliche Kaufteil muss nachweislich existieren.
+2. Die relevanten Abmessungen müssen aus Herstellerunterlagen stammen.
+3. Das Ersatzmodell muss maßhaltig sein.
+4. Vereinfachte Geometrien müssen gekennzeichnet werden.
+5. Nicht belegte Abmessungen dürfen nicht als verifiziert dargestellt werden.
+
+## 6. Automatisierte Baugruppenerstellung
+
+Erstelle mit NX Open Python die vollständige CNC-Baugruppe.
+
+Die Python-Skripte sollen:
+
+1. Die vorhandene Fräsmaschinenbaugruppe öffnen.
+2. Eine separate CNC-Projektbaugruppe erstellen.
+3. Die vorhandenen Maschinenkomponenten übernehmen.
+4. Nicht mehr benötigte Handantriebskomponenten in der neuen Baugruppe gegebenenfalls entfernen oder unterdrücken.
+5. Die neuen Kugelgewindetriebe positionieren.
+6. Die Kugelgewindemuttern montieren.
+7. Die Lagerungen hinzufügen.
+8. Die Motorhalterungen erzeugen und montieren.
+9. Die Schrittmotoren einfügen.
+10. Die Kupplungen korrekt positionieren.
+11. Die erforderlichen Sonderteile erstellen.
+12. Die vollständige Baugruppe speichern.
+
+Die Positionierung soll auf den tatsächlichen Maschinenkoordinaten und geometrischen Schnittstellen beruhen.
+
+Vermeide frei geschätzte Positionen.
+
+## 7. Separate NX-Open-Module für jede Achse
+
+Strukturiere die Python-Konstruktion modular.
+
+Erstelle beispielsweise folgende Dateien:
+
+```text
+CNC_UMBAU_NXOPEN/
+│
+├── main.py
+│
+├── config/
+│   ├── machine_parameters.py
+│   └── component_database.py
+│
+├── analysis/
+│   ├── analyze_original_machine.py
+│   └── measure_interfaces.py
+│
+├── construction/
+│   ├── create_x_axis.py
+│   ├── create_y_axis.py
+│   ├── create_z_axis.py
+│   ├── create_motor_mounts.py
+│   ├── create_nut_mounts.py
+│   ├── create_bearing_mounts.py
+│   └── create_sensor_mounts.py
+│
+├── assembly/
+│   ├── build_cnc_assembly.py
+│   └── position_components.py
+│
+├── validation/
+│   ├── check_clearances.py
+│   ├── check_travel_limits.py
+│   └── check_component_positions.py
+│
+├── export/
+│   ├── export_step.py
+│   ├── export_drawings.py
+│   └── export_bom.py
+│
+└── output/
+    ├── NX_PARTS/
+    ├── NX_ASSEMBLY/
+    ├── STEP/
+    ├── DRAWINGS/
+    └── BOM/
+```
+
+Dies ist eine vorgeschlagene Projektstruktur. Die tatsächliche Implementierung muss an die verfügbaren NX-Open-Funktionen angepasst werden.
+
+## 8. Automatisierte geometrische Prüfung
+
+Verwende die Möglichkeiten von Siemens NX und NX Open, um die Konstruktion zu überprüfen.
+
+Prüfe insbesondere:
+
+- Kollisionsfreiheit
+- Einbauräume
+- Achspositionen
+- Koaxialität von Motor- und Kugelgewindespindeln
+- Position der Kugelgewindemuttern
+- Lagerpositionen
+- Befestigungsbohrungen
+- Erreichbare Verfahrwege
+- Mechanische Endpositionen
+
+Prüfe die beweglichen Baugruppen an mehreren Positionen über den gesamten Verfahrweg.
+
+Die Überprüfung soll möglichst automatisiert erfolgen.
+
+Falls bestimmte Prüfungen nicht zuverlässig über NX Open umgesetzt werden können, muss dies dokumentiert werden.
+
+Ein fehlgeschlagener oder nicht ausgeführter Test darf niemals als erfolgreiche Prüfung ausgegeben werden.
+
+## 9. Automatische Erzeugung von Fertigungszeichnungen
+
+Erstelle mit NX Open nach Möglichkeit technische Zeichnungen aller selbst herzustellenden Komponenten.
+
+Die Zeichnungen müssen die zur Fertigung erforderlichen Angaben enthalten:
+
+- Ansichten
+- Schnittdarstellungen, sofern notwendig
+- Abmessungen
+- Bohrungen
+- Gewinde
+- Passungen
+- Toleranzen
+- Werkstoff
+- Bauteilnummer
+
+Exportiere die Fertigungszeichnungen möglichst als PDF.
+
+Erzeuge für geeignete Blechteile zusätzlich DXF-Dateien.
+
+## 10. Ausführbare und reproduzierbare Python-Skripte
+
+Der vollständige Python-Quellcode ist ein verbindlicher Bestandteil des Projektergebnisses.
+
+Ich möchte nicht nur die fertigen NX-Dateien erhalten, sondern auch die Programme, mit denen diese Dateien erstellt wurden.
+
+Die Skripte müssen:
+
+- Vollständig vorliegen
+- Verständlich strukturiert sein
+- Die benötigten Eingabedateien eindeutig benennen
+- Relevante Parameter zentral verwalten
+- Fehler nachvollziehbar protokollieren
+- Nicht verfügbare Komponenten erkennen
+- Erforderliche Dateien und Verzeichnisse prüfen
+- Die erzeugten NX-Bauteile speichern
+- Erneut ausführbar sein
+
+Vermeide fest eingetragene geometrische Werte, wenn sie aus den Maschinenparametern oder Herstellerdaten abgeleitet werden können.
+
+Dokumentiere, wie die Skripte innerhalb von Siemens NX gestartet werden.
+
+**Wichtig:** Die tatsächliche Ausführung und Funktionsprüfung muss in einer Siemens-NX-Umgebung erfolgen. Falls kein Zugriff auf eine solche Umgebung besteht, dürfen die Skripte nicht als in NX getestet oder erfolgreich ausgeführt bezeichnet werden.
+
+## 11. Verbindliche Ergebnisdateien
+
+Das Projekt muss folgende CAD-Ergebnisse liefern:
+
+**A. Native Siemens-NX-Baugruppe**
+
+`FRAESMASCHINE_CNC_UMBAU.prt`
+
+**B. Native NX-Einzelteile**
+
+Für alle neu konstruierten Sonderbauteile separate `.prt`-Dateien.
+
+**C. Python-Quellcode**
+
+Alle NX-Open-Python-Skripte, die für die Konstruktion erforderlich sind.
+
+**D. STEP-Export**
+
+Ein zusätzliches neutrales 3D-Austauschformat.
+
+**E. Fertigungszeichnungen**
+
+Zeichnungsdateien und PDF-Exporte der selbst herzustellenden Teile.
+
+**F. Stückliste**
+
+Vollständige Zuordnung aller verbauten Komponenten zu realen Kaufteilen beziehungsweise Fertigungsteilen.
+
+**G. Prüfprotokoll**
+
+Dokumentation der durchgeführten geometrischen Prüfungen und ihrer Ergebnisse.
+
+## 12. Wichtigste Abnahmebedingung
+
+**Das Projekt gilt hinsichtlich der CAD-Konstruktion erst dann als erfolgreich abgeschlossen, wenn die umgebaute CNC-Fräsmaschine als native Siemens-NX-Baugruppe erstellt wurde und die zugehörigen NX-Open-Python-Skripte vollständig vorliegen.**
+
+Eine gerenderte Darstellung, ein schematisches Modell, ein allgemeines Python-Skript oder eine STEP-Datei allein erfüllen diese Anforderung ausdrücklich nicht.
+
+Die Konstruktion muss auf dem Originalmodell der manuellen Fräsmaschine beruhen.
+
+Alle zusätzlichen Komponenten müssen mit realen, recherchierten Kaufteilen oder tatsächlich herstellbaren Sonderbauteilen übereinstimmen.
+
+Die gesamte Konstruktion muss möglichst reproduzierbar, parametrisch und technisch nachvollziehbar sein.
+
+**Prioritätenreihenfolge:**
+
+1. Native Siemens-NX-Konstruktion mit NX Open Python
+2. Geometrische Übereinstimmung mit der Originalmaschine
+3. Verwendung real erhältlicher und passender Kaufteile
+4. Mechanisch korrekte Konstruktion aller CNC-Achsen
+5. Parametrische Modellierung der erforderlichen Sonderbauteile
+6. Vollständiger, ausführbarer Python-Quellcode
+7. Geometrische Prüfungen und Kollisionskontrolle
+8. Fertigungszeichnungen und Stückliste
+9. LinuxCNC-Steuerung mit Mesa 7i95T
+10. Vollständige technische Dokumentation
+
+Beginne mit der Analyse der vorhandenen Siemens-NX-Baugruppe und der beiden ZIP-Archive.
+
+Recherchiere anschließend die realen Komponenten und konstruiere den CNC-Umbau schrittweise mit NX Open Python.
+
+Erstelle keine endgültige CNC-Baugruppe auf Basis ungeprüfter Maße oder fiktiver Komponenten.

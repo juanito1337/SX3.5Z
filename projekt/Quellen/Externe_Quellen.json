@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Mesa 7i95T manual V1.2",
+    "url": "https://www.mesanet.com/pdf/parallel/7i95tman.pdf",
+    "used_for": "Step/Dir-Signale, getrennte5-V-Logikversorgung; Maßbild konnte nicht als Screenshot geladen werden, deshalb Board-Bauraum nicht als Herstellermaß ausgegeben.",
+    "checked_date": "2026-10-28"
+  },
+  {
+    "title": "Leadshine CS-D508",
+    "url": "https://www.leadshine.com/product-detail/closed-loop-stepper-drive/closed-loop-stepper/CS-D508.html",
+    "used_for": "20–50 VDC; Step/Dir; nominal116×69,2×26,5 mm. Motorauslegung/Schutzsystem nicht daraus ableitbar.",
+    "checked_date": "2026-10-28"
+  },
+  {
+    "title": "Leadshine CS-D508 manual",
+    "url": "https://leadshineusa.com/UploadFile/Down/CS-D508_m3.1.pdf",
+    "used_for": "Mechanische Einbau-/Kühlhinweise; Revisionsprüfung erforderlich.",
+    "checked_date": "2026-10-28"
+  },
+  {
+    "title": "Leadshine EL7-RS400P",
+    "url": "https://www.leadshine.com/network-detail/servo-motor/servo/EL7-RS400P.html",
+    "used_for": "Beispiel echter Step/Dir-Servo; nicht als aktuelle Motorwahl integriert.",
+    "checked_date": "2026-10-28"
+  },
+  {
+    "title": "THK support units",
+    "url": "https://www.thk.com/eu/en/products/ball_screw/support_unit/",
+    "used_for": "Festseite mit vorgespannten Schrägkugellagern; Abstützseite Rillenkugellager. Kein Nachweis für freie Eigenbau-Lagerringe.",
+    "checked_date": "2026-10-28"
+  },
+  {
+    "title": "BGHM Werkzeugmaschinen",
+    "url": "https://www.bghm.de/arbeitsschuetzer/themen/maschinen/werkzeugmaschinen",
+    "used_for": "Weiterführende Fachinformationen zu Schutzscheiben, schwerkraftbelasteten Achsen und sicherheitsbezogenen Betriebsarten.",
+    "checked_date": "2026-10-28"
+  },
+  {
+    "title": "DGUV Schutzscheiben FBHM-040",
+    "url": "https://publikationen.dguv.de/widgets/pdf/download/article/4809",
+    "used_for": "Schutzfunktion/Rückhaltevermögen, Alterung und KSS-Beständigkeit berücksichtigen;8 mm im Modell keine Freigabe.",
+    "checked_date": "2026-10-28"
+  },
+  {
+    "title": "Leadshine CS-M series datasheet, PDF page4",
+    "url": "https://www.leadshine.com/upfiles/downloads/a5e0bafe68d54b1b5dac35ef79db01a3_1662082668689.pdf",
+    "used_for": "4×Ø5 through holes, 47.14 pitch, 103-mm catalogue body. Page screenshot inspected. Not motor tapped holes. Motor plate M4 proposal is our design.",
+    "checked_date": "2026-10-28"
+  }
+]

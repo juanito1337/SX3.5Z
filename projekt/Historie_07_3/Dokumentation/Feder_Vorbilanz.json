@@ -1,0 +1,25 @@
+{
+  "released": false,
+  "spring_count": 4,
+  "stroke_each_mm": 515.0,
+  "main_F1_N": 124.802306937,
+  "relative_F1_N": 63.4312034685,
+  "main_F2_N": 162.2429990181,
+  "relative_F2_N": 82.46056450905,
+  "masses_kg": {
+    "LOWER": 17.874211,
+    "UPPER": 18.474211
+  },
+  "opening_hand_force_N": [
+    80.6715044595,
+    66.55399117908752,
+    52.43647789867501,
+    38.31896461826247,
+    24.20145133784999
+  ],
+  "hand_force_meaning": "UPWARD HOLDING FORCE AT UPPER LEAF; POSITIVE VALUE IS NOT A DOWNWARD PUSH",
+  "maximum_balance_fraction": 0.9099999999999999,
+  "force_direction": "UPWARD_OPPOSES_DOWNWARD_OPENING",
+  "note": "Mass estimate, not NX material measurement. No friction, temperature, fatigue or fault-case analysis. Four unselected gas-spring envelopes, no safety release.",
+  "mass_basis": "sharp precursor / nominal 2-mm sheet; assumed steel 7850 and PC 1200 kg/m3; +2 kg fittings per segment, +0.6 kg handle. No NX measured mass."
+}

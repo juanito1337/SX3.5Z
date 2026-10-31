@@ -1,0 +1,80 @@
+import unittest, importlib, sys, math, copy
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+
+class RecipeTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        try: cls.m=importlib.import_module('cnc_ansichtsmodell')
+        except ImportError: cls.m=None
+    def model(self):
+        self.assertIsNotNone(self.m,'Integriertes CNC-Rezept fehlt'); return self.m
+    def test_entire_machine_not_only_drive_samples(self):
+        m=self.model();names={d['name'] for d in m.recipe()}
+        for name in ['Basis_Guss_Foto','Saeule_Guss_Foto','Arbeitstisch_Foto','Kreuzschlitten_Guss_Detail','Spindelkopf_Guss_Detail','W92_1000F_Gehaeuse_Rippen','Bediengehaeuse_Hohlschale']:
+            self.assertIn(name,names)
+        self.assertGreater(len(names),180)
+    def test_manual_feeds_replaced_but_quill_retained(self):
+        m=self.model();names={d['name'] for d in m.recipe()}
+        for name in m.REMOVED_NAMES:self.assertNotIn(name,names)
+        for name in ['Pinolenvorschub_Abdeckplatte','Pinole_Huelse_Detail','Spindelnase_SK30_Normreferenz']:self.assertIn(name,names)
+    def test_all_three_drives_present(self):
+        m=self.model();names={d['name'] for d in m.recipe()}
+        for axis in 'XYZ':
+            for part in ['Kugelspindel_Huelle','Rundmutter_Huelle','Mutteraufnahme_Entwurf','Festlager_Entwurf','Loslager_Entwurf','Kupplung_Motor','Kupplung_Spindel','Motor_Gehaeuse','Motorplatte_Entwurf']:
+                self.assertIn('CNC_'+axis+'_'+part,names)
+    def test_recipe_valid_and_unique(self):
+        m=self.model();p=m.load_parameters(ROOT/'Parameter.json');v=m.check_recipe(p)
+        defs=m.recipe();self.assertEqual(len(defs),len({d['id'] for d in defs}))
+        for d in defs:
+            self.assertIn(d['group'],m.GROUPS);self.assertIn(d['material'],m.PALETTE)
+            self.assertTrue(d['source']);self.assertTrue(d['note'])
+            ld=m.local_definition(d); needed=m.used_parameters(ld)
+            self.assertFalse(needed-set(p)-set(m.DERIVED))
+    def test_motor_and_screw_coaxial(self):
+        m=self.model();p=m.load_parameters(ROOT/'Parameter.json');v=m.all_values(p)
+        for a in 'xyz':
+            s=next(d for d in m.recipe() if d['name']=='CNC_'+a.upper()+'_Kugelspindel_Huelle')
+            motor=next(d for d in m.recipe() if d['name']=='CNC_'+a.upper()+'_Motorwelle')
+            origin=lambda d:[m.evaluate(q,v) for q in d['ops'][0]['origin']]
+            sd=s['ops'][0]['direction'];delta=[x-y for x,y in zip(origin(motor),origin(s))]
+            cross=[delta[1]*sd[2]-delta[2]*sd[1],delta[2]*sd[0]-delta[0]*sd[2],delta[0]*sd[1]-delta[1]*sd[0]]
+            self.assertLess(sum(x*x for x in cross),1e-9)
+    def test_x_motor_moves_xy_nut_only_y(self):
+        m=self.model();p=m.load_parameters(ROOT/'Parameter.json')
+        def origins(vals):
+            v=m.all_values(vals)
+            return {d['name']:[m.evaluate(x,v) for x in d['datum']] for d in m.recipe()}
+        a=origins(p);p['pos_x']+=23;p['pos_y']+=17;b=origins(p)
+        delta=lambda n:[round(y-x,7) for x,y in zip(a[n],b[n])]
+        self.assertEqual(delta('CNC_X_Motor_Gehaeuse'),[23,17,0])
+        self.assertEqual(delta('CNC_X_Rundmutter_Huelle'),[0,17,0])
+        self.assertEqual(delta('CNC_Y_Motor_Gehaeuse'),[0,0,0])
+        self.assertEqual(delta('CNC_Y_Rundmutter_Huelle'),[0,17,0])
+    def test_z_nut_moves_head_motor_stays(self):
+        m=self.model();p=m.load_parameters(ROOT/'Parameter.json');v=m.all_values(p);p2=dict(p);p2['head_down']+=19;v2=m.all_values(p2)
+        for name,expected in [('CNC_Z_Rundmutter_Huelle',-19),('CNC_Z_Motor_Gehaeuse',0)]:
+            d=next(d for d in m.recipe() if d['name']==name)
+            self.assertAlmostEqual(m.evaluate(d['datum'][2],v2)-m.evaluate(d['datum'][2],v),expected)
+    def test_native_requires_no_audit_or_original_files(self):
+        self.model();source=(ROOT/'NX_CNC_Gesamtansicht.py').read_text(encoding='utf8')
+        self.assertIn('def main(',source);self.assertNotIn('NX_Bestandsaufnahme.json',source)
+        self.assertIn('FRAESMASCHINE_CNC_BLECHENTWURF_07',source)
+    def test_invalid_motor_size_rejected(self):
+        m=self.model();p=m.load_parameters(ROOT/'Parameter.json');p['cnc_x_motor_w']=-5
+        with self.assertRaises(ValueError):m.validate(p)
+    def test_invalid_bearing_size_rejected(self):
+        m=self.model();p=m.load_parameters(ROOT/'Parameter.json');p['cnc_x_bearing_bore']=p['cnc_x_journal_d']
+        with self.assertRaises(ValueError):m.validate(p)
+    def test_poses_produce_valid_recipes(self):
+        m=self.model();base=m.load_parameters(ROOT/'Parameter.json')
+        for x,y,z in [(0,0,60),(50,20,100),(-50,-30,20)]:
+            p=dict(base,pos_x=x,pos_y=y,head_down=z);m.check_recipe(p)
+    def test_no_fabrication_release(self):
+        m=self.model()
+        for d in m.recipe():
+            if d['name'].startswith('CNC_'):
+                self.assertIn(d['status'],['ANSICHT_ENTWURF','KATALOGHUELLE_UNGEPRUEFT'])
+                self.assertFalse(d.get('manufacturing_released',False))
+if __name__=='__main__':unittest.main()

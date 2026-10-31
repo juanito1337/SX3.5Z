@@ -1,0 +1,22 @@
+{
+  "_note": "Entwurfsparameter09; Katalogmaße nicht überschreiben. Keine ATC-Betriebsfreigabe.",
+  "atc_pitch": 94.0,
+  "atc_pocket_count": 6.0,
+  "atc_y": -53.0,
+  "atc_gauge_above_table": 135.0,
+  "atc_base_l": 620.0,
+  "atc_base_d": 100.0,
+  "atc_base_t": 8.0,
+  "atc_beam_t": 4.0,
+  "atc_bend_r": 6.0,
+  "atc_locator_h": 10.0,
+  "atc_locator_w": 56.0,
+  "atc_locator_bore": 34.6,
+  "atc_flange_d_assumed": 46.0,
+  "atc_flange_h_assumed": 8.0,
+  "atc_tool_extra": 35.0,
+  "atc_pullstud_allowance": 30.0,
+  "atc_clearance": 15.0,
+  "cable_plate_t": 2.0,
+  "cable_plate_seal_t": 0.5
+}

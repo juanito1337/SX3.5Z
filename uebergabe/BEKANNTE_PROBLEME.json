@@ -1,0 +1,53 @@
+{
+  "schema": "SX35Z_HANDOFF_OPEN_ISSUES",
+  "source": "projekt/Pruefung_09/Pruefbericht_09.json",
+  "source_status": "Historisch übernommen, nicht neu geometrisch berechnet",
+  "retained_base_conflicts": [
+    {
+      "component": "CNC_X_Mutteraufnahme_Entwurf",
+      "casting": "Arbeitstisch_Foto",
+      "intersection_mm3": 11230.3275,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_X_Mutteraufnahme_Entwurf",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 4928.6036,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_X_Kugelspindel_Huelle",
+      "casting": "Kreuzschlitten_Guss_Detail",
+      "intersection_mm3": 117.3271,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Y_Kugelspindel_Huelle",
+      "casting": "Basis_Guss_Foto",
+      "intersection_mm3": 863.938,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Z_Anschlussplatte_Entwurf",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 12553.013,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    },
+    {
+      "component": "CNC_Z_Kugelspindel_Huelle",
+      "casting": "Blechsaeule_Stirnblech_oben",
+      "intersection_mm3": 265.0719,
+      "status": "MODEL_INTERSECTION_REQUIRES_REDESIGN"
+    }
+  ],
+  "open_measured_values": 35,
+  "limits": [
+    "Keine automatische Spann-/Löseeinheit für die Original-SK30-Spindel geliefert",
+    "Kein bestätigt kompatibler AliExpress-Lieferumfang, keine Livepreise",
+    "Keine originale Hersteller-STEP-Datei der neuen Kaufteile",
+    "Keine vollständige Achs-/Werkstück-/Tür-/ATC-Bahnsimulation",
+    "Keine Sicherheits-, Dichtheits-, Tragfähigkeits- oder Herstellungsfreigabe",
+    "Bisherige sechs Grundmaschinen-Anschlusskonflikte bleiben bestehen"
+  ],
+  "discussion_addendum": "ATC-Spindelpatrone als bevorzugte Untersuchungsoption, keine endgültige Auswahl."
+}

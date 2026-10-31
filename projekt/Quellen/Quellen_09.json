@@ -1,0 +1,146 @@
+{
+  "checked_on": "2026-10-30",
+  "note": "Neue Quellen. 08-Quellen gelten separat weiter. Keine Lagerbestands-/Lieferzusage.",
+  "sources": [
+    {
+      "id": "S09-01",
+      "title": "Ganter GN425 Edelstahl, Maßtabelle",
+      "url": "https://www.ganternorm.com/de/produkte/1.2-Bedienen-mit-Maschinen-und-Geraetegriffen/Buegelgriffe/GN-425-Buegelgriffe-Edelstahl",
+      "source_type": "PRIMARY",
+      "scope": "Ø12, Lochabstand160, Höhe51, M6, Gewindetiefe min12. Eckradius14 nicht exakt nachgebildet."
+    },
+    {
+      "id": "S09-02",
+      "title": "LAPP ST-M Datenblatt, Seite2",
+      "url": "https://media.lappcdn.com/9/917/91781/b1167c498e8e4082a6b5fe184073607c.pdf",
+      "source_type": "PRIMARY",
+      "scope": "53111020: M20x1.5, SW25, A27.6, Gesamthöhe34–37, Gewinde9, Kabel6–13. Tabelle und Zeichnung per Screenshot geprüft."
+    },
+    {
+      "id": "S09-03",
+      "title": "LAPP Gegenmutter Datenblatt, Seite2",
+      "url": "https://imager.lapp.com/e/lapp/IxNMTvvLiYtWEfUsJRUaNg~~/DB53119000EN.pdf",
+      "source_type": "PRIMARY",
+      "scope": "53119020: M20x1.5, SW27, Außendurchmesser29.7, Höhe6, Bund0.9. Screenshot geprüft."
+    },
+    {
+      "id": "S09-04",
+      "title": "Ganter DIN508, Maßtabelle",
+      "url": "https://www.ganternorm.com/de/produkte/3.2-Befestigen-Positionieren-Nivellieren-mit-Halteseilen-Schraub-Klemm-und-Auflageelementen/Muttern-Schrauben-fuer-T-Nuten/DIN-508-Muttern-fuer-T-Nuten-Stahl",
+      "source_type": "PRIMARY",
+      "scope": "Nut12/M10: a=12 mit Abmaß -0.3/-0.5, e18 mit Abmaß, h14, k7 mit Abmaß. Modell Maximalhülle; Istnut messen."
+    },
+    {
+      "id": "S09-05",
+      "title": "Würth ISO4762 M6x16 A2-70",
+      "url": "https://eshop.wurth.nl/Hexagon-Socket-Head-Cap-Screw-ISO-4762-DIN-912-M24-A2-70-stainless-steel-M24-A2-50-stainless-steel-SCR-CYL-ISO4762-A2-70-HS5-M6X16/00946%20%2016.sku/en/US/EUR/",
+      "source_type": "PRIMARY",
+      "scope": "M6x16; nominal Kopf10x6, Innensechskant5. Kein Anzugsmoment freigegeben."
+    },
+    {
+      "id": "S09-06",
+      "title": "WASI ISO7089 M5",
+      "url": "https://www.wasishop.de/de/Artikeldetails.php?artikel=7089-2-5%2C3",
+      "source_type": "PRIMARY",
+      "scope": "ISO7089 A2 200HV:5.3x10x1."
+    },
+    {
+      "id": "S09-07",
+      "title": "Würth ISO4032 M5 A2-70",
+      "url": "https://eshop.wuerth.de/Hexagon-nut-ISO-4032-A2-70-stainless-steel-plain-NUT-HEX-ISO4032-A2-70-WS8-M5/032295.sku/en/US/EUR/",
+      "source_type": "PRIMARY",
+      "scope": "M5,SW8,Höhe4.7; Gewinde als nominale Bohrung dargestellt."
+    },
+    {
+      "id": "S09-08",
+      "title": "Würth ISO4762 M10x25 10.9",
+      "url": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-ISO-4762-DIN-912-Stahl-109-blank-SHR-ZYL-ISO4762-109-IS8-M10X25/008010%2025.sku/de/DE/EUR/",
+      "source_type": "PRIMARY",
+      "scope": "Normauswahl für Magazinfuß. Festigkeit/Anziehmoment müssen zur realen T-Nut abgestimmt werden."
+    },
+    {
+      "id": "S09-09",
+      "title": "Würth Normteilübersicht",
+      "url": "https://www.wuerth.de/web/de/awkg/kompetenz/din_iso_normteile/din-iso-normteile.php",
+      "source_type": "PRIMARY",
+      "scope": "ISO4762 Normfamilie; die Längen25/16 sind projektspezifisch gewählt."
+    },
+    {
+      "id": "S09-10",
+      "title": "Wondersunm BT-ER Werkzeughalter",
+      "url": "https://www.wondersunm.com/bt-er-tool-holder",
+      "source_type": "PRIMARY_SELLER",
+      "scope": "BT30-ER20-70: L1=70,L=118.4,D=31.75,d2=34. Flansch/Gabel/Anzugsbolzen fehlen als freigegebene Detailzeichnung."
+    },
+    {
+      "id": "S09-11",
+      "title": "paulimot SX3.5Z",
+      "url": "https://www.paulimot.de/bohr-fraesmaschine-sieg-sx3.5z-mit-elektr.-antrieb-fuer-die-z-achse",
+      "source_type": "PRIMARY_SELLER",
+      "scope": "Stock:SK30/M12 DIN2080, 12mm T-Nuten,53mm Abstand. Kein bestätigtes automatisches Spannsystem."
+    },
+    {
+      "id": "S09-12",
+      "title": "Automation Technology BT30 Belt Drive Spindle Kit",
+      "url": "https://www.automationtechnologiesinc.com/products-page/milling-machine/bt30-belt-drive-spindle-kit",
+      "source_type": "PRIMARY_SELLER",
+      "scope": "Vergleichskit:2780USD Seitenpreis; 90mm,6000rpm,2.2kW,6–7bar,Encoderorientierung. Kein Einbaunachweis für SX35Z."
+    },
+    {
+      "id": "S09-13",
+      "title": "LinuxCNC Remap",
+      "url": "https://linuxcnc.org/docs/stable/html/remap/remap.html",
+      "source_type": "PRIMARY",
+      "scope": "M6 ist konfigurierbar. Kein ausführbarer ATC-Makro in dieser Lieferung; reale Interlocks fehlen."
+    },
+    {
+      "id": "S09-14",
+      "title": "RicoCNC DES BT30 Fork",
+      "url": "https://www.ricocnc.com/products/1447-DES-BT30-Plastic-Tool-Clips-Tool-Forks-for-DES-Disc-Type-Tool-Magazine.html",
+      "source_type": "PRIMARY_SELLER",
+      "scope": "Realer Fork-Kandidat. Anschlussmaße nicht beschafft; NICHT als maßbestätigtes Kaufteil nachmodelliert."
+    },
+    {
+      "id": "S09-15",
+      "title": "Würth ISO7089 M10",
+      "url": "https://eshop.wuerth.de/Flache-Scheibe-ohne-Fase-ISO-7089-Edelstahl-A2-200HV-SHB-ISO7089-A2-200HV-10/4643816010.sku/de/DE/EUR/",
+      "source_type": "PRIMARY",
+      "scope": "10.5x20x2 nominal."
+    },
+    {
+      "id": "S09-16",
+      "title": "Würth ISO7089 M6",
+      "url": "https://eshop.wuerth.de/Scheibe-ISO-7089-Stahl-300-HV-Zink-Nickel-schwarz-SHB-ISO7089-300HV-ZNBH-6/46416076.sku/de/DE/EUR/",
+      "source_type": "PRIMARY",
+      "scope": "Geometrie6.4x12x1.6; Werkstoffausführung der neuen Kaufposition A2-200HV ist gesondert bei Lieferant zu bestellen."
+    },
+    {
+      "id": "ALI09-01",
+      "title": "BT30 Automatic Tool Changer Spindle (Titel des Indexes)",
+      "url": "https://da.pricearchive.org/aliexpress.com/item/1005011869266077",
+      "source_type": "SECONDARY_PRICE_INDEX",
+      "scope": "Historischer USD-Indexpreis 252.84 vom 2026-10-20; kein technischer Nachweis / keine Livebestellprüfung."
+    },
+    {
+      "id": "ALI09-02",
+      "title": "BT30 Unpowered Spindle with Cylinder (Titel des Indexes)",
+      "url": "https://sv.pricearchive.org/aliexpress.com/item/1005012299025993",
+      "source_type": "SECONDARY_PRICE_INDEX",
+      "scope": "Historischer USD-Indexpreis 299.08 vom 2026-09-10; kein technischer Nachweis / keine Livebestellprüfung."
+    },
+    {
+      "id": "ALI09-03",
+      "title": "BT30 Automatic Tool Change Unpowered Spindle (Titel des Indexes)",
+      "url": "https://www.pricearchive.org/aliexpress.com/item/1005012842667799",
+      "source_type": "SECONDARY_PRICE_INDEX",
+      "scope": "Historischer USD-Indexpreis 700.23 vom 2026-10-17; kein technischer Nachweis / keine Livebestellprüfung."
+    },
+    {
+      "id": "ALI09-04",
+      "title": "TLF WFIT BT30/BT40/ISO20 Magazin, 6/8/10/12/16/20 Plätze",
+      "url": "https://ms.pricearchive.org/aliexpress.com/item/1005011599152879",
+      "source_type": "SECONDARY_PRICE_INDEX",
+      "scope": "Historischer USD-Indexpreis 870.15 vom 2026-09-13; kein technischer Nachweis / keine Livebestellprüfung."
+    }
+  ]
+}

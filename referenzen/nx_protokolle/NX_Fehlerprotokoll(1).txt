@@ -1,0 +1,206 @@
+SX3.5Z Detailmodell v4 -- Native Einzelteile zuerst, danach Baugruppen.
+FOTO-REKONSTRUKTION; Anschlussmasse unbestaetigt. KEIN Fertigungsdatensatz.
+Journal-Version: 4.1
+Python: 3.10.12 (main, Mar  5 2024, 17:56:48) [MSC v.1929 64 bit (AMD64)]
+NXOpen-Modul: C:\Siemens\nx2406\nxbin\python\NXOpen.pyd
+Adapterdatei: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\nx_native.py
+Geometriedatei: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\modell_v4.py
+Geometriestand: 4.0; Journal-Patch: 4.1
+Startjournal: C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\NX_Detailbaugruppe_erzeugen.py
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x0000021E483684D0>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x0000021E483684D0>; Typ=NXOpen.BasePartUnitsMemberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+API-Testphase 1: Ausdruckserzeugung und assoziative Punkte
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x0000021E483684D0>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x0000021E483684D0>; Typ=NXOpen.BasePartUnitsMemberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+Laengeneinheit ueber GetBase: Python-Typ Unit; Tag 64164
+API-Vortest bestanden: CreateNumberExpression
+API-Testphase 2: Parameter und abgeleitete Ausdruecke
+Fehler bei Ausdruck [CreateNumberExpression]: sx_table_y = 180
+API-Testteil: SX35Z_V4_API_085350221148
+API-Testfeature: None
+--- Ausdrucks-API-Diagnose ---
+Ausgewaehlter Modus: CreateNumberExpression
+Letzter Ausdruck: sx_table_y = 180
+Expressions-Typ: ExpressionCollection
+Unit-Typ: Unit
+CreateNumberExpression vorhanden: True
+Overloaded method CreateNumberExpression
+
+
+
+
+* ``CreateNumberExpression(expressionString, unitType)`` 
+* ``CreateNumberExpression(name, formula, isUserLocked, units)`` 
+
+``-------------------------------------``
+
+Creates a number expression.
+The calculated units of the formula must be compatible
+with the given units for the expression. A unitless expression may be created
+by setting the units to None. In that case, the formula should also be a unitless number.
+
+
+Signature ``CreateNumberExpression(expressionString, unitType)`` 
+
+:param expressionString:  The expression as a string.  Must be in the format: "name = formula".                                   For example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:param unitType:  units for the expression  
+:type unitType: :py:class:`NXOpen.Unit` 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX1847.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+
+
+CreateWithUnits vorhanden: True
+Overloaded method CreateWithUnits
+
+
+
+
+* ``CreateWithUnits(expressionString, unitType)`` 
+* ``CreateWithUnits(leftHandSide, rightHandSide, isUserLocked, units)`` 
+
+``-------------------------------------``
+
+Creates a number expression with units. 
+The calculated units of the formula must be compatible
+with the given units for the expression. A unitless expression may be created
+by setting the units to None.
+
+NOTE: Avoid this legacy function in new application code.
+The calculated dimensionality of the given formula must generally match the dimensionality
+of the expression being edited. If the formula's units are determined to be unitless, then
+this function will assume that its units match the units of the expression.
+
+
+
+
+This function may set a modified equation formula if the expression involves angles.
+The modification performed by this function can, if needed for some parts, be
+suppressed by setting the environment variable UGII_KF_DONT_CONVERT_FORMULAS_FOR_RADIAN_UNITS.
+If the units of the expression and the formula do not have
+matching angle dimensions then the legacy system required that a conversion factor
+be applied as follows (no matter what units were used for arcAngle):
+
+
+
+
+arcLength = arcRadius * arcAngle * pi() / 180.
+units: mm
+
+
+
+
+This is no longer needed and, in fact, will give wrong results. Expressions
+are modified on load to remove this conversion factor. However, legacy code may
+expect to need it and therefore have added it, so this function will remove it
+before writing it to the expression object. Note that the inverse of the
+previously needed conversion factor is added. The function does not attempt to
+actually remove the existing conversion factor text.
+
+
+
+
+arcLength = (arcRadius * arcAngle * pi() / 180.) * (180. / pi())
+units: mm
+
+
+
+
+To properly create an expression, use instead :py:meth:`NXOpen.ExpressionCollection.CreateNumberExpression` 
+with a formula as follows:
+
+
+
+
+arcLength = arcRadius * arcAngle
+units: mm
+
+
+
+
+
+Signature ``CreateWithUnits(expressionString, unitType)`` 
+
+:param expressionString:  The expression as a string.  Must be in the format: "name = formula".                                                 For example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:param unitType:  units for the expression  
+:type unitType: :py:class:`NXOpen.Unit` 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX4.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+``-------------------------------------``
+
+
+
+CreateExpression vorhanden: True
+Creates an expression of the specified type.  
+
+
+If the expression is a number, it creates a unitless
+expression.
+
+
+Signature ``CreateExpression(expressionType, expressionString)`` 
+
+:param expressionType:  The type of the expression, such as "Number", "String", "Boolean", "Integer", "Point" and "Vector"  
+:type expressionType: str 
+:param expressionString:  the full expression string.  Must be in the format: "name = formula".                                                 For example, "x = 1.2 * y + z".  
+:type expressionString: str 
+:returns:  the new expression  
+:rtype: :py:class:`NXOpen.Expression` 
+
+.. versionadded:: NX5.0.0
+
+
+
+
+
+
+License requirements: None.
+
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\NX_Detailbaugruppe_erzeugen.py", line 153, in main
+    mode=probe(session,params,log,os.path.join(out,'_API_Test'))
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\NX_Detailbaugruppe_erzeugen.py", line 117, in probe
+    b.create_expressions()
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\nx_native.py", line 289, in create_expressions
+    exp=self.expression_factory.create('sx_%s = %.12g'%(name,self.parameters[name]))
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\nx_native.py", line 232, in create
+    return self._make(self.mode, equation)
+  File "C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\nx_native.py", line 131, in _make
+    return self.part.Expressions.CreateNumberExpression(equation, self.unit)
+NXOpen.NXException: Zweiter Parameter ist ungültig, Erster Parameter ist ungültig. Typ int erwartet, str gefunden.
+
+Betroffenes Teil: None
+Abbruch im Vortest; in diesem Lauf wurden noch keine Maschinen-Einzelteile aufgebaut.
+Ausgabeordner dieses Laufs (ggf. unvollstaendig): C:\Users\Jan\Downloads\SX35Z_NX_Journale_v4_1\SX35Z_NX_Journale_v4_1\NX_Output\SX35Z_v4_1_20261023_085350_220154

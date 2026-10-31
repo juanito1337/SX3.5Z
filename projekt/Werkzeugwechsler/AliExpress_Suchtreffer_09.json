@@ -1,0 +1,69 @@
+{
+  "note": "Nur Recherche-/Anfragehinweise. Keine technischen Daten aus Indexbildern übernommen, keine Livepreise oder Komplettkosten. Direkte AliExpress-Aufrufe konnten nicht verifiziert werden.",
+  "leads": [
+    {
+      "id": "ALI09-01",
+      "article_id": "1005011869266077",
+      "label": "BT30 Automatic Tool Changer Spindle (Titel des Indexes)",
+      "historical_price_usd": 252.84,
+      "price_date": "2026-10-20",
+      "url": "https://www.aliexpress.com/item/1005011869266077.html",
+      "evidence_url": "https://da.pricearchive.org/aliexpress.com/item/1005011869266077",
+      "assessment": "Günstigster hier gefundener Indexpreis; vermutlich günstigste Produktvariante. Vollständigkeit, Maße, Verkäufer und Lieferfähigkeit nicht bestätigt.",
+      "checked_on": "2026-10-30",
+      "source_type": "SECONDARY_PRICE_INDEX",
+      "live_offer_verified": false,
+      "variant_verified": false,
+      "shipping_tax_known": false,
+      "purchase_released": false
+    },
+    {
+      "id": "ALI09-02",
+      "article_id": "1005012299025993",
+      "label": "BT30 Unpowered Spindle with Cylinder (Titel des Indexes)",
+      "historical_price_usd": 299.08,
+      "price_date": "2026-09-10",
+      "url": "https://www.aliexpress.com/item/1005012299025993.html",
+      "evidence_url": "https://sv.pricearchive.org/aliexpress.com/item/1005012299025993",
+      "assessment": "Spindelkartusche laut Titel, kein nachgewiesener kompletter Werkzeugwechsler; Motor, Magazin und Steuerung nicht als enthalten bestätigt.",
+      "checked_on": "2026-10-30",
+      "source_type": "SECONDARY_PRICE_INDEX",
+      "live_offer_verified": false,
+      "variant_verified": false,
+      "shipping_tax_known": false,
+      "purchase_released": false
+    },
+    {
+      "id": "ALI09-03",
+      "article_id": "1005012842667799",
+      "label": "BT30 Automatic Tool Change Unpowered Spindle (Titel des Indexes)",
+      "historical_price_usd": 700.23,
+      "price_date": "2026-10-17",
+      "url": "https://www.aliexpress.com/item/1005012842667799.html",
+      "evidence_url": "https://www.pricearchive.org/aliexpress.com/item/1005012842667799",
+      "assessment": "Unangetriebene Spindel laut Titel; konkrete Variante, Anbaumaße und Endpreis offen.",
+      "checked_on": "2026-10-30",
+      "source_type": "SECONDARY_PRICE_INDEX",
+      "live_offer_verified": false,
+      "variant_verified": false,
+      "shipping_tax_known": false,
+      "purchase_released": false
+    },
+    {
+      "id": "ALI09-04",
+      "article_id": "1005011599152879",
+      "label": "TLF WFIT BT30/BT40/ISO20 Magazin, 6/8/10/12/16/20 Plätze",
+      "historical_price_usd": 870.15,
+      "price_date": "2026-09-13",
+      "url": "https://www.aliexpress.com/item/1005011599152879.html",
+      "evidence_url": "https://ms.pricearchive.org/aliexpress.com/item/1005011599152879",
+      "assessment": "Magazin, keine automatische Spindelspannung. Preis nicht einer konkreten BT30-Sechsplatzvariante zugeordnet; kein Preisvergleich gleicher Ausstattung.",
+      "checked_on": "2026-10-30",
+      "source_type": "SECONDARY_PRICE_INDEX",
+      "live_offer_verified": false,
+      "variant_verified": false,
+      "shipping_tax_known": false,
+      "purchase_released": false
+    }
+  ]
+}

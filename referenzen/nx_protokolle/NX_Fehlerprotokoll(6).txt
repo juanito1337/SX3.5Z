@@ -1,0 +1,34 @@
+SX3.5Z Detailmodell v4 -- Native Einzelteile zuerst, danach Baugruppen.
+FOTO-REKONSTRUKTION; Anschlussmasse unbestaetigt. KEIN Fertigungsdatensatz.
+Journal-Version: 4.7
+Python: 3.10.15 (main, Sep 30 2024, 11:52:23) [MSC v.1929 64 bit (AMD64)]
+NXOpen-Modul: C:\Siemens\NX2406\nxbin\python\NXOpen.pyd
+Adapterdatei: W:\SX35Z_NX_Journale_v4_7\nx_native.py
+Geometriedatei: W:\SX35Z_NX_Journale_v4_7\modell_v4.py
+Geometriestand: 4.7; Journal-Patch: 4.7
+Startjournal: W:\SX35Z_NX_Journale_v4_7\NX_Detailbaugruppe_erzeugen.py
+Traceback (most recent call last):
+  File "C:\Siemens\NX2406\nxbin\python\Python310.zip\ntpath.py", line 689, in realpath
+    path = _getfinalpathname(path)
+OSError: [WinError 1005] Auf dem Datenträger befindet sich kein erkanntes Dateisystem.
+Stellen Sie sicher, dass alle benötigten Dateisystemtreiber geladen sind und dass der Datenträger nicht beschädigt ist: 'W:\\SX35Z_NX_Journale_v4_7\\NX_Output\\SX35Z_v4_7_20261026_202500_973698_cb9ea5393196'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "W:\SX35Z_NX_Journale_v4_7\NX_Detailbaugruppe_erzeugen.py", line 160, in main
+    files=NativePartFiles(session,out,run_id,log)
+  File "W:\SX35Z_NX_Journale_v4_7\nx_files.py", line 80, in __init__
+    self.directory = canonical(directory)
+  File "W:\SX35Z_NX_Journale_v4_7\nx_files.py", line 21, in canonical
+    return os.path.normcase(os.path.realpath(os.path.abspath(os.fspath(path))))
+  File "C:\Siemens\NX2406\nxbin\python\Python310.zip\ntpath.py", line 695, in realpath
+    path = _getfinalpathname_nonstrict(path)
+  File "C:\Siemens\NX2406\nxbin\python\Python310.zip\ntpath.py", line 643, in _getfinalpathname_nonstrict
+    path = _getfinalpathname(path)
+OSError: [WinError 1005] Auf dem Datenträger befindet sich kein erkanntes Dateisystem.
+Stellen Sie sicher, dass alle benötigten Dateisystemtreiber geladen sind und dass der Datenträger nicht beschädigt ist: 'W:\\SX35Z_NX_Journale_v4_7\\NX_Output\\SX35Z_v4_7_20261026_202500_973698_cb9ea5393196'
+
+Betroffenes Teil: None
+Abbruch im Vortest; in diesem Lauf wurden noch keine Maschinen-Einzelteile aufgebaut.
+Ausgabeordner dieses Laufs (ggf. unvollstaendig): W:\SX35Z_NX_Journale_v4_7\NX_Output\SX35Z_v4_7_20261026_202500_973698_cb9ea5393196

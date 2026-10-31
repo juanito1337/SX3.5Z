@@ -1,0 +1,32 @@
+test_all_checkboxes_do_not_grant_safety_release (test_review08.Review08.test_all_checkboxes_do_not_grant_safety_release) ... ok
+test_all_sources_nonempty (test_review08.Review08.test_all_sources_nonempty) ... FAIL
+test_mapped_purchase_quantities (test_review08.Review08.test_mapped_purchase_quantities) ... ok
+test_order_lengths_unknown (test_review08.Review08.test_order_lengths_unknown) ... /mnt/data/SX35Z_CNC_Umsetzung_08/v3_geometriebasis.py:282: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  if isinstance(n, ast.Num): return float(n.n)
+ok
+test_purchase_units_and_sources (test_review08.Review08.test_purchase_units_and_sources) ... ok
+test_too_long_table_is_rejected (test_review08.Review08.test_too_long_table_is_rejected) ... FAIL
+test_too_short_screw_is_rejected (test_review08.Review08.test_too_short_screw_is_rejected) ... ok
+
+======================================================================
+FAIL: test_all_sources_nonempty (test_review08.Review08.test_all_sources_nonempty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_review08.py", line 8, in test_all_sources_nonempty
+    for d in m.recipe(): self.assertTrue(d.get('source'), d['name'])
+                         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '' is not true : CNC_X_FK_Schraube_1
+
+======================================================================
+FAIL: test_too_long_table_is_rejected (test_review08.Review08.test_too_long_table_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/SX35Z_CNC_Umsetzung_08/tests08/test_review08.py", line 11, in test_too_long_table_is_rejected
+    with self.assertRaises(ValueError):m.check_recipe(p)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.539s
+
+FAILED (failures=2)
