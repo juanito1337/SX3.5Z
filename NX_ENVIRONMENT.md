@@ -1,5 +1,27 @@
 # Ausführungsumgebungen – nicht miteinander verwechseln
 
+## Separate Offline-Umgebung, 31.10.2026
+
+Unter `.venv/` liegt jetzt eine lokale Standard-Python-Umgebung: CPython 3.12.14,
+pytest 9.0.2, CadQuery 2.8.0 und cadquery-ocp 7.9.3.1.1. Erstellt mit der
+vorhandenen gebuendelten Laufzeit, ohne globale Python- oder NX-Aenderungen.
+Alle 112 Tests und 91 Untertests der aktiven Suite bestanden. Vollstaendige
+Paketversionen: `ergebnisse/entwicklung/20261031_134859/offline_freeze.txt`.
+
+Aus `projekt/`:
+`../.venv/Scripts/python.exe -m pytest -q -p no:cacheprovider`
+
+Aus Paketstamm:
+`.venv/Scripts/python.exe tools_handoff/verify_package.py`
+und `.venv/Scripts/python.exe -m unittest discover -s tools_handoff -p "test_*.py" -v`.
+Der historische Paketcheck meldet absichtliche Git-Aenderungen; sein Manifest
+nicht zum Gruenfaerben ersetzen. Ein Hilfstest fuer Symlinks ist unter diesem
+Windows nicht ausfuehrbar. Native Tests separat mit `run_journal.exe`.
+
+Die `.venv` ist lokal und ignoriert. Bei neuem Checkout mit einer separaten
+Standard-Python-Installation eine `.venv` erstellen und dort
+`python -m pip install -r requirements-offline.txt` ausfuehren; niemals in NX.
+
 ## Lokal nachgewiesen am 31.10.2026
 
 `C:/Siemens/nx2406/NXBIN/run_journal.exe` fuehrt Python-Journale mit NXOpen und

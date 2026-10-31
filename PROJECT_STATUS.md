@@ -1,5 +1,29 @@
 # Projektstatus zum Codex-Übergabestand
 
+## Entwicklungspruefung 31.10.2026, nach Revision 6631f8b
+
+Alle sieben aktiven NX-Journale erneut in frischen NX-2406-Prozessen verarbeitet:
+Exitcode jeweils 0, einschliesslich Gesamtaufbau und Wiedereroeffnung. Separate
+lokale `.venv` eingerichtet: 112 Offline-Tests und 91 Untertests bestanden.
+Hilfstests: 9 bestanden, 1 wegen nicht verfuegbarer Windows-Symlinks uebersprungen.
+
+Die Rezept-Hashabweichung ist jetzt diagnostiziert: letzte Floatstellen von
+sin/cos unterscheiden sich nach Rechenpfad. Echter NX-Hash und historischer
+Hash sind aus identischem Code reproduziert; 49 Zahlenabweichungen in fuenf
+Teilen, maximal 2,84e-14 mm bei ausgewerteten Laengen. Der historische
+Referenzvergleich bleibt bis zu einer belegten Migration gesperrt.
+
+Detailaudit: 105 von 148 Fertigungspositionen nennen fehlende Zeichnungen,
+26 von 69 Einkaufspositionen sind offene Beschaffungen. Maschinenbefestigungen,
+Sensorhalter, Spindelenden, Zeichnungs-/Abwicklungs-Export und Elektrik/ATC
+brauchen weitere Ausarbeitung. 35 Istmasse und sechs Anschlusskonflikte offen.
+Keine neue Produktionscode-Aenderung oder mechanische Freigabe in diesem Audit.
+
+Verbindlicher Fortsetzungsindex mit Entwicklungsprompts:
+`docs/superpowers/plans/2026-10-31-entwicklungsroadmap.md`.
+Pruefergebnisse/Umfang: `docs/superpowers/plans/2026-10-31-journalpruefbericht.md`.
+Die folgenden Abschnitte dokumentieren die vorangegangenen Arbeitsstaende.
+
 ## Fortschreibung 31.10.2026: Stand09 erstmals hier vollstaendig nativ erzeugt
 
 Nach Nutzerentscheidung wurden neue Dateien ausschliesslich aus `projekt/`

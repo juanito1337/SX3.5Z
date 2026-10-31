@@ -1,0 +1,38 @@
+{
+  "ok": false,
+  "scope": "Listed file SHA-256 identity only",
+  "verified": 470,
+  "listed": 477,
+  "errors": [
+    {
+      "path": "NEXT_STEPS.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "NX_ENVIRONMENT.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "README_START.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/NX_Ausgabe.json",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/nx_native.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "uebergabe/ENTSCHEIDUNGEN.md",
+      "error": "hash_mismatch"
+    }
+  ],
+  "native_nx_executed": false,
+  "manufacturing_released": false
+}

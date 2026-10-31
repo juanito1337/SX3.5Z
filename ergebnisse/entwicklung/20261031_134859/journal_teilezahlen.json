@@ -1,0 +1,37 @@
+[
+  {
+    "Journal": "NX_Metadaten_Pruefen",
+    "Exit": 0,
+    "Parts": ""
+  },
+  {
+    "Journal": "NX_Blech_Pruefen",
+    "Exit": 0,
+    "Parts": "1"
+  },
+  {
+    "Journal": "NX_KSS_Pruefen",
+    "Exit": 0,
+    "Parts": "10"
+  },
+  {
+    "Journal": "NX_Umbau_Kern_Pruefen",
+    "Exit": 0,
+    "Parts": "154"
+  },
+  {
+    "Journal": "NX_Normteile_ATC_Pruefen",
+    "Exit": 0,
+    "Parts": "129"
+  },
+  {
+    "Journal": "NX_CNC_Gesamtansicht",
+    "Exit": 0,
+    "Parts": "560"
+  },
+  {
+    "Journal": "NX_Git_Lieferstand_Pruefen",
+    "Exit": 0,
+    "Parts": ""
+  }
+]

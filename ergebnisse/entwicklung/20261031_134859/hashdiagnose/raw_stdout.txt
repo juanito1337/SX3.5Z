@@ -1,0 +1,39 @@
+{
+  "date_utc": "2026-10-31T12:51:16.160974+00:00",
+  "baseline": "6631f8b",
+  "current_head": "6631f8b65e7a1188d24391d8b10ce84c1cd7b114",
+  "command": "C:\\Users\\1337\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\hashdiagnose\\reproduce_recipe_hash.py",
+  "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "scope": "Offline recipe serialization only; actual NX recipe dump compared; no geometry execution",
+  "exitcode": 0,
+  "hashes": {
+    "initial": "3a4e46b565935d7d696c8b8fa74787c3edaf534a18f381123f59b17b2bf52c19",
+    "fma0": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+    "fma1": "3a4e46b565935d7d696c8b8fa74787c3edaf534a18f381123f59b17b2bf52c19",
+    "native_dump": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+    "decimal70": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+    "decimal100": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+    "parameters": "cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0"
+  },
+  "expected_native": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+  "expected_history": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+  "expected_parameter": "cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0",
+  "native_dump_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\recipe_nx310.json",
+  "native_dump_file_sha256": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+  "native_fma0_canonical_bytes_equal": true,
+  "decimal70_decimal100_canonical_bytes_equal": true,
+  "parts": 560,
+  "operations": 1829,
+  "differing_leaf_count": 49,
+  "differing_part_count": 5,
+  "all_differences_in_ops": true,
+  "max_evaluated_mm_delta": 2.842170943040401e-14,
+  "max_evaluated_direction_delta": 7.771561172376096e-16,
+  "limitation": "Historical Linux runtime not rerun. Matching historical SHA reconstructed with two independent decimal precisions. No native volume, collision, safety or release claim."
+}
+AFFECTED_PARTS [{"part_id": "B040", "name": "Spindel_Laengsverzahnung_Huelle", "leaf_count": 1}, {"part_id": "B063", "name": "Spindel_Riemenscheibe", "leaf_count": 1}, {"part_id": "B064", "name": "Motor_Riemenscheibe", "leaf_count": 1}, {"part_id": "B125", "name": "Wellschlauch_1_Neutralstellung", "leaf_count": 23}, {"part_id": "B126", "name": "Wellschlauch_2_Neutralstellung", "leaf_count": 23}]
+SOURCE_UNCHANGED: no project writes; FMA3 state belongs to this disposable process.

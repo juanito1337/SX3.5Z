@@ -1,0 +1,748 @@
+{
+  "date_utc": "2026-10-31T12:51:16.160974+00:00",
+  "baseline": "6631f8b",
+  "current_head": "6631f8b65e7a1188d24391d8b10ce84c1cd7b114",
+  "command": "C:\\Users\\1337\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\hashdiagnose\\reproduce_recipe_hash.py",
+  "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "scope": "Offline recipe serialization only; actual NX recipe dump compared; no geometry execution",
+  "exitcode": 0,
+  "hashes": {
+    "initial": "3a4e46b565935d7d696c8b8fa74787c3edaf534a18f381123f59b17b2bf52c19",
+    "fma0": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+    "fma1": "3a4e46b565935d7d696c8b8fa74787c3edaf534a18f381123f59b17b2bf52c19",
+    "native_dump": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+    "decimal70": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+    "decimal100": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+    "parameters": "cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0"
+  },
+  "expected_native": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+  "expected_history": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+  "expected_parameter": "cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0",
+  "native_dump_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\recipe_nx310.json",
+  "native_dump_file_sha256": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+  "native_fma0_canonical_bytes_equal": true,
+  "decimal70_decimal100_canonical_bytes_equal": true,
+  "parts": 560,
+  "operations": 1829,
+  "differing_leaf_count": 49,
+  "differing_part_count": 5,
+  "all_differences_in_ops": true,
+  "max_evaluated_mm_delta": 2.842170943040401e-14,
+  "max_evaluated_direction_delta": 7.771561172376096e-16,
+  "affected_parts": [
+    {
+      "part_id": "B040",
+      "name": "Spindel_Laengsverzahnung_Huelle",
+      "leaf_count": 1
+    },
+    {
+      "part_id": "B063",
+      "name": "Spindel_Riemenscheibe",
+      "leaf_count": 1
+    },
+    {
+      "part_id": "B064",
+      "name": "Motor_Riemenscheibe",
+      "leaf_count": 1
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "leaf_count": 23
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "leaf_count": 23
+    }
+  ],
+  "differences": [
+    {
+      "part_id": "B040",
+      "name": "Spindel_Laengsverzahnung_Huelle",
+      "path": [
+        "ops",
+        3,
+        "origin",
+        1
+      ],
+      "native": "0.7071067811865476*(spindle_top_shaft_d/2-3)",
+      "historical_reconstructed": "0.7071067811865475*(spindle_top_shaft_d/2-3)",
+      "evaluated_absolute_delta": 1.7763568394002505e-15,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B063",
+      "name": "Spindel_Riemenscheibe",
+      "path": [
+        "ops",
+        11,
+        "origin",
+        1
+      ],
+      "native": "(0)+(14.849242404917499)",
+      "historical_reconstructed": "(0)+(14.849242404917497)",
+      "evaluated_absolute_delta": 1.7763568394002505e-15,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B064",
+      "name": "Motor_Riemenscheibe",
+      "path": [
+        "ops",
+        11,
+        "origin",
+        1
+      ],
+      "native": "(motor_y)+(11.313708498984761)",
+      "historical_reconstructed": "(motor_y)+(11.31370849898476)",
+      "evaluated_absolute_delta": 0.0,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        27,
+        "direction",
+        0
+      ],
+      "native": -0.6681754320966545,
+      "historical_reconstructed": -0.6681754320966539,
+      "evaluated_absolute_delta": 6.661338147750939e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        27,
+        "direction",
+        1
+      ],
+      "native": -0.6793230218521114,
+      "historical_reconstructed": -0.6793230218521118,
+      "evaluated_absolute_delta": 4.440892098500626e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        27,
+        "direction",
+        2
+      ],
+      "native": 0.3034169143672859,
+      "historical_reconstructed": 0.3034169143672861,
+      "evaluated_absolute_delta": 1.6653345369377348e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        27,
+        "height"
+      ],
+      "native": "13.712456852743687",
+      "historical_reconstructed": "13.712456852743678",
+      "evaluated_absolute_delta": 8.881784197001252e-15,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        28,
+        "direction",
+        0
+      ],
+      "native": -0.6681754320966545,
+      "historical_reconstructed": -0.6681754320966539,
+      "evaluated_absolute_delta": 6.661338147750939e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        28,
+        "direction",
+        1
+      ],
+      "native": -0.6793230218521114,
+      "historical_reconstructed": -0.6793230218521118,
+      "evaluated_absolute_delta": 4.440892098500626e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        28,
+        "direction",
+        2
+      ],
+      "native": 0.3034169143672859,
+      "historical_reconstructed": 0.3034169143672861,
+      "evaluated_absolute_delta": 1.6653345369377348e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        29,
+        "direction",
+        0
+      ],
+      "native": -0.6681754320966545,
+      "historical_reconstructed": -0.6681754320966539,
+      "evaluated_absolute_delta": 6.661338147750939e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        29,
+        "direction",
+        1
+      ],
+      "native": -0.6793230218521114,
+      "historical_reconstructed": -0.6793230218521118,
+      "evaluated_absolute_delta": 4.440892098500626e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        29,
+        "direction",
+        2
+      ],
+      "native": 0.3034169143672859,
+      "historical_reconstructed": 0.3034169143672861,
+      "evaluated_absolute_delta": 1.6653345369377348e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        29,
+        "origin",
+        0
+      ],
+      "native": "(-cover_width/2-20)+(-99.60430257958893)",
+      "historical_reconstructed": "(-cover_width/2-20)+(-99.60430257958892)",
+      "evaluated_absolute_delta": 0.0,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "direction",
+        0
+      ],
+      "native": -0.6654494424077446,
+      "historical_reconstructed": -0.6654494424077454,
+      "evaluated_absolute_delta": 7.771561172376096e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "direction",
+        1
+      ],
+      "native": -0.7318893464104029,
+      "historical_reconstructed": -0.7318893464104024,
+      "evaluated_absolute_delta": 5.551115123125783e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "direction",
+        2
+      ],
+      "native": 0.14668000617049004,
+      "historical_reconstructed": 0.14668000617048993,
+      "evaluated_absolute_delta": 1.1102230246251565e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "height"
+      ],
+      "native": "12.8137774674393",
+      "historical_reconstructed": "12.813777467439309",
+      "evaluated_absolute_delta": 8.881784197001252e-15,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "origin",
+        0
+      ],
+      "native": "(-cover_width/2-20)+(-102.13121360660475)",
+      "historical_reconstructed": "(-cover_width/2-20)+(-102.13121360660473)",
+      "evaluated_absolute_delta": 2.842170943040401e-14,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        31,
+        "direction",
+        0
+      ],
+      "native": -0.6654494424077446,
+      "historical_reconstructed": -0.6654494424077454,
+      "evaluated_absolute_delta": 7.771561172376096e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        31,
+        "direction",
+        1
+      ],
+      "native": -0.7318893464104029,
+      "historical_reconstructed": -0.7318893464104024,
+      "evaluated_absolute_delta": 5.551115123125783e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        31,
+        "direction",
+        2
+      ],
+      "native": 0.14668000617049004,
+      "historical_reconstructed": 0.14668000617048993,
+      "evaluated_absolute_delta": 1.1102230246251565e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        31,
+        "origin",
+        0
+      ],
+      "native": "(-cover_width/2-20)+(-104.46257870703818)",
+      "historical_reconstructed": "(-cover_width/2-20)+(-104.46257870703816)",
+      "evaluated_absolute_delta": 0.0,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        32,
+        "direction",
+        0
+      ],
+      "native": -0.6654494424077446,
+      "historical_reconstructed": -0.6654494424077454,
+      "evaluated_absolute_delta": 7.771561172376096e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        32,
+        "direction",
+        1
+      ],
+      "native": -0.7318893464104029,
+      "historical_reconstructed": -0.7318893464104024,
+      "evaluated_absolute_delta": 5.551115123125783e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B125",
+      "name": "Wellschlauch_1_Neutralstellung",
+      "path": [
+        "ops",
+        32,
+        "direction",
+        2
+      ],
+      "native": 0.14668000617049004,
+      "historical_reconstructed": 0.14668000617048993,
+      "evaluated_absolute_delta": 1.1102230246251565e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        27,
+        "direction",
+        0
+      ],
+      "native": -0.6681754320966545,
+      "historical_reconstructed": -0.6681754320966539,
+      "evaluated_absolute_delta": 6.661338147750939e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        27,
+        "direction",
+        1
+      ],
+      "native": -0.6793230218521114,
+      "historical_reconstructed": -0.6793230218521118,
+      "evaluated_absolute_delta": 4.440892098500626e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        27,
+        "direction",
+        2
+      ],
+      "native": 0.3034169143672859,
+      "historical_reconstructed": 0.3034169143672861,
+      "evaluated_absolute_delta": 1.6653345369377348e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        27,
+        "height"
+      ],
+      "native": "13.712456852743687",
+      "historical_reconstructed": "13.712456852743678",
+      "evaluated_absolute_delta": 8.881784197001252e-15,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        28,
+        "direction",
+        0
+      ],
+      "native": -0.6681754320966545,
+      "historical_reconstructed": -0.6681754320966539,
+      "evaluated_absolute_delta": 6.661338147750939e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        28,
+        "direction",
+        1
+      ],
+      "native": -0.6793230218521114,
+      "historical_reconstructed": -0.6793230218521118,
+      "evaluated_absolute_delta": 4.440892098500626e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        28,
+        "direction",
+        2
+      ],
+      "native": 0.3034169143672859,
+      "historical_reconstructed": 0.3034169143672861,
+      "evaluated_absolute_delta": 1.6653345369377348e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        29,
+        "direction",
+        0
+      ],
+      "native": -0.6681754320966545,
+      "historical_reconstructed": -0.6681754320966539,
+      "evaluated_absolute_delta": 6.661338147750939e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        29,
+        "direction",
+        1
+      ],
+      "native": -0.6793230218521114,
+      "historical_reconstructed": -0.6793230218521118,
+      "evaluated_absolute_delta": 4.440892098500626e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        29,
+        "direction",
+        2
+      ],
+      "native": 0.3034169143672859,
+      "historical_reconstructed": 0.3034169143672861,
+      "evaluated_absolute_delta": 1.6653345369377348e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        29,
+        "origin",
+        0
+      ],
+      "native": "(-cover_width/2-20)+(-99.60430257958893)",
+      "historical_reconstructed": "(-cover_width/2-20)+(-99.60430257958892)",
+      "evaluated_absolute_delta": 0.0,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "direction",
+        0
+      ],
+      "native": -0.6654494424077446,
+      "historical_reconstructed": -0.6654494424077454,
+      "evaluated_absolute_delta": 7.771561172376096e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "direction",
+        1
+      ],
+      "native": -0.7318893464104029,
+      "historical_reconstructed": -0.7318893464104024,
+      "evaluated_absolute_delta": 5.551115123125783e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "direction",
+        2
+      ],
+      "native": 0.14668000617049004,
+      "historical_reconstructed": 0.14668000617048993,
+      "evaluated_absolute_delta": 1.1102230246251565e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "height"
+      ],
+      "native": "12.8137774674393",
+      "historical_reconstructed": "12.813777467439309",
+      "evaluated_absolute_delta": 8.881784197001252e-15,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        30,
+        "origin",
+        0
+      ],
+      "native": "(-cover_width/2-20)+(-102.13121360660475)",
+      "historical_reconstructed": "(-cover_width/2-20)+(-102.13121360660473)",
+      "evaluated_absolute_delta": 2.842170943040401e-14,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        31,
+        "direction",
+        0
+      ],
+      "native": -0.6654494424077446,
+      "historical_reconstructed": -0.6654494424077454,
+      "evaluated_absolute_delta": 7.771561172376096e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        31,
+        "direction",
+        1
+      ],
+      "native": -0.7318893464104029,
+      "historical_reconstructed": -0.7318893464104024,
+      "evaluated_absolute_delta": 5.551115123125783e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        31,
+        "direction",
+        2
+      ],
+      "native": 0.14668000617049004,
+      "historical_reconstructed": 0.14668000617048993,
+      "evaluated_absolute_delta": 1.1102230246251565e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        31,
+        "origin",
+        0
+      ],
+      "native": "(-cover_width/2-20)+(-104.46257870703818)",
+      "historical_reconstructed": "(-cover_width/2-20)+(-104.46257870703816)",
+      "evaluated_absolute_delta": 0.0,
+      "unit": "mm"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        32,
+        "direction",
+        0
+      ],
+      "native": -0.6654494424077446,
+      "historical_reconstructed": -0.6654494424077454,
+      "evaluated_absolute_delta": 7.771561172376096e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        32,
+        "direction",
+        1
+      ],
+      "native": -0.7318893464104029,
+      "historical_reconstructed": -0.7318893464104024,
+      "evaluated_absolute_delta": 5.551115123125783e-16,
+      "unit": "unitless"
+    },
+    {
+      "part_id": "B126",
+      "name": "Wellschlauch_2_Neutralstellung",
+      "path": [
+        "ops",
+        32,
+        "direction",
+        2
+      ],
+      "native": 0.14668000617049004,
+      "historical_reconstructed": 0.14668000617048993,
+      "evaluated_absolute_delta": 1.1102230246251565e-16,
+      "unit": "unitless"
+    }
+  ],
+  "limitation": "Historical Linux runtime not rerun. Matching historical SHA reconstructed with two independent decimal precisions. No native volume, collision, safety or release claim."
+}

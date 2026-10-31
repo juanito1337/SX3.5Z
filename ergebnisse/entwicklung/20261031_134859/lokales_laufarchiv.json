@@ -1,0 +1,38 @@
+[
+  {
+    "journal": "NX_Metadaten_Pruefen",
+    "original_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_METADATA_20261031_135018_765b3aeee162",
+    "archived_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\NX_Laeufe\\SX35Z_METADATA_20261031_135018_765b3aeee162",
+    "prt_files": 1
+  },
+  {
+    "journal": "NX_Blech_Pruefen",
+    "original_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_09_20261031_135038_875079_bcf72a283e2f",
+    "archived_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\NX_Laeufe\\SX35Z_CNC_UMSETZUNG_09_20261031_135038_875079_bcf72a283e2f",
+    "prt_files": 3
+  },
+  {
+    "journal": "NX_KSS_Pruefen",
+    "original_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_09_20261031_135104_436185_3d346028ee59",
+    "archived_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\NX_Laeufe\\SX35Z_CNC_UMSETZUNG_09_20261031_135104_436185_3d346028ee59",
+    "prt_files": 12
+  },
+  {
+    "journal": "NX_Umbau_Kern_Pruefen",
+    "original_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_09_20261031_135130_799347_f600765cbfa6",
+    "archived_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\NX_Laeufe\\SX35Z_CNC_UMSETZUNG_09_20261031_135130_799347_f600765cbfa6",
+    "prt_files": 156
+  },
+  {
+    "journal": "NX_Normteile_ATC_Pruefen",
+    "original_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_09_20261031_135221_974072_f763e693c67e",
+    "archived_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\NX_Laeufe\\SX35Z_CNC_UMSETZUNG_09_20261031_135221_974072_f763e693c67e",
+    "prt_files": 131
+  },
+  {
+    "journal": "NX_CNC_Gesamtansicht",
+    "original_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_09_20261031_135314_122605_c81c49e3187f",
+    "archived_path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261031_134859\\NX_Laeufe\\SX35Z_CNC_UMSETZUNG_09_20261031_135314_122605_c81c49e3187f",
+    "prt_files": 584
+  }
+]

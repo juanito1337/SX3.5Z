@@ -1,5 +1,16 @@
 # Priorisierte Fortsetzung
 
+## Aktuelle Roadmap mit Entwicklungsprompts
+
+Siehe `docs/superpowers/plans/2026-10-31-entwicklungsroadmap.md` (R00–R14).
+R00 Journal-/Offline-Pruefung ist erledigt; R01-Hashdiagnose abgeschlossen,
+produktive Referenzmigration bleibt offen. Naechstes begrenztes Softwarepaket:
+R02 Fertigungsmetadaten/Nachweisregister; danach Messvorbereitung R03 und
+nativer Zeichnungs-/Exportpilot R08. Mechanische Detailpakete erst mit ihren
+Istwerten und dokumentierten Kaufteil-/Spindelentscheidungen.
+Keine alten CAD-Dateien vom PC verwenden. Die folgende Tabelle ist die
+historische Priorisierung der Uebergabe; Original-PRT-Uebernahme ist ueberholt.
+
 ## Fortschritt 31.10.2026
 
 Neuerzeugung09 im Git-Projekt und erneutes natives Oeffnen sind erledigt;

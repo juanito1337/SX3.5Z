@@ -1,0 +1,4 @@
+Datum: 2026-10-31 Europe/Berlin
+Quellrevision: 6631f8b65e7a1188d24391d8b10ce84c1cd7b114
+Umfang: Roadmap-Audit, Offline-Suite, sieben aktive native NX-Journale
+Keine alten CAD-Eingaben; keine Hardwareausfuehrung

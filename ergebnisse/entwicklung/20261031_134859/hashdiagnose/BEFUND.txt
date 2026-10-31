@@ -1,0 +1,64 @@
+Rezept-Hashdiagnose Stand09, 31.10.2026
+Basisrevision: 6631f8b65e7a1188d24391d8b10ce84c1cd7b114
+
+Befund:
+Die Hashabweichung stammt aus letzten Floatstellen der plattformabhaengigen
+Sinus-/Kosinusberechnung. Sie ist mit unveraendertem Projektcode reproduziert.
+Keine Geometrie, Parameter, Produktions-Serializer oder Referenzdateien wurden
+angepasst. Keine NX- oder globale Python-Installation wurde geaendert.
+
+Nachweis:
+- Unabhaengiges Windows-CPython 3.12.14, Standardbibliothek, Exitcode 0.
+- Prozesslokales ucrtbase.dll!_set_FMA3_enable(0):
+  da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14
+  Das kanonische JSON ist bytegleich mit dem echten NX-3.10-Rezeptdump
+  ../recipe_nx310.json, nicht nur mit dessen SHA.
+- UCRT FMA3(1), gleicher Code und Prozess:
+  3a4e46b565935d7d696c8b8fa74787c3edaf534a18f381123f59b17b2bf52c19
+- Rein diagnostische sin/cos-Taylorberechnung mit Decimal.from_float und
+  70 sowie 100 Stellen, abschliessend float:
+  6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824
+  Beide Praezisionen ergeben bytegleiches kanonisches JSON und exakt den
+  historischen Linux-Referenzhash. Linux selbst wurde hier nicht erneut gestartet.
+- Parameterhash identisch:
+  cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0
+
+NX gegen historische Rekonstruktion:
+560 Teile, 1829 Operationen, identische Struktur und Metadaten.
+49 unterschiedliche Blaetter, ausschliesslich unter ops:
+B040 Spindel_Laengsverzahnung_Huelle: 1
+B063 Spindel_Riemenscheibe: 1
+B064 Motor_Riemenscheibe: 1
+B125 Wellschlauch_1_Neutralstellung: 23
+B126 Wellschlauch_2_Neutralstellung: 23
+Maximale ausgewertete Laengenabweichung: 2.842170943040401e-14 mm.
+Maximale Richtungsabweichung: 7.771561172376096e-16 (dimensionslos).
+Auswertung mit aktuellen Standardparametern; kein Geometrie-/Volumenbeweis.
+
+Quellpfad der Ursache:
+projekt/nx_geometry.py:20-21 hasht JSON ohne Zahlenkanonisierung.
+projekt/cnc_ansichtsmodell.py:81 erbt und erweitert die Rezeptkette
+09 -> 08 -> 07 -> 01 -> modell_v4.
+projekt/modell_v4.py:155-168 schreibt Zahlen via str in Formeltexte.
+projekt/modell_v4.py:381-382 erzeugt die Spindelverzahnung mit sin/cos.
+projekt/modell_v4.py:425-426 erzeugt die Riemenscheibenausschnitte mit sin/cos.
+projekt/modell_v4.py:547-555 erzeugt Wellschlauchpunkte und Richtungsvektoren.
+projekt/nx_geometry.py:330-350 aktiviert den historischen Volumenvergleich
+nur bei exakt uebereinstimmenden Hashes. Diese Schranke bleibt unveraendert.
+
+Reproduktion ab Paketstamm:
+& 'C:/Users/1337/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' -B 'ergebnisse/entwicklung/20261031_134859/hashdiagnose/reproduce_recipe_hash.py'
+
+Rohprotokoll: raw_stdout.txt
+Vollstaendige Umgebungsdaten, Hashes und alle 49 Leaf-Diffs: evidence.json
+Rekonstruiertes historisches Rezept: recipe_historical_reconstructed.json
+Diagnoseskript: reproduce_recipe_hash.py
+
+Grenzen und naechster Schritt:
+Diagnose abgeschlossen, Produktionsverhalten bewusst nicht geaendert. Keine
+Aussage ueber Kollisionsfreiheit, Kauf-/Baufreigabe oder native Volumenpruefung.
+Nicht global FMA3 abschalten und nicht Referenzschutz umgehen. Fuer einen
+spaeteren stabilen Fingerprint ist eine versionierte Kanonisierung getrennt
+vom unveraenderten Geometrierezept zu entwerfen und gegen genau diese beiden
+Rezeptdatensaetze sowie echte Geometrieaenderungen zu testen. Historischen
+SHA-Nachweis erhalten; ein neuer Hash allein bestaetigt keine Nativegeometrie.

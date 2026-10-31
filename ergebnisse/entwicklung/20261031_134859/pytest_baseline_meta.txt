@@ -1,0 +1,1 @@
+Befehl: .venv/Scripts/python.exe -m pytest -q -p no:cacheprovider; cwd=projekt; Revision6631f8b; Exitcode=0

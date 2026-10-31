@@ -1,0 +1,344 @@
+SX3.5Z CNC-GESAMTANSICHT -- gesamte Maschine, XYZ-Antriebe und Baugruppen in einem Lauf.
+UMSETZUNGSSTAND09: reale Kaufteil-Hauptma�e; Maschinen-Aufma� und Lieferrevisionen offen. KEINE FERTIGUNGS-/BESTELLFREIGABE.
+Journal-Version: 4.8
+Python: 3.10.15 (main, Sep 30 2024, 11:52:23) [MSC v.1929 64 bit (AMD64)]
+NXOpen-Modul: C:\Siemens\nx2406\nxbin\python\NXOpen.pyd
+Adapterdatei: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\nx_native.py
+Geometriedatei: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\cnc_ansichtsmodell.py
+Geometriestand: CNC_UMSETZUNG_09; Journal-Patch: 4.8
+Geometriestand: CNC_UMSETZUNG_09; Untergestell/Einhausung/Schaltschrank als ENTWURF.
+Startjournal: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\NX_CNC_Gesamtansicht.py
+KSS-Formelpatch: 07.3
+Blechadapter-Patch: 07.2
+Blechadapterdatei: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\nx_sheetmetal06.py
+Ausgabeziel aus NX_Ausgabe.json: C:\Users\1337\Documents\ChatGPT\SX3.5Z\cad\nx
+Journal-/Eingabeordner: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt
+Geplante Ausgabe: C:\Users\1337\Documents\ChatGPT\SX3.5Z\cad\nx\SX35Z_CNC_UMSETZUNG_09_20261031_135038_875079_bcf72a283e2f
+Pfadtest bestanden: Aufloesen, Schreiben, Ruecklesen, Umbenennen und Entfernen der eigenen Testdatei.
+Ausgabeordner: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf72a283e2f
+Dateiverwaltung: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\nx_files.py
+Geometriepruefung: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\nx_geometry.py / 4.6
+Laufkennung fuer ALLE Dateinamen: bcf72a283e2f
+Speicherweg: NewDisplay am endgueltigen Pfad, dann Save; kein SaveAs.
+Referenzfingerprints: Parameter passend=True; Rezept passend=False
+Referenzfingerprint nicht identisch (kein Nachweis einer bewussten Massaenderung): kein Standard-Referenzvergleich; Werkzeuglage, We
+rkzeugvolumen und boolesche Wirkung bleiben aktiv.
+Referenzhash Parameter SOLL=cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0 IST=cd9a5dd5a7e224dc72ce9618862fd69c7b2
+536d2cb2944cf704a58e1c95940d0; Rezept SOLL=6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824 IST=da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14
+ATC-OPTION: SK30-Bestand unveraendert. Keine automatische Spann-/Loeseeinrichtung; kein M6-Betrieb freigegeben.
+Neues NX-Teil am endgueltigen Ziel: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf7
+2a283e2f\_api_test\api_testteil__bcf72a283e2f.prt
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x00000206C18B5F90>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x00000206C18B5F90>; Typ=NXOpen.BasePartUnitsM
+emberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+NX FullPath bestaetigt: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf72a283e2f\_ap
+i_test\api_testteil__bcf72a283e2f.prt
+API-Testphase 1: API-Auswahl mit Punktprobe UND allen Modell-Ausdruecken
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x00000206C18B5F90>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x00000206C18B5F90>; Typ=NXOpen.BasePartUnitsM
+emberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+Pruefe Ausdrucks-API-Kandidat: CreateNumberExpression4
+API-Kandidat nicht bestanden: CreateNumberExpression4 / Ausdruckserzeugung: SyntaxError: Function takes 2 arguments, 4 passed.
+Letzte Gleichung: 'sxprobe_a = 10.25'
+Pruefe Ausdrucks-API-Kandidat: CreateNumberExpression
+Erzeuge 457 Eingabe- und 92 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/549: sx_table_x
+  Ausdruck 2/549: sx_table_y
+  Ausdruck 3/549: sx_slot_w
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 549/549.
+Ausdrucks-API ausgewaehlt: CreateNumberExpression
+Vollstaendiger Modell-Ausdruckstest nach Undo bestanden.
+API-Testphase 2: Alle Modell-Ausdruecke nach Test-Ruecknahme erneut erzeugen
+Erzeuge 457 Eingabe- und 92 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/549: sx_table_x
+  Ausdruck 2/549: sx_table_y
+  Ausdruck 3/549: sx_slot_w
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 549/549.
+API-Testphase 3: Native Featuretypen und Parameteraktualisierung
+Featureprobe START: SXPROBE_Block
+NX-Mess-API: BoundingBox=UF.ModlGeneral.AskBoundingBoxExact; NewMassProperties=True; UF-Masse=UF.Modeling.AskMassProps3d
+NX-Volumenmessung ausgewaehlt: manager_bodies_accuracy; Ausgabe mm^3. Soll-Ist-Kontrolle folgt am real erzeugten Koerper.
+Geometrie OK: SXPROBE_Block; Volumen 740 mm^3; Aenderung 740 mm^3
+Featureprobe OK: SXPROBE_Block
+Featureprobe START: SXPROBE_Bohrung
+Geometrie OK: SXPROBE_Bohrung; Volumen 708.584073 mm^3; Aenderung -31.4159265 mm^3
+Featureprobe OK: SXPROBE_Bohrung
+Featureprobe START: SXPROBE_Kegel
+Geometrie OK: SXPROBE_Kegel; Volumen 293.215314 mm^3; Aenderung 293.215314 mm^3
+Featureprobe OK: SXPROBE_Kegel
+Featureprobe START: SXPROBE_Kegelabzug_Rohteil
+Geometrie OK: SXPROBE_Kegelabzug_Rohteil; Volumen 8000 mm^3; Aenderung 8000 mm^3
+Featureprobe OK: SXPROBE_Kegelabzug_Rohteil
+Featureprobe START: SXPROBE_Kegelabzug_minusX
+Geometrie OK: SXPROBE_Kegelabzug_minusX; Volumen 6977.3813 mm^3; Aenderung -1022.6187 mm^3
+Featureprobe OK: SXPROBE_Kegelabzug_minusX
+Featureprobe START: SXPROBE_Profil
+Geometrie OK: SXPROBE_Profil; Volumen 180 mm^3; Aenderung 180 mm^3
+Featureprobe OK: SXPROBE_Profil
+Featureprobe START: SXPROBE_Zylinder_minusY
+Geometrie OK: SXPROBE_Zylinder_minusY; Volumen 1256.63706 mm^3; Aenderung 1256.63706 mm^3
+Featureprobe OK: SXPROBE_Zylinder_minusY
+Featureprobe START: SXPROBE_Vereinigung
+Geometrie OK: SXPROBE_Vereinigung; Volumen 1288.63706 mm^3; Aenderung 32 mm^3
+Featureprobe OK: SXPROBE_Vereinigung
+Native API-Probe bestanden: getrennte Werkzeuge/Booleans, Soll-Ist-Geometrie, Richtungen und Ausdrucksaenderung.
+API-Testphase 4: Speichern und Einfuegen einer Testkomponente
+Geometrie OK: API_Testwuerfel; Volumen 1000 mm^3; Aenderung 1000 mm^3
+KSS-Normaldickenformel 07.3: sx_sheet_t*sqrt((1+(0.14*0.14)))
+Geometrie OK: API_Schraegblech07_Normaldicke; Volumen 403.900978 mm^3; Aenderung 403.900978 mm^3
+KSS-Normaldickenformel 07.3: sx_sheet_t*sqrt(((1+(((-8)/(227-((sx_chip_outlet_w/sx_aux_0014)/2)))*((-8)/(227-((sx_chip_outlet_w/sx_a
+ux_0014)/2)))))+(0*0)))
+KSS-Laengennormierung: sx_aux_0014 = 1 mm; sqrt-Argument einheitenlos.
+Geometrie OK: KSS_Formelprobe073_KSS_Trichter_links; Volumen 10469.7454 mm^3; Aenderung 10469.7454 mm^3
+KSS-Normaldickenformel 07.3: sx_sheet_t*sqrt(((1+((8/(227-((sx_chip_outlet_w/sx_aux_0017)/2)))*(8/(227-((sx_chip_outlet_w/sx_aux_001
+7)/2)))))+(0*0)))
+KSS-Laengennormierung: sx_aux_0017 = 1 mm; sqrt-Argument einheitenlos.
+Geometrie OK: KSS_Formelprobe073_KSS_Trichter_rechts; Volumen 10469.7454 mm^3; Aenderung 10469.7454 mm^3
+KSS-Normaldickenformel 07.3: sx_sheet_t*sqrt(((1+(0*0))+(((-8)/(((sx_chip_outlet_y/sx_aux_0020)-((sx_chip_outlet_d/sx_aux_0020)/2))-
+382))*((-8)/(((sx_chip_outlet_y/sx_aux_0020)-((sx_chip_outlet_d/sx_aux_0020)/2))-382)))))
+KSS-Laengennormierung: sx_aux_0020 = 1 mm; sqrt-Argument einheitenlos.
+Geometrie OK: KSS_Formelprobe073_KSS_Trichter_vorn; Volumen 15836.9633 mm^3; Aenderung 15836.9633 mm^3
+KSS-Normaldickenformel 07.3: sx_sheet_t*sqrt(((1+(0*0))+((8/((((sx_enc_back/sx_aux_0023)-(2*(sx_sheet_t/sx_aux_0023)))-(sx_chip_outl
+et_y/sx_aux_0023))-((sx_chip_outlet_d/sx_aux_0023)/2)))*(8/((((sx_enc_back/sx_aux_0023)-(2*(sx_sheet_t/sx_aux_0023)))-(sx_chip_outlet_y/sx_aux_0023))-((sx_chip_outlet_d/sx_aux_0023)/2))))))
+KSS-Laengennormierung: sx_aux_0023 = 1 mm; sqrt-Argument einheitenlos.
+Geometrie OK: KSS_Formelprobe073_KSS_Trichter_hinten; Volumen 49463.9723 mm^3; Aenderung 49463.9723 mm^3
+KSS-Formelvortest 07.3 bestanden: 4 echte Trichterrezepte; Lage und Volumen geprueft.
+Speichern mit Save, ohne SaveAs: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf72a2
+83e2f\_api_test\api_testteil__bcf72a283e2f.prt
+Speicherstatus: ungespeicherte Teile=0, Objekte=0
+Gespeichert und Dateiexistenz geprueft: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_
+bcf72a283e2f\_api_test\api_testteil__bcf72a283e2f.prt (940705 Bytes)
+Neues NX-Teil am endgueltigen Ziel: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf7
+2a283e2f\_api_test\api_testbaugruppe__bcf72a283e2f.prt
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x00000206C18B5F90>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x00000206C18B5F90>; Typ=NXOpen.BasePartUnitsM
+emberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+NX FullPath bestaetigt: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf72a283e2f\_ap
+i_test\api_testbaugruppe__bcf72a283e2f.prt
+Speichern mit Save, ohne SaveAs: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf72a2
+83e2f\_api_test\api_testbaugruppe__bcf72a283e2f.prt
+Speicherstatus: ungespeicherte Teile=0, Objekte=0
+Gespeichert und Dateiexistenz geprueft: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_
+bcf72a283e2f\_api_test\api_testbaugruppe__bcf72a283e2f.prt (145132 Bytes)
+API-Vortest bestanden: Ausdruecke, Parameteraenderung, Features, Save und AddComponent.
+[001/001] B192_Senktuer_UPPER_Rahmen
+Neues NX-Teil am endgueltigen Ziel: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf7
+2a283e2f\teile\b192_senktuer_upper_rahmen__bcf72a283e2f.prt
+Einheitenpruefung: PartUnits=<NXOpen.BasePartUnitsMemberType object at 0x00000206C18B5F90>; Typ=NXOpen.BasePartUnitsMemberType
+Erwartet: NXOpen.BasePart.Units.Millimeters=<NXOpen.BasePartUnitsMemberType object at 0x00000206C18B5F90>; Typ=NXOpen.BasePartUnitsM
+emberType
+Laengenpruefung: 1 native Laengeneinheit = 1 mm
+Einheitenpruefung OK: Millimeter per BasePart.Units und Umrechnung bestaetigt.
+NX FullPath bestaetigt: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf72a283e2f\tei
+le\b192_senktuer_upper_rahmen__bcf72a283e2f.prt
+Erzeuge 16 Eingabe- und 12 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/28: sx_stand_d
+  Ausdruck 2/28: sx_stand_cx
+  Ausdruck 3/28: sx_stand_cy
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 28/28.
+NX-Mess-API: BoundingBox=UF.ModlGeneral.AskBoundingBoxExact; NewMassProperties=True; UF-Masse=UF.Modeling.AskMassProps3d
+NX-Volumenmessung ausgewaehlt: manager_bodies_accuracy; Ausgabe mm^3. Soll-Ist-Kontrolle folgt am real erzeugten Koerper.
+Geometrie OK: 001_Kantprofil_Zwei_Biegungen_Vorform; Volumen 1606960 mm^3; Aenderung 1606960 mm^3
+Geometrie OK: 002_Sichtausschnitt; Volumen 451120 mm^3; Aenderung -1155840 mm^3
+Geometrie OK: 003_M4_Klemmrahmenloch; Volumen 451088.191 mm^3; Aenderung -31.8086256 mm^3
+Geometrie OK: 004_M4_Klemmrahmenloch; Volumen 451056.383 mm^3; Aenderung -31.8086256 mm^3
+Geometrie OK: 005_M4_Klemmrahmenloch; Volumen 451024.574 mm^3; Aenderung -31.8086256 mm^3
+Geometrie OK: 006_M4_Klemmrahmenloch; Volumen 450992.765 mm^3; Aenderung -31.8086256 mm^3
+Blechadapter-Version: 07.2
+Blech-Flaechen-API: UF.Modeling.AskFaceData callable=True
+Blech-Flaechen-API: UF.Modl.AskFaceData callable=False
+Blech-Flaechen-API: UF.ModlGeneral.AskFaceData callable=False
+Blech-Flaechenabfrage ausgewaehlt: UF.Modeling.AskFaceData
+Blech-Flaechen-API-Dokumentation UF.Modeling.AskFaceData:
+Refer to `UF_MODL_ask_face_data <../ugopen_doc/uf_modl/global.html#UF_MODL_ask_face_data>`_ for documentation.  
+
+
+Signature: 
+``AskFaceData(face)``  
+
+:param face:  Face obj_id
+:type face: Tag
+:returns: A Tuple
+
+:rtype: A tuple consisting of (type,point,dir,box,radius,radData,normDir) 
+
+
+    type(`int`):  Face type is NX surface type code 16 = cylinder 17 = cone 18 = sphere 19 = revolved (toroidal) 20 = extruded 22 = 
+bounded plane 23 = fillet (blend) 43 = b-surface 65 = offset surface 66 = foreign surface 67 = Convergent surface
+
+    point(`list of float`):  Point information is returned according to the value of type as follows. Plane = Position in plane Cyli
+nder= Position on axis Cone = Position on axis Sphere = Center position Torus = Center position Revolved = Position on axis
+
+    dir(`list of float`):  Direction information is returned according to the value of type as follows. Plane = Normal direction Cyl
+inder= Axis direction Cone = Axis direction Torus = Axis direction Revolved = Axis direction
+
+    box(`list of float`):  Face boundary. The coordinates of the opposite corners of a rectangular box with sides parallel to X, Y, 
+and Z axes (Absolute Coordinate System) are returned. The box contains the specified face and is usually close to the minimum possible size, but this is not guaranteed. box[0] = Xmin box[1] = Ymin box[2] = Zmin box[3] = Xmax box[4] = Ymax box[5] = Zmax
+
+    radius(`float`):  Face major radius: For a cone, the radius is taken at the point[3] position on the axis. For a torus, the radi
+us is taken at the major axis.
+
+    radData(`float`):  Face minor radius: only a torus or cone has rad_data as a minor radius. For a cone, rad_data is the half angl
+e in radians. For a torus, rad_data is taken at the minor axis.
+
+    normDir(`int`):  Face normal direction: +1 if the face normal is in the same direction as the surface normal (cross product of t
+he U- and V-derivative vectors), -1 if reversed.
+License requirements: None
+Blechbasis-Suche: lokale Achse=1, Ebenenkoordinate=0.0 mm
+Blechbasisflaeche eindeutig: Tag=43662; Abfrage=UF.Modeling.AskFaceData
+Blech-API Preferences.PartSheetmetal.SetThickness: Typ=builtin_function_or_method; callable=True
+THE thickness value string 
+
+
+
+
+Signature ``SetThickness(updateModel, thickness)`` 
+
+:param updateModel:  Specifies whether the solid model be recomputed immediately 
+:type updateModel: bool 
+:param thickness:  default thickness value for NX Sheetmetal solids  
+:type thickness: str 
+
+.. versionadded:: NX4.0.0
+
+
+.. deprecated::  NX2312.0.0
+   Use :py:meth:`NXOpen.Expression.Value` instead.
+
+
+
+
+
+
+License requirements: nx_sheet_metal ("NX Sheet Metal")
+
+
+
+Blech-API Preferences.PartSheetmetal.SetBendRadius: Typ=builtin_function_or_method; callable=True
+The bend radius value 
+
+
+
+
+Signature ``SetBendRadius(updateModel, bendRadius)`` 
+
+:param updateModel:  Specifies whether the solid model be recomputed immediately 
+:type updateModel: bool 
+:param bendRadius:  default bend radius value for bend faces  
+:type bendRadius: str 
+
+.. versionadded:: NX4.0.0
+
+
+.. deprecated::  NX2312.0.0
+   Use :py:meth:`NXOpen.Expression.Value` instead.
+
+
+
+
+
+
+License requirements: nx_sheet_metal ("NX Sheet Metal")
+
+
+
+Blech-API Preferences.PartSheetmetal.SetNeutralFactor: Typ=builtin_function_or_method; callable=True
+THE bend relief depth value 
+
+
+
+
+Signature ``SetNeutralFactor(updateModel, neutralFactor)`` 
+
+:param updateModel:  Specifies whether the solid model be recomputed immediately 
+:type updateModel: bool 
+:param neutralFactor:  default neutral factor value for bend relief  
+:type neutralFactor: str 
+
+.. versionadded:: NX4.0.0
+
+
+.. deprecated::  NX2312.0.0
+   Use :py:meth:`NXOpen.Expression.Value` instead.
+
+
+
+
+
+
+License requirements: nx_sheet_metal ("NX Sheet Metal")
+
+
+
+Blech-API Preferences.PartSheetmetal.Commit: Typ=builtin_function_or_method; callable=True
+Commits and applies all the settings done with set_callout_type_display
+and set_object_type_display.  
+
+
+It must be called after a sequence of calls
+to those methods to cause the view to update. 
+
+Signature ``Commit()`` 
+
+
+.. versionadded:: NX5.0.0
+
+
+.. deprecated::  NX2312.0.0
+   Use :py:meth:`NXOpen.Builder.Commit` instead.
+
+
+
+
+
+
+License requirements: nx_sheet_metal ("NX Sheet Metal")
+
+
+
+Blechpraeferenzen ausgewaehlt: Preferences.PartSheetmetal
+Blech-API SheetmetalManager.CreateConvertToSheetmetalFeatureBuilder: Typ=builtin_function_or_method; callable=True
+Create a NXSM Convert To Sheetmetal feature Builder 
+
+
+
+
+Signature ``CreateConvertToSheetmetalFeatureBuilder(convertToSheetMetal)`` 
+
+:param convertToSheetMetal:  The Convert To Sheetmetal feature for which builder needs to be constructed. NULL for converting a part
+ for the first time 
+:type convertToSheetMetal: :py:class:`NXOpen.Features.Feature` 
+:returns:  Convert To Sheetmetal Builder object  
+:rtype: :py:class:`NXOpen.Features.SheetMetal.ConvertToSheetmetalBuilder` 
+
+.. versionadded:: NX4.0.0
+
+
+
+
+
+
+License requirements: nx_sheet_metal ("NX Sheet Metal") OR nx_flexible_pcb ("NX Flexible PCB")
+
+
+
+Blechkonvertierung OK: NX-Blechkoerper, Dicke 2 mm
+Optionales MODEL-Referenzset nicht erzeugt: A reference set of the given name already exists.
+Speichern mit Save, ohne SaveAs: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf72a2
+83e2f\teile\b192_senktuer_upper_rahmen__bcf72a283e2f.prt
+Speicherstatus: ungespeicherte Teile=0, Objekte=0
+Gespeichert und Dateiexistenz geprueft: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_
+bcf72a283e2f\teile\b192_senktuer_upper_rahmen__bcf72a283e2f.prt (214036 Bytes)
+Darstellungshinweis: Konfigurierbarer Farbindex statt benannter NX-Farbe: sheet=36
+FERTIG: 1 native Einzelteile. Ihre bereits offenen Dateien wurden nicht bearbeitet.
+Formaenderungen lokal: Ausdruecke sx_. Maschinenstellung: Parameter.json; CNC-Baugruppen: CNC_Parameter.json; Ausbau: Ausbau_Paramet
+er.json. Gesamtansicht neu aufbauen.
+Ausgabeordner komplett zusammenhalten: Teile + Unterbaugruppen + Hauptbaugruppe.
+Protokoll: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_cnc_umsetzung_09_20261031_135038_875079_bcf72a283e2f\NX_Laufprotokoll
+_20261031_135044_284471.txt

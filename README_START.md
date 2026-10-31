@@ -1,5 +1,9 @@
 # SX3.5Z CNC – Übergabe an Codex
 
+**Entwicklungsfortsetzung:** Die [Roadmap mit Entwicklungsprompts](docs/superpowers/plans/2026-10-31-entwicklungsroadmap.md)
+ordnet die offenen Detailarbeiten. Der [aktuelle Journalpruefbericht](docs/superpowers/plans/2026-10-31-journalpruefbericht.md)
+belegt sieben erfolgreiche native Journallaeufe und die jetzt lauffaehige Offline-Suite.
+
 **Aktueller Zusatz vom 31.10.2026:** Neue native Stand09-Dateien liegen jetzt
 unter `cad/nx/`, ausschliesslich aus dem aktuellen Projektcode erzeugt. Der
 vollstaendige NX-Aufbau und das erneute Oeffnen sind nachgewiesen. Einstieg und

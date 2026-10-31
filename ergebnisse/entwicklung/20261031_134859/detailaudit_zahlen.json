@@ -1,0 +1,42 @@
+{
+  "revision": "6631f8b",
+  "date": "2026-10-31",
+  "method": "PowerShell Import-Csv; read-only source data, no geometry computation",
+  "model_rows": 560,
+  "model_kinds": [
+    {
+      "Name": "BUY",
+      "Count": 216
+    },
+    {
+      "Name": "EXISTING",
+      "Count": 131
+    },
+    {
+      "Name": "MAKE",
+      "Count": 157
+    },
+    {
+      "Name": "RESERVE",
+      "Count": 56
+    }
+  ],
+  "manufacturing_rows": 148,
+  "rows_explicitly_missing_drawings": 105,
+  "purchasing_rows": 69,
+  "purchasing_types": [
+    {
+      "Name": "Kaufteil",
+      "Count": 29
+    },
+    {
+      "Name": "Normteil",
+      "Count": 14
+    },
+    {
+      "Name": "Offene Beschaffung",
+      "Count": 26
+    }
+  ],
+  "exitcode": 0
+}
