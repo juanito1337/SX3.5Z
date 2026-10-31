@@ -1,0 +1,260 @@
+[
+  {
+    "feature": "001_Grundplatte_Eigenteil",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 496000.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 496000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 496000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_M10_Befestigung_Nut",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        9.5,
+        31.5,
+        -0.09999999999999432,
+        20.5,
+        42.5,
+        8.100000000000005
+      ],
+      "volume_mm3": 779.272057722948
+    },
+    "target_before": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 496000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 372439,
+      "bounds_mm": [
+        9.5,
+        31.5,
+        -0.0999999999999943,
+        20.5,
+        42.5,
+        8.100000000000005
+      ],
+      "volume_mm3": 779.2720577229478,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 495239.73457783123,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_M10_Befestigung_Nut",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        9.5,
+        84.5,
+        -0.09999999999999432,
+        20.5,
+        95.5,
+        8.100000000000005
+      ],
+      "volume_mm3": 779.272057722948
+    },
+    "target_before": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 495239.73457783123,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 372500,
+      "bounds_mm": [
+        9.5,
+        84.49999999999999,
+        -0.0999999999999943,
+        20.5,
+        95.5,
+        8.100000000000005
+      ],
+      "volume_mm3": 779.2720577229479,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 494479.46915566246,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_M10_Befestigung_Nut",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        599.5,
+        31.5,
+        -0.09999999999999432,
+        610.5,
+        42.5,
+        8.100000000000005
+      ],
+      "volume_mm3": 779.272057722948
+    },
+    "target_before": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 494479.4691556626,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 372556,
+      "bounds_mm": [
+        599.5,
+        31.5,
+        -0.0999999999999943,
+        610.4999999999999,
+        42.5,
+        8.100000000000005
+      ],
+      "volume_mm3": 779.2720577229478,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 493719.2037334939,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_M10_Befestigung_Nut",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        599.5,
+        84.5,
+        -0.09999999999999432,
+        610.5,
+        95.5,
+        8.100000000000005
+      ],
+      "volume_mm3": 779.272057722948
+    },
+    "target_before": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 493719.2037334939,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 372538,
+      "bounds_mm": [
+        599.5,
+        84.49999999999999,
+        -0.0999999999999943,
+        610.4999999999999,
+        95.5,
+        8.100000000000005
+      ],
+      "volume_mm3": 779.2720577229478,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 372329,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        620.0,
+        100.0,
+        8.0
+      ],
+      "volume_mm3": 492958.93831132504,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.5,
+        550.0,
+        750.0
+      ],
+      "volume_mm3": 1031250.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 338297,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.5,
+        550.0,
+        750.0
+      ],
+      "volume_mm3": 1031250.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 338297,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        2.5,
+        550.0,
+        750.0
+      ],
+      "volume_mm3": 1031250.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

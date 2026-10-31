@@ -1,0 +1,2 @@
+# Native Siemens NX files must remain byte-identical; no text conversion.
+*.prt binary

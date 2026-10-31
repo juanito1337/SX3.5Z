@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "001_Schaft_ohne_Gewinde",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -5.0,
+        -5.0,
+        -28.0,
+        5.0,
+        5.0,
+        0.0
+      ],
+      "volume_mm3": 2199.114857512855
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 54972,
+      "bounds_mm": [
+        -5.0,
+        -5.0,
+        -28.0,
+        5.0,
+        5.0,
+        0.0
+      ],
+      "volume_mm3": 2199.1148575128555,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 54972,
+      "bounds_mm": [
+        -5.0,
+        -5.0,
+        -28.0,
+        5.0,
+        5.0,
+        0.0
+      ],
+      "volume_mm3": 2199.1148575128555,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Zylinderkopf",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -8.5,
+        -8.5,
+        0.0,
+        8.5,
+        8.5,
+        10.0
+      ],
+      "volume_mm3": 2269.8006922186255
+    },
+    "target_before": {
+      "tag": 54972,
+      "bounds_mm": [
+        -5.0,
+        -5.0,
+        -28.0,
+        5.0,
+        5.0,
+        0.0
+      ],
+      "volume_mm3": 2199.1148575128555,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 55058,
+      "bounds_mm": [
+        -8.5,
+        -8.5,
+        0.0,
+        8.5,
+        8.5,
+        10.0
+      ],
+      "volume_mm3": 2269.800692218626,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 54972,
+      "bounds_mm": [
+        -8.5,
+        -8.5,
+        -28.0,
+        8.5,
+        8.5,
+        10.0
+      ],
+      "volume_mm3": 4468.915549731481,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Innensechskant",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -4.25,
+        -4.9074772881118065,
+        4.0,
+        4.25,
+        4.9074772881118065,
+        11.0
+      ],
+      "volume_mm3": 437.9923479639787
+    },
+    "target_before": {
+      "tag": 54972,
+      "bounds_mm": [
+        -8.5,
+        -8.5,
+        -28.0,
+        8.5,
+        8.5,
+        10.0
+      ],
+      "volume_mm3": 4468.9155497314805,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 55322,
+      "bounds_mm": [
+        -4.25,
+        -4.9074772881118065,
+        4.0,
+        4.25,
+        4.9074772881118065,
+        11.0
+      ],
+      "volume_mm3": 437.9923479639787,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 54972,
+      "bounds_mm": [
+        -8.5,
+        -8.5,
+        -28.0,
+        8.5,
+        8.5,
+        10.0
+      ],
+      "volume_mm3": 4093.49353719093,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

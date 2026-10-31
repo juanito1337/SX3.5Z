@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Profil_Extrusion",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -1.0999999999999943,
+        158.0,
+        120.0,
+        11.0
+      ],
+      "volume_mm3": 20855.99999999991
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 152295,
+      "bounds_mm": [
+        0.0,
+        -8.673617379884035e-16,
+        -1.0999999999999968,
+        158.0,
+        120.0,
+        11.0
+      ],
+      "volume_mm3": 20855.9999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 152295,
+      "bounds_mm": [
+        0.0,
+        -8.673617379884035e-16,
+        -1.0999999999999968,
+        158.0,
+        120.0,
+        11.0
+      ],
+      "volume_mm3": 20855.9999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

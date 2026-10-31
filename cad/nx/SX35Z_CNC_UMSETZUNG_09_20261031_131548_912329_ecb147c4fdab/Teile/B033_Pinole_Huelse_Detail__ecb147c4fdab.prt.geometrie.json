@@ -1,0 +1,962 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        30.0,
+        174.0
+      ],
+      "volume_mm3": 446734.4753404686
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        30.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 446734.4753404686,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        30.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 446734.4753404686,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Zylinder",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -19.0,
+        -19.0,
+        15.899999999999977,
+        19.0,
+        19.0,
+        174.09999999999997
+      ],
+      "volume_mm3": 179416.9847650438
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        30.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 446734.4753404686,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81092,
+      "bounds_mm": [
+        -19.0,
+        -19.0,
+        15.9,
+        19.0,
+        19.0,
+        174.1
+      ],
+      "volume_mm3": 179416.98476504377,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        30.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267544.31356501393,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        40.0,
+        7.0,
+        32.0,
+        42.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        30.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267544.31356501393,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81170,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        40.0,
+        7.0,
+        32.0,
+        42.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267633.4735643616,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        45.0,
+        7.0,
+        32.0,
+        47.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267633.47356436163,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81275,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        45.0,
+        7.0,
+        32.0,
+        47.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267722.63356370927,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        50.0,
+        7.0,
+        32.0,
+        52.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267722.63356370927,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81360,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        50.0,
+        7.0,
+        32.0,
+        52.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267811.793563057,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        55.0,
+        7.0,
+        32.0,
+        57.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267811.79356305685,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81467,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        55.0,
+        7.0,
+        32.0,
+        57.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267900.95356240455,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        60.0,
+        7.0,
+        32.0,
+        62.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267900.95356240467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81550,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        60.0,
+        7.0,
+        32.0,
+        62.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267990.1135617522,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        65.0,
+        7.0,
+        32.0,
+        67.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 267990.11356175237,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81659,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        65.0,
+        7.0,
+        32.0,
+        67.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268079.27356109984,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        70.0,
+        7.0,
+        32.0,
+        72.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268079.2735611001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81740,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        70.0,
+        7.0,
+        32.0,
+        72.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268168.4335604475,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        75.0,
+        7.0,
+        32.0,
+        77.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268168.4335604478,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81851,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        75.0,
+        7.0,
+        32.0,
+        77.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268257.5935597952,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        80.0,
+        7.0,
+        32.0,
+        82.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268257.5935597954,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 81930,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        80.0,
+        7.0,
+        32.0,
+        82.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268346.7535591428,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        85.0,
+        7.0,
+        32.0,
+        87.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268346.7535591428,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 82040,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        85.0,
+        7.0,
+        32.0,
+        87.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268435.9135584905,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        90.0,
+        7.0,
+        32.0,
+        92.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268435.9135584909,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 82120,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        90.0,
+        7.0,
+        32.0,
+        92.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268525.07355783833,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        95.0,
+        7.0,
+        32.0,
+        97.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268525.07355783856,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 82230,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        95.0,
+        7.0,
+        32.0,
+        97.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268614.2335571859,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "015_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        100.0,
+        7.0,
+        32.0,
+        102.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268614.2335571861,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 82312,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        100.0,
+        7.0,
+        32.0,
+        102.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268703.3935565333,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "016_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        105.0,
+        7.0,
+        32.0,
+        107.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268703.39355653396,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 82420,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        105.0,
+        7.0,
+        32.0,
+        107.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268792.553555881,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "017_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        110.0,
+        7.0,
+        32.0,
+        112.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268792.5535558817,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 82504,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        110.0,
+        7.0,
+        32.0,
+        112.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268881.7135552286,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "018_Zahnstange_FUNKTIONSANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        115.0,
+        7.0,
+        32.0,
+        117.8
+      ],
+      "volume_mm3": 274.4
+    },
+    "target_before": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268881.7135552292,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 82610,
+      "bounds_mm": [
+        -7.0,
+        25.0,
+        115.0,
+        7.0,
+        32.0,
+        117.8
+      ],
+      "volume_mm3": 274.39999999999964,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 81022,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        16.0,
+        30.0,
+        32.0,
+        173.99999999999997
+      ],
+      "volume_mm3": 268970.8735545767,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

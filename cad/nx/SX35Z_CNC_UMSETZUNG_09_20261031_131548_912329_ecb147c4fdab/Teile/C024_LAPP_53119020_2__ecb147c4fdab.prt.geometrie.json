@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "001_LAPP_Bund",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -14.85,
+        -14.85,
+        0.0,
+        14.85,
+        14.85,
+        0.9
+      ],
+      "volume_mm3": 623.5126793561295
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 357752,
+      "bounds_mm": [
+        -14.85,
+        -14.85,
+        0.0,
+        14.85,
+        14.85,
+        0.9000000000000001
+      ],
+      "volume_mm3": 623.5126793561298,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 357752,
+      "bounds_mm": [
+        -14.85,
+        -14.85,
+        0.0,
+        14.85,
+        14.85,
+        0.9000000000000001
+      ],
+      "volume_mm3": 623.5126793561298,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Sechskant_Nenn",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -13.5,
+        -15.5884572681,
+        0.9000000000000057,
+        13.5,
+        15.5884572681,
+        6.000000000000005
+      ],
+      "volume_mm3": 3219.795848727433
+    },
+    "target_before": {
+      "tag": 357752,
+      "bounds_mm": [
+        -14.85,
+        -14.85,
+        0.0,
+        14.85,
+        14.85,
+        0.9000000000000001
+      ],
+      "volume_mm3": 623.5126793561298,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 357906,
+      "bounds_mm": [
+        -13.5,
+        -15.5884572681,
+        0.9000000000000057,
+        13.5,
+        15.5884572681,
+        6.000000000000005
+      ],
+      "volume_mm3": 3219.7958487274323,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 357752,
+      "bounds_mm": [
+        -14.85,
+        -15.5884572681,
+        0.0,
+        14.85,
+        15.5884572681,
+        6.000000000000005
+      ],
+      "volume_mm3": 3843.3085280835653,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_M20_Nenndurchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -0.09999999999999432,
+        10.0,
+        10.0,
+        6.100000000000006
+      ],
+      "volume_mm3": 1947.7874452256717
+    },
+    "target_before": {
+      "tag": 357752,
+      "bounds_mm": [
+        -14.85,
+        -15.5884572681,
+        0.0,
+        14.85,
+        15.5884572681,
+        6.000000000000005
+      ],
+      "volume_mm3": 3843.308528083566,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 358098,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -0.0999999999999943,
+        10.0,
+        10.0,
+        6.100000000000007
+      ],
+      "volume_mm3": 1947.787445225672,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 357752,
+      "bounds_mm": [
+        -14.85,
+        -15.5884572681,
+        0.0,
+        14.85,
+        15.5884572681,
+        6.000000000000005
+      ],
+      "volume_mm3": 1958.3529359296879,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

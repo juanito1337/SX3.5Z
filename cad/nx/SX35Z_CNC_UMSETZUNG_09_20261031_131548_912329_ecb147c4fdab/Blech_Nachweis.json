@@ -1,0 +1,784 @@
+{
+  "adapter_version": "07.2",
+  "mode": "required",
+  "parts": [
+    {
+      "id": "B158",
+      "name": "Einhausung_Seitenwand_links",
+      "file": "teile\\B158_Einhausung_Seitenwand_links__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -765.0,
+        -477.0,
+        0.0
+      ],
+      "datum_formula": [
+        "enc_left-sheet_t",
+        "enc_front-sheet_t",
+        "0"
+      ],
+      "native_feature_count": 12,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 182730,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Einhausung_Seitenwand_links",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Einhausung_Seitenwand_links",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B160",
+      "name": "Einhausung_Seitenwand_rechts",
+      "file": "teile\\B160_Einhausung_Seitenwand_rechts__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        889.0,
+        -477.0,
+        0.0
+      ],
+      "datum_formula": [
+        "enc_right+sheet_t",
+        "enc_front-sheet_t",
+        "0"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 184175,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Einhausung_Seitenwand_rechts",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Einhausung_Seitenwand_rechts",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B161",
+      "name": "Einhausung_Rueckwand",
+      "file": "teile\\B161_Einhausung_Rueckwand__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -761.0,
+        525.0,
+        0.0
+      ],
+      "datum_formula": [
+        "enc_left+sheet_t",
+        "enc_back",
+        "0"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 185031,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Einhausung_Rueckwand",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Einhausung_Rueckwand",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B162",
+      "name": "Einhausung_Dach",
+      "file": "teile\\B162_Einhausung_Dach__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -767.0,
+        -477.0,
+        1202.0
+      ],
+      "datum_formula": [
+        "enc_left-2*sheet_t",
+        "enc_front-sheet_t",
+        "enclosure_h+sheet_t"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 185842,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Einhausung_Dach",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Einhausung_Dach",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B167",
+      "name": "Einhausung_Festfeld_links",
+      "file": "teile\\B167_Einhausung_Festfeld_links__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -763.0,
+        -477.0,
+        0.0
+      ],
+      "datum_formula": [
+        "enc_left",
+        "enc_front-sheet_t",
+        "0"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 188512,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Einhausung_Festfeld_links",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Einhausung_Festfeld_links",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B168",
+      "name": "Einhausung_Festfeld_rechts",
+      "file": "teile\\B168_Einhausung_Festfeld_rechts__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        772.0,
+        -477.0,
+        0.0
+      ],
+      "datum_formula": [
+        "stand_cx+door_clear_w/2",
+        "enc_front-sheet_t",
+        "0"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 189388,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Einhausung_Festfeld_rechts",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Einhausung_Festfeld_rechts",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B171",
+      "name": "Senktuer_LOWER_Rahmen",
+      "file": "teile\\B171_Senktuer_LOWER_Rahmen__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -668.0,
+        -525.0,
+        80.0
+      ],
+      "datum_formula": [
+        "door_x",
+        "door_y",
+        "door_lower_bottom"
+      ],
+      "native_feature_count": 20,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 191160,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Senktuer_LOWER_Rahmen",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Senktuer_LOWER_Rahmen",
+      "source": "K06: vom Nutzer verlangte Oeffnung nach unten. Zweiteilung erhaelt Oeffnung und Bodenfreiheit; Anschauungsentwurf.",
+      "release": false
+    },
+    {
+      "id": "B173",
+      "name": "Senktuer_LOWER_Kantquerholm_0",
+      "file": "teile\\B173_Senktuer_LOWER_Kantquerholm_0__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -665.5,
+        -523.0,
+        80.0
+      ],
+      "datum_formula": [
+        "door_x+sheet_t+0.5",
+        "(door_y)+(sheet_t)",
+        "door_lower_bottom"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 193069,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Senktuer_LOWER_Kantquerholm_0",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Senktuer_LOWER_Kantquerholm_0",
+      "source": "K06: vom Nutzer verlangte Oeffnung nach unten. Zweiteilung erhaelt Oeffnung und Bodenfreiheit; Anschauungsentwurf.",
+      "release": false
+    },
+    {
+      "id": "B174",
+      "name": "Senktuer_LOWER_Kantquerholm_1",
+      "file": "teile\\B174_Senktuer_LOWER_Kantquerholm_1__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -665.5,
+        -523.0,
+        565.0
+      ],
+      "datum_formula": [
+        "door_x+sheet_t+0.5",
+        "(door_y)+(sheet_t)",
+        "(door_lower_top)+(-45)"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 194027,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Senktuer_LOWER_Kantquerholm_1",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Senktuer_LOWER_Kantquerholm_1",
+      "source": "K06: vom Nutzer verlangte Oeffnung nach unten. Zweiteilung erhaelt Oeffnung und Bodenfreiheit; Anschauungsentwurf.",
+      "release": false
+    },
+    {
+      "id": "B192",
+      "name": "Senktuer_UPPER_Rahmen",
+      "file": "teile\\B192_Senktuer_UPPER_Rahmen__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -668.0,
+        -585.0,
+        590.0
+      ],
+      "datum_formula": [
+        "door_x",
+        "door_upper_y",
+        "door_upper_bottom"
+      ],
+      "native_feature_count": 20,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 204442,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Senktuer_UPPER_Rahmen",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Senktuer_UPPER_Rahmen",
+      "source": "K06: vom Nutzer verlangte Oeffnung nach unten. Zweiteilung erhaelt Oeffnung und Bodenfreiheit; Anschauungsentwurf.",
+      "release": false
+    },
+    {
+      "id": "B194",
+      "name": "Senktuer_UPPER_Kantquerholm_0",
+      "file": "teile\\B194_Senktuer_UPPER_Kantquerholm_0__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -665.5,
+        -583.0,
+        590.0
+      ],
+      "datum_formula": [
+        "door_x+sheet_t+0.5",
+        "(door_upper_y)+(sheet_t)",
+        "door_upper_bottom"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 206424,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Senktuer_UPPER_Kantquerholm_0",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Senktuer_UPPER_Kantquerholm_0",
+      "source": "K06: vom Nutzer verlangte Oeffnung nach unten. Zweiteilung erhaelt Oeffnung und Bodenfreiheit; Anschauungsentwurf.",
+      "release": false
+    },
+    {
+      "id": "B195",
+      "name": "Senktuer_UPPER_Kantquerholm_1",
+      "file": "teile\\B195_Senktuer_UPPER_Kantquerholm_1__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -665.5,
+        -583.0,
+        1075.0
+      ],
+      "datum_formula": [
+        "door_x+sheet_t+0.5",
+        "(door_upper_y)+(sheet_t)",
+        "(door_upper_top)+(-45)"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 207333,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Senktuer_UPPER_Kantquerholm_1",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Senktuer_UPPER_Kantquerholm_1",
+      "source": "K06: vom Nutzer verlangte Oeffnung nach unten. Zweiteilung erhaelt Oeffnung und Bodenfreiheit; Anschauungsentwurf.",
+      "release": false
+    },
+    {
+      "id": "B244",
+      "name": "Senktuer_Federkanal06_L",
+      "file": "teile\\B244_Senktuer_Federkanal06_L__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -758.0,
+        -660.0,
+        -680.0
+      ],
+      "datum_formula": [
+        "door_x-90",
+        "door_upper_y-75",
+        "-stand_h+70"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 235152,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Senktuer_Federkanal06_L",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Senktuer_Federkanal06_L",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B245",
+      "name": "Senktuer_Federkanal06_R",
+      "file": "teile\\B245_Senktuer_Federkanal06_R__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        782.0,
+        -660.0,
+        -680.0
+      ],
+      "datum_formula": [
+        "door_x+door_leaf_w-10",
+        "door_upper_y-75",
+        "-stand_h+70"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 236064,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Senktuer_Federkanal06_R",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Senktuer_Federkanal06_R",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B246",
+      "name": "Staender_Blechschuerze_links",
+      "file": "teile\\B246_Staender_Blechschuerze_links__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        -765.0,
+        -405.0,
+        -650.0
+      ],
+      "datum_formula": [
+        "enc_left-2",
+        "enc_front+70",
+        "-stand_h+100"
+      ],
+      "native_feature_count": 14,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 236938,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Staender_Blechschuerze_links",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Staender_Blechschuerze_links",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B247",
+      "name": "Staender_Blechschuerze_rechts",
+      "file": "teile\\B247_Staender_Blechschuerze_rechts__ecb147c4fdab.prt",
+      "group": "15_Einhausung",
+      "datum": [
+        889.0,
+        -405.0,
+        -650.0
+      ],
+      "datum_formula": [
+        "enc_right+2",
+        "enc_front+70",
+        "-stand_h+100"
+      ],
+      "native_feature_count": 14,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 237879,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-Staender_Blechschuerze_rechts",
+      "supply_kind": "MAKE",
+      "purchase_instance": "Staender_Blechschuerze_rechts",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdr\u00fccklich ungepr\u00fcfte Entwurfsanschl\u00fcsse.",
+      "release": false
+    },
+    {
+      "id": "B264",
+      "name": "KSS_Spaeneschacht_U",
+      "file": "teile\\B264_KSS_Spaeneschacht_U__ecb147c4fdab.prt",
+      "group": "17_KSS",
+      "datum": [
+        -175.0,
+        400.0,
+        -175.0
+      ],
+      "datum_formula": [
+        "-chip_outlet_w/2",
+        "chip_outlet_y-chip_outlet_d/2",
+        "-175"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 246421,
+        "measured_thickness_mm": 1.9999999999999996,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-KSS_Spaeneschacht_U",
+      "supply_kind": "MAKE",
+      "purchase_instance": "KSS_Spaeneschacht_U",
+      "source": "K07 Eigenentwurf nach Nutzerauftrag: Spaeneabgang unten/hinten, Korb vor KSS-Tank. Keine Kaufteil- oder Fertigungsfreigabe.",
+      "release": false
+    },
+    {
+      "id": "B266",
+      "name": "KSS_Ruecklaufkasten_U",
+      "file": "teile\\B266_KSS_Ruecklaufkasten_U__ecb147c4fdab.prt",
+      "group": "17_KSS",
+      "datum": [
+        -220.0,
+        385.0,
+        -280.0
+      ],
+      "datum_formula": [
+        "-220",
+        "385",
+        "-280"
+      ],
+      "native_feature_count": 12,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 247541,
+        "measured_thickness_mm": 1.9999999999999996,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-KSS_Ruecklaufkasten_U",
+      "supply_kind": "MAKE",
+      "purchase_instance": "KSS_Ruecklaufkasten_U",
+      "source": "K07 Eigenentwurf nach Nutzerauftrag: Spaeneabgang unten/hinten, Korb vor KSS-Tank. Keine Kaufteil- oder Fertigungsfreigabe.",
+      "release": false
+    },
+    {
+      "id": "B271",
+      "name": "KSS_Spaenekorb_U",
+      "file": "teile\\B271_KSS_Spaenekorb_U__ecb147c4fdab.prt",
+      "group": "17_KSS",
+      "datum": [
+        -210.0,
+        390.0,
+        -258.0
+      ],
+      "datum_formula": [
+        "-210",
+        "390",
+        "-258"
+      ],
+      "native_feature_count": 110,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 250138,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F-KSS_Spaenekorb_U",
+      "supply_kind": "MAKE",
+      "purchase_instance": "KSS_Spaenekorb_U",
+      "source": "K07 Eigenentwurf nach Nutzerauftrag: Spaeneabgang unten/hinten, Korb vor KSS-Tank. Keine Kaufteil- oder Fertigungsfreigabe.",
+      "release": false
+    },
+    {
+      "id": "C064",
+      "name": "ATC_Magazintraeger_Kantblech",
+      "file": "teile\\C064_ATC_Magazintraeger_Kantblech__ecb147c4fdab.prt",
+      "group": "20_ATC_Option",
+      "datum": [
+        -290.0,
+        -90.0,
+        295.0
+      ],
+      "datum_formula": [
+        "(pos_x)+(-atc_base_l/2+20)",
+        "(pos_y)+(-90)",
+        "(table_top_z)+(atc_gauge_above_table-20)"
+      ],
+      "native_feature_count": 46,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 381551,
+        "measured_thickness_mm": 4.0,
+        "requested_inner_radius_mm": 6.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F09-ATC_Magazintraeger_Kantblech",
+      "supply_kind": "MAKE",
+      "purchase_instance": "ATC_Magazintraeger_Kantblech",
+      "source": "Eigener Konstruktionsentwurf 09",
+      "release": false
+    },
+    {
+      "id": "C125",
+      "name": "ATC_Ruecken_Spritzschutz_Kantblech",
+      "file": "teile\\C125_ATC_Ruecken_Spritzschutz_Kantblech__ecb147c4fdab.prt",
+      "group": "20_ATC_Option",
+      "datum": [
+        -312.0,
+        -92.0,
+        180.0
+      ],
+      "datum_formula": [
+        "(pos_x)+(-atc_base_l/2-2)",
+        "(pos_y)+(-92)",
+        "(table_top_z)+(0)"
+      ],
+      "native_feature_count": 10,
+      "expression_mode": "CreateNumberExpression",
+      "journal_version": "4.8",
+      "sheetmetal": {
+        "status": "NATIVE_SHEETMETAL_CREATED",
+        "sheetmetal_verified": true,
+        "adapter_version": "07.2",
+        "face_query": "UF.Modeling.AskFaceData",
+        "preferences_path": "Preferences.PartSheetmetal",
+        "selected_face_tag": 419529,
+        "measured_thickness_mm": 2.0,
+        "requested_inner_radius_mm": 3.0,
+        "requested_neutral_factor": 0.4,
+        "flat_pattern_generated": false,
+        "manufacturing_released": false
+      },
+      "item_id": "F09-ATC_Ruecken_Spritzschutz_Kantblech",
+      "supply_kind": "MAKE",
+      "purchase_instance": "ATC_Ruecken_Spritzschutz_Kantblech",
+      "source": "Eigener Konstruktionsentwurf 09",
+      "release": false
+    }
+  ],
+  "manufacturing_released": false
+}

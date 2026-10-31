@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Huellzylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        0.0,
+        30.0,
+        30.0,
+        1.6
+      ],
+      "volume_mm3": 4523.893421169302
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 337364,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        0.0,
+        30.0,
+        30.0,
+        1.6
+      ],
+      "volume_mm3": 4523.893421169302,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 337364,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        0.0,
+        30.0,
+        30.0,
+        1.6
+      ],
+      "volume_mm3": 4523.893421169302,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Welle",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        -7.0,
+        -0.39999999999997726,
+        7.0,
+        7.0,
+        2.6000000000000227
+      ],
+      "volume_mm3": 461.81412007769956
+    },
+    "target_before": {
+      "tag": 337364,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        0.0,
+        30.0,
+        30.0,
+        1.6
+      ],
+      "volume_mm3": 4523.893421169302,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 337430,
+      "bounds_mm": [
+        -7.0,
+        -7.0,
+        -0.399999999999977,
+        7.0,
+        7.0,
+        2.600000000000023
+      ],
+      "volume_mm3": 461.8141200776996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 337364,
+      "bounds_mm": [
+        -30.0,
+        -30.0,
+        0.0,
+        30.0,
+        30.0,
+        1.6
+      ],
+      "volume_mm3": 4277.592557127862,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

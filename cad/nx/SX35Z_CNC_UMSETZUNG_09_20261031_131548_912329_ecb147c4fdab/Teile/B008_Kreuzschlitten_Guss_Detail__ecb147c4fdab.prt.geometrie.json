@@ -1,0 +1,1340 @@
+[
+  {
+    "feature": "001_Sattelguss",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        46.0
+      ],
+      "volume_mm3": 2098800.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        46.0
+      ],
+      "volume_mm3": 2098799.9999999995,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        46.0
+      ],
+      "volume_mm3": 2098799.9999999995,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Y_Gegenfuehrung_UNSICHTBAR_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -78.5,
+        -91.0,
+        -13.0,
+        78.5,
+        91.0,
+        0.4000000000000057
+      ],
+      "volume_mm3": 363137.3200000002
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        46.0
+      ],
+      "volume_mm3": 2098799.9999999995,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 56635,
+      "bounds_mm": [
+        -78.5,
+        -91.0,
+        -13.000000000000002,
+        78.5,
+        91.0,
+        0.4000000000000057
+      ],
+      "volume_mm3": 363137.32000000024,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        46.0
+      ],
+      "volume_mm3": 1895634.2149253725,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_X_Fuehrungsprofil",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -110.0,
+        -62.5,
+        46.0,
+        110.0,
+        62.5,
+        55.5
+      ],
+      "volume_mm3": 246620.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        46.0
+      ],
+      "volume_mm3": 1895634.2149253725,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 56910,
+      "bounds_mm": [
+        -110.0,
+        -62.5,
+        46.0,
+        110.0,
+        62.5,
+        55.5
+      ],
+      "volume_mm3": 246620.0000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 2142254.214925373,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Gussfreistellung_Foto",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -95.0,
+        -44.0,
+        35.0,
+        95.0,
+        44.0,
+        57.0
+      ],
+      "volume_mm3": 367840.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 2142254.214925373,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57008,
+      "bounds_mm": [
+        -95.0,
+        -44.0,
+        35.0,
+        95.0,
+        44.0,
+        57.0
+      ],
+      "volume_mm3": 367840.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1799494.2149253727,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Gerundeter_Spindelkanal",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -110.1,
+        -13.5,
+        29.5,
+        110.1,
+        13.5,
+        56.5
+      ],
+      "volume_mm3": 126076.66849790611
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1799494.214925373,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57117,
+      "bounds_mm": [
+        -110.10000000000001,
+        -13.5,
+        29.500000000000007,
+        110.10000000000001,
+        13.5,
+        56.5
+      ],
+      "volume_mm3": 126076.6684979061,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1766622.5472438114,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Vierloch_Pad_Foto",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -40.0,
+        19.0,
+        35.0,
+        0.0,
+        44.0,
+        42.0
+      ],
+      "volume_mm3": 7000.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1766622.5472438114,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57230,
+      "bounds_mm": [
+        -40.0,
+        19.0,
+        35.0,
+        0.0,
+        44.0,
+        42.0
+      ],
+      "volume_mm3": 7000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1773622.5472438114,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Vierloch_Pad_Bohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -32.6,
+        22.4,
+        34.0,
+        -27.4,
+        27.6,
+        44.0
+      ],
+      "volume_mm3": 212.37166338267002
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1773622.5472438114,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57334,
+      "bounds_mm": [
+        -32.599999999999994,
+        22.4,
+        34.0,
+        -27.399999999999995,
+        27.6,
+        44.0
+      ],
+      "volume_mm3": 212.3716633826701,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1773452.6499131056,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Vierloch_Pad_Bohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -32.6,
+        35.4,
+        34.0,
+        -27.4,
+        40.6,
+        44.0
+      ],
+      "volume_mm3": 212.37166338267002
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1773452.6499131054,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57400,
+      "bounds_mm": [
+        -32.599999999999994,
+        35.4,
+        34.0,
+        -27.399999999999995,
+        40.599999999999994,
+        44.0
+      ],
+      "volume_mm3": 212.3716633826701,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1773282.7525823994,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Vierloch_Pad_Bohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.6,
+        22.4,
+        34.0,
+        -6.4,
+        27.6,
+        44.0
+      ],
+      "volume_mm3": 212.37166338267002
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1773282.7525823994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57454,
+      "bounds_mm": [
+        -11.600000000000001,
+        22.4,
+        34.0,
+        -6.400000000000001,
+        27.6,
+        44.0
+      ],
+      "volume_mm3": 212.3716633826701,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1773112.8552516936,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Vierloch_Pad_Bohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.6,
+        35.4,
+        34.0,
+        -6.4,
+        40.6,
+        44.0
+      ],
+      "volume_mm3": 212.37166338267002
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1773112.8552516934,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57508,
+      "bounds_mm": [
+        -11.600000000000001,
+        35.4,
+        34.0,
+        -6.400000000000001,
+        40.599999999999994,
+        44.0
+      ],
+      "volume_mm3": 212.3716633826701,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772942.9579209874,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Schmiernut_laengs",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -100.0,
+        -51.0,
+        55.0,
+        100.0,
+        -50.0,
+        57.0
+      ],
+      "volume_mm3": 400.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772942.9579209874,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57578,
+      "bounds_mm": [
+        -100.0,
+        -51.00000000000001,
+        55.0,
+        100.0,
+        -50.00000000000001,
+        57.0
+      ],
+      "volume_mm3": 400.0000000000008,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772842.9579209876,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_Schmiernut_quer",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -99.0,
+        -55.0,
+        55.0,
+        -98.0,
+        -46.0,
+        57.0
+      ],
+      "volume_mm3": 18.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772842.9579209874,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57681,
+      "bounds_mm": [
+        -99.0,
+        -55.00000000000001,
+        55.0,
+        -98.0,
+        -46.0,
+        57.0
+      ],
+      "volume_mm3": 18.000000000000046,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772838.957920988,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_Oelbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -100.25,
+        -52.25,
+        51.0,
+        -97.75,
+        -49.75,
+        57.0
+      ],
+      "volume_mm3": 29.45243112740431
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772838.957920988,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57811,
+      "bounds_mm": [
+        -100.25,
+        -52.25000000000001,
+        51.00000000000001,
+        -97.75,
+        -49.75000000000001,
+        57.00000000000001
+      ],
+      "volume_mm3": 29.452431127404306,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772818.517771726,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Schmiernut_quer",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        -55.0,
+        55.0,
+        1.0,
+        -46.0,
+        57.0
+      ],
+      "volume_mm3": 18.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772818.5177717262,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 57909,
+      "bounds_mm": [
+        0.0,
+        -55.00000000000001,
+        55.0,
+        1.0,
+        -46.0,
+        57.0
+      ],
+      "volume_mm3": 18.000000000000036,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772814.517771726,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "015_Oelbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -1.25,
+        -52.25,
+        51.0,
+        1.25,
+        -49.75,
+        57.0
+      ],
+      "volume_mm3": 29.45243112740431
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772814.5177717262,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58027,
+      "bounds_mm": [
+        -1.25,
+        -52.25000000000001,
+        51.00000000000001,
+        1.25,
+        -49.75000000000001,
+        57.00000000000001
+      ],
+      "volume_mm3": 29.452431127404306,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772794.141490085,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "016_Schmiernut_quer",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        99.0,
+        -55.0,
+        55.0,
+        100.0,
+        -46.0,
+        57.0
+      ],
+      "volume_mm3": 18.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772794.141490085,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58002,
+      "bounds_mm": [
+        99.0,
+        -55.00000000000001,
+        55.0,
+        100.0,
+        -46.0,
+        57.0
+      ],
+      "volume_mm3": 18.000000000000046,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772790.1414900846,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "017_Oelbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        97.75,
+        -52.25,
+        51.0,
+        100.25,
+        -49.75,
+        57.0
+      ],
+      "volume_mm3": 29.45243112740431
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772790.1414900848,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58211,
+      "bounds_mm": [
+        97.75,
+        -52.25000000000001,
+        51.00000000000001,
+        100.25,
+        -49.75000000000001,
+        57.00000000000001
+      ],
+      "volume_mm3": 29.452431127404306,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772769.701340823,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "018_Schmiernut_laengs",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -100.0,
+        51.0,
+        55.0,
+        100.0,
+        52.0,
+        57.0
+      ],
+      "volume_mm3": 400.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772769.701340823,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58231,
+      "bounds_mm": [
+        -100.0,
+        51.00000000000001,
+        55.0,
+        100.0,
+        52.00000000000001,
+        57.0
+      ],
+      "volume_mm3": 400.0000000000008,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772669.7013408232,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "019_Schmiernut_quer",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -99.0,
+        47.0,
+        55.0,
+        -98.0,
+        56.0,
+        57.0
+      ],
+      "volume_mm3": 18.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772669.7013408234,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58389,
+      "bounds_mm": [
+        -99.0,
+        47.0,
+        55.0,
+        -98.0,
+        56.00000000000001,
+        57.0
+      ],
+      "volume_mm3": 18.000000000000046,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772665.7013408234,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "020_Oelbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -100.25,
+        49.75,
+        51.0,
+        -97.75,
+        52.25,
+        57.0
+      ],
+      "volume_mm3": 29.45243112740431
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772665.7013408234,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58511,
+      "bounds_mm": [
+        -100.25,
+        49.75,
+        51.00000000000001,
+        -97.75,
+        52.25,
+        57.00000000000001
+      ],
+      "volume_mm3": 29.452431127404306,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772645.2611915614,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "021_Schmiernut_quer",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        47.0,
+        55.0,
+        1.0,
+        56.0,
+        57.0
+      ],
+      "volume_mm3": 18.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772645.2611915614,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58602,
+      "bounds_mm": [
+        0.0,
+        47.0,
+        55.0,
+        1.0,
+        56.00000000000001,
+        57.0
+      ],
+      "volume_mm3": 18.000000000000036,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772641.2611915614,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "022_Oelbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -1.25,
+        49.75,
+        51.0,
+        1.25,
+        52.25,
+        57.0
+      ],
+      "volume_mm3": 29.45243112740431
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772641.2611915611,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58720,
+      "bounds_mm": [
+        -1.25,
+        49.75,
+        51.00000000000001,
+        1.25,
+        52.25,
+        57.00000000000001
+      ],
+      "volume_mm3": 29.452431127404306,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772620.8849099195,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "023_Schmiernut_quer",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        99.0,
+        47.0,
+        55.0,
+        100.0,
+        56.0,
+        57.0
+      ],
+      "volume_mm3": 18.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772620.8849099197,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58800,
+      "bounds_mm": [
+        99.0,
+        47.0,
+        55.0,
+        100.0,
+        56.00000000000001,
+        57.0
+      ],
+      "volume_mm3": 18.000000000000046,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772616.8849099197,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "024_Oelbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        97.75,
+        49.75,
+        51.0,
+        100.25,
+        52.25,
+        57.0
+      ],
+      "volume_mm3": 29.45243112740431
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772616.8849099195,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58881,
+      "bounds_mm": [
+        97.75,
+        49.75,
+        51.00000000000001,
+        100.25,
+        52.25,
+        57.00000000000001
+      ],
+      "volume_mm3": 29.452431127404306,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772596.4447606576,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "025_Separate_Keilleiste_Freiraum",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -110.0,
+        53.0,
+        46.0,
+        110.0,
+        62.5,
+        55.5
+      ],
+      "volume_mm3": 5225.0
+    },
+    "target_before": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1772596.4447606576,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 58991,
+      "bounds_mm": [
+        -110.0,
+        53.0,
+        46.0,
+        110.0,
+        62.5,
+        55.5
+      ],
+      "volume_mm3": 5225.000000000006,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 56506,
+      "bounds_mm": [
+        -110.0,
+        -90.0,
+        -7.0,
+        110.0,
+        90.0,
+        55.5
+      ],
+      "volume_mm3": 1767371.444760658,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

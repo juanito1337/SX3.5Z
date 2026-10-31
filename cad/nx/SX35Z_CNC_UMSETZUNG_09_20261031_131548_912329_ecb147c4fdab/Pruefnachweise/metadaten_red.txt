@@ -1,0 +1,27 @@
+
+
+Journal execution results for C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\NX_Metadaten_Pruefen.py...
+Syntax errors:
+Line 36: Traceback (most recent call last):
+  File "C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\NX_Metadaten_Pruefen.py", line 48, in <module>
+    main()
+  File "C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\NX_Metadaten_Pruefen.py", line 36, in main
+    assert not builder.warnings, 'Metadaten verursachen NX-Fehler: ' + repr(builder.warnings)
+AssertionError: Metadaten verursachen NX-Fehler: ['Attribut SX_STATUS: Functionality attempted not possible in the current version of the OM', 'Attribut SX_BESCHREIBUNG: Functionality attempted not possible in the current version of the OM', 'Attribut SX_QUELLE: Functionality attempted not possible in the current version of the OM', 'Attribut SX_EINHEIT: Functionality attempted not possible in the current version of the OM']
+
+
+==================================================
+Please see log file in C:\Users\1337\AppData\Local\Temp\133736e465c9.syslog
+==================================================
+Ausgabeziel aus NX_Ausgabe.json: C:\Users\1337\Documents\ChatGPT\SX3.5Z\cad\nx
+Journal-/Eingabeordner: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt
+Geplante Ausgabe: C:\Users\1337\Documents\ChatGPT\SX3.5Z\cad\nx\SX35Z_METADATA_20261031_131434_70176bd7bba2
+Pfadtest bestanden: Aufloesen, Schreiben, Ruecklesen, Umbenennen und Entfernen der eigenen Testdatei.
+Ausgabeordner: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261031_131434_70176bd7bba2
+Neues NX-Teil am endgueltigen Ziel: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261031_131434_70176bd7bba2\metada
+tenprobe__70176bd7bba2.prt
+NX FullPath bestaetigt: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261031_131434_70176bd7bba2\metadatenprobe__70
+176bd7bba2.prt
+Erzeuge 1 Eingabe- und 0 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/1: sx_sheet_t
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 1/1.

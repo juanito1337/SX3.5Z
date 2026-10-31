@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Europe/Berlin",
+  "source_base_commit": "463497f5a6990ced775a85886e4ee03f83c20e81",
+  "source_changes": [
+    "NX_Ausgabe.json: Ausgabe im Git-Projekt",
+    "nx_native.py: Ausdrucksmetadaten als Part-Attribute"
+  ],
+  "source_hashes": "Pruefnachweise/Aktive_Quellhashes_SHA256.json",
+  "environment": "Windows / Siemens NX 2406 / NX Python 3.10.15",
+  "scope": "Native Neuerzeugung Stand09, frisches vollstaendiges Laden und Pfadwechselprobe; keine mechanische Abnahme",
+  "old_cad_used": false,
+  "native_parts": 560,
+  "subassemblies": 20,
+  "main_assemblies": 1,
+  "api_test_parts": 3,
+  "native_sheetmetal_conversions": 21,
+  "native_generation_exitcode": 0,
+  "native_reopen_exitcode": 0,
+  "relocated_reopen_exitcode": 0,
+  "expression_metadata_parts_checked": 142,
+  "native_metadata_test_red_exitcode": 1,
+  "native_metadata_test_green_exitcode": 0,
+  "offline_pytest_exitcode": 9009,
+  "offline_pytest_status": "Nicht ausgefuehrt: Standard-Python nicht verfuegbar",
+  "parameter_sha256": "cd9a5dd5a7e224dc72ce9618862fd69c7b2536d2cb2944cf704a58e1c95940d0",
+  "historical_recipe_sha256": "6790b57cc581b5db29ade50241cbb2b86e11dd1f8df444d2959ffb5a6d7f3824",
+  "native_runtime_recipe_sha256": "da8b4b123b93dd0e12e8f57e95840b7dbff4217d9a8fdba7264465747d356e14",
+  "historical_reference_comparison_active": false,
+  "native_operation_checks_active": true,
+  "build_ready": false,
+  "purchase_released": false,
+  "machine_operation_enabled": false,
+  "atc_operational": false,
+  "limits": [
+    "Rezept-Hashabweichung ungeklart",
+    "35 offene Istmasse laut historischem Bericht",
+    "Sechs bekannte Grundmaschinen-Anschlusskonflikte nicht neu berechnet",
+    "Keine volle Bahn-, Festigkeits-, Toleranz- oder Sicherheitspruefung",
+    "Wiederoeffnung prueft Anzahl, Koerper, Ladepfade und exemplarisch sheet_t-Metadaten, nicht erneut Einbaupositionen"
+  ]
+}

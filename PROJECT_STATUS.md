@@ -1,5 +1,29 @@
 # Projektstatus zum Codex-Übergabestand
 
+## Fortschreibung 31.10.2026: Stand09 erstmals hier vollstaendig nativ erzeugt
+
+Nach Nutzerentscheidung wurden neue Dateien ausschliesslich aus `projekt/`
+erzeugt, ohne alte CAD-Dateien des Rechners zu verwenden. Unter `cad/nx/` liegt
+Lauf `SX35Z_CNC_UMSETZUNG_09_20261031_131548_912329_ecb147c4fdab` mit 560
+Einzelteilen, 20 Unterbaugruppen und einer Hauptbaugruppe sowie drei API-Pruefteilen.
+NX-2406-Gesamtaufbau und anschliessendes Oeffnen in frischer NX-Sitzung endeten
+mit Exitcode 0. Alle 560 Einzelteile wurden mit je einem Koerper voll geladen;
+21 Teile wurden beim Aufbau als native Blechkoerper bestaetigt (`required`).
+
+Fuer den Lauf wurde ein nativer Metadatenfehler korrigiert: NX-Ausdruecke
+unterstuetzen keine Benutzerattribute (OM 580023). Herkunftsangaben liegen jetzt
+am Part unter `SX_EXPR_<Parameter>_*`; Wert und Persistenz wurden nativ geprueft.
+Keine Rezeptgeometrie oder Modellparameter wurden dazu geaendert.
+
+Der historische Rezept-Hash stimmt trotz unveraenderter Rezeptquelldateien nicht
+mit dem aktuellen Lauf ueberein. Der vorhandene Generator aktiviert deshalb
+keinen historischen OpenCascade-Referenzvergleich. Seine nativen Werkzeuglagen-,
+Volumen- und Boolean-Pruefungen bleiben aktiv. Ursache der Hashabweichung offen.
+Offline-pytest wurde versucht, konnte mangels Standard-Python nicht starten
+(Exitcode 9009). Die folgenden Angaben zur alten Uebergabe bleiben historisch.
+35 Istmasse, sechs Anschlusskonflikte und alle mechanischen Freigabegrenzen
+bleiben offen. Details und Befehle: `cad/README.md` und Lieferstand-Nachweise.
+
 **31.10.2026.** Quelle für den Code: `SX35Z_CNC_Umsetzung_09.zip`, unverändert unter `projekt/`.
 Dies ist eine Bestandsübernahme, kein neuer Funktionsstand10.
 

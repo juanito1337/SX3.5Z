@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Keilleistenprofil",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        -3.0,
+        0.0,
+        220.0,
+        6.5,
+        9.5
+      ],
+      "volume_mm3": 5225.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 59302,
+      "bounds_mm": [
+        0.0,
+        -3.0,
+        0.0,
+        220.0,
+        6.500000000000002,
+        9.5
+      ],
+      "volume_mm3": 5225.000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 59302,
+      "bounds_mm": [
+        0.0,
+        -3.0,
+        0.0,
+        220.0,
+        6.500000000000002,
+        9.5
+      ],
+      "volume_mm3": 5225.000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

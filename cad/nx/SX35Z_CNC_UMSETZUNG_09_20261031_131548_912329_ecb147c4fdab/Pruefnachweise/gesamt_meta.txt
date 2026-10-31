@@ -1,0 +1,6 @@
+Datum: 2026-10-31 Europe/Berlin
+Quellrevision: 463497f mit NX_Ausgabe-Konfiguration und Metadatenkorrektur
+Umgebung: NX 2406, Python 3.10.15, Windows
+Befehl: C:/Siemens/nx2406/NXBIN/run_journal.exe projekt/NX_CNC_Gesamtansicht.py
+Umfang: kompletter Stand09-Neuaufbau, Blech required; keine alten PRT-Eingaben
+Exitcode: 0

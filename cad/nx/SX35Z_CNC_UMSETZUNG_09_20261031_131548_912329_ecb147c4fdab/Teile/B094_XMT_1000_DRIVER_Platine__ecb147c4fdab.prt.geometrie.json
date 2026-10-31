@@ -1,0 +1,260 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -59.0,
+        0.0,
+        0.0,
+        59.0,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50598.4
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50598.40000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50598.40000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Platinenbefestigung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -53.6,
+        -0.10000000000002274,
+        6.4,
+        -50.4,
+        1.6999999999999773,
+        9.6
+      ],
+      "volume_mm3": 14.476458947741769
+    },
+    "target_before": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50598.400000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 134790,
+      "bounds_mm": [
+        -53.6,
+        -0.100000000000023,
+        6.4,
+        -50.400000000000006,
+        1.6999999999999773,
+        9.600000000000001
+      ],
+      "volume_mm3": 14.476458947741769,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50585.532036490906,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Platinenbefestigung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -53.6,
+        -0.10000000000002274,
+        258.4,
+        -50.4,
+        1.6999999999999773,
+        261.6
+      ],
+      "volume_mm3": 14.476458947741769
+    },
+    "target_before": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50585.5320364909,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 134849,
+      "bounds_mm": [
+        -53.6,
+        -0.100000000000023,
+        258.40000000000003,
+        -50.400000000000006,
+        1.6999999999999773,
+        261.6
+      ],
+      "volume_mm3": 14.476458947741769,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50572.664072981795,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Platinenbefestigung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        50.4,
+        -0.10000000000002274,
+        6.4,
+        53.6,
+        1.6999999999999773,
+        9.6
+      ],
+      "volume_mm3": 14.476458947741769
+    },
+    "target_before": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50572.6640729818,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 134817,
+      "bounds_mm": [
+        50.400000000000006,
+        -0.100000000000023,
+        6.4,
+        53.6,
+        1.6999999999999773,
+        9.600000000000001
+      ],
+      "volume_mm3": 14.476458947741769,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50559.7961094727,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Platinenbefestigung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        50.4,
+        -0.10000000000002274,
+        258.4,
+        53.6,
+        1.6999999999999773,
+        261.6
+      ],
+      "volume_mm3": 14.476458947741769
+    },
+    "target_before": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50559.7961094727,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 134965,
+      "bounds_mm": [
+        50.400000000000006,
+        -0.100000000000023,
+        258.40000000000003,
+        53.6,
+        1.6999999999999773,
+        261.6
+      ],
+      "volume_mm3": 14.476458947741769,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 134682,
+      "bounds_mm": [
+        -59.00000000000001,
+        0.0,
+        0.0,
+        59.00000000000001,
+        1.6,
+        268.0
+      ],
+      "volume_mm3": 50546.92814596359,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

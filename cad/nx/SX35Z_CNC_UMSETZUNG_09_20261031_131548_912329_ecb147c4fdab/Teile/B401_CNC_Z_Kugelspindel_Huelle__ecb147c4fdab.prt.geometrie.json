@@ -1,0 +1,206 @@
+[
+  {
+    "feature": "001_Gewindekern_Nennhuelle_ohne_Laufbahn",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -490.0,
+        10.0,
+        10.0,
+        -6.0
+      ],
+      "volume_mm3": 152053.084433746
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 326555,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -490.0,
+        10.0,
+        10.0,
+        -6.0
+      ],
+      "volume_mm3": 152053.084433746,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 326555,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -490.0,
+        10.0,
+        10.0,
+        -6.0
+      ],
+      "volume_mm3": 152053.084433746,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Festlagerzapfen_Huelle_KEINE_ENDENZEICHNUNG",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.5,
+        -7.5,
+        -6.0,
+        7.5,
+        7.5,
+        45.0
+      ],
+      "volume_mm3": 9012.443924985719
+    },
+    "target_before": {
+      "tag": 326555,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -490.0,
+        10.0,
+        10.0,
+        -6.0
+      ],
+      "volume_mm3": 152053.084433746,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 326622,
+      "bounds_mm": [
+        -7.5,
+        -7.5,
+        -6.0,
+        7.5,
+        7.5,
+        45.00000000000001
+      ],
+      "volume_mm3": 9012.443924985719,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 326555,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -490.0,
+        10.0,
+        10.0,
+        45.0
+      ],
+      "volume_mm3": 161065.5283587317,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Kupplungszapfen_Entwurf",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -6.0,
+        -6.0,
+        45.0,
+        6.0,
+        6.0,
+        80.0
+      ],
+      "volume_mm3": 3958.406743523139
+    },
+    "target_before": {
+      "tag": 326555,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -490.0,
+        10.0,
+        10.0,
+        45.0
+      ],
+      "volume_mm3": 161065.5283587317,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 326680,
+      "bounds_mm": [
+        -6.0,
+        -6.0,
+        45.0,
+        6.0,
+        6.0,
+        80.0
+      ],
+      "volume_mm3": 3958.40674352314,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 326555,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -490.0,
+        10.0,
+        10.0,
+        80.0
+      ],
+      "volume_mm3": 165023.93510225485,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Loslagerzapfen_ohne_Sicherungsringnut",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.5,
+        -7.5,
+        -515.0,
+        7.5,
+        7.5,
+        -490.0
+      ],
+      "volume_mm3": 4417.864669110647
+    },
+    "target_before": {
+      "tag": 326555,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -490.0,
+        10.0,
+        10.0,
+        80.0
+      ],
+      "volume_mm3": 165023.93510225485,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 326742,
+      "bounds_mm": [
+        -7.5,
+        -7.5,
+        -515.0,
+        7.5,
+        7.5,
+        -490.0
+      ],
+      "volume_mm3": 4417.8646691106505,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 326555,
+      "bounds_mm": [
+        -10.0,
+        -10.0,
+        -515.0,
+        10.0,
+        10.0,
+        80.0
+      ],
+      "volume_mm3": 169441.7997713655,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

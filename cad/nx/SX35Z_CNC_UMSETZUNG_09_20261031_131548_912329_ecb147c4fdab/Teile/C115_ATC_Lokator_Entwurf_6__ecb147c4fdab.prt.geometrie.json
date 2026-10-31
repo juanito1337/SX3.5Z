@@ -1,0 +1,206 @@
+[
+  {
+    "feature": "001_Lokator_Alu_POM_Auswahl_offen",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 31360.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 413228,
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 31360.000000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 413228,
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 31360.000000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Halter_Durchlass",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -17.3,
+        -17.3,
+        -0.10000000000002274,
+        17.3,
+        17.3,
+        10.099999999999977
+      ],
+      "volume_mm3": 9590.52210598747
+    },
+    "target_before": {
+      "tag": 413228,
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 31360.000000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 413342,
+      "bounds_mm": [
+        -17.3,
+        -17.3,
+        -0.100000000000023,
+        17.3,
+        17.3,
+        10.099999999999977
+      ],
+      "volume_mm3": 9590.522105987468,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 413228,
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 21957.527347071114,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_M5_Lokatorbefestigung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -23.75,
+        -21.75,
+        -0.10000000000002274,
+        -18.25,
+        -16.25,
+        10.099999999999977
+      ],
+      "volume_mm3": 242.33460331628262
+    },
+    "target_before": {
+      "tag": 413228,
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 21957.527347071114,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 413426,
+      "bounds_mm": [
+        -23.75,
+        -21.75,
+        -0.100000000000023,
+        -18.25,
+        -16.25,
+        10.099999999999977
+      ],
+      "volume_mm3": 242.33460331628257,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 413228,
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 21719.944402643385,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_M5_Lokatorbefestigung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        18.25,
+        -21.75,
+        -0.10000000000002274,
+        23.75,
+        -16.25,
+        10.099999999999977
+      ],
+      "volume_mm3": 242.33460331628262
+    },
+    "target_before": {
+      "tag": 413228,
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 21719.94440264339,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 413486,
+      "bounds_mm": [
+        18.250000000000004,
+        -21.75,
+        -0.100000000000023,
+        23.75,
+        -16.25,
+        10.099999999999977
+      ],
+      "volume_mm3": 242.33460331628257,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 413228,
+      "bounds_mm": [
+        -28.0,
+        -28.0,
+        0.0,
+        28.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 21482.361458215662,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

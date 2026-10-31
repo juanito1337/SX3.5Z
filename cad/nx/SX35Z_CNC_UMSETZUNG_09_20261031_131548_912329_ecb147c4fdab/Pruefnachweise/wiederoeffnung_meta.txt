@@ -1,0 +1,1 @@
+Befehl: run_journal.exe projekt/NX_Git_Lieferstand_Pruefen.py; Ziel: C:\Users\1337\Documents\ChatGPT\SX3.5Z\cad\nx\SX35Z_CNC_UMSETZUNG_09_20261031_131548_912329_ecb147c4fdab; Exitcode: 0

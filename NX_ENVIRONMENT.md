@@ -1,5 +1,20 @@
 # Ausführungsumgebungen – nicht miteinander verwechseln
 
+## Lokal nachgewiesen am 31.10.2026
+
+`C:/Siemens/nx2406/NXBIN/run_journal.exe` fuehrt Python-Journale mit NXOpen und
+Python 3.10.15 aus. Der Gesamtaufbau09 und das Oeffnen in frischem Prozess waren
+erfolgreich (Exitcode 0). Native Blechkonvertierung ist in dieser Umgebung
+verfuegbar. `ugraf.exe` meldet Dateiversion 2406.6000, `NXOpen.pyd` 2406.8100.
+
+`projekt/NX_Ausgabe.json` zeigt jetzt explizit auf
+`C:/Users/1337/Documents/ChatGPT/SX3.5Z/cad/nx`. Bei anderem Checkout-Pfad diesen
+absoluten Konfigurationswert anpassen. Jeder Lauf erhaelt weiterhin ein neues
+Verzeichnis. Neue Nutzerentscheidung: keine alten CAD-Dateien einlesen.
+Ausfuehrungs- und Oeffnungsbefehle stehen in `cad/README.md`.
+Die folgenden Abschnitte beschreiben den frueheren Uebergabestand; insbesondere
+der dort genannte leere `output_root` und unbekannte Launcher sind ueberholt.
+
 ## Nutzerumgebung: aus historischen Logs beobachtet
 
 - Windows, Siemens NX 2406.

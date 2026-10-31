@@ -1,0 +1,27 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "84D5291C7E17848348693573DB5DDF16E9A46548200C504F9C2F318AA3388DD7",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_CNC_Gesamtansicht.py"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "605006BBA7DB6A8822885DE4DDC92F5D005E41F302E756E257164C9B80FEC9C8",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\nx_native.py"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "877B6FB178873348E8A0384BDD47203DE8F55DC4F3CF7EA6745CA47354351967",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_Ausgabe.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4229942E5ECC89447B4D4E41FF4AEB6D88B334C9D228455FA7BF64071A176DB9",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\Parameter.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2B03B97ECC209A2F436E3F81379BEF9E0D0C5C888E2E9DD7BB94C2326D38AA1F",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\cnc_ansichtsmodell.py"
+  }
+]

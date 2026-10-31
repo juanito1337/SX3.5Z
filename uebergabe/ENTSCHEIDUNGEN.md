@@ -1,5 +1,15 @@
 # Entscheidungen und offene Annahmen
 
+## Nutzerentscheidung 31.10.2026: neue native Dateien im Git-Projekt
+
+Der Nutzer verlangt die Neuerzeugung der 3D-Dateien im Git-Ordner und ihre
+Versionierung. Alte CAD-Dateien an anderen Orten des Rechners werden dafuer
+nicht verwendet. Ausgangspunkt dieses Laufs sind ausschliesslich die aktuellen
+Rezepte und Parameter unter `projekt/`; Ziel ist `cad/nx/`.
+Dies ersetzt fuer diesen Lieferstand die zuvor vorgeschlagene Uebernahme alter
+PRT. Es bestaetigt keine Fotoannahmen als Istmasse und erteilt keine Fertigungs-,
+Bestell-, Betriebs- oder ATC-Freigabe.
+
 Dieses Register fasst die sichtbaren Nutzervorgaben und den vorhandenen Code zusammen.
 Es ist keine wortgetreue vollständige Chatarchivierung.
 

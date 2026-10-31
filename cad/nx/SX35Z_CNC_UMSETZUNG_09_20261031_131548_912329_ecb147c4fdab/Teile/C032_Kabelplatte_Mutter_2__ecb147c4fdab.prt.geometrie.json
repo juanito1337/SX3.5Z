@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Sechskant_Nenn",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -4.0,
+        -4.618802153519994,
+        0.0,
+        4.0,
+        4.618802153519994,
+        4.7
+      ],
+      "volume_mm3": 260.50044145852763
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 362602,
+      "bounds_mm": [
+        -4.0,
+        -4.618802153519993,
+        0.0,
+        4.0,
+        4.618802153519993,
+        4.7
+      ],
+      "volume_mm3": 260.50044145852763,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 362602,
+      "bounds_mm": [
+        -4.0,
+        -4.618802153519993,
+        0.0,
+        4.0,
+        4.618802153519993,
+        4.7
+      ],
+      "volume_mm3": 260.50044145852763,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_M5_Nenn_kein_Kernloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -2.5,
+        -2.5,
+        -0.09999999999999432,
+        2.5,
+        2.5,
+        4.800000000000006
+      ],
+      "volume_mm3": 96.21127501618743
+    },
+    "target_before": {
+      "tag": 362602,
+      "bounds_mm": [
+        -4.0,
+        -4.618802153519993,
+        0.0,
+        4.0,
+        4.618802153519993,
+        4.7
+      ],
+      "volume_mm3": 260.50044145852763,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 362694,
+      "bounds_mm": [
+        -2.5,
+        -2.5,
+        -0.0999999999999943,
+        2.5,
+        2.5,
+        4.800000000000006
+      ],
+      "volume_mm3": 96.21127501618743,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 362602,
+      "bounds_mm": [
+        -4.0,
+        -4.618802153519993,
+        0.0,
+        4.0,
+        4.618802153519993,
+        4.7
+      ],
+      "volume_mm3": 168.21615725932745,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

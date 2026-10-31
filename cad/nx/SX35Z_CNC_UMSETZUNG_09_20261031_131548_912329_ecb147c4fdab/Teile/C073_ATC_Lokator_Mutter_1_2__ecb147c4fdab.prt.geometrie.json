@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Sechskant_Nenn",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -4.0,
+        -4.618802153519994,
+        -4.7,
+        4.0,
+        4.618802153519994,
+        0.0
+      ],
+      "volume_mm3": 260.50044145852763
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 388077,
+      "bounds_mm": [
+        -3.999999999999999,
+        -4.618802153519993,
+        -4.7,
+        3.999999999999999,
+        4.618802153519993,
+        0.0
+      ],
+      "volume_mm3": 260.50044145852763,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 388077,
+      "bounds_mm": [
+        -3.999999999999999,
+        -4.618802153519993,
+        -4.7,
+        3.999999999999999,
+        4.618802153519993,
+        0.0
+      ],
+      "volume_mm3": 260.50044145852763,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_M5_Nenn_kein_Kernloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -2.5,
+        -2.5,
+        -4.799999999999978,
+        2.5,
+        2.5,
+        0.10000000000002274
+      ],
+      "volume_mm3": 96.21127501618743
+    },
+    "target_before": {
+      "tag": 388077,
+      "bounds_mm": [
+        -3.999999999999999,
+        -4.618802153519993,
+        -4.7,
+        3.999999999999999,
+        4.618802153519993,
+        0.0
+      ],
+      "volume_mm3": 260.50044145852763,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 388226,
+      "bounds_mm": [
+        -2.5,
+        -2.5,
+        -4.799999999999978,
+        2.5,
+        2.5,
+        0.10000000000002274
+      ],
+      "volume_mm3": 96.21127501618743,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 388077,
+      "bounds_mm": [
+        -3.999999999999999,
+        -4.618802153519993,
+        -4.7,
+        3.999999999999999,
+        4.618802153519993,
+        0.0
+      ],
+      "volume_mm3": 168.2161572593275,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

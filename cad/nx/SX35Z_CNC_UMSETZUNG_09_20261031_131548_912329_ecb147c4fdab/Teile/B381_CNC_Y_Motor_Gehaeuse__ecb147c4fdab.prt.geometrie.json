@@ -1,0 +1,260 @@
+[
+  {
+    "feature": "001_Motor_Aussenhuelle",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.200000000000003,
+        28.2,
+        0.0,
+        28.199999999999996
+      ],
+      "volume_mm3": 295829.27999999997
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 295829.28,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 295829.28,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Kopfzugang_nur_vereinfacht_NICHT_MOTOR_BEARBEITEN",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -28.07,
+        -5.899999999999977,
+        -28.07,
+        -19.07,
+        0.10000000000002274,
+        -19.07
+      ],
+      "volume_mm3": 381.7035074111598
+    },
+    "target_before": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 295829.28,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 314231,
+      "bounds_mm": [
+        -28.07,
+        -5.899999999999977,
+        -28.07,
+        -19.07,
+        0.10000000000002274,
+        -19.07
+      ],
+      "volume_mm3": 381.70350741115993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 295453.93821771233,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Kopfzugang_nur_vereinfacht_NICHT_MOTOR_BEARBEITEN",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -28.07,
+        -5.899999999999977,
+        19.069999999999993,
+        -19.07,
+        0.10000000000002274,
+        28.069999999999993
+      ],
+      "volume_mm3": 381.7035074111598
+    },
+    "target_before": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 295453.93821771233,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 314292,
+      "bounds_mm": [
+        -28.07,
+        -5.899999999999977,
+        19.07,
+        -19.07,
+        0.10000000000002274,
+        28.07
+      ],
+      "volume_mm3": 381.70350741115993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 295078.5964354247,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Kopfzugang_nur_vereinfacht_NICHT_MOTOR_BEARBEITEN",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        19.07,
+        -5.899999999999977,
+        -28.07,
+        28.07,
+        0.10000000000002274,
+        -19.07
+      ],
+      "volume_mm3": 381.7035074111598
+    },
+    "target_before": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 295078.5964354247,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 314348,
+      "bounds_mm": [
+        19.07,
+        -5.899999999999977,
+        -28.07,
+        28.07,
+        0.10000000000002274,
+        -19.07
+      ],
+      "volume_mm3": 381.70350741115993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 294703.254653137,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Kopfzugang_nur_vereinfacht_NICHT_MOTOR_BEARBEITEN",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        19.07,
+        -5.899999999999977,
+        19.069999999999993,
+        28.07,
+        0.10000000000002274,
+        28.069999999999993
+      ],
+      "volume_mm3": 381.7035074111598
+    },
+    "target_before": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 294703.25465313706,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 314401,
+      "bounds_mm": [
+        19.07,
+        -5.899999999999977,
+        19.07,
+        28.07,
+        0.10000000000002274,
+        28.07
+      ],
+      "volume_mm3": 381.70350741115993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 314124,
+      "bounds_mm": [
+        -28.2,
+        -93.0,
+        -28.2,
+        28.2,
+        0.0,
+        28.2
+      ],
+      "volume_mm3": 294327.9128708494,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

@@ -1,0 +1,1016 @@
+[
+  {
+    "feature": "001_Kantprofil_Zwei_Biegungen_Vorform",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 306240.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 306239.99999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 306239.99999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Tasche_Durchlass_1",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        37.7,
+        19.7,
+        -5.0,
+        72.3,
+        54.3,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757336
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 306240.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 381696,
+      "bounds_mm": [
+        37.699999999999996,
+        19.7,
+        -5.0,
+        72.30000000000001,
+        54.30000000000001,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757335,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 302479.01093882846,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        31.25,
+        15.25,
+        -5.0,
+        36.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 302479.0109388284,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 381763,
+      "bounds_mm": [
+        31.25,
+        15.250000000000004,
+        -5.0,
+        36.75000000000001,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 302383.9777610574,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        73.25,
+        15.25,
+        -5.0,
+        78.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 302383.9777610575,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 381743,
+      "bounds_mm": [
+        73.25,
+        15.250000000000004,
+        -5.0,
+        78.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 302288.94458328636,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Tasche_Durchlass_2",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        131.7,
+        19.7,
+        -5.0,
+        166.3,
+        54.3,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757336
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 302288.94458328624,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 381744,
+      "bounds_mm": [
+        131.7,
+        19.7,
+        -5.0,
+        166.3,
+        54.30000000000001,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757335,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 298527.9555221147,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        125.25,
+        15.25,
+        -5.0,
+        130.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 298527.9555221147,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 381946,
+      "bounds_mm": [
+        125.25,
+        15.250000000000004,
+        -5.0,
+        130.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 298432.9223443436,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        167.25,
+        15.25,
+        -5.0,
+        172.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 298432.9223443436,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382004,
+      "bounds_mm": [
+        167.25,
+        15.250000000000004,
+        -5.0,
+        172.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 298337.88916657254,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Tasche_Durchlass_3",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        225.7,
+        19.7,
+        -5.0,
+        260.3,
+        54.3,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757336
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 298337.8891665725,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382067,
+      "bounds_mm": [
+        225.7,
+        19.7,
+        -5.0,
+        260.29999999999995,
+        54.30000000000001,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757335,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 294576.90010540106,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        219.25,
+        15.25,
+        -5.0,
+        224.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 294576.900105401,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382128,
+      "bounds_mm": [
+        219.25,
+        15.250000000000004,
+        -5.0,
+        224.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 294481.8669276299,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        261.25,
+        15.25,
+        -5.0,
+        266.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 294481.86692763,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382191,
+      "bounds_mm": [
+        261.25000000000006,
+        15.250000000000004,
+        -5.0,
+        266.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 294386.83374985884,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Tasche_Durchlass_4",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        319.7,
+        19.7,
+        -5.0,
+        354.3,
+        54.3,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757336
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 294386.83374985884,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382251,
+      "bounds_mm": [
+        319.70000000000005,
+        19.7,
+        -5.0,
+        354.3,
+        54.30000000000001,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757335,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 290625.84468868736,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        313.25,
+        15.25,
+        -5.0,
+        318.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 290625.84468868724,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382294,
+      "bounds_mm": [
+        313.25,
+        15.250000000000004,
+        -5.0,
+        318.74999999999994,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 290530.8115109162,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        355.25,
+        15.25,
+        -5.0,
+        360.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 290530.8115109163,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382355,
+      "bounds_mm": [
+        355.25,
+        15.250000000000004,
+        -5.0,
+        360.74999999999994,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 290435.7783331452,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Tasche_Durchlass_5",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        413.7,
+        19.7,
+        -5.0,
+        448.3,
+        54.3,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757336
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 290435.7783331452,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382415,
+      "bounds_mm": [
+        413.7,
+        19.7,
+        -5.0,
+        448.29999999999995,
+        54.30000000000001,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757335,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 286674.7892719736,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "015_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        407.25,
+        15.25,
+        -5.0,
+        412.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 286674.7892719736,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382471,
+      "bounds_mm": [
+        407.25000000000006,
+        15.250000000000004,
+        -5.0,
+        412.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 286579.75609420246,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "016_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        449.25,
+        15.25,
+        -5.0,
+        454.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 286579.7560942026,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382529,
+      "bounds_mm": [
+        449.25000000000006,
+        15.250000000000004,
+        -5.0,
+        454.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 286484.72291643143,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "017_Tasche_Durchlass_6",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        507.7,
+        19.7,
+        -5.0,
+        542.3,
+        54.3,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757336
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 286484.72291643143,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382510,
+      "bounds_mm": [
+        507.70000000000005,
+        19.7,
+        -5.0,
+        542.3,
+        54.30000000000001,
+        1.0
+      ],
+      "volume_mm3": 5641.483591757335,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 282723.7338552599,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "018_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        501.25,
+        15.25,
+        -5.0,
+        506.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 282723.7338552599,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382654,
+      "bounds_mm": [
+        501.25,
+        15.250000000000004,
+        -5.0,
+        506.75000000000006,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 282628.70067748876,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "019_M5_Gegenbohrung_Lokator",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        543.25,
+        15.25,
+        -5.0,
+        548.75,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 282628.7006774888,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 382712,
+      "bounds_mm": [
+        543.25,
+        15.250000000000004,
+        -5.0,
+        548.7500000000001,
+        20.75,
+        1.0
+      ],
+      "volume_mm3": 142.54976665663682,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 381533,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -20.0,
+        580.0,
+        100.0,
+        0.0
+      ],
+      "volume_mm3": 282533.66749971773,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

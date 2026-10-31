@@ -1,0 +1,2 @@
+Python wurde nicht gefunden; ohne Argumente ausf�hren, um aus dem Microsoft Store zu installieren, oder deaktivieren Sie diese Verkn�pfung unter "Einstellungen > Apps > Erweiterte App-Einstellungen > App-Ausf�hrungsaliase".
+Befehl: python -m pytest -q -p no:cacheprovider; Arbeitsverzeichnis projekt; Exitcode: 9009; Standard-Python nicht verfuegbar. Keine Tests ausgeblendet.

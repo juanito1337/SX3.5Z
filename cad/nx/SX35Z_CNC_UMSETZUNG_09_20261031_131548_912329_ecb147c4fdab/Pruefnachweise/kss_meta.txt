@@ -1,0 +1,6 @@
+Datum: 2026-10-31 Europe/Berlin
+Quellrevision: 463497f plus NX_Ausgabe.json (cad/nx)
+Umgebung: NX 2406 Windows Python 3.10.15
+Befehl: C:/Siemens/nx2406/NXBIN/run_journal.exe projekt/NX_KSS_Pruefen.py
+Umfang: zehn neue KSS-Bleche; keine alten CAD-Eingaben
+Exitcode: 1

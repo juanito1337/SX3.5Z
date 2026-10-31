@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Geneigtes_Blech_Normaldicke",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -8.0,
+        454.0,
+        18.0,
+        2.188635067065801
+      ],
+      "volume_mm3": 15836.963345288135
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 243282,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -8.000000000000002,
+        454.0,
+        18.00000000000001,
+        2.1886350670657997
+      ],
+      "volume_mm3": 15836.963345288139,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 243282,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        -8.000000000000002,
+        454.0,
+        18.00000000000001,
+        2.1886350670657997
+      ],
+      "volume_mm3": 15836.963345288139,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

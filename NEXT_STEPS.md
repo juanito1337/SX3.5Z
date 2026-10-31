@@ -1,5 +1,15 @@
 # Priorisierte Fortsetzung
 
+## Fortschritt 31.10.2026
+
+Neuerzeugung09 im Git-Projekt und erneutes natives Oeffnen sind erledigt;
+siehe `cad/README.md`. Alte CAD-Dateien werden nach neuer Nutzerentscheidung
+fuer diesen Lieferstand nicht uebernommen. P0 ist damit teilweise erfuellt:
+Offline-Tests in separatem Standard-Python und die Ursache der Rezept-Hashabweichung
+bleiben offen. Als naechste konstruktive Arbeit bleiben belegte Istmasse,
+Anschlusskonflikte und der Spannpaket-/Patronenvergleich. Native Dateierzeugung
+allein bestaetigt weder reale Maschinenpassung noch Betriebsbereitschaft.
+
 Die Reihenfolge ist ein Übergabevorschlag. Kein Punkt wird durch die Paketübernahme als erledigt markiert.
 
 | Priorität | Arbeitspaket | Fertig, wenn … |

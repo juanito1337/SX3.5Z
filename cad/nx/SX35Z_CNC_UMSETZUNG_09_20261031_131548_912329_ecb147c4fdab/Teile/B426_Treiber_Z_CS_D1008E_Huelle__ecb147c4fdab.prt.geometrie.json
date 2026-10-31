@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Kaufteil_Aussenmasse_Anschluesse_vereinfacht",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        97.0,
+        53.0,
+        151.0
+      ],
+      "volume_mm3": 776291.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 339731,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        97.0,
+        53.0,
+        151.0
+      ],
+      "volume_mm3": 776291.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 339731,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        97.0,
+        53.0,
+        151.0
+      ],
+      "volume_mm3": 776291.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

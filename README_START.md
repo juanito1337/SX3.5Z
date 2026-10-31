@@ -1,5 +1,11 @@
 # SX3.5Z CNC – Übergabe an Codex
 
+**Aktueller Zusatz vom 31.10.2026:** Neue native Stand09-Dateien liegen jetzt
+unter `cad/nx/`, ausschliesslich aus dem aktuellen Projektcode erzeugt. Der
+vollstaendige NX-Aufbau und das erneute Oeffnen sind nachgewiesen. Einstieg und
+Pruefgrenzen: [`cad/README.md`](cad/README.md). Die untenstehende Beschreibung
+dokumentiert das urspruengliche Uebergabepaket vor dieser Neuerzeugung.
+
 **Übergabe: 31.10.2026 · Maschinenbasis: Umsetzung 09 vom 30.10.2026**
 
 Dies ist ein vollständiges Arbeits- und Quellenpaket für die Fortsetzung. Es ist **keine neue

@@ -475,14 +475,18 @@ class NativeModelBuilder:
             self.expression_factory._close(exp.Value,self.values[name],'Modellwert sx_'+name)
 
     def write_expression_metadata(self):
-        """Optional provenance AFTER all primitives; no geometry is created here."""
+        """Store named expression provenance on its owning Part after geometry.
+
+        NX 2406 expressions reject user attributes (OM error 580023). Keep
+        the expression-name association in Part attribute titles instead.
+        """
         for name,spec in self._expression_metadata:
             try:
-                exp=self.part.Expressions.FindObject('sx_'+name)
-                self.attr(exp,'SX_STATUS',spec['status'])
-                self.attr(exp,'SX_BESCHREIBUNG',spec['note'])
-                self.attr(exp,'SX_QUELLE',spec['source'])
-                self.attr(exp,'SX_EINHEIT','einheitenlos (Verhaeltnis)' if spec.get('unit')=='unitless' else
+                prefix='SX_EXPR_'+name+'_'
+                self.attr(self.part,prefix+'STATUS',spec['status'])
+                self.attr(self.part,prefix+'BESCHREIBUNG',spec['note'])
+                self.attr(self.part,prefix+'QUELLE',spec['source'])
+                self.attr(self.part,prefix+'EINHEIT','einheitenlos (Verhaeltnis)' if spec.get('unit')=='unitless' else
                           ('mm' if self.expression_factory.mode!='Number_mm' else 'Zahlenwert in mm; NX-Ausdruck einheitenlos'))
             except Exception as exc:
                 self.warnings.append('Ausdrucksattribute sx_'+name+': '+str(exc))

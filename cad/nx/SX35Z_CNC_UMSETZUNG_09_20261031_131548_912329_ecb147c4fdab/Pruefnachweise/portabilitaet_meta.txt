@@ -1,0 +1,1 @@
+Befehl: run_journal.exe projekt/NX_Git_Lieferstand_Pruefen.py; Kopie nur aus neuem Lauf; Ziel: C:\Users\1337\Documents\ChatGPT\SX3.5Z\cad\nx\PORTABILITAET_20261031_132001; Exitcode: 0

@@ -1,0 +1,3377 @@
+{
+  "native_nx_executed": true,
+  "saved_parts_reopened": true,
+  "manufacturing_released": false,
+  "purchase_released": false,
+  "machine_operation_enabled": false,
+  "atc_operational": false,
+  "directory": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\PORTABILITAET_20261031_132001",
+  "main_part": "FRAESMASCHINE_CNC_UMBAUSTAND_09_NICHT_FREIGEGEBEN__ecb147c4fdab.prt",
+  "components": [
+    {
+      "id": "C049",
+      "file": "Teile\\c049_atc_grundplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C050",
+      "file": "Teile\\c050_atc_fussscheibe_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C051",
+      "file": "Teile\\c051_atc_fussschraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C052",
+      "file": "Teile\\c052_atc_din508_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C053",
+      "file": "Teile\\c053_atc_fussscheibe_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C054",
+      "file": "Teile\\c054_atc_fussschraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C055",
+      "file": "Teile\\c055_atc_din508_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C056",
+      "file": "Teile\\c056_atc_fussscheibe_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C057",
+      "file": "Teile\\c057_atc_fussschraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C058",
+      "file": "Teile\\c058_atc_din508_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C059",
+      "file": "Teile\\c059_atc_fussscheibe_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C060",
+      "file": "Teile\\c060_atc_fussschraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C061",
+      "file": "Teile\\c061_atc_din508_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C062",
+      "file": "Teile\\c062_atc_staenderwange_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C063",
+      "file": "Teile\\c063_atc_staenderwange_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C064",
+      "file": "Teile\\c064_atc_magazintraeger_kantblech__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C065",
+      "file": "Teile\\c065_atc_lokator_entwurf_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C066",
+      "file": "Teile\\c066_atc_lokator_scheibe_oben_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C067",
+      "file": "Teile\\c067_atc_lokator_schraube_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C068",
+      "file": "Teile\\c068_atc_lokator_scheibe_unten_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C069",
+      "file": "Teile\\c069_atc_lokator_mutter_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C070",
+      "file": "Teile\\c070_atc_lokator_scheibe_oben_1_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C071",
+      "file": "Teile\\c071_atc_lokator_schraube_1_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C072",
+      "file": "Teile\\c072_atc_lokator_scheibe_unten_1_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C073",
+      "file": "Teile\\c073_atc_lokator_mutter_1_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C074",
+      "file": "Teile\\c074_atc_bt30_er20_70_raumhuelle_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C075",
+      "file": "Teile\\c075_atc_lokator_entwurf_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C076",
+      "file": "Teile\\c076_atc_lokator_scheibe_oben_2_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C077",
+      "file": "Teile\\c077_atc_lokator_schraube_2_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C078",
+      "file": "Teile\\c078_atc_lokator_scheibe_unten_2_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C079",
+      "file": "Teile\\c079_atc_lokator_mutter_2_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C080",
+      "file": "Teile\\c080_atc_lokator_scheibe_oben_2_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C081",
+      "file": "Teile\\c081_atc_lokator_schraube_2_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C082",
+      "file": "Teile\\c082_atc_lokator_scheibe_unten_2_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C083",
+      "file": "Teile\\c083_atc_lokator_mutter_2_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C084",
+      "file": "Teile\\c084_atc_bt30_er20_70_raumhuelle_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C085",
+      "file": "Teile\\c085_atc_lokator_entwurf_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C086",
+      "file": "Teile\\c086_atc_lokator_scheibe_oben_3_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C087",
+      "file": "Teile\\c087_atc_lokator_schraube_3_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C088",
+      "file": "Teile\\c088_atc_lokator_scheibe_unten_3_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C089",
+      "file": "Teile\\c089_atc_lokator_mutter_3_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C090",
+      "file": "Teile\\c090_atc_lokator_scheibe_oben_3_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C091",
+      "file": "Teile\\c091_atc_lokator_schraube_3_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C092",
+      "file": "Teile\\c092_atc_lokator_scheibe_unten_3_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C093",
+      "file": "Teile\\c093_atc_lokator_mutter_3_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C094",
+      "file": "Teile\\c094_atc_bt30_er20_70_raumhuelle_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C095",
+      "file": "Teile\\c095_atc_lokator_entwurf_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C096",
+      "file": "Teile\\c096_atc_lokator_scheibe_oben_4_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C097",
+      "file": "Teile\\c097_atc_lokator_schraube_4_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C098",
+      "file": "Teile\\c098_atc_lokator_scheibe_unten_4_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C099",
+      "file": "Teile\\c099_atc_lokator_mutter_4_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C100",
+      "file": "Teile\\c100_atc_lokator_scheibe_oben_4_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C101",
+      "file": "Teile\\c101_atc_lokator_schraube_4_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C102",
+      "file": "Teile\\c102_atc_lokator_scheibe_unten_4_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C103",
+      "file": "Teile\\c103_atc_lokator_mutter_4_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C104",
+      "file": "Teile\\c104_atc_bt30_er20_70_raumhuelle_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C105",
+      "file": "Teile\\c105_atc_lokator_entwurf_5__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C106",
+      "file": "Teile\\c106_atc_lokator_scheibe_oben_5_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C107",
+      "file": "Teile\\c107_atc_lokator_schraube_5_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C108",
+      "file": "Teile\\c108_atc_lokator_scheibe_unten_5_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C109",
+      "file": "Teile\\c109_atc_lokator_mutter_5_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C110",
+      "file": "Teile\\c110_atc_lokator_scheibe_oben_5_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C111",
+      "file": "Teile\\c111_atc_lokator_schraube_5_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C112",
+      "file": "Teile\\c112_atc_lokator_scheibe_unten_5_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C113",
+      "file": "Teile\\c113_atc_lokator_mutter_5_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C114",
+      "file": "Teile\\c114_atc_bt30_er20_70_raumhuelle_5__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C115",
+      "file": "Teile\\c115_atc_lokator_entwurf_6__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C116",
+      "file": "Teile\\c116_atc_lokator_scheibe_oben_6_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C117",
+      "file": "Teile\\c117_atc_lokator_schraube_6_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C118",
+      "file": "Teile\\c118_atc_lokator_scheibe_unten_6_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C119",
+      "file": "Teile\\c119_atc_lokator_mutter_6_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C120",
+      "file": "Teile\\c120_atc_lokator_scheibe_oben_6_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C121",
+      "file": "Teile\\c121_atc_lokator_schraube_6_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C122",
+      "file": "Teile\\c122_atc_lokator_scheibe_unten_6_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C123",
+      "file": "Teile\\c123_atc_lokator_mutter_6_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C124",
+      "file": "Teile\\c124_atc_bt30_er20_70_raumhuelle_6__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C125",
+      "file": "Teile\\c125_atc_ruecken_spritzschutz_kantblech__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C001",
+      "file": "Teile\\c001_servicegriff_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C002",
+      "file": "Teile\\c002_griff_hinterlegung_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C003",
+      "file": "Teile\\c003_griffscheibe_links1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C004",
+      "file": "Teile\\c004_griffschraube_links1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C005",
+      "file": "Teile\\c005_griffscheibe_links2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C006",
+      "file": "Teile\\c006_griffschraube_links2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C007",
+      "file": "Teile\\c007_servicegriff_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C008",
+      "file": "Teile\\c008_griff_hinterlegung_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C009",
+      "file": "Teile\\c009_griffscheibe_rechts1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C010",
+      "file": "Teile\\c010_griffschraube_rechts1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C011",
+      "file": "Teile\\c011_griffscheibe_rechts2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C012",
+      "file": "Teile\\c012_griffschraube_rechts2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C013",
+      "file": "Teile\\c013_servicegriff_kss__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C014",
+      "file": "Teile\\c014_griff_hinterlegung_kss__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C015",
+      "file": "Teile\\c015_griffscheibe_kss1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C016",
+      "file": "Teile\\c016_griffschraube_kss1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C017",
+      "file": "Teile\\c017_griffscheibe_kss2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C018",
+      "file": "Teile\\c018_griffschraube_kss2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C019",
+      "file": "Teile\\c019_kabelplatte_09__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C020",
+      "file": "Teile\\c020_kabelplatte_flachdichtung_09__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C021",
+      "file": "Teile\\c021_lapp_53111020_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C022",
+      "file": "Teile\\c022_lapp_53119020_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C023",
+      "file": "Teile\\c023_lapp_53111020_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C024",
+      "file": "Teile\\c024_lapp_53119020_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C025",
+      "file": "Teile\\c025_kabelplatte_scheibe_unten_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C026",
+      "file": "Teile\\c026_kabelplatte_schraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C027",
+      "file": "Teile\\c027_kabelplatte_scheibe_oben_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C028",
+      "file": "Teile\\c028_kabelplatte_mutter_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C029",
+      "file": "Teile\\c029_kabelplatte_scheibe_unten_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C030",
+      "file": "Teile\\c030_kabelplatte_schraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C031",
+      "file": "Teile\\c031_kabelplatte_scheibe_oben_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C032",
+      "file": "Teile\\c032_kabelplatte_mutter_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C033",
+      "file": "Teile\\c033_kabelplatte_scheibe_unten_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C034",
+      "file": "Teile\\c034_kabelplatte_schraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C035",
+      "file": "Teile\\c035_kabelplatte_scheibe_oben_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C036",
+      "file": "Teile\\c036_kabelplatte_mutter_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C037",
+      "file": "Teile\\c037_kabelplatte_scheibe_unten_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C038",
+      "file": "Teile\\c038_kabelplatte_schraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C039",
+      "file": "Teile\\c039_kabelplatte_scheibe_oben_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C040",
+      "file": "Teile\\c040_kabelplatte_mutter_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C041",
+      "file": "Teile\\c041_kabelplatte_scheibe_unten_5__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C042",
+      "file": "Teile\\c042_kabelplatte_schraube_5__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C043",
+      "file": "Teile\\c043_kabelplatte_scheibe_oben_5__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C044",
+      "file": "Teile\\c044_kabelplatte_mutter_5__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C045",
+      "file": "Teile\\c045_kabelplatte_scheibe_unten_6__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C046",
+      "file": "Teile\\c046_kabelplatte_schraube_6__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C047",
+      "file": "Teile\\c047_kabelplatte_scheibe_oben_6__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C048",
+      "file": "Teile\\c048_kabelplatte_mutter_6__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B430",
+      "file": "Teile\\b430_ifs206_referenz_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B431",
+      "file": "Teile\\b431_ifs206_referenz_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B432",
+      "file": "Teile\\b432_ifs206_referenz_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B433",
+      "file": "Teile\\b433_ifs206_referenz_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B434",
+      "file": "Teile\\b434_ifs206_referenz_5__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B435",
+      "file": "Teile\\b435_ifs206_referenz_6__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B249",
+      "file": "Teile\\b249_kss_leitblech_links_vorn__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B250",
+      "file": "Teile\\b250_kss_leitblech_links_hinten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B251",
+      "file": "Teile\\b251_kss_leitblech_rechts_vorn__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B252",
+      "file": "Teile\\b252_kss_leitblech_rechts_hinten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B253",
+      "file": "Teile\\b253_kss_leitblech_front_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B254",
+      "file": "Teile\\b254_kss_leitblech_front_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B255",
+      "file": "Teile\\b255_kss_trichter_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B256",
+      "file": "Teile\\b256_kss_trichter_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B257",
+      "file": "Teile\\b257_kss_trichter_vorn__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B258",
+      "file": "Teile\\b258_kss_trichter_hinten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B259",
+      "file": "Teile\\b259_kss_innenaufkantung_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B260",
+      "file": "Teile\\b260_kss_innenaufkantung_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B261",
+      "file": "Teile\\b261_kss_innenaufkantung_vorn__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B262",
+      "file": "Teile\\b262_kss_innenaufkantung_hinten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B263",
+      "file": "Teile\\b263_kss_rueckwand_aufkantung__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B264",
+      "file": "Teile\\b264_kss_spaeneschacht_u__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B265",
+      "file": "Teile\\b265_kss_spaeneschacht_rueckwand__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B266",
+      "file": "Teile\\b266_kss_ruecklaufkasten_u__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B267",
+      "file": "Teile\\b267_kss_ruecklaufkasten_stirnwand__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B268",
+      "file": "Teile\\b268_kss_serviceklappe_hinten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B269",
+      "file": "Teile\\b269_kss_kastenhalter_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B270",
+      "file": "Teile\\b270_kss_kastenhalter_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B271",
+      "file": "Teile\\b271_kss_spaenekorb_u__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B272",
+      "file": "Teile\\b272_kss_spaenekorb_stirnwand_vorn__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B273",
+      "file": "Teile\\b273_kss_spaenekorb_stirnwand_hinten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B274",
+      "file": "Teile\\b274_kss_spaenekorb_griff__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B275",
+      "file": "Teile\\b275_kss_korbauflage_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B276",
+      "file": "Teile\\b276_kss_korbauflage_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B277",
+      "file": "Teile\\b277_kss_feinsieb_klemmrahmen_reserve__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B278",
+      "file": "Teile\\b278_kss_ablaufstutzen_nach_korb__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B279",
+      "file": "Teile\\b279_kss_tank_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B280",
+      "file": "Teile\\b280_kss_tankdeckel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B281",
+      "file": "Teile\\b281_kss_pumpe_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B282",
+      "file": "Teile\\b282_schaltschrank_hohlschale__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B283",
+      "file": "Teile\\b283_schaltschrank_tuer__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B284",
+      "file": "Teile\\b284_schrank_din_schiene_110__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B285",
+      "file": "Teile\\b285_schrank_din_schiene_320__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B286",
+      "file": "Teile\\b286_schrank_din_schiene_600__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B287",
+      "file": "Teile\\b287_schrank_kabelkanal_20__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B288",
+      "file": "Teile\\b288_schrank_kabelkanal_270__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B289",
+      "file": "Teile\\b289_schrank_kabelkanal_550__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B290",
+      "file": "Teile\\b290_mesa_7i95t_einbauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B291",
+      "file": "Teile\\b291_mesa_klemmen_huelle_330__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B292",
+      "file": "Teile\\b292_mesa_klemmen_huelle_380__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B293",
+      "file": "Teile\\b293_mesa_klemmen_huelle_430__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B294",
+      "file": "Teile\\b294_mesa_klemmen_huelle_480__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B295",
+      "file": "Teile\\b295_sicherheitsgeraet_reserve__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B296",
+      "file": "Teile\\b296_schuetz_reserve__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B297",
+      "file": "Teile\\b297_sicherungen_reserve__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B298",
+      "file": "Teile\\b298_pe_schiene_schaltschrank__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B299",
+      "file": "Teile\\b299_emv_filter_reserve__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B300",
+      "file": "Teile\\b300_reihenklemme_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B301",
+      "file": "Teile\\b301_reihenklemme_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B302",
+      "file": "Teile\\b302_reihenklemme_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B303",
+      "file": "Teile\\b303_reihenklemme_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B304",
+      "file": "Teile\\b304_reihenklemme_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B305",
+      "file": "Teile\\b305_reihenklemme_5__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B306",
+      "file": "Teile\\b306_reihenklemme_6__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B307",
+      "file": "Teile\\b307_reihenklemme_7__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B308",
+      "file": "Teile\\b308_reihenklemme_8__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B309",
+      "file": "Teile\\b309_bedienpult_aussen_reserve__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B310",
+      "file": "Teile\\b310_bedienpult_taster_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B311",
+      "file": "Teile\\b311_bedienpult_taster_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B423",
+      "file": "Teile\\b423_schaltschrank_montageplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B424",
+      "file": "Teile\\b424_treiber_x_cs_d508_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B425",
+      "file": "Teile\\b425_treiber_y_cs_d508_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B426",
+      "file": "Teile\\b426_treiber_z_cs_d1008e_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B427",
+      "file": "Teile\\b427_achsenversorgung_rsp50048__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B428",
+      "file": "Teile\\b428_24v_hdr6024__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B429",
+      "file": "Teile\\b429_5v_hdr155__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B158",
+      "file": "Teile\\b158_einhausung_seitenwand_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B159",
+      "file": "Teile\\b159_einhausung_seitenscheibe_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B160",
+      "file": "Teile\\b160_einhausung_seitenwand_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B161",
+      "file": "Teile\\b161_einhausung_rueckwand__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B162",
+      "file": "Teile\\b162_einhausung_dach__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B163",
+      "file": "Teile\\b163_einhausung_tuerpfosten_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B164",
+      "file": "Teile\\b164_einhausung_tuerpfosten_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B165",
+      "file": "Teile\\b165_einhausung_tuerriegel_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B166",
+      "file": "Teile\\b166_einhausung_tuerriegel_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B167",
+      "file": "Teile\\b167_einhausung_festfeld_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B168",
+      "file": "Teile\\b168_einhausung_festfeld_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B169",
+      "file": "Teile\\b169_einhausung_frontschwelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B170",
+      "file": "Teile\\b170_einhausung_frontsturz__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B171",
+      "file": "Teile\\b171_senktuer_lower_rahmen__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B172",
+      "file": "Teile\\b172_senktuer_lower_scheibe__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B173",
+      "file": "Teile\\b173_senktuer_lower_kantquerholm_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B174",
+      "file": "Teile\\b174_senktuer_lower_kantquerholm_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B175",
+      "file": "Teile\\b175_senktuer_lower_fensterklemmrahmen__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B176",
+      "file": "Teile\\b176_senktuer_lower_fensterschraube_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B177",
+      "file": "Teile\\b177_senktuer_lower_fensterschraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B178",
+      "file": "Teile\\b178_senktuer_lower_fensterschraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B179",
+      "file": "Teile\\b179_senktuer_lower_fensterschraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B180",
+      "file": "Teile\\b180_senktuer_fuehrung_lower_l__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B181",
+      "file": "Teile\\b181_senktuer_schlitten_lower_l_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B182",
+      "file": "Teile\\b182_senktuer_mitnehmer_lower_l_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B183",
+      "file": "Teile\\b183_senktuer_schlitten_lower_l_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B184",
+      "file": "Teile\\b184_senktuer_mitnehmer_lower_l_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B185",
+      "file": "Teile\\b185_senktuer_fuehrung_lower_r__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B186",
+      "file": "Teile\\b186_senktuer_schlitten_lower_r_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B187",
+      "file": "Teile\\b187_senktuer_mitnehmer_lower_r_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B188",
+      "file": "Teile\\b188_senktuer_schlitten_lower_r_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B189",
+      "file": "Teile\\b189_senktuer_mitnehmer_lower_r_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B190",
+      "file": "Teile\\b190_senktuer_lower_schaltfahne__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B191",
+      "file": "Teile\\b191_tuerueberwachung_lower_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B192",
+      "file": "Teile\\b192_senktuer_upper_rahmen__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B193",
+      "file": "Teile\\b193_senktuer_upper_scheibe__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B194",
+      "file": "Teile\\b194_senktuer_upper_kantquerholm_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B195",
+      "file": "Teile\\b195_senktuer_upper_kantquerholm_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B196",
+      "file": "Teile\\b196_senktuer_upper_fensterklemmrahmen__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B197",
+      "file": "Teile\\b197_senktuer_upper_fensterschraube_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B198",
+      "file": "Teile\\b198_senktuer_upper_fensterschraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B199",
+      "file": "Teile\\b199_senktuer_upper_fensterschraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B200",
+      "file": "Teile\\b200_senktuer_upper_fensterschraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B201",
+      "file": "Teile\\b201_senktuer_upper_griff__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B202",
+      "file": "Teile\\b202_senktuer_fuehrung_upper_l__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B203",
+      "file": "Teile\\b203_senktuer_schlitten_upper_l_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B204",
+      "file": "Teile\\b204_senktuer_mitnehmer_upper_l_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B205",
+      "file": "Teile\\b205_senktuer_schlitten_upper_l_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B206",
+      "file": "Teile\\b206_senktuer_mitnehmer_upper_l_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B207",
+      "file": "Teile\\b207_senktuer_fuehrung_upper_r__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B208",
+      "file": "Teile\\b208_senktuer_schlitten_upper_r_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B209",
+      "file": "Teile\\b209_senktuer_mitnehmer_upper_r_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B210",
+      "file": "Teile\\b210_senktuer_schlitten_upper_r_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B211",
+      "file": "Teile\\b211_senktuer_mitnehmer_upper_r_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B212",
+      "file": "Teile\\b212_senktuer_upper_schaltfahne__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B213",
+      "file": "Teile\\b213_tuerueberwachung_upper_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B214",
+      "file": "Teile\\b214_senktuer_traeger_l__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B215",
+      "file": "Teile\\b215_senktuer_anschlusskonsole_l_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B216",
+      "file": "Teile\\b216_senktuer_anschlusskonsole_l_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B217",
+      "file": "Teile\\b217_senktuer_fangsicherung_l_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B218",
+      "file": "Teile\\b218_senktuer_traeger_r__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B219",
+      "file": "Teile\\b219_senktuer_anschlusskonsole_r_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B220",
+      "file": "Teile\\b220_senktuer_anschlusskonsole_r_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B221",
+      "file": "Teile\\b221_senktuer_fangsicherung_r_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B222",
+      "file": "Teile\\b222_senktuer_obertraverse__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B223",
+      "file": "Teile\\b223_senktuer_kassette_front__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B224",
+      "file": "Teile\\b224_senktuer_kassette_seite_l__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B225",
+      "file": "Teile\\b225_senktuer_kassette_seite_r__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B226",
+      "file": "Teile\\b226_senktuer_kassette_boden__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B227",
+      "file": "Teile\\b227_senktuer_kassette_rueckwand__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B228",
+      "file": "Teile\\b228_gasfeder06_s1_-1_zylinder_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B229",
+      "file": "Teile\\b229_gasfeder06_s1_-1_kolbenstange_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B230",
+      "file": "Teile\\b230_gasfeder06_s1_-1_auge_oben__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B231",
+      "file": "Teile\\b231_gasfeder06_s1_-1_auge_unten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B232",
+      "file": "Teile\\b232_gasfeder06_s2_-1_zylinder_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B233",
+      "file": "Teile\\b233_gasfeder06_s2_-1_kolbenstange_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B234",
+      "file": "Teile\\b234_gasfeder06_s2_-1_auge_oben__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B235",
+      "file": "Teile\\b235_gasfeder06_s2_-1_auge_unten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B236",
+      "file": "Teile\\b236_gasfeder06_s1_1_zylinder_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B237",
+      "file": "Teile\\b237_gasfeder06_s1_1_kolbenstange_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B238",
+      "file": "Teile\\b238_gasfeder06_s1_1_auge_oben__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B239",
+      "file": "Teile\\b239_gasfeder06_s1_1_auge_unten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B240",
+      "file": "Teile\\b240_gasfeder06_s2_1_zylinder_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B241",
+      "file": "Teile\\b241_gasfeder06_s2_1_kolbenstange_bauraum__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B242",
+      "file": "Teile\\b242_gasfeder06_s2_1_auge_oben__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B243",
+      "file": "Teile\\b243_gasfeder06_s2_1_auge_unten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B244",
+      "file": "Teile\\b244_senktuer_federkanal06_l__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B245",
+      "file": "Teile\\b245_senktuer_federkanal06_r__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B246",
+      "file": "Teile\\b246_staender_blechschuerze_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B247",
+      "file": "Teile\\b247_staender_blechschuerze_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B248",
+      "file": "Teile\\b248_einhausung_tropfkante__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B135",
+      "file": "Teile\\b135_staender_bein_0_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B136",
+      "file": "Teile\\b136_staender_fuss_0_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B137",
+      "file": "Teile\\b137_staender_bein_0_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B138",
+      "file": "Teile\\b138_staender_fuss_0_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B139",
+      "file": "Teile\\b139_staender_bein_1_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B140",
+      "file": "Teile\\b140_staender_fuss_1_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B141",
+      "file": "Teile\\b141_staender_bein_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B142",
+      "file": "Teile\\b142_staender_fuss_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B143",
+      "file": "Teile\\b143_staender_querholm_0_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B144",
+      "file": "Teile\\b144_staender_querholm_0_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B145",
+      "file": "Teile\\b145_staender_laengsholm_0_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B146",
+      "file": "Teile\\b146_staender_laengsholm_0_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B147",
+      "file": "Teile\\b147_staender_querholm_1_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B148",
+      "file": "Teile\\b148_staender_querholm_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B149",
+      "file": "Teile\\b149_staender_laengsholm_1_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B150",
+      "file": "Teile\\b150_staender_laengsholm_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B151",
+      "file": "Teile\\b151_staender_maschinentraverse_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B152",
+      "file": "Teile\\b152_staender_maschinentraverse_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B153",
+      "file": "Teile\\b153_maschinen_aufspannplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B154",
+      "file": "Teile\\b154_schrank_traegerausleger_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B155",
+      "file": "Teile\\b155_schrank_stuetzbein_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B156",
+      "file": "Teile\\b156_schrank_traegerausleger_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B157",
+      "file": "Teile\\b157_schrank_stuetzbein_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B385",
+      "file": "Teile\\b385_cnc_z_rundmutter_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B386",
+      "file": "Teile\\b386_cnc_z_mutteraufnahme_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B387",
+      "file": "Teile\\b387_cnc_z_mutteranschluss_kopf_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B388",
+      "file": "Teile\\b388_cnc_z_tragbruecke_auf_gusssaeule__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B389",
+      "file": "Teile\\b389_cnc_z_anschlussplatte_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B390",
+      "file": "Teile\\b390_cnc_z_thk_festlager__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B391",
+      "file": "Teile\\b391_cnc_z_fk_schraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B392",
+      "file": "Teile\\b392_cnc_z_fk_schraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B393",
+      "file": "Teile\\b393_cnc_z_fk_schraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B394",
+      "file": "Teile\\b394_cnc_z_fk_schraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B395",
+      "file": "Teile\\b395_cnc_z_thk_loslager__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B396",
+      "file": "Teile\\b396_cnc_z_ff_schraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B397",
+      "file": "Teile\\b397_cnc_z_ff_schraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B398",
+      "file": "Teile\\b398_cnc_z_ff_schraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B399",
+      "file": "Teile\\b399_cnc_z_ff_schraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B400",
+      "file": "Teile\\b400_cnc_z_loslager_adapterplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B401",
+      "file": "Teile\\b401_cnc_z_kugelspindel_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B402",
+      "file": "Teile\\b402_cnc_z_kupplung_spindel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B403",
+      "file": "Teile\\b403_cnc_z_kupplung_motor__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B404",
+      "file": "Teile\\b404_cnc_z_kupplungsstern__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B405",
+      "file": "Teile\\b405_cnc_z_distanzsaeule_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B406",
+      "file": "Teile\\b406_cnc_z_halteschraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B407",
+      "file": "Teile\\b407_cnc_z_distanzsaeule_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B408",
+      "file": "Teile\\b408_cnc_z_halteschraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B409",
+      "file": "Teile\\b409_cnc_z_distanzsaeule_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B410",
+      "file": "Teile\\b410_cnc_z_halteschraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B411",
+      "file": "Teile\\b411_cnc_z_distanzsaeule_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B412",
+      "file": "Teile\\b412_cnc_z_halteschraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B413",
+      "file": "Teile\\b413_cnc_z_motorplatte_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B414",
+      "file": "Teile\\b414_cnc_z_motorbefestigung_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B415",
+      "file": "Teile\\b415_cnc_z_motorbefestigung_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B416",
+      "file": "Teile\\b416_cnc_z_motorbefestigung_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B417",
+      "file": "Teile\\b417_cnc_z_motorbefestigung_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B418",
+      "file": "Teile\\b418_cnc_z_motor_frontflansch__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B419",
+      "file": "Teile\\b419_cnc_z_motor_gehaeuse__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B420",
+      "file": "Teile\\b420_cnc_z_motor_rueckdeckel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B421",
+      "file": "Teile\\b421_cnc_z_motorbund__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B422",
+      "file": "Teile\\b422_cnc_z_motorwelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B349",
+      "file": "Teile\\b349_cnc_y_rundmutter_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B350",
+      "file": "Teile\\b350_cnc_y_mutteraufnahme_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B351",
+      "file": "Teile\\b351_cnc_y_anschlussplatte_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B352",
+      "file": "Teile\\b352_cnc_y_thk_festlager__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B353",
+      "file": "Teile\\b353_cnc_y_fk_schraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B354",
+      "file": "Teile\\b354_cnc_y_fk_schraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B355",
+      "file": "Teile\\b355_cnc_y_fk_schraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B356",
+      "file": "Teile\\b356_cnc_y_fk_schraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B357",
+      "file": "Teile\\b357_cnc_y_thk_loslager__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B358",
+      "file": "Teile\\b358_cnc_y_ff_schraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B359",
+      "file": "Teile\\b359_cnc_y_ff_schraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B360",
+      "file": "Teile\\b360_cnc_y_ff_schraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B361",
+      "file": "Teile\\b361_cnc_y_ff_schraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B362",
+      "file": "Teile\\b362_cnc_y_loslager_adapterplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B363",
+      "file": "Teile\\b363_cnc_y_kugelspindel_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B364",
+      "file": "Teile\\b364_cnc_y_kupplung_spindel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B365",
+      "file": "Teile\\b365_cnc_y_kupplung_motor__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B366",
+      "file": "Teile\\b366_cnc_y_kupplungsstern__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B367",
+      "file": "Teile\\b367_cnc_y_distanzsaeule_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B368",
+      "file": "Teile\\b368_cnc_y_halteschraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B369",
+      "file": "Teile\\b369_cnc_y_distanzsaeule_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B370",
+      "file": "Teile\\b370_cnc_y_halteschraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B371",
+      "file": "Teile\\b371_cnc_y_distanzsaeule_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B372",
+      "file": "Teile\\b372_cnc_y_halteschraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B373",
+      "file": "Teile\\b373_cnc_y_distanzsaeule_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B374",
+      "file": "Teile\\b374_cnc_y_halteschraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B375",
+      "file": "Teile\\b375_cnc_y_motorplatte_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B376",
+      "file": "Teile\\b376_cnc_y_motorbefestigung_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B377",
+      "file": "Teile\\b377_cnc_y_motorbefestigung_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B378",
+      "file": "Teile\\b378_cnc_y_motorbefestigung_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B379",
+      "file": "Teile\\b379_cnc_y_motorbefestigung_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B380",
+      "file": "Teile\\b380_cnc_y_motor_frontflansch__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B381",
+      "file": "Teile\\b381_cnc_y_motor_gehaeuse__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B382",
+      "file": "Teile\\b382_cnc_y_motor_rueckdeckel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B383",
+      "file": "Teile\\b383_cnc_y_motorbund__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B384",
+      "file": "Teile\\b384_cnc_y_motorwelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B312",
+      "file": "Teile\\b312_cnc_x_rundmutter_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B313",
+      "file": "Teile\\b313_cnc_x_mutteraufnahme_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B314",
+      "file": "Teile\\b314_cnc_x_loslager_brueckenwinkel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B315",
+      "file": "Teile\\b315_cnc_x_anschlussplatte_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B316",
+      "file": "Teile\\b316_cnc_x_thk_festlager__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B317",
+      "file": "Teile\\b317_cnc_x_fk_schraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B318",
+      "file": "Teile\\b318_cnc_x_fk_schraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B319",
+      "file": "Teile\\b319_cnc_x_fk_schraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B320",
+      "file": "Teile\\b320_cnc_x_fk_schraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B321",
+      "file": "Teile\\b321_cnc_x_thk_loslager__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B322",
+      "file": "Teile\\b322_cnc_x_ff_schraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B323",
+      "file": "Teile\\b323_cnc_x_ff_schraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B324",
+      "file": "Teile\\b324_cnc_x_ff_schraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B325",
+      "file": "Teile\\b325_cnc_x_ff_schraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B326",
+      "file": "Teile\\b326_cnc_x_loslager_adapterplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B327",
+      "file": "Teile\\b327_cnc_x_kugelspindel_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B328",
+      "file": "Teile\\b328_cnc_x_kupplung_spindel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B329",
+      "file": "Teile\\b329_cnc_x_kupplung_motor__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B330",
+      "file": "Teile\\b330_cnc_x_kupplungsstern__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B331",
+      "file": "Teile\\b331_cnc_x_distanzsaeule_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B332",
+      "file": "Teile\\b332_cnc_x_halteschraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B333",
+      "file": "Teile\\b333_cnc_x_distanzsaeule_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B334",
+      "file": "Teile\\b334_cnc_x_halteschraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B335",
+      "file": "Teile\\b335_cnc_x_distanzsaeule_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B336",
+      "file": "Teile\\b336_cnc_x_halteschraube_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B337",
+      "file": "Teile\\b337_cnc_x_distanzsaeule_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B338",
+      "file": "Teile\\b338_cnc_x_halteschraube_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B339",
+      "file": "Teile\\b339_cnc_x_motorplatte_entwurf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B340",
+      "file": "Teile\\b340_cnc_x_motorbefestigung_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B341",
+      "file": "Teile\\b341_cnc_x_motorbefestigung_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B342",
+      "file": "Teile\\b342_cnc_x_motorbefestigung_3__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B343",
+      "file": "Teile\\b343_cnc_x_motorbefestigung_4__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B344",
+      "file": "Teile\\b344_cnc_x_motor_frontflansch__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B345",
+      "file": "Teile\\b345_cnc_x_motor_gehaeuse__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B346",
+      "file": "Teile\\b346_cnc_x_motor_rueckdeckel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B347",
+      "file": "Teile\\b347_cnc_x_motorbund__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B348",
+      "file": "Teile\\b348_cnc_x_motorwelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B114",
+      "file": "Teile\\b114_spindelschutz_oben__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B115",
+      "file": "Teile\\b115_spindelschutz_unten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B116",
+      "file": "Teile\\b116_schutz_halter__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B117",
+      "file": "Teile\\b117_schutz_klemmschraube_-1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B118",
+      "file": "Teile\\b118_schutz_klemmschraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B119",
+      "file": "Teile\\b119_faltenbalg_z__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B120",
+      "file": "Teile\\b120_faltenbalg_y_hinten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B121",
+      "file": "Teile\\b121_lampenhalter__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B122",
+      "file": "Teile\\b122_arbeitslampe__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B123",
+      "file": "Teile\\b123_arbeitslampe_linse__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B124",
+      "file": "Teile\\b124_riemenhauben_sicherheitsschalter__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B094",
+      "file": "Teile\\b094_xmt_1000_driver_platine__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B095",
+      "file": "Teile\\b095_xmt_steuer_tochterplatine__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B096",
+      "file": "Teile\\b096_xmt_mikrocontroller_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B097",
+      "file": "Teile\\b097_xmt_elko_00__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B098",
+      "file": "Teile\\b098_xmt_elko_01__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B099",
+      "file": "Teile\\b099_xmt_elko_02__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B100",
+      "file": "Teile\\b100_xmt_elko_03__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B101",
+      "file": "Teile\\b101_xmt_elko_04__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B102",
+      "file": "Teile\\b102_xmt_leistungsklemmenblock__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B103",
+      "file": "Teile\\b103_xmt_signalklemme__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B104",
+      "file": "Teile\\b104_xmt_netzdrossel_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B105",
+      "file": "Teile\\b105_emi_filter_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B106",
+      "file": "Teile\\b106_pe_sammelschiene__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B107",
+      "file": "Teile\\b107_tde_2232_transformator_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B108",
+      "file": "Teile\\b108_relais_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B109",
+      "file": "Teile\\b109_hilfsversorgung_platine__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B110",
+      "file": "Teile\\b110_hilfsversorgung_trafokern__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B111",
+      "file": "Teile\\b111_hilfsversorgung_trafospule__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B112",
+      "file": "Teile\\b112_hilfsversorgung_kuehlkoerper__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B113",
+      "file": "Teile\\b113_hilfsversorgung_usb_buchse_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B082",
+      "file": "Teile\\b082_blechsaeule_seitenwand_links__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B083",
+      "file": "Teile\\b083_blechsaeule_seitenwand_rechts__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B084",
+      "file": "Teile\\b084_blechsaeule_rueckwand__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B085",
+      "file": "Teile\\b085_blechsaeule_schraegblech__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B086",
+      "file": "Teile\\b086_blechsaeule_stirnblech_unten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B087",
+      "file": "Teile\\b087_blechsaeule_stirnblech_oben__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B088",
+      "file": "Teile\\b088_blechsaeule_querlasche_210__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B089",
+      "file": "Teile\\b089_blechsaeule_querlasche_530__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B090",
+      "file": "Teile\\b090_kabelverschraubung_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B091",
+      "file": "Teile\\b091_kabelverschraubung_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B092",
+      "file": "Teile\\b092_z_endschalter_unten__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B093",
+      "file": "Teile\\b093_z_endschalter_oben__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B125",
+      "file": "Teile\\b125_wellschlauch_1_neutralstellung__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B126",
+      "file": "Teile\\b126_wellschlauch_2_neutralstellung__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B127",
+      "file": "Teile\\b127_netzeinbaustecker_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B128",
+      "file": "Teile\\b128_sicherungshalter_huelle_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B129",
+      "file": "Teile\\b129_sicherungshalter_huelle_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B070",
+      "file": "Teile\\b070_panelhalter__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B071",
+      "file": "Teile\\b071_bediengehaeuse_hohlschale__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B072",
+      "file": "Teile\\b072_bedienfront_aluminium__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B073",
+      "file": "Teile\\b073_not_halt_kragen__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B074",
+      "file": "Teile\\b074_not_halt_pilz__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B075",
+      "file": "Teile\\b075_start_stop_taster__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B076",
+      "file": "Teile\\b076_gewindetaster__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B077",
+      "file": "Teile\\b077_drehzahlsteller__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B078",
+      "file": "Teile\\b078_drehzahlanzeige_lcd_foto__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B079",
+      "file": "Teile\\b079_z_taster_seitenplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B080",
+      "file": "Teile\\b080_z_taster_auf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B081",
+      "file": "Teile\\b081_z_taster_ab__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B054",
+      "file": "Teile\\b054_w92_1000f_gehaeuse_rippen__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B055",
+      "file": "Teile\\b055_w92_1000f_rueckdeckel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B056",
+      "file": "Teile\\b056_w92_1000f_frontflansch__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B057",
+      "file": "Teile\\b057_w92_1000f_motorwelle_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B058",
+      "file": "Teile\\b058_spindelmotor_montageplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B059",
+      "file": "Teile\\b059_motorplatte_schraube_-1_-1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B060",
+      "file": "Teile\\b060_motorplatte_schraube_-1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B061",
+      "file": "Teile\\b061_motorplatte_schraube_1_-1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B062",
+      "file": "Teile\\b062_motorplatte_schraube_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B063",
+      "file": "Teile\\b063_spindel_riemenscheibe__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B064",
+      "file": "Teile\\b064_motor_riemenscheibe__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B065",
+      "file": "Teile\\b065_riemen_hoher_bereich_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B066",
+      "file": "Teile\\b066_riemenabdeckung_blech__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B067",
+      "file": "Teile\\b067_anzugspindel_abdeckung__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B068",
+      "file": "Teile\\b068_riemendeckel_schraubknopf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B069",
+      "file": "Teile\\b069_spindel_drehzahlgeber_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B025",
+      "file": "Teile\\b025_spindelkopf_guss_detail__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B026",
+      "file": "Teile\\b026_z_keilleiste_kopf__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B027",
+      "file": "Teile\\b027_kopf_frontplatte_detail__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B028",
+      "file": "Teile\\b028_kopf_unterblech_gelocht__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B029",
+      "file": "Teile\\b029_unterblech_schraube_-1_72__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B030",
+      "file": "Teile\\b030_unterblech_schraube_-1_196__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B031",
+      "file": "Teile\\b031_unterblech_schraube_1_72__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B032",
+      "file": "Teile\\b032_unterblech_schraube_1_196__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B033",
+      "file": "Teile\\b033_pinole_huelse_detail__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B034",
+      "file": "Teile\\b034_spindelnase_sk30_normreferenz__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B035",
+      "file": "Teile\\b035_werkzeugspindel_durchgehende_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B036",
+      "file": "Teile\\b036_sk30_mitnehmer_-1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B037",
+      "file": "Teile\\b037_mitnehmer_schraube_-1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B038",
+      "file": "Teile\\b038_sk30_mitnehmer_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B039",
+      "file": "Teile\\b039_mitnehmer_schraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B040",
+      "file": "Teile\\b040_spindel_laengsverzahnung_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B041",
+      "file": "Teile\\b041_kopf_typenschild__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B042",
+      "file": "Teile\\b042_digitale_bohrtiefenanzeige__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B043",
+      "file": "Teile\\b043_pinolenanzeige_lcd__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B044",
+      "file": "Teile\\b044_pinolenanzeige_taste_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B045",
+      "file": "Teile\\b045_pinolenanzeige_taste_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B046",
+      "file": "Teile\\b046_pinolenanzeige_taste_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B047",
+      "file": "Teile\\b047_pinole_messstange__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B048",
+      "file": "Teile\\b048_frontplatten_schraube_-1_15__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B049",
+      "file": "Teile\\b049_frontplatten_schraube_-1_115__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B050",
+      "file": "Teile\\b050_frontplatten_schraube_-1_205__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B051",
+      "file": "Teile\\b051_frontplatten_schraube_1_15__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B052",
+      "file": "Teile\\b052_frontplatten_schraube_1_115__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B053",
+      "file": "Teile\\b053_frontplatten_schraube_1_205__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B130",
+      "file": "Teile\\b130_spindelschutz_schalterhalter__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B131",
+      "file": "Teile\\b131_spindelschutz_schalter_huelle__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B132",
+      "file": "Teile\\b132_pinolenvorschub_abdeckplatte__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B133",
+      "file": "Teile\\b133_pinole_deckelschraube_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B134",
+      "file": "Teile\\b134_pinole_deckelschraube_2__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B016",
+      "file": "Teile\\b016_arbeitstisch_foto__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B017",
+      "file": "Teile\\b017_x_tisch_stirnschraube_-1_-55__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B018",
+      "file": "Teile\\b018_x_tisch_stirnschraube_-1_55__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B019",
+      "file": "Teile\\b019_x_tisch_stirnschraube_1_-55__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B020",
+      "file": "Teile\\b020_x_tisch_stirnschraube_1_55__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B021",
+      "file": "Teile\\b021_x_massstab_gehaeuse_foto__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B022",
+      "file": "Teile\\b022_x_massstab_dichtlippe__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B008",
+      "file": "Teile\\b008_kreuzschlitten_guss_detail__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B009",
+      "file": "Teile\\b009_x_keilleiste_sattel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B010",
+      "file": "Teile\\b010_x_keilleiste_einstellschraube__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B011",
+      "file": "Teile\\b011_y_massstab_abdeckung__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B012",
+      "file": "Teile\\b012_y_massstab_distanz_-55__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B013",
+      "file": "Teile\\b013_y_massstab_distanz_55__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B014",
+      "file": "Teile\\b014_x_klemmhebel_0__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B015",
+      "file": "Teile\\b015_x_klemmhebel_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B023",
+      "file": "Teile\\b023_x_massstab_lesekopf_foto__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B024",
+      "file": "Teile\\b024_x_massstab_lesekopfhalter_annahme__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B002",
+      "file": "Teile\\b002_saeule_guss_foto__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B003",
+      "file": "Teile\\b003_saeulendeckel__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B004",
+      "file": "Teile\\b004_saeulenfuss_schraube_-1_-1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B005",
+      "file": "Teile\\b005_saeulenfuss_schraube_-1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B006",
+      "file": "Teile\\b006_saeulenfuss_schraube_1_-1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B007",
+      "file": "Teile\\b007_saeulenfuss_schraube_1_1__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B001",
+      "file": "Teile\\b001_basis_guss_foto__ecb147c4fdab.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    }
+  ],
+  "errors": [],
+  "unloaded": [],
+  "part_count": 560,
+  "group_count": 20,
+  "metadata_parts_checked": 142
+}

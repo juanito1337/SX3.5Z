@@ -1,0 +1,2636 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -41.0,
+        -41.0,
+        0.0,
+        41.0,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1109460.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 96077,
+      "bounds_mm": [
+        -41.0,
+        -41.0,
+        0.0,
+        41.0,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1109460.0000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -41.0,
+        -41.0,
+        0.0,
+        41.0,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1109460.0000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        -40.0,
+        0.0,
+        -40.7,
+        -37.8,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -41.0,
+        -41.0,
+        0.0,
+        41.0,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1109460.0000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 96200,
+      "bounds_mm": [
+        -46.0,
+        -40.0,
+        0.0,
+        -40.7,
+        -37.800000000000004,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999944,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -41.0,
+        0.0,
+        41.0,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1111274.9999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -40.0,
+        -46.0,
+        0.0,
+        -37.8,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -41.0,
+        0.0,
+        41.0,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1111275.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 96328,
+      "bounds_mm": [
+        -40.0,
+        -46.0,
+        0.0,
+        -37.800000000000004,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.899999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        41.0,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1113090.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        -40.0,
+        0.0,
+        46.3,
+        -37.8,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        41.0,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1113089.9999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 96379,
+      "bounds_mm": [
+        41.0,
+        -40.0,
+        0.0,
+        46.3,
+        -37.800000000000004,
+        165.0
+      ],
+      "volume_mm3": 1923.899999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1115013.9,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -40.0,
+        41.0,
+        0.0,
+        -37.8,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        41.0,
+        165.0
+      ],
+      "volume_mm3": 1115013.8999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 96572,
+      "bounds_mm": [
+        -40.0,
+        41.0,
+        0.0,
+        -37.800000000000004,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.899999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1116937.7999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        -32.72727272727272,
+        0.0,
+        -40.7,
+        -30.52727272727272,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1116937.7999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 96679,
+      "bounds_mm": [
+        -46.0,
+        -32.727272727272705,
+        0.0,
+        -40.7,
+        -30.52727272727271,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999974,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1118752.7999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -32.72727272727273,
+        -46.0,
+        0.0,
+        -30.527272727272727,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1118752.7999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 96792,
+      "bounds_mm": [
+        -32.727272727272705,
+        -46.0,
+        0.0,
+        -30.52727272727271,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999978,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1120567.7999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        -32.72727272727272,
+        0.0,
+        46.3,
+        -30.52727272727272,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1120567.7999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 96904,
+      "bounds_mm": [
+        41.0,
+        -32.727272727272705,
+        0.0,
+        46.3,
+        -30.52727272727271,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999974,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1122491.699999999,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -32.72727272727273,
+        41.0,
+        0.0,
+        -30.527272727272727,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1122491.6999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 96952,
+      "bounds_mm": [
+        -32.727272727272705,
+        41.0,
+        0.0,
+        -30.52727272727271,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999978,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1124415.599999999,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        -25.454545454545453,
+        0.0,
+        -40.7,
+        -23.254545454545454,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1124415.5999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97143,
+      "bounds_mm": [
+        -46.0,
+        -25.4545454545455,
+        0.0,
+        -40.7,
+        -23.2545454545455,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1126230.5999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -25.454545454545453,
+        -46.0,
+        0.0,
+        -23.254545454545454,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1126230.5999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97245,
+      "bounds_mm": [
+        -25.4545454545455,
+        -46.0,
+        0.0,
+        -23.2545454545455,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1128045.6,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        -25.454545454545453,
+        0.0,
+        46.3,
+        -23.254545454545454,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1128045.6,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97354,
+      "bounds_mm": [
+        41.0,
+        -25.4545454545455,
+        0.0,
+        46.3,
+        -23.2545454545455,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1129969.4999999995,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -25.454545454545453,
+        41.0,
+        0.0,
+        -23.254545454545454,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1129969.499999999,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97405,
+      "bounds_mm": [
+        -25.4545454545455,
+        41.0,
+        0.0,
+        -23.2545454545455,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1131893.3999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        -18.181818181818187,
+        0.0,
+        -40.7,
+        -15.981818181818188,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1131893.3999999997,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97596,
+      "bounds_mm": [
+        -46.0,
+        -18.1818181818182,
+        0.0,
+        -40.7,
+        -15.9818181818182,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1133708.3999999987,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "015_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -18.181818181818183,
+        -46.0,
+        0.0,
+        -15.981818181818184,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1133708.4000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97703,
+      "bounds_mm": [
+        -18.1818181818182,
+        -46.0,
+        0.0,
+        -15.9818181818182,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1135523.3999999987,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "016_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        -18.181818181818187,
+        0.0,
+        46.3,
+        -15.981818181818188,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1135523.3999999987,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97807,
+      "bounds_mm": [
+        41.0,
+        -18.1818181818182,
+        0.0,
+        46.3,
+        -15.9818181818182,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1137447.3000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "017_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -18.181818181818183,
+        41.0,
+        0.0,
+        -15.981818181818184,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1137447.2999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97852,
+      "bounds_mm": [
+        -18.1818181818182,
+        41.0,
+        0.0,
+        -15.9818181818182,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1139371.2000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "018_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        -10.909090909090907,
+        0.0,
+        -40.7,
+        -8.709090909090907,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1139371.1999999995,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 97966,
+      "bounds_mm": [
+        -46.0,
+        -10.9090909090909,
+        0.0,
+        -40.7,
+        -8.709090909090898,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1141186.2000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "019_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -10.90909090909091,
+        -46.0,
+        0.0,
+        -8.70909090909091,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1141186.1999999988,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98166,
+      "bounds_mm": [
+        -10.9090909090909,
+        -46.0,
+        0.0,
+        -8.709090909090898,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1143001.2000000007,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "020_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        -10.909090909090907,
+        0.0,
+        46.3,
+        -8.709090909090907,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1143001.199999999,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98260,
+      "bounds_mm": [
+        41.0,
+        -10.9090909090909,
+        0.0,
+        46.3,
+        -8.709090909090898,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1144925.1000000006,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "021_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -10.90909090909091,
+        41.0,
+        0.0,
+        -8.70909090909091,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1144925.0999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98376,
+      "bounds_mm": [
+        -10.9090909090909,
+        41.0,
+        0.0,
+        -8.709090909090898,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1146849.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "022_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        -3.636363636363626,
+        0.0,
+        -40.7,
+        -1.4363636363636259,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1146848.9999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98427,
+      "bounds_mm": [
+        -46.0,
+        -3.6363636363636305,
+        0.0,
+        -40.7,
+        -1.4363636363636298,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1148664.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "023_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -3.636363636363633,
+        -46.0,
+        0.0,
+        -1.436363636363633,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1148663.9999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98619,
+      "bounds_mm": [
+        -3.6363636363636305,
+        -46.0,
+        0.0,
+        -1.4363636363636298,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1150479.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "024_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        -3.636363636363626,
+        0.0,
+        46.3,
+        -1.4363636363636259,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1150478.9999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98713,
+      "bounds_mm": [
+        41.0,
+        -3.6363636363636305,
+        0.0,
+        46.3,
+        -1.4363636363636298,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1152402.9000000008,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "025_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -3.636363636363633,
+        41.0,
+        0.0,
+        -1.436363636363633,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1152402.9,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98824,
+      "bounds_mm": [
+        -3.6363636363636305,
+        41.0,
+        0.0,
+        -1.4363636363636298,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1154326.800000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "026_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        3.636363636363626,
+        0.0,
+        -40.7,
+        5.836363636363626,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1154326.7999999989,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98943,
+      "bounds_mm": [
+        -46.0,
+        3.6363636363636305,
+        0.0,
+        -40.7,
+        5.836363636363631,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1156141.800000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "027_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        3.636363636363633,
+        -46.0,
+        0.0,
+        5.836363636363633,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1156141.7999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 98990,
+      "bounds_mm": [
+        3.6363636363636305,
+        -46.0,
+        0.0,
+        5.836363636363631,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1157956.8000000012,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "028_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        3.636363636363626,
+        0.0,
+        46.3,
+        5.836363636363626,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1157956.8000000007,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 99166,
+      "bounds_mm": [
+        41.0,
+        3.6363636363636305,
+        0.0,
+        46.3,
+        5.836363636363631,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1159880.7000000011,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "029_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        3.636363636363633,
+        41.0,
+        0.0,
+        5.836363636363633,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1159880.7000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 99275,
+      "bounds_mm": [
+        3.6363636363636305,
+        41.0,
+        0.0,
+        5.836363636363631,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1161804.6000000013,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "030_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        10.909090909090907,
+        0.0,
+        -40.7,
+        13.109090909090906,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1161804.6000000008,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 99400,
+      "bounds_mm": [
+        -46.0,
+        10.9090909090909,
+        0.0,
+        -40.7,
+        13.1090909090909,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1163619.600000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "031_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        10.909090909090907,
+        -46.0,
+        0.0,
+        13.109090909090906,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1163619.6,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 99451,
+      "bounds_mm": [
+        10.9090909090909,
+        -46.0,
+        0.0,
+        13.1090909090909,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1165434.6000000015,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "032_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        10.909090909090907,
+        0.0,
+        46.3,
+        13.109090909090906,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1165434.6000000013,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 99634,
+      "bounds_mm": [
+        41.0,
+        10.9090909090909,
+        0.0,
+        46.3,
+        13.1090909090909,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1167358.5000000014,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "033_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        10.909090909090907,
+        41.0,
+        0.0,
+        13.109090909090906,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1167358.5000000014,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 99728,
+      "bounds_mm": [
+        10.9090909090909,
+        41.0,
+        0.0,
+        13.1090909090909,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1169282.4000000013,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "034_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        18.181818181818187,
+        0.0,
+        -40.7,
+        20.381818181818186,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1169282.4000000013,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 99848,
+      "bounds_mm": [
+        -46.0,
+        18.1818181818182,
+        0.0,
+        -40.7,
+        20.3818181818182,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1171097.4000000013,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "035_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        18.18181818181818,
+        -46.0,
+        0.0,
+        20.38181818181818,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1171097.4000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 99899,
+      "bounds_mm": [
+        18.1818181818182,
+        -46.0,
+        0.0,
+        20.3818181818182,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1172912.4000000013,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "036_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        18.181818181818187,
+        0.0,
+        46.3,
+        20.381818181818186,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1172912.4000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100087,
+      "bounds_mm": [
+        41.0,
+        18.1818181818182,
+        0.0,
+        46.3,
+        20.3818181818182,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1174836.3000000014,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "037_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        18.18181818181818,
+        41.0,
+        0.0,
+        20.38181818181818,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1174836.3000000005,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100181,
+      "bounds_mm": [
+        18.1818181818182,
+        41.0,
+        0.0,
+        20.3818181818182,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1176760.2000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "038_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        25.45454545454544,
+        0.0,
+        -40.7,
+        27.65454545454544,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1176760.2000000011,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100299,
+      "bounds_mm": [
+        -46.0,
+        25.4545454545454,
+        0.0,
+        -40.7,
+        27.6545454545454,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1178575.2000000014,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "039_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        25.454545454545453,
+        -46.0,
+        0.0,
+        27.654545454545453,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1178575.2000000007,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100424,
+      "bounds_mm": [
+        25.4545454545455,
+        -46.0,
+        0.0,
+        27.6545454545455,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1180390.2000000014,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "040_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        25.45454545454544,
+        0.0,
+        46.3,
+        27.65454545454544,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1180390.200000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100540,
+      "bounds_mm": [
+        41.0,
+        25.4545454545454,
+        0.0,
+        46.3,
+        27.6545454545454,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1182314.1000000017,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "041_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        25.454545454545453,
+        41.0,
+        0.0,
+        27.654545454545453,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1182314.100000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100634,
+      "bounds_mm": [
+        25.4545454545455,
+        41.0,
+        0.0,
+        27.6545454545455,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1184238.0000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "042_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        32.72727272727275,
+        0.0,
+        -40.7,
+        34.92727272727275,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1184238.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100752,
+      "bounds_mm": [
+        -46.0,
+        32.727272727272705,
+        0.0,
+        -40.7,
+        34.9272727272727,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999944,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1186053.0000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "043_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        32.727272727272734,
+        -46.0,
+        0.0,
+        34.92727272727274,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1186052.9999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100872,
+      "bounds_mm": [
+        32.727272727272705,
+        -46.0,
+        0.0,
+        34.9272727272727,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.899999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1187868.0000000019,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "044_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        32.72727272727275,
+        0.0,
+        46.3,
+        34.92727272727275,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1187868.0000000005,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 100923,
+      "bounds_mm": [
+        41.0,
+        32.727272727272705,
+        0.0,
+        46.3,
+        34.9272727272727,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999944,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1189791.9000000018,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "045_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        32.727272727272734,
+        41.0,
+        0.0,
+        34.92727272727274,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1189791.9000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 101102,
+      "bounds_mm": [
+        32.727272727272705,
+        41.0,
+        0.0,
+        34.9272727272727,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999944,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1191715.8000000014,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "046_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.0,
+        40.0,
+        0.0,
+        -40.7,
+        42.2,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1191715.8,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 101205,
+      "bounds_mm": [
+        -46.0,
+        40.0,
+        0.0,
+        -40.7,
+        42.199999999999996,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999944,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1193590.200000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "047_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        40.0,
+        -46.0,
+        0.0,
+        42.2,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1193590.2000000011,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 101320,
+      "bounds_mm": [
+        40.0,
+        -46.0,
+        0.0,
+        42.199999999999996,
+        -40.7,
+        165.0
+      ],
+      "volume_mm3": 1923.899999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1195464.6000000015,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "048_Kuehlrippe_X",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        41.0,
+        40.0,
+        0.0,
+        46.3,
+        42.2,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1195464.6000000006,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 101288,
+      "bounds_mm": [
+        41.0,
+        40.0,
+        0.0,
+        46.3,
+        42.199999999999996,
+        165.0
+      ],
+      "volume_mm3": 1923.8999999999944,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1197388.5000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "049_Kuehlrippe_Y",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        40.0,
+        41.0,
+        0.0,
+        42.2,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.9
+    },
+    "target_before": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1197388.5000000005,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 101534,
+      "bounds_mm": [
+        40.0,
+        41.0,
+        0.0,
+        42.199999999999996,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1923.899999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 96077,
+      "bounds_mm": [
+        -46.0,
+        -46.0,
+        0.0,
+        46.3,
+        46.3,
+        165.0
+      ],
+      "volume_mm3": 1199074.8000000012,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]
