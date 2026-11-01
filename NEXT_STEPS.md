@@ -1,5 +1,19 @@
 # Priorisierte Fortsetzung
 
+## Vorrang nach RATTM-Auswahl und Bildlieferung01.11.2026
+
+1. Gewaehlte Werkzeugaufnahme/Variante klaeren (Rueckfrage gestellt).
+2. Greiferteilkreis, aeussere Huellen, Schlitten-/Tellerbezuege, effektiven Hub
+   und Betriebsorientierung belegen. Scheibe280mm ist kein Werkzeugteilkreis.
+3. Direkte rechte Saeulenkonsole als Bearbeitervorschlag pruefen; Lasten und
+   Istanschlussflaeche bestimmen. Keine Gussbohrungen nach Fotoannahme.
+4. Produktmodell und Park-/Wechselweg neu erstellen und nativ pruefen. Die
+   alten389,33mm sind kein Sollhub des ausgewaehlten Artikels. Eine groessere
+   Zustellung nicht ungeprueft an das Produkt anbauen.
+
+[Belege und Arbeitspaket](docs/superpowers/plans/2026-11-01-rattm-bildmasse.md).
+Die nachfolgende Liste beschreibt den Stand vor der konkreten Produktauswahl.
+
 ## Nach Stand11
 
 Rechte Tellerlage, sichtbare native Wechselstellung, vier seitliche Fangbleche

@@ -1,5 +1,12 @@
 # Native NX-Dateien im Git-Projekt
 
+**Abgrenzung zur neuen Produktauswahl01.11.2026:** Die nachfolgend verlinkten
+NX-Dateien11 enthalten weiterhin den eigenen Tellerentwurf (Scheibe310x10mm,
+Zustellung389,33mm). Sie sind **kein Modell des gewaehlten RATTM-Artikels**.
+Die jetzt erhaltenen Lieferantenbilder zeigen unter anderem Scheibe280x16mm
+und Grundplatte330x175x22mm. Ihre [Auswertung](../projekt/Werkzeugwechsler/RATTM_1005009887984460_Bildauswertung.md)
+ist erfasst; Produktintegration und native Neuerzeugung sind noch offen.
+
 ## Aktuell11: Parkstellung und Wechselstellung, 01.11.2026
 
 - **PARK**: [fraesmaschine_cnc_11_park_nicht_freigegeben__7aecac2684bf.prt](nx/SX35Z_CNC_UMSETZUNG_11_FANGBLECHE_PARK_20261101_111503_626609_7aecac2684bf/fraesmaschine_cnc_11_park_nicht_freigegeben__7aecac2684bf.prt)

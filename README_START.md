@@ -1,5 +1,11 @@
 # SX3.5Z CNC – Übergabe an Codex
 
+**Produktauswahl01.11.2026:** Der Nutzer hat AliExpress1005009887984460 gewaehlt
+und sechs Mass-/Detailbilder geliefert. Direkte Befestigung an der Fraese ist
+erlaubt. [Bildauswertung und offene Anschluesse](projekt/Werkzeugwechsler/RATTM_1005009887984460_Bildauswertung.md).
+Die folgenden nativen CAD-Dateien11 zeigen noch den bisherigen Eigenentwurf,
+nicht diesen Kaufwechsler. Katalog/Einkaufsliste kennzeichnen diese Abweichung.
+
 **Aktuell: Stand11 vom01.11.2026.** Rechter Teller mit eigener Park- und
 Wechselbaugruppe bis zur nominellen Spindelachse; vier beidseitige Fangbleche,
 61 entfallene Originalanbauten. Beide nativen NX-Stellungen neu gespeichert

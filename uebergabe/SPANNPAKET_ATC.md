@@ -1,5 +1,14 @@
 # Übergabe des letzten Gesprächs: automatische Werkzeugspannung
 
+## Produktauswahl01.11.2026 ergaenzt
+
+Magazinartikel1005009887984460 ist vorerst gewaehlt; sechs Lieferantenbildkopien
+liegen im Repository. Die konkrete Werkzeugaufnahme ist noch nicht bestaetigt.
+Der BAIDI SU32X200-S im Bild gehoert zur Magazinzustellung; er ist kein
+nachgewiesener Spindel-Loesezylinder. Das ZD-25W-Aggregat treibt das Magazin,
+nicht die Fraesspindel. Kein Feder-/Greifer-/Zugstangenpaket aus diesen Bildern
+ableiten. OriginalSK30/DIN2080/M12 bleibt von einer ATC-Schnittstelle zu trennen.
+
 ## Stand11
 
 Rechter Teller erreicht die nominelle Spindelachse/-hoehe in einer eigenen

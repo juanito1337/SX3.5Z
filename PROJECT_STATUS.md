@@ -1,5 +1,19 @@
 # Projektstatus zum Codex-Übergabestand
 
+## Produktauswahl fortgeschrieben01.11.2026 – CAD weiterhin Stand11
+
+AliExpress1005009887984460 vom Nutzer vorerst ausgewaehlt, sechs Original-
+Screenshots jetzt im Repository gesichert. Direkte Maschinenbefestigung erlaubt,
+Parkseite rechts bleibt. Grundplatte330x175x22mm und Scheibe280x16mm aus
+Bildbeschriftung; Variante/Werkzeugaufnahme, Greiferteilkreis und nutzbarer
+Hub offen. SU32X200-S legt200mm nahe, bestaetigt aber keinen nutzbaren Magazinweg.
+
+KatalogpositionO10-TELLER und Einkaufsliste11 verweisen auf den gewaehlten
+Artikel (ein Paket) und weisen die abweichende Eigenentwurfsgeometrie klar aus.
+Kein neuer nativer NX-Lauf, keine neue Maschinenrevision; alle bisherigen
+NX-Nachweise gelten nur fuer ihre unveraenderten Lieferstaende.
+[Auswertung und Integrationsbedarf](projekt/Werkzeugwechsler/RATTM_1005009887984460_Bildauswertung.md).
+
 ## Aktuell11: Nutzerkorrekturen01.11.2026
 
 Rechte Parkseite ausdruecklich bestaetigt. Getrennte native PARK-/WECHSEL-

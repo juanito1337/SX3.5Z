@@ -1,5 +1,25 @@
 # Entscheidungen und offene Annahmen
 
+## Fortschreibung01.11.2026: RATTM-Bilder und direkte Maschinenbefestigung
+
+Nutzer bestaetigt Artikel1005009887984460 als vorerst zu verwendenden Wechsler
+und liefert sechs Screenshots. Direkte Befestigung an der Fraese ist erlaubt;
+rechte Parkseite bleibt verbindlich. Kein Tischmagazin. Eine feste Konsole an
+der rechten Saeulenseite ist der Bearbeitervorschlag, keine ausdrueckliche
+Festlegung des Nutzers auf eine Anschlussflaeche oder mitfahrenden Kopf.
+
+Bildbeschriftung: Grundplatte330x175x22mm, Scheibe280x16mm. Acht Greifer sind
+sichtbar. ZylinderaufdruckBAIDI SU32X200-S;200mm ist eine Hubhypothese aus dem
+Typcode. Aktueller CAD11-Weg389,33mm ist damit nicht als passend nachgewiesen.
+Produktdaten, Bezugsgrenzen und Originalbilder sind im Projekt verknuepft:
+[Bildauswertung](../projekt/Werkzeugwechsler/RATTM_1005009887984460_Bildauswertung.md).
+
+Artikelwahl und Bildbelege sind jetzt vorhanden; die nachfolgende aeltere
+Notiz zu fehlenden Bildern ist ueberholt. Variante/Werkzeugaufnahme bleibt
+offen. Keine Fertigungsbohrungen im Guss aus den Bildern ableiten. Die
+vorhandenen nativen Dateien11 sind weiterhin der Eigenentwurf; die neue
+Produktgeometrie wurde in dieser Belegfortschreibung noch nicht konstruiert.
+
 ## Nutzerentscheidung01.11.2026: konkreter AliExpress-Werkzeugwechsler
 
 Der Nutzer legt Artikel1005009887984460 als zu verwendenden Werkzeugwechsler

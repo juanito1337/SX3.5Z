@@ -1823,28 +1823,33 @@
     },
     "O10-TELLER": {
       "id": "O10-TELLER",
-      "description": "8-Platz-Teller, Indexierung, Gabelretention und ca389mm Teleskopzustellung (Entwurf11)",
-      "manufacturer": "OFFEN: Eigenbau oder Lieferant",
-      "article": "KEIN BESTELLARTIKEL",
+      "description": "Ausgewaehltes Tellerwechsler-Paket AliExpress1005009887984460;8 Greifer im Bild, Variante offen",
+      "manufacturer": "RATTM MOTOR (Logo im Nutzerbild)",
+      "article": "AliExpress1005009887984460 / Werkzeugaufnahme unbestaetigt",
       "planned_quantity": 1,
       "unit": "Paket",
       "dims": {},
       "source_ids": [
-        "S10-MARKT"
+        "S10-MARKT",
+        "S11-RATTM-BILDER"
       ],
-      "release": "OFFEN / NICHT BESTELLEN",
+      "release": "VOM NUTZER AUSGEWAEHLT / VARIANTE OFFEN / NICHT BESTELLFREIGEGEBEN",
       "gates": [
         "A09",
         "G05",
         "G08"
       ],
-      "model_scope": "Unbestaetigte Einbauraeume; keine Herstellergeometrie",
+      "model_scope": "Modellkoerper weiterhin Eigenentwurf11 mit389mm Zustellung; KEIN Abbild des ausgewaehlten Kaufteils",
       "type": "Offene Beschaffung",
-      "note": "AliExpress-Varianten und Lieferumfang unbestaetigt.200mm Hersteller-Familienhub reicht fuer diese Zustellung nicht.",
+      "note": "Ein Gesamtpaket statt Eigenbau vorgesehen, keine Doppelbestellung. Bildmasse/Typenschilder: Werkzeugwechsler/Produktdaten_RATTM_1005009887984460.json. Grundplatte330x175x22, Scheibe280x16.200mm Hub nur aus SU32X200-S abgeleitet; nutzbarer Magazinweg offen. Direktmontage an Fraese erlaubt; Konsole/Aufnahme/Spannpaket offen.",
       "unit_price_eur": null,
       "supplier_quote": null,
-      "delivery_confirmed": false
+      "delivery_confirmed": false,
+      "selected_by_user": true,
+      "selected_variant_verified": false,
+      "cad_matches_selected_product": false,
+      "image_evidence_file": "Werkzeugwechsler/Produktdaten_RATTM_1005009887984460.json"
     }
   },
-  "version": "11 auf09-Katalogbasis; rechte Tellerlage und Demontagestand"
+  "version": "11 auf09-Katalogbasis; RATTM-Artikel gewaehlt, Bildbelege01.11.2026; Modell weiterhin Eigenentwurf11"
 }

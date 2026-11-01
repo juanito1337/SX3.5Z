@@ -1,0 +1,84 @@
+{
+  "item_id": "1005009887984460",
+  "images": [
+    {
+      "id": "RATTM-IMG-1",
+      "file": "referenzen/kaufteile/rattm_1005009887984460/01_seitenmasse.png",
+      "original_filename": "Bildschirmfoto vom 2026-11-01 11-46-02.png",
+      "original_path": "W:\\Bildschirmfoto vom 2026-11-01 11-46-02.png",
+      "sha256": "b7732e3ab1b64ff1ca78df465dbc1b7302b19b44bfb6ff262f610d8d45459c6b",
+      "bytes": 422464,
+      "description": "Massbild: Traeger und Schlitten",
+      "origin": "User attachment of supplier listing screenshot",
+      "received_on": "2026-11-01",
+      "supplier_revision": null,
+      "variant_verified": false
+    },
+    {
+      "id": "RATTM-IMG-2",
+      "file": "referenzen/kaufteile/rattm_1005009887984460/02_zylinder.png",
+      "original_filename": "Bildschirmfoto vom 2026-11-01 11-45-54.png",
+      "original_path": "W:\\Bildschirmfoto vom 2026-11-01 11-45-54.png",
+      "sha256": "60915bfa9ba2fa00cdac0e28cd314ed2a7aea315e600c2c54b8db22a07f4239f",
+      "bytes": 394932,
+      "description": "Zylinder BAIDI SU32X200-S",
+      "origin": "User attachment of supplier listing screenshot",
+      "received_on": "2026-11-01",
+      "supplier_revision": null,
+      "variant_verified": false
+    },
+    {
+      "id": "RATTM-IMG-3",
+      "file": "referenzen/kaufteile/rattm_1005009887984460/03_motor_getriebe.png",
+      "original_filename": "Bildschirmfoto vom 2026-11-01 11-45-45.png",
+      "original_path": "W:\\Bildschirmfoto vom 2026-11-01 11-45-45.png",
+      "sha256": "78aeb33437a19ff8405b0e95237bfc25a76eb3d1e6b1594600dd045b51f7071e",
+      "bytes": 331550,
+      "description": "ZD Motor und Getriebeschild",
+      "origin": "User attachment of supplier listing screenshot",
+      "received_on": "2026-11-01",
+      "supplier_revision": null,
+      "variant_verified": false
+    },
+    {
+      "id": "RATTM-IMG-4",
+      "file": "referenzen/kaufteile/rattm_1005009887984460/04_grundplatte.png",
+      "original_filename": "Bildschirmfoto vom 2026-11-01 11-45-26.png",
+      "original_path": "W:\\Bildschirmfoto vom 2026-11-01 11-45-26.png",
+      "sha256": "218109d8d42a8de24ce8e398f4bb86c211cddc48f3a9547ed3738f80a63b77a2",
+      "bytes": 366356,
+      "description": "Massbild: Grundplatte",
+      "origin": "User attachment of supplier listing screenshot",
+      "received_on": "2026-11-01",
+      "supplier_revision": null,
+      "variant_verified": false
+    },
+    {
+      "id": "RATTM-IMG-5",
+      "file": "referenzen/kaufteile/rattm_1005009887984460/05_tellerscheibe.png",
+      "original_filename": "Bildschirmfoto vom 2026-11-01 11-45-15.png",
+      "original_path": "W:\\Bildschirmfoto vom 2026-11-01 11-45-15.png",
+      "sha256": "758bc043a9fa83d2a20cdbcd4efe75a257b7cbbd3b99a2cce0a0140b409f6231",
+      "bytes": 318552,
+      "description": "Massbild: Tellerscheibe und Greifer",
+      "origin": "User attachment of supplier listing screenshot",
+      "received_on": "2026-11-01",
+      "supplier_revision": null,
+      "variant_verified": false
+    },
+    {
+      "id": "RATTM-IMG-6",
+      "file": "referenzen/kaufteile/rattm_1005009887984460/06_gesamtansicht.png",
+      "original_filename": "Bildschirmfoto vom 2026-11-01 11-44-58.png",
+      "original_path": "W:\\Bildschirmfoto vom 2026-11-01 11-44-58.png",
+      "sha256": "fccf580a3040715d45ea2596266bc27dd8d00132cd7f3bb7d9c3a4b749d7ae61",
+      "bytes": 337453,
+      "description": "Gesamtbild mit RATTM MOTOR Logo",
+      "origin": "User attachment of supplier listing screenshot",
+      "received_on": "2026-11-01",
+      "supplier_revision": null,
+      "variant_verified": false
+    }
+  ],
+  "note": "Originaldateien unveraendert kopiert. Zuordnung zum Artikel durch Nutzer; keine vom Anbieter verifizierte Variantenzeichnung."
+}

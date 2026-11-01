@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-01T12:05:15.108564+01:00",
+  "source_base_revision": "2b83f2c",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "command": ".venv/Scripts/python.exe ergebnisse/entwicklung/20261101_rattm_bildmasse/verify_evidence.py",
+  "exit_code": 0,
+  "images_verified": 6,
+  "dimension_labels": 21,
+  "changed_existing_json": [
+    "projekt/Einkauf/Kaufteile_09.json",
+    "projekt/Pruefung_11/Modell_Stuecklistenabgleich_11.json",
+    "projekt/Quellen/Quellen_Teller_20261101.json",
+    "projekt/Werkzeugwechsler/Auswahl_AliExpress_1005009887984460.json"
+  ],
+  "production_python_unchanged": true,
+  "model_recipe_and_parameters_unchanged": true,
+  "native_files_unchanged": true,
+  "selected_package_quantity": 1,
+  "catalog_rows": 70,
+  "native_nx_executed": false,
+  "scope": "Image copy hashes, provenance references, conservative flags, unchanged existing code/parameters/recipe, catalog and BOM consistency. No dimensional accuracy, native NX or physical fit test."
+}
