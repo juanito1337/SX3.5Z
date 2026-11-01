@@ -1,0 +1,15 @@
+
+
+Journal execution results for C:\Users\1337\Documents\ChatGPT\SX3.5Z\ergebnisse\entwicklung\20261101_step12\export_step.py...
+Syntax errors:
+Line 57: Traceback (most recent call last):
+  File "C:\Users\1337\Documents\ChatGPT\SX3.5Z\ergebnisse\entwicklung\20261101_step12\export_step.py", line 67, in <module>
+    main()
+  File "C:\Users\1337\Documents\ChatGPT\SX3.5Z\ergebnisse\entwicklung\20261101_step12\export_step.py", line 57, in main
+    assert OUT.is_file() and OUT.stat().st_size > 1000
+AssertionError
+
+
+==================================================
+Please see log file in C:\Users\1337\AppData\Local\Temp\13376c10452b.syslog
+==================================================

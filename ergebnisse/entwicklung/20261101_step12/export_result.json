@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01T13:20:49.671803+01:00",
+  "source_revision": "346934ac2d1be35b0ba68bb5fde998e00d3d3431",
+  "environment": "NX2406 / 3.10.15 (main, Sep 30 2024, 11:52:23) [MSC v.1929 64 bit (AMD64)]",
+  "source": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_WECHSEL_20261101_130001_853869_fdd87de5a7ba\\FRAESMASCHINE_CNC_12_WECHSEL_NICHT_FREIGEGEBEN__fdd87de5a7ba.prt",
+  "output": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\step\\SX35Z_12_Wechselstellung.step",
+  "source_parts": 461,
+  "source_prt_unchanged": true,
+  "bytes": 6755034,
+  "sha256": "f07a0607fe689e29367c9a276581cd377f68b79e0b28661f983f7941c0a04e49",
+  "manufacturing_released": false,
+  "atc_operational": false
+}

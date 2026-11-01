@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-01T13:21:33.290348+01:00",
+  "environment": "isolated repository .venv CadQuery/OCP",
+  "check": "independent offline STEP reimport",
+  "solids": 461,
+  "invalid_solids": [],
+  "bounds_mm": {
+    "xmin": -818.0000001,
+    "xmax": 1192.0,
+    "ymin": -680.0,
+    "ymax": 618.0000001,
+    "zmin": -750.0000001,
+    "zmax": 1202.0
+  },
+  "native_nx_reimport": false,
+  "manufacturing_released": false
+}

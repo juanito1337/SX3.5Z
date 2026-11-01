@@ -1,5 +1,9 @@
 # Native NX-Dateien im Git-Projekt
 
+**STEP-Ansicht Stand12:** [Gesamtbaugruppe in Wechselstellung](step/SX35Z_12_Wechselstellung.step),
+direkt aus dem gespeicherten NX-Stand exportiert;461 Koerper nach erneutem
+STEP-Einlesen gueltig. [Exportnachweis](../ergebnisse/entwicklung/20261101_step12/README.md).
+
 ## Aktuell12: BT30 auf fester rechter Saeulenkonsole,01.11.2026
 
 - **PARK**: [fraesmaschine_cnc_12_park_nicht_freigegeben__e0b0be78f60d.prt](nx/SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_125654_005752_e0b0be78f60d/fraesmaschine_cnc_12_park_nicht_freigegeben__e0b0be78f60d.prt)
