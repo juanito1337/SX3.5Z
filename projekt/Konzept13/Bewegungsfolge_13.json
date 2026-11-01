@@ -1,0 +1,196 @@
+{
+  "version": "CNC_KONZEPT_13_SEITENMAGAZIN",
+  "date": "2026-11-01T19:56:57.772888+01:00",
+  "source_revision": "e8a0029e34273b9eff00c5ad983ed7640253a263",
+  "environment": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "recipe_sha256": "206486bf99b2e74004f1fe97949477c245092b375e99a41774f6e13b8dcc7710",
+  "parameter_sha256": "0d7d532a23f643cf0891c0a0d9d66c494d51d0cc3951733ace22938b8c371ead",
+  "source_sha256": {
+    "atc13_modell.py": "963cd3e079830fb16b76b0de8894c86f92f3ba1c63b2eec9719b0c2b28664b53",
+    "tools\\atc13_berichte.py": "bc010dcef845ee76440e3bc5a7d91dd4a0bc7e961cdf6f7feb3f341fd0682fd4"
+  },
+  "scope": "Offline report generation from recipe; no native NX or release proof",
+  "native_nx_executed": false,
+  "build_ready": false,
+  "manufacturing_released": false,
+  "purchase_released": false,
+  "machine_operation_enabled": false,
+  "atc_operational": false,
+  "schema": "ATC13_BEWEGUNGSFOLGE_ENTWURF",
+  "executable_machine_program": false,
+  "tool_states": {
+    "0": "in ausgewaehlter Magazintasche",
+    "1": "vom Greifer getragen",
+    "2": "in Spindel gehalten"
+  },
+  "limits": {
+    "radial_feed_mm": 60,
+    "vertical_lift_mm": 90,
+    "jaw_opening_each_mm": 22,
+    "total_jaw_separation_change_mm": 44,
+    "workpiece_over_table_limit_mm": 140.0
+  },
+  "modeled_poses": {
+    "park": {
+      "schema": "ATC13_SINGLE_ARM_CONCEPT",
+      "pocket_count": 12,
+      "tool_carried": false,
+      "gripper_axis_xy_mm": [
+        850.0,
+        509.2388155425118
+      ],
+      "transfer_holder_gauge_mm": [
+        850.0,
+        569.2388155425118,
+        440.0
+      ],
+      "nominal_spindle_axis_and_face_mm": [
+        0.0,
+        0.0,
+        470.0
+      ],
+      "magazine_center_xy_mm": [
+        850.0,
+        789.2388155425118
+      ],
+      "pocket_pitch_mm": 113.88037984510913,
+      "toolchange_workpiece_limit_mm": 140.0,
+      "unrestricted_arbitrary_workpiece_change": false,
+      "manufacturing_released": false,
+      "atc_operational": false,
+      "machine_operation_enabled": false,
+      "spindle_clamping_verified": false,
+      "trajectory_verified": false,
+      "source": "E13 engineering draft; original SK30 remains; BT30 interface and tool orientation pending",
+      "sequence": "Retracted low swing; extend only at endpoints; spindle vertical extraction; pocket retention before gripper release"
+    },
+    "magazin": {
+      "schema": "ATC13_SINGLE_ARM_CONCEPT",
+      "pocket_count": 12,
+      "tool_carried": true,
+      "gripper_axis_xy_mm": [
+        850.0,
+        569.2388155425118
+      ],
+      "transfer_holder_gauge_mm": [
+        850.0,
+        569.2388155425118,
+        440.0
+      ],
+      "nominal_spindle_axis_and_face_mm": [
+        0.0,
+        0.0,
+        530.0
+      ],
+      "magazine_center_xy_mm": [
+        850.0,
+        789.2388155425118
+      ],
+      "pocket_pitch_mm": 113.88037984510913,
+      "toolchange_workpiece_limit_mm": 140.0,
+      "unrestricted_arbitrary_workpiece_change": false,
+      "manufacturing_released": false,
+      "atc_operational": false,
+      "machine_operation_enabled": false,
+      "spindle_clamping_verified": false,
+      "trajectory_verified": false,
+      "source": "E13 engineering draft; original SK30 remains; BT30 interface and tool orientation pending",
+      "sequence": "Retracted low swing; extend only at endpoints; spindle vertical extraction; pocket retention before gripper release"
+    },
+    "wechsel": {
+      "schema": "ATC13_SINGLE_ARM_CONCEPT",
+      "pocket_count": 12,
+      "tool_carried": true,
+      "gripper_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "transfer_holder_gauge_mm": [
+        0.0,
+        0.0,
+        530.0
+      ],
+      "nominal_spindle_axis_and_face_mm": [
+        0.0,
+        0.0,
+        530.0
+      ],
+      "magazine_center_xy_mm": [
+        850.0,
+        789.2388155425118
+      ],
+      "pocket_pitch_mm": 113.88037984510913,
+      "toolchange_workpiece_limit_mm": 140.0,
+      "unrestricted_arbitrary_workpiece_change": false,
+      "manufacturing_released": false,
+      "atc_operational": false,
+      "machine_operation_enabled": false,
+      "spindle_clamping_verified": false,
+      "trajectory_verified": false,
+      "source": "E13 engineering draft; original SK30 remains; BT30 interface and tool orientation pending",
+      "sequence": "Retracted low swing; extend only at endpoints; spindle vertical extraction; pocket retention before gripper release"
+    }
+  },
+  "spindle_change_head_down_mm": 0.0,
+  "steps": [
+    {
+      "number": 1,
+      "phase": "Vorbereitung",
+      "action": "Spindel und KSS stoppen; sicheren Wechselraum herstellen, Kopf in Wechselhoehe und Spindel orientieren.",
+      "required_condition": "Werkstueck/Spannmittel unter der gesamten Bahn maximal140mm ueber Tisch; Raum und Endlagen bestaetigt."
+    },
+    {
+      "number": 2,
+      "phase": "Altes Werkzeug greifen",
+      "action": "Leeren Arm niedrig/eingezogen zur Spindelseite schwenken; am Endpunkt zustellen und anheben; Greifer schliessen.",
+      "required_condition": "Spindel haelt bis formschluessiges Greifen, Werkzeugpraesenz und Verdrehsicherung bestaetigt sind."
+    },
+    {
+      "number": 3,
+      "phase": "Ausspannen",
+      "action": "Spindel loesen; Werkzeug am Spindelendpunkt axial90mm absenken.",
+      "required_condition": "Spannpaket/Loesekraft/Auswurf/Spindellagerentlastung noch auszulegen; keine reale Loesefreigabe."
+    },
+    {
+      "number": 4,
+      "phase": "Zum leeren Platz",
+      "action": "60mm radial einziehen, niedrig zur Magazinseite schwenken; leeren Platz indexieren/verriegeln und60mm zustellen.",
+      "required_condition": "Belegung des Zielplatzes, Indexlage, Greiferhalt und freie Bahn pruefen; kein Schwenken mit ausgefahrenem Schlitten."
+    },
+    {
+      "number": 5,
+      "phase": "Altes Werkzeug ablegen",
+      "action": "Taschenaufnahme/Retention schliessen und bestaetigen; Greifer je Backe22mm oeffnen und radial einziehen.",
+      "required_condition": "Werkzeug niemals gleichzeitig von Tasche und Greifer ungesichert lassen."
+    },
+    {
+      "number": 6,
+      "phase": "Neues Werkzeug holen",
+      "action": "Gewuenschten Platz indexieren/verriegeln; Greifer zustellen und schliessen; Taschenretention erst danach freigeben.",
+      "required_condition": "Belegung, Werkzeugidentitaet, Greiferhalt und Winkelorientierung bestaetigen."
+    },
+    {
+      "number": 7,
+      "phase": "Zur Spindel",
+      "action": "Mit Werkzeug60mm einziehen, niedrig zur Spindelseite schwenken, dort60mm zustellen und90mm axial anheben.",
+      "required_condition": "Freier Wechselraum und passende Spindelorientierung; Einfuehrung/Passung noch nicht nachgewiesen."
+    },
+    {
+      "number": 8,
+      "phase": "Einspannen",
+      "action": "Spindel spannen und Spannzustand bestaetigen; erst danach Greifer oeffnen.",
+      "required_condition": "Werkzeugzustand geht von1 getragen auf2 in Spindel ueber; keine alleinige Zeitsteuerung als Haltbeleg."
+    },
+    {
+      "number": 9,
+      "phase": "Parken",
+      "action": "Leeren geoeffneten Greifer radial abziehen, absenken und niedrig/eingezogen zum Magazin parken.",
+      "required_condition": "Parklage/Arretierung und freie Maschinen-Verfahrhuelle bestaetigen, bevor Bearbeitung freigegeben wird."
+    }
+  ],
+  "limitations": [
+    "Konzept zeigt den Transferhalter und zwoelf Taschen; alle Index-/Belegungszustaende sind keine fertig ausgelegte Steuerung.",
+    "Greifer-/Taschenverdrehsicherung, Spannpaket, Antriebe, feste Endlagenverriegelungen und Sensorik sind offen.",
+    "Gesamte kontinuierliche Bahn samt realem Werkstueck, Schlaeuchen und Werkzeugen ist nicht freigegeben."
+  ]
+}

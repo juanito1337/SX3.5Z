@@ -1,0 +1,4677 @@
+{
+  "version": "CNC_KONZEPT_13_SEITENMAGAZIN",
+  "date": "2026-11-01T19:56:57.772888+01:00",
+  "source_revision": "e8a0029e34273b9eff00c5ad983ed7640253a263",
+  "environment": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "recipe_sha256": "206486bf99b2e74004f1fe97949477c245092b375e99a41774f6e13b8dcc7710",
+  "parameter_sha256": "0d7d532a23f643cf0891c0a0d9d66c494d51d0cc3951733ace22938b8c371ead",
+  "source_sha256": {
+    "atc13_modell.py": "963cd3e079830fb16b76b0de8894c86f92f3ba1c63b2eec9719b0c2b28664b53",
+    "tools\\atc13_berichte.py": "bc010dcef845ee76440e3bc5a7d91dd4a0bc7e961cdf6f7feb3f341fd0682fd4"
+  },
+  "scope": "Offline report generation from recipe; no native NX or release proof",
+  "native_nx_executed": false,
+  "build_ready": false,
+  "manufacturing_released": false,
+  "purchase_released": false,
+  "machine_operation_enabled": false,
+  "atc_operational": false,
+  "parameters": [
+    {
+      "name": "table_x",
+      "value": 740.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Tischlaenge"
+    },
+    {
+      "name": "table_y",
+      "value": 180.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Tischbreite"
+    },
+    {
+      "name": "slot_w",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Oeffnungsbreite der T-Nuten; Tabelle nennt 12 (M10)"
+    },
+    {
+      "name": "slot_pitch",
+      "value": 53.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Abstand der drei T-Nuten"
+    },
+    {
+      "name": "travel_x",
+      "value": 500.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Gesamtverfahrweg X"
+    },
+    {
+      "name": "travel_y",
+      "value": 200.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Gesamtverfahrweg Y"
+    },
+    {
+      "name": "travel_z_min",
+      "value": 240.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Unterer Wert des einstellbaren Z-Gesamtverfahrwegs"
+    },
+    {
+      "name": "travel_z_max",
+      "value": 290.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Oberer Wert des einstellbaren Z-Gesamtverfahrwegs"
+    },
+    {
+      "name": "quill_travel",
+      "value": 78.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Pinolenhub"
+    },
+    {
+      "name": "throat",
+      "value": 210.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Ausladung; Bezug auf Saeulenvorderseite im Modell angenommen"
+    },
+    {
+      "name": "spindle_gap_max",
+      "value": 350.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Maximale Distanz Spindel zu Arbeitstisch"
+    },
+    {
+      "name": "base_long",
+      "value": 510.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Langer Sockelwert; Zuordnung zu Y angenommen"
+    },
+    {
+      "name": "base_short",
+      "value": 280.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Kurzer Sockelwert; Zuordnung zu X angenommen"
+    },
+    {
+      "name": "bolt_pitch_long",
+      "value": 360.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Langer Lochabstand; Zuordnung zu Y und Symmetrie angenommen"
+    },
+    {
+      "name": "bolt_pitch_short",
+      "value": 250.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Kurzer Lochabstand; Zuordnung zu X und Symmetrie angenommen"
+    },
+    {
+      "name": "ref_size_l",
+      "value": 940.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Referenzwert L der Maschinenmasse; NICHT als Modell-Aussenmass erzwungen"
+    },
+    {
+      "name": "ref_size_b",
+      "value": 820.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Referenzwert B der Maschinenmasse; NICHT als Modell-Aussenmass erzwungen"
+    },
+    {
+      "name": "ref_size_h",
+      "value": 930.0,
+      "unit": "mm",
+      "status": "DOKUMENT",
+      "source": "PDF-Seite 21 / Druckseite 20, Abschnitt 3.4; aus V2 uebernommen, NICHT am konkreten Exemplar bestaetigt",
+      "note": "Referenzwert H; hoechster Punkt des vereinfachten Saeulenmotors"
+    },
+    {
+      "name": "pos_x",
+      "value": 0.0,
+      "unit": "mm",
+      "status": "EINSTELLUNG",
+      "source": "",
+      "note": "Tischversatz in X, Neutralstellung in der Mitte"
+    },
+    {
+      "name": "pos_y",
+      "value": 0.0,
+      "unit": "mm",
+      "status": "EINSTELLUNG",
+      "source": "",
+      "note": "Tischversatz in Y, Neutralstellung in der Mitte"
+    },
+    {
+      "name": "z_travel_used",
+      "value": 240.0,
+      "unit": "mm",
+      "status": "EINSTELLUNG",
+      "source": "",
+      "note": "Fuer Modellpruefung gewaehlter Z-Hub, im Dokument 240 bis 290"
+    },
+    {
+      "name": "head_down",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "EINSTELLUNG",
+      "source": "",
+      "note": "Kopfabsenkung ab oberster Modellstellung; 0 bis z_travel_used, positiv nach unten"
+    },
+    {
+      "name": "quill_down",
+      "value": 0.0,
+      "unit": "mm",
+      "status": "EINSTELLUNG",
+      "source": "",
+      "note": "Pinolenauszug, positiv nach unten"
+    },
+    {
+      "name": "base_h",
+      "value": 80.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Hoehe Guss-Basiskoerper; grobe Foto-Proportion, nicht abgelesen"
+    },
+    {
+      "name": "base_flange_h",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Sockelflanschdicke"
+    },
+    {
+      "name": "base_inset_x",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Seitlicher Absatz am Sockel"
+    },
+    {
+      "name": "mount_hole_d",
+      "value": 14.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Durchmesser der vier Aufstellbohrungen; Lage nicht als Bohrschablone verwenden"
+    },
+    {
+      "name": "guide_h",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Y-Fuehrungsleistenhoehe"
+    },
+    {
+      "name": "guide_spacing",
+      "value": 140.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Abstand Y-Fuehrungsleisten"
+    },
+    {
+      "name": "guide_length",
+      "value": 360.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Y-Fuehrungslaenge; Foto-Annahme, kein freigegebener Verfahrweg"
+    },
+    {
+      "name": "saddle_x",
+      "value": 220.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "X-Laenge Kreuzschlitten; grobe Fotoablesung"
+    },
+    {
+      "name": "saddle_y",
+      "value": 180.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "Y-Breite Kreuzschlitten; grobe Fotoablesung"
+    },
+    {
+      "name": "saddle_h",
+      "value": 42.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "Sattelgrundhoehe: nicht abgelesen"
+    },
+    {
+      "name": "cross_h",
+      "value": 4.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "Hoehenversatz Fuehrung, konstruktive Einpassannahme"
+    },
+    {
+      "name": "table_h",
+      "value": 42.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Tischdicke"
+    },
+    {
+      "name": "slot_top_h",
+      "value": 9.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Tiefe schmaler Nutenteil"
+    },
+    {
+      "name": "slot_under_w",
+      "value": 22.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Breite T-Nuten-Hinterschnitt"
+    },
+    {
+      "name": "slot_under_h",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Hoehe T-Nuten-Hinterschnitt"
+    },
+    {
+      "name": "column_x",
+      "value": 138.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047833.jpg;1000047834.jpg;1000047835.jpg;1000047836.jpg;1000047837.jpg;1000047838.jpg;1000047839.jpg;1000047840.jpg;1000047841.jpg;1000047842.jpg",
+      "note": "Saeulenbreite: Einpassannahme passend zur fotografierten Blechhuelle, nicht vermessen"
+    },
+    {
+      "name": "column_y",
+      "value": 112.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Tiefe des normalen Saeulengusskoerpers, ohne Z-Fuehrung; Foto-Annahme"
+    },
+    {
+      "name": "column_foot_h",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Dicke Saeulenfuss; Foto-Annahme"
+    },
+    {
+      "name": "column_cap_h",
+      "value": 15.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Saeulendeckeldicke"
+    },
+    {
+      "name": "head_x",
+      "value": 150.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Kopfbreite aus Foto-Proportion; nicht vermessen"
+    },
+    {
+      "name": "head_h",
+      "value": 220.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Gusshoehe Kopf; Foto-Proportion"
+    },
+    {
+      "name": "head_front",
+      "value": 64.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Vorderer Ueberstand des Kopfes vor Spindelachse"
+    },
+    {
+      "name": "head_quill_offset",
+      "value": 32.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Kopfunterkante ueber Spindelstirn bei eingefahrener Pinole"
+    },
+    {
+      "name": "belt_cover_h",
+      "value": 50.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Riemendeckelhoehe"
+    },
+    {
+      "name": "belt_cover_extra",
+      "value": 0.8,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Deckelueberstand"
+    },
+    {
+      "name": "drawbar_cap_d",
+      "value": 38.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Abdeckung Anzugspindel Durchmesser"
+    },
+    {
+      "name": "drawbar_cap_h",
+      "value": 78.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Abdeckung Anzugspindel Hoehe"
+    },
+    {
+      "name": "quill_d",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Pinolenaussendurchmesser"
+    },
+    {
+      "name": "quill_bore_d",
+      "value": 38.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Vereinfachte Innenbohrung der Pinole"
+    },
+    {
+      "name": "quill_body_h",
+      "value": 110.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Dargestellte Pinolenlaenge"
+    },
+    {
+      "name": "spindle_nose_d",
+      "value": 80.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Spindelnase Aussendurchmesser, Foto-Proportion"
+    },
+    {
+      "name": "spindle_nose_h",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Dicke Spindelnase; Foto-Proportion"
+    },
+    {
+      "name": "spindle_shaft_d",
+      "value": 36.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Vereinfachter Spindelschaft"
+    },
+    {
+      "name": "z_motor_d",
+      "value": 78.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Z-Motordurchmesser"
+    },
+    {
+      "name": "z_motor_h",
+      "value": 91.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Z-Motorhoehe"
+    },
+    {
+      "name": "z_motor_flange_h",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Z-Motorflanschdicke"
+    },
+    {
+      "name": "z_motor_cap_h",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Z-Motordeckelhoehe"
+    },
+    {
+      "name": "panel_x",
+      "value": 138.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048019.jpg;1000048020.jpg",
+      "note": "Breite Bedienfront; keine Messung"
+    },
+    {
+      "name": "panel_y",
+      "value": 80.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Bedienpaneltiefe"
+    },
+    {
+      "name": "panel_h",
+      "value": 174.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048019.jpg;1000048020.jpg",
+      "note": "Hoehe Bedienfront; keine Messung"
+    },
+    {
+      "name": "panel_gap",
+      "value": 28.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Abstand Bedienpanel zum Kopf"
+    },
+    {
+      "name": "panel_z_offset",
+      "value": 96.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Panelunterkante ueber Kopfunterkante"
+    },
+    {
+      "name": "wheel_d",
+      "value": 125.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "X-/Y-Handraddurchmesser"
+    },
+    {
+      "name": "wheel_h",
+      "value": 24.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047992.jpg;1000047993.jpg;1000047994.jpg;1000047999.jpg;1000048000.jpg;1000048001.jpg;1000048002.jpg;1000048003.jpg",
+      "note": "Handrad Tiefe aus Fotos"
+    },
+    {
+      "name": "wheel_rim",
+      "value": 9.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Radkranzbreite"
+    },
+    {
+      "name": "wheel_hub_d",
+      "value": 36.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Handradnabendurchmesser"
+    },
+    {
+      "name": "wheel_shaft_d",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Handradwellen-Durchmesser"
+    },
+    {
+      "name": "wheel_grip_d",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Handradgriff-Durchmesser"
+    },
+    {
+      "name": "wheel_grip_h",
+      "value": 47.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Handradgrifflaenge"
+    },
+    {
+      "name": "x_wheel_offset",
+      "value": 69.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "X-Handradabstand vom Tischende"
+    },
+    {
+      "name": "y_wheel_offset",
+      "value": 73.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Y-Handradabstand vor Sockelvorderkante"
+    },
+    {
+      "name": "star_hub_d",
+      "value": 45.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Sternhebelnabendurchmesser"
+    },
+    {
+      "name": "star_hub_h",
+      "value": 24.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Sternhebelnabenbreite"
+    },
+    {
+      "name": "star_bar_d",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Sternhebelstangendurchmesser"
+    },
+    {
+      "name": "star_radius",
+      "value": 130.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Sternhebel-Laenge bis Griffanfang"
+    },
+    {
+      "name": "star_grip_d",
+      "value": 19.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Sternhebelgriffdurchmesser"
+    },
+    {
+      "name": "star_grip_h",
+      "value": 56.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Sternhebelgrifflaenge"
+    },
+    {
+      "name": "shield_w",
+      "value": 152.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Schutzscheibenbreite"
+    },
+    {
+      "name": "shield_y",
+      "value": 137.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Schutzscheibentiefe"
+    },
+    {
+      "name": "shield_h",
+      "value": 125.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Schutzscheibenhoehe"
+    },
+    {
+      "name": "shield_t",
+      "value": 2.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Schutzscheibendicke"
+    },
+    {
+      "name": "bellows_w",
+      "value": 158.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Faltenbalgbreite"
+    },
+    {
+      "name": "bellows_depth",
+      "value": 19.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 (Paulimot Detailfotos) / PDF-Explosionsansichten; KEIN abgelesenes Mass",
+      "note": "Faltentiefe"
+    },
+    {
+      "name": "head_corner_r",
+      "value": 7.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Gehaeuse-Eckfase; nicht gemessen"
+    },
+    {
+      "name": "frontplate_t",
+      "value": 3.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Frontplatte am Kopf"
+    },
+    {
+      "name": "cover_t",
+      "value": 2.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Darstellungsdicke Saeulenverkleidung"
+    },
+    {
+      "name": "cover_extra_x",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Verkleidung seitlicher Abstand zur Guss-Saeule"
+    },
+    {
+      "name": "cover_rear_extra",
+      "value": 48.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Unterer hinterer Verkleidungsueberstand"
+    },
+    {
+      "name": "cover_taper_h",
+      "value": 225.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Hoehe der Schraegung am oberen Verkleidungsruecken"
+    },
+    {
+      "name": "cover_top_extra",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Oberer hinterer Verkleidungsueberstand"
+    },
+    {
+      "name": "table_end_margin",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Tischrand bis zur Quertasche"
+    },
+    {
+      "name": "table_end_pocket_x",
+      "value": 32.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Laenge einer Quertasche entlang X"
+    },
+    {
+      "name": "table_end_pocket_y",
+      "value": 152.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Breite der Quertaschen entlang Y"
+    },
+    {
+      "name": "table_end_pocket_h",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Tiefe der Quertaschen"
+    },
+    {
+      "name": "table_end_pocket_r",
+      "value": 5.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Eckradius der Quertaschen"
+    },
+    {
+      "name": "table_drain_w",
+      "value": 3.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Schmale Randnut vorn und hinten"
+    },
+    {
+      "name": "table_drain_inset",
+      "value": 7.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Lage der Randnut zur Tischkante"
+    },
+    {
+      "name": "wheel_dish_depth",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Tiefe der konischen Tellervertiefung"
+    },
+    {
+      "name": "wheel_dish_inner_d",
+      "value": 56.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Kleiner Durchmesser der Tellervertiefung"
+    },
+    {
+      "name": "shield_corner",
+      "value": 20.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Abgekantete vordere Ecken des Spindelschutzes"
+    },
+    {
+      "name": "shield_extension",
+      "value": 30.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Untere Schutzscheibe: ausgezogene Zusatzhoehe"
+    },
+    {
+      "name": "shield_lower_h",
+      "value": 55.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Hoehe der unteren Schutzscheibe"
+    },
+    {
+      "name": "bellows_sheet_t",
+      "value": 1.1,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Darstellungsdicke der Faltenhaut in Y bzw. Z"
+    },
+    {
+      "name": "magnetpad_y",
+      "value": 65.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Breite Werkzeug-Magnetpad an rechter Saeulenseite"
+    },
+    {
+      "name": "magnetpad_h",
+      "value": 100.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Hoehe Werkzeug-Magnetpad"
+    },
+    {
+      "name": "sk_taper_length",
+      "value": 48.4,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Modell-Laenge der Konusdarstellung; NICHT gemessene SX3.5Z Bohrung"
+    },
+    {
+      "name": "z_screw_d",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "V2-Restannahme: S2-S6 bzw. Modellannahme, siehe Quellen_V2/Historische_Quellen_v2.md",
+      "note": "Symbolischer Durchmesser Z-Trapezspindel, ohne Gewinde"
+    },
+    {
+      "name": "sk_gauge_d",
+      "value": 31.75,
+      "unit": "mm",
+      "status": "NORMREFERENZ_KEIN_MASCHINENMESSWERT",
+      "source": "S8, GEWEFA DIN2080, PDF S.57/58, Druck S.55/56",
+      "note": "SK30 Bezugsdurchmesser d1, kein Nachweis der realen Spindelstirnlage"
+    },
+    {
+      "name": "base_wall",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Angenommene seitliche Wandstaerke des unten offenen Sockels"
+    },
+    {
+      "name": "base_roof_t",
+      "value": 14.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Angenommene Dachstaerke oberhalb des Sockelhohlraums"
+    },
+    {
+      "name": "base_end_wall",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Angenommene Stirnwandstaerke Sockel"
+    },
+    {
+      "name": "base_slot_w",
+      "value": 78.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Lichte Breite durchgehender Y-Aussparung, nicht gemessen"
+    },
+    {
+      "name": "base_slot_l",
+      "value": 258.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Laenge Y-Durchbruch, nicht gemessen"
+    },
+    {
+      "name": "base_slot_front",
+      "value": 85.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Abstand vordere Sockelstirn bis Beginn Durchbruch"
+    },
+    {
+      "name": "base_rib_t",
+      "value": 9.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Dicke der 4+4 modellierten inneren Dreiecksrippen"
+    },
+    {
+      "name": "base_rib_reach",
+      "value": 22.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Seitlicher Vorsprung der Sockelrippen in den Hohlraum"
+    },
+    {
+      "name": "base_rib_h",
+      "value": 26.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Hoehe Sockelrippen unter der Dachunterseite"
+    },
+    {
+      "name": "base_y_bore_d",
+      "value": 22.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Y-Spindeldurchfuehrung, KEINE Lagerpassung"
+    },
+    {
+      "name": "base_y_boss_d",
+      "value": 42.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Aussendurchmesser vereinfachter innerer Y-Durchfuehrung"
+    },
+    {
+      "name": "base_y_axis_drop",
+      "value": 14.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Y-Spindelachse unter Basisoberseite; Funktionsannahme"
+    },
+    {
+      "name": "column_seat_h",
+      "value": 4.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Erhoehung der beiden bearbeiteten Saeulen-Auflagepads"
+    },
+    {
+      "name": "column_seat_w",
+      "value": 34.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg",
+      "note": "Breite je Auflagepad"
+    },
+    {
+      "name": "column_mount_px",
+      "value": 196.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg; F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Saeulenfuss-Lochabstand X; NICHT Bohrschablone"
+    },
+    {
+      "name": "column_mount_py",
+      "value": 84.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F03-F06: Nutzerfotos 1000047828.jpg bis 1000047831.jpg; F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Saeulenfuss-Lochabstand Y; NICHT Bohrschablone"
+    },
+    {
+      "name": "column_mount_d",
+      "value": 11.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Saeulenfuss-Durchgangsbohrung, Gewinde nicht rekonstruiert"
+    },
+    {
+      "name": "column_length",
+      "value": 780.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Saeulen-Gesamtlaenge inkl. Fuss: grobe Foto-Proportionsannahme; nicht kalibriert"
+    },
+    {
+      "name": "column_wall",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Seitenwandstaerke der hinten offenen Saeule"
+    },
+    {
+      "name": "column_front_wall",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Frontwandstaerke hinter der Z-Fuehrung"
+    },
+    {
+      "name": "column_end_wall",
+      "value": 14.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Dicke oberer Gussabschluss"
+    },
+    {
+      "name": "column_slot_w",
+      "value": 38.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Lichte Schlitzbreite in der Saeulenfront"
+    },
+    {
+      "name": "column_slot_l",
+      "value": 510.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Laenge des durchgehenden Frontschlitzes"
+    },
+    {
+      "name": "column_slot_bottom",
+      "value": 180.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Schlitzbeginn ueber unterer Saeulen-Anschlussflaeche"
+    },
+    {
+      "name": "column_guide_proj",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Vorsprung der angenaeherten Z-Schwalbenschwanzfuehrung"
+    },
+    {
+      "name": "column_guide_width",
+      "value": 126.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Breite Z-Fuehrung an der vorstehenden Flaeche"
+    },
+    {
+      "name": "column_rib_t",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Dicke der zwei grossen Querrippen"
+    },
+    {
+      "name": "column_rib_z1",
+      "value": 300.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Hoehe erste Querrippe ab Saeulen-Anschlussflaeche"
+    },
+    {
+      "name": "column_rib_z2",
+      "value": 440.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Hoehe zweite Querrippe ab Saeulen-Anschlussflaeche"
+    },
+    {
+      "name": "column_rib_clear",
+      "value": 52.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Freiraum zwischen Frontwand-Innenseite und Querrippen"
+    },
+    {
+      "name": "column_gusset_t",
+      "value": 9.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Dicke der vereinfachten seitlichen Gussrippen"
+    },
+    {
+      "name": "column_gusset_reach",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Seitlicher Vorsprung kleiner Gussrippen"
+    },
+    {
+      "name": "column_inspect_d",
+      "value": 32.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Seitliche Rundoeffnung: Durchmesser nur angenaehert, KEIN Lagersitz"
+    },
+    {
+      "name": "column_inspect_top",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Abstand seitliche Rundoeffnung unter oberer Stirn"
+    },
+    {
+      "name": "column_inspect_y",
+      "value": 55.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg",
+      "note": "Rundoeffnungsmitte hinter Frontflaeche"
+    },
+    {
+      "name": "column_screw_offset",
+      "value": 38.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg / PDF57",
+      "note": "Symbolische Z-Spindelachse hinter Saeulenfront; zu vermessen"
+    },
+    {
+      "name": "column_top_bore_d",
+      "value": 28.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F07-F16: Nutzerfotos 1000047833.jpg bis 1000047842.jpg / PDF57",
+      "note": "Vereinfachte obere Spindeldurchfuehrung, keine Lagerpassung"
+    },
+    {
+      "name": "table_under_w",
+      "value": 112.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Untere lichte Breite des angenommenen X-Fuehrungsprofils"
+    },
+    {
+      "name": "table_under_flare",
+      "value": 7.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Seitliche Aufweitung pro Seite nach oben"
+    },
+    {
+      "name": "table_under_h",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Tiefe des X-Fuehrungsprofils von Tischunterkante"
+    },
+    {
+      "name": "table_channel_w",
+      "value": 54.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Breite der mittleren Unterseiten-Freistellung"
+    },
+    {
+      "name": "table_channel_h",
+      "value": 19.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047824.jpg;1000047826.jpg",
+      "note": "Tischfreistellung: angenommener Bauraum"
+    },
+    {
+      "name": "table_end_hole_d",
+      "value": 5.5,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Symbolischer stirnseitiger Befestigungsdurchmesser, Gewinde unbekannt"
+    },
+    {
+      "name": "table_end_hole_pitch",
+      "value": 110.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Lochabstand stirnseitiger Tischbefestigung, angenommen"
+    },
+    {
+      "name": "table_end_hole_depth",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Modellierte Tiefe Stirnbohrungen, nicht gemessen"
+    },
+    {
+      "name": "scale_depth",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Tiefe vorhandener seitlicher X-Massstabsdarstellung"
+    },
+    {
+      "name": "scale_h",
+      "value": 20.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Hoehe vorhandener seitlicher X-Massstabsdarstellung"
+    },
+    {
+      "name": "scale_end_margin",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Abstand X-Massstab von Tischstirnseiten"
+    },
+    {
+      "name": "scale_reader_x",
+      "value": 95.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "X-Lage des feststehenden Lesekopfes relativ zum Sattel, angenommen"
+    },
+    {
+      "name": "scale_reader_l",
+      "value": 58.0,
+      "unit": "mm",
+      "status": "NUTZERFOTO_ANNAHME",
+      "source": "F01/F02: Nutzerfotos 1000047826.jpg / 1000047824.jpg",
+      "note": "Laenge des stilisierten X-Lesekopfes"
+    },
+    {
+      "name": "head_wall",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Kopfwandstaerke sichtbar, Zahl angenaehert"
+    },
+    {
+      "name": "head_roof",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Kopf obere Lagerwand; angenommen"
+    },
+    {
+      "name": "head_quill_boss",
+      "value": 92.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Aussendurchmesser Gussboss um Pinole"
+    },
+    {
+      "name": "head_window_y",
+      "value": 96.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Laenge inneres hinteres Kopf-Fenster"
+    },
+    {
+      "name": "head_bottom_plate_t",
+      "value": 2.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Abnehmbares gelochtes Unterblech"
+    },
+    {
+      "name": "quill_outer_length",
+      "value": 158.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Pinolenhuelse Gesamtlaenge Modell"
+    },
+    {
+      "name": "spindle_top_shaft_d",
+      "value": 28.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Laengsverzahnte Welle, Huellmass"
+    },
+    {
+      "name": "spindle_top_shaft_h",
+      "value": 54.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Sichtbarer verzahnter Wellenabschnitt"
+    },
+    {
+      "name": "spindle_pulley_d",
+      "value": 94.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Aussendurchmesser Spindelriemenscheibe"
+    },
+    {
+      "name": "spindle_pulley_h",
+      "value": 27.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Spindelriemenscheibe Breite"
+    },
+    {
+      "name": "motor_frame",
+      "value": 92.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Motor Gehaeusebreite; Typname und Fotos, keine Flanschnorm"
+    },
+    {
+      "name": "motor_length",
+      "value": 185.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Motorlaenge hinter Montageplatte; Fotoabschaetzung"
+    },
+    {
+      "name": "motor_plate_x",
+      "value": 150.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Spindelmotor Montageplatte Breite"
+    },
+    {
+      "name": "motor_plate_y",
+      "value": 132.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Spindelmotor Montageplatte Tiefe"
+    },
+    {
+      "name": "motor_plate_t",
+      "value": 6.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Montageplatte Dicke"
+    },
+    {
+      "name": "motor_y",
+      "value": 142.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Motorachsenabstand zur Spindel; Einpassannahme"
+    },
+    {
+      "name": "motor_fins_t",
+      "value": 2.2,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Rippendicke Motorprofil"
+    },
+    {
+      "name": "motor_fins_depth",
+      "value": 5.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Rippentiefe Motorprofil"
+    },
+    {
+      "name": "motor_pulley_d",
+      "value": 66.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Grosse Motorriemenscheibe Durchmesser"
+    },
+    {
+      "name": "motor_timing_d",
+      "value": 32.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048004.jpg;1000048006.jpg;1000048007.jpg;1000048008.jpg;1000048009.jpg",
+      "note": "Kleine Motorriemenscheibe Huellmass"
+    },
+    {
+      "name": "z_gear_size",
+      "value": 80.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047995.jpg;1000047996.jpg;1000047997.jpg;1000047998.jpg",
+      "note": "Z-Getriebekopf Aussenbreite; Foto-Proportion"
+    },
+    {
+      "name": "z_gear_h",
+      "value": 48.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047995.jpg;1000047996.jpg;1000047997.jpg;1000047998.jpg",
+      "note": "Z-Getriebe Bauhoehe ohne Motor"
+    },
+    {
+      "name": "z_orig_motor_h",
+      "value": 86.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047995.jpg;1000047996.jpg;1000047997.jpg;1000047998.jpg",
+      "note": "Z-Originalmotor Gehaeuselaenge"
+    },
+    {
+      "name": "z_plate_x",
+      "value": 120.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047995.jpg;1000047996.jpg;1000047997.jpg;1000047998.jpg",
+      "note": "Z-Motor Adapterplatte Breite"
+    },
+    {
+      "name": "z_plate_y",
+      "value": 100.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047995.jpg;1000047996.jpg;1000047997.jpg;1000047998.jpg",
+      "note": "Z-Motor Adapterplatte Tiefe"
+    },
+    {
+      "name": "z_plate_t",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047995.jpg;1000047996.jpg;1000047997.jpg;1000047998.jpg",
+      "note": "Z-Motor Adapterplatte Dicke"
+    },
+    {
+      "name": "lead_x_d",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047992.jpg;1000047993.jpg;1000047994.jpg;1000047999.jpg;1000048000.jpg;1000048001.jpg;1000048002.jpg;1000048003.jpg",
+      "note": "Original-X-Gewinde Huellmass, nicht nachgemessen"
+    },
+    {
+      "name": "lead_y_d",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047992.jpg;1000047993.jpg;1000047994.jpg;1000047999.jpg;1000048000.jpg;1000048001.jpg;1000048002.jpg;1000048003.jpg",
+      "note": "Original-Y-Gewinde Huellmass, nicht nachgemessen"
+    },
+    {
+      "name": "lead_z_d",
+      "value": 20.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047992.jpg;1000047993.jpg;1000047994.jpg;1000047999.jpg;1000048000.jpg;1000048001.jpg;1000048002.jpg;1000048003.jpg",
+      "note": "Original-Z-Gewinde Huellmass, nicht nachgemessen"
+    },
+    {
+      "name": "lead_z_length",
+      "value": 470.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047992.jpg;1000047993.jpg;1000047994.jpg;1000047999.jpg;1000048000.jpg;1000048001.jpg;1000048002.jpg;1000048003.jpg",
+      "note": "Z-Spindel Wellenlaenge; unkalibrierte Fotoabschaetzung"
+    },
+    {
+      "name": "saddle_channel_d",
+      "value": 27.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "Gerundete Spindelfreistellung Sattel"
+    },
+    {
+      "name": "saddle_pocket_depth",
+      "value": 11.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "Vertiefung neben Spindelkanal"
+    },
+    {
+      "name": "saddle_nut_x",
+      "value": 34.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "Original-X-Mutter Blocklaenge"
+    },
+    {
+      "name": "saddle_nut_w",
+      "value": 32.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "Original-X-Mutter Blockbreite"
+    },
+    {
+      "name": "saddle_nut_h",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047959.jpg;1000047960.jpg;1000047961.jpg;1000047962.jpg;1000047963.jpg",
+      "note": "Original-X-Mutter Blockhoehe"
+    },
+    {
+      "name": "cover_length",
+      "value": 780.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048022.jpg;1000048024.jpg;1000048025.jpg;1000048026.jpg;1000048027.jpg;1000048028.jpg;1000048029.jpg;1000048031.jpg;1000048033.jpg",
+      "note": "Blechgehaeuse Laenge aus Foto, nicht bestaetigt"
+    },
+    {
+      "name": "cover_width",
+      "value": 150.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048022.jpg;1000048024.jpg;1000048025.jpg;1000048026.jpg;1000048027.jpg;1000048028.jpg;1000048029.jpg;1000048031.jpg;1000048033.jpg",
+      "note": "Breite Blechgehaeuse Stirnseite; Fotoablesung"
+    },
+    {
+      "name": "cover_deep",
+      "value": 215.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048022.jpg;1000048024.jpg;1000048025.jpg;1000048026.jpg;1000048027.jpg;1000048028.jpg;1000048029.jpg;1000048031.jpg;1000048033.jpg",
+      "note": "Tiefe grosser Bereich; Fotoablesung"
+    },
+    {
+      "name": "cover_shallow",
+      "value": 125.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048022.jpg;1000048024.jpg;1000048025.jpg;1000048026.jpg;1000048027.jpg;1000048028.jpg;1000048029.jpg;1000048031.jpg;1000048033.jpg",
+      "note": "Tiefe kleiner Bereich; Fotoablesung"
+    },
+    {
+      "name": "cover_step_z",
+      "value": 150.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048022.jpg;1000048024.jpg;1000048025.jpg;1000048026.jpg;1000048027.jpg;1000048028.jpg;1000048029.jpg;1000048031.jpg;1000048033.jpg",
+      "note": "Hoehe der seitlichen Stufe; angenommene Lage"
+    },
+    {
+      "name": "cover_slope_l",
+      "value": 120.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048022.jpg;1000048024.jpg;1000048025.jpg;1000048026.jpg;1000048027.jpg;1000048028.jpg;1000048029.jpg;1000048031.jpg;1000048033.jpg",
+      "note": "Laenge der schraegen Kontur; angenommene Lage"
+    },
+    {
+      "name": "cover_sheet_t",
+      "value": 1.5,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048022.jpg;1000048024.jpg;1000048025.jpg;1000048026.jpg;1000048027.jpg;1000048028.jpg;1000048029.jpg;1000048031.jpg;1000048033.jpg",
+      "note": "Blechdicke ungemessen"
+    },
+    {
+      "name": "electronics_board_w",
+      "value": 118.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048010.jpg;1000048011.jpg;1000048012.jpg;1000048013.jpg;1000048014.jpg;1000048015.jpg;1000048016.jpg;1000048017.jpg;1000048018.jpg",
+      "note": "Hauptplatine Breite; Foto-Proportion"
+    },
+    {
+      "name": "electronics_board_h",
+      "value": 268.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048010.jpg;1000048011.jpg;1000048012.jpg;1000048013.jpg;1000048014.jpg;1000048015.jpg;1000048016.jpg;1000048017.jpg;1000048018.jpg",
+      "note": "Hauptplatine Laenge; Foto-Proportion"
+    },
+    {
+      "name": "electronics_pcb_t",
+      "value": 1.6,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048010.jpg;1000048011.jpg;1000048012.jpg;1000048013.jpg;1000048014.jpg;1000048015.jpg;1000048016.jpg;1000048017.jpg;1000048018.jpg",
+      "note": "Platinen Dicke angenommen"
+    },
+    {
+      "name": "electronics_gap",
+      "value": 9.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000048010.jpg;1000048011.jpg;1000048012.jpg;1000048013.jpg;1000048014.jpg;1000048015.jpg;1000048016.jpg;1000048017.jpg;1000048018.jpg",
+      "note": "Abstand Platine zur Montagewand"
+    },
+    {
+      "name": "z_nut_w",
+      "value": 48.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047992.jpg;1000047993.jpg;1000047994.jpg;1000047999.jpg;1000048000.jpg;1000048001.jpg;1000048002.jpg;1000048003.jpg",
+      "note": "Z-Mutterhalter Breite ungemessen"
+    },
+    {
+      "name": "z_nut_h",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047992.jpg;1000047993.jpg;1000047994.jpg;1000047999.jpg;1000048000.jpg;1000048001.jpg;1000048002.jpg;1000048003.jpg",
+      "note": "Z-Mutterhalter Hoehe ungemessen"
+    },
+    {
+      "name": "z_nut_l",
+      "value": 42.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047992.jpg;1000047993.jpg;1000047994.jpg;1000047999.jpg;1000048000.jpg;1000048001.jpg;1000048002.jpg;1000048003.jpg",
+      "note": "Z-Mutterhalter Tiefe ungemessen"
+    },
+    {
+      "name": "quill_spindle_upper_d",
+      "value": 34.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Oberer Spindelwellen-Durchmesser als Huellmass bis zum Riemenscheiben-/Verzahnungsbereich"
+    },
+    {
+      "name": "quill_spindle_full_h",
+      "value": 236.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Durchgehende Werkzeugspindel vom Nasenflansch bis in den oberen Antriebsbereich, aus Fotozusammenhang angenaehert"
+    },
+    {
+      "name": "quill_pinion_d",
+      "value": 32.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Pinolenvorschub-Ritzel Durchmesser aus Hebel- und Zahnstangenlage angenaehert"
+    },
+    {
+      "name": "quill_pinion_w",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Pinolenvorschub-Ritzel Breite angenaehert"
+    },
+    {
+      "name": "quill_feed_shaft_d",
+      "value": 18.0,
+      "unit": "mm",
+      "status": "FOTO_ANNAHME",
+      "source": "1000047964.jpg;1000047965.jpg;1000047966.jpg;1000047969.jpg;1000047970.jpg;1000047972.jpg;1000047981.jpg;1000047983.jpg;1000047985.jpg;1000047987.jpg;1000047988.jpg;1000047989.jpg;1000047990.jpg;1000047991.jpg",
+      "note": "Innenwelle zwischen Dreisternhebel und Pinolenvorschubritzel, angenaehert"
+    },
+    {
+      "name": "cnc_x_screw_d",
+      "value": 16,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Kugelspindel nur als Aussenzylinder; keine Laufbahn"
+    },
+    {
+      "name": "cnc_x_lead",
+      "value": 5,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Steigung als Metadatum; keine Gewindegeometrie"
+    },
+    {
+      "name": "cnc_x_nut_od",
+      "value": 28,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Rundmutter-Aussenmass aus uebernommener Katalogreferenz"
+    },
+    {
+      "name": "cnc_x_nut_l",
+      "value": 50,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Mutternlaenge aus Entwicklung09; keine Detailinnenkontur"
+    },
+    {
+      "name": "cnc_x_nut_w",
+      "value": 47,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Breite aus Entwicklung10"
+    },
+    {
+      "name": "cnc_x_nut_h",
+      "value": 33,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Hoehe aus Entwicklung10"
+    },
+    {
+      "name": "cnc_x_nut_block_l",
+      "value": 54,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Laenge aus Entwicklung10"
+    },
+    {
+      "name": "cnc_x_journal_d",
+      "value": 12,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Lagerzapfen-ENTWURF; kein bestellbares Endenmass"
+    },
+    {
+      "name": "cnc_x_free_journal_d",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_bearing_bore",
+      "value": 28,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Lagerhuelle-ENTWURF; kein spezifiziertes Lager"
+    },
+    {
+      "name": "cnc_x_free_bearing_bore",
+      "value": 24,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Loslager-Huellmass, nicht ausgelegt"
+    },
+    {
+      "name": "cnc_x_motor_w",
+      "value": 56.4,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_x_motor_l",
+      "value": 103.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_x_motor_pitch",
+      "value": 47.14,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_x_pilot_d",
+      "value": 38.1,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_x_shaft_d",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_x_shaft_l",
+      "value": 21.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_x_plate_w",
+      "value": 84,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Motorhalterplatten als freie Entwurfsmassen"
+    },
+    {
+      "name": "cnc_x_plate_t",
+      "value": 10,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Entwurfsdicke, keine Festigkeitsberechnung"
+    },
+    {
+      "name": "cnc_x_spacer_pitch",
+      "value": 66,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Abstand der Halter-Distanzsaeulen"
+    },
+    {
+      "name": "cnc_x_coupling_d",
+      "value": 30.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_screw_d",
+      "value": 16,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Kugelspindel nur als Aussenzylinder; keine Laufbahn"
+    },
+    {
+      "name": "cnc_y_lead",
+      "value": 5,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Steigung als Metadatum; keine Gewindegeometrie"
+    },
+    {
+      "name": "cnc_y_nut_od",
+      "value": 28,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Rundmutter-Aussenmass aus uebernommener Katalogreferenz"
+    },
+    {
+      "name": "cnc_y_nut_l",
+      "value": 50,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Mutternlaenge aus Entwicklung09; keine Detailinnenkontur"
+    },
+    {
+      "name": "cnc_y_nut_w",
+      "value": 47,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Breite aus Entwicklung10"
+    },
+    {
+      "name": "cnc_y_nut_h",
+      "value": 33,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Hoehe aus Entwicklung10"
+    },
+    {
+      "name": "cnc_y_nut_block_l",
+      "value": 54,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Laenge aus Entwicklung10"
+    },
+    {
+      "name": "cnc_y_journal_d",
+      "value": 12,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Lagerzapfen-ENTWURF; kein bestellbares Endenmass"
+    },
+    {
+      "name": "cnc_y_free_journal_d",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_bearing_bore",
+      "value": 28,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Lagerhuelle-ENTWURF; kein spezifiziertes Lager"
+    },
+    {
+      "name": "cnc_y_free_bearing_bore",
+      "value": 24,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Loslager-Huellmass, nicht ausgelegt"
+    },
+    {
+      "name": "cnc_y_motor_w",
+      "value": 56.4,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_y_motor_l",
+      "value": 103.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_y_motor_pitch",
+      "value": 47.14,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_y_pilot_d",
+      "value": 38.1,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_y_shaft_d",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_y_shaft_l",
+      "value": 21.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-XY",
+      "note": "2,6 Nm Haltemoment ist kein verfügbares Drehmoment bei Eilgang. Manche Produktstände nennen104mm: Lieferrevision abgleichen."
+    },
+    {
+      "name": "cnc_y_plate_w",
+      "value": 84,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Motorhalterplatten als freie Entwurfsmassen"
+    },
+    {
+      "name": "cnc_y_plate_t",
+      "value": 10,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Entwurfsdicke, keine Festigkeitsberechnung"
+    },
+    {
+      "name": "cnc_y_spacer_pitch",
+      "value": 66,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Abstand der Halter-Distanzsaeulen"
+    },
+    {
+      "name": "cnc_y_coupling_d",
+      "value": 30.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_screw_d",
+      "value": 20,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Kugelspindel nur als Aussenzylinder; keine Laufbahn"
+    },
+    {
+      "name": "cnc_z_lead",
+      "value": 5,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Steigung als Metadatum; keine Gewindegeometrie"
+    },
+    {
+      "name": "cnc_z_nut_od",
+      "value": 33,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Rundmutter-Aussenmass aus uebernommener Katalogreferenz"
+    },
+    {
+      "name": "cnc_z_nut_l",
+      "value": 50,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Mutternlaenge aus Entwicklung09; keine Detailinnenkontur"
+    },
+    {
+      "name": "cnc_z_nut_w",
+      "value": 53,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Breite aus Entwicklung10"
+    },
+    {
+      "name": "cnc_z_nut_h",
+      "value": 40,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Hoehe aus Entwicklung10"
+    },
+    {
+      "name": "cnc_z_nut_block_l",
+      "value": 61.5,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Spannblock-Laenge aus Entwicklung10"
+    },
+    {
+      "name": "cnc_z_journal_d",
+      "value": 15,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Lagerzapfen-ENTWURF; kein bestellbares Endenmass"
+    },
+    {
+      "name": "cnc_z_free_journal_d",
+      "value": 15.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_bearing_bore",
+      "value": 32,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Lagerhuelle-ENTWURF; kein spezifiziertes Lager"
+    },
+    {
+      "name": "cnc_z_free_bearing_bore",
+      "value": 28,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Loslager-Huellmass, nicht ausgelegt"
+    },
+    {
+      "name": "cnc_z_motor_w",
+      "value": 86.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-Z",
+      "note": "REVISION: Herstellerseite nennt135/144mm und4/6A.144mm als reservierte Tabellenlänge; Flansch/Welle aus Nicht-B-Familienzeichnung, B-Zeichnung bestätigen. Keine unabhängige Absturzsicherung."
+    },
+    {
+      "name": "cnc_z_motor_l",
+      "value": 144.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-Z",
+      "note": "REVISION: Herstellerseite nennt135/144mm und4/6A.144mm als reservierte Tabellenlänge; Flansch/Welle aus Nicht-B-Familienzeichnung, B-Zeichnung bestätigen. Keine unabhängige Absturzsicherung."
+    },
+    {
+      "name": "cnc_z_motor_pitch",
+      "value": 69.6,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-Z",
+      "note": "REVISION: Herstellerseite nennt135/144mm und4/6A.144mm als reservierte Tabellenlänge; Flansch/Welle aus Nicht-B-Familienzeichnung, B-Zeichnung bestätigen. Keine unabhängige Absturzsicherung."
+    },
+    {
+      "name": "cnc_z_pilot_d",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-Z",
+      "note": "REVISION: Herstellerseite nennt135/144mm und4/6A.144mm als reservierte Tabellenlänge; Flansch/Welle aus Nicht-B-Familienzeichnung, B-Zeichnung bestätigen. Keine unabhängige Absturzsicherung."
+    },
+    {
+      "name": "cnc_z_shaft_d",
+      "value": 14.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-Z",
+      "note": "REVISION: Herstellerseite nennt135/144mm und4/6A.144mm als reservierte Tabellenlänge; Flansch/Welle aus Nicht-B-Familienzeichnung, B-Zeichnung bestätigen. Keine unabhängige Absturzsicherung."
+    },
+    {
+      "name": "cnc_z_shaft_l",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-MOT-Z",
+      "note": "REVISION: Herstellerseite nennt135/144mm und4/6A.144mm als reservierte Tabellenlänge; Flansch/Welle aus Nicht-B-Familienzeichnung, B-Zeichnung bestätigen. Keine unabhängige Absturzsicherung."
+    },
+    {
+      "name": "cnc_z_plate_w",
+      "value": 108,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Motorhalterplatten als freie Entwurfsmassen"
+    },
+    {
+      "name": "cnc_z_plate_t",
+      "value": 10,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Entwurfsdicke, keine Festigkeitsberechnung"
+    },
+    {
+      "name": "cnc_z_spacer_pitch",
+      "value": 88,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "Ansichts-Entwurf; nicht vermessen",
+      "note": "Abstand der Halter-Distanzsaeulen"
+    },
+    {
+      "name": "cnc_z_coupling_d",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_extra_l",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "cnc_z_extra_l",
+      "value": 20.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "axial_reserve",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "stand_h",
+      "value": 750.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "stand_w",
+      "value": 1650.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "stand_d",
+      "value": 1000.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "stand_cx",
+      "value": 62.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "stand_cy",
+      "value": 25.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "tube_side",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "tube_wall",
+      "value": 3.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "enclosure_h",
+      "value": 1200.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "sheet_t",
+      "value": 2.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "window_t",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "cab_w",
+      "value": 600.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "cab_h",
+      "value": 800.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "cab_d",
+      "value": 300.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "cab_gap",
+      "value": 0.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "cab_z",
+      "value": 150.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "tank_w",
+      "value": 500.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "tank_d",
+      "value": 400.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "tank_h",
+      "value": 250.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "chip_outlet_w",
+      "value": 350.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "chip_outlet_d",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "chip_outlet_y",
+      "value": 430.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_open",
+      "value": 0.0,
+      "unit": "unitless",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_clear_w",
+      "value": 1420.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_clear_h",
+      "value": 1000.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_z",
+      "value": 100.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_overlap",
+      "value": 20.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_open_clearance",
+      "value": 5.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_thickness",
+      "value": 30.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "lift_guide_overrun",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_panel_overlap",
+      "value": 20.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_lane_pitch",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "door_floor_clearance",
+      "value": 250.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "bend_r",
+      "value": 3.0,
+      "unit": "mm",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "bend_k",
+      "value": 0.4,
+      "unit": "unitless",
+      "status": "ANSICHT_ENTWURF",
+      "source": "K02: Originalfotomodell + dokumentierte Herstellerdaten + ausdrücklich ungeprüfte Entwurfsanschlüsse.",
+      "note": "K02 Entwurfsmaß; keine Festigkeits-/Schutzfreigabe"
+    },
+    {
+      "name": "cnc_x_fk_shaft_d",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_length",
+      "value": 27.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_flange_t",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_spigot_l",
+      "value": 17.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_spigot_d",
+      "value": 36.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_envelope_d",
+      "value": 54.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_pcd",
+      "value": 44.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_hole_d",
+      "value": 4.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_counter_d",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fk_counter_depth",
+      "value": 4.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_shaft_d",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_length",
+      "value": 15.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_flange_t",
+      "value": 7.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_spigot_l",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_spigot_d",
+      "value": 34.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_envelope_d",
+      "value": 52.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_pcd",
+      "value": 42.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_hole_d",
+      "value": 4.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_counter_d",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_ff_counter_depth",
+      "value": 4.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_kup_diameter",
+      "value": 30.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_kup_length",
+      "value": 35.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_kup_hub_l",
+      "value": 11.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_kup_gap",
+      "value": 13.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_kup_head_envelope",
+      "value": 32.2,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_kup_bore_a",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_kup_bore_b",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_adapter_t",
+      "value": 17.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_x_fixed_shaft_end",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Nur axiale Hülle; fertige Endenzeichnung fehlt"
+    },
+    {
+      "name": "cnc_x_core_end",
+      "value": -5.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Schulter außerhalb FK-Hauptkörper; Projektion nominal, Lieferzeichnung erforderlich"
+    },
+    {
+      "name": "cnc_x_coupling_start",
+      "value": 44.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Axiale Entwurfsposition, nicht Maschinenmaß"
+    },
+    {
+      "name": "cnc_y_fk_shaft_d",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_length",
+      "value": 27.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_flange_t",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_spigot_l",
+      "value": 17.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_spigot_d",
+      "value": 36.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_envelope_d",
+      "value": 54.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_pcd",
+      "value": 44.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_hole_d",
+      "value": 4.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_counter_d",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fk_counter_depth",
+      "value": 4.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_shaft_d",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_length",
+      "value": 15.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_flange_t",
+      "value": 7.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_spigot_l",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_spigot_d",
+      "value": 34.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_envelope_d",
+      "value": 52.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_pcd",
+      "value": 42.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_hole_d",
+      "value": 4.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_counter_d",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_ff_counter_depth",
+      "value": 4.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF12",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_kup_diameter",
+      "value": 30.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_kup_length",
+      "value": 35.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_kup_hub_l",
+      "value": 11.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_kup_gap",
+      "value": 13.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_kup_head_envelope",
+      "value": 32.2,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_kup_bore_a",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_kup_bore_b",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_adapter_t",
+      "value": 17.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_y_fixed_shaft_end",
+      "value": 60.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Nur axiale Hülle; fertige Endenzeichnung fehlt"
+    },
+    {
+      "name": "cnc_y_core_end",
+      "value": -5.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Schulter außerhalb FK-Hauptkörper; Projektion nominal, Lieferzeichnung erforderlich"
+    },
+    {
+      "name": "cnc_y_coupling_start",
+      "value": 44.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Axiale Entwurfsposition, nicht Maschinenmaß"
+    },
+    {
+      "name": "cnc_z_fk_shaft_d",
+      "value": 15.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_length",
+      "value": 32.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_flange_t",
+      "value": 15.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_spigot_l",
+      "value": 17.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_spigot_d",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_envelope_d",
+      "value": 63.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_pcd",
+      "value": 50.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_hole_d",
+      "value": 5.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_counter_d",
+      "value": 9.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fk_counter_depth",
+      "value": 6.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FK15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_shaft_d",
+      "value": 15.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_length",
+      "value": 17.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_flange_t",
+      "value": 9.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_spigot_l",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_spigot_d",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_envelope_d",
+      "value": 63.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_pcd",
+      "value": 50.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_hole_d",
+      "value": 5.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_counter_d",
+      "value": 9.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_ff_counter_depth",
+      "value": 5.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-FF15",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_kup_diameter",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_kup_length",
+      "value": 66.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_kup_hub_l",
+      "value": 25.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_kup_gap",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_kup_head_envelope",
+      "value": 46.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_kup_bore_a",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_kup_bore_b",
+      "value": 14.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-KUP-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_adapter_t",
+      "value": 17.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cnc_z_fixed_shaft_end",
+      "value": 80.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Nur axiale Hülle; fertige Endenzeichnung fehlt"
+    },
+    {
+      "name": "cnc_z_core_end",
+      "value": -6.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Schulter außerhalb FK-Hauptkörper; Projektion nominal, Lieferzeichnung erforderlich"
+    },
+    {
+      "name": "cnc_z_coupling_start",
+      "value": 49.0,
+      "unit": "mm",
+      "status": "KONSTRUKTIONSENTWURF",
+      "source": "Umsetzung08: Einkauf/Kaufteile_08.json und Quellen/Quellen_08.json. Kein Bestell-/Fertigungsnachweis.",
+      "note": "Axiale Entwurfsposition, nicht Maschinenmaß"
+    },
+    {
+      "name": "cat08_drv_xy_width",
+      "value": 26.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-DRV-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_drv_xy_height",
+      "value": 116.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-DRV-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_drv_xy_depth",
+      "value": 69.2,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-DRV-XY",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_drv_z_width",
+      "value": 53.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-DRV-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_drv_z_height",
+      "value": 151.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-DRV-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_drv_z_depth",
+      "value": 97.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-DRV-Z",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps_ax_width",
+      "value": 127.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS-AX",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps_ax_height",
+      "value": 230.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS-AX",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps_ax_depth",
+      "value": 40.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS-AX",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps24_width",
+      "value": 52.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS24",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps24_height",
+      "value": 90.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS24",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps24_depth",
+      "value": 54.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS24",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps5_width",
+      "value": 17.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS5",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps5_height",
+      "value": 90.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS5",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_ps5_depth",
+      "value": 54.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-PS5",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_cabpl_width",
+      "value": 550.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-CABPL",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_cabpl_height",
+      "value": 750.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-CABPL",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "cat08_cabpl_thickness",
+      "value": 2.5,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K-CABPL",
+      "note": "Eigener Konstruktionswert; Freigabe offen"
+    },
+    {
+      "name": "atc_pitch",
+      "value": 94.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_pocket_count",
+      "value": 6.0,
+      "unit": "unitless",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_y",
+      "value": -53.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_gauge_above_table",
+      "value": 135.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_base_l",
+      "value": 620.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_base_d",
+      "value": 100.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_base_t",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_beam_t",
+      "value": 4.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_bend_r",
+      "value": 6.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_locator_h",
+      "value": 10.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_locator_w",
+      "value": 56.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_locator_bore",
+      "value": 34.6,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_flange_d_assumed",
+      "value": 46.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_flange_h_assumed",
+      "value": 8.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_tool_extra",
+      "value": 35.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_pullstud_allowance",
+      "value": 30.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "atc_clearance",
+      "value": 15.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "cable_plate_t",
+      "value": 2.0,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "cable_plate_seal_t",
+      "value": 0.5,
+      "unit": "mm",
+      "status": "ENTWURF_09",
+      "source": "Entwurf09",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_grip_pitch",
+      "value": 160.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-GN425",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_grip_h",
+      "value": 51.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-GN425",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_grip_d",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-GN425",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_grip_threaddepth",
+      "value": 12.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-GN425",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_gland_thread",
+      "value": 20.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-GLAND20",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_gland_l",
+      "value": 9.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-GLAND20",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_gland_d",
+      "value": 27.6,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-GLAND20",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_gland_total_h",
+      "value": 37.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-GLAND20",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_tool_d",
+      "value": 31.75,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-BT30ER20",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_tool_projection",
+      "value": 70.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-BT30ER20",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_tool_total",
+      "value": 118.4,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-BT30ER20",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "n09_tool_nut_d",
+      "value": 34.0,
+      "unit": "mm",
+      "status": "KATALOG_HAUPTMASS",
+      "source": "K09-BT30ER20",
+      "note": "Siehe Quellen09 und ATC-Konzept; keine Freigabe."
+    },
+    {
+      "name": "teller_radius",
+      "value": 180.0,
+      "unit": "mm",
+      "status": "ENTWURF_12_UNBESTAETIGT",
+      "source": "E12 Einbaustudie",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "teller_park_distance",
+      "value": 569.3329625508679,
+      "unit": "mm",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "teller_dir_x",
+      "value": -0.8660254037844386,
+      "unit": "unitless",
+      "status": "ENTWURF_12_UNBESTAETIGT",
+      "source": "E12 Einbaustudie",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "teller_dir_y",
+      "value": 0.5,
+      "unit": "unitless",
+      "status": "ENTWURF_12_UNBESTAETIGT",
+      "source": "E12 Einbaustudie",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "teller_feed",
+      "value": 0.0,
+      "unit": "unitless",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "teller_index_cos",
+      "value": 1.0,
+      "unit": "unitless",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "teller_index_sin",
+      "value": 0.0,
+      "unit": "unitless",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "teller_gauge_z",
+      "value": 400.0,
+      "unit": "mm",
+      "status": "ENTWURF_12_UNBESTAETIGT",
+      "source": "E12 Einbaustudie",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "teller_plate_t",
+      "value": 16.0,
+      "unit": "mm",
+      "status": "LIEFERANTENBILD_UNBESTAETIGT",
+      "source": "S11-RATTM-BILDER",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "teller_post_side",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "teller_collar_top",
+      "value": 125.0,
+      "unit": "mm",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "teller_hood_radius",
+      "value": 220.0,
+      "unit": "mm",
+      "status": "ENTWURF_12_UNBESTAETIGT",
+      "source": "E12 Einbaustudie",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "clamp_space_d",
+      "value": 80.0,
+      "unit": "mm",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "clamp_space_h",
+      "value": 100.0,
+      "unit": "mm",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "release_space_d",
+      "value": 100.0,
+      "unit": "mm",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "release_space_h",
+      "value": 80.0,
+      "unit": "mm",
+      "status": "ENTWURF_10_UNBESTAETIGT",
+      "source": "E10 Layoutstudie01.11.2026",
+      "note": "Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe."
+    },
+    {
+      "name": "catch_z",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "ENTWURF_11_UNBESTAETIGT",
+      "source": "Nutzerbilder01.11.2026; E11 Entwurf",
+      "note": "Fangblechgeometrie, keine Fertigungsfreigabe."
+    },
+    {
+      "name": "catch_rise",
+      "value": 40.0,
+      "unit": "mm",
+      "status": "ENTWURF_11_UNBESTAETIGT",
+      "source": "Nutzerbilder01.11.2026; E11 Entwurf",
+      "note": "Fangblechgeometrie, keine Fertigungsfreigabe."
+    },
+    {
+      "name": "catch_slope",
+      "value": 0.04,
+      "unit": "unitless",
+      "status": "ENTWURF_11_UNBESTAETIGT",
+      "source": "Nutzerbilder01.11.2026; E11 Entwurf",
+      "note": "Fangblechgeometrie, keine Fertigungsfreigabe."
+    },
+    {
+      "name": "atc12_stroke",
+      "value": 200.0,
+      "unit": "mm",
+      "status": "ENTWURF_12_UNBESTAETIGT",
+      "source": "E12 Einbaustudie",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "atc12_base_l",
+      "value": 330.0,
+      "unit": "mm",
+      "status": "LIEFERANTENBILD_UNBESTAETIGT",
+      "source": "S11-RATTM-BILDER",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "atc12_base_w",
+      "value": 175.0,
+      "unit": "mm",
+      "status": "LIEFERANTENBILD_UNBESTAETIGT",
+      "source": "S11-RATTM-BILDER",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "atc12_base_t",
+      "value": 22.0,
+      "unit": "mm",
+      "status": "LIEFERANTENBILD_UNBESTAETIGT",
+      "source": "S11-RATTM-BILDER",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "atc12_disc_d",
+      "value": 280.0,
+      "unit": "mm",
+      "status": "LIEFERANTENBILD_UNBESTAETIGT",
+      "source": "S11-RATTM-BILDER",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "atc12_carriage_offset",
+      "value": 70.0,
+      "unit": "mm",
+      "status": "ENTWURF_12_UNBESTAETIGT",
+      "source": "E12 Einbaustudie",
+      "note": "Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_pivot_x",
+      "value": 850.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_pivot_y",
+      "value": -350.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_pitch",
+      "value": 220.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_extend",
+      "value": 0.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_lift",
+      "value": 0.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_c",
+      "value": 0.0,
+      "unit": "unitless",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_s",
+      "value": 1.0,
+      "unit": "unitless",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_tool_carried",
+      "value": 0.0,
+      "unit": "unitless",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_jaw_open",
+      "value": 22.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_transfer_gauge",
+      "value": 440.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_outer_right",
+      "value": 1187.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_outer_back",
+      "value": 1100.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_bay_left",
+      "value": 550.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_cutter_projection",
+      "value": 35.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    },
+    {
+      "name": "a13_stud_height",
+      "value": 28.0,
+      "unit": "mm",
+      "status": "ENTWURF_13_UNBESTAETIGT",
+      "source": "E13 Konzept01.11.2026",
+      "note": "Konstruktionsannahme, keine Herstellerpassung oder Betriebsfreigabe."
+    }
+  ],
+  "derived": [
+    {
+      "name": "column_front_y",
+      "formula": "throat",
+      "value": 210.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "column_back_y",
+      "formula": "column_front_y + column_y",
+      "value": 322.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "base_front_y",
+      "formula": "column_back_y - base_long",
+      "value": -188.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "base_center_y",
+      "formula": "column_back_y - base_long / 2",
+      "value": 67.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "saddle_bottom_z",
+      "formula": "base_h + guide_h",
+      "value": 92.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "table_bottom_z",
+      "formula": "saddle_bottom_z + saddle_h + cross_h",
+      "value": 138.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "table_top_z",
+      "formula": "table_bottom_z + table_h",
+      "value": 180.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "spindle_zero_z",
+      "formula": "table_top_z + spindle_gap_max - head_down",
+      "value": 470.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "spindle_face_z",
+      "formula": "spindle_zero_z - quill_down",
+      "value": 470.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "head_bottom_z",
+      "formula": "spindle_zero_z + head_quill_offset",
+      "value": 502.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "head_top_z",
+      "formula": "head_bottom_z + head_h",
+      "value": 722.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "head_depth",
+      "formula": "column_front_y + head_front",
+      "value": 274.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "column_top_z",
+      "formula": "base_h + column_seat_h + column_length",
+      "value": 864.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "column_bottom_z",
+      "formula": "base_h + column_seat_h + column_foot_h",
+      "value": 102.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "column_height",
+      "formula": "column_top_z - column_bottom_z",
+      "value": 762.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "panel_left_x",
+      "formula": "-head_x / 2 - panel_gap - panel_x",
+      "value": -241.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "panel_bottom_z",
+      "formula": "head_bottom_z + panel_z_offset",
+      "value": 598.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "x_wheel_x",
+      "formula": "pos_x + table_x / 2 + x_wheel_offset",
+      "value": 439.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "x_wheel_z",
+      "formula": "table_bottom_z + 10",
+      "value": 148.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "y_wheel_y",
+      "formula": "base_front_y - y_wheel_offset",
+      "value": -261.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "y_wheel_z",
+      "formula": "base_h - base_y_axis_drop",
+      "value": 66.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "star_x",
+      "formula": "head_x / 2 + 12",
+      "value": 87.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "star_y",
+      "formula": "-head_front + 112",
+      "value": 48.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "star_z",
+      "formula": "head_bottom_z + 62",
+      "value": 564.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "bellows_bottom_z",
+      "formula": "table_top_z + 34",
+      "value": 214.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "bellows_height",
+      "formula": "head_bottom_z - bellows_bottom_z - 6",
+      "value": 282.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cover_x",
+      "formula": "column_x + 2*cover_extra_x",
+      "value": 162.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cover_back_y",
+      "formula": "column_back_y + cover_rear_extra",
+      "value": 370.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cover_top_back_y",
+      "formula": "column_back_y + cover_top_extra",
+      "value": 334.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cover_shoulder_z",
+      "formula": "column_top_z + column_cap_h - cover_taper_h",
+      "value": 654.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "sk_small_d",
+      "formula": "sk_gauge_d - sk_taper_length*7/24",
+      "value": 17.633333333333333,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "head_face_y",
+      "formula": "-head_front-frontplate_t",
+      "value": -67.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "base_inner_x",
+      "formula": "base_short-2*base_inset_x-2*base_wall",
+      "value": 220.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "base_inner_z",
+      "formula": "base_h-base_roof_t",
+      "value": 66.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "column_seat_z",
+      "formula": "base_h+column_seat_h",
+      "value": 84.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "column_inner_x",
+      "formula": "column_x-2*column_wall",
+      "value": 114.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "column_inner_front_y",
+      "formula": "column_front_y+column_front_wall",
+      "value": 226.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "column_screw_y",
+      "formula": "column_front_y+column_screw_offset",
+      "value": 248.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "z_motor_top_z",
+      "formula": "column_top_z+column_cap_h+z_motor_flange_h+z_motor_h+z_motor_cap_h",
+      "value": 988.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "motor_bottom_z",
+      "formula": "head_top_z-motor_length",
+      "value": 537.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cover_bottom_z",
+      "formula": "column_seat_z+column_foot_h",
+      "value": 102.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cover_top_z_v4",
+      "formula": "cover_bottom_z+cover_length",
+      "value": 882.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cover_front_y_v4",
+      "formula": "column_front_y+2",
+      "value": 212.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cover_back_y_v4",
+      "formula": "cover_front_y_v4+cover_deep",
+      "value": 427.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "pcb_plane_y",
+      "formula": "cover_back_y_v4-cover_sheet_t-electronics_gap",
+      "value": 416.5,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "z_drive_z",
+      "formula": "column_top_z+column_cap_h",
+      "value": 879.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "z_orig_shaft_top",
+      "formula": "z_drive_z-12",
+      "value": 867.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "z_orig_shaft_bottom",
+      "formula": "z_orig_shaft_top-lead_z_length",
+      "value": 397.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "z_nut_center",
+      "formula": "head_bottom_z+head_h*0.55",
+      "value": 623.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_x_motor_front",
+      "formula": "84",
+      "value": 84.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_x_spacer_l",
+      "formula": "cnc_x_motor_front-cnc_x_plate_t-cnc_x_adapter_t",
+      "value": 57.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_y_motor_front",
+      "formula": "84",
+      "value": 84.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_y_spacer_l",
+      "formula": "cnc_y_motor_front-cnc_y_plate_t-cnc_y_adapter_t",
+      "value": 57.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_z_motor_front",
+      "formula": "125",
+      "value": 125.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_z_spacer_l",
+      "formula": "cnc_z_motor_front-cnc_z_plate_t-cnc_z_adapter_t",
+      "value": 98.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_x_core_l",
+      "formula": "table_x-12+cnc_x_extra_l",
+      "value": 768.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_y_core_l",
+      "formula": "guide_length-20",
+      "value": 340.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_z_core_l",
+      "formula": "lead_z_length+cnc_z_extra_l",
+      "value": 490.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cnc_x_nut_x",
+      "formula": "-saddle_x/2+9",
+      "value": -101.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "enc_left",
+      "formula": "stand_cx-stand_w/2",
+      "value": -763.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "enc_right",
+      "formula": "stand_cx+stand_w/2",
+      "value": 887.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "enc_front",
+      "formula": "stand_cy-stand_d/2",
+      "value": -475.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "enc_back",
+      "formula": "stand_cy+stand_d/2",
+      "value": 525.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cab_x",
+      "formula": "enc_right+sheet_t+cab_gap",
+      "value": 889.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "cab_y",
+      "formula": "enc_back-cab_w",
+      "value": -75.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "workheight",
+      "formula": "stand_h+table_top_z",
+      "value": 930.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_leaf_w",
+      "formula": "door_clear_w+2*door_overlap",
+      "value": 1460.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_leaf_h",
+      "formula": "(door_clear_h+2*door_overlap+door_panel_overlap)/2",
+      "value": 530.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_travel_lower",
+      "formula": "door_leaf_h-door_overlap+door_open_clearance",
+      "value": 515.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_travel_upper",
+      "formula": "2*door_travel_lower",
+      "value": 1030.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_travel",
+      "formula": "door_travel_upper",
+      "value": 1030.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_x",
+      "formula": "stand_cx-door_clear_w/2-door_overlap",
+      "value": -668.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_y",
+      "formula": "enc_front-50",
+      "value": -525.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_upper_y",
+      "formula": "door_y-door_lane_pitch",
+      "value": -585.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_closed_bottom",
+      "formula": "door_z-door_overlap",
+      "value": 80.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_closed_top",
+      "formula": "door_z+door_clear_h+door_overlap",
+      "value": 1120.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_upper_closed_bottom",
+      "formula": "door_closed_top-door_leaf_h",
+      "value": 590.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_lower_bottom",
+      "formula": "door_closed_bottom-door_open*door_travel_lower",
+      "value": 80.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_lower_top",
+      "formula": "door_lower_bottom+door_leaf_h",
+      "value": 610.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_upper_bottom",
+      "formula": "door_upper_closed_bottom-door_open*door_travel_upper",
+      "value": 590.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_upper_top",
+      "formula": "door_upper_bottom+door_leaf_h",
+      "value": 1120.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_open_lowest",
+      "formula": "door_upper_closed_bottom-door_travel_upper",
+      "value": -440.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "lift_guide_bottom",
+      "formula": "door_open_lowest-lift_guide_overrun",
+      "value": -480.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "lift_guide_top",
+      "formula": "door_closed_top+lift_guide_overrun",
+      "value": 1160.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "lift_guide_length",
+      "formula": "lift_guide_top-lift_guide_bottom",
+      "value": 1640.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "lift_total_top",
+      "formula": "lift_guide_top+30",
+      "value": 1190.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_pocket_bottom",
+      "formula": "lift_guide_bottom-25",
+      "value": -505.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_pocket_top",
+      "formula": "door_z-door_open_clearance",
+      "value": 95.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_pocket_y",
+      "formula": "door_upper_y-95",
+      "value": -680.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_pocket_back",
+      "formula": "door_y+door_thickness+8",
+      "value": -487.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_pocket_depth",
+      "formula": "door_pocket_back-door_pocket_y",
+      "value": 193.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "door_pocket_height",
+      "formula": "door_pocket_top-door_pocket_bottom",
+      "value": 600.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "teller_park_x",
+      "formula": "-(teller_radius+atc12_stroke)*teller_dir_x",
+      "value": 329.08965343808666,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "teller_park_y",
+      "formula": "-(teller_radius+atc12_stroke)*teller_dir_y",
+      "value": -190.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "teller_cx",
+      "formula": "-(teller_radius+atc12_stroke*(1-teller_feed))*teller_dir_x",
+      "value": 329.08965343808666,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "teller_cy",
+      "formula": "-(teller_radius+atc12_stroke*(1-teller_feed))*teller_dir_y",
+      "value": -190.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "teller_post_x",
+      "formula": "enc_right-tube_side/2",
+      "value": 857.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "teller_post_y",
+      "formula": "enc_front+115",
+      "value": -360.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "atc12_base_r",
+      "formula": "teller_radius+atc12_stroke/2+atc12_carriage_offset",
+      "value": 350.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "atc12_base_x",
+      "formula": "-atc12_base_r*teller_dir_x",
+      "value": 303.1088913245535,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "atc12_base_y",
+      "formula": "-atc12_base_r*teller_dir_y",
+      "value": -175.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "atc12_base_z",
+      "formula": "teller_gauge_z-190",
+      "value": 210.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "atc12_mount_x",
+      "formula": "column_x/2",
+      "value": 69.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_radius",
+      "formula": "sqrt(a13_pivot_x*a13_pivot_x+a13_pivot_y*a13_pivot_y)",
+      "value": 919.2388155425118,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_reach",
+      "formula": "a13_radius-60+a13_extend",
+      "value": 859.2388155425118,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_mag_x",
+      "formula": "a13_pivot_x",
+      "value": 850.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_mag_y",
+      "formula": "a13_pivot_y+a13_radius+a13_pitch",
+      "value": 789.2388155425118,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_grip_x",
+      "formula": "a13_pivot_x+a13_reach*a13_c",
+      "value": 850.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_grip_y",
+      "formula": "a13_pivot_y+a13_reach*a13_s",
+      "value": 509.2388155425118,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_gauge",
+      "formula": "a13_transfer_gauge+a13_lift",
+      "value": 440.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_tool_x",
+      "formula": "a13_tool_carried*(2-a13_tool_carried)*a13_grip_x+(1-a13_tool_carried)*(2-a13_tool_carried)/2*a13_mag_x",
+      "value": 850.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_tool_y",
+      "formula": "a13_tool_carried*(2-a13_tool_carried)*a13_grip_y+(1-a13_tool_carried)*(2-a13_tool_carried)/2*(a13_mag_y-a13_pitch)",
+      "value": 569.2388155425118,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    },
+    {
+      "name": "a13_tool_gauge",
+      "formula": "a13_tool_carried*(2-a13_tool_carried)*a13_gauge+(1-a13_tool_carried)*(2-a13_tool_carried)/2*a13_transfer_gauge+a13_tool_carried*(a13_tool_carried-1)/2*spindle_face_z",
+      "value": 440.0,
+      "provenance": "Aus Parametern berechnet; keine zusaetzliche Messbestaetigung"
+    }
+  ]
+}
