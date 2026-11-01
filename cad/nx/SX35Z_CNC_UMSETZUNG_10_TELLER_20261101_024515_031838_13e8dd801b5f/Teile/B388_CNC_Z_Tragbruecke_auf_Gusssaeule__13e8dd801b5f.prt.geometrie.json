@@ -1,0 +1,314 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 231840.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 231840.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 231840.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Spindeldurchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        55.0,
+        24.0,
+        -1.0,
+        83.0,
+        52.0,
+        16.0
+      ],
+      "volume_mm3": 10467.786721761191
+    },
+    "target_before": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 231840.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 318209,
+      "bounds_mm": [
+        55.00000000000001,
+        24.0,
+        -1.0,
+        83.0,
+        52.0,
+        16.0
+      ],
+      "volume_mm3": 10467.786721761191,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 222603.717598446,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_M8_Gussanschluss_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        10.75,
+        8.75,
+        -1.0,
+        19.25,
+        17.25,
+        16.0
+      ],
+      "volume_mm3": 964.6652941929159
+    },
+    "target_before": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 222603.717598446,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 318277,
+      "bounds_mm": [
+        10.75,
+        8.75,
+        -1.0,
+        19.25,
+        17.25,
+        16.0
+      ],
+      "volume_mm3": 964.6652941929159,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 221752.54233886403,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_M8_Gussanschluss_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        10.75,
+        58.75,
+        -1.0,
+        19.25,
+        67.25,
+        16.0
+      ],
+      "volume_mm3": 964.6652941929159
+    },
+    "target_before": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 221752.542338864,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 318337,
+      "bounds_mm": [
+        10.75,
+        58.75,
+        -1.0,
+        19.25,
+        67.25,
+        16.0
+      ],
+      "volume_mm3": 964.6652941929159,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 220901.36707928203,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_M8_Gussanschluss_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        118.75,
+        8.75,
+        -1.0,
+        127.25,
+        17.25,
+        16.0
+      ],
+      "volume_mm3": 964.6652941929159
+    },
+    "target_before": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 220901.36707928203,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 318305,
+      "bounds_mm": [
+        118.75,
+        8.75,
+        -1.0,
+        127.25,
+        17.25,
+        16.0
+      ],
+      "volume_mm3": 964.6652941929159,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 220050.1918197001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_M8_Gussanschluss_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        118.75,
+        58.75,
+        -1.0,
+        127.25,
+        67.25,
+        16.0
+      ],
+      "volume_mm3": 964.6652941929159
+    },
+    "target_before": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 220050.19181970006,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 318453,
+      "bounds_mm": [
+        118.75,
+        58.75,
+        -1.0,
+        127.25,
+        67.25,
+        16.0
+      ],
+      "volume_mm3": 964.6652941929159,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 318097,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        138.0,
+        112.0,
+        15.0
+      ],
+      "volume_mm3": 219199.01656011806,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

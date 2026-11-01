@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        362.0,
+        60.0,
+        60.0
+      ],
+      "volume_mm3": 1303200.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 181308,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        362.0,
+        60.0,
+        60.0
+      ],
+      "volume_mm3": 1303200.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 181308,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        362.0,
+        60.0,
+        60.0
+      ],
+      "volume_mm3": 1303200.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Rohrinnenraum",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -1.0,
+        3.0,
+        3.0,
+        363.0,
+        57.0,
+        57.0
+      ],
+      "volume_mm3": 1061424.0
+    },
+    "target_before": {
+      "tag": 181308,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        362.0,
+        60.0,
+        60.0
+      ],
+      "volume_mm3": 1303200.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 181438,
+      "bounds_mm": [
+        -1.0000000000000009,
+        2.999999999999999,
+        3.0,
+        363.0,
+        56.99999999999999,
+        57.0
+      ],
+      "volume_mm3": 1061423.9999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 181308,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        362.0,
+        60.0,
+        60.0
+      ],
+      "volume_mm3": 247608.0000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

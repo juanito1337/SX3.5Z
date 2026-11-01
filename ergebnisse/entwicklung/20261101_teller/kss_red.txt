@@ -1,0 +1,109 @@
+FF.FFFF                                                                  [100%]
+================================== FAILURES ===================================
+______________ test_return_cannot_miss_basket_or_tank[changes0] _______________
+
+changes = {'chip_outlet_y': 600.0, 'stand_d': 1400.0}
+
+    @pytest.mark.parametrize('changes', [
+        {'stand_d': 1400., 'chip_outlet_y': 600.},
+        {'tank_d': 300.},
+    ])
+    def test_return_cannot_miss_basket_or_tank(changes):
+        p = model.load_parameters()
+        p.update(changes)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_kss_revision10.py:14: Failed
+______________ test_return_cannot_miss_basket_or_tank[changes1] _______________
+
+changes = {'tank_d': 300.0}
+
+    @pytest.mark.parametrize('changes', [
+        {'stand_d': 1400., 'chip_outlet_y': 600.},
+        {'tank_d': 300.},
+    ])
+    def test_return_cannot_miss_basket_or_tank(changes):
+        p = model.load_parameters()
+        p.update(changes)
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_kss_revision10.py:14: Failed
+_________ test_front_drain_sheet_reaches_side_wall[links-0-enc_left] __________
+
+side = 'links', bound = 0, wall = 'enc_left'
+
+    @pytest.mark.parametrize('side,bound,wall', [
+        ('links', 0, 'enc_left'), ('rechts', 3, 'enc_right'),
+    ])
+    def test_front_drain_sheet_reaches_side_wall(side, bound, wall):
+        v = model.all_values(model.load_parameters())
+        d = next(d for d in model.recipe() if d['name'] == 'KSS_Leitblech_'+side+'_vorn')
+>       assert body_bounds(d, v, model.evaluate)[bound] == pytest.approx(v[wall])
+E       assert -761.0 == -763.0 � 7.6e-04
+E         
+E         comparison failed
+E         Obtained: -761.0
+E         Expected: -763.0 � 7.6e-04
+
+tests09\test_kss_revision10.py:28: AssertionError
+________ test_front_drain_sheet_reaches_side_wall[rechts-3-enc_right] _________
+
+side = 'rechts', bound = 3, wall = 'enc_right'
+
+    @pytest.mark.parametrize('side,bound,wall', [
+        ('links', 0, 'enc_left'), ('rechts', 3, 'enc_right'),
+    ])
+    def test_front_drain_sheet_reaches_side_wall(side, bound, wall):
+        v = model.all_values(model.load_parameters())
+        d = next(d for d in model.recipe() if d['name'] == 'KSS_Leitblech_'+side+'_vorn')
+>       assert body_bounds(d, v, model.evaluate)[bound] == pytest.approx(v[wall])
+E       assert 885.0 == 887.0 � 8.9e-04
+E         
+E         comparison failed
+E         Obtained: 885.0
+E         Expected: 887.0 � 8.9e-04
+
+tests09\test_kss_revision10.py:28: AssertionError
+________ test_service_cover_removal_includes_its_handle_and_fasteners _________
+
+    def test_service_cover_removal_includes_its_handle_and_fasteners():
+        ds = model.recipe()
+        removed = {d['name'] for d in ds if d.get('service_removal_group') == 'KSS_RUECKKLAPPE'}
+>       assert removed == {'KSS_Serviceklappe_hinten', 'Servicegriff_KSS',
+                           'Griff_Hinterlegung_KSS', 'Griffscheibe_KSS1',
+                           'Griffscheibe_KSS2', 'Griffschraube_KSS1', 'Griffschraube_KSS2'}
+E       AssertionError: assert set() == {'Griff_Hinte..._hinten', ...}
+E         
+E         Extra items in the right set:
+E         'Griffschraube_KSS1'
+E         'Griffscheibe_KSS1'
+E         'Servicegriff_KSS'
+E         'Griffscheibe_KSS2'
+E         'Griff_Hinterlegung_KSS'...
+E         
+E         ...Full output truncated (3 lines hidden), use '-vv' to show
+
+tests09\test_kss_revision10.py:34: AssertionError
+___________ test_kss_sheet_manufacturing_is_not_default_milled_s355 ___________
+
+    def test_kss_sheet_manufacturing_is_not_default_milled_s355():
+        import umbau_daten09 as data
+        p = model.load_parameters()
+        rows = {r['name']: r for r in data.manufacturing_rows(model.recipe(), p, model)}
+        for name in ('KSS_Tank_Entwurf', 'KSS_Tankdeckel', 'KSS_Ruecklaufkasten_Stirnwand'):
+>           assert 'Blech' in rows[name]['process']
+E           AssertionError: assert 'Blech' in 'Fr�sen / Bohren / ggf.Gewindeschneiden; Einzelzeichnung fehlt'
+
+tests09\test_kss_revision10.py:44: AssertionError
+=========================== short test summary info ===========================
+FAILED tests09/test_kss_revision10.py::test_return_cannot_miss_basket_or_tank[changes0]
+FAILED tests09/test_kss_revision10.py::test_return_cannot_miss_basket_or_tank[changes1]
+FAILED tests09/test_kss_revision10.py::test_front_drain_sheet_reaches_side_wall[links-0-enc_left]
+FAILED tests09/test_kss_revision10.py::test_front_drain_sheet_reaches_side_wall[rechts-3-enc_right]
+FAILED tests09/test_kss_revision10.py::test_service_cover_removal_includes_its_handle_and_fasteners
+FAILED tests09/test_kss_revision10.py::test_kss_sheet_manufacturing_is_not_default_milled_s355
+6 failed, 1 passed in 0.87s

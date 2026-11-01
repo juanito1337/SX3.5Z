@@ -1,0 +1,15 @@
+test_bad_hash_fails (test_verify_package.ManifestTests.test_bad_hash_fails) ... ok
+test_changed_file_fails (test_verify_package.ManifestTests.test_changed_file_fails) ... ok
+test_checker_does_not_change_payload (test_verify_package.ManifestTests.test_checker_does_not_change_payload) ... ok
+test_directory_instead_of_file_fails (test_verify_package.ManifestTests.test_directory_instead_of_file_fails) ... ok
+test_empty_manifest_fails (test_verify_package.ManifestTests.test_empty_manifest_fails) ... ok
+test_identical_file_passes (test_verify_package.ManifestTests.test_identical_file_passes) ... ok
+test_invalid_json_fails (test_verify_package.ManifestTests.test_invalid_json_fails) ... ok
+test_missing_file_fails (test_verify_package.ManifestTests.test_missing_file_fails) ... ok
+test_symlink_outside_root_fails (test_verify_package.ManifestTests.test_symlink_outside_root_fails) ... skipped 'Symlinks unavailable on this platform'
+test_unsafe_paths_fail (test_verify_package.ManifestTests.test_unsafe_paths_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.058s
+
+OK (skipped=1)

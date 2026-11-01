@@ -1,0 +1,22 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4229942E5ECC89447B4D4E41FF4AEB6D88B334C9D228455FA7BF64071A176DB9",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\Parameter.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "C08FA4DA67ACC80545E8D863E6DB9CFEA2D7055ABA1C438A6C68CD3265E07F06",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\CNC_Parameter.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "20A93F4FC2F29360A7FB4EB18D678D767FCB07FC9ACA99DF07F933793A38DB10",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\Ausbau_Parameter.json"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0DE5F20D911900BC304B092E5C61D04399641FF10F3D8D7515C0B932CF63ECCD",
+    "Path": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\Detail_Parameter_09.json"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -5.0,
+        -11.5,
+        -11.5,
+        0.0,
+        11.5,
+        11.5
+      ],
+      "volume_mm3": 2077.378142186251
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 124682,
+      "bounds_mm": [
+        -5.0,
+        -11.5,
+        -11.5,
+        6.217248937900877e-15,
+        11.5,
+        11.5
+      ],
+      "volume_mm3": 2077.3781421862504,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 124682,
+      "bounds_mm": [
+        -5.0,
+        -11.5,
+        -11.5,
+        6.217248937900877e-15,
+        11.5,
+        11.5
+      ],
+      "volume_mm3": 2077.3781421862504,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

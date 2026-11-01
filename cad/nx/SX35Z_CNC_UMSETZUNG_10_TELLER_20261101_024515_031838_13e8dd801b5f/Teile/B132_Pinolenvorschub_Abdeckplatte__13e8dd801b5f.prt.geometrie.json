@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        -31.0,
+        -31.0,
+        4.0,
+        31.0,
+        31.0
+      ],
+      "volume_mm3": 12076.282160399163
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 168063,
+      "bounds_mm": [
+        0.0,
+        -31.0,
+        -31.0,
+        4.0,
+        31.0,
+        31.0
+      ],
+      "volume_mm3": 12076.282160399165,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 168063,
+      "bounds_mm": [
+        0.0,
+        -31.0,
+        -31.0,
+        4.0,
+        31.0,
+        31.0
+      ],
+      "volume_mm3": 12076.282160399165,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Deckelschrauben_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -1.0,
+        -2.75,
+        21.25,
+        5.0,
+        2.75,
+        26.75
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 168063,
+      "bounds_mm": [
+        0.0,
+        -31.0,
+        -31.0,
+        4.0,
+        31.0,
+        31.0
+      ],
+      "volume_mm3": 12076.282160399165,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 168146,
+      "bounds_mm": [
+        -1.0,
+        -2.75,
+        21.25,
+        5.0,
+        2.75,
+        26.75
+      ],
+      "volume_mm3": 142.54976665663685,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 168063,
+      "bounds_mm": [
+        0.0,
+        -31.0,
+        -31.0,
+        4.0,
+        31.0,
+        31.0
+      ],
+      "volume_mm3": 11981.248982628073,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Deckelschrauben_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -1.0,
+        -2.75,
+        -26.75,
+        5.0,
+        2.75,
+        -21.25
+      ],
+      "volume_mm3": 142.54976665663688
+    },
+    "target_before": {
+      "tag": 168063,
+      "bounds_mm": [
+        0.0,
+        -31.0,
+        -31.0,
+        4.0,
+        31.0,
+        31.0
+      ],
+      "volume_mm3": 11981.248982628073,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 168198,
+      "bounds_mm": [
+        -1.0,
+        -2.75,
+        -26.75,
+        5.0,
+        2.75,
+        -21.25
+      ],
+      "volume_mm3": 142.54976665663685,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 168063,
+      "bounds_mm": [
+        0.0,
+        -31.0,
+        -31.0,
+        4.0,
+        31.0,
+        31.0
+      ],
+      "volume_mm3": 11886.215804856982,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

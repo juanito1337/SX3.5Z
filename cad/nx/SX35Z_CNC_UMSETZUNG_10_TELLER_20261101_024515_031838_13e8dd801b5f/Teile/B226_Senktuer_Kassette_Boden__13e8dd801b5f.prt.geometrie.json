@@ -1,0 +1,476 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 617312.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 617312.0000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 617312.0000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Pfostenfreistellung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -4.0,
+        89.0,
+        -1.0,
+        30.0,
+        198.0,
+        3.0
+      ],
+      "volume_mm3": 14824.0
+    },
+    "target_before": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 617312.0000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 225113,
+      "bounds_mm": [
+        -4.0,
+        89.0,
+        -1.0,
+        30.0,
+        198.0,
+        3.0
+      ],
+      "volume_mm3": 14823.999999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 611192.0000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Pfostenfreistellung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        1586.0,
+        89.0,
+        -1.0,
+        1620.0,
+        198.0,
+        3.0
+      ],
+      "volume_mm3": 14824.0
+    },
+    "target_before": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 611192.0000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 225224,
+      "bounds_mm": [
+        1586.0,
+        89.0,
+        -1.0,
+        1619.9999999999998,
+        198.0,
+        3.0
+      ],
+      "volume_mm3": 14823.999999999916,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 605072.0000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Federdurchfuehrung_D34_Schutzkanal",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        43.0,
+        31.0,
+        -1.0,
+        77.0,
+        65.0,
+        3.0
+      ],
+      "volume_mm3": 3631.681107549801
+    },
+    "target_before": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 605072.0000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 225340,
+      "bounds_mm": [
+        43.0,
+        31.0,
+        -1.0,
+        77.0,
+        65.0,
+        3.0
+      ],
+      "volume_mm3": 3631.6811075498017,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 603256.1594462252,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Federdurchfuehrung_D34_Schutzkanal",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        6.0,
+        31.0,
+        -1.0,
+        40.0,
+        65.0,
+        3.0
+      ],
+      "volume_mm3": 3631.681107549801
+    },
+    "target_before": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 603256.159446225,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 225396,
+      "bounds_mm": [
+        5.999999999999998,
+        31.0,
+        -1.0,
+        40.0,
+        65.0,
+        3.0
+      ],
+      "volume_mm3": 3631.6811075498017,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 601440.3188924502,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Federdurchfuehrung_D34_Schutzkanal",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        1539.0,
+        31.0,
+        -1.0,
+        1573.0,
+        65.0,
+        3.0
+      ],
+      "volume_mm3": 3631.681107549801
+    },
+    "target_before": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 601440.3188924502,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 225460,
+      "bounds_mm": [
+        1539.0000000000002,
+        31.0,
+        -1.0,
+        1573.0,
+        65.0,
+        3.0
+      ],
+      "volume_mm3": 3631.6811075498017,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 599624.4783386752,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Federdurchfuehrung_D34_Schutzkanal",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        1576.0,
+        31.0,
+        -1.0,
+        1610.0,
+        65.0,
+        3.0
+      ],
+      "volume_mm3": 3631.681107549801
+    },
+    "target_before": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 599624.4783386752,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 225524,
+      "bounds_mm": [
+        1576.0,
+        31.0,
+        -1.0,
+        1609.9999999999998,
+        65.0,
+        3.0
+      ],
+      "volume_mm3": 3631.6811075498017,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 597808.6377849004,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Federkanal_Durchfuehrung_Servicefreistellung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -13.0,
+        17.0,
+        -1.0,
+        89.0,
+        55.0,
+        3.0
+      ],
+      "volume_mm3": 15504.0
+    },
+    "target_before": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 597808.6377849004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 225496,
+      "bounds_mm": [
+        -12.999999999999998,
+        17.000000000000004,
+        -1.0,
+        89.00000000000001,
+        55.000000000000014,
+        3.0
+      ],
+      "volume_mm3": 15504.000000000005,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 593784.8469765842,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Federkanal_Durchfuehrung_Servicefreistellung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        1527.0,
+        17.0,
+        -1.0,
+        1629.0,
+        55.0,
+        3.0
+      ],
+      "volume_mm3": 15504.0
+    },
+    "target_before": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 593784.8469765842,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 225641,
+      "bounds_mm": [
+        1527.0000000000002,
+        17.000000000000004,
+        -1.0,
+        1629.0,
+        55.000000000000014,
+        3.0
+      ],
+      "volume_mm3": 15503.999999999982,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 224991,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1616.0,
+        191.0,
+        2.0
+      ],
+      "volume_mm3": 589761.0561682681,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

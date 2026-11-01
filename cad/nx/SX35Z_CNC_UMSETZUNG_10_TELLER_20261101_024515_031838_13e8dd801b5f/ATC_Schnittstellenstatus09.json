@@ -1,0 +1,112 @@
+{
+  "schema": "ATC10_SPACE_STUDY",
+  "layout": "RADIAL_TELESCOPIC_CAROUSEL",
+  "original_spindle": "SK30/M12 DIN2080",
+  "required_spindle_interface": "BT30 automatic clamping",
+  "clamping_package_required": true,
+  "clamping_package_status": "RESERVED_SPACE_NOT_ENGINEERED",
+  "machine_operation_enabled": false,
+  "spindle_clamping_verified": false,
+  "trajectory_verified": false,
+  "atc_operational": false,
+  "nominal_reach_ok": false,
+  "pockets": [
+    {
+      "pocket": 1,
+      "index_rotation_deg": 0.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 370.0
+    },
+    {
+      "pocket": 2,
+      "index_rotation_deg": -45.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 370.0
+    },
+    {
+      "pocket": 3,
+      "index_rotation_deg": -90.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 370.0
+    },
+    {
+      "pocket": 4,
+      "index_rotation_deg": -135.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 370.0
+    },
+    {
+      "pocket": 5,
+      "index_rotation_deg": -180.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 370.0
+    },
+    {
+      "pocket": 6,
+      "index_rotation_deg": -225.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 370.0
+    },
+    {
+      "pocket": 7,
+      "index_rotation_deg": -270.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 370.0
+    },
+    {
+      "pocket": 8,
+      "index_rotation_deg": -315.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 370.0
+    }
+  ],
+  "park_center_xy_mm": [
+    -540.0,
+    -260.0
+  ],
+  "pickup_center_xy_mm": [
+    -162.18030055663797,
+    -78.08681137912198
+  ],
+  "required_feed_mm": 419.33296255086793,
+  "reserved_table_strip_mm": [
+    0,
+    0
+  ],
+  "table_mounting": false,
+  "gauge_z_mm": 370.0,
+  "nominal_local_workpiece_height_under_park_mm": 70.0,
+  "support": "Upper left stand beam; strength, joints and sealed tray penetration unverified",
+  "required_sequence": "Side-entry forks and separate magazine feed; no traverse above all stored tools",
+  "blockers": [
+    "Spannpaket/Patrone nicht ausgewaehlt oder ausgelegt",
+    "SK30/M12 unveraendert; keine bestaetigte BT30-Schnittstelle",
+    "Teleskopzustellung Eigenentwurfsraum; kein bestaetigtes Kaufteil",
+    "Gabelretention, Orientierung, Sensoren, Verriegelung und Fehlerfaelle offen",
+    "Vollstaendige Wechselbahn, Werkzeug/Werkstueck, Schutz und Belastung nicht freigegeben"
+  ]
+}

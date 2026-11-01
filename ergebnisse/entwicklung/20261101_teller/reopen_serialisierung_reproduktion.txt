@@ -1,0 +1,4 @@
+Date=2026-11-01; source=e87f522+working-diff; Python standard3.12.14
+Reproducer: json.loads(json.dumps(recipe)) == recipe: False
+Existing canonical fingerprint matches: True
+Confirmed tuple/list serialization mismatch; no geometry change

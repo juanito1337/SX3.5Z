@@ -1,0 +1,58 @@
+[
+  {
+    "name": "pytest_final",
+    "date": "2026-11-01T02:50:16.441873+01:00",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt",
+    "environment": "Windows 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "source_base": "e87f522",
+    "source_snapshot": "native_source_hashes.json",
+    "scope": "Active offline suite; no native NX proof",
+    "exitcode": 0,
+    "raw_log": "pytest_final.stdout.txt"
+  },
+  {
+    "name": "handoff_final",
+    "date": "2026-11-01T02:50:35.152098+01:00",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tools_handoff",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "environment": "Windows 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "source_base": "e87f522",
+    "source_snapshot": "native_source_hashes.json",
+    "scope": "Handoff helper tests",
+    "exitcode": 0,
+    "raw_log": "handoff_final.stdout.txt"
+  },
+  {
+    "name": "package_original_final",
+    "date": "2026-11-01T02:50:35.514247+01:00",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "tools_handoff/verify_package.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "environment": "Windows 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "source_base": "e87f522",
+    "source_snapshot": "native_source_hashes.json",
+    "scope": "Original handoff manifest, deliberate subsequent changes expected",
+    "exitcode": 1,
+    "raw_log": "package_original_final.stdout.txt"
+  }
+]

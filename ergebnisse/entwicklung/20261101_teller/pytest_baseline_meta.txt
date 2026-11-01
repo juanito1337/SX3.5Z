@@ -1,0 +1,1 @@
+Revision=e87f522; Datum=2026-11-01; Python=.venv/Scripts/python.exe; cwd=projekt; Befehl=-m pytest -q -p no:cacheprovider; Exitcode=0

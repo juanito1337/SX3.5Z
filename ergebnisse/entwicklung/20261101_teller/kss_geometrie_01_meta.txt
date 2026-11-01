@@ -1,0 +1,1 @@
+Date=2026-11-01; source=e87f522+KSS-working-diff; environment=.venv CPython3.12.14 CadQuery2.8; command=python -B bericht_arbeitskopie/tools/pruefen07.py; Exitcode=1

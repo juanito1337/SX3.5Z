@@ -1,0 +1,55 @@
+FFF                                                                      [100%]
+================================== FAILURES ===================================
+_ test_historical_generator_stops_with_clear_version_error[arbeitsmappe09_erzeugen.py] _
+
+script = 'arbeitsmappe09_erzeugen.py'
+
+    @pytest.mark.parametrize('script',['arbeitsmappe09_erzeugen.py','bauanleitung09_erzeugen.py',
+                                       'atc_anschlusspruefung09.py'])
+    def test_historical_generator_stops_with_clear_version_error(script):
+        root=Path(__file__).resolve().parents[1]
+        result=subprocess.run([sys.executable,'-B',str(root/'tools'/script)],
+                              cwd=root,capture_output=True,text=True,timeout=120)
+        assert result.returncode!=0
+>       assert 'Historischer09-Generator' in result.stderr
+E       assert 'Historischer09-Generator' in 'Traceback (most recent call last):\n  File "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\tools\\arbeitsmappe...ule>\n    from artifact_tool import Workbook,SpreadsheetFile\nModuleNotFoundError: No module named \'artifact_tool\'\n'
+E        +  where 'Traceback (most recent call last):\n  File "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\tools\\arbeitsmappe...ule>\n    from artifact_tool import Workbook,SpreadsheetFile\nModuleNotFoundError: No module named \'artifact_tool\'\n' = CompletedProcess(args=['C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe', '-B', 'C:\\Users\\13...le>\n    from artifact_tool import Workbook,SpreadsheetFile\nModuleNotFoundError: No module named \'artifact_tool\'\n').stderr
+
+tests09\test_legacy_generators10.py:13: AssertionError
+_ test_historical_generator_stops_with_clear_version_error[bauanleitung09_erzeugen.py] _
+
+script = 'bauanleitung09_erzeugen.py'
+
+    @pytest.mark.parametrize('script',['arbeitsmappe09_erzeugen.py','bauanleitung09_erzeugen.py',
+                                       'atc_anschlusspruefung09.py'])
+    def test_historical_generator_stops_with_clear_version_error(script):
+        root=Path(__file__).resolve().parents[1]
+        result=subprocess.run([sys.executable,'-B',str(root/'tools'/script)],
+                              cwd=root,capture_output=True,text=True,timeout=120)
+        assert result.returncode!=0
+>       assert 'Historischer09-Generator' in result.stderr
+E       assert 'Historischer09-Generator' in 'Traceback (most recent call last):\n  File "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\tools\\bauanleitung09_erzeugen.py", line 5, in <module>\n    from docx import Document\nModuleNotFoundError: No module named \'docx\'\n'
+E        +  where 'Traceback (most recent call last):\n  File "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\tools\\bauanleitung09_erzeugen.py", line 5, in <module>\n    from docx import Document\nModuleNotFoundError: No module named \'docx\'\n' = CompletedProcess(args=['C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe', '-B', 'C:\\Users\\13...g09_erzeugen.py", line 5, in <module>\n    from docx import Document\nModuleNotFoundError: No module named \'docx\'\n').stderr
+
+tests09\test_legacy_generators10.py:13: AssertionError
+_ test_historical_generator_stops_with_clear_version_error[atc_anschlusspruefung09.py] _
+
+script = 'atc_anschlusspruefung09.py'
+
+    @pytest.mark.parametrize('script',['arbeitsmappe09_erzeugen.py','bauanleitung09_erzeugen.py',
+                                       'atc_anschlusspruefung09.py'])
+    def test_historical_generator_stops_with_clear_version_error(script):
+        root=Path(__file__).resolve().parents[1]
+        result=subprocess.run([sys.executable,'-B',str(root/'tools'/script)],
+                              cwd=root,capture_output=True,text=True,timeout=120)
+        assert result.returncode!=0
+>       assert 'Historischer09-Generator' in result.stderr
+E       assert 'Historischer09-Generator' in 'Traceback (most recent call last):\n  File "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\tools\\atc_anschlus...                                                          ~~~~^^^^^^^^^^^^^^^^^^^^^\nKeyError: \'required_pos_x_mm\'\n'
+E        +  where 'Traceback (most recent call last):\n  File "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\tools\\atc_anschlus...                                                          ~~~~^^^^^^^^^^^^^^^^^^^^^\nKeyError: \'required_pos_x_mm\'\n' = CompletedProcess(args=['C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe', '-B', 'C:\\Users\\13...                                                         ~~~~^^^^^^^^^^^^^^^^^^^^^\nKeyError: \'required_pos_x_mm\'\n').stderr
+
+tests09\test_legacy_generators10.py:13: AssertionError
+=========================== short test summary info ===========================
+FAILED tests09/test_legacy_generators10.py::test_historical_generator_stops_with_clear_version_error[arbeitsmappe09_erzeugen.py]
+FAILED tests09/test_legacy_generators10.py::test_historical_generator_stops_with_clear_version_error[bauanleitung09_erzeugen.py]
+FAILED tests09/test_legacy_generators10.py::test_historical_generator_stops_with_clear_version_error[atc_anschlusspruefung09.py]
+3 failed in 5.84s

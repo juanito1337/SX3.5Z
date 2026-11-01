@@ -1,0 +1,11 @@
+{
+  "journal": "NX_Normteile_ATC_Pruefen.py",
+  "date": "2026-11-01T02:35:38.6639457+01:00",
+  "command": "C:/Siemens/nx2406/NXBIN/run_journal.exe projekt/NX_Normteile_ATC_Pruefen.py",
+  "source": "e87f522+working-diff",
+  "environment": "NX2406 Python3.10.15 Windows",
+  "exitcode": 0,
+  "output_directories": [
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_10_TELLER_20261101_023556_541062_f63e7091e82d"
+  ]
+}

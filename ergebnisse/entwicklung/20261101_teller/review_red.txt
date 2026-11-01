@@ -1,0 +1,27 @@
+...........FF                                                            [100%]
+================================== FAILURES ===================================
+_________ test_raised_gauge_keeps_park_roof_above_stored_tool_reserve _________
+
+    def test_raised_gauge_keeps_park_roof_above_stored_tool_reserve():
+        from enclosure_checks03 import body_bounds
+        p=model.load_parameters();p['teller_gauge_z']=420.
+        v=model.check_recipe(p)
+        roof=next(d for d in model.recipe() if d['name']=='ATC_Parkhaube_Dach_Entwurf')
+        lowest=body_bounds(roof,v,model.evaluate)[2]
+>       assert lowest>=420.+48.4+30.+10.
+E       assert 460.0 >= (((420.0 + 48.4) + 30.0) + 10.0)
+
+tests09\test_teller10.py:101: AssertionError
+__________________ test_collar_cannot_end_below_the_wet_tray __________________
+
+    def test_collar_cannot_end_below_the_wet_tray():
+        p=model.load_parameters();p['teller_collar_top']=65.
+>       with pytest.raises(ValueError,match='Kragen'):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller10.py:106: Failed
+=========================== short test summary info ===========================
+FAILED tests09/test_teller10.py::test_raised_gauge_keeps_park_roof_above_stored_tool_reserve
+FAILED tests09/test_teller10.py::test_collar_cannot_end_below_the_wet_tray - ...
+2 failed, 11 passed in 3.02s

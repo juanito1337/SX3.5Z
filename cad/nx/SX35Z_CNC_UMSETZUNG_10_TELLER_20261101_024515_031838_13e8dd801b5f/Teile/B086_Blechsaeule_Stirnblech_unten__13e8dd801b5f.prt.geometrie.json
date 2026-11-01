@@ -1,0 +1,1178 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28125.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28124.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28124.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -45.0,
+        25.0,
+        -0.09999999999999432,
+        -39.0,
+        27.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28124.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 128968,
+      "bounds_mm": [
+        -45.0,
+        25.0,
+        -0.0999999999999943,
+        -38.99999999999999,
+        27.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28106.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -45.0,
+        38.0,
+        -0.09999999999999432,
+        -39.0,
+        40.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28106.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129087,
+      "bounds_mm": [
+        -45.0,
+        38.0,
+        -0.0999999999999943,
+        -38.99999999999999,
+        40.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28089.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -45.0,
+        51.0,
+        -0.09999999999999432,
+        -39.0,
+        53.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28089.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129185,
+      "bounds_mm": [
+        -45.0,
+        51.00000000000001,
+        -0.0999999999999943,
+        -38.99999999999999,
+        53.00000000000001,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28071.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -30.0,
+        25.0,
+        -0.09999999999999432,
+        -24.0,
+        27.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28070.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129288,
+      "bounds_mm": [
+        -30.0,
+        25.0,
+        -0.0999999999999943,
+        -24.0,
+        27.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28052.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -30.0,
+        38.0,
+        -0.09999999999999432,
+        -24.0,
+        40.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28052.999999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129395,
+      "bounds_mm": [
+        -30.0,
+        38.0,
+        -0.0999999999999943,
+        -24.0,
+        40.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28034.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -30.0,
+        51.0,
+        -0.09999999999999432,
+        -24.0,
+        53.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28034.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129480,
+      "bounds_mm": [
+        -30.0,
+        51.00000000000001,
+        -0.0999999999999943,
+        -24.0,
+        53.00000000000001,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28016.999999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -15.0,
+        25.0,
+        -0.09999999999999432,
+        -9.0,
+        27.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 28016.999999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129594,
+      "bounds_mm": [
+        -15.0,
+        25.0,
+        -0.0999999999999943,
+        -9.000000000000002,
+        27.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27998.999999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -15.0,
+        38.0,
+        -0.09999999999999432,
+        -9.0,
+        40.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27998.999999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129676,
+      "bounds_mm": [
+        -15.0,
+        38.0,
+        -0.0999999999999943,
+        -9.000000000000002,
+        40.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27980.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -15.0,
+        51.0,
+        -0.09999999999999432,
+        -9.0,
+        53.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27980.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129789,
+      "bounds_mm": [
+        -15.0,
+        51.00000000000001,
+        -0.0999999999999943,
+        -9.000000000000002,
+        53.00000000000001,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27962.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        25.0,
+        -0.09999999999999432,
+        6.0,
+        27.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27962.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129875,
+      "bounds_mm": [
+        0.0,
+        25.0,
+        -0.0999999999999943,
+        6.0,
+        27.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.400000000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27944.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        38.0,
+        -0.09999999999999432,
+        6.0,
+        40.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27944.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 129981,
+      "bounds_mm": [
+        0.0,
+        38.0,
+        -0.0999999999999943,
+        6.0,
+        40.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.400000000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27926.999999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        51.0,
+        -0.09999999999999432,
+        6.0,
+        53.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27927.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130069,
+      "bounds_mm": [
+        0.0,
+        51.00000000000001,
+        -0.0999999999999943,
+        6.0,
+        53.00000000000001,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.400000000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27908.999999999993,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        15.0,
+        25.0,
+        -0.09999999999999432,
+        21.0,
+        27.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27908.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130172,
+      "bounds_mm": [
+        15.0,
+        25.0,
+        -0.0999999999999943,
+        21.0,
+        27.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27891.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "015_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        15.0,
+        38.0,
+        -0.09999999999999432,
+        21.0,
+        40.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27890.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130283,
+      "bounds_mm": [
+        15.0,
+        38.0,
+        -0.0999999999999943,
+        21.0,
+        40.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27873.000000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "016_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        15.0,
+        51.0,
+        -0.09999999999999432,
+        21.0,
+        53.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27873.000000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130365,
+      "bounds_mm": [
+        15.0,
+        51.00000000000001,
+        -0.0999999999999943,
+        21.0,
+        53.00000000000001,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27854.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "017_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        30.0,
+        25.0,
+        -0.09999999999999432,
+        36.0,
+        27.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27854.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130482,
+      "bounds_mm": [
+        30.000000000000004,
+        25.0,
+        -0.0999999999999943,
+        36.00000000000001,
+        27.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.400000000000023,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27836.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "018_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        30.0,
+        38.0,
+        -0.09999999999999432,
+        36.0,
+        40.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27836.999999999996,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130568,
+      "bounds_mm": [
+        30.000000000000004,
+        38.0,
+        -0.0999999999999943,
+        36.00000000000001,
+        40.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.400000000000023,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27819.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "019_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        30.0,
+        51.0,
+        -0.09999999999999432,
+        36.0,
+        53.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27819.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130676,
+      "bounds_mm": [
+        30.000000000000004,
+        51.00000000000001,
+        -0.0999999999999943,
+        36.00000000000001,
+        53.00000000000001,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.400000000000023,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27801.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "020_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        45.0,
+        25.0,
+        -0.09999999999999432,
+        51.0,
+        27.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27801.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130763,
+      "bounds_mm": [
+        45.0,
+        25.0,
+        -0.0999999999999943,
+        51.00000000000001,
+        27.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27783.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "021_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        45.0,
+        38.0,
+        -0.09999999999999432,
+        51.0,
+        40.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27783.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130876,
+      "bounds_mm": [
+        45.0,
+        38.0,
+        -0.0999999999999943,
+        51.00000000000001,
+        40.0,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27765.000000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "022_Lueftungsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        45.0,
+        51.0,
+        -0.09999999999999432,
+        51.0,
+        53.0,
+        1.6000000000000056
+      ],
+      "volume_mm3": 20.4
+    },
+    "target_before": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27765.000000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 130957,
+      "bounds_mm": [
+        45.0,
+        51.00000000000001,
+        -0.0999999999999943,
+        51.00000000000001,
+        53.00000000000001,
+        1.6000000000000054
+      ],
+      "volume_mm3": 20.40000000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 128852,
+      "bounds_mm": [
+        -75.0,
+        0.0,
+        0.0,
+        75.0,
+        125.0,
+        1.5
+      ],
+      "volume_mm3": 27747.000000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

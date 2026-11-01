@@ -1,0 +1,109 @@
+FFFFFFFF.                                                                [100%]
+================================== FAILURES ===================================
+__________________ test_magazine_is_independent_of_table_xy ___________________
+
+    def test_magazine_is_independent_of_table_xy():
+        parts = [d for d in model.recipe() if d['group'] == '20_ATC_Option']
+        assert parts
+        for d in parts:
+>           assert not ({'pos_x', 'pos_y'} & model.used_parameters(d)), d['name']
+E           AssertionError: ATC_Grundplatte
+E           assert not ({'pos_x', 'pos_y'} & {'atc_base_d', 'atc_base_l', 'atc_base_t', 'base_h', 'cross_h', 'guide_h', ...})
+E            +  where {'atc_base_d', 'atc_base_l', 'atc_base_t', 'base_h', 'cross_h', 'guide_h', ...} = <function used_parameters at 0x0000019643AC4400>({'atc_operational': False, 'datum': ['(pos_x)+(-atc_base_l/2)', '(pos_y)+(-90)', '(table_top_z)+(0)'], 'filename': 'C049_ATC_Grundplatte', 'group': '20_ATC_Option', ...})
+E            +    where <function used_parameters at 0x0000019643AC4400> = model.used_parameters
+
+tests09\test_teller10.py:12: AssertionError
+______ test_all_indexed_pockets_reach_fixed_spindle_without_table_motion ______
+
+    def test_all_indexed_pockets_reach_fixed_spindle_without_table_motion():
+        p = model.load_parameters()
+        r = model.atc_report(p)
+>       assert r.get('layout') == 'RADIAL_TELESCOPIC_CAROUSEL'
+E       AssertionError: assert None == 'RADIAL_TELESCOPIC_CAROUSEL'
+E        +  where None = <built-in method get of dict object at 0x0000019643AF2BC0>('layout')
+E        +    where <built-in method get of dict object at 0x0000019643AF2BC0> = {'blockers': ['Automatische Spindelspannung fehlt', 'BT30 passt nicht als best�tigtes System an DIN2080', 'Spindelorie...trieb fehlen', ...], 'gauge_z_mm': 315.0, 'highest_stored_holder_z_mm': 393.4, 'machine_operation_enabled': False, ...}.get
+
+tests09\test_teller10.py:19: AssertionError
+_________ test_clamping_package_remains_explicit_unverified_geometry __________
+
+    def test_clamping_package_remains_explicit_unverified_geometry():
+        ds = [d for d in model.recipe() if d['name'].startswith('Spannpaket_')]
+>       assert len(ds) >= 2
+E       assert 0 >= 2
+E        +  where 0 = len([])
+
+tests09\test_teller10.py:31: AssertionError
+__________ test_invalid_carousel_layout_is_rejected[teller_feed-1.1] __________
+
+key = 'teller_feed', value = 1.1
+
+    @pytest.mark.parametrize('key,value', [('teller_feed', 1.1), ('teller_radius', 50.),
+                                          ('teller_gauge_z', 600.), ('teller_feed', True)])
+    def test_invalid_carousel_layout_is_rejected(key, value):
+        p = model.load_parameters()
+        p[key] = value
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller10.py:44: Failed
+________ test_invalid_carousel_layout_is_rejected[teller_radius-50.0] _________
+
+key = 'teller_radius', value = 50.0
+
+    @pytest.mark.parametrize('key,value', [('teller_feed', 1.1), ('teller_radius', 50.),
+                                          ('teller_gauge_z', 600.), ('teller_feed', True)])
+    def test_invalid_carousel_layout_is_rejected(key, value):
+        p = model.load_parameters()
+        p[key] = value
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller10.py:44: Failed
+_______ test_invalid_carousel_layout_is_rejected[teller_gauge_z-600.0] ________
+
+key = 'teller_gauge_z', value = 600.0
+
+    @pytest.mark.parametrize('key,value', [('teller_feed', 1.1), ('teller_radius', 50.),
+                                          ('teller_gauge_z', 600.), ('teller_feed', True)])
+    def test_invalid_carousel_layout_is_rejected(key, value):
+        p = model.load_parameters()
+        p[key] = value
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller10.py:44: Failed
+_________ test_invalid_carousel_layout_is_rejected[teller_feed-True] __________
+
+key = 'teller_feed', value = True
+
+    @pytest.mark.parametrize('key,value', [('teller_feed', 1.1), ('teller_radius', 50.),
+                                          ('teller_gauge_z', 600.), ('teller_feed', True)])
+    def test_invalid_carousel_layout_is_rejected(key, value):
+        p = model.load_parameters()
+        p[key] = value
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller10.py:44: Failed
+__________ test_support_penetration_has_real_cut_and_separate_collar __________
+
+    def test_support_penetration_has_real_cut_and_separate_collar():
+        ds = {d['name']: d for d in model.recipe()}
+>       assert 'ATC_KSS_Dichtkragen_Entwurf' in ds
+E       AssertionError: assert 'ATC_KSS_Dichtkragen_Entwurf' in {'24V_HDR6024': {'datum': ['cab_x+35', 'cab_y+330', 'cab_z+160'], 'filename': 'B428_24V_HDR6024', 'group': '16_Schalts...ve_table-n09_tool_projection)'], 'filename': 'C084_ATC_BT30_ER20_70_Raumhuelle_2', 'group': '20_ATC_Option', ...}, ...}
+
+tests09\test_teller10.py:50: AssertionError
+=========================== short test summary info ===========================
+FAILED tests09/test_teller10.py::test_magazine_is_independent_of_table_xy - A...
+FAILED tests09/test_teller10.py::test_all_indexed_pockets_reach_fixed_spindle_without_table_motion
+FAILED tests09/test_teller10.py::test_clamping_package_remains_explicit_unverified_geometry
+FAILED tests09/test_teller10.py::test_invalid_carousel_layout_is_rejected[teller_feed-1.1]
+FAILED tests09/test_teller10.py::test_invalid_carousel_layout_is_rejected[teller_radius-50.0]
+FAILED tests09/test_teller10.py::test_invalid_carousel_layout_is_rejected[teller_gauge_z-600.0]
+FAILED tests09/test_teller10.py::test_invalid_carousel_layout_is_rejected[teller_feed-True]
+FAILED tests09/test_teller10.py::test_support_penetration_has_real_cut_and_separate_collar
+8 failed, 1 passed in 0.96s

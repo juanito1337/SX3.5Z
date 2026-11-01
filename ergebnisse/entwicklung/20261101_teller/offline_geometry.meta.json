@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "source_snapshot": "native_source_hashes.json",
+  "environment": "CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1 Windows",
+  "kss_command": [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_teller\\berichte_final_arbeitskopie/tools/pruefen07.py"
+  ],
+  "kss_exitcode": 1,
+  "atc_command": [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "projekt/tools/teller_pruefung10.py",
+    "--output",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_teller/teller_endpunkte_final.json"
+  ],
+  "atc_exitcode": 0
+}

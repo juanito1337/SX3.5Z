@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "source_base": "e87f522",
+  "source_snapshot": "native_source_hashes.json",
+  "command": [
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_teller\\berichte_final_arbeitskopie\\Projekt09_Berichte.py"
+  ],
+  "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_teller\\berichte_final_arbeitskopie",
+  "environment": "CPython3.12.14 .venv Windows",
+  "exitcode": 0
+}

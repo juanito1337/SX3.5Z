@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "command": [
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_teller\\vorschau_arbeitskopie\\tools\\ansichtsnetz_erzeugen.py",
+    "--output",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_teller\\Vorschau_Geometrie",
+    "--cache",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_teller\\Vorschau_Cache"
+  ],
+  "environment": "CPython3.12.14 CadQuery2.8 OCP Windows",
+  "exitcode": 0,
+  "scope": "Offline tessellation and primitive validity only; reference written only to work copy"
+}

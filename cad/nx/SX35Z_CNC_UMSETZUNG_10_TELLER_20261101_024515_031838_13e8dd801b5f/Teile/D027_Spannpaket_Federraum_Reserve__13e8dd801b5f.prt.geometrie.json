@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_UNBESTAETIGTER_Funktionsraum_KEIN_Spannnachweis",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -40.0,
+        -40.0,
+        792.0,
+        40.0,
+        40.0,
+        892.0
+      ],
+      "volume_mm3": 502654.8245743669
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 389042,
+      "bounds_mm": [
+        -40.0,
+        -40.0,
+        792.0,
+        40.0,
+        40.0,
+        892.0
+      ],
+      "volume_mm3": 502654.82457436685,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 389042,
+      "bounds_mm": [
+        -40.0,
+        -40.0,
+        792.0,
+        40.0,
+        40.0,
+        892.0
+      ],
+      "volume_mm3": 502654.82457436685,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

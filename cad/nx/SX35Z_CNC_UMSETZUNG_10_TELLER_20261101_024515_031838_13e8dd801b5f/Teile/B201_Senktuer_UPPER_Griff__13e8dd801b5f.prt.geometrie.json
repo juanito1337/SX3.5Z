@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        260.0,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 104000.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 211273,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        260.0,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 104000.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 211273,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        260.0,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 104000.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Griffbefestigung_Entwurf",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        19.0,
+        0.0,
+        20.0,
+        36.0,
+        20.0
+      ],
+      "volume_mm3": 6800.0
+    },
+    "target_before": {
+      "tag": 211273,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        260.0,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 104000.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 211370,
+      "bounds_mm": [
+        0.0,
+        19.0,
+        0.0,
+        20.0,
+        36.0,
+        20.0
+      ],
+      "volume_mm3": 6800.000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 211273,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        260.0,
+        36.00000000000001,
+        20.0
+      ],
+      "volume_mm3": 110400.00000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Griffbefestigung_Entwurf",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        240.0,
+        19.0,
+        0.0,
+        260.0,
+        36.0,
+        20.0
+      ],
+      "volume_mm3": 6800.0
+    },
+    "target_before": {
+      "tag": 211273,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        260.0,
+        36.00000000000001,
+        20.0
+      ],
+      "volume_mm3": 110400.00000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 211468,
+      "bounds_mm": [
+        240.0,
+        19.0,
+        0.0,
+        260.0,
+        36.0,
+        20.0
+      ],
+      "volume_mm3": 6800.000000000008,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 211273,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        260.0,
+        36.00000000000001,
+        20.0
+      ],
+      "volume_mm3": 116800.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

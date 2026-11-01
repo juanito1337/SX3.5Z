@@ -1,0 +1,42 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+______________ test_current_export_preserves_historical_reports _______________
+
+tmp_path = WindowsPath('C:/Users/1337/AppData/Local/Temp/pytest-of-1337/pytest-0/test_current_export_preserves_0')
+
+    def test_current_export_preserves_historical_reports(tmp_path):
+        import shutil,json
+        from pathlib import Path
+        import umbau_daten09 as data
+        root=Path(__file__).resolve().parents[1]
+        for relative in ('Parameter.json','CNC_Parameter.json','Ausbau_Parameter.json',
+                         'Detail_Parameter_09.json','Teller_Parameter_10.json',
+                         'Einkauf/Kaufteile_09.json','Aufmass/Messwerte_08.json',
+                         'Aufmass/Messwerte_09_Zusatz.json','Pruefung_08/Freigaben.json'):
+            dest=tmp_path/relative;dest.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copyfile(root/relative,dest)
+        for name in ('Pruefung_09','Werkzeugwechsler'):(tmp_path/name).mkdir(exist_ok=True)
+        old=tmp_path/'Pruefung_09/Freigabestatus_09.json'
+        old.write_text('HISTORISCH',encoding='utf8')
+        data.export(tmp_path)
+>       assert old.read_text(encoding='utf8')=='HISTORISCH'
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests09\test_teller10.py:90: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1028: in read_text
+    return f.read()
+           ^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <encodings.utf_8.IncrementalDecoder object at 0x000002575C491E50>
+input = b'{\r\n  "schema": "SX35Z_RELEASE_09",\r\n  "build_ready": false,\r\n  "purchase_release": false,\r\n  "native_nx_run_..."G05",\r\n    "G06",\r\n    "G07",\r\n    "G08",\r\n    "G09",\r\n    "A09"\r\n  ],\r\n  "atc_operational": false\r\n}'
+final = True
+
+>   ???
+E   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfc in position 229: invalid start byte
+
+<frozen codecs>:322: UnicodeDecodeError
+=========================== short test summary info ===========================
+FAILED tests09/test_teller10.py::test_current_export_preserves_historical_reports
+1 failed in 1.09s

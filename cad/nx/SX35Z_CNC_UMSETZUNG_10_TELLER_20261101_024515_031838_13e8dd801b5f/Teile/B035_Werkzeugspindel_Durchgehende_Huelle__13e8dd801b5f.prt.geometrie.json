@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Spindelwelle_durchgehend",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -18.0,
+        -18.0,
+        16.0,
+        18.0,
+        18.0,
+        252.0
+      ],
+      "volume_mm3": 240218.74066408994
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 84054,
+      "bounds_mm": [
+        -18.000000000000004,
+        -18.000000000000004,
+        16.0,
+        18.000000000000004,
+        18.000000000000004,
+        252.0
+      ],
+      "volume_mm3": 240218.74066408997,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 84054,
+      "bounds_mm": [
+        -18.000000000000004,
+        -18.000000000000004,
+        16.0,
+        18.000000000000004,
+        18.000000000000004,
+        252.0
+      ],
+      "volume_mm3": 240218.74066408997,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Spindelanschluss_oben",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -17.0,
+        -17.0,
+        230.0,
+        17.0,
+        17.0,
+        306.0
+      ],
+      "volume_mm3": 69001.9410434462
+    },
+    "target_before": {
+      "tag": 84054,
+      "bounds_mm": [
+        -18.000000000000004,
+        -18.000000000000004,
+        16.0,
+        18.000000000000004,
+        18.000000000000004,
+        252.0
+      ],
+      "volume_mm3": 240218.74066408997,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 84122,
+      "bounds_mm": [
+        -17.0,
+        -17.0,
+        230.0,
+        17.0,
+        17.0,
+        306.0
+      ],
+      "volume_mm3": 69001.9410434462,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 84054,
+      "bounds_mm": [
+        -18.000000000000004,
+        -18.000000000000004,
+        16.0,
+        18.000000000000004,
+        18.000000000000004,
+        306.0
+      ],
+      "volume_mm3": 289246.4356160123,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

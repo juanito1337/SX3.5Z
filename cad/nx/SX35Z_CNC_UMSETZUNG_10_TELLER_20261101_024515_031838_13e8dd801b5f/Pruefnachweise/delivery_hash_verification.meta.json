@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-01T02:53:08.4505762+01:00",
+  "code_commit": "0adcfb44dd24f61596d1bd94aeb0e17fd4b9c6dd",
+  "command": [
+    ".venv/Scripts/python.exe",
+    "tools_handoff/verify_package.py",
+    "--root",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_10_TELLER_20261101_024515_031838_13e8dd801b5f",
+    "--manifest",
+    "PRT_SHA256.json"
+  ],
+  "environment": "Windows CPython3.12.14",
+  "scope": "Saved PRT byte identity only",
+  "exitcode": 0,
+  "raw_log": "delivery_hash_verification.stdout.txt"
+}

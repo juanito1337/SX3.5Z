@@ -1,0 +1,3321 @@
+{
+  "native_nx_executed": false,
+  "trajectory_verified": false,
+  "excluded_selected_stock_spindle_joint": true,
+  "scope": "8 indexed pickup endpoints against stock casting/front plate/quill only. Selected holder/stock joint, guards, replacement spindle, workpieces, full motion, structural strength and clamping not validated.",
+  "checks": [
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 1,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 2,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 3,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 4,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 5,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 6,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 7,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Stuetzenfuss_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standstuetze_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Standkonsole_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teleskopzustellung_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Indexierantrieb_Lager_Bauraum",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Teller_Eigenentwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Ruecken_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Parkhaube_Dach_Entwurf",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Spindelkopf_Guss_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Kopf_Frontplatte_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    },
+    {
+      "pocket": 8,
+      "head": "Pinole_Huelse_Detail",
+      "part": "ATC_Gabel_Raumreserve_8",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "collisions": []
+}

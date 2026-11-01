@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Konsole_Entwurf_ohne_Festigkeitsnachweis",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -753.0,
+        -380.0,
+        250.0,
+        -505.0,
+        -230.0,
+        265.0
+      ],
+      "volume_mm3": 213000.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 374175,
+      "bounds_mm": [
+        -753.0,
+        -380.0,
+        250.0,
+        -505.0000000000593,
+        -230.00000000011732,
+        265.0
+      ],
+      "volume_mm3": 212999.99999992055,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 374175,
+      "bounds_mm": [
+        -753.0,
+        -380.0,
+        250.0,
+        -505.0000000000593,
+        -230.00000000011732,
+        265.0
+      ],
+      "volume_mm3": 212999.99999992055,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]
