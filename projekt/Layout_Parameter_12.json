@@ -1,0 +1,15 @@
+{
+  "_note": "Revision12: image dimensions only for base/disc. Stroke200, pitch180 and drive/console are drafts; replaces old10/11 carousel layout values.",
+  "atc12_stroke": 200.0,
+  "atc12_base_l": 330.0,
+  "atc12_base_w": 175.0,
+  "atc12_base_t": 22.0,
+  "atc12_disc_d": 280.0,
+  "atc12_carriage_offset": 70.0,
+  "teller_radius": 180.0,
+  "teller_plate_t": 16.0,
+  "teller_gauge_z": 400.0,
+  "teller_dir_x": -0.8660254037844386,
+  "teller_dir_y": 0.5,
+  "teller_hood_radius": 220.0
+}

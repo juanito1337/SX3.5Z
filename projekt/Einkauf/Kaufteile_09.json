@@ -1839,9 +1839,9 @@
         "G05",
         "G08"
       ],
-      "model_scope": "Modellkoerper weiterhin Eigenentwurf11 mit389mm Zustellung; KEIN Abbild des ausgewaehlten Kaufteils",
+      "model_scope": "Revision12: Grundplatte330x175x22 und Scheibe280x16 nach Bild; restlicher Antrieb/Greifer/Achsbezug als unbestaetigte Raumhuelle, KEIN vollstaendiges Hersteller-CAD",
       "type": "Offene Beschaffung",
-      "note": "Ein Gesamtpaket statt Eigenbau vorgesehen, keine Doppelbestellung. Bildmasse/Typenschilder: Werkzeugwechsler/Produktdaten_RATTM_1005009887984460.json. Grundplatte330x175x22, Scheibe280x16.200mm Hub nur aus SU32X200-S abgeleitet; nutzbarer Magazinweg offen. Direktmontage an Fraese erlaubt; Konsole, reale SK30/BT30-Passung und Spannpaket offen. BT30-Variante vom Nutzer bestaetigt; Zuordnung der Bildmasse zur Lieferausfuehrung noch nicht lieferantenseitig bestaetigt.",
+      "note": "Ein BT30-Gesamtpaket. Rechte feste Saeulenkonsole als Entwurf, Zustellung200mm aus Zylindertyp angenommen. Werkzeugradius180mm und Antriebs-/Greifergeometrie unbestaetigt. Bilddaten: Werkzeugwechsler/Produktdaten_RATTM_1005009887984460.json. Passung/Spannpaket spaeter, kein Layout-Blocker; Betrieb weiter gesperrt.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
@@ -1854,5 +1854,5 @@
       "supplier_variant_verified": false
     }
   },
-  "version": "11 auf09-Katalogbasis; RATTM-Artikel gewaehlt, Bildbelege01.11.2026; Modell weiterhin Eigenentwurf11"
+  "version": "12: BT30-Einbaustudie auf rechter Saeulenkonsole;09-Katalogbasis"
 }

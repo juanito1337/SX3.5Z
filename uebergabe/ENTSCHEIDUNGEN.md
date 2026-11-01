@@ -1,5 +1,19 @@
 # Entscheidungen und offene Annahmen
 
+## Nutzerpriorisierung01.11.2026: Wechslerbefestigung vor Spindelentscheidung
+
+Der Nutzer stellt klar: Eine spaetere Spindelerneuerung kann BT30 ermoeglichen;
+die jetzige SK30/BT30-Frage soll die Entwicklung nicht aufhalten. Vorrang hat
+eine sinnvolle Anbringung des gewaehlten BT30-Wechslers. Das ersetzt die
+vorherige Bearbeiterempfehlung, vor dem Layout zuerst die Spindelpassung zu
+klaeren. Keine konkrete Ersatzspindel ausgewaehlt oder zur Fertigung freigegeben.
+
+Entwurf12: rechte feste Saeulenkonsole, nahe Parklage, angenommene200mm Zustellung,
+Bildmasse fuer Grundplatte/Scheibe. Andere Produktabstaende und Greifer weiter
+als Annahmen gekennzeichnet. Wanne ohne alte Gestellstuetzendurchdringung;
+beidseitiger Spaenefang bleibt. Keine Bearbeitung am Originalguss modelliert.
+
+
 ## Nutzerbestaetigung01.11.2026: Angebotsvariante BT30
 
 Auf die Rueckfrage zur Werkzeugaufnahme des ausgewaehlten Wechslers antwortet

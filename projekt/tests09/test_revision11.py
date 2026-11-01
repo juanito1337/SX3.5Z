@@ -38,7 +38,7 @@ def test_four_side_catch_sheets_slope_to_open_rear_outlet():
 
 def test_old_left_tray_has_no_false_support_cut():
     ds={d['name']:d for d in m.recipe()}
-    for side,expected in [('links',False),('rechts',True)]:
+    for side,expected in [('links',False),('rechts',False)]:
         assert any(o.get('label')=='ATC_Stuetzendurchfuehrung' for o in ds['KSS_Leitblech_'+side+'_vorn']['ops']) is expected
 
 

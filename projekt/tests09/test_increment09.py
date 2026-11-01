@@ -5,7 +5,7 @@ import cnc_ansichtsmodell as model
 ROOT=Path(__file__).resolve().parents[1]
 
 def test_revision09_is_implemented():
-    assert model.VERSION=='CNC_UMSETZUNG_11_FANGBLECHE'
+    assert model.VERSION=='CNC_UMSETZUNG_12_BT30_KONSOLE'
 
 def test_stock_castings_and_complete_moving_door_unchanged():
     import cnc_ansichtsmodell08 as old
@@ -34,7 +34,7 @@ def test_eight_pockets_not_a_claim_of_operational_atc():
     assert len(r['pockets'])==8
     assert r['machine_operation_enabled'] is False
     assert r['original_spindle']=='SK30/M12 DIN2080'
-    assert r['required_spindle_interface']=='BT30 automatic clamping'
+    assert r['required_spindle_interface'].startswith('BT30 automatic clamping')
     assert r['nominal_reach_ok'] is False  # no complete trajectory/spindle proof
     assert r['trajectory_verified'] is False
 

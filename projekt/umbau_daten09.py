@@ -20,7 +20,7 @@ def sources(root=None):
 
 def release_report(root=None):
     root=Path(root or ROOT);r=old.release_report(root)
-    r.update(schema='SX35Z_RELEASE_11',atc_operational=False,native_nx_run_this_revision=False)
+    r.update(schema='SX35Z_RELEASE_12',atc_operational=False,native_nx_run_this_revision=False)
     r['open_gates']=list(r['open_gates'])+['A09']
     extra=json.loads((root/'Aufmass/Messwerte_09_Zusatz.json').read_text())['measurements']
     missing=[x['id'] for x in extra if x['measured_value'] is None or not x['measured_by'] or not x['measurement_date']]
@@ -68,13 +68,13 @@ def export(root=None):
     import cnc_ansichtsmodell as model
     root=Path(root or ROOT);p=model.load_parameters(root/'Parameter.json');ds=model.recipe();model.check_recipe(p)
     b=bom_rows(ds,root);mp=model_map(ds);fab=manufacturing_rows(ds,p,model)
-    (root/'Pruefung_11').mkdir(exist_ok=True)
-    for fn,rows in [('Einkaufsliste_11',b),('Modellzuordnung_11',mp),('Fertigungsteile_11',fab)]:write_csv(root/'Einkauf'/f'{fn}.csv',rows)
-    (root/'Pruefung_11/Freigabestatus_11.json').write_text(json.dumps(release_report(root),ensure_ascii=False,indent=2),encoding='utf8')
-    (root/'Werkzeugwechsler/ATC_Schnittstellenstatus_11.json').write_text(json.dumps(model.atc_report(p),ensure_ascii=False,indent=2),encoding='utf8')
-    r=dict(version=model.VERSION,model_bodies=len(ds),operations=sum(len(d['ops']) for d in ds),catalog_rows=len(b),manufactured_item_rows=len(fab),new_bodies=sum(d.get('revision_added')=='11' for d in ds),new_catalog_rows=sum(x['item_id'].startswith('O10') for x in b),purchase_instances=sum(x['model_quantity'] for x in b),native_nx_executed=False,purchase_released=False,atc_operational=False)
+    (root/'Pruefung_12').mkdir(exist_ok=True)
+    for fn,rows in [('Einkaufsliste_12',b),('Modellzuordnung_12',mp),('Fertigungsteile_12',fab)]:write_csv(root/'Einkauf'/f'{fn}.csv',rows)
+    (root/'Pruefung_12/Freigabestatus_12.json').write_text(json.dumps(release_report(root),ensure_ascii=False,indent=2),encoding='utf8')
+    (root/'Werkzeugwechsler/ATC_Schnittstellenstatus_12.json').write_text(json.dumps(model.atc_report(p),ensure_ascii=False,indent=2),encoding='utf8')
+    r=dict(version=model.VERSION,model_bodies=len(ds),operations=sum(len(d['ops']) for d in ds),catalog_rows=len(b),manufactured_item_rows=len(fab),new_bodies=sum(d.get('revision_added')=='12' for d in ds),new_catalog_rows=sum(x['item_id'].startswith('O10') for x in b),purchase_instances=sum(x['model_quantity'] for x in b),native_nx_executed=False,purchase_released=False,atc_operational=False)
     for label,obj in [('parameter',p),('recipe',ds),('catalog',catalog(root))]:r[label+'_sha256']=hashlib.sha256(json.dumps(obj,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-    (root/'Pruefung_11/Modell_Stuecklistenabgleich_11.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf8')
-    (root/'Pruefung_11/Demontageliste_11.json').write_text(json.dumps(model.removal_report(),indent=2,ensure_ascii=False),encoding='utf8')
+    (root/'Pruefung_12/Modell_Stuecklistenabgleich_12.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf8')
+    (root/'Pruefung_12/Demontageliste_12.json').write_text(json.dumps(model.removal_report(),indent=2,ensure_ascii=False),encoding='utf8')
     return r
 if __name__=='__main__':print(json.dumps(export(),indent=2))

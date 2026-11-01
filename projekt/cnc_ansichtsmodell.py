@@ -9,11 +9,12 @@ import cnc_ansichtsmodell08 as prev
 import normteile09
 import teller10
 import revision11
+import teller12
 base=prev.base
 evaluate=prev.evaluate
 local_definition=prev.local_definition
 ROOT=Path(__file__).resolve().parent
-VERSION='CNC_UMSETZUNG_11_FANGBLECHE'
+VERSION='CNC_UMSETZUNG_12_BT30_KONSOLE'
 CAT=json.loads((ROOT/'Einkauf/Kaufteile_09.json').read_text(encoding='utf8'))['items']
 SPECS=copy.deepcopy(prev.SPECS)
 DERIVED=copy.deepcopy(prev.DERIVED)
@@ -22,6 +23,7 @@ GROUPS.update([('19_Normdetails','09 – Servicegriffe / Kabeleinführungen / No
 GROUPS['20_ATC_Option']='10 – Teller und Spannpaket; unbestaetigte Einbaustudie'
 GROUPS=OrderedDict((g,label) for g,label in GROUPS.items() if g not in revision11.REMOVED_GROUPS)
 GROUPS['20_ATC_Option']='11 – rechter Teller; Park-/Wechselstellung, Spannpaket offen'
+GROUPS['20_ATC_Option']='12 – BT30 auf rechter Saeulenkonsole; Einbaustudie'
 LAYERS={g:(i+1)*10 for i,g in enumerate(GROUPS)}
 PALETTE=dict(prev.PALETTE)
 DEFAULT_COLORS=dict(prev.DEFAULT_COLORS)
@@ -41,6 +43,16 @@ for n,value in revision11.DEFAULTS.items():
     SPECS.append(dict(name=n,value=value,unit='unitless' if n=='catch_slope' else 'mm',
         status='ENTWURF_11_UNBESTAETIGT',source='Nutzerbilder01.11.2026; E11 Entwurf',
         note='Fangblechgeometrie, keine Fertigungsfreigabe.',limits=None))
+
+DERIVED.update(teller12.DERIVED)
+for n,value in teller12.DEFAULTS.items():
+    spec=next((x for x in SPECS if x['name']==n),None)
+    if spec is None:
+        spec=dict(name=n,limits=None);SPECS.append(spec)
+    spec.update(value=value,unit='unitless' if n in teller10.UNITLESS else 'mm',
+        status='LIEFERANTENBILD_UNBESTAETIGT' if n in teller12.IMAGE_PARAMETERS else 'ENTWURF_12_UNBESTAETIGT',
+        source='S11-RATTM-BILDER' if n in teller12.IMAGE_PARAMETERS else 'E12 Einbaustudie',
+        note='Bildmass vs Entwurf unterscheiden; keine Hersteller-CAD-, Passungs- oder Betriebsfreigabe.')
 
 def load_parameters(path=None):
     p=OrderedDict(prev.load_parameters(path));p.update(DEFAULTS09)
@@ -73,6 +85,13 @@ def load_parameters(path=None):
             if n not in set(revision11.DEFAULTS)|{'teller_dir_x','teller_dir_y','teller_park_distance'}:raise ValueError('Unbekannter Layoutparameter11: '+n)
             if isinstance(val,bool) or not isinstance(val,(float,int)) or not math.isfinite(val):raise ValueError('Ungueltiger Layoutparameter11: '+n)
             p[n]=float(val)
+    p.update(teller12.DEFAULTS)
+    fp=(Path(path).resolve().parent if path else ROOT)/'Layout_Parameter_12.json'
+    if fp.exists():
+        for n,val in json.loads(fp.read_text(encoding='utf-8-sig')).items():
+            if n.startswith('_'):continue
+            if n not in teller12.DEFAULTS:raise ValueError('Unbekannter Layoutparameter12: '+n)
+            p[n]=val
     validate(p);return p
 
 def all_values(p):
@@ -92,7 +111,7 @@ def validate(p):
         raise ValueError('09-Schraubenmaßketten gelten nur für 2mm-Bleche und0.5mm-Kabelplattendichtung.')
     if p['atc_locator_bore']<=p['n09_tool_nut_d']:
         raise ValueError('Halterdurchgang der Gabelraumreserve zu klein')
-    teller10.validate(p,all_values(p))
+    teller12.validate(p,all_values(p))
     revision11.validate(p,all_values(p))
     return True
 
@@ -112,7 +131,7 @@ def used_parameters(d):
             if n in DERIVED:scan(DERIVED[n])
         if old==out:return out
 
-def recipe():return revision11.extend(teller10.extend(normteile09.extend(copy.deepcopy(prev.recipe()),base,CAT),base,CAT),base)
+def recipe():return revision11.extend(teller12.extend(normteile09.extend(copy.deepcopy(prev.recipe()),base,CAT),base,CAT),base)
 
 def removal_report():return revision11.removal_report(prev.recipe())
 
@@ -137,7 +156,7 @@ def check_recipe(p,parts=None):
     prev.check_recipe(p,prev.recipe())
     return v
 
-def atc_report(p):return teller10.report(p,all_values(p))
+def atc_report(p):return teller12.report(p,all_values(p))
 length_report=prev.length_report
 door_layout=prev.door_layout
 spring_report=prev.spring_report

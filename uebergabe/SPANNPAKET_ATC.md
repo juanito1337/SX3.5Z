@@ -1,5 +1,14 @@
 # Übergabe des letzten Gesprächs: automatische Werkzeugspannung
 
+## Prioritaet nach Nutzerkorrektur01.11.2026
+
+Wechslerbefestigung und Zustellung zuerst entwickeln; Spindelpassung nicht
+als Layout-Blocker behandeln. Ein spaeterer Wechsel auf eine geeignete
+BT30-Spindel ist moeglich und noch nicht konkret entschieden. Die vorherige
+Empfehlung, zuerst die Original-SK30-Kopplung zu klaeren, ist fuer die Reihenfolge
+ueberholt. Fuer Betrieb bleiben passende Spindel und Spannpaket zwingend.
+
+
 ## Bestaetigte Magazinvariante01.11.2026: BT30
 
 Der Nutzer bestaetigt BT30 als gewaehlte Angebotsvariante. Die untenstehenden

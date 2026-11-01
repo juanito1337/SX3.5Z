@@ -19,7 +19,7 @@ Ziel, derzeit nicht betriebsbereit. Keine vollständige Neukonstruktion aus dem 
 
 ## Aktiver Stand und Originalschutz
 
-- Ausschließlich `projekt/` ist der aktive Programmstand11 (rechte Teller-/Wechselstellung und Spaenefang auf Basis09/10). Historische ZIPs und
+- Ausschließlich `projekt/` ist der aktive Programmstand12 (BT30-Saeulenkonsole und Spaenefang auf Basis09/10/11). Historische ZIPs und
   `projekt/Historie_07_3/` nicht über aktive Dateien kopieren. Ältere nummerierte Module im
   aktiven Stamm sind teilweise importierte Abhängigkeiten, also nicht nach Dateinamen löschen.
 - Die Dateien unter `referenzen/` sind Quellen; `eingaben/original_nx/` enthält künftig

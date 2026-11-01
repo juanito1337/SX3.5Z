@@ -319,5 +319,14 @@
     "selected_variant_confirmed_by_user": true,
     "supplier_drawing_matches_variant_verified": false,
     "stock_spindle_compatibility_verified": false
+  },
+  "active_layout_study": {
+    "revision": "12",
+    "mount": "Fixed right-column console draft",
+    "image_base_and_disc_dimensions_applied": true,
+    "stroke_assumed_mm": 200,
+    "pitch_radius_assumed_mm": 180,
+    "spindle_choice_blocks_layout": false,
+    "supplier_geometry_verified": false
   }
 }

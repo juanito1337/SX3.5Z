@@ -15,7 +15,7 @@
   "atc_operational": false,
   "retrieval_result": "Earlier direct-page access failed. User supplied six original screenshots on2026-11-01; preserved byte-for-byte in repository. User subsequently confirmed the selected variant as BT30; supplier drawing correspondence remains unverified.",
   "next_required_input": "Actual BT30 fork pitch and envelope, slide/disc datums, effective travel and mounting drawing; spindle/clamping compatibility.",
-  "model_note": "Native revision11 remains the prior own-design space study (disc310x10, feed389.333). Supplier image shows disc280x16 and base330x175x22. Not yet integrated into NX. Direct machine mounting allowed; fixed right-column bracket is assistant proposal. Spindle clamping remains unresolved.",
+  "model_note": "Revision12 uses base330x175x22 and disc280x16 image dimensions, right fixed column console and assumed200mm feed. Pitch radius180mm, drive/fork dimensions and operating orientation are unverified study assumptions. Original SK30 remains reference; future BT30 spindle/clamping choice does not block placement, but remains required for operation.",
   "dimension_images_received_from_user": true,
   "dimension_image_count": 6,
   "dimension_labels_transcribed": true,
@@ -26,5 +26,6 @@
   "selected_tool_interface": "BT30",
   "selected_variant_confirmed_by_user": true,
   "variant_verification_basis": "Explicit user reply BT30 on2026-11-01; selection confirmation only",
-  "supplier_variant_verified": false
+  "supplier_variant_verified": false,
+  "active_layout_revision": "12"
 }

@@ -1,5 +1,16 @@
 # Projektstatus zum Codex-Übergabestand
 
+## Entwicklung12: BT30 auf rechter Saeulenkonsole,01.11.2026
+
+Nutzer priorisiert sinnvolle Magazinbefestigung; Spindeltausch/Spannpaket folgen
+separat.461 Modellkoerper,17 Gruppen. Grundplatte330x175x22/Scheibe280x16 nach
+Bild,200mm Hub und180mm Werkzeugradius als unbestaetigte Arbeitsannahmen.
+Feste Konsole mit oberen Rippen; alte Gestellstuetze/Kragen/Wannenoeffnung
+entfallen. Vier Fangbleche bleiben. Offline188 Tests/99 Untertests sowie17
+Stellungen/470 BRep-Pruefungen bestanden; native12-Lieferung separat nachweisen.
+[Anleitung12](projekt/Dokumentation/Entwicklungsstand_12.md).
+
+
 ## Produktauswahl fortgeschrieben01.11.2026 – CAD weiterhin Stand11
 
 AliExpress1005009887984460 vom Nutzer vorerst ausgewaehlt, sechs Original-

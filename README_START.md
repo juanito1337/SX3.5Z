@@ -1,5 +1,11 @@
 # SX3.5Z CNC – Übergabe an Codex
 
+**Aktive Entwicklung12,01.11.2026:** BT30-Wechsler auf fester rechter
+Saeulenkonsole, angenommene200mm Zustellung. [Anleitung12](projekt/Dokumentation/Entwicklungsstand_12.md).
+Spindelwahl folgt separat. Alte11-Dateien bleiben historisch; neue native
+Laufpfade stehen nach Erzeugung in [cad/README.md](cad/README.md).
+
+
 **Produktauswahl01.11.2026:** Der Nutzer hat AliExpress1005009887984460 gewaehlt
 und sechs Mass-/Detailbilder geliefert. Direkte Befestigung an der Fraese ist
 erlaubt. [Bildauswertung und offene Anschluesse](projekt/Werkzeugwechsler/RATTM_1005009887984460_Bildauswertung.md).

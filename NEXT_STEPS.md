@@ -1,5 +1,15 @@
 # Priorisierte Fortsetzung
 
+## Vorrang12: Wechslerlayout; Spindelwahl folgt separat
+
+Feste rechte Saeulenkonsole und200mm-Zustellung als Einbaustudie entwickelt.
+Native Park-/Wechsel-Erzeugung und Wiedereroeffnung laufen im neuen12-Paket.
+Danach Anschlussaufmass, Lasten/Schrauben/Justage, Hersteller-Greiferteilkreis,
+wirksamen Hub und Schutzverschluss detaillieren. Die spaetere BT30-Spindelwahl
+blockiert diese Layoutarbeit ausdruecklich nicht. Tabellen tragen `_12`.
+[Anleitung und Grenzen](projekt/Dokumentation/Entwicklungsstand_12.md).
+
+
 ## Vorrang nach RATTM-Auswahl und Bildlieferung01.11.2026
 
 1. BT30 ist vom Nutzer bestaetigt. Lieferantenzeichnung der BT30-Ausfuehrung
