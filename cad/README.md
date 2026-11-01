@@ -1,5 +1,36 @@
 # Native NX-Dateien im Git-Projekt
 
+## Aktuelles Konzept13:12er Seitenmagazin,01.11.2026
+
+- **NX PARK:** [Gesamtbaugruppe](nx/SX35Z_CNC_KONZEPT_13_SEITENMAGAZIN_PARK_20261101_200424_768031_719cf9cafd04/fraesmaschine_konzept13_park_nicht_freigegeben__719cf9cafd04.prt)
+- **NX WECHSEL:** [Gesamtbaugruppe](nx/SX35Z_CNC_KONZEPT_13_SEITENMAGAZIN_WECHSEL_20261101_200858_763146_bf31b7c655a7/fraesmaschine_konzept13_wechsel_nicht_freigegeben__bf31b7c655a7.prt)
+- **STEP PARK:** [3D-Modell](step/SX35Z_13_Park.step)
+- **STEP WECHSEL:** [3D-Modell](step/SX35Z_13_Wechsel.step)
+- [Park-/Wechselvorschau](vorschau/SX35Z_13_Seitenmagazin_Park_Wechsel.png),
+  Verkleidung/Schaltschrank zur Einsicht ausgeblendet; offline aus CAD-Rezept.
+
+Festes12er Eigenbau-Magazin rechts/hinten; Einzelarm mit90mm Hub und60mm
+Radialzustellung. Gemeinsamer Zusatzrahmen, kein Aufbau auf dem Maschinentisch.
+Nominale Einhausung1950x1575mm, Schaltschrank steht zusaetzlich aussen.
+Originalmaschine und Achswege erhalten. Parkstellung ausserhalb modellierter
+Tischhuelle. Fuer den Wechsel Bahnraum freihalten: konservativ125mm maximale
+Werkstueck-/Spannmittelhoehe ueber Tisch im betroffenen Raum. Keine Aussage
+ueber beliebig grosse Werkstuecke oder vollstaendige kontinuierliche Bahn.
+
+Beide Baugruppen in NX2406 neu erzeugt, gespeichert und in frischen Prozessen
+vollstaendig geoeffnet: je532 Einzelteile,17 Gruppen,24 native Blechkoerper
+im Pflichtmodus required. AP214 direkt aus NX exportiert; beide STEP-Dateien
+separat offline eingelesen, je532 gueltige Koerper. Native Quelle feaf3950c142590da45f353dc60b65c70ee527ed.
+Komplette Laufordner zusammenhalten, nicht nur Haupt-PRT kopieren.
+
+[Anleitung, Auslegung und offene Punkte13](../projekt/Dokumentation/ATC_Konzept13.md),
+[Pruefbericht mit Grenzen](../ergebnisse/entwicklung/20261101_atc13/README.md).
+SK30-Bestand bleibt Referenz, BT30-Spindel/Spannpaket und Greifer-/Taschenretention
+noch nicht betriebsbereit. R13-Kaufteile sind unbestaetigte Bauraumreserven.
+Historische12/11/10-Lieferstaende unveraendert erhalten; untenstehende
+Aktuell-Angaben gelten jeweils fuer die damalige Revision.
+
+
 **STEP-Ansicht Stand12:** [Gesamtbaugruppe in Wechselstellung](step/SX35Z_12_Wechselstellung.step),
 direkt aus dem gespeicherten NX-Stand exportiert;461 Koerper nach erneutem
 STEP-Einlesen gueltig. [Exportnachweis](../ergebnisse/entwicklung/20261101_step12/README.md).

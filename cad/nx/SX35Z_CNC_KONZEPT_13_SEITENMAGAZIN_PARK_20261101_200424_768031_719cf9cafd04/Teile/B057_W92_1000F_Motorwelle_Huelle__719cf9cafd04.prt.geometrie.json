@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -8.0,
+        -8.0,
+        -15.0,
+        8.0,
+        8.0,
+        50.0
+      ],
+      "volume_mm3": 13069.025438933539
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 103509,
+      "bounds_mm": [
+        -8.0,
+        -8.0,
+        -15.0,
+        8.0,
+        8.0,
+        50.0
+      ],
+      "volume_mm3": 13069.025438933542,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 103509,
+      "bounds_mm": [
+        -8.0,
+        -8.0,
+        -15.0,
+        8.0,
+        8.0,
+        50.0
+      ],
+      "volume_mm3": 13069.025438933542,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Passfeder_Huelle",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -2.0,
+        6.0,
+        10.0,
+        2.0,
+        9.0,
+        34.0
+      ],
+      "volume_mm3": 288.0
+    },
+    "target_before": {
+      "tag": 103509,
+      "bounds_mm": [
+        -8.0,
+        -8.0,
+        -15.0,
+        8.0,
+        8.0,
+        50.0
+      ],
+      "volume_mm3": 13069.025438933542,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 103591,
+      "bounds_mm": [
+        -2.0,
+        6.0,
+        10.0,
+        2.0,
+        9.0,
+        34.0
+      ],
+      "volume_mm3": 287.99999999999994,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 103509,
+      "bounds_mm": [
+        -8.0,
+        -8.0,
+        -15.0,
+        8.0,
+        9.0,
+        50.0
+      ],
+      "volume_mm3": 13173.102165799397,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

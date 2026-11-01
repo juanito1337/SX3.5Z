@@ -1,5 +1,22 @@
 # Entscheidungen und offene Annahmen
 
+## Fortschreibung01.11.2026: Konzept13
+
+Nutzerentscheidung: besten plausiblen Wechselansatz direkt in NX entwickeln,
+ganze Fraese/Tisch waehrend Bearbeitung nutzbar halten;8 Plaetze ausreichend,
+12 bevorzugt. Konzeptwahl ausdruecklich delegiert. Keine Betriebsfreigabe.
+
+Bearbeiterentscheidung: festes12er Eigenbau-Seitenmagazin rechts/hinten,
+einzelner Hebe-/Schwenk-/Zustellarm am mitbewegungsfreien Zusatzgestell.
+RATTM-Kaufwechsler12er-Ausfuehrung wird nicht behauptet. Fruehere rechte
+Saeulenkonsole12 wird als historische Alternative erhalten. Kein Gussbohren,
+kein Kauf, keine Hardwareausfuehrung. Arm parkt ausserhalb modellierter
+Tischhülle; Wechsel braucht einen freien Bahnraum (konservativ125mm
+Werkstueck-/Spannmittelhoehe ueber Tisch). Unbegrenzter Werkstueckwechsel
+ist weder konstruiert noch freigegeben. Konzept-/Fertigungsdetails siehe
+[Dokumentation13](../projekt/Dokumentation/ATC_Konzept13.md).
+
+
 ## Nutzerpriorisierung01.11.2026: Wechslerbefestigung vor Spindelentscheidung
 
 Der Nutzer stellt klar: Eine spaetere Spindelerneuerung kann BT30 ermoeglichen;

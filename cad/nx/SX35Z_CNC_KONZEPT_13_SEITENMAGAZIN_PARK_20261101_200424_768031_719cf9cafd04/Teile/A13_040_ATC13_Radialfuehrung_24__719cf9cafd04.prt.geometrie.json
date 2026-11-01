@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Armprofil_add",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        818.0,
+        219.23881554251182,
+        400.0,
+        834.0,
+        409.2388155425118,
+        416.0
+      ],
+      "volume_mm3": 48640.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 344725,
+      "bounds_mm": [
+        818.0000000000001,
+        219.23881554251182,
+        400.0,
+        834.0,
+        409.2388155425118,
+        416.0
+      ],
+      "volume_mm3": 48639.99999999977,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 344725,
+      "bounds_mm": [
+        818.0000000000001,
+        219.23881554251182,
+        400.0,
+        834.0,
+        409.2388155425118,
+        416.0
+      ],
+      "volume_mm3": 48639.99999999977,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Profil",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        655.0,
+        777.2388155425118,
+        420.0,
+        668.0,
+        801.2388155425118,
+        444.0
+      ],
+      "volume_mm3": 7488.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 376736,
+      "bounds_mm": [
+        655.0,
+        777.2388155425118,
+        420.0,
+        668.0,
+        801.2388155425118,
+        444.0
+      ],
+      "volume_mm3": 7488.00000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 376736,
+      "bounds_mm": [
+        655.0,
+        777.2388155425118,
+        420.0,
+        668.0,
+        801.2388155425118,
+        444.0
+      ],
+      "volume_mm3": 7488.00000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

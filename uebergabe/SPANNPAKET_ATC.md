@@ -1,5 +1,18 @@
 # Übergabe des letzten Gesprächs: automatische Werkzeugspannung
 
+## Konzept13: Layoutauftrag01.11.2026
+
+Nutzer delegiert die beste umsetzbare Anordnung;8 Plaetze reichen,12 bevorzugt.
+Bearbeiter waehlt12er Seitenmagazin mit Einzelarm und eigenem Zusatzrahmen,
+um das parkende Magazin aus Tisch-/Arbeitsraum zu nehmen. Kein Kaufauftrag
+fuer ein12er Produkt; vorhandener RATTM8er bleibt historische Kaufalternative.
+Original SK30/DIN2080/M12 bleibt Referenz. BT30-Werkzeuge und Anzugsbolzen
+sind geometrische Entwurfsmodelle, keine nachgewiesene Spindelpassung.
+Spindeltausch, selbsthaltende Spannung, Loesehub/-kraft und Orientierung
+bleiben offen. Greifer-/Taschenretention und Endlagenverriegelung noch
+konstruktiv nachzuweisen. [Konzept13](../projekt/Dokumentation/ATC_Konzept13.md).
+
+
 ## Prioritaet nach Nutzerkorrektur01.11.2026
 
 Wechslerbefestigung und Zustellung zuerst entwickeln; Spindelpassung nicht

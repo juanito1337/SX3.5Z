@@ -1,0 +1,18 @@
+{
+  "label": "park_build",
+  "date": "2026-11-01T19:57:57.7915255+01:00",
+  "command": [
+    "C:/Siemens/nx2406/NXBIN/run_journal.exe",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_ATC_Konzept13.py"
+  ],
+  "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+  "source_revision": "dbfd4e1a959a68a47b132aaf4d1a3706aeb7c2e9",
+  "environment": "NX2406/Python3.10.15 Windows",
+  "exitcode": 1,
+  "seconds": 64.25,
+  "raw_log": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_atc13\\park_build.log",
+  "output_directories": [
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_KONZEPT_13_SEITENMAGAZIN_PARK_20261101_195816_194619_851deb3d9dea"
+  ],
+  "verify_target": null
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-01T20:10:10.061483+01:00",
+  "source_revision": "feaf3950c142590da45f353dc60b65c70ee527ed",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "win32",
+    "cadquery": "2.8.0",
+    "nx": "NX2406 Python3.10.15; see native_matrix.json"
+  },
+  "checks": [
+    {
+      "command": ".venv/Scripts/python.exe -m pytest -q -p no:cacheprovider",
+      "cwd": "projekt",
+      "scope": "Offline unit/regression suite, not native proof",
+      "exitcode": 0,
+      "raw_log": "offline_delivery.log",
+      "passed": 201,
+      "subtests": 99
+    },
+    {
+      "command": ".venv/Scripts/python.exe projekt/tools/atc13_pruefen.py --output ergebnisse/entwicklung/20261101_atc13/geometry_delivery.json",
+      "cwd": ".",
+      "scope": "532 solid definitions,62 pose samples,421 selected BRep overlaps; not continuous sweep",
+      "exitcode": 0,
+      "raw_log": "geometry_delivery.log",
+      "result": "geometry_delivery.json",
+      "source_revision": "dbfd4e1a959a68a47b132aaf4d1a3706aeb7c2e9",
+      "note": "Later feaf395 correction changes only workpiece-height report/test/docs, not recipe geometry."
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools_handoff/verify_package.py",
+      "cwd": ".",
+      "scope": "Historical package manifest, unchanged",
+      "exitcode": 1,
+      "raw_log": "package.log",
+      "verified": 449,
+      "total": 477,
+      "note": "28 already-known intentional repository developments; original manifest preserved."
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tools_handoff -p test_*.py -v",
+      "cwd": ".",
+      "scope": "Handoff helpers",
+      "exitcode": 0,
+      "raw_log": "handoff_tests.log",
+      "passed": 9,
+      "skipped": 1
+    },
+    {
+      "command": "C:/Siemens/nx2406/NXBIN/run_journal.exe ergebnisse/entwicklung/20261101_atc13/io_probe.py",
+      "cwd": ".",
+      "scope": "1000 rewrite repetitions in first failed run directory; separate probe file only",
+      "exitcode": 0,
+      "raw_log": "io_probe.log"
+    },
+    {
+      "command": ".venv/Scripts/python.exe ergebnisse/entwicklung/20261101_atc13/verify_step.py",
+      "cwd": ".",
+      "scope": "Both NX AP214 exports independently read via CadQuery/OCP,532 valid solids each",
+      "exitcode": 0,
+      "raw_log": "step_readback.log",
+      "result": "step_readback.json"
+    },
+    {
+      "date": "2026-11-01T20:15:42.724982+01:00",
+      "command": ".venv/Scripts/python.exe tools_handoff/verify_package.py --manifest ergebnisse/entwicklung/20261101_atc13/LIEFER_MANIFEST.json",
+      "cwd": ".",
+      "scope": "Exact byte identity of2299 selected delivery files, no engineering release",
+      "exitcode": 0,
+      "raw_log": "delivery_integrity.log"
+    }
+  ],
+  "native_run_matrix": "native_matrix.json",
+  "manufacturing_released": false,
+  "purchase_released": false,
+  "machine_operation_enabled": false,
+  "atc_operational": false
+}

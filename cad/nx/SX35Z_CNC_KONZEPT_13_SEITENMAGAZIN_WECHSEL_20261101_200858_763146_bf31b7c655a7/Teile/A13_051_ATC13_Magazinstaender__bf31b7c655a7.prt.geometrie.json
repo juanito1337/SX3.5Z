@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        790.0,
+        729.2388155425118,
+        0.0,
+        910.0,
+        849.2388155425118,
+        320.0
+      ],
+      "volume_mm3": 4608000.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 350541,
+      "bounds_mm": [
+        790.0,
+        729.238815542512,
+        0.0,
+        910.0000000000001,
+        849.2388155425122,
+        320.0
+      ],
+      "volume_mm3": 4608000.000000008,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 350541,
+      "bounds_mm": [
+        790.0,
+        729.238815542512,
+        0.0,
+        910.0000000000001,
+        849.2388155425122,
+        320.0
+      ],
+      "volume_mm3": 4608000.000000008,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Hohlprofil",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        796.0,
+        735.2388155425118,
+        -0.1,
+        904.0,
+        843.2388155425118,
+        320.09999999999997
+      ],
+      "volume_mm3": 3734812.8
+    },
+    "target_before": {
+      "tag": 350541,
+      "bounds_mm": [
+        790.0,
+        729.238815542512,
+        0.0,
+        910.0000000000001,
+        849.2388155425122,
+        320.0
+      ],
+      "volume_mm3": 4608000.000000008,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 350651,
+      "bounds_mm": [
+        796.0,
+        735.238815542512,
+        -0.1,
+        904.0000000000001,
+        843.2388155425122,
+        320.09999999999997
+      ],
+      "volume_mm3": 3734812.8000000073,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 350541,
+      "bounds_mm": [
+        790.0,
+        729.238815542512,
+        0.0,
+        910.0000000000001,
+        849.2388155425122,
+        320.0
+      ],
+      "volume_mm3": 875520.0000000023,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

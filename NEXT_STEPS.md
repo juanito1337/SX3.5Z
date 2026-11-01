@@ -1,5 +1,29 @@
 # Priorisierte Fortsetzung
 
+## Vorrang13: Seitenmagazin und Einzelarm,01.11.2026
+
+Nutzer beauftragt besten plausiblen Ansatz in NX;8 Plaetze ausreichend,12
+bevorzugt. Konzept13 verlegt12er Magazin rechts/hinten auf den gemeinsamen
+Untergestell-Zusatzrahmen. Einzelarm mit90mm Hub und60mm radialer Zustellung.
+RATTM8er/Konsole12 bleiben historische Alternativen;13 ist ein Eigenentwurf.
+
+1. Park-/Wechselmodell gemeinsam ansehen: [CAD-Einstieg](cad/README.md).
+2. Bauraum und echte Maschinen-/Gestellanschluesse messen; keine Gussbearbeitung
+   nach Bildern. Neues Gehaeuse nominal1950x1575mm, Schaltschrank zusaetzlich.
+3. Greifer/Taschen mit Retention und Drehlagensicherung, Antriebe/Fuehrungen,
+   Bremsen und feste Endlagenverriegelung auslegen; alle R13-Reserven unbestellt.
+4. Reale Werkzeuge/Spannmittel und kontinuierlichen Wechselweg pruefen.
+   Konservative Hoehengrenze125mm ueber Tisch im Wechselraum; Parkzustand
+   erhaelt die modellierten Achswege. Beliebige Werkstuecke sind nicht abgedeckt.
+5. BT30-Spindel/Spannpaket, Orientierung, Sensorik und Fehlerablauf entwickeln;
+   keine automatische Spannung oder Maschinenbewegung bisher freigegeben.
+6. Tragwerk, Verschraubungen, Schweissdetails, Tropfbodenablauf/Servicezugang,
+   Zeichnungen und Fertigungsunterlagen. Sechs alte Anschlusskonflikte offen.
+
+[Konzept und Grenzen13](projekt/Dokumentation/ATC_Konzept13.md).
+Die folgenden Prioritaeten beschreiben historische Staende.
+
+
 ## Vorrang12: Wechslerlayout; Spindelwahl folgt separat
 
 Feste rechte Saeulenkonsole und200mm-Zustellung als Einbaustudie entwickelt.

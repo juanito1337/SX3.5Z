@@ -56,4 +56,4 @@ BT30-Spindel/Orientierung/Spannpaket fuer Betrieb noch auszulegen.
 
 ## Fortschritt
 
-- Basis gesichert; Konzept-/Mechanikreview laeuft. Noch kein13er NX-Nachweis.
+- Arbeitspakete1–6 abgeschlossen: Reviews mit Korrekturen,201/99 Offline-Tests,62 Wegstichproben, beide nativen Stellungen frisch geoeffnet und STEP geprueft. Dokumentation/Katalog/Stueckliste gemeinsam aktualisiert. Fertigungs-/Betriebsdetails bleiben laut Konzeptdokument offen.

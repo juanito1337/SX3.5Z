@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        922.0,
+        -410.0,
+        582.0,
+        1110.0,
+        -290.0,
+        585.0
+      ],
+      "volume_mm3": 67680.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 339960,
+      "bounds_mm": [
+        922.0,
+        -410.00000000000006,
+        582.0,
+        1110.0,
+        -290.00000000000006,
+        585.0
+      ],
+      "volume_mm3": 67680.00000000009,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 339960,
+      "bounds_mm": [
+        922.0,
+        -410.00000000000006,
+        582.0,
+        1110.0,
+        -290.00000000000006,
+        585.0
+      ],
+      "volume_mm3": 67680.00000000009,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Zylinder",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        946.0,
+        -366.0,
+        581.9,
+        978.0,
+        -334.0,
+        585.1
+      ],
+      "volume_mm3": 2573.5927018207585
+    },
+    "target_before": {
+      "tag": 339960,
+      "bounds_mm": [
+        922.0,
+        -410.00000000000006,
+        582.0,
+        1110.0,
+        -290.00000000000006,
+        585.0
+      ],
+      "volume_mm3": 67680.00000000009,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 340056,
+      "bounds_mm": [
+        946.0,
+        -366.00000000000006,
+        581.9,
+        978.0,
+        -334.0,
+        585.0999999999999
+      ],
+      "volume_mm3": 2573.592701820743,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 339960,
+      "bounds_mm": [
+        922.0,
+        -410.00000000000006,
+        582.0,
+        1110.0,
+        -290.00000000000006,
+        585.0
+      ],
+      "volume_mm3": 65267.25684204311,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

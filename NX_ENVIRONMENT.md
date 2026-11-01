@@ -1,5 +1,21 @@
 # Ausführungsumgebungen – nicht miteinander verwechseln
 
+## Nativer Nachweis13,01.11.2026
+
+Quelle feaf3950c142590da45f353dc60b65c70ee527ed. NX2406/Python3.10.15 unveraendert,
+separate run_journal-Prozesse; gemeinsame Oberflaeche unberuehrt. Vier
+finale Laeufe Exit0: PARK-Aufbau, frisches Oeffnen/AP214, WECHSEL-Aufbau,
+frisches Oeffnen/AP214. Je532 Einzelteile/17 Gruppen/24 native Blechkoerper.
+Native Werkzeuglage WECHSEL nominell0/0/530mm. Keine reale Spindelpassung.
+
+Erster Vollaufbau scheiterte beim JSON-Dateischreiben (OSError22); separater
+NX-Schreibtest1000 Wiederholungen bestanden, Fehler im zweiten Lauf nicht
+wiederaufgetreten. Ursache nicht abschliessend geklaert; keine spekulative
+API-Aenderung. Unvollstaendige Laeufe lokal im Audit erhalten, nicht geliefert.
+Offline-Pruefungen ersetzen keinen NX-Nachweis. Matrix/Rohlogs und Grenzen:
+[Pruefbericht13](ergebnisse/entwicklung/20261101_atc13/README.md).
+
+
 ## Nativer Nachweis12,01.11.2026
 
 Quellrevision b6e4643d5558780936f7b622af0102ad64041215. NX2406/Python3.10.15, separate eigene

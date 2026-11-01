@@ -1,5 +1,30 @@
 # Projektstatus zum Codex-Übergabestand
 
+## Aktuell13:12er Seitenmagazin und Einzelarm,01.11.2026
+
+Nutzer beauftragt neue plausible Anordnung mit freiem Tischraum;12 Plaetze
+bevorzugt. Gewaehlter Eigenentwurf: fester Speicher rechts/hinten auf
+Zusatzrahmen, Hub-/Schwenkarm und60mm Zustellung. Alte Konsole12 entfaellt
+nur in Variante13; bisheriges Standardjournal12 bleibt reproduzierbar.
+
+Beide neuen NX-Stellungen PARK/WECHSEL gespeichert und frisch geoeffnet:
+je532 Einzelteile,17 Gruppen,24 native Blechkoerper. STEP jeweils532
+gueltige Koerper nach separater Offline-Einlesepruefung.201 Offline-Tests
+und99 Untertests bestanden;62 Bewegungsstichproben/421 BRep-Vergleiche ohne
+Ueberschneidung im benannten Umfang. Kein kontinuierlicher Bahnnachweis.
+
+Parkzustand behaelt modellierte Achswege; automatischer Wechsel erfordert
+freien Bahnraum (konservativ125mm Hoehe ueber Tisch). Beliebige Werkstuecke
+sind nicht abgedeckt. Greifer-/Taschenretention, Verriegelung, konkrete
+Antriebe, Istanschluesse, Lasten, Spindel und Spannpaket weiter offen.
+Sechs historische Maschinenanschluss-Konflikte nicht als geloest gewertet.
+
+[Native Dateien/STEP/Vorschau](cad/README.md),
+[Konzept13](projekt/Dokumentation/ATC_Konzept13.md),
+[Nachweise13](ergebnisse/entwicklung/20261101_atc13/README.md).
+Folgende Abschnitte sind historische Standmeldungen.
+
+
 ## Entwicklung12: BT30 auf rechter Saeulenkonsole,01.11.2026
 
 Nutzer priorisiert sinnvolle Magazinbefestigung; Spindeltausch/Spannpaket folgen

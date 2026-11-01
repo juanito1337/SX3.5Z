@@ -1,0 +1,2681 @@
+{
+  "native_nx_executed": false,
+  "part_geometry": [
+    {
+      "name": "Basis_Guss_Foto",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Saeule_Guss_Foto",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Saeulendeckel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Saeulenfuss_Schraube_-1_-1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Saeulenfuss_Schraube_-1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Saeulenfuss_Schraube_1_-1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Saeulenfuss_Schraube_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kreuzschlitten_Guss_Detail",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Keilleiste_Sattel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Keilleiste_Einstellschraube",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Massstab_Abdeckung",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Massstab_Distanz_-55",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Y_Massstab_Distanz_55",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Klemmhebel_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Klemmhebel_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Arbeitstisch_Foto",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Tisch_Stirnschraube_-1_-55",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Tisch_Stirnschraube_-1_55",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Tisch_Stirnschraube_1_-55",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Tisch_Stirnschraube_1_55",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Massstab_Gehaeuse_Foto",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Massstab_Dichtlippe",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Massstab_Lesekopf_Foto",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "X_Massstab_Lesekopfhalter_ANNAHME",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spindelkopf_Guss_Detail",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Z_Keilleiste_Kopf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kopf_Frontplatte_Detail",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kopf_Unterblech_gelocht",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Unterblech_Schraube_-1_72",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Unterblech_Schraube_-1_196",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Unterblech_Schraube_1_72",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Unterblech_Schraube_1_196",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinole_Huelse_Detail",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spindelnase_SK30_Normreferenz",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Werkzeugspindel_Durchgehende_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SK30_Mitnehmer_-1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Mitnehmer_Schraube_-1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SK30_Mitnehmer_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Mitnehmer_Schraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spindel_Laengsverzahnung_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kopf_Typenschild",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Digitale_Bohrtiefenanzeige",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinolenanzeige_LCD",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinolenanzeige_Taste_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinolenanzeige_Taste_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinolenanzeige_Taste_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinole_Messstange",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Frontplatten_Schraube_-1_15",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Frontplatten_Schraube_-1_115",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Frontplatten_Schraube_-1_205",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Frontplatten_Schraube_1_15",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Frontplatten_Schraube_1_115",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Frontplatten_Schraube_1_205",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "W92_1000F_Gehaeuse_Rippen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "W92_1000F_Rueckdeckel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "W92_1000F_Frontflansch",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "W92_1000F_Motorwelle_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spindelmotor_Montageplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Motorplatte_Schraube_-1_-1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Motorplatte_Schraube_-1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Motorplatte_Schraube_1_-1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Motorplatte_Schraube_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spindel_Riemenscheibe",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Motor_Riemenscheibe",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Riemen_hoher_Bereich_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spindel_Drehzahlgeber_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Faltenbalg_Z",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Faltenbalg_Y_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spindelschutz_Schalterhalter",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spindelschutz_Schalter_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinolenvorschub_Abdeckplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinole_Deckelschraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Pinole_Deckelschraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Bein_0_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Fuss_0_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Bein_0_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Fuss_0_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Bein_1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Fuss_1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Bein_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Fuss_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Querholm_0_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Querholm_0_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Laengsholm_0_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Laengsholm_0_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Querholm_1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Querholm_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Laengsholm_1_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Laengsholm_1_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Maschinentraverse_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Maschinentraverse_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Maschinen_Aufspannplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_Traegerausleger_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_Stuetzbein_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_Traegerausleger_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_Stuetzbein_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Seitenwand_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Seitenscheibe_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Dach",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Tuerpfosten_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Tuerpfosten_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Tuerriegel_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Tuerriegel_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Festfeld_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Festfeld_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Frontschwelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Frontsturz",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Rahmen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Scheibe",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Kantquerholm_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Kantquerholm_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Fensterklemmrahmen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Fensterschraube_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Fensterschraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Fensterschraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Fensterschraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Fuehrung_LOWER_L",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Schlitten_LOWER_L_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Mitnehmer_LOWER_L_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Schlitten_LOWER_L_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Mitnehmer_LOWER_L_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Fuehrung_LOWER_R",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Schlitten_LOWER_R_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Mitnehmer_LOWER_R_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Schlitten_LOWER_R_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Mitnehmer_LOWER_R_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_LOWER_Schaltfahne",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Tuerueberwachung_LOWER_Bauraum",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Rahmen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Scheibe",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Kantquerholm_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Kantquerholm_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Fensterklemmrahmen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Fensterschraube_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Fensterschraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Fensterschraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Fensterschraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Griff",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Fuehrung_UPPER_L",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Schlitten_UPPER_L_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Mitnehmer_UPPER_L_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Schlitten_UPPER_L_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Mitnehmer_UPPER_L_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Fuehrung_UPPER_R",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Schlitten_UPPER_R_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Mitnehmer_UPPER_R_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Schlitten_UPPER_R_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Mitnehmer_UPPER_R_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_UPPER_Schaltfahne",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Tuerueberwachung_UPPER_Bauraum",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Traeger_L",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Anschlusskonsole_L_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Anschlusskonsole_L_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Fangsicherung_L_Bauraum",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Traeger_R",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Anschlusskonsole_R_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Anschlusskonsole_R_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Fangsicherung_R_Bauraum",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Obertraverse",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Kassette_Front",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Kassette_Seite_L",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Kassette_Seite_R",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Kassette_Boden",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Kassette_Rueckwand",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S1_-1_Zylinder_BAURAUM",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S1_-1_Kolbenstange_BAURAUM",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S1_-1_Auge_oben",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S1_-1_Auge_unten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S2_-1_Zylinder_BAURAUM",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S2_-1_Kolbenstange_BAURAUM",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S2_-1_Auge_oben",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S2_-1_Auge_unten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S1_1_Zylinder_BAURAUM",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S1_1_Kolbenstange_BAURAUM",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S1_1_Auge_oben",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S1_1_Auge_unten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S2_1_Zylinder_BAURAUM",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S2_1_Kolbenstange_BAURAUM",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S2_1_Auge_oben",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Gasfeder06_S2_1_Auge_unten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Federkanal06_L",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Senktuer_Federkanal06_R",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Blechschuerze_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Staender_Blechschuerze_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Einhausung_Tropfkante",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Leitblech_links_vorn",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Leitblech_links_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Leitblech_rechts_vorn",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Leitblech_rechts_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Leitblech_Front_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Leitblech_Front_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Trichter_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Trichter_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Trichter_vorn",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Trichter_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Innenaufkantung_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Innenaufkantung_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Innenaufkantung_vorn",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Innenaufkantung_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Rueckwand_Aufkantung",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Spaeneschacht_U",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Spaeneschacht_Rueckwand",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Ruecklaufkasten_U",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Ruecklaufkasten_Stirnwand",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Serviceklappe_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Kastenhalter_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Kastenhalter_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Spaenekorb_U",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Spaenekorb_Stirnwand_vorn",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Spaenekorb_Stirnwand_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Spaenekorb_Griff",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Korbauflage_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Korbauflage_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Feinsieb_Klemmrahmen_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Ablaufstutzen_nach_Korb",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Tank_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Tankdeckel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Pumpe_Bauraum",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schaltschrank_Hohlschale",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schaltschrank_Tuer",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_DIN_Schiene_110",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_DIN_Schiene_320",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_DIN_Schiene_600",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_Kabelkanal_20",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_Kabelkanal_270",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schrank_Kabelkanal_550",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Mesa_7i95T_Einbauraum",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Mesa_Klemmen_Huelle_330",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Mesa_Klemmen_Huelle_380",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Mesa_Klemmen_Huelle_430",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Mesa_Klemmen_Huelle_480",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Sicherheitsgeraet_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schuetz_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Sicherungen_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PE_Schiene_Schaltschrank",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "EMV_Filter_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_7",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Reihenklemme_8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Bedienpult_Aussen_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Bedienpult_Taster_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Bedienpult_Taster_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Rundmutter_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Mutteraufnahme_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Loslager_Brueckenwinkel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Anschlussplatte_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_THK_Festlager",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_FK_Schraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_FK_Schraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_FK_Schraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_FK_Schraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_THK_Loslager",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_FF_Schraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_FF_Schraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_FF_Schraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_FF_Schraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Loslager_Adapterplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Kugelspindel_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Kupplung_Spindel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Kupplung_Motor",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Kupplungsstern",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Distanzsaeule_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Halteschraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Distanzsaeule_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Halteschraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Distanzsaeule_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Halteschraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Distanzsaeule_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Halteschraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motorplatte_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motorbefestigung_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motorbefestigung_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motorbefestigung_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motorbefestigung_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motor_Frontflansch",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motor_Gehaeuse",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motor_Rueckdeckel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motorbund",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_X_Motorwelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Rundmutter_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Mutteraufnahme_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Anschlussplatte_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_THK_Festlager",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_FK_Schraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_FK_Schraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_FK_Schraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_FK_Schraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_THK_Loslager",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_FF_Schraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_FF_Schraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_FF_Schraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_FF_Schraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Loslager_Adapterplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Kugelspindel_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Kupplung_Spindel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Kupplung_Motor",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Kupplungsstern",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Distanzsaeule_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Halteschraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Distanzsaeule_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Halteschraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Distanzsaeule_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Halteschraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Distanzsaeule_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Halteschraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motorplatte_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motorbefestigung_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motorbefestigung_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motorbefestigung_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motorbefestigung_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motor_Frontflansch",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motor_Gehaeuse",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motor_Rueckdeckel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motorbund",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Y_Motorwelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Rundmutter_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Mutteraufnahme_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Mutteranschluss_Kopf_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Tragbruecke_auf_Gusssaeule",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Anschlussplatte_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_THK_Festlager",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_FK_Schraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_FK_Schraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_FK_Schraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_FK_Schraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_THK_Loslager",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_FF_Schraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_FF_Schraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_FF_Schraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_FF_Schraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Loslager_Adapterplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Kugelspindel_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Kupplung_Spindel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Kupplung_Motor",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Kupplungsstern",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Distanzsaeule_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Halteschraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Distanzsaeule_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Halteschraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Distanzsaeule_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Halteschraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Distanzsaeule_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Halteschraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motorplatte_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motorbefestigung_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motorbefestigung_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motorbefestigung_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motorbefestigung_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motor_Frontflansch",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motor_Gehaeuse",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motor_Rueckdeckel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motorbund",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CNC_Z_Motorwelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Schaltschrank_Montageplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Treiber_X_CS_D508_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Treiber_Y_CS_D508_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Treiber_Z_CS_D1008E_Huelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Achsenversorgung_RSP50048",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "24V_HDR6024",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "5V_HDR155",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "IFS206_Referenz_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "IFS206_Referenz_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "IFS206_Referenz_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "IFS206_Referenz_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "IFS206_Referenz_5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "IFS206_Referenz_6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Servicegriff_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griff_Hinterlegung_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffscheibe_links1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffschraube_links1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffscheibe_links2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffschraube_links2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Servicegriff_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griff_Hinterlegung_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffscheibe_rechts1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffschraube_rechts1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffscheibe_rechts2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffschraube_rechts2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Servicegriff_KSS",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griff_Hinterlegung_KSS",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffscheibe_KSS1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffschraube_KSS1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffscheibe_KSS2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Griffschraube_KSS2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_09",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Flachdichtung_09",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LAPP_53111020_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LAPP_53119020_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LAPP_53111020_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LAPP_53119020_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_unten_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Schraube_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_oben_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Mutter_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_unten_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Schraube_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_oben_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Mutter_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_unten_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Schraube_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_oben_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Mutter_3",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_unten_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Schraube_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_oben_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Mutter_4",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_unten_5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Schraube_5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_oben_5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Mutter_5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_unten_6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Schraube_6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Scheibe_oben_6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Kabelplatte_Mutter_6",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spannpaket_Zugstangenanschluss_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spannpaket_Federraum_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Spannpaket_Loeseeinheit_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Fangblech_links_innen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Fangblech_links_aussen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Fangblech_rechts_innen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "KSS_Fangblech_rechts_aussen",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenbein_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Fussplatte_0",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenbein_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Fussplatte_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenbein_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Fussplatte_2",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenholm_Vorn",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenholm_Hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenholm_Rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenholm_Armseite",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenholm_Magazinquer",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rahmenholm_MagazinquerLinks",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Mastauflage",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubmast",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Mastfuss",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Z_Fuehrung_-1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Z_Wagen_-1_270",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Z_Wagen_-1_400",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Z_Fuehrung_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Z_Wagen_1_270",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Z_Wagen_1_400",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Lagertraeger_270",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Drehlager_270",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Lagertraeger_410",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Drehlager_410",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Drehwelle",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubspindel_Tr16_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubmutter_Entwurf",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubmotor_Montageplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubmotor_Bremse_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubkupplung_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubspindel_Lagerwinkel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Hubspindel_Festlager_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Schwenkantrieb_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Drehgeber_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Schwenkarm_Kasten80x40",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Radialfuehrung_Deckauflage",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Radialfuehrung_-24",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Radialfuehrung_24",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Radialschlitten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Radialzylinder_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Radialkolbenstange_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Zylinderkonsole",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Radialanlenkung",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Greifergehaeuse",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Greiferbacke_-1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Greiferbacke_1",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Greifer_Federklemmung_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinauflage",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinstaender",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinlagerplatte",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinlager_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinnabe",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinscheibe_12",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazin_Getriebemotor_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazin_Motorflansch",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazin_Indexverriegelung_Reserve",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazin_Indexhalter",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazin_Indexstift",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_01",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_01",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_01",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_02",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_02",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_02",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_03",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_03",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_03",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_04",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_04",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_04",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_05",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_05",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_05",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_06",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_06",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_06",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_07",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_07",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_07",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_08",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_08",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_08",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_09",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_09",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_09",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_10",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_11",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazingabel_12",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Taschenriegel_12",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_BT30_Werkzeug_12",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Wand_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Rueckwand_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinwand_links",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinwand_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Frontfluegel",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Dach_rechts",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Dach_hinten",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazinschutz_vorn",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ATC13_Magazin_Tropfboden",
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "pose_count": 62,
+  "brep_checks": 421,
+  "collisions": [],
+  "park_workbox_collisions": [],
+  "park_workbox_mm": [
+    -620.0,
+    -190.0,
+    180.0,
+    620.0,
+    190.0,
+    530.0
+  ],
+  "scope": "Machine vs new functional envelopes; 25 retracted low swings,8 endpoint feeds,6 spindle lifts,8 full-axis corners. Pullstud28mm and cutter35mm included. Selected holder/spindle joint excluded only in lift. No continuous swept-volume proof; internal mechanism contacts, replacement spindle and arbitrary workpieces not released.",
+  "trajectory_verified": false,
+  "manufacturing_released": false,
+  "atc_operational": false
+}

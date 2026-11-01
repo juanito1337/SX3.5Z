@@ -1,0 +1,1772 @@
+[
+  {
+    "feature": "001_Saeulenfuss",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        240.0,
+        120.0,
+        18.0
+      ],
+      "volume_mm3": 518400.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        240.0,
+        120.0,
+        18.000000000000004
+      ],
+      "volume_mm3": 518400.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        240.0,
+        120.0,
+        18.000000000000004
+      ],
+      "volume_mm3": 518400.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Saeulenkoerper",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        51.0,
+        8.0,
+        18.0,
+        189.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 11777472.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        240.0,
+        120.0,
+        18.000000000000004
+      ],
+      "volume_mm3": 518400.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 49355,
+      "bounds_mm": [
+        51.00000000000001,
+        8.0,
+        18.000000000000004,
+        189.0,
+        119.99999999999999,
+        780.0
+      ],
+      "volume_mm3": 11777472.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 12295872.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Offene_Rueckseite_Foto",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        63.0,
+        24.0,
+        -1.0,
+        177.0,
+        121.0,
+        766.0
+      ],
+      "volume_mm3": 8481486.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 12295872.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 49868,
+      "bounds_mm": [
+        63.0,
+        24.000000000000007,
+        -1.0,
+        177.0,
+        121.0,
+        766.0
+      ],
+      "volume_mm3": 8481486.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 3912768.0000000014,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Z_Fuehrungsprofil_ANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        57.0,
+        -4.0,
+        46.0,
+        183.0,
+        8.0,
+        758.0
+      ],
+      "volume_mm3": 1016736.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 3912768.0000000014,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50071,
+      "bounds_mm": [
+        56.99999999999999,
+        -4.0,
+        46.0,
+        183.0,
+        8.0,
+        758.0
+      ],
+      "volume_mm3": 1016735.9999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4929504.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Durchgehender_Z_Schlitz_Foto",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        101.0,
+        -5.0,
+        180.0,
+        139.0,
+        25.0,
+        690.0
+      ],
+      "volume_mm3": 581400.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4929504.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50167,
+      "bounds_mm": [
+        101.0,
+        -5.000000000000001,
+        180.0,
+        139.0,
+        25.0,
+        690.0
+      ],
+      "volume_mm3": 581400.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4386864.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Querrippe_1_Foto",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        62.7,
+        76.0,
+        300.0,
+        177.3,
+        120.0,
+        312.0
+      ],
+      "volume_mm3": 60508.799999999996
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4386864.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50300,
+      "bounds_mm": [
+        62.7,
+        76.00000000000001,
+        300.0,
+        177.29999999999998,
+        120.0,
+        312.0
+      ],
+      "volume_mm3": 60508.80000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4447056.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Querrippe_2_Foto",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        62.7,
+        76.0,
+        440.0,
+        177.3,
+        120.0,
+        452.0
+      ],
+      "volume_mm3": 60508.799999999996
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4447056.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50352,
+      "bounds_mm": [
+        62.7,
+        76.00000000000001,
+        440.0,
+        177.29999999999998,
+        120.0,
+        452.0
+      ],
+      "volume_mm3": 60508.80000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4507248.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Seitliche_Gussrippe_-1_1",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        63.0,
+        24.0,
+        124.68,
+        81.0,
+        110.0,
+        133.68
+      ],
+      "volume_mm3": 6966.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4507248.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50542,
+      "bounds_mm": [
+        63.0,
+        24.0,
+        124.68,
+        81.0,
+        110.0,
+        133.68
+      ],
+      "volume_mm3": 6966.000000000007,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4514214.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Seitliche_Gussrippe_-1_2",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        63.0,
+        24.0,
+        246.60000000000002,
+        81.0,
+        110.0,
+        255.60000000000002
+      ],
+      "volume_mm3": 6966.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4514214.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50732,
+      "bounds_mm": [
+        63.0,
+        24.0,
+        246.60000000000005,
+        81.0,
+        110.0,
+        255.60000000000005
+      ],
+      "volume_mm3": 6966.000000000006,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4521180.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Seitliche_Gussrippe_-1_3",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        63.0,
+        24.0,
+        520.9200000000001,
+        81.0,
+        110.0,
+        529.9200000000001
+      ],
+      "volume_mm3": 6966.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4521180.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50877,
+      "bounds_mm": [
+        63.0,
+        24.0,
+        520.9200000000001,
+        81.0,
+        110.0,
+        529.9200000000001
+      ],
+      "volume_mm3": 6966.000000000007,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4528145.999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Seitliche_Gussrippe_-1_4",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        63.0,
+        24.0,
+        658.0799999999999,
+        81.0,
+        110.0,
+        667.0799999999999
+      ],
+      "volume_mm3": 6966.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4528146.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50683,
+      "bounds_mm": [
+        63.0,
+        24.0,
+        658.0799999999999,
+        81.0,
+        110.0,
+        667.0799999999999
+      ],
+      "volume_mm3": 6966.0000000000055,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4535112.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_Seitliche_Gussrippe_1_1",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        159.0,
+        24.0,
+        124.68,
+        177.0,
+        110.0,
+        133.68
+      ],
+      "volume_mm3": 6966.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4535112.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 50918,
+      "bounds_mm": [
+        159.0,
+        24.000000000000007,
+        124.68,
+        177.0,
+        110.0,
+        133.68
+      ],
+      "volume_mm3": 6966.000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4542078.000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_Seitliche_Gussrippe_1_2",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        159.0,
+        24.0,
+        246.60000000000002,
+        177.0,
+        110.0,
+        255.60000000000002
+      ],
+      "volume_mm3": 6966.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4542077.999999997,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51043,
+      "bounds_mm": [
+        159.0,
+        24.000000000000007,
+        246.60000000000005,
+        177.0,
+        110.0,
+        255.60000000000005
+      ],
+      "volume_mm3": 6966.000000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4549044.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Seitliche_Gussrippe_1_3",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        159.0,
+        24.0,
+        520.9200000000001,
+        177.0,
+        110.0,
+        529.9200000000001
+      ],
+      "volume_mm3": 6966.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4549044.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51178,
+      "bounds_mm": [
+        159.0,
+        24.000000000000007,
+        520.9200000000001,
+        177.0,
+        110.0,
+        529.9200000000001
+      ],
+      "volume_mm3": 6966.000000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4556010.000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "015_Seitliche_Gussrippe_1_4",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        159.0,
+        24.0,
+        658.0799999999999,
+        177.0,
+        110.0,
+        667.0799999999999
+      ],
+      "volume_mm3": 6966.0
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4556010.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51240,
+      "bounds_mm": [
+        159.0,
+        24.000000000000007,
+        658.0799999999999,
+        177.0,
+        110.0,
+        667.0799999999999
+      ],
+      "volume_mm3": 6966.000000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4562976.000000002,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "016_Innenpad_Foto_ANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        63.0,
+        23.80000000000001,
+        109.44,
+        85.0,
+        32.000000000000014,
+        133.44
+      ],
+      "volume_mm3": 4329.599999999999
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4562976.000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51430,
+      "bounds_mm": [
+        63.0,
+        23.8,
+        109.44,
+        85.0,
+        32.0,
+        133.44
+      ],
+      "volume_mm3": 4329.599999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4565997.231627909,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "017_Innenpad_Foto_ANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        63.0,
+        23.80000000000001,
+        581.88,
+        85.0,
+        32.000000000000014,
+        605.88
+      ],
+      "volume_mm3": 4329.599999999999
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4565997.231627908,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51534,
+      "bounds_mm": [
+        63.0,
+        23.8,
+        581.88,
+        85.0,
+        32.0,
+        605.88
+      ],
+      "volume_mm3": 4329.600000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4570221.231627909,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "018_Innenpad_Foto_ANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        155.0,
+        23.80000000000001,
+        109.44,
+        177.0,
+        32.000000000000014,
+        133.44
+      ],
+      "volume_mm3": 4329.599999999999
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4570221.231627908,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51578,
+      "bounds_mm": [
+        155.0,
+        23.8,
+        109.44,
+        177.00000000000003,
+        32.0,
+        133.44
+      ],
+      "volume_mm3": 4329.600000000005,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4573242.463255816,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "019_Innenpad_Foto_ANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        155.0,
+        23.80000000000001,
+        581.88,
+        177.0,
+        32.000000000000014,
+        605.88
+      ],
+      "volume_mm3": 4329.599999999999
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4573242.463255815,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51729,
+      "bounds_mm": [
+        155.0,
+        23.8,
+        581.88,
+        177.00000000000003,
+        32.0,
+        605.88
+      ],
+      "volume_mm3": 4329.600000000007,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4577466.463255817,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "020_Fuss_Durchgangsbohrung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        16.5,
+        16.5,
+        -1.0,
+        27.5,
+        27.5,
+        19.0
+      ],
+      "volume_mm3": 1900.6635554218249
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4577466.463255817,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51617,
+      "bounds_mm": [
+        16.5,
+        16.5,
+        -1.0,
+        27.499999999999996,
+        27.499999999999996,
+        19.0
+      ],
+      "volume_mm3": 1900.6635554218242,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4575755.866055937,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "021_Fuss_Durchgangsbohrung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        16.5,
+        100.5,
+        -1.0,
+        27.5,
+        111.5,
+        19.0
+      ],
+      "volume_mm3": 1900.6635554218249
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4575755.8660559375,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51831,
+      "bounds_mm": [
+        16.5,
+        100.49999999999999,
+        -1.0,
+        27.499999999999996,
+        111.5,
+        19.0
+      ],
+      "volume_mm3": 1900.6635554218242,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4574045.268856059,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "022_Fuss_Durchgangsbohrung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        212.5,
+        16.5,
+        -1.0,
+        223.5,
+        27.5,
+        19.0
+      ],
+      "volume_mm3": 1900.6635554218249
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4574045.268856059,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 51878,
+      "bounds_mm": [
+        212.5,
+        16.5,
+        -1.0,
+        223.5,
+        27.499999999999996,
+        19.0
+      ],
+      "volume_mm3": 1900.6635554218242,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4572334.671656177,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "023_Fuss_Durchgangsbohrung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        212.5,
+        100.5,
+        -1.0,
+        223.5,
+        111.5,
+        19.0
+      ],
+      "volume_mm3": 1900.6635554218249
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4572334.671656178,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52025,
+      "bounds_mm": [
+        212.5,
+        100.49999999999999,
+        -1.0,
+        223.5,
+        111.5,
+        19.0
+      ],
+      "volume_mm3": 1900.6635554218242,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4570624.074456299,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "024_Seitliche_Rundoeffnung_KEIN_Lagersitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        50.0,
+        47.0,
+        724.0,
+        64.0,
+        79.0,
+        756.0
+      ],
+      "volume_mm3": 11259.468070465819
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4570624.074456299,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52101,
+      "bounds_mm": [
+        50.0,
+        47.0,
+        724.0,
+        64.0,
+        79.0,
+        756.0
+      ],
+      "volume_mm3": 11259.468070465822,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4560973.101824471,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "025_Obere_Durchfuehrung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        106.0,
+        32.0,
+        765.0,
+        134.0,
+        60.0,
+        781.0
+      ],
+      "volume_mm3": 9852.034561657592
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4560973.101824471,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52185,
+      "bounds_mm": [
+        106.0,
+        32.0,
+        765.0,
+        134.0,
+        60.0,
+        781.0
+      ],
+      "volume_mm3": 9852.034561657601,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4552352.57158302,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "026_Blechbefestigung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        50.900000000000006,
+        109.9,
+        52.9,
+        59.900000000000006,
+        114.1,
+        57.1
+      ],
+      "volume_mm3": 124.6898124209789
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4552352.571583017,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52256,
+      "bounds_mm": [
+        50.9,
+        109.89999999999999,
+        52.900000000000006,
+        59.9,
+        114.1,
+        57.1
+      ],
+      "volume_mm3": 124.68981242097894,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4552229.267212959,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "027_Blechbefestigung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        50.900000000000006,
+        109.9,
+        267.9,
+        59.900000000000006,
+        114.1,
+        272.1
+      ],
+      "volume_mm3": 124.6898124209789
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4552229.267212959,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52325,
+      "bounds_mm": [
+        50.9,
+        109.89999999999999,
+        267.90000000000003,
+        59.9,
+        114.1,
+        272.1
+      ],
+      "volume_mm3": 124.68981242097894,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4552105.962842898,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "028_Blechbefestigung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        50.900000000000006,
+        109.9,
+        527.9,
+        59.900000000000006,
+        114.1,
+        532.1
+      ],
+      "volume_mm3": 124.6898124209789
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4552105.962842898,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52368,
+      "bounds_mm": [
+        50.9,
+        109.89999999999999,
+        527.9000000000001,
+        59.9,
+        114.1,
+        532.1
+      ],
+      "volume_mm3": 124.68981242097894,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551982.658472838,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "029_Blechbefestigung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        50.900000000000006,
+        109.9,
+        712.9,
+        59.900000000000006,
+        114.1,
+        717.1
+      ],
+      "volume_mm3": 124.6898124209789
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551982.658472837,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52418,
+      "bounds_mm": [
+        50.9,
+        109.89999999999999,
+        712.9,
+        59.9,
+        114.1,
+        717.0999999999999
+      ],
+      "volume_mm3": 124.68981242097894,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551859.354102775,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "030_Blechbefestigung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        180.1,
+        109.9,
+        52.9,
+        189.1,
+        114.1,
+        57.1
+      ],
+      "volume_mm3": 124.6898124209789
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551859.354102775,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52478,
+      "bounds_mm": [
+        180.1,
+        109.89999999999999,
+        52.900000000000006,
+        189.1,
+        114.1,
+        57.1
+      ],
+      "volume_mm3": 124.68981242097905,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551736.049732715,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "031_Blechbefestigung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        180.1,
+        109.9,
+        267.9,
+        189.1,
+        114.1,
+        272.1
+      ],
+      "volume_mm3": 124.6898124209789
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551736.049732715,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52525,
+      "bounds_mm": [
+        180.1,
+        109.89999999999999,
+        267.90000000000003,
+        189.1,
+        114.1,
+        272.1
+      ],
+      "volume_mm3": 124.68981242097905,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551612.745362654,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "032_Blechbefestigung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        180.1,
+        109.9,
+        527.9,
+        189.1,
+        114.1,
+        532.1
+      ],
+      "volume_mm3": 124.6898124209789
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551612.745362654,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52580,
+      "bounds_mm": [
+        180.1,
+        109.89999999999999,
+        527.9000000000001,
+        189.1,
+        114.1,
+        532.1
+      ],
+      "volume_mm3": 124.68981242097905,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551489.440992594,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "033_Blechbefestigung_ANNAHME",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        180.1,
+        109.9,
+        712.9,
+        189.1,
+        114.1,
+        717.1
+      ],
+      "volume_mm3": 124.6898124209789
+    },
+    "target_before": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551489.440992592,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52611,
+      "bounds_mm": [
+        180.1,
+        109.89999999999999,
+        712.9,
+        189.1,
+        114.1,
+        717.0999999999999
+      ],
+      "volume_mm3": 124.68981242097905,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 49231,
+      "bounds_mm": [
+        0.0,
+        -4.0,
+        0.0,
+        240.0,
+        120.0,
+        780.0
+      ],
+      "volume_mm3": 4551366.136622531,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

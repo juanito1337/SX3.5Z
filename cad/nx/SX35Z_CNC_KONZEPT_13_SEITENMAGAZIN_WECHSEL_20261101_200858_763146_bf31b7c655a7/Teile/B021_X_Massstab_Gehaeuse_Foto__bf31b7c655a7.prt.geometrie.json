@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_X_Massstabhuelle_ANNAHME",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        708.0,
+        10.0,
+        20.0
+      ],
+      "volume_mm3": 141600.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 69705,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        708.0,
+        10.0,
+        20.0
+      ],
+      "volume_mm3": 141600.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 69705,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        708.0,
+        10.0,
+        20.0
+      ],
+      "volume_mm3": 141600.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Massstab_Laengsschlitz",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        3.0,
+        -0.20000000000000284,
+        4.0,
+        705.0,
+        7.799999999999997,
+        16.0
+      ],
+      "volume_mm3": 67392.0
+    },
+    "target_before": {
+      "tag": 69705,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        708.0,
+        10.0,
+        20.0
+      ],
+      "volume_mm3": 141600.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 69832,
+      "bounds_mm": [
+        3.0000000000000027,
+        -0.20000000000000312,
+        4.0,
+        705.0000000000001,
+        7.799999999999997,
+        16.0
+      ],
+      "volume_mm3": 67392.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 69705,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        708.0,
+        10.0,
+        20.0
+      ],
+      "volume_mm3": 75892.80000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

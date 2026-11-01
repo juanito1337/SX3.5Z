@@ -1,0 +1,1772 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        0.0,
+        31.5,
+        31.5,
+        22.0
+      ],
+      "volume_mm3": 68579.39683153838
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 111001,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        0.0,
+        31.5,
+        31.5,
+        22.0
+      ],
+      "volume_mm3": 68579.3968315384,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        0.0,
+        31.5,
+        31.5,
+        22.0
+      ],
+      "volume_mm3": 68579.3968315384,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Riemenrillen_Steg_0",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        2.0
+      ],
+      "volume_mm3": 6842.38879951857
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        0.0,
+        31.5,
+        31.5,
+        22.0
+      ],
+      "volume_mm3": 68579.3968315384,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111067,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        2.0
+      ],
+      "volume_mm3": 6842.3887995185705,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 69187.29501000802,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Riemenrillen_Steg_1",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        3.5,
+        33.0,
+        33.0,
+        5.5
+      ],
+      "volume_mm3": 6842.38879951857
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 69187.29501000802,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111384,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        3.5,
+        33.0,
+        33.0,
+        5.5
+      ],
+      "volume_mm3": 6842.388799518569,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 69795.19318847763,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Riemenrillen_Steg_2",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        7.0,
+        33.0,
+        33.0,
+        9.0
+      ],
+      "volume_mm3": 6842.38879951857
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 69795.19318847763,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111446,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        7.0,
+        33.0,
+        33.0,
+        9.0
+      ],
+      "volume_mm3": 6842.388799518572,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 70403.09136694726,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Riemenrillen_Steg_3",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        10.5,
+        33.0,
+        33.0,
+        12.5
+      ],
+      "volume_mm3": 6842.38879951857
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 70403.09136694728,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111508,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        10.5,
+        33.0,
+        33.0,
+        12.5
+      ],
+      "volume_mm3": 6842.38879951857,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 71010.98954541689,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Riemenrillen_Steg_4",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        14.0,
+        33.0,
+        33.0,
+        16.0
+      ],
+      "volume_mm3": 6842.38879951857
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 71010.98954541689,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111567,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        14.0,
+        33.0,
+        33.0,
+        16.0
+      ],
+      "volume_mm3": 6842.38879951857,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 71618.88772388651,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Riemenrillen_Steg_5",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        17.5,
+        33.0,
+        33.0,
+        19.5
+      ],
+      "volume_mm3": 6842.38879951857
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 71618.88772388651,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111626,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        17.5,
+        33.0,
+        33.0,
+        19.5
+      ],
+      "volume_mm3": 6842.388799518576,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 72226.78590235613,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -16.0,
+        -16.0,
+        22.0,
+        16.0,
+        16.0,
+        36.0
+      ],
+      "volume_mm3": 11259.468070465819
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        22.0
+      ],
+      "volume_mm3": 72226.78590235616,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111687,
+      "bounds_mm": [
+        -16.0,
+        -16.0,
+        22.0,
+        16.0,
+        16.0,
+        36.0
+      ],
+      "volume_mm3": 11259.468070465819,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83486.25397282197,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        15.25,
+        -0.75,
+        22.0,
+        16.75,
+        0.75,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83486.25397282197,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111746,
+      "bounds_mm": [
+        15.25,
+        -0.75,
+        22.0,
+        16.75,
+        0.75,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83474.00700538381,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        14.704813220625093,
+        3.3911047216403176,
+        22.0,
+        16.20481322062509,
+        4.891104721640318,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83474.00700538381,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111811,
+      "bounds_mm": [
+        14.7048132206251,
+        3.3911047216403203,
+        22.0,
+        16.2048132206251,
+        4.891104721640319,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83461.76003794566,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        13.10640646055102,
+        7.25,
+        22.0,
+        14.60640646055102,
+        8.75,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83461.76003794569,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111882,
+      "bounds_mm": [
+        13.106406460551,
+        7.25,
+        22.0,
+        14.606406460551002,
+        8.75,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83449.51307050753,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        10.563708498984761,
+        10.563708498984766,
+        22.0,
+        12.063708498984761,
+        12.063708498984766,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83449.51307050753,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 111955,
+      "bounds_mm": [
+        10.5637084989848,
+        10.5637084989848,
+        22.0,
+        12.063708498984802,
+        12.063708498984802,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83437.26610306937,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        7.250000000000002,
+        13.106406460551028,
+        22.0,
+        8.750000000000002,
+        14.606406460551028,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83437.26610306937,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112024,
+      "bounds_mm": [
+        7.25,
+        13.106406460551,
+        22.0,
+        8.75,
+        14.606406460551002,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83425.01913563121,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        3.391104721640332,
+        14.704813220625084,
+        22.0,
+        4.891104721640332,
+        16.204813220625084,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83425.01913563124,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112110,
+      "bounds_mm": [
+        3.3911047216403305,
+        14.7048132206251,
+        22.0,
+        4.89110472164033,
+        16.2048132206251,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83412.77216819307,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "015_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -0.749999999999999,
+        15.25,
+        22.0,
+        0.750000000000001,
+        16.75,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83412.77216819307,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112181,
+      "bounds_mm": [
+        -0.749999999999999,
+        15.25,
+        22.0,
+        0.750000000000001,
+        16.75,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83400.52520075491,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "016_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -4.89110472164033,
+        14.704813220625084,
+        22.0,
+        -3.39110472164033,
+        16.204813220625084,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83400.52520075496,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112245,
+      "bounds_mm": [
+        -4.89110472164033,
+        14.7048132206251,
+        22.0,
+        -3.3911047216403305,
+        16.2048132206251,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83388.2782333168,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "017_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -8.749999999999996,
+        13.106406460551028,
+        22.0,
+        -7.2499999999999964,
+        14.606406460551028,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83388.2782333168,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112316,
+      "bounds_mm": [
+        -8.75,
+        13.106406460551,
+        22.0,
+        -7.25,
+        14.606406460551002,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83376.03126587866,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "018_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -12.06370849898476,
+        10.563708498984766,
+        22.0,
+        -10.56370849898476,
+        12.063708498984766,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83376.03126587863,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112373,
+      "bounds_mm": [
+        -12.0637084989848,
+        10.5637084989848,
+        22.0,
+        -10.563708498984798,
+        12.063708498984802,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83363.78429844047,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "019_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -14.60640646055102,
+        7.25,
+        22.0,
+        -13.10640646055102,
+        8.75,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83363.78429844047,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112437,
+      "bounds_mm": [
+        -14.606406460551002,
+        7.25,
+        22.0,
+        -13.106406460551,
+        8.75,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83351.53733100231,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "020_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -16.20481322062509,
+        3.391104721640346,
+        22.0,
+        -14.704813220625091,
+        4.891104721640346,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83351.53733100233,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112509,
+      "bounds_mm": [
+        -16.2048132206251,
+        3.3911047216403496,
+        22.0,
+        -14.704813220625098,
+        4.89110472164035,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83339.29036356417,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "021_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -16.75,
+        -0.75,
+        22.0,
+        -15.25,
+        0.75,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83339.29036356419,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112574,
+      "bounds_mm": [
+        -16.75,
+        -0.75,
+        22.0,
+        -15.249999999999998,
+        0.75,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83327.04339612603,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "022_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -16.20481322062509,
+        -4.891104721640346,
+        22.0,
+        -14.704813220625093,
+        -3.391104721640346,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83327.04339612601,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112575,
+      "bounds_mm": [
+        -16.2048132206251,
+        -4.89110472164035,
+        22.0,
+        -14.704813220625098,
+        -3.39110472164035,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83314.79642868789,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "023_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -14.606406460551021,
+        -8.75,
+        22.0,
+        -13.106406460551021,
+        -7.25,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83314.79642868789,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112710,
+      "bounds_mm": [
+        -14.606406460551002,
+        -8.75,
+        22.0,
+        -13.106406460551,
+        -7.25,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83302.54946124974,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "024_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -12.063708498984766,
+        -12.063708498984766,
+        22.0,
+        -10.563708498984766,
+        -10.563708498984766,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83302.54946124976,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112785,
+      "bounds_mm": [
+        -12.0637084989848,
+        -12.0637084989848,
+        22.0,
+        -10.563708498984798,
+        -10.563708498984798,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83290.3024938116,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "025_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -8.750000000000007,
+        -14.606406460551,
+        22.0,
+        -7.250000000000007,
+        -13.106406460551,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83290.30249381157,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112853,
+      "bounds_mm": [
+        -8.75000000000001,
+        -14.606406460551002,
+        22.0,
+        -7.250000000000011,
+        -13.106406460551,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83278.05552637343,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "026_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -4.89110472164033,
+        -16.2048132206251,
+        22.0,
+        -3.39110472164033,
+        -14.704813220625098,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83278.05552637341,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 112933,
+      "bounds_mm": [
+        -4.89110472164033,
+        -16.2048132206251,
+        22.0,
+        -3.3911047216403305,
+        -14.704813220625098,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83265.80855893528,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "027_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -0.7500000000000029,
+        -16.75,
+        22.0,
+        0.7499999999999971,
+        -15.25,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83265.80855893531,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 113004,
+      "bounds_mm": [
+        -0.750000000000003,
+        -16.75,
+        22.0,
+        0.749999999999997,
+        -15.249999999999998,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83253.56159149716,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "028_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        3.3911047216403247,
+        -16.2048132206251,
+        22.0,
+        4.891104721640325,
+        -14.704813220625098,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83253.56159149716,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 113075,
+      "bounds_mm": [
+        3.3911047216403203,
+        -16.2048132206251,
+        22.0,
+        4.891104721640319,
+        -14.704813220625098,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83241.31462405898,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "029_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        7.250000000000002,
+        -14.606406460551028,
+        22.0,
+        8.750000000000002,
+        -13.106406460551028,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83241.314624059,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 113141,
+      "bounds_mm": [
+        7.25,
+        -14.606406460551002,
+        22.0,
+        8.75,
+        -13.106406460551,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.09347132054847,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83229.06765662086,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "030_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        10.563708498984758,
+        -12.063708498984766,
+        22.0,
+        12.063708498984758,
+        -10.563708498984766,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83229.06765662083,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 113213,
+      "bounds_mm": [
+        10.5637084989848,
+        -12.0637084989848,
+        22.0,
+        12.063708498984802,
+        -10.563708498984798,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83216.82068918268,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "031_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        13.106406460551014,
+        -8.75,
+        22.0,
+        14.606406460551014,
+        -7.25,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83216.8206891827,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 113277,
+      "bounds_mm": [
+        13.106406460551,
+        -8.75,
+        22.0,
+        14.606406460551002,
+        -7.25,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83204.57372174454,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "032_Zahnprofil_SYMBOLISCH",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        14.70481322062509,
+        -4.891104721640346,
+        22.0,
+        16.20481322062509,
+        -3.391104721640346,
+        36.2
+      ],
+      "volume_mm3": 25.09347132054847
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83204.57372174454,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 113250,
+      "bounds_mm": [
+        14.7048132206251,
+        -4.89110472164035,
+        22.0,
+        16.2048132206251,
+        -3.39110472164035,
+        36.199999999999996
+      ],
+      "volume_mm3": 25.093471320548467,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83192.32675430638,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "033_Durchgangsbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -8.0,
+        -8.0,
+        -0.10000000000002274,
+        8.0,
+        8.0,
+        36.09999999999998
+      ],
+      "volume_mm3": 7278.441859836833
+    },
+    "target_before": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 83192.32675430641,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 113320,
+      "bounds_mm": [
+        -8.0,
+        -8.0,
+        -0.100000000000023,
+        8.0,
+        8.0,
+        36.09999999999998
+      ],
+      "volume_mm3": 7278.441859836835,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 111001,
+      "bounds_mm": [
+        -33.0,
+        -33.0,
+        0.0,
+        33.0,
+        33.0,
+        36.0
+      ],
+      "volume_mm3": 75954.0972804355,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

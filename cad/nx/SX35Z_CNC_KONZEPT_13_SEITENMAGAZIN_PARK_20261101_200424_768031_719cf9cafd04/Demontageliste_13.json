@@ -1,0 +1,368 @@
+[
+  {
+    "id": "B066",
+    "name": "Riemenabdeckung_Blech",
+    "group": "06_Spindelmotor",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B067",
+    "name": "Anzugspindel_Abdeckung",
+    "group": "06_Spindelmotor",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B068",
+    "name": "Riemendeckel_Schraubknopf",
+    "group": "06_Spindelmotor",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B070",
+    "name": "Panelhalter",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B071",
+    "name": "Bediengehaeuse_Hohlschale",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B072",
+    "name": "Bedienfront_Aluminium",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B073",
+    "name": "Not_Halt_Kragen",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B074",
+    "name": "Not_Halt_Pilz",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B075",
+    "name": "Start_Stop_Taster",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B076",
+    "name": "Gewindetaster",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B077",
+    "name": "Drehzahlsteller",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B078",
+    "name": "Drehzahlanzeige_LCD_Foto",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B079",
+    "name": "Z_Taster_Seitenplatte",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B080",
+    "name": "Z_Taster_Auf",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B081",
+    "name": "Z_Taster_Ab",
+    "group": "07_Bedienpanel",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B082",
+    "name": "Blechsaeule_Seitenwand_links",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B083",
+    "name": "Blechsaeule_Seitenwand_rechts",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B084",
+    "name": "Blechsaeule_Rueckwand",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B085",
+    "name": "Blechsaeule_Schraegblech",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B086",
+    "name": "Blechsaeule_Stirnblech_unten",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B087",
+    "name": "Blechsaeule_Stirnblech_oben",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B088",
+    "name": "Blechsaeule_Querlasche_210",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B089",
+    "name": "Blechsaeule_Querlasche_530",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B090",
+    "name": "Kabelverschraubung_0",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B091",
+    "name": "Kabelverschraubung_1",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B092",
+    "name": "Z_Endschalter_unten",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B093",
+    "name": "Z_Endschalter_oben",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B094",
+    "name": "XMT_1000_DRIVER_Platine",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B095",
+    "name": "XMT_Steuer_Tochterplatine",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B096",
+    "name": "XMT_Mikrocontroller_Huelle",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B097",
+    "name": "XMT_Elko_00",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B098",
+    "name": "XMT_Elko_01",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B099",
+    "name": "XMT_Elko_02",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B100",
+    "name": "XMT_Elko_03",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B101",
+    "name": "XMT_Elko_04",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B102",
+    "name": "XMT_Leistungsklemmenblock",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B103",
+    "name": "XMT_Signalklemme",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B104",
+    "name": "XMT_Netzdrossel_Huelle",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B105",
+    "name": "EMI_Filter_Huelle",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B106",
+    "name": "PE_Sammelschiene",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B107",
+    "name": "TDE_2232_Transformator_Huelle",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B108",
+    "name": "Relais_Huelle",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B109",
+    "name": "Hilfsversorgung_Platine",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B110",
+    "name": "Hilfsversorgung_Trafokern",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B111",
+    "name": "Hilfsversorgung_Trafospule",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B112",
+    "name": "Hilfsversorgung_Kuehlkoerper",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B113",
+    "name": "Hilfsversorgung_USB_Buchse_Huelle",
+    "group": "09_Elektrik",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B114",
+    "name": "Spindelschutz_oben",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B115",
+    "name": "Spindelschutz_unten",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B116",
+    "name": "Schutz_Halter",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B117",
+    "name": "Schutz_Klemmschraube_-1",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B118",
+    "name": "Schutz_Klemmschraube_1",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B121",
+    "name": "Lampenhalter",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B122",
+    "name": "Arbeitslampe",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B123",
+    "name": "Arbeitslampe_Linse",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B124",
+    "name": "Riemenhauben_Sicherheitsschalter",
+    "group": "10_Schutz",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B125",
+    "name": "Wellschlauch_1_Neutralstellung",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B126",
+    "name": "Wellschlauch_2_Neutralstellung",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B127",
+    "name": "Netzeinbaustecker_Huelle",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B128",
+    "name": "Sicherungshalter_Huelle_0",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  },
+  {
+    "id": "B129",
+    "name": "Sicherungshalter_Huelle_1",
+    "group": "08_Blechsaeule",
+    "reason": "Nutzer01.11.2026: Originalanbau entfaellt im eingehausten CNC-Umbau; Funktion/Neuverkabelung separat auslegen."
+  }
+]

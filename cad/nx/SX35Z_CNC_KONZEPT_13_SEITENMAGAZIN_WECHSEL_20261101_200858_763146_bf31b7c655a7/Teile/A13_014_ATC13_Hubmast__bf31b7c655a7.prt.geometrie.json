@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        990.0,
+        -410.0,
+        12.0,
+        1110.0,
+        -290.0,
+        582.0
+      ],
+      "volume_mm3": 8208000.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 333406,
+      "bounds_mm": [
+        990.0,
+        -410.00000000000006,
+        12.0,
+        1110.0,
+        -290.00000000000006,
+        582.0000000000001
+      ],
+      "volume_mm3": 8208000.0000000065,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 333406,
+      "bounds_mm": [
+        990.0,
+        -410.00000000000006,
+        12.0,
+        1110.0,
+        -290.00000000000006,
+        582.0000000000001
+      ],
+      "volume_mm3": 8208000.0000000065,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Hohlprofil",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        996.0,
+        -404.0,
+        11.9,
+        1104.0,
+        -296.0,
+        582.1
+      ],
+      "volume_mm3": 6650812.800000001
+    },
+    "target_before": {
+      "tag": 333406,
+      "bounds_mm": [
+        990.0,
+        -410.00000000000006,
+        12.0,
+        1110.0,
+        -290.00000000000006,
+        582.0000000000001
+      ],
+      "volume_mm3": 8208000.0000000065,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 333512,
+      "bounds_mm": [
+        996.0,
+        -404.0,
+        11.9,
+        1104.0,
+        -296.0,
+        582.1
+      ],
+      "volume_mm3": 6650812.800000005,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 333406,
+      "bounds_mm": [
+        990.0,
+        -410.00000000000006,
+        12.0,
+        1110.0,
+        -290.00000000000006,
+        582.0000000000001
+      ],
+      "volume_mm3": 1559520.0000000016,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

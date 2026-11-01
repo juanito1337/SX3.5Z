@@ -1,0 +1,50 @@
+FF                                                                       [100%]
+================================== FAILURES ===================================
+_________ test_lift_motor_and_radial_rails_do_not_block_motion[park] __________
+
+pose = 'park'
+
+    @pytest.mark.parametrize('pose',['park','wechsel'])
+    def test_lift_motor_and_radial_rails_do_not_block_motion(pose):
+        from tools.atc13_pruefen import world_body
+        p=m.assembly_pose(m.load_parameters(),pose);ds={d['name']:d for d in m.recipe()}
+        pairs=[('Hubplatte','Hubmotor_Bremse_Reserve'),('Hubmast','Hubmotor_Bremse_Reserve')]
+        pairs += [('Greifergehaeuse','Radialfuehrung_'+str(t)) for t in (-24,24)]
+        for a,b in pairs:
+>           assert world_body(ds['ATC13_'+a],p).intersect(world_body(ds['ATC13_'+b],p)).Volume()<.01,(pose,a,b)
+E           AssertionError: ('park', 'Hubmast', 'Hubmotor_Bremse_Reserve')
+E           assert 17760.0 < 0.01
+E            +  where 17760.0 = Volume()
+E            +    where Volume = <cadquery.occ_impl.shapes.Compound object at 0x0000024F82010320>.Volume
+E            +      where <cadquery.occ_impl.shapes.Compound object at 0x0000024F82010320> = intersect(<cadquery.occ_impl.shapes.Solid object at 0x0000024F9BD743E0>)
+E            +        where intersect = <cadquery.occ_impl.shapes.Compound object at 0x0000024F99A34C80>.intersect
+E            +          where <cadquery.occ_impl.shapes.Compound object at 0x0000024F99A34C80> = <function world_body at 0x0000024F81F1F060>({'atc_motion': 'fixed', 'atc_operational': False, 'datum': ['0', '0', '0'], 'filename': 'A13_014_ATC13_Hubmast', ...}, {'a13_bay_left': 550.0, 'a13_c': 0.0, 'a13_cutter_projection': 35.0, 'a13_extend': 0.0, ...})
+E            +        and   <cadquery.occ_impl.shapes.Solid object at 0x0000024F9BD743E0> = <function world_body at 0x0000024F81F1F060>({'atc_motion': 'fixed', 'atc_operational': False, 'datum': ['0', '0', '0'], 'filename': 'A13_030_ATC13_Hubmotor_Bremse_Reserve', ...}, {'a13_bay_left': 550.0, 'a13_c': 0.0, 'a13_cutter_projection': 35.0, 'a13_extend': 0.0, ...})
+
+tests09\test_atc13.py:47: AssertionError
+________ test_lift_motor_and_radial_rails_do_not_block_motion[wechsel] ________
+
+pose = 'wechsel'
+
+    @pytest.mark.parametrize('pose',['park','wechsel'])
+    def test_lift_motor_and_radial_rails_do_not_block_motion(pose):
+        from tools.atc13_pruefen import world_body
+        p=m.assembly_pose(m.load_parameters(),pose);ds={d['name']:d for d in m.recipe()}
+        pairs=[('Hubplatte','Hubmotor_Bremse_Reserve'),('Hubmast','Hubmotor_Bremse_Reserve')]
+        pairs += [('Greifergehaeuse','Radialfuehrung_'+str(t)) for t in (-24,24)]
+        for a,b in pairs:
+>           assert world_body(ds['ATC13_'+a],p).intersect(world_body(ds['ATC13_'+b],p)).Volume()<.01,(pose,a,b)
+E           AssertionError: ('wechsel', 'Hubplatte', 'Hubmotor_Bremse_Reserve')
+E           assert 31999.999999999993 < 0.01
+E            +  where 31999.999999999993 = Volume()
+E            +    where Volume = <cadquery.occ_impl.shapes.Compound object at 0x0000024F8219F050>.Volume
+E            +      where <cadquery.occ_impl.shapes.Compound object at 0x0000024F8219F050> = intersect(<cadquery.occ_impl.shapes.Solid object at 0x0000024F82268860>)
+E            +        where intersect = <cadquery.occ_impl.shapes.Solid object at 0x0000024F9BFC8D40>.intersect
+E            +          where <cadquery.occ_impl.shapes.Solid object at 0x0000024F9BFC8D40> = <function world_body at 0x0000024F81F1F060>({'atc_motion': 'fixed', 'atc_operational': False, 'datum': ['0', '0', '0'], 'filename': 'A13_022_ATC13_Hubplatte', ...}, {'a13_bay_left': 550.0, 'a13_c': -0.9246780984747159, 'a13_cutter_projection': 35.0, 'a13_extend': 60.0, ...})
+E            +        and   <cadquery.occ_impl.shapes.Solid object at 0x0000024F82268860> = <function world_body at 0x0000024F81F1F060>({'atc_motion': 'fixed', 'atc_operational': False, 'datum': ['0', '0', '0'], 'filename': 'A13_030_ATC13_Hubmotor_Bremse_Reserve', ...}, {'a13_bay_left': 550.0, 'a13_c': -0.9246780984747159, 'a13_cutter_projection': 35.0, 'a13_extend': 60.0, ...})
+
+tests09\test_atc13.py:47: AssertionError
+=========================== short test summary info ===========================
+FAILED tests09/test_atc13.py::test_lift_motor_and_radial_rails_do_not_block_motion[park]
+FAILED tests09/test_atc13.py::test_lift_motor_and_radial_rails_do_not_block_motion[wechsel]
+2 failed, 9 deselected in 4.05s

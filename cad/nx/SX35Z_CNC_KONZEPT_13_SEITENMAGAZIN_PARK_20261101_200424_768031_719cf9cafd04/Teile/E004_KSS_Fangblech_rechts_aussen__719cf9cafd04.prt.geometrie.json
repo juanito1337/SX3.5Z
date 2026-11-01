@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Fangblech_Normaldicke_2mm",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        350.0,
+        -220.0,
+        40.0,
+        500.0,
+        382.0,
+        116.1897024540073
+      ],
+      "volume_mm3": 190506.13159685963
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 327768,
+      "bounds_mm": [
+        350.0,
+        -220.0,
+        39.999999999999986,
+        500.0,
+        382.0,
+        116.18970245400735
+      ],
+      "volume_mm3": 190506.13159685934,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 327768,
+      "bounds_mm": [
+        350.0,
+        -220.0,
+        39.999999999999986,
+        500.0,
+        382.0,
+        116.18970245400735
+      ],
+      "volume_mm3": 190506.13159685934,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

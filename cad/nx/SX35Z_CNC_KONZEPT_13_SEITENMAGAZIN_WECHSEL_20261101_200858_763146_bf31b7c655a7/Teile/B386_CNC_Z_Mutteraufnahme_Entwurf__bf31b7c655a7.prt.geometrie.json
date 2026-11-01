@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Entwurfsblock",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -26.5,
+        -20.0,
+        -30.75,
+        26.5,
+        20.0,
+        30.75
+      ],
+      "volume_mm3": 130380.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 269427,
+      "bounds_mm": [
+        -26.5,
+        -20.0,
+        -30.75,
+        26.5,
+        20.0,
+        30.75
+      ],
+      "volume_mm3": 130379.99999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 269427,
+      "bounds_mm": [
+        -26.5,
+        -20.0,
+        -30.75,
+        26.5,
+        20.0,
+        30.75
+      ],
+      "volume_mm3": 130379.99999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Mutteraufnahme_Nennhuelle",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -16.5,
+        -16.5,
+        -31.75,
+        16.5,
+        16.5,
+        31.75
+      ],
+      "volume_mm3": 54311.461096178646
+    },
+    "target_before": {
+      "tag": 269427,
+      "bounds_mm": [
+        -26.5,
+        -20.0,
+        -30.75,
+        26.5,
+        20.0,
+        30.75
+      ],
+      "volume_mm3": 130379.99999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 269536,
+      "bounds_mm": [
+        -16.5,
+        -16.5,
+        -31.75,
+        16.5,
+        16.5,
+        31.75
+      ],
+      "volume_mm3": 54311.46109617865,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 269427,
+      "bounds_mm": [
+        -26.5,
+        -20.0,
+        -30.75,
+        26.5,
+        20.0,
+        30.75
+      ],
+      "volume_mm3": 77779.13610370098,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

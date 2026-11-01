@@ -1,0 +1,38 @@
+[
+  {
+    "pose": "wechsel",
+    "file": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\step\\SX35Z_13_Wechsel.step",
+    "sha256": "c9fcfd67daed5e972b0e5853ea3aac1c5f1db4bb4c4d0a07d5ee79849472301b",
+    "date": "2026-11-01T20:13:31.025714+01:00",
+    "solids": 532,
+    "invalid": [],
+    "bounds_mm": [
+      -818.0000001,
+      -680.0,
+      -750.0000001,
+      1492.0,
+      1104.0,
+      1202.0
+    ],
+    "native_nx_reimport": false,
+    "manufacturing_released": false
+  },
+  {
+    "pose": "park",
+    "file": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\step\\SX35Z_13_Park.step",
+    "sha256": "b21a708c38fe3da378618b6e98417424fdb7734406e94cf0f95fe403cd3c6a79",
+    "date": "2026-11-01T20:13:37.140009+01:00",
+    "solids": 532,
+    "invalid": [],
+    "bounds_mm": [
+      -818.0000001,
+      -680.0,
+      -750.0000001,
+      1492.0,
+      1104.0,
+      1202.0
+    ],
+    "native_nx_reimport": false,
+    "manufacturing_released": false
+  }
+]

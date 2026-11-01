@@ -1,0 +1,3277 @@
+{
+  "version": "CNC_KONZEPT_13_SEITENMAGAZIN",
+  "date": "2026-11-01T20:11:44.805501+01:00",
+  "command": "C:/Siemens/nx2406/NXBIN/run_journal.exe C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_ATC_Konzept13_Pruefen.py",
+  "environment": "NX2406 target / 3.10.15 (main, Sep 30 2024, 11:52:23) [MSC v.1929 64 bit (AMD64)]",
+  "nxopen_module": "C:\\Siemens\\nx2406\\nxbin\\python\\NXOpen.pyd",
+  "native_nx_executed": true,
+  "saved_parts_reopened": true,
+  "source_prt_unchanged": true,
+  "build_ready": false,
+  "manufacturing_released": false,
+  "purchase_released": false,
+  "machine_operation_enabled": false,
+  "atc_operational": false,
+  "scope": "Fresh reopen, membership, positions, expressions, metadata and AP214; no motion or fit proof",
+  "directory": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_KONZEPT_13_SEITENMAGAZIN_WECHSEL_20261101_200858_763146_bf31b7c655a7",
+  "components": [
+    {
+      "id": "D026",
+      "file": "teile\\D026_Spannpaket_Zugstangenanschluss_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "D027",
+      "file": "teile\\D027_Spannpaket_Federraum_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "D028",
+      "file": "teile\\D028_Spannpaket_Loeseeinheit_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_001",
+      "file": "teile\\A13_001_ATC13_Rahmenbein_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_002",
+      "file": "teile\\A13_002_ATC13_Fussplatte_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_003",
+      "file": "teile\\A13_003_ATC13_Rahmenbein_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_004",
+      "file": "teile\\A13_004_ATC13_Fussplatte_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_005",
+      "file": "teile\\A13_005_ATC13_Rahmenbein_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_006",
+      "file": "teile\\A13_006_ATC13_Fussplatte_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_007",
+      "file": "teile\\A13_007_ATC13_Rahmenholm_Vorn__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_008",
+      "file": "teile\\A13_008_ATC13_Rahmenholm_Hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_009",
+      "file": "teile\\A13_009_ATC13_Rahmenholm_Rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_010",
+      "file": "teile\\A13_010_ATC13_Rahmenholm_Armseite__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_011",
+      "file": "teile\\A13_011_ATC13_Rahmenholm_Magazinquer__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_012",
+      "file": "teile\\A13_012_ATC13_Rahmenholm_MagazinquerLinks__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_013",
+      "file": "teile\\A13_013_ATC13_Mastauflage__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_014",
+      "file": "teile\\A13_014_ATC13_Hubmast__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_015",
+      "file": "teile\\A13_015_ATC13_Mastfuss__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_016",
+      "file": "teile\\A13_016_ATC13_Z_Fuehrung_-1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_017",
+      "file": "teile\\A13_017_ATC13_Z_Wagen_-1_270__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_018",
+      "file": "teile\\A13_018_ATC13_Z_Wagen_-1_400__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_019",
+      "file": "teile\\A13_019_ATC13_Z_Fuehrung_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_020",
+      "file": "teile\\A13_020_ATC13_Z_Wagen_1_270__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_021",
+      "file": "teile\\A13_021_ATC13_Z_Wagen_1_400__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_022",
+      "file": "teile\\A13_022_ATC13_Hubplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_023",
+      "file": "teile\\A13_023_ATC13_Lagertraeger_270__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_024",
+      "file": "teile\\A13_024_ATC13_Drehlager_270__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_025",
+      "file": "teile\\A13_025_ATC13_Lagertraeger_410__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_026",
+      "file": "teile\\A13_026_ATC13_Drehlager_410__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_027",
+      "file": "teile\\A13_027_ATC13_Drehwelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_028",
+      "file": "teile\\A13_028_ATC13_Hubspindel_Tr16_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_029",
+      "file": "teile\\A13_029_ATC13_Hubmutter_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_030",
+      "file": "teile\\A13_030_ATC13_Hubmotor_Montageplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_031",
+      "file": "teile\\A13_031_ATC13_Hubmotor_Bremse_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_032",
+      "file": "teile\\A13_032_ATC13_Hubkupplung_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_033",
+      "file": "teile\\A13_033_ATC13_Hubspindel_Lagerwinkel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_034",
+      "file": "teile\\A13_034_ATC13_Hubspindel_Festlager_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_035",
+      "file": "teile\\A13_035_ATC13_Schwenkantrieb_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_036",
+      "file": "teile\\A13_036_ATC13_Drehgeber_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_037",
+      "file": "teile\\A13_037_ATC13_Schwenkarm_Kasten80x40__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_038",
+      "file": "teile\\A13_038_ATC13_Radialfuehrung_Deckauflage__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_039",
+      "file": "teile\\A13_039_ATC13_Radialfuehrung_-24__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_040",
+      "file": "teile\\A13_040_ATC13_Radialfuehrung_24__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_041",
+      "file": "teile\\A13_041_ATC13_Radialschlitten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_042",
+      "file": "teile\\A13_042_ATC13_Radialzylinder_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_043",
+      "file": "teile\\A13_043_ATC13_Radialkolbenstange_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_044",
+      "file": "teile\\A13_044_ATC13_Zylinderkonsole__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_045",
+      "file": "teile\\A13_045_ATC13_Radialanlenkung__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_046",
+      "file": "teile\\A13_046_ATC13_Greifergehaeuse__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_047",
+      "file": "teile\\A13_047_ATC13_Greiferbacke_-1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_048",
+      "file": "teile\\A13_048_ATC13_Greiferbacke_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_049",
+      "file": "teile\\A13_049_ATC13_Greifer_Federklemmung_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_050",
+      "file": "teile\\A13_050_ATC13_Magazinauflage__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_051",
+      "file": "teile\\A13_051_ATC13_Magazinstaender__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_052",
+      "file": "teile\\A13_052_ATC13_Magazinlagerplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_053",
+      "file": "teile\\A13_053_ATC13_Magazinlager_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_054",
+      "file": "teile\\A13_054_ATC13_Magazinnabe__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_055",
+      "file": "teile\\A13_055_ATC13_Magazinscheibe_12__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_056",
+      "file": "teile\\A13_056_ATC13_Magazin_Getriebemotor_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_057",
+      "file": "teile\\A13_057_ATC13_Magazin_Motorflansch__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_058",
+      "file": "teile\\A13_058_ATC13_Magazin_Indexverriegelung_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_059",
+      "file": "teile\\A13_059_ATC13_Magazin_Indexhalter__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_060",
+      "file": "teile\\A13_060_ATC13_Magazin_Indexstift__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_061",
+      "file": "teile\\A13_061_ATC13_Magazingabel_01__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_062",
+      "file": "teile\\A13_062_ATC13_Taschenriegel_01__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_063",
+      "file": "teile\\A13_063_ATC13_BT30_Werkzeug_01__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_064",
+      "file": "teile\\A13_064_ATC13_Magazingabel_02__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_065",
+      "file": "teile\\A13_065_ATC13_Taschenriegel_02__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_066",
+      "file": "teile\\A13_066_ATC13_BT30_Werkzeug_02__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_067",
+      "file": "teile\\A13_067_ATC13_Magazingabel_03__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_068",
+      "file": "teile\\A13_068_ATC13_Taschenriegel_03__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_069",
+      "file": "teile\\A13_069_ATC13_BT30_Werkzeug_03__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_070",
+      "file": "teile\\A13_070_ATC13_Magazingabel_04__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_071",
+      "file": "teile\\A13_071_ATC13_Taschenriegel_04__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_072",
+      "file": "teile\\A13_072_ATC13_BT30_Werkzeug_04__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_073",
+      "file": "teile\\A13_073_ATC13_Magazingabel_05__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_074",
+      "file": "teile\\A13_074_ATC13_Taschenriegel_05__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_075",
+      "file": "teile\\A13_075_ATC13_BT30_Werkzeug_05__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_076",
+      "file": "teile\\A13_076_ATC13_Magazingabel_06__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_077",
+      "file": "teile\\A13_077_ATC13_Taschenriegel_06__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_078",
+      "file": "teile\\A13_078_ATC13_BT30_Werkzeug_06__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_079",
+      "file": "teile\\A13_079_ATC13_Magazingabel_07__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_080",
+      "file": "teile\\A13_080_ATC13_Taschenriegel_07__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_081",
+      "file": "teile\\A13_081_ATC13_BT30_Werkzeug_07__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_082",
+      "file": "teile\\A13_082_ATC13_Magazingabel_08__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_083",
+      "file": "teile\\A13_083_ATC13_Taschenriegel_08__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_084",
+      "file": "teile\\A13_084_ATC13_BT30_Werkzeug_08__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_085",
+      "file": "teile\\A13_085_ATC13_Magazingabel_09__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_086",
+      "file": "teile\\A13_086_ATC13_Taschenriegel_09__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_087",
+      "file": "teile\\A13_087_ATC13_BT30_Werkzeug_09__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_088",
+      "file": "teile\\A13_088_ATC13_Magazingabel_10__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_089",
+      "file": "teile\\A13_089_ATC13_Taschenriegel_10__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_090",
+      "file": "teile\\A13_090_ATC13_BT30_Werkzeug_10__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_091",
+      "file": "teile\\A13_091_ATC13_Magazingabel_11__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_092",
+      "file": "teile\\A13_092_ATC13_Taschenriegel_11__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_093",
+      "file": "teile\\A13_093_ATC13_BT30_Werkzeug_11__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_094",
+      "file": "teile\\A13_094_ATC13_Magazingabel_12__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_095",
+      "file": "teile\\A13_095_ATC13_Taschenriegel_12__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_096",
+      "file": "teile\\A13_096_ATC13_BT30_Werkzeug_12__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_104",
+      "file": "teile\\A13_104_ATC13_Magazinschutz_vorn__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_105",
+      "file": "teile\\A13_105_ATC13_Magazin_Tropfboden__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C001",
+      "file": "teile\\C001_Servicegriff_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C002",
+      "file": "teile\\C002_Griff_Hinterlegung_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C003",
+      "file": "teile\\C003_Griffscheibe_links1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C004",
+      "file": "teile\\C004_Griffschraube_links1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C005",
+      "file": "teile\\C005_Griffscheibe_links2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C006",
+      "file": "teile\\C006_Griffschraube_links2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C007",
+      "file": "teile\\C007_Servicegriff_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C008",
+      "file": "teile\\C008_Griff_Hinterlegung_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C009",
+      "file": "teile\\C009_Griffscheibe_rechts1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C010",
+      "file": "teile\\C010_Griffschraube_rechts1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C011",
+      "file": "teile\\C011_Griffscheibe_rechts2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C012",
+      "file": "teile\\C012_Griffschraube_rechts2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C013",
+      "file": "teile\\C013_Servicegriff_KSS__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C014",
+      "file": "teile\\C014_Griff_Hinterlegung_KSS__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C015",
+      "file": "teile\\C015_Griffscheibe_KSS1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C016",
+      "file": "teile\\C016_Griffschraube_KSS1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C017",
+      "file": "teile\\C017_Griffscheibe_KSS2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C018",
+      "file": "teile\\C018_Griffschraube_KSS2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C019",
+      "file": "teile\\C019_Kabelplatte_09__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C020",
+      "file": "teile\\C020_Kabelplatte_Flachdichtung_09__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C021",
+      "file": "teile\\C021_LAPP_53111020_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C022",
+      "file": "teile\\C022_LAPP_53119020_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C023",
+      "file": "teile\\C023_LAPP_53111020_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C024",
+      "file": "teile\\C024_LAPP_53119020_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C025",
+      "file": "teile\\C025_Kabelplatte_Scheibe_unten_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C026",
+      "file": "teile\\C026_Kabelplatte_Schraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C027",
+      "file": "teile\\C027_Kabelplatte_Scheibe_oben_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C028",
+      "file": "teile\\C028_Kabelplatte_Mutter_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C029",
+      "file": "teile\\C029_Kabelplatte_Scheibe_unten_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C030",
+      "file": "teile\\C030_Kabelplatte_Schraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C031",
+      "file": "teile\\C031_Kabelplatte_Scheibe_oben_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C032",
+      "file": "teile\\C032_Kabelplatte_Mutter_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C033",
+      "file": "teile\\C033_Kabelplatte_Scheibe_unten_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C034",
+      "file": "teile\\C034_Kabelplatte_Schraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C035",
+      "file": "teile\\C035_Kabelplatte_Scheibe_oben_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C036",
+      "file": "teile\\C036_Kabelplatte_Mutter_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C037",
+      "file": "teile\\C037_Kabelplatte_Scheibe_unten_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C038",
+      "file": "teile\\C038_Kabelplatte_Schraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C039",
+      "file": "teile\\C039_Kabelplatte_Scheibe_oben_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C040",
+      "file": "teile\\C040_Kabelplatte_Mutter_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C041",
+      "file": "teile\\C041_Kabelplatte_Scheibe_unten_5__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C042",
+      "file": "teile\\C042_Kabelplatte_Schraube_5__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C043",
+      "file": "teile\\C043_Kabelplatte_Scheibe_oben_5__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C044",
+      "file": "teile\\C044_Kabelplatte_Mutter_5__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C045",
+      "file": "teile\\C045_Kabelplatte_Scheibe_unten_6__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C046",
+      "file": "teile\\C046_Kabelplatte_Schraube_6__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C047",
+      "file": "teile\\C047_Kabelplatte_Scheibe_oben_6__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "C048",
+      "file": "teile\\C048_Kabelplatte_Mutter_6__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B430",
+      "file": "teile\\B430_IFS206_Referenz_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B431",
+      "file": "teile\\B431_IFS206_Referenz_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B432",
+      "file": "teile\\B432_IFS206_Referenz_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B433",
+      "file": "teile\\B433_IFS206_Referenz_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B434",
+      "file": "teile\\B434_IFS206_Referenz_5__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B435",
+      "file": "teile\\B435_IFS206_Referenz_6__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B249",
+      "file": "teile\\B249_KSS_Leitblech_links_vorn__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B250",
+      "file": "teile\\B250_KSS_Leitblech_links_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B251",
+      "file": "teile\\B251_KSS_Leitblech_rechts_vorn__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B252",
+      "file": "teile\\B252_KSS_Leitblech_rechts_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B253",
+      "file": "teile\\B253_KSS_Leitblech_Front_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B254",
+      "file": "teile\\B254_KSS_Leitblech_Front_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B255",
+      "file": "teile\\B255_KSS_Trichter_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B256",
+      "file": "teile\\B256_KSS_Trichter_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B257",
+      "file": "teile\\B257_KSS_Trichter_vorn__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B258",
+      "file": "teile\\B258_KSS_Trichter_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B259",
+      "file": "teile\\B259_KSS_Innenaufkantung_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B260",
+      "file": "teile\\B260_KSS_Innenaufkantung_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B261",
+      "file": "teile\\B261_KSS_Innenaufkantung_vorn__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B262",
+      "file": "teile\\B262_KSS_Innenaufkantung_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B263",
+      "file": "teile\\B263_KSS_Rueckwand_Aufkantung__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B264",
+      "file": "teile\\B264_KSS_Spaeneschacht_U__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B265",
+      "file": "teile\\B265_KSS_Spaeneschacht_Rueckwand__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B266",
+      "file": "teile\\B266_KSS_Ruecklaufkasten_U__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B267",
+      "file": "teile\\B267_KSS_Ruecklaufkasten_Stirnwand__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B268",
+      "file": "teile\\B268_KSS_Serviceklappe_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B269",
+      "file": "teile\\B269_KSS_Kastenhalter_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B270",
+      "file": "teile\\B270_KSS_Kastenhalter_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B271",
+      "file": "teile\\B271_KSS_Spaenekorb_U__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B272",
+      "file": "teile\\B272_KSS_Spaenekorb_Stirnwand_vorn__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B273",
+      "file": "teile\\B273_KSS_Spaenekorb_Stirnwand_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B274",
+      "file": "teile\\B274_KSS_Spaenekorb_Griff__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B275",
+      "file": "teile\\B275_KSS_Korbauflage_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B276",
+      "file": "teile\\B276_KSS_Korbauflage_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B277",
+      "file": "teile\\B277_KSS_Feinsieb_Klemmrahmen_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B278",
+      "file": "teile\\B278_KSS_Ablaufstutzen_nach_Korb__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B279",
+      "file": "teile\\B279_KSS_Tank_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B280",
+      "file": "teile\\B280_KSS_Tankdeckel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B281",
+      "file": "teile\\B281_KSS_Pumpe_Bauraum__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "E001",
+      "file": "teile\\E001_KSS_Fangblech_links_innen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "E002",
+      "file": "teile\\E002_KSS_Fangblech_links_aussen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "E003",
+      "file": "teile\\E003_KSS_Fangblech_rechts_innen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "E004",
+      "file": "teile\\E004_KSS_Fangblech_rechts_aussen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B282",
+      "file": "teile\\B282_Schaltschrank_Hohlschale__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B283",
+      "file": "teile\\B283_Schaltschrank_Tuer__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B284",
+      "file": "teile\\B284_Schrank_DIN_Schiene_110__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B285",
+      "file": "teile\\B285_Schrank_DIN_Schiene_320__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B286",
+      "file": "teile\\B286_Schrank_DIN_Schiene_600__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B287",
+      "file": "teile\\B287_Schrank_Kabelkanal_20__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B288",
+      "file": "teile\\B288_Schrank_Kabelkanal_270__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B289",
+      "file": "teile\\B289_Schrank_Kabelkanal_550__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B290",
+      "file": "teile\\B290_Mesa_7i95T_Einbauraum__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B291",
+      "file": "teile\\B291_Mesa_Klemmen_Huelle_330__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B292",
+      "file": "teile\\B292_Mesa_Klemmen_Huelle_380__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B293",
+      "file": "teile\\B293_Mesa_Klemmen_Huelle_430__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B294",
+      "file": "teile\\B294_Mesa_Klemmen_Huelle_480__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B295",
+      "file": "teile\\B295_Sicherheitsgeraet_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B296",
+      "file": "teile\\B296_Schuetz_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B297",
+      "file": "teile\\B297_Sicherungen_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B298",
+      "file": "teile\\B298_PE_Schiene_Schaltschrank__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B299",
+      "file": "teile\\B299_EMV_Filter_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B300",
+      "file": "teile\\B300_Reihenklemme_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B301",
+      "file": "teile\\B301_Reihenklemme_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B302",
+      "file": "teile\\B302_Reihenklemme_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B303",
+      "file": "teile\\B303_Reihenklemme_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B304",
+      "file": "teile\\B304_Reihenklemme_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B305",
+      "file": "teile\\B305_Reihenklemme_5__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B306",
+      "file": "teile\\B306_Reihenklemme_6__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B307",
+      "file": "teile\\B307_Reihenklemme_7__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B308",
+      "file": "teile\\B308_Reihenklemme_8__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B309",
+      "file": "teile\\B309_Bedienpult_Aussen_Reserve__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B310",
+      "file": "teile\\B310_Bedienpult_Taster_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B311",
+      "file": "teile\\B311_Bedienpult_Taster_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B423",
+      "file": "teile\\B423_Schaltschrank_Montageplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B424",
+      "file": "teile\\B424_Treiber_X_CS_D508_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B425",
+      "file": "teile\\B425_Treiber_Y_CS_D508_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B426",
+      "file": "teile\\B426_Treiber_Z_CS_D1008E_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B427",
+      "file": "teile\\B427_Achsenversorgung_RSP50048__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B428",
+      "file": "teile\\B428_24V_HDR6024__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B429",
+      "file": "teile\\B429_5V_HDR155__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B158",
+      "file": "teile\\B158_Einhausung_Seitenwand_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B159",
+      "file": "teile\\B159_Einhausung_Seitenscheibe_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B162",
+      "file": "teile\\B162_Einhausung_Dach__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B163",
+      "file": "teile\\B163_Einhausung_Tuerpfosten_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B164",
+      "file": "teile\\B164_Einhausung_Tuerpfosten_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B165",
+      "file": "teile\\B165_Einhausung_Tuerriegel_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B166",
+      "file": "teile\\B166_Einhausung_Tuerriegel_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B167",
+      "file": "teile\\B167_Einhausung_Festfeld_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B168",
+      "file": "teile\\B168_Einhausung_Festfeld_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B169",
+      "file": "teile\\B169_Einhausung_Frontschwelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B170",
+      "file": "teile\\B170_Einhausung_Frontsturz__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B171",
+      "file": "teile\\B171_Senktuer_LOWER_Rahmen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B172",
+      "file": "teile\\B172_Senktuer_LOWER_Scheibe__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B173",
+      "file": "teile\\B173_Senktuer_LOWER_Kantquerholm_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B174",
+      "file": "teile\\B174_Senktuer_LOWER_Kantquerholm_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B175",
+      "file": "teile\\B175_Senktuer_LOWER_Fensterklemmrahmen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B176",
+      "file": "teile\\B176_Senktuer_LOWER_Fensterschraube_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B177",
+      "file": "teile\\B177_Senktuer_LOWER_Fensterschraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B178",
+      "file": "teile\\B178_Senktuer_LOWER_Fensterschraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B179",
+      "file": "teile\\B179_Senktuer_LOWER_Fensterschraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B180",
+      "file": "teile\\B180_Senktuer_Fuehrung_LOWER_L__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B181",
+      "file": "teile\\B181_Senktuer_Schlitten_LOWER_L_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B182",
+      "file": "teile\\B182_Senktuer_Mitnehmer_LOWER_L_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B183",
+      "file": "teile\\B183_Senktuer_Schlitten_LOWER_L_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B184",
+      "file": "teile\\B184_Senktuer_Mitnehmer_LOWER_L_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B185",
+      "file": "teile\\B185_Senktuer_Fuehrung_LOWER_R__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B186",
+      "file": "teile\\B186_Senktuer_Schlitten_LOWER_R_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B187",
+      "file": "teile\\B187_Senktuer_Mitnehmer_LOWER_R_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B188",
+      "file": "teile\\B188_Senktuer_Schlitten_LOWER_R_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B189",
+      "file": "teile\\B189_Senktuer_Mitnehmer_LOWER_R_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B190",
+      "file": "teile\\B190_Senktuer_LOWER_Schaltfahne__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B191",
+      "file": "teile\\B191_Tuerueberwachung_LOWER_Bauraum__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B192",
+      "file": "teile\\B192_Senktuer_UPPER_Rahmen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B193",
+      "file": "teile\\B193_Senktuer_UPPER_Scheibe__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B194",
+      "file": "teile\\B194_Senktuer_UPPER_Kantquerholm_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B195",
+      "file": "teile\\B195_Senktuer_UPPER_Kantquerholm_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B196",
+      "file": "teile\\B196_Senktuer_UPPER_Fensterklemmrahmen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B197",
+      "file": "teile\\B197_Senktuer_UPPER_Fensterschraube_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B198",
+      "file": "teile\\B198_Senktuer_UPPER_Fensterschraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B199",
+      "file": "teile\\B199_Senktuer_UPPER_Fensterschraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B200",
+      "file": "teile\\B200_Senktuer_UPPER_Fensterschraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B201",
+      "file": "teile\\B201_Senktuer_UPPER_Griff__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B202",
+      "file": "teile\\B202_Senktuer_Fuehrung_UPPER_L__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B203",
+      "file": "teile\\B203_Senktuer_Schlitten_UPPER_L_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B204",
+      "file": "teile\\B204_Senktuer_Mitnehmer_UPPER_L_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B205",
+      "file": "teile\\B205_Senktuer_Schlitten_UPPER_L_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B206",
+      "file": "teile\\B206_Senktuer_Mitnehmer_UPPER_L_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B207",
+      "file": "teile\\B207_Senktuer_Fuehrung_UPPER_R__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B208",
+      "file": "teile\\B208_Senktuer_Schlitten_UPPER_R_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B209",
+      "file": "teile\\B209_Senktuer_Mitnehmer_UPPER_R_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B210",
+      "file": "teile\\B210_Senktuer_Schlitten_UPPER_R_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B211",
+      "file": "teile\\B211_Senktuer_Mitnehmer_UPPER_R_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B212",
+      "file": "teile\\B212_Senktuer_UPPER_Schaltfahne__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B213",
+      "file": "teile\\B213_Tuerueberwachung_UPPER_Bauraum__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B214",
+      "file": "teile\\B214_Senktuer_Traeger_L__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B215",
+      "file": "teile\\B215_Senktuer_Anschlusskonsole_L_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B216",
+      "file": "teile\\B216_Senktuer_Anschlusskonsole_L_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B217",
+      "file": "teile\\B217_Senktuer_Fangsicherung_L_Bauraum__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B218",
+      "file": "teile\\B218_Senktuer_Traeger_R__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B219",
+      "file": "teile\\B219_Senktuer_Anschlusskonsole_R_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B220",
+      "file": "teile\\B220_Senktuer_Anschlusskonsole_R_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B221",
+      "file": "teile\\B221_Senktuer_Fangsicherung_R_Bauraum__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B222",
+      "file": "teile\\B222_Senktuer_Obertraverse__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B223",
+      "file": "teile\\B223_Senktuer_Kassette_Front__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B224",
+      "file": "teile\\B224_Senktuer_Kassette_Seite_L__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B225",
+      "file": "teile\\B225_Senktuer_Kassette_Seite_R__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B226",
+      "file": "teile\\B226_Senktuer_Kassette_Boden__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B227",
+      "file": "teile\\B227_Senktuer_Kassette_Rueckwand__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B228",
+      "file": "teile\\B228_Gasfeder06_S1_-1_Zylinder_BAURAUM__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B229",
+      "file": "teile\\B229_Gasfeder06_S1_-1_Kolbenstange_BAURAUM__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B230",
+      "file": "teile\\B230_Gasfeder06_S1_-1_Auge_oben__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B231",
+      "file": "teile\\B231_Gasfeder06_S1_-1_Auge_unten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B232",
+      "file": "teile\\B232_Gasfeder06_S2_-1_Zylinder_BAURAUM__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B233",
+      "file": "teile\\B233_Gasfeder06_S2_-1_Kolbenstange_BAURAUM__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B234",
+      "file": "teile\\B234_Gasfeder06_S2_-1_Auge_oben__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B235",
+      "file": "teile\\B235_Gasfeder06_S2_-1_Auge_unten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B236",
+      "file": "teile\\B236_Gasfeder06_S1_1_Zylinder_BAURAUM__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B237",
+      "file": "teile\\B237_Gasfeder06_S1_1_Kolbenstange_BAURAUM__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B238",
+      "file": "teile\\B238_Gasfeder06_S1_1_Auge_oben__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B239",
+      "file": "teile\\B239_Gasfeder06_S1_1_Auge_unten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B240",
+      "file": "teile\\B240_Gasfeder06_S2_1_Zylinder_BAURAUM__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B241",
+      "file": "teile\\B241_Gasfeder06_S2_1_Kolbenstange_BAURAUM__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B242",
+      "file": "teile\\B242_Gasfeder06_S2_1_Auge_oben__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B243",
+      "file": "teile\\B243_Gasfeder06_S2_1_Auge_unten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B244",
+      "file": "teile\\B244_Senktuer_Federkanal06_L__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B245",
+      "file": "teile\\B245_Senktuer_Federkanal06_R__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B246",
+      "file": "teile\\B246_Staender_Blechschuerze_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B247",
+      "file": "teile\\B247_Staender_Blechschuerze_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B248",
+      "file": "teile\\B248_Einhausung_Tropfkante__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_097",
+      "file": "teile\\A13_097_ATC13_Wand_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_098",
+      "file": "teile\\A13_098_ATC13_Rueckwand_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_099",
+      "file": "teile\\A13_099_ATC13_Magazinwand_links__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_100",
+      "file": "teile\\A13_100_ATC13_Magazinwand_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_101",
+      "file": "teile\\A13_101_ATC13_Frontfluegel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_102",
+      "file": "teile\\A13_102_ATC13_Dach_rechts__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "A13_103",
+      "file": "teile\\A13_103_ATC13_Dach_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B135",
+      "file": "teile\\B135_Staender_Bein_0_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B136",
+      "file": "teile\\B136_Staender_Fuss_0_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B137",
+      "file": "teile\\B137_Staender_Bein_0_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B138",
+      "file": "teile\\B138_Staender_Fuss_0_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B139",
+      "file": "teile\\B139_Staender_Bein_1_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B140",
+      "file": "teile\\B140_Staender_Fuss_1_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B141",
+      "file": "teile\\B141_Staender_Bein_1_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B142",
+      "file": "teile\\B142_Staender_Fuss_1_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B143",
+      "file": "teile\\B143_Staender_Querholm_0_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B144",
+      "file": "teile\\B144_Staender_Querholm_0_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B145",
+      "file": "teile\\B145_Staender_Laengsholm_0_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B146",
+      "file": "teile\\B146_Staender_Laengsholm_0_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B147",
+      "file": "teile\\B147_Staender_Querholm_1_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B148",
+      "file": "teile\\B148_Staender_Querholm_1_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B149",
+      "file": "teile\\B149_Staender_Laengsholm_1_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B150",
+      "file": "teile\\B150_Staender_Laengsholm_1_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B151",
+      "file": "teile\\B151_Staender_Maschinentraverse_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B152",
+      "file": "teile\\B152_Staender_Maschinentraverse_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B153",
+      "file": "teile\\B153_Maschinen_Aufspannplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B154",
+      "file": "teile\\B154_Schrank_Traegerausleger_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B155",
+      "file": "teile\\B155_Schrank_Stuetzbein_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B156",
+      "file": "teile\\B156_Schrank_Traegerausleger_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B157",
+      "file": "teile\\B157_Schrank_Stuetzbein_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B385",
+      "file": "teile\\B385_CNC_Z_Rundmutter_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B386",
+      "file": "teile\\B386_CNC_Z_Mutteraufnahme_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B387",
+      "file": "teile\\B387_CNC_Z_Mutteranschluss_Kopf_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B388",
+      "file": "teile\\B388_CNC_Z_Tragbruecke_auf_Gusssaeule__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B389",
+      "file": "teile\\B389_CNC_Z_Anschlussplatte_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B390",
+      "file": "teile\\B390_CNC_Z_THK_Festlager__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B391",
+      "file": "teile\\B391_CNC_Z_FK_Schraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B392",
+      "file": "teile\\B392_CNC_Z_FK_Schraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B393",
+      "file": "teile\\B393_CNC_Z_FK_Schraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B394",
+      "file": "teile\\B394_CNC_Z_FK_Schraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B395",
+      "file": "teile\\B395_CNC_Z_THK_Loslager__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B396",
+      "file": "teile\\B396_CNC_Z_FF_Schraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B397",
+      "file": "teile\\B397_CNC_Z_FF_Schraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B398",
+      "file": "teile\\B398_CNC_Z_FF_Schraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B399",
+      "file": "teile\\B399_CNC_Z_FF_Schraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B400",
+      "file": "teile\\B400_CNC_Z_Loslager_Adapterplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B401",
+      "file": "teile\\B401_CNC_Z_Kugelspindel_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B402",
+      "file": "teile\\B402_CNC_Z_Kupplung_Spindel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B403",
+      "file": "teile\\B403_CNC_Z_Kupplung_Motor__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B404",
+      "file": "teile\\B404_CNC_Z_Kupplungsstern__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B405",
+      "file": "teile\\B405_CNC_Z_Distanzsaeule_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B406",
+      "file": "teile\\B406_CNC_Z_Halteschraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B407",
+      "file": "teile\\B407_CNC_Z_Distanzsaeule_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B408",
+      "file": "teile\\B408_CNC_Z_Halteschraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B409",
+      "file": "teile\\B409_CNC_Z_Distanzsaeule_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B410",
+      "file": "teile\\B410_CNC_Z_Halteschraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B411",
+      "file": "teile\\B411_CNC_Z_Distanzsaeule_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B412",
+      "file": "teile\\B412_CNC_Z_Halteschraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B413",
+      "file": "teile\\B413_CNC_Z_Motorplatte_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B414",
+      "file": "teile\\B414_CNC_Z_Motorbefestigung_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B415",
+      "file": "teile\\B415_CNC_Z_Motorbefestigung_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B416",
+      "file": "teile\\B416_CNC_Z_Motorbefestigung_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B417",
+      "file": "teile\\B417_CNC_Z_Motorbefestigung_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B418",
+      "file": "teile\\B418_CNC_Z_Motor_Frontflansch__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B419",
+      "file": "teile\\B419_CNC_Z_Motor_Gehaeuse__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B420",
+      "file": "teile\\B420_CNC_Z_Motor_Rueckdeckel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B421",
+      "file": "teile\\B421_CNC_Z_Motorbund__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B422",
+      "file": "teile\\B422_CNC_Z_Motorwelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B349",
+      "file": "teile\\B349_CNC_Y_Rundmutter_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B350",
+      "file": "teile\\B350_CNC_Y_Mutteraufnahme_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B351",
+      "file": "teile\\B351_CNC_Y_Anschlussplatte_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B352",
+      "file": "teile\\B352_CNC_Y_THK_Festlager__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B353",
+      "file": "teile\\B353_CNC_Y_FK_Schraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B354",
+      "file": "teile\\B354_CNC_Y_FK_Schraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B355",
+      "file": "teile\\B355_CNC_Y_FK_Schraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B356",
+      "file": "teile\\B356_CNC_Y_FK_Schraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B357",
+      "file": "teile\\B357_CNC_Y_THK_Loslager__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B358",
+      "file": "teile\\B358_CNC_Y_FF_Schraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B359",
+      "file": "teile\\B359_CNC_Y_FF_Schraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B360",
+      "file": "teile\\B360_CNC_Y_FF_Schraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B361",
+      "file": "teile\\B361_CNC_Y_FF_Schraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B362",
+      "file": "teile\\B362_CNC_Y_Loslager_Adapterplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B363",
+      "file": "teile\\B363_CNC_Y_Kugelspindel_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B364",
+      "file": "teile\\B364_CNC_Y_Kupplung_Spindel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B365",
+      "file": "teile\\B365_CNC_Y_Kupplung_Motor__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B366",
+      "file": "teile\\B366_CNC_Y_Kupplungsstern__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B367",
+      "file": "teile\\B367_CNC_Y_Distanzsaeule_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B368",
+      "file": "teile\\B368_CNC_Y_Halteschraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B369",
+      "file": "teile\\B369_CNC_Y_Distanzsaeule_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B370",
+      "file": "teile\\B370_CNC_Y_Halteschraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B371",
+      "file": "teile\\B371_CNC_Y_Distanzsaeule_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B372",
+      "file": "teile\\B372_CNC_Y_Halteschraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B373",
+      "file": "teile\\B373_CNC_Y_Distanzsaeule_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B374",
+      "file": "teile\\B374_CNC_Y_Halteschraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B375",
+      "file": "teile\\B375_CNC_Y_Motorplatte_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B376",
+      "file": "teile\\B376_CNC_Y_Motorbefestigung_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B377",
+      "file": "teile\\B377_CNC_Y_Motorbefestigung_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B378",
+      "file": "teile\\B378_CNC_Y_Motorbefestigung_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B379",
+      "file": "teile\\B379_CNC_Y_Motorbefestigung_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B380",
+      "file": "teile\\B380_CNC_Y_Motor_Frontflansch__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B381",
+      "file": "teile\\B381_CNC_Y_Motor_Gehaeuse__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B382",
+      "file": "teile\\B382_CNC_Y_Motor_Rueckdeckel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B383",
+      "file": "teile\\B383_CNC_Y_Motorbund__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B384",
+      "file": "teile\\B384_CNC_Y_Motorwelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B312",
+      "file": "teile\\B312_CNC_X_Rundmutter_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B313",
+      "file": "teile\\B313_CNC_X_Mutteraufnahme_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B314",
+      "file": "teile\\B314_CNC_X_Loslager_Brueckenwinkel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B315",
+      "file": "teile\\B315_CNC_X_Anschlussplatte_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B316",
+      "file": "teile\\B316_CNC_X_THK_Festlager__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B317",
+      "file": "teile\\B317_CNC_X_FK_Schraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B318",
+      "file": "teile\\B318_CNC_X_FK_Schraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B319",
+      "file": "teile\\B319_CNC_X_FK_Schraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B320",
+      "file": "teile\\B320_CNC_X_FK_Schraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B321",
+      "file": "teile\\B321_CNC_X_THK_Loslager__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B322",
+      "file": "teile\\B322_CNC_X_FF_Schraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B323",
+      "file": "teile\\B323_CNC_X_FF_Schraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B324",
+      "file": "teile\\B324_CNC_X_FF_Schraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B325",
+      "file": "teile\\B325_CNC_X_FF_Schraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B326",
+      "file": "teile\\B326_CNC_X_Loslager_Adapterplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B327",
+      "file": "teile\\B327_CNC_X_Kugelspindel_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B328",
+      "file": "teile\\B328_CNC_X_Kupplung_Spindel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B329",
+      "file": "teile\\B329_CNC_X_Kupplung_Motor__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B330",
+      "file": "teile\\B330_CNC_X_Kupplungsstern__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B331",
+      "file": "teile\\B331_CNC_X_Distanzsaeule_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B332",
+      "file": "teile\\B332_CNC_X_Halteschraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B333",
+      "file": "teile\\B333_CNC_X_Distanzsaeule_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B334",
+      "file": "teile\\B334_CNC_X_Halteschraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B335",
+      "file": "teile\\B335_CNC_X_Distanzsaeule_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B336",
+      "file": "teile\\B336_CNC_X_Halteschraube_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B337",
+      "file": "teile\\B337_CNC_X_Distanzsaeule_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B338",
+      "file": "teile\\B338_CNC_X_Halteschraube_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B339",
+      "file": "teile\\B339_CNC_X_Motorplatte_Entwurf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B340",
+      "file": "teile\\B340_CNC_X_Motorbefestigung_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B341",
+      "file": "teile\\B341_CNC_X_Motorbefestigung_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B342",
+      "file": "teile\\B342_CNC_X_Motorbefestigung_3__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B343",
+      "file": "teile\\B343_CNC_X_Motorbefestigung_4__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B344",
+      "file": "teile\\B344_CNC_X_Motor_Frontflansch__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B345",
+      "file": "teile\\B345_CNC_X_Motor_Gehaeuse__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B346",
+      "file": "teile\\B346_CNC_X_Motor_Rueckdeckel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B347",
+      "file": "teile\\B347_CNC_X_Motorbund__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B348",
+      "file": "teile\\B348_CNC_X_Motorwelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B119",
+      "file": "teile\\B119_Faltenbalg_Z__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B120",
+      "file": "teile\\B120_Faltenbalg_Y_hinten__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B054",
+      "file": "teile\\B054_W92_1000F_Gehaeuse_Rippen__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B055",
+      "file": "teile\\B055_W92_1000F_Rueckdeckel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B056",
+      "file": "teile\\B056_W92_1000F_Frontflansch__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B057",
+      "file": "teile\\B057_W92_1000F_Motorwelle_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B058",
+      "file": "teile\\B058_Spindelmotor_Montageplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B059",
+      "file": "teile\\B059_Motorplatte_Schraube_-1_-1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B060",
+      "file": "teile\\B060_Motorplatte_Schraube_-1_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B061",
+      "file": "teile\\B061_Motorplatte_Schraube_1_-1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B062",
+      "file": "teile\\B062_Motorplatte_Schraube_1_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B063",
+      "file": "teile\\B063_Spindel_Riemenscheibe__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B064",
+      "file": "teile\\B064_Motor_Riemenscheibe__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B065",
+      "file": "teile\\B065_Riemen_hoher_Bereich_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B069",
+      "file": "teile\\B069_Spindel_Drehzahlgeber_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B025",
+      "file": "teile\\B025_Spindelkopf_Guss_Detail__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B026",
+      "file": "teile\\B026_Z_Keilleiste_Kopf__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B027",
+      "file": "teile\\B027_Kopf_Frontplatte_Detail__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B028",
+      "file": "teile\\B028_Kopf_Unterblech_gelocht__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B029",
+      "file": "teile\\B029_Unterblech_Schraube_-1_72__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B030",
+      "file": "teile\\B030_Unterblech_Schraube_-1_196__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B031",
+      "file": "teile\\B031_Unterblech_Schraube_1_72__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B032",
+      "file": "teile\\B032_Unterblech_Schraube_1_196__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B033",
+      "file": "teile\\B033_Pinole_Huelse_Detail__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B034",
+      "file": "teile\\B034_Spindelnase_SK30_Normreferenz__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B035",
+      "file": "teile\\B035_Werkzeugspindel_Durchgehende_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B036",
+      "file": "teile\\B036_SK30_Mitnehmer_-1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B037",
+      "file": "teile\\B037_Mitnehmer_Schraube_-1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B038",
+      "file": "teile\\B038_SK30_Mitnehmer_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B039",
+      "file": "teile\\B039_Mitnehmer_Schraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B040",
+      "file": "teile\\B040_Spindel_Laengsverzahnung_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B041",
+      "file": "teile\\B041_Kopf_Typenschild__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B042",
+      "file": "teile\\B042_Digitale_Bohrtiefenanzeige__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B043",
+      "file": "teile\\B043_Pinolenanzeige_LCD__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B044",
+      "file": "teile\\B044_Pinolenanzeige_Taste_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B045",
+      "file": "teile\\B045_Pinolenanzeige_Taste_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B046",
+      "file": "teile\\B046_Pinolenanzeige_Taste_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B047",
+      "file": "teile\\B047_Pinole_Messstange__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B048",
+      "file": "teile\\B048_Frontplatten_Schraube_-1_15__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B049",
+      "file": "teile\\B049_Frontplatten_Schraube_-1_115__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B050",
+      "file": "teile\\B050_Frontplatten_Schraube_-1_205__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B051",
+      "file": "teile\\B051_Frontplatten_Schraube_1_15__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B052",
+      "file": "teile\\B052_Frontplatten_Schraube_1_115__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B053",
+      "file": "teile\\B053_Frontplatten_Schraube_1_205__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B130",
+      "file": "teile\\B130_Spindelschutz_Schalterhalter__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B131",
+      "file": "teile\\B131_Spindelschutz_Schalter_Huelle__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B132",
+      "file": "teile\\B132_Pinolenvorschub_Abdeckplatte__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B133",
+      "file": "teile\\B133_Pinole_Deckelschraube_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B134",
+      "file": "teile\\B134_Pinole_Deckelschraube_2__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B016",
+      "file": "teile\\B016_Arbeitstisch_Foto__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B017",
+      "file": "teile\\B017_X_Tisch_Stirnschraube_-1_-55__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B018",
+      "file": "teile\\B018_X_Tisch_Stirnschraube_-1_55__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B019",
+      "file": "teile\\B019_X_Tisch_Stirnschraube_1_-55__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B020",
+      "file": "teile\\B020_X_Tisch_Stirnschraube_1_55__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B021",
+      "file": "teile\\B021_X_Massstab_Gehaeuse_Foto__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B022",
+      "file": "teile\\B022_X_Massstab_Dichtlippe__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B008",
+      "file": "teile\\B008_Kreuzschlitten_Guss_Detail__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B009",
+      "file": "teile\\B009_X_Keilleiste_Sattel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B010",
+      "file": "teile\\B010_X_Keilleiste_Einstellschraube__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B011",
+      "file": "teile\\B011_Y_Massstab_Abdeckung__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B012",
+      "file": "teile\\B012_Y_Massstab_Distanz_-55__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B013",
+      "file": "teile\\B013_Y_Massstab_Distanz_55__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B014",
+      "file": "teile\\B014_X_Klemmhebel_0__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B015",
+      "file": "teile\\B015_X_Klemmhebel_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B023",
+      "file": "teile\\B023_X_Massstab_Lesekopf_Foto__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B024",
+      "file": "teile\\B024_X_Massstab_Lesekopfhalter_ANNAHME__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B002",
+      "file": "teile\\B002_Saeule_Guss_Foto__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B003",
+      "file": "teile\\B003_Saeulendeckel__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B004",
+      "file": "teile\\B004_Saeulenfuss_Schraube_-1_-1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B005",
+      "file": "teile\\B005_Saeulenfuss_Schraube_-1_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B006",
+      "file": "teile\\B006_Saeulenfuss_Schraube_1_-1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B007",
+      "file": "teile\\B007_Saeulenfuss_Schraube_1_1__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    },
+    {
+      "id": "B001",
+      "file": "teile\\B001_Basis_Guss_Foto__bf31b7c655a7.prt",
+      "fully_loaded": true,
+      "body_count": 1
+    }
+  ],
+  "errors": [],
+  "source_revision": "feaf3950c142590da45f353dc60b65c70ee527ed",
+  "source_sha256": {
+    "atc13_modell.py": "d6c588c39f6cecac9a6b3cf5696e061c1880098d9c0a4497ef984d44d63ac390",
+    "Ausbau_Parameter.json": "20a93f4fc2f29360a7fb4eb18d678d767fcb07fc9aca99df07f933793a38db10",
+    "blech06.py": "009289274f947c5701d939797c309992d04d9f1a603f450a8f9d0fc355b4066a",
+    "Blech_Optionen.json": "dae4f5f5855357d85c5c80ba30651dbe86e98ac5e9899019d2ebf5f8257c8e12",
+    "cnc_ansichtsmodell.py": "1572228de5480f71c0b76b6891d9f16404b010dcad384d6fc24fe69ece7f4097",
+    "cnc_ansichtsmodell01.py": "548c91ed360468d61e496ebd571252f7eab9159e1640a40c4e64f46c06fa0f50",
+    "cnc_ansichtsmodell07.py": "69021b46c7027201b260297fc35b1c93effa23f80c9487357dda371a79605803",
+    "cnc_ansichtsmodell08.py": "e29bcd6961c766c611ab7ad0cb79fad6c7791b3aa4367423427bb9bfdaa8da4a",
+    "CNC_Parameter.json": "c08fa4da67acc80545e8d863e6db9cfea2d7055aba1c438a6c68cd3265e07f06",
+    "Detail_Parameter_09.json": "0de5f20d911900bc304b092e5c61d04399641ff10f3d8d7515c0b932cf63eccd",
+    "enclosure_checks03.py": "4bfaaf41bc7520cc57a612600b5cddddd7009d90d0ae4cc2d6805f30cddb1b4a",
+    "formeln07.py": "bc0c228fec1960348877461a783b37976904104644398eb5151749bda4bbfa8b",
+    "Geometrie_Referenz_Ansicht.json": "9773884ed614e4d66d3165040e1b6e3f26101372f8dc1ee5d440c92363e6b09d",
+    "Layout_Parameter_11.json": "2f106ec34a54b6ce204380e0fbd1c21e1e150b18208763dbe026cbeaa1f1625a",
+    "Layout_Parameter_12.json": "330d506f2e82f6ba404cef250761df8f4e9dfe7df0a88d42281e6a96702f214c",
+    "modell_v4.py": "c44dd27e6affce912bc1410f741747a4e99e432cd52e8bb8220457d98d467af4",
+    "normteile09.py": "419ffa614bd693dd30bd44e9b3b79e30172aba4c3f2042d269da237932f0923b",
+    "NX_ATC_Konzept13.py": "e30054e59b38c6ad10db0ddfd14fd064a05b4d04fe31548d0842187db55659af",
+    "NX_ATC_Konzept13_Pruefen.py": "7fd5c8c736694440f2cc857ccbeae0a993928354443fcdbf13d2ea8cffd7bc22",
+    "NX_Ausgabe.json": "877b6fb178873348e8a0384bdd47203de8f55dc4f3cf7ea6745ca47354351967",
+    "NX_Blech_Pruefen.py": "9fee08b50fee33d89fb9d471b31cfef85e0b067872375a41895bd831a67db4b2",
+    "NX_CNC_Gesamtansicht.py": "4277eac1802b41e3ffc934326f44dea71de8f250c8c0e314e5de6ad37d00be37",
+    "NX_CNC_Wechselstellung.py": "c32c4bba1ef08c0b92380a90df4178f720f8839186497e94ed747d0186198929",
+    "NX_Farben.json": "641cfbb8a37ba247ba83d8e66f43ebdf43de3c7f3de99def469500808acae33f",
+    "nx_files.py": "62f0dae57c6d4c3b4d48cfc9706f0ebfcf3b4823f2bb3f24b0a86816b2575bf7",
+    "nx_formeln073.py": "53c83327512044bff9330432ec58f7b365ce3efbcf6c0cdfd2ee541600b6f0a5",
+    "nx_geometry.py": "3455911ea26ced5489e7bbaa46191ab23c6414ebaf657818159ff060ff5f9e58",
+    "NX_Git_Lieferstand_Pruefen.py": "44f4cbc95a65ade7d2cf0d4da154a45ab85eb911cef42f73a07713b0fc5f5e7f",
+    "NX_KSS_Pruefen.py": "88a4fab867fcb9ce47c68ee1b3155530b56e97d428b2ab79d5fd2ef38a213b37",
+    "NX_Metadaten_Pruefen.py": "60da599282b1f339f05791abdcab394e485e17e458d4147a3bcd67798faae202",
+    "nx_native.py": "605006bba7db6a8822885de4ddc92f5d005e41f302e756e257164c9b80fec9c8",
+    "NX_Normteile_ATC_Pruefen.py": "804b7bae9ea19e1142b695c038464ec9b759ddd35844042c225fb083a9799d08",
+    "nx_sheetmetal06.py": "cfb50313079e0fecbc8a439fb48e2d8e5557e49921698e400fba1485ae795e92",
+    "NX_Umbau_Kern_Pruefen.py": "73429665b31b63086f477c605de5b338da20a86cc632cb23d7671cb27a65de61",
+    "Parameter.json": "4229942e5ecc89447b4d4e41ff4aeb6d88b334c9d228455fa7bf64071a176db9",
+    "Projekt08_Berichte.py": "0a7bd95eb8f7be92e9cac90d41ade6393e408c37b7a4f7eee97d913328080fe6",
+    "Projekt09_Berichte.py": "7a40f293e8c52a74e25e06a0aff0e691eb4349fef8ed3b8880537fe848aa08e8",
+    "revision11.py": "fe8085e4f8c9f7ef33cd0f688f3ce195af3991292812641c7b9885df31f1c875",
+    "ruecklauf07.py": "a96d663bb14612a6a5d9ef2d041c28676b38ea3e6fdcb9fc4a85de6f7cbd448f",
+    "SHA256_Dateien.json": "f8268aa652107d63fcc7581abfbed060537406a009e3642adecc31fb3c159b7b",
+    "teller10.py": "d1794f2d006fae192f453512496c58bf25d5cb9a059118c3bd28823b41712921",
+    "teller12.py": "94f993d3df87f8dbd8e21fc33b1dd2e4d15e1bb77b87ea3a7c470a10173439e7",
+    "Teller_Parameter_10.json": "65fe76882c7f54b86c9771dcb1da188107b154cdea25fa3cb44753011daf18b8",
+    "umbau_daten08.py": "ed37304ac28fd6a3fd441a067b6a046ada5852e3512051db668389c579f940e4",
+    "umbau_daten09.py": "2a24e43422656395680cdcde72e14ac573314a8e9aa3331fb5b0a481cfd59629",
+    "v3_geometriebasis.py": "88435136e931d4798c33cad09bc55f339c4191a7250bbb6954cbe955f824072d"
+  },
+  "recipe_sha256": "daef21db59496a5f129b536679a207c24e1b4f76e7cb72d5d8f9dae6f3d2cdb4",
+  "unloaded": [],
+  "part_count": 532,
+  "group_count": 17,
+  "metadata_expressions_checked": 4148,
+  "expressions_checked": 6244,
+  "native_sheetmetal_parts_reopened": 24,
+  "step_export": {
+    "file": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_KONZEPT_13_SEITENMAGAZIN_WECHSEL_20261101_200858_763146_bf31b7c655a7\\SX35Z_KONZEPT13_WECHSEL_20261101_201144_805501_467522a4.step",
+    "bytes": 7679750,
+    "sha256": "c9fcfd67daed5e972b0e5853ea3aac1c5f1db4bb4c4d0a07d5ee79849472301b",
+    "format": "AP214",
+    "scope": "EntireAssembly",
+    "source_prt_saved": false
+  },
+  "journal_completed": true
+}

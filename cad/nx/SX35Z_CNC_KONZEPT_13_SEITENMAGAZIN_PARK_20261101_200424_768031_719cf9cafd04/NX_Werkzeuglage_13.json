@@ -1,0 +1,25 @@
+{
+  "native_nx_executed": true,
+  "pose": "park",
+  "part_id": "A13_063",
+  "measured_holder_cone_axis_and_gauge_mm": [
+    850.0,
+    569.2388155425122,
+    440.0
+  ],
+  "expected_holder_gauge_mm": [
+    850.0,
+    569.2388155425118,
+    440.0
+  ],
+  "nominal_spindle_axis_and_face_mm": [
+    0.0,
+    0.0,
+    470.0
+  ],
+  "tolerance_mm": 1e-05,
+  "nominal_alignment_verified": false,
+  "spindle_interface_verified": false,
+  "spindle_clamping_verified": false,
+  "trajectory_verified": false
+}

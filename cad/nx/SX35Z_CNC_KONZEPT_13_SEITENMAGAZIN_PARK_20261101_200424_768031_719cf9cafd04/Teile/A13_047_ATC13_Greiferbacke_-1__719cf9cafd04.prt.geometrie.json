@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Armprofil_add",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        873.0,
+        464.2388155425118,
+        425.0,
+        910.0,
+        534.2388155425118,
+        431.0
+      ],
+      "volume_mm3": 15540.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 348136,
+      "bounds_mm": [
+        873.0,
+        464.2388155425118,
+        425.0,
+        910.0,
+        534.2388155425118,
+        431.0
+      ],
+      "volume_mm3": 15540.000000000027,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 348136,
+      "bounds_mm": [
+        873.0,
+        464.2388155425118,
+        425.0,
+        910.0,
+        534.2388155425118,
+        431.0
+      ],
+      "volume_mm3": 15540.000000000027,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Flanschnut_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        851.75,
+        488.9888155425118,
+        424.9,
+        892.25,
+        529.4888155425118,
+        431.09999999999997
+      ],
+      "volume_mm3": 7987.14589257852
+    },
+    "target_before": {
+      "tag": 348136,
+      "bounds_mm": [
+        873.0,
+        464.2388155425118,
+        425.0,
+        910.0,
+        534.2388155425118,
+        431.0
+      ],
+      "volume_mm3": 15540.000000000027,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 348551,
+      "bounds_mm": [
+        851.75,
+        488.98881554251204,
+        424.9,
+        892.25,
+        529.488815542512,
+        431.09999999999997
+      ],
+      "volume_mm3": 7987.145892578498,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 348136,
+      "bounds_mm": [
+        873.0,
+        464.2388155425118,
+        425.0,
+        910.0,
+        534.2388155425118,
+        431.0
+      ],
+      "volume_mm3": 11918.15318587024,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

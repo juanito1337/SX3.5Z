@@ -1,0 +1,746 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        655.0,
+        594.2388155425118,
+        403.0,
+        1045.0,
+        984.2388155425118,
+        413.0
+      ],
+      "volume_mm3": 1194590.6065275187
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1194590.6065275199,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1194590.6065275199,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Zylinder",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        820.0,
+        759.2388155425118,
+        402.9,
+        880.0,
+        819.2388155425118,
+        413.09999999999997
+      ],
+      "volume_mm3": 28839.8205599543
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1194590.6065275199,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352350,
+      "bounds_mm": [
+        820.0,
+        759.238815542512,
+        402.9,
+        880.0,
+        819.2388155425122,
+        413.09999999999997
+      ],
+      "volume_mm3": 28839.82055995426,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1166316.2726452118,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        1016.75,
+        785.9888155425118,
+        402.9,
+        1023.25,
+        792.4888155425118,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1166316.2726452118,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352429,
+      "bounds_mm": [
+        1016.75,
+        785.988815542512,
+        402.9,
+        1023.25,
+        792.488815542512,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1165984.4419211762,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        993.9743186433545,
+        870.9888155425118,
+        402.9,
+        1000.4743186433545,
+        877.4888155425118,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1165984.4419211762,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352493,
+      "bounds_mm": [
+        993.9743186433551,
+        870.988815542512,
+        402.9,
+        1000.4743186433552,
+        877.488815542512,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1165652.611197141,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        931.75,
+        933.2131341858664,
+        402.9,
+        938.25,
+        939.7131341858664,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1165652.6111971408,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352557,
+      "bounds_mm": [
+        931.7500000000001,
+        933.213134185866,
+        402.9,
+        938.2500000000001,
+        939.713134185866,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1165320.7804731054,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        846.75,
+        955.9888155425118,
+        402.9,
+        853.25,
+        962.4888155425118,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1165320.7804731051,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352621,
+      "bounds_mm": [
+        846.75,
+        955.9888155425122,
+        402.9,
+        853.25,
+        962.4888155425122,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1164988.94974907,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        761.75,
+        933.2131341858665,
+        402.9,
+        768.25,
+        939.7131341858665,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1164988.9497490695,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352685,
+      "bounds_mm": [
+        761.75,
+        933.213134185866,
+        402.9,
+        768.25,
+        939.713134185866,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1164657.1190250348,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        699.5256813566455,
+        870.9888155425118,
+        402.9,
+        706.0256813566455,
+        877.4888155425118,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1164657.1190250344,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352741,
+      "bounds_mm": [
+        699.525681356645,
+        870.988815542512,
+        402.9,
+        706.025681356645,
+        877.488815542512,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1164325.2883009992,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        676.75,
+        785.9888155425118,
+        402.9,
+        683.25,
+        792.4888155425118,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1164325.2883009985,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352790,
+      "bounds_mm": [
+        676.7500000000001,
+        785.988815542512,
+        402.9,
+        683.2500000000001,
+        792.488815542512,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1163993.4575769636,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        699.5256813566455,
+        700.9888155425118,
+        402.9,
+        706.0256813566455,
+        707.4888155425118,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1163993.457576963,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352850,
+      "bounds_mm": [
+        699.525681356645,
+        700.9888155425122,
+        402.9,
+        706.025681356645,
+        707.4888155425122,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1163661.6268529284,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        761.7499999999999,
+        638.7644968991573,
+        402.9,
+        768.2499999999999,
+        645.2644968991573,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1163661.6268529275,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352914,
+      "bounds_mm": [
+        761.75,
+        638.764496899157,
+        402.9,
+        768.25,
+        645.264496899157,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1163329.7961288926,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        846.75,
+        615.9888155425118,
+        402.9,
+        853.25,
+        622.4888155425118,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1163329.796128892,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 352978,
+      "bounds_mm": [
+        846.75,
+        615.988815542512,
+        402.9,
+        853.25,
+        622.488815542512,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1162997.9654048576,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        931.75,
+        638.7644968991573,
+        402.9,
+        938.25,
+        645.2644968991573,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1162997.9654048565,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 353030,
+      "bounds_mm": [
+        931.7500000000001,
+        638.764496899157,
+        402.9,
+        938.2500000000001,
+        645.264496899157,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1162666.134680822,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Indexbohrung_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        993.9743186433545,
+        700.9888155425117,
+        402.9,
+        1000.4743186433545,
+        707.4888155425117,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613027
+    },
+    "target_before": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1162666.1346808223,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 353094,
+      "bounds_mm": [
+        993.9743186433551,
+        700.9888155425122,
+        402.9,
+        1000.4743186433552,
+        707.4888155425122,
+        413.09999999999997
+      ],
+      "volume_mm3": 338.46733851613,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 352287,
+      "bounds_mm": [
+        655.0,
+        594.238815542512,
+        403.0,
+        1045.0,
+        984.2388155425122,
+        413.0
+      ],
+      "volume_mm3": 1162334.3039567866,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

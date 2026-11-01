@@ -1,0 +1,206 @@
+[
+  {
+    "feature": "001_Gewindekern_Nennhuelle_ohne_Laufbahn",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -8.0,
+        5.0,
+        -8.0,
+        8.0,
+        340.0,
+        8.0
+      ],
+      "volume_mm3": 67355.74649296516
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 257064,
+      "bounds_mm": [
+        -8.0,
+        5.000000000000004,
+        -8.0,
+        8.0,
+        340.0,
+        8.0
+      ],
+      "volume_mm3": 67355.74649296518,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 257064,
+      "bounds_mm": [
+        -8.0,
+        5.000000000000004,
+        -8.0,
+        8.0,
+        340.0,
+        8.0
+      ],
+      "volume_mm3": 67355.74649296518,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Festlagerzapfen_Huelle_KEINE_ENDENZEICHNUNG",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -6.0,
+        -38.0,
+        -6.0,
+        6.0,
+        5.0,
+        6.0
+      ],
+      "volume_mm3": 4863.185427756999
+    },
+    "target_before": {
+      "tag": 257064,
+      "bounds_mm": [
+        -8.0,
+        5.000000000000004,
+        -8.0,
+        8.0,
+        340.0,
+        8.0
+      ],
+      "volume_mm3": 67355.74649296518,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 257141,
+      "bounds_mm": [
+        -6.0,
+        -38.00000000000001,
+        -6.0,
+        6.0,
+        4.999999999999993,
+        6.0
+      ],
+      "volume_mm3": 4863.185427757,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 257064,
+      "bounds_mm": [
+        -8.0,
+        -38.00000000000001,
+        -8.0,
+        8.0,
+        340.0,
+        8.0
+      ],
+      "volume_mm3": 72218.93192072219,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Kupplungszapfen_Entwurf",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -5.0,
+        -60.0,
+        -5.0,
+        5.0,
+        -38.0,
+        5.0
+      ],
+      "volume_mm3": 1727.875959474386
+    },
+    "target_before": {
+      "tag": 257064,
+      "bounds_mm": [
+        -8.0,
+        -38.00000000000001,
+        -8.0,
+        8.0,
+        340.0,
+        8.0
+      ],
+      "volume_mm3": 72218.93192072217,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 257199,
+      "bounds_mm": [
+        -5.0,
+        -60.0,
+        -5.0,
+        5.0,
+        -38.0,
+        5.0
+      ],
+      "volume_mm3": 1727.8759594743865,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 257064,
+      "bounds_mm": [
+        -8.0,
+        -60.0,
+        -8.0,
+        8.0,
+        340.0,
+        8.0
+      ],
+      "volume_mm3": 73946.80788019656,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Loslagerzapfen_ohne_Sicherungsringnut",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -5.0,
+        340.0,
+        -5.0,
+        5.0,
+        365.0,
+        5.0
+      ],
+      "volume_mm3": 1963.4954084936207
+    },
+    "target_before": {
+      "tag": 257064,
+      "bounds_mm": [
+        -8.0,
+        -60.0,
+        -8.0,
+        8.0,
+        340.0,
+        8.0
+      ],
+      "volume_mm3": 73946.80788019656,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 257264,
+      "bounds_mm": [
+        -5.0,
+        339.99999999999994,
+        -5.0,
+        5.0,
+        364.99999999999994,
+        5.0
+      ],
+      "volume_mm3": 1963.4954084936226,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 257064,
+      "bounds_mm": [
+        -8.0,
+        -60.0,
+        -8.0,
+        8.0,
+        365.0,
+        8.0
+      ],
+      "volume_mm3": 75910.3032886902,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

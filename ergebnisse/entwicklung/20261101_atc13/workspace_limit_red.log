@@ -1,0 +1,15 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+_______________ test_no_false_release_and_named_workpiece_limit _______________
+
+    def test_no_false_release_and_named_workpiece_limit():
+        r=m.atc_report(m.load_parameters())
+        assert not r['atc_operational'] and not r['manufacturing_released']
+        assert r['pocket_count']==12
+>       assert r['toolchange_workpiece_limit_mm']==125.
+E       assert 140.0 == 125.0
+
+tests09\test_atc13.py:25: AssertionError
+=========================== short test summary info ===========================
+FAILED tests09/test_atc13.py::test_no_false_release_and_named_workpiece_limit
+1 failed, 10 deselected in 0.16s

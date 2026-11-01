@@ -1,0 +1,33 @@
+{
+  "schema": "ATC13_SINGLE_ARM_CONCEPT",
+  "pocket_count": 12,
+  "tool_carried": false,
+  "gripper_axis_xy_mm": [
+    850.0,
+    509.2388155425118
+  ],
+  "transfer_holder_gauge_mm": [
+    850.0,
+    569.2388155425118,
+    440.0
+  ],
+  "nominal_spindle_axis_and_face_mm": [
+    0.0,
+    0.0,
+    470.0
+  ],
+  "magazine_center_xy_mm": [
+    850.0,
+    789.2388155425118
+  ],
+  "pocket_pitch_mm": 113.88037984510913,
+  "toolchange_workpiece_limit_mm": 125.0,
+  "unrestricted_arbitrary_workpiece_change": false,
+  "manufacturing_released": false,
+  "atc_operational": false,
+  "machine_operation_enabled": false,
+  "spindle_clamping_verified": false,
+  "trajectory_verified": false,
+  "source": "E13 engineering draft; original SK30 remains; BT30 interface and tool orientation pending",
+  "sequence": "Retracted low swing; extend only at endpoints; spindle vertical extraction; pocket retention before gripper release"
+}

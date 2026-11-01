@@ -1,0 +1,25 @@
+{
+  "native_nx_executed": true,
+  "pose": "wechsel",
+  "part_id": "A13_063",
+  "measured_holder_cone_axis_and_gauge_mm": [
+    -2.61138666246552e-10,
+    -2.710294211283326e-10,
+    530.0
+  ],
+  "expected_holder_gauge_mm": [
+    0.0,
+    0.0,
+    530.0
+  ],
+  "nominal_spindle_axis_and_face_mm": [
+    0.0,
+    0.0,
+    530.0
+  ],
+  "tolerance_mm": 1e-05,
+  "nominal_alignment_verified": true,
+  "spindle_interface_verified": false,
+  "spindle_clamping_verified": false,
+  "trajectory_verified": false
+}

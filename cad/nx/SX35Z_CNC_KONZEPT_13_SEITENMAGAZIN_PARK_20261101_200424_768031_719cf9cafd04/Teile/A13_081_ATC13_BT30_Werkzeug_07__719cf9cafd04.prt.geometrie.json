@@ -1,0 +1,368 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        833.0,
+        992.2388155425118,
+        370.0,
+        867.0,
+        1026.238815542512,
+        440.0
+      ],
+      "volume_mm3": 63554.41938212151
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 370558,
+      "bounds_mm": [
+        833.0,
+        992.23881554251,
+        370.0,
+        867.0,
+        1026.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 63554.41938212153,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 370558,
+      "bounds_mm": [
+        833.0,
+        992.23881554251,
+        370.0,
+        867.0,
+        1026.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 63554.41938212153,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        827.0,
+        986.2388155425118,
+        420.0,
+        873.0,
+        1032.238815542512,
+        425.0
+      ],
+      "volume_mm3": 8309.512568745004
+    },
+    "target_before": {
+      "tag": 370558,
+      "bounds_mm": [
+        833.0,
+        992.23881554251,
+        370.0,
+        867.0,
+        1026.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 63554.41938212153,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 370526,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        420.0,
+        873.0,
+        1032.2388155425099,
+        425.0
+      ],
+      "volume_mm3": 8309.51256874501,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        370.0,
+        873.0,
+        1032.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 67324.33056642929,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        830.0,
+        989.2388155425118,
+        425.0,
+        870.0,
+        1029.238815542512,
+        431.0
+      ],
+      "volume_mm3": 7539.822368615503
+    },
+    "target_before": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        370.0,
+        873.0,
+        1032.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 67324.33056642929,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 370685,
+      "bounds_mm": [
+        830.0,
+        989.23881554251,
+        425.0,
+        870.0,
+        1029.23881554251,
+        431.0
+      ],
+      "volume_mm3": 7539.822368615512,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        370.0,
+        873.0,
+        1032.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 69416.63127372008,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        827.0,
+        986.2388155425118,
+        431.0,
+        873.0,
+        1032.238815542512,
+        436.0
+      ],
+      "volume_mm3": 8309.512568745004
+    },
+    "target_before": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        370.0,
+        873.0,
+        1032.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 69416.63127372008,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 370741,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        431.0,
+        873.0,
+        1032.2388155425099,
+        436.0
+      ],
+      "volume_mm3": 8309.51256874501,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        370.0,
+        873.0,
+        1032.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 73186.54245802783,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        840.0,
+        999.2388155425118,
+        335.0,
+        860.0,
+        1019.2388155425118,
+        370.0
+      ],
+      "volume_mm3": 10995.574287564275
+    },
+    "target_before": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        370.0,
+        873.0,
+        1032.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 73186.54245802785,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 370803,
+      "bounds_mm": [
+        840.0,
+        999.23881554251,
+        335.0,
+        860.0,
+        1019.23881554251,
+        370.0
+      ],
+      "volume_mm3": 10995.57428756427,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        335.0,
+        873.0,
+        1032.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 84182.11674559212,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Kegel",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        834.125,
+        993.3638155425118,
+        440.0,
+        865.875,
+        1025.113815542512,
+        488.4
+      ],
+      "volume_mm3": 23807.145015894475
+    },
+    "target_before": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        335.0,
+        873.0,
+        1032.2388155425099,
+        440.0
+      ],
+      "volume_mm3": 84182.11674559212,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 370788,
+      "bounds_mm": [
+        834.125,
+        993.3638155425101,
+        440.0,
+        865.875,
+        1025.11381554251,
+        488.4
+      ],
+      "volume_mm3": 23807.145015894475,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        335.0,
+        873.0,
+        1032.2388155425099,
+        488.4
+      ],
+      "volume_mm3": 107989.2617614866,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        844.0,
+        1003.2388155425118,
+        487.4,
+        856.0,
+        1015.2388155425118,
+        516.4
+      ],
+      "volume_mm3": 3279.822730347744
+    },
+    "target_before": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        335.0,
+        873.0,
+        1032.2388155425099,
+        488.4
+      ],
+      "volume_mm3": 107989.2617614866,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 370941,
+      "bounds_mm": [
+        844.0,
+        1003.23881554251,
+        487.4,
+        856.0,
+        1015.23881554251,
+        516.4
+      ],
+      "volume_mm3": 3279.8227303477406,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 370558,
+      "bounds_mm": [
+        827.0,
+        986.23881554251,
+        335.0,
+        873.0,
+        1032.2388155425099,
+        516.4
+      ],
+      "volume_mm3": 111155.9871563051,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

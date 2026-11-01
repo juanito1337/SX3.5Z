@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        942.0,
+        -365.0,
+        320.0,
+        982.0,
+        -335.0,
+        355.0
+      ],
+      "volume_mm3": 42000.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 339511,
+      "bounds_mm": [
+        942.0000000000001,
+        -365.0,
+        320.0,
+        982.0000000000001,
+        -335.0,
+        355.0
+      ],
+      "volume_mm3": 42000.000000000044,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 339511,
+      "bounds_mm": [
+        942.0000000000001,
+        -365.0,
+        320.0,
+        982.0000000000001,
+        -335.0,
+        355.0
+      ],
+      "volume_mm3": 42000.000000000044,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Zylinder",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        954.0,
+        -358.0,
+        319.9,
+        970.0,
+        -342.0,
+        355.09999999999997
+      ],
+      "volume_mm3": 7077.379930007087
+    },
+    "target_before": {
+      "tag": 339511,
+      "bounds_mm": [
+        942.0000000000001,
+        -365.0,
+        320.0,
+        982.0000000000001,
+        -335.0,
+        355.0
+      ],
+      "volume_mm3": 42000.000000000044,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 339610,
+      "bounds_mm": [
+        954.0,
+        -358.00000000000006,
+        319.9,
+        970.0,
+        -342.00000000000006,
+        355.09999999999997
+      ],
+      "volume_mm3": 7077.379930007088,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 339511,
+      "bounds_mm": [
+        942.0000000000001,
+        -365.0,
+        320.0,
+        982.0000000000001,
+        -335.0,
+        355.0
+      ],
+      "volume_mm3": 34962.83245595891,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

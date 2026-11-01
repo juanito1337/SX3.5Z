@@ -1,0 +1,314 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.0,
+        118.0,
+        15.0
+      ],
+      "volume_mm3": 254880.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 254880.00000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 254880.00000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Spindeldurchfuehrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        58.0,
+        27.0,
+        -1.0,
+        86.0,
+        55.0,
+        16.0
+      ],
+      "volume_mm3": 10467.786721761191
+    },
+    "target_before": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 254880.00000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 53277,
+      "bounds_mm": [
+        58.00000000000001,
+        27.000000000000004,
+        -1.0,
+        86.0,
+        55.0,
+        16.0
+      ],
+      "volume_mm3": 10467.786721761191,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 245643.71759844603,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Flanschloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        20.75,
+        2.75,
+        -0.10000000000002274,
+        27.25,
+        9.25,
+        15.099999999999977
+      ],
+      "volume_mm3": 504.3827005338413
+    },
+    "target_before": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 245643.7175984461,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52841,
+      "bounds_mm": [
+        20.75,
+        2.75,
+        -0.100000000000023,
+        27.25,
+        9.250000000000002,
+        15.099999999999977
+      ],
+      "volume_mm3": 504.3827005338414,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 245145.97151239295,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Flanschloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        20.75,
+        72.75,
+        -0.10000000000002274,
+        27.25,
+        79.25,
+        15.099999999999977
+      ],
+      "volume_mm3": 504.3827005338413
+    },
+    "target_before": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 245145.97151239295,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52978,
+      "bounds_mm": [
+        20.75,
+        72.75,
+        -0.100000000000023,
+        27.25,
+        79.25,
+        15.099999999999977
+      ],
+      "volume_mm3": 504.3827005338414,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 244648.2254263398,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Flanschloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        116.75,
+        2.75,
+        -0.10000000000002274,
+        123.25,
+        9.25,
+        15.099999999999977
+      ],
+      "volume_mm3": 504.3827005338413
+    },
+    "target_before": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 244648.22542633984,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 52912,
+      "bounds_mm": [
+        116.74999999999999,
+        2.75,
+        -0.100000000000023,
+        123.24999999999999,
+        9.250000000000002,
+        15.099999999999977
+      ],
+      "volume_mm3": 504.3827005338414,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 244150.4793402867,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Flanschloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        116.75,
+        72.75,
+        -0.10000000000002274,
+        123.25,
+        79.25,
+        15.099999999999977
+      ],
+      "volume_mm3": 504.3827005338413
+    },
+    "target_before": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 244150.4793402867,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 53410,
+      "bounds_mm": [
+        116.74999999999999,
+        72.75,
+        -0.100000000000023,
+        123.24999999999999,
+        79.25,
+        15.099999999999977
+      ],
+      "volume_mm3": 504.3827005338414,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 53229,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        144.00000000000003,
+        118.00000000000001,
+        15.0
+      ],
+      "volume_mm3": 243652.73325423355,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]
