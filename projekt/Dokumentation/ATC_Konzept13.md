@@ -75,10 +75,12 @@ keine abschließende Kollisionsprüfung aller Maschinenkörper, Bauteile und
 Schlauchbewegungen. Ein beliebig großes Werkstück ist damit nicht abgedeckt.
 
 Für den niedrigen Werkzeugtransport gilt im betrachteten Bahnraum eine
-**maximale Höhe von 140 mm über dem Tisch**, einschließlich Spannmitteln:
-440 − 70 − 35 − 180 − 15 = 140 mm. Dabei stehen 70 mm für Halterprojektion,
-35 mm für das angenommene Schneidwerkzeug, 180 mm für Tisch-Z und 15 mm für
-die angesetzte Reserve. Längere Werkzeuge verringern diese Grenze direkt.
+**maximale Höhe von 125 mm über dem Tisch**, einschließlich Spannmitteln:
+min(440 − 120, 440 − 70 − 35) − 180 − 15 = 125 mm. Maßgebend ist hier
+die Arm-Unterkante bei Z = 320 mm; die Werkzeugspitze liegt bei Z = 335 mm.
+180 mm ist Tisch-Z, 15 mm die angesetzte Reserve. Längere Werkzeuge können
+diese Grenze weiter verringern. Die frühere Angabe 140 mm berücksichtigte
+nur die Werkzeugspitze und wurde am 01.11.2026 korrigiert.
 Sie gilt entlang der gesamten Werkzeugbahn und ersetzt keine Prüfung des
 breiteren Greifers, Arms oder anderer Hindernisse. Oberhalb dieses Raums
 ist ein automatischer Wechsel im vorliegenden Ablauf nicht vorgesehen.
@@ -169,8 +171,13 @@ Eigengewichtslast q = 0,0690 N/mm und deren Durchbiegung
 `δq = q·L⁴/(8·E·I) = 0,0248 mm`; zusammen etwa **0,0839 mm**.
 
 Die 50 N sind ein Rechenansatz, keine bestätigte Nutzlast. Die Werkzeugachse
-liegt bei vollständiger Zustellung weiter außen, bei 919,239 mm. Ihre echte
-Belastung muss einschließlich dieses Hebelarms neu berechnet werden.
+liegt bei vollständiger Zustellung weiter außen, bei 919,239 mm. Setzt man
+die zusätzlichen a = 110 mm nur zur Abschätzung als ideal starre Verlängerung
+an, ergibt sich am Werkzeug `δF = F·(L³/3 + a·L² + a²·L)/(E·I)` = 0,0865 mm.
+Das Profileigengewicht trägt dort weitere
+`δq = q·(L⁴/8 + a·L³/6)/(E·I)` = 0,0292 mm bei, zusammen etwa 0,1158 mm.
+Auch diese Zahl enthält keine Nachgiebigkeit oder Eigenmasse der Verlängerung.
+Die echte Belastung muss mit allen Bauteilen und deren Hebelarmen neu berechnet werden.
 Lagerspiel, Hubführung, Schweißnähte, offene Profilstellen, Radialschlitten,
 Greifergewicht, Torsion und Dynamik sind in obigen Zahlen nicht enthalten.
 Dies ist ausdrücklich **kein Festigkeits-, Steifigkeits- oder Freigabenachweis**.

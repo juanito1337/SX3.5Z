@@ -1,13 +1,13 @@
 {
   "version": "CNC_KONZEPT_13_SEITENMAGAZIN",
-  "date": "2026-11-01T19:56:57.772888+01:00",
-  "source_revision": "e8a0029e34273b9eff00c5ad983ed7640253a263",
+  "date": "2026-11-01T20:04:05.652671+01:00",
+  "source_revision": "dbfd4e1a959a68a47b132aaf4d1a3706aeb7c2e9",
   "environment": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
   "recipe_sha256": "206486bf99b2e74004f1fe97949477c245092b375e99a41774f6e13b8dcc7710",
   "parameter_sha256": "0d7d532a23f643cf0891c0a0d9d66c494d51d0cc3951733ace22938b8c371ead",
   "source_sha256": {
-    "atc13_modell.py": "963cd3e079830fb16b76b0de8894c86f92f3ba1c63b2eec9719b0c2b28664b53",
-    "tools\\atc13_berichte.py": "bc010dcef845ee76440e3bc5a7d91dd4a0bc7e961cdf6f7feb3f341fd0682fd4"
+    "atc13_modell.py": "d6c588c39f6cecac9a6b3cf5696e061c1880098d9c0a4497ef984d44d63ac390",
+    "tools\\atc13_berichte.py": "17c26f2d92b3c036bb5b036fbb9c938e7420de53b3f67e0a3d3db7f3d4cea63a"
   },
   "scope": "Offline report generation from recipe; no native NX or release proof",
   "native_nx_executed": false,

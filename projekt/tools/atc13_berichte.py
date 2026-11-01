@@ -75,7 +75,7 @@ def sequence_report(parameters):
     change = model.assembly_pose(parameters,'wechsel')
     steps = [
         ('Vorbereitung','Spindel und KSS stoppen; sicheren Wechselraum herstellen, Kopf in Wechselhoehe und Spindel orientieren.',
-         'Werkstueck/Spannmittel unter der gesamten Bahn maximal140mm ueber Tisch; Raum und Endlagen bestaetigt.'),
+         'Werkstueck/Spannmittel unter der gesamten Bahn maximal125mm ueber Tisch; Raum und Endlagen bestaetigt.'),
         ('Altes Werkzeug greifen','Leeren Arm niedrig/eingezogen zur Spindelseite schwenken; am Endpunkt zustellen und anheben; Greifer schliessen.',
          'Spindel haelt bis formschluessiges Greifen, Werkzeugpraesenz und Verdrehsicherung bestaetigt sind.'),
         ('Ausspannen','Spindel loesen; Werkzeug am Spindelendpunkt axial90mm absenken.',

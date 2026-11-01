@@ -22,7 +22,7 @@ def test_no_false_release_and_named_workpiece_limit():
     r=m.atc_report(m.load_parameters())
     assert not r['atc_operational'] and not r['manufacturing_released']
     assert r['pocket_count']==12
-    assert r['toolchange_workpiece_limit_mm']>0
+    assert r['toolchange_workpiece_limit_mm']==125.
     assert r['unrestricted_arbitrary_workpiece_change'] is False
 
 @pytest.mark.parametrize('key,value',[('a13_extend',61),('a13_lift',91),('a13_c',float('nan')),('a13_tool_carried',3),('a13_jaw_open',23)])

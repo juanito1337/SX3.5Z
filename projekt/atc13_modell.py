@@ -97,7 +97,7 @@ def atc_report(p):
         nominal_spindle_axis_and_face_mm=[0.,0.,v['spindle_face_z']],
         magazine_center_xy_mm=[v['a13_mag_x'],v['a13_mag_y']],
         pocket_pitch_mm=2*p['a13_pitch']*math.sin(math.pi/12),
-        toolchange_workpiece_limit_mm=p['a13_transfer_gauge']-p['n09_tool_projection']-p['a13_cutter_projection']-v['table_top_z']-15,
+        toolchange_workpiece_limit_mm=min(p['a13_transfer_gauge']-120,p['a13_transfer_gauge']-p['n09_tool_projection']-p['a13_cutter_projection'])-v['table_top_z']-15,
         unrestricted_arbitrary_workpiece_change=False,manufacturing_released=False,atc_operational=False,
         machine_operation_enabled=False,spindle_clamping_verified=False,trajectory_verified=False,
         source='E13 engineering draft; original SK30 remains; BT30 interface and tool orientation pending',
