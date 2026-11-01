@@ -1,5 +1,16 @@
 # SX3.5Z CNC – Übergabe an Codex
 
+**Aktuell: Tellerentwurf10, 01.11.2026.** Der seitliche8er-Teller ersetzt das
+Tischmagazin. Neue native511 Einzelteile und20 Unterbaugruppen sind in NX2406
+erzeugt und erneut vollstaendig geladen. Einstieg: [native Dateien](cad/README.md),
+[3D-Vorschau](projekt/Ansicht_Teller_10.html),
+[Entwicklungsstand und Anleitung](projekt/Dokumentation/Entwicklungsstand_Teller_10.md).
+Die HTML-Vorschau ist neu erzeugt, aber noch nicht visuell im Browser geprueft.
+**Spannpaket weiterhin nur Bauraum, keine funktionsfaehige automatische Spannung.**
+Aktuelle Tabellen tragen `_10`; alte09-Berichte und `Ansicht_3D.html` sind historisch.
+Die folgenden Angaben zur unveraenderten Paketuebernahme gelten fuer31.10.,
+nicht fuer den inzwischen erweiterten aktiven Programmstand.
+
 **Entwicklungsfortsetzung:** Die [Roadmap mit Entwicklungsprompts](docs/superpowers/plans/2026-10-31-entwicklungsroadmap.md)
 ordnet die offenen Detailarbeiten. Der [aktuelle Journalpruefbericht](docs/superpowers/plans/2026-10-31-journalpruefbericht.md)
 belegt sieben erfolgreiche native Journallaeufe und die jetzt lauffaehige Offline-Suite.

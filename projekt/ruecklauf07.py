@@ -29,7 +29,9 @@ def add_return_parts(part,box,cyl,ring):
         return u_profile(d,o,w,depth,length,axes)
     # Raised machine island remains x +/-225, y -220..380, no load on drain sheets.
     # Inner edge of tray x +/-227 is outside the 2 mm seal/curb strip.
-    for side,inner,outer,sx in [('links','-227','enc_left+sheet_t','-0.14'),('rechts','227','enc_right-sheet_t','0.14')]:
+    # Meet the side-wall inner web; the former sheet_t offset left an open seam.
+    # Rear flange clearances above remain separate cuts. Seam sealing is not proven.
+    for side,inner,outer,sx in [('links','-227','enc_left','-0.14'),('rechts','227','enc_right','0.14')]:
         for suffix,y0,y1,sy in [('vorn','enc_front+30','382','-0.025'),('hinten','382','enc_back-2*sheet_t','0')]:
             def zz(x,y):return f'-8+({sx})*(({x})-({inner}))+({sy})*(({y})-382)'
             pts=[(inner,y0,zz(inner,y0)),(outer,y0,zz(outer,y0)),(outer,y1,zz(outer,y1)),(inner,y1,zz(inner,y1))]
@@ -60,7 +62,8 @@ def add_return_parts(part,box,cyl,ring):
     d=fold('KSS_Ruecklaufkasten_U',(-220,385,-280),440,110,180,((1,0,0),(0,0,1),(0,1,0)))
     base.cyl(d,(0,'chip_outlet_y',-281),50,'sheet_t+2',(0,0,1),'cut','Nur_KSS_Ablauf_nach_Korb')
     box('KSS_Ruecklaufkasten_Stirnwand',g,('-220+sheet_t',385,'-280+sheet_t'),('440-2*sheet_t','sheet_t','110-sheet_t'),'sheet',note=NOTE)
-    box('KSS_Serviceklappe_hinten',g,(-220,565,-280),(440,2,110),'sheet',note='Abnehmbare hintere Wartungsklappe, Dichtprofil und Verschluesse noch zu spezifizieren. Vor Korbauszug abnehmen.')
+    d=box('KSS_Serviceklappe_hinten',g,(-220,565,-280),(440,2,110),'sheet',note='Abnehmbare hintere Wartungsklappe samt Griff und Befestigungen vor Korbauszug abnehmen. Dichtprofil und Verschluesse noch zu spezifizieren.')
+    d['service_removal_group']='KSS_RUECKKLAPPE'
     # Dedicated hangers bear on rear stand beam, not on thin tray sheets.
     for side,x in [('links',-224),('rechts',220)]:
         box('KSS_Kastenhalter_'+side,g,(x,480,-280),(4,45,200),'steel',note='Traglasche am hinteren Gestellholm. Verschraubung/Schweissanschluss und Tragfaehigkeit noch auslegen.')
@@ -93,8 +96,13 @@ def validate(p,v):
     if not 30<=p['chip_outlet_d']<=70:raise ValueError('Spaeneauslasstiefe 30..70 mm erforderlich')
     yf=p['chip_outlet_y']-p['chip_outlet_d']/2;yb=p['chip_outlet_y']+p['chip_outlet_d']/2
     if yf<390 or yb>v['enc_back']-p['tube_side']-4:raise ValueError('Spaeneschacht kollidiert mit Maschineninsel/hinterem Rahmen')
-    if not 395<=yf and yb<=550:raise ValueError('Spaeneschacht nicht ueber dem Korb')
+    if not (395<=yf and yb<=550):raise ValueError('Spaeneschacht nicht ueber dem Korb')
     if p['tank_w']<470:raise ValueError('Tank zu schmal fuer Ruecklaufstudie')
+    # The entire 58mm deck aperture must drain into the tank, clear of its 3mm walls.
+    tank_cy=v['enc_back']-260
+    if not (tank_cy-p['tank_d']/2+3 <= p['chip_outlet_y']-29
+            and p['chip_outlet_y']+29 <= tank_cy+p['tank_d']/2-3):
+        raise ValueError('Ruecklaufdurchgang liegt nicht vollstaendig ueber dem Tankinnenraum')
     if p['stand_h']-p['tank_h']<=465:raise ValueError('Tank zu hoch fuer Ruecklaufkasten und Stutzen')
     return True
 
@@ -108,5 +116,7 @@ def report(p,v):
         basket_outer_mm=[420,160,70],basket_gross_inner_litres=(420-2*p['sheet_t'])*(160-2*p['sheet_t'])*(70-p['sheet_t'])/1e6,
         basket_slots=dict(count=50,size_mm=[28,3],gross_open_area_mm2=50*28*3),
         rear_extraction_stroke_mm=220,rear_service_space_proposed_mm=500,
+        tank_rear_extraction_verified=False,
+        tank_service_note='Gerader Tankauszug nach hinten am unteren Gestellquerholm blockiert. Korbauszug ist kein Tankauszug; Entleerung/Reinigung und separate Tankdemontage noch auslegen.',
         flow_sequence=['Leitbleche um Maschineninsel','hinterer Trichter','rechteckiger Spaeneschacht','entnehmbarer Grobkorb','offene Feinfilterreserve','KSS-Stutzen','Tank'],
         limitations=['Keine garantierte selbsttaetige Spanfoerderung. Lange Spaene manuell entfernen.','Schweissnaehte, Dichtungen, Gewebe, Verstopfung/Notueberlauf und hydraulischer Durchsatz offen.','Korb nach hinten: Wartungsfreiraum erforderlich. Fronttuer/Tankzugang nicht ersetzt.'])

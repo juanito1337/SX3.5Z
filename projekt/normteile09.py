@@ -178,4 +178,7 @@ def extend(parts,base,cat):
     for idx,q in enumerate(new,1):
         q['id']='C%03d'%idx;q['filename']=q['id']+'_'+q['name']
         if q['group']=='20_ATC_Option':q['atc_operational']=False
+        if q['name'] in {'Servicegriff_KSS','Griff_Hinterlegung_KSS','Griffscheibe_KSS1',
+                         'Griffscheibe_KSS2','Griffschraube_KSS1','Griffschraube_KSS2'}:
+            q['service_removal_group']='KSS_RUECKKLAPPE'
     return parts+new

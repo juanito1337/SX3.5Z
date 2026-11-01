@@ -223,7 +223,7 @@ class PreferenceRegression(unittest.TestCase):
         source = (Path(__file__).resolve().parents[1] / 'NX_CNC_Gesamtansicht.py').read_text()
         self.assertIn("!= '07.2'", source)
         # The sheet adapter stays 07.2; the formula patch uses its own 07.3 output.
-        self.assertIn('SX35Z_CNC_UMSETZUNG_09_', source)  # current output namespace; API patch remains07.2
+        self.assertIn("'SX35Z_'+model.VERSION", source)  # output follows model revision; API patch remains07.2
 
 
 if __name__ == '__main__':

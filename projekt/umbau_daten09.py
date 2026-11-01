@@ -14,11 +14,13 @@ def sources(root=None):
     result=dict(q['sources']) if 'sources' in q else dict(q)
     for s in json.loads((root/'Quellen/Quellen_09.json').read_text(encoding='utf8'))['sources']:
         result[s['id']]={'title':s['title'],'url':s['url'],'evidence':s['scope'],'checked_on':'2026-10-30','source_type':s['source_type']}
+    for s in json.loads((root/'Quellen/Quellen_Teller_20261101.json').read_text(encoding='utf8'))['sources']:
+        result[s['id']]={'title':s['title'],'url':s['url'],'evidence':s['scope'],'checked_on':'2026-11-01','source_type':s['source_type']}
     return result
 
 def release_report(root=None):
     root=Path(root or ROOT);r=old.release_report(root)
-    r.update(schema='SX35Z_RELEASE_09',atc_operational=False,native_nx_run_this_revision=False)
+    r.update(schema='SX35Z_RELEASE_10',atc_operational=False,native_nx_run_this_revision=False)
     r['open_gates']=list(r['open_gates'])+['A09']
     extra=json.loads((root/'Aufmass/Messwerte_09_Zusatz.json').read_text())['measurements']
     missing=[x['id'] for x in extra if x['measured_value'] is None or not x['measured_by'] or not x['measurement_date']]
@@ -28,7 +30,7 @@ def release_report(root=None):
 def bom_rows(parts,root=None):
     cat=catalog(root)['items'];by={};rows=[]
     for p in parts:
-        if p['supply_kind']!='BUY':continue
+        if p['supply_kind']!='BUY' and not (p['supply_kind']=='RESERVE' and p['item_id'] in cat):continue
         if p['item_id'] not in cat:raise ValueError('Unmapped purchased body: '+p['name'])
         x=by.setdefault(p['item_id'],{'instances':set(),'parts':[]})
         x['instances'].add(p['purchase_instance']);x['parts'].append(p['id']+':'+p['name'])
@@ -43,7 +45,14 @@ write_csv=old.write_csv
 def manufacturing_rows(parts,p,model):
     rows=old.manufacturing_rows(parts,p,model)
     for x in rows:
-        if x['name'].startswith('ATC_Lokator'):
+        if x['name'] in {'KSS_Tank_Entwurf','KSS_Tankdeckel','KSS_Ruecklaufkasten_Stirnwand',
+                          'KSS_Spaeneschacht_Rueckwand','KSS_Serviceklappe_hinten'}:
+            x.update(process='Blechzuschnitt / Schweissen / Dichten; Einzelzeichnung fehlt',
+                     material='Blech; Guete und KSS-Vertraeglichkeit unbestaetigt',gates='G05 G08')
+        elif x['name'].startswith(('ATC_KSS_','ATC_Parkhaube_')):
+            x.update(process='Blechzuschnitt / Rollen / Schweissen / Dichten; Zeichnung fehlt',
+                     material='2mm Blech als Entwurf; Guete und Dichtheit offen',gates='A09 G05 G08')
+        elif x['name'].startswith('ATC_Lokator'):
             x.update(material='POM als Entwurfswahl; Eignung/Kriechen/KSS bestätigen',process='Fräsen/Bohren; Schwerkraftablage, Verdrehsicherung fehlt',gates='A09 G05 G08')
         elif x['name'].startswith('ATC_'):
             x['gates']='A09 G05 G08'
@@ -56,11 +65,12 @@ def export(root=None):
     import cnc_ansichtsmodell as model
     root=Path(root or ROOT);p=model.load_parameters(root/'Parameter.json');ds=model.recipe();model.check_recipe(p)
     b=bom_rows(ds,root);mp=model_map(ds);fab=manufacturing_rows(ds,p,model)
-    for fn,rows in [('Einkaufsliste_09',b),('Modellzuordnung_09',mp),('Fertigungsteile_09',fab)]:write_csv(root/'Einkauf'/f'{fn}.csv',rows)
-    (root/'Pruefung_09/Freigabestatus_09.json').write_text(json.dumps(release_report(root),ensure_ascii=False,indent=2))
-    (root/'Werkzeugwechsler/ATC_Schnittstellenstatus_09.json').write_text(json.dumps(model.atc_report(p),ensure_ascii=False,indent=2))
-    r=dict(version=model.VERSION,model_bodies=len(ds),operations=sum(len(d['ops']) for d in ds),catalog_rows=len(b),manufactured_item_rows=len(fab),new_bodies=sum(d.get('revision_added')=='09' for d in ds),new_catalog_rows=sum(x['item_id'].startswith(('K09','N09')) for x in b),purchase_instances=sum(x['model_quantity'] for x in b),native_nx_executed=False,purchase_released=False,atc_operational=False)
+    (root/'Pruefung_10').mkdir(exist_ok=True)
+    for fn,rows in [('Einkaufsliste_10',b),('Modellzuordnung_10',mp),('Fertigungsteile_10',fab)]:write_csv(root/'Einkauf'/f'{fn}.csv',rows)
+    (root/'Pruefung_10/Freigabestatus_10.json').write_text(json.dumps(release_report(root),ensure_ascii=False,indent=2),encoding='utf8')
+    (root/'Werkzeugwechsler/ATC_Schnittstellenstatus_10.json').write_text(json.dumps(model.atc_report(p),ensure_ascii=False,indent=2),encoding='utf8')
+    r=dict(version=model.VERSION,model_bodies=len(ds),operations=sum(len(d['ops']) for d in ds),catalog_rows=len(b),manufactured_item_rows=len(fab),new_bodies=sum(d.get('revision_added')=='10' for d in ds),new_catalog_rows=sum(x['item_id'].startswith('O10') for x in b),purchase_instances=sum(x['model_quantity'] for x in b),native_nx_executed=False,purchase_released=False,atc_operational=False)
     for label,obj in [('parameter',p),('recipe',ds),('catalog',catalog(root))]:r[label+'_sha256']=hashlib.sha256(json.dumps(obj,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-    (root/'Pruefung_09/Modell_Stuecklistenabgleich_09.json').write_text(json.dumps(r,ensure_ascii=False,indent=2))
+    (root/'Pruefung_10/Modell_Stuecklistenabgleich_10.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf8')
     return r
 if __name__=='__main__':print(json.dumps(export(),indent=2))

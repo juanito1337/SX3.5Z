@@ -52,7 +52,8 @@ def run():
     comparisons+=1;vol=body(a['name']).translate(tuple(delta)).intersect(body(b['name'])).Volume()
     if vol>.01:pose_conflicts.append(dict(pose=pose,a=a['name'],b=b['name'],mm3=vol))
  # Removal envelope: rear cover removed, basket subassembly rigid +Y.
- movable=[d for d in wet if d.get('service_translation')];extracted={d['name'] for d in movable}|{'KSS_Serviceklappe_hinten'}
+ movable=[d for d in wet if d.get('service_translation')]
+ extracted={d['name'] for d in movable}|{d['name'] for d in ds if d.get('service_removal_group')=='KSS_RUECKKLAPPE'}
  service_conflicts=[]
  for stroke in (0,55,110,165,220):
   for a in movable:

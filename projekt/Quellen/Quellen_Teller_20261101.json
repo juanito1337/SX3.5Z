@@ -1,0 +1,11 @@
+{
+  "checked_on": "2026-11-01",
+  "sources": [
+    {"id":"S10-MARKT","title":"Teller-/Spannpaketvergleich mit Zugriffsgrenzen","url":"Werkzeugwechsler/Teller_Spannpaket_Vergleich_10.md","source_type":"Recherchebericht","scope":"Keine bestaetigte AliExpress-Preis-/Variantenfreigabe; eigener Teller- und Teleskopbauraum kein Kaufteilmodell."},
+    {"id":"S10-USER","title":"Nutzerkandidat AliExpress1005009887984460","url":"https://de.aliexpress.com/item/1005009887984460.html","source_type":"Nutzerlink nicht auslesbar","scope":"Artikelidentitaet, gewaehlte Variante, Lieferumfang und Preis unbekannt. Keine Kompatibilitaetsbehauptung."},
+    {"id":"S10-HOLRY","title":"HOLRY Disc Cylinder Rod Servo Tool Magazine","url":"https://www.holry.net/iso-bt-hsk-disc-cylinder-rod-type-servo-tool-magazine-for-atc-spindle-motor.html","source_type":"Herstellerfamilie","scope":"BT30-Varianten,200mm Zustellhub,1:40,750W Standard/400W bzw86Hybrid Optionen. Keine zugeordnete BT30-Montagezeichnung; keine Identitaet mit AliExpress-Kandidaten belegt."},
+    {"id":"S10-DAIYA","title":"DAIYA BT30SP","url":"https://daiya.co.jp/en/product/spindle/atc/","source_type":"Hersteller","scope":"BT30-ATC,8000/min,1200N Spannkraft,2000N Loesekraft laut Modellangabe; nicht auf Original-SK30 oder andere Patrone uebertragbar. Hub und Loesezylinderlieferung offen."},
+    {"id":"S10-CHUMPOWER","title":"CHUMPOWER BA900TTB30001A","url":"https://www.chumpowerchuck.com/en/products_i_OTT.html","source_type":"Hersteller","scope":"BT30-45-Grad-Greifereinheit,Fs max10kN ist Grenzwert,1mm Ausstossweg kein vollstaendiger Loesehub. Keine komplette Spindel/Federpaket-Auslegung."},
+    {"id":"S10-ATI","title":"Automation Technology BT30 Belt Drive Spindle Kit","url":"https://www.automationtechnologiesinc.com/products-page/cnc-spindle/bt30-belt-drive-spindle-kit","source_type":"Verkaeufer","scope":"2.2kW/6000min-1,Patrone,Halter,Loesezylinder,Rahmen,Motor,Treiber,Riemen laut Lieferliste;2780USD Artikelpreis am01.11.2026,kein Deutschland-Endpreis. Kein Einbaunachweis SX3.5Z."}
+  ]
+}

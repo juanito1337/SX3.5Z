@@ -7,16 +7,18 @@ from pathlib import Path
 from collections import OrderedDict
 import cnc_ansichtsmodell08 as prev
 import normteile09
+import teller10
 base=prev.base
 evaluate=prev.evaluate
 local_definition=prev.local_definition
 ROOT=Path(__file__).resolve().parent
-VERSION='CNC_UMSETZUNG_09'
+VERSION='CNC_UMSETZUNG_10_TELLER'
 CAT=json.loads((ROOT/'Einkauf/Kaufteile_09.json').read_text(encoding='utf8'))['items']
 SPECS=copy.deepcopy(prev.SPECS)
 DERIVED=copy.deepcopy(prev.DERIVED)
 GROUPS=OrderedDict(prev.GROUPS)
 GROUPS.update([('19_Normdetails','09 – Servicegriffe / Kabeleinführungen / Normteile'),('20_ATC_Option','09 – Werkzeugmagazin OPTION; Spindelumrüstung fehlt')])
+GROUPS['20_ATC_Option']='10 – Teller und Spannpaket; unbestaetigte Einbaustudie'
 LAYERS={g:(i+1)*10 for i,g in enumerate(GROUPS)}
 PALETTE=dict(prev.PALETTE)
 DEFAULT_COLORS=dict(prev.DEFAULT_COLORS)
@@ -27,6 +29,11 @@ for n,value in DEFAULTS09.items():
     NEW_DEFAULTS[n]=value
     item=normteile09.CATALOG_PARAMETERS.get(n)
     SPECS.append(dict(name=n,value=value,unit='unitless' if n=='atc_pocket_count' else 'mm',status='KATALOG_HAUPTMASS' if item else 'ENTWURF_09',source=item[0] if item else 'Entwurf09',note='Siehe Quellen09 und ATC-Konzept; keine Freigabe.',limits=None))
+DERIVED.update(teller10.DERIVED)
+for n,value in teller10.DEFAULTS.items():
+    SPECS.append(dict(name=n,value=value,unit='unitless' if n in teller10.UNITLESS else 'mm',
+        status='ENTWURF_10_UNBESTAETIGT',source='E10 Layoutstudie01.11.2026',
+        note='Kein Hersteller- oder Istmass; Magazin/Spannpaket ohne Betriebsfreigabe.',limits=None))
 
 def load_parameters(path=None):
     p=OrderedDict(prev.load_parameters(path));p.update(DEFAULTS09)
@@ -37,6 +44,16 @@ def load_parameters(path=None):
             if n.startswith('_'):continue
             if n not in DEFAULTS09:raise ValueError('Unbekannter Detailparameter09: '+n)
             if isinstance(val,bool) or not isinstance(val,(float,int)) or not math.isfinite(val):raise ValueError('Ungültiger Detailparameter09: '+n)
+            p[n]=float(val)
+    p.update(teller10.DEFAULTS)
+    fp=(Path(path).resolve().parent if path else ROOT)/'Teller_Parameter_10.json'
+    if fp.exists():
+        q=json.loads(fp.read_text(encoding='utf-8-sig'))
+        for n,val in q.items():
+            if n.startswith('_'):continue
+            if n not in teller10.DEFAULTS:raise ValueError('Unbekannter Tellerparameter: '+n)
+            if isinstance(val,bool) or not isinstance(val,(float,int)) or not math.isfinite(val):
+                raise ValueError('Ungueltiger Tellerparameter: '+n)
             p[n]=float(val)
     validate(p);return p
 
@@ -55,11 +72,9 @@ def validate(p):
             raise ValueError('Katalogmaß09 darf ohne geänderte Lieferrevision nicht überschrieben werden: '+n)
     if p['sheet_t']!=2 or p['cable_plate_t']!=2 or p['cable_plate_seal_t']!=.5:
         raise ValueError('09-Schraubenmaßketten gelten nur für 2mm-Bleche und0.5mm-Kabelplattendichtung.')
-    if p['atc_locator_h']!=10 or p['atc_beam_t']!=4 or p['atc_base_d']!=100 or p['atc_base_t']!=8:
-        raise ValueError('Aktuelle ATC-Schraubenmaßkette: Lokator10/Träger4/Fuß8/Tiefe100. Änderung erfordert neue Verbindungsauslegung.')
-    if p['slot_pitch']!=53 or p['atc_y']!=-53:
-        raise ValueError('09-Magazinanschluss an Nutabstand53/-53 gebunden; Änderung erfordert Neuprüfung.')
-    normteile09.atc_report(p,all_values(p))
+    if p['atc_locator_bore']<=p['n09_tool_nut_d']:
+        raise ValueError('Halterdurchgang der Gabelraumreserve zu klein')
+    teller10.validate(p,all_values(p))
     return True
 
 def used_parameters(d):
@@ -78,7 +93,7 @@ def used_parameters(d):
             if n in DERIVED:scan(DERIVED[n])
         if old==out:return out
 
-def recipe():return normteile09.extend(copy.deepcopy(prev.recipe()),base,CAT)
+def recipe():return teller10.extend(normteile09.extend(copy.deepcopy(prev.recipe()),base,CAT),base,CAT)
 
 def check_recipe(p,parts=None):
     validate(p);v=all_values(p);ds=parts if parts is not None else recipe();seen=set()
@@ -98,7 +113,7 @@ def check_recipe(p,parts=None):
     prev.check_recipe(p,prev.recipe())
     return v
 
-def atc_report(p):return normteile09.atc_report(p,all_values(p))
+def atc_report(p):return teller10.report(p,all_values(p))
 length_report=prev.length_report
 door_layout=prev.door_layout
 spring_report=prev.spring_report

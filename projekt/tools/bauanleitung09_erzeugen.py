@@ -2,6 +2,10 @@
 """Revision09 supplement. Documentation generation only, no NX calls."""
 from pathlib import Path
 import json,sys,re
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+import cnc_ansichtsmodell as model
+if model.VERSION!='CNC_UMSETZUNG_09':
+    raise RuntimeError('Historischer09-Generator: aktuelle Anleitung unter Dokumentation/Entwicklungsstand_Teller_10.md;09-DOCX/PDF bleibt historisch.')
 from docx import Document
 from docx.shared import Mm,Pt,RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH

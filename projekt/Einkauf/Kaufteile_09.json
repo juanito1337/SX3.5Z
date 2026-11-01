@@ -1343,7 +1343,7 @@
       "description": "T-Nutenmutter Nut12/M10",
       "manufacturer": "Ganter",
       "article": "DIN 508-12-M10-10",
-      "planned_quantity": 4,
+      "planned_quantity": 0,
       "unit": "Stk",
       "dims": {
         "neck": 11.7,
@@ -1363,7 +1363,7 @@
       ],
       "model_scope": "Schnittstellen-/Außenmodell; Gewinde und Detailradien vereinfacht",
       "type": "Kaufteil",
-      "note": "Nur nach Messung des tatsächlichen Hinterschnitts bestellen. Nenn-Hüllgeometrie ohne Gewindegang.",
+      "note": "Nur nach Messung des tatsächlichen Hinterschnitts bestellen. Nenn-Hüllgeometrie ohne Gewindegang. E10: aktuelle Menge nach Entfernung Tischmagazin; historischer Stand in Git e87f522.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
@@ -1374,7 +1374,7 @@
       "description": "BT30-ER20-70 Werkzeughalter, optional",
       "manufacturer": "Wondersunm",
       "article": "BT30-ER20-70",
-      "planned_quantity": 6,
+      "planned_quantity": 8,
       "unit": "Stk",
       "dims": {
         "gauge_d": 31.75,
@@ -1393,7 +1393,7 @@
       ],
       "model_scope": "Teilweise kataloggestützte Werkzeugraumhülle; Flansch/Lokator nicht bestätigt",
       "type": "Kaufteil",
-      "note": "NICHT in originale SK30/M12-Spindel freigegeben! Flansch46x8 als Planungsannahme; Anzugsbolzen fehlt. Kein passfertiges Ersatzmodell.",
+      "note": "NICHT in originale SK30/M12-Spindel freigegeben! Flansch46x8 als Planungsannahme; Anzugsbolzen fehlt. Kein passfertiges Ersatzmodell. E10: aktuelle Menge nach Entfernung Tischmagazin; historischer Stand in Git e87f522.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
@@ -1464,7 +1464,7 @@
       "description": "Zylinderschraube M5×25",
       "manufacturer": "Normteil / Lieferant anbieten lassen",
       "article": "ISO 4762 M5×25 A2-70",
-      "planned_quantity": 12,
+      "planned_quantity": 0,
       "unit": "Stk",
       "dims": {
         "d": 5,
@@ -1484,7 +1484,7 @@
       ],
       "model_scope": "Schnittstellen-/Außenmodell; Gewinde und Detailradien vereinfacht",
       "type": "Normteil",
-      "note": "Festigkeits-/Korrosionsauslegung und Anziehdrehmoment offen.",
+      "note": "Festigkeits-/Korrosionsauslegung und Anziehdrehmoment offen. E10: aktuelle Menge nach Entfernung Tischmagazin; historischer Stand in Git e87f522.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
@@ -1495,7 +1495,7 @@
       "description": "Zylinderschraube M10×25",
       "manufacturer": "Normteil / Lieferant anbieten lassen",
       "article": "ISO 4762 M10×25 10.9",
-      "planned_quantity": 4,
+      "planned_quantity": 0,
       "unit": "Stk",
       "dims": {
         "d": 10,
@@ -1515,7 +1515,7 @@
       ],
       "model_scope": "Schnittstellen-/Außenmodell; Gewinde und Detailradien vereinfacht",
       "type": "Normteil",
-      "note": "Festigkeits-/Korrosionsauslegung und Anziehdrehmoment offen.",
+      "note": "Festigkeits-/Korrosionsauslegung und Anziehdrehmoment offen. E10: aktuelle Menge nach Entfernung Tischmagazin; historischer Stand in Git e87f522.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
@@ -1526,7 +1526,7 @@
       "description": "Unterlegscheibe M5",
       "manufacturer": "Normteil / Lieferant anbieten lassen",
       "article": "ISO 7089 5, A2-200HV",
-      "planned_quantity": 36,
+      "planned_quantity": 12,
       "unit": "Stk",
       "dims": {
         "di": 5.3,
@@ -1544,7 +1544,7 @@
       ],
       "model_scope": "Schnittstellen-/Außenmodell; Gewinde und Detailradien vereinfacht",
       "type": "Normteil",
-      "note": "",
+      "note": " E10: aktuelle Menge nach Entfernung Tischmagazin; historischer Stand in Git e87f522.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
@@ -1583,7 +1583,7 @@
       "description": "Unterlegscheibe M10",
       "manufacturer": "Normteil / Lieferant anbieten lassen",
       "article": "ISO 7089 10, A2-200HV",
-      "planned_quantity": 4,
+      "planned_quantity": 0,
       "unit": "Stk",
       "dims": {
         "di": 10.5,
@@ -1601,7 +1601,7 @@
       ],
       "model_scope": "Schnittstellen-/Außenmodell; Gewinde und Detailradien vereinfacht",
       "type": "Normteil",
-      "note": "",
+      "note": " E10: aktuelle Menge nach Entfernung Tischmagazin; historischer Stand in Git e87f522.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
@@ -1612,7 +1612,7 @@
       "description": "Sechskantmutter M5",
       "manufacturer": "Würth / Normteil",
       "article": "ISO 4032 M5 A2-70 / 032295",
-      "planned_quantity": 18,
+      "planned_quantity": 6,
       "unit": "Stk",
       "dims": {
         "d": 5,
@@ -1630,7 +1630,7 @@
       ],
       "model_scope": "Schnittstellen-/Außenmodell; Gewinde und Detailradien vereinfacht",
       "type": "Normteil",
-      "note": "",
+      "note": " E10: aktuelle Menge nach Entfernung Tischmagazin; historischer Stand in Git e87f522.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
@@ -1654,7 +1654,7 @@
       ],
       "model_scope": "Nicht als fertiges Kaufteil modelliert",
       "type": "Offene Beschaffung",
-      "note": "Vollständige Herstellerzeichnung, Masse, Antrieb, Lagerung, Spannkraft, Pneumatik und Sensorik fehlen. SK30/M12 ist kein BT30-Spannsystem.",
+      "note": "Zwingendes Gesamtsystem: Greifer/Zugstange/Tellerfederpaket/Loeseeinheit/Orientierung. Im Modell nur orange Funktionsraeume, kein ausgelegter SK30-Umbau. Konkrete Patrone und Kopfanschluss offen.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false
@@ -1756,7 +1756,7 @@
       "description": "Verdrehsicherung der Taschen und Orientierung der Spindel",
       "manufacturer": "OFFEN",
       "article": "KEIN BESTELLARTIKEL – Systempaket spezifizieren",
-      "planned_quantity": 1,
+      "planned_quantity": 0,
       "unit": "Paket",
       "dims": {},
       "source_ids": [
@@ -1769,7 +1769,7 @@
       ],
       "model_scope": "Nicht als fertiges Kaufteil modelliert",
       "type": "Offene Beschaffung",
-      "note": "Locator-Blöcke sind nur geometrische Schwerkraftablagen. Ausrichtschlüssel, Sicherung und Rückmeldung fehlen.",
+      "note": "E10 ersetzt durch offenes Gesamtpaket O10-TELLER; keine Doppelbestellung.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false
@@ -1820,7 +1820,31 @@
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false
+    },
+    "O10-TELLER": {
+      "id": "O10-TELLER",
+      "description": "8-Platz-Teller, Indexierung, Gabelretention und ca419mm Teleskopzustellung",
+      "manufacturer": "OFFEN: Eigenbau oder Lieferant",
+      "article": "KEIN BESTELLARTIKEL",
+      "planned_quantity": 1,
+      "unit": "Paket",
+      "dims": {},
+      "source_ids": [
+        "S10-MARKT"
+      ],
+      "release": "OFFEN / NICHT BESTELLEN",
+      "gates": [
+        "A09",
+        "G05",
+        "G08"
+      ],
+      "model_scope": "Unbestaetigte Einbauraeume; keine Herstellergeometrie",
+      "type": "Offene Beschaffung",
+      "note": "AliExpress-Varianten und Lieferumfang unbestaetigt.200mm Hersteller-Familienhub reicht fuer diese Zustellung nicht.",
+      "unit_price_eur": null,
+      "supplier_quote": null,
+      "delivery_confirmed": false
     }
   },
-  "version": "09"
+  "version": "10 auf09-Katalogbasis"
 }

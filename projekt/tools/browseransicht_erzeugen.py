@@ -16,6 +16,10 @@ def build(meshfile,output):
         m['doorShiftZ']=model.evaluate(definitions[m['name']]['door_shift_z'],values) if leaf else 0
 
     template=Path(__file__).with_name('viewer_template.html').read_text(encoding='utf8')
+    if model.VERSION=='CNC_UMSETZUNG_10_TELLER':
+        template=template.replace('Normteile und ATC-Option 09','Teller und Spannpaket 10')
+        template=template.replace('Magazin-Option','Teller / Spannpaket')
+        template=template.replace('Magazin – NICHT betriebsbereit','Teller / Spannpaket – NICHT betriebsbereit')
     template=template.replace('__PART_COUNT__',str(len(meshes))).replace('__GROUP_COUNT__',str(len(set(m['group'] for m in meshes))))
     template=template.replace('/*DOOR_REFERENCE*/',str(params['door_open']))
     template=template.replace('/*MODEL_DATA*/',json.dumps(meshes,separators=(',',':')))

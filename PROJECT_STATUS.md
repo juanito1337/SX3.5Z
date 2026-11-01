@@ -1,5 +1,31 @@
 # Projektstatus zum Codex-Übergabestand
 
+## Aktueller Entwicklungsstand10, 01.11.2026
+
+Ausgangsrevision e87f522, neue Quellen durch native_source_hashes.json im
+Prueflauf erfasst. Nutzer fordert Teller ausserhalb des Tisches und Spannpaket;
+Eigenbau zulaessig, kein Budget gesetzt. Aktuell8er-Teller mit Gestellstuetze,
+radialer Zustellreserve und Spritzschirm; kein ausgewaehltes Lieferantenprodukt.
+Spannpaket ist nur als Raumreserve vorhanden, Originalspindel bleibt SK30/M12.
+
+Nachgewiesen: sieben NX2406-Journale Exit0; Gesamtaufbau511 Einzelteile,
+20 Unterbaugruppen,19 native Blechkonvertierungen im Modus required und frisches
+Wiedereroeffnen aller Einzelteile. Offline163 Tests +91 Untertests bestanden.
+552 begrenzte Teller-Endpunktpruefungen ohne Schnittvolumen; keine volle Wechselbahn.
+KSS-Test Exit1: sechs Kollisionen unmontierter IFS206-Referenzen mit Leitblech;
+Achsstichproben und Korbauszug ohne Kollision. Originale sechs Maschinenanschluss-
+Konflikte und35 Istmasse weiterhin offen. Tankauszug nach hinten blockiert.
+
+Behoben: KSS-Seitenluecke, Ruecklaufparametergrenzen, Serviceklappen-Demontagegruppe,
+Blech-Fertigungsmetadaten sowie vier Reviewfehler (kanonischer Rezeptvergleich,
+Haubenhoehe, Dichtkragenhoehe, veraltete Dokumentgeneratoren). Neue10-Tabellen
+und Anleitung synchronisiert; alte09-Unterlagen erhalten. Lieferstand und
+Pruefgrenzen: `cad/README.md` und `projekt/Dokumentation/Entwicklungsstand_Teller_10.md`.
+
+Nutzerartikel AliExpress1005009887984460 noch nicht identifiziert, kein bestaetigter
+Preis-Leistungs-Sieger. Lieferantenzeichnung und Kopfaufmass fehlen. Alle Bau-,
+Bestell-, Betriebs- und ATC-Freigaben false. Folgende Abschnitte sind Historie.
+
 ## Entwicklungspruefung 31.10.2026, nach Revision 6631f8b
 
 Alle sieben aktiven NX-Journale erneut in frischen NX-2406-Prozessen verarbeitet:

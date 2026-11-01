@@ -1,5 +1,19 @@
 # Entscheidungen und offene Annahmen
 
+## Nutzerentscheidung01.11.2026: Teller und zwingendes Spannpaket
+
+Werkzeugwechsler darf nicht auf dem Tisch stehen; Tellerbauform erforderlich.
+Kein Budget oder feste Platzzahl vorgegeben; Eigenbau erlaubt, guenstiges passendes
+Kaufprodukt ebenso. Spindel muss Spannpaket erhalten. Nutzer nennt den moeglichen
+AliExpress-Artikel1005009887984460; Identitaet/Variante noch nicht auslesbar.
+Keine Bestellung, Herstellerwahl oder Passungsfreigabe daraus ableiten.
+
+Bearbeiterentwurf10:8 Plaetze, seitliche Gestellstuetze, radiale Zustellreserve,
+Spann-/Loeseraum oberhalb Originalspindel. Das sind Entwurfsannahmen; die
+automatische Spannung ist noch nicht ausgelegt. Komplette passende BT30-Patrone
+weiterhin bevorzugt zu untersuchen, nicht endgueltig vom Nutzer ausgewaehlt.
+Konstruktionsbericht: `projekt/Dokumentation/Entwicklungsstand_Teller_10.md`.
+
 ## Nutzerentscheidung 31.10.2026: neue native Dateien im Git-Projekt
 
 Der Nutzer verlangt die Neuerzeugung der 3D-Dateien im Git-Ordner und ihre

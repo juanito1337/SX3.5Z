@@ -1,5 +1,23 @@
 # Priorisierte Fortsetzung
 
+## Naechste Schritte nach Tellerentwurf10 (01.11.2026)
+
+1. Nutzerartikel1005009887984460 anhand Titel, Variante und Preis identifizieren.
+   Mit vollstaendigem Spann-/Loesesystem und Eigenbau-Teller vergleichen; keine
+   Kaufentscheidung anhand historischer Indexpreise.
+2. Kopf/Pinole/Spindeldurchgang und Bezugsflaechen messen; passende gemeinsame
+   Herstellerzeichnung beschaffen. Spannpaket inklusive Lastabstuetzung auslegen.
+3. Zustellung419mm, Retention, Schutzverschluss und ganze Wechselbahn aus der
+   ausgewaehlten Spindel ableiten; jetzige552 Endpunktchecks sind nur eine Teilpruefung.
+4. Tankwartung trotz hinterem Holm, Tuerentwaesserung und sechs unmontierte
+   Sensorreferenzen bearbeiten; sechs echte Maschinenanschluss-Konflikte separat.
+5. Revisionsgleiche Fertigungszeichnungen/Abwicklungen und Montageunterlagen
+   nach den Istmassen ausarbeiten. R02/R07/R11/R13 teilweise bearbeitet, nicht freigegeben.
+
+Aktueller Arbeitsnachweis: `docs/superpowers/plans/2026-11-01-teller-spannpaket-kss.md`.
+Neue Daten und Grenzen: `projekt/Dokumentation/Entwicklungsstand_Teller_10.md`.
+Nachfolgende Priorisierung ist der vorherige Stand.
+
 ## Aktuelle Roadmap mit Entwicklungsprompts
 
 Siehe `docs/superpowers/plans/2026-10-31-entwicklungsroadmap.md` (R00–R14).

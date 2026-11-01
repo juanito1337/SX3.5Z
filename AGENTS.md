@@ -19,7 +19,7 @@ Ziel, derzeit nicht betriebsbereit. Keine vollständige Neukonstruktion aus dem 
 
 ## Aktiver Stand und Originalschutz
 
-- Ausschließlich `projekt/` ist der aktive Programmstand09. Historische ZIPs und
+- Ausschließlich `projekt/` ist der aktive Programmstand10 (Teller-/KSS-Erweiterung der Basis09). Historische ZIPs und
   `projekt/Historie_07_3/` nicht über aktive Dateien kopieren. Ältere nummerierte Module im
   aktiven Stamm sind teilweise importierte Abhängigkeiten, also nicht nach Dateinamen löschen.
 - Die Dateien unter `referenzen/` sind Quellen; `eingaben/original_nx/` enthält künftig
@@ -47,7 +47,7 @@ NX-spezifischer Code muss in der NX-Laufzeit geprüft werden. Mocks, CadQuery/OC
 Browseransichten, AST-Prüfungen oder grüne pytest-Läufe beweisen keine native NX-Ausführung.
 Andere Kernel nur als ausdrücklich ergänzende Offline-Prüfung, nicht als Ersatz für native Parts.
 Blech-Pflichtmodus `required` nicht zur Fehlerumgehung auf `solid` umstellen.
-Versionen 4.8 (Basisadapter), 07.2 (Blechadapter), 07.3 (Formeln) und 09 (Modell) sind absichtlich verschieden.
+Versionen 4.8 (Basisadapter), 07.2 (Blechadapter), 07.3 (Formeln) und 10 (aktuelles Modell auf Basis09) sind absichtlich verschieden.
 
 ## Maße, Kaufteile und Freigaben
 

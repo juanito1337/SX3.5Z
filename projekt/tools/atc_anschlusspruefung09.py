@@ -23,6 +23,8 @@ def overlaps(a,b):
     return all(min(getattr(aa,k+'max'),getattr(bb,k+'max'))>max(getattr(aa,k+'min'),getattr(bb,k+'min'))+1e-5 for k in 'xyz')
 
 def run(cache=None):
+    if m.VERSION!='CNC_UMSETZUNG_09':
+        raise RuntimeError('Historischer09-Generator: fuer Teller10 tools/teller_pruefung10.py --output <neuer Bericht> verwenden.')
     p=m.load_parameters(ROOT/'Parameter.json');v=m.all_values(p);defs=m.recipe();reach=m.atc_report(p)
     names=['Spindelkopf_Guss_Detail','Kopf_Frontplatte_Detail','Pinole_Huelse_Detail']
     hs={d['name']:world_body(d,p,cache) for d in defs if d['name'] in names}

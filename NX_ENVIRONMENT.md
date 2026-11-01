@@ -1,5 +1,16 @@
 # Ausführungsumgebungen – nicht miteinander verwechseln
 
+## Fortschreibung01.11.2026
+
+Gleiche unveraenderte Laufzeiten: NX2406/Python3.10.15, separate Offline-Umgebung
+CPython3.12.14/CadQuery2.8/OCP7.9.3.1.1. Sieben aktuelle Journale Exit0,
+511 Einzelteile erneut geladen,19 native Blechkonvertierungen; Offline163 Tests
+und91 Untertests. Befehle/Rohprotokolle/Quellhashes:
+`ergebnisse/entwicklung/20261101_teller/`. Aktueller Lieferlauf in `cad/README.md`.
+Wiedereroeffnungsjournal prueft jetzt das mitgespeicherte aktuelle Rezept kanonisch.
+Fuer historische09-Pruefungen die zugehoerige alte Git-Revision verwenden;
+das neue Journal akzeptiert nicht stillschweigend ein abweichendes altes Rezept.
+
 ## Separate Offline-Umgebung, 31.10.2026
 
 Unter `.venv/` liegt jetzt eine lokale Standard-Python-Umgebung: CPython 3.12.14,

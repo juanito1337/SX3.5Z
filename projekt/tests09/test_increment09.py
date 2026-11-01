@@ -5,7 +5,7 @@ import cnc_ansichtsmodell as model
 ROOT=Path(__file__).resolve().parents[1]
 
 def test_revision09_is_implemented():
-    assert model.VERSION=='CNC_UMSETZUNG_09'
+    assert model.VERSION=='CNC_UMSETZUNG_10_TELLER'
 
 def test_stock_castings_and_complete_moving_door_unchanged():
     import cnc_ansichtsmodell08 as old
@@ -18,7 +18,7 @@ def test_stock_castings_and_complete_moving_door_unchanged():
 def test_new_purchase_mapping_and_counts():
     cat=json.loads((ROOT/'Einkauf/Kaufteile_09.json').read_text())['items']
     new=[d for d in model.recipe() if d.get('revision_added')=='09']
-    assert len(new)>=50
+    assert len(new)==48  # retained service/cabinet hardware; table magazine replaced
     for d in new:
         if d['supply_kind']=='BUY':
             assert d['item_id'] in cat
@@ -28,19 +28,19 @@ def test_new_purchase_mapping_and_counts():
     assert len({d['purchase_instance'] for d in handles})==3
     assert sum(d.get('item_id')=='K09-GLAND20' for d in new)==2
 
-def test_six_pockets_not_a_claim_of_operational_atc():
+def test_eight_pockets_not_a_claim_of_operational_atc():
     assert hasattr(model,'atc_report'), 'ATC interface/reach gate is missing'
     r=model.atc_report(model.load_parameters(ROOT/'Parameter.json'))
-    assert len(r['pockets'])==6
+    assert len(r['pockets'])==8
     assert r['machine_operation_enabled'] is False
     assert r['original_spindle']=='SK30/M12 DIN2080'
     assert r['required_spindle_interface']=='BT30 automatic clamping'
-    assert r['nominal_reach_ok'] is True
+    assert r['nominal_reach_ok'] is False  # no complete trajectory/spindle proof
     assert r['trajectory_verified'] is False
 
-def test_atc_pitch_too_small_rejected():
+def test_atc_radius_too_small_rejected():
     assert hasattr(model,'atc_report'), 'ATC validation missing'
-    p=model.load_parameters(ROOT/'Parameter.json');p['atc_pitch']=40
+    p=model.load_parameters(ROOT/'Parameter.json');p['teller_radius']=40
     with pytest.raises(ValueError):model.atc_report(p)
 
 def test_new_catalog_dimensions_cannot_be_silently_overridden():

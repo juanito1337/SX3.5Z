@@ -1,5 +1,18 @@
 # Übergabe des letzten Gesprächs: automatische Werkzeugspannung
 
+## Fortschreibung01.11.2026: Pflichtanforderung und offener Nachweis
+
+Der Nutzer hat das Spannpaket ausdruecklich als zwingend bezeichnet. Neuer
+Tellerentwurf10 ersetzt das Tischmagazin; drei orange Raumkoerper markieren
+Anschluss, Feder-/Spanneinheit und Loeseeinheit. **Dies ist noch kein ausgelegtes
+Spannpaket.** SK30/M12 bleibt unveraendert, keine BT30-Kompatibilitaet behauptet.
+
+Lieferantenvergleich mit DAIYA/CHUMPOWER/Automation Technology sowie
+AliExpress-Tellern unter `projekt/Werkzeugwechsler/Teller_Spannpaket_Vergleich_10.md`.
+Kopfaufmass, abgestimmte Herstellerzeichnung, Kraft-/Hub-/Lagerlastnachweis,
+Sensorik und Orientierung fehlen. Aktueller Schnittstellenbericht traegt `_10`.
+Die folgenden Aussagen zum fehlenden Modellzusatz und6er-Magazin beschreiben09.
+
 **Status: Konzeptdiskussion, noch keine entsprechende Modelländerung und keine Kaufentscheidung.**
 Diese Notiz dokumentiert den letzten besprochenen Ansatz; sie ist keine neue Lieferantenauslegung.
 Die vorhandenen Katalog-/Quellenbelege bleiben unter `projekt/Quellen/` und

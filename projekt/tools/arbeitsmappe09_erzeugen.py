@@ -3,6 +3,8 @@ from pathlib import Path
 import json,sys
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import cnc_ansichtsmodell as model,umbau_daten09 as ud
+if model.VERSION!='CNC_UMSETZUNG_09':
+    raise RuntimeError('Historischer09-Generator: fuer10 Projekt09_Berichte.py auf Arbeitskopie verwenden; Anleitung10 lesen.09-XLSX bleibt historisch.')
 from artifact_tool import Workbook,SpreadsheetFile
 wb=Workbook.create();p=model.load_parameters(ROOT/'Parameter.json');ds=model.recipe();b=ud.bom_rows(ds,ROOT);sources=ud.sources(ROOT);fab=ud.manufacturing_rows(ds,p,model);mapping=ud.model_map(ds)
 measures=json.loads((ROOT/'Aufmass/Messwerte_08.json').read_text())['measurements']+json.loads((ROOT/'Aufmass/Messwerte_09_Zusatz.json').read_text())['measurements']

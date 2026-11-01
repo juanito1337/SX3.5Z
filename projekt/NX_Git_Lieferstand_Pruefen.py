@@ -15,6 +15,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import NXOpen
 import cnc_ansichtsmodell as model
+from nx_geometry import fingerprint
 
 
 def main():
@@ -24,8 +25,10 @@ def main():
     main_name = (run / 'HAUPTBAUGRUPPE.txt').read_text(encoding='utf8').strip()
     main_path = (run / main_name).resolve()
     main_path.relative_to(run)
-    expected = {d['id']: d for d in model.recipe()}
-    assert len(manifest) == len(expected) == 560
+    saved_recipe=json.loads((run / 'Rezept_beim_Aufbau.json').read_text(encoding='utf8'))
+    assert fingerprint(saved_recipe) == fingerprint(model.recipe()), 'Lieferstandrezept stimmt nicht mit aktivem Quellstand ueberein.'
+    expected = {d['id']: d for d in saved_recipe}
+    assert len(manifest) == len(expected) == len(saved_recipe)
     assert {d['id'] for d in manifest} == set(expected)
     expected_paths = {}
     for item in manifest:
@@ -62,7 +65,7 @@ def main():
         assert Path(part.FullPath).resolve() == main_path
         root = part.ComponentAssembly.RootComponent
         groups = root.GetChildren()
-        assert len(groups) == len(model.GROUPS) == 20
+        assert len(groups) == len(model.GROUPS)
         found = set()
         metadata_checked = 0
         sheet_spec = next(s for s in model.SPECS if s['name'] == 'sheet_t')
@@ -98,7 +101,7 @@ def main():
             Path(loaded.FullPath).resolve().relative_to(run)
         result.update(saved_parts_reopened=True, part_count=len(found), group_count=len(groups),
                       metadata_parts_checked=metadata_checked)
-        print('WIEDEROEFFNUNG_BESTANDEN: 560 Einzelteile, 20 Unterbaugruppen, Metadaten persistent.')
+        print('WIEDEROEFFNUNG_BESTANDEN: %d Einzelteile, %d Unterbaugruppen, Metadaten persistent.' % (len(found),len(groups)))
     except Exception as exc:
         result['errors'].append(type(exc).__name__ + ': ' + str(exc))
         raise

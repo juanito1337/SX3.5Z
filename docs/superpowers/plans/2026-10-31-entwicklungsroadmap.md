@@ -1,5 +1,17 @@
 # SX3.5Z – Entwicklungsroadmap und Arbeitsprompts
 
+## Fortschritt01.11.2026
+
+R00 erneut nativ fuer10: sieben Journale Exit0,511 Einzelteile/20 Unterbaugruppen
+wieder geoeffnet,19 native Blechkonvertierungen;163 Tests +91 Untertests.
+R02 teilweise: KSS-Fertigungszuordnung und aktuelle10-Mengen, historischer09-Export
+geschuetzt. R07: weiterer Spannsystemvergleich, aber kein ausgelegtes Spannpaket.
+R11: Seitenanschluss, Parametergrenzen und Korbauszug korrigiert; Tankauszug offen.
+R13: seitlicher8er-Teller als vorlaeufige Raumstudie;552 Endpunktchecks, keine
+vollstaendige Wechselbahn. R10 Tuerentwaesserung und Gestellnachweise weiter offen.
+Eigenstaendiger Plan: `2026-11-01-teller-spannpaket-kss.md`.
+Die nachfolgende Bestandszaehlung und Statusmatrix gelten fuer31.10./Stand09.
+
 Stand: 31.10.2026. Auditbasis: Git `6631f8b`. Gilt fuer das aktive `projekt/`
 und die daraus neu erzeugten CAD-Dateien im Git-Projekt. Alte CAD-Dateien an
 anderen Orten des Rechners sind nach Nutzerentscheidung ausgeschlossen.

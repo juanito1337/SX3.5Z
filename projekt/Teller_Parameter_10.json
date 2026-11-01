@@ -1,0 +1,18 @@
+{
+  "_note": "E10 unbestaetigte Layoutannahmen; kein Kaufteil, kein Spannnachweis; Hauptbaugruppe geparkt.",
+  "teller_radius": 180.0,
+  "teller_park_distance": 599.3329625508679,
+  "teller_dir_x": 0.9010016697590998,
+  "teller_dir_y": 0.43381561877289987,
+  "teller_feed": 0.0,
+  "teller_index_cos": 1.0,
+  "teller_index_sin": 0.0,
+  "teller_gauge_z": 370.0,
+  "teller_plate_t": 10.0,
+  "teller_post_side": 40.0,
+  "teller_collar_top": 125.0,
+  "clamp_space_d": 80.0,
+  "clamp_space_h": 100.0,
+  "release_space_d": 100.0,
+  "release_space_h": 80.0
+}
