@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def test_new_native_entrypoint_reloads_and_checks_revision09():
     s=(ROOT/'NX_CNC_Gesamtansicht.py').read_text()
-    assert "'CNC_UMSETZUNG_10_TELLER'" in s
+    assert "'CNC_UMSETZUNG_11_FANGBLECHE'" in s
     assert "'normteile09'" in s and "'cnc_ansichtsmodell08'" in s
     assert 'umbau_daten09' in s
     assert (ROOT/'NX_Normteile_ATC_Pruefen.py').exists()

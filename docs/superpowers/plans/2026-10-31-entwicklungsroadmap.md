@@ -1,5 +1,15 @@
 # SX3.5Z – Entwicklungsroadmap und Arbeitsprompts
 
+## Fortschreibung Stand11
+
+R00: neun native Laeufe, PARK/WECHSEL frisch geoeffnet;173 Tests +99 Untertests.
+R11: vier seitliche Fangblechvorformen mit acht Achsecken geprueft, Halter/Service offen.
+R13: rechte Parkseite vom Nutzer bestaetigt; native Werkzeuglage in Wechselstellung
+gemessen,9 diskrete Wegstellungen ohne Kollision. Spannpaket/volle Bahn weiterhin offen.
+R12: Demontage alter Elektrik dokumentiert; Ersatz der Sicherheits-/Antriebsfunktionen
+ist zwingende noch offene Detailarbeit. Plan2026-11-01-wechselstellung-spaenefang11.md.
+Folgende Staende beschreiben die Historie.
+
 ## Fortschritt01.11.2026
 
 R00 erneut nativ fuer10: sieben Journale Exit0,511 Einzelteile/20 Unterbaugruppen

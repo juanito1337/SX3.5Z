@@ -5,7 +5,7 @@ import cnc_ansichtsmodell as model
 ROOT=Path(__file__).resolve().parents[1]
 
 def test_revision09_is_implemented():
-    assert model.VERSION=='CNC_UMSETZUNG_10_TELLER'
+    assert model.VERSION=='CNC_UMSETZUNG_11_FANGBLECHE'
 
 def test_stock_castings_and_complete_moving_door_unchanged():
     import cnc_ansichtsmodell08 as old

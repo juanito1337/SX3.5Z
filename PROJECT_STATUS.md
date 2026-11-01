@@ -1,5 +1,28 @@
 # Projektstatus zum Codex-Übergabestand
 
+## Aktuell11: Nutzerkorrekturen01.11.2026
+
+Rechte Parkseite ausdruecklich bestaetigt. Getrennte native PARK-/WECHSEL-
+Baugruppen, jeweils454 Einzelteile/17 Unterbaugruppen. Vier neue Fangbleche
+links/rechts;61 Originalanbauten entfernt, Demontageliste mit Funktionshinweisen.
+Spindelmotor/Guss/Fuehrungsbaelge/CNC-Elektrik erhalten. Neue Zustellung389,33mm;
+groessere Parkhaube mit11,1mm nominalem Gabeleckenabstand.
+
+Neun native Journallaeufe Exit0, beide Gesamtstellungen gespeichert und in
+frischen NX2406-Prozessen vollstaendig geoeffnet. Je19 native Blechkonvertierungen;
+vier neue Fangbleche sind getrennt ausgewiesene geneigte Vorformen.
+Native Halterkegelmessung in Wechselstellung stimmt innerhalb0,00001mm mit
+nomineller Spindelachse/-hoehe ueberein. Keine reale SK30/BT30-Passungsfreigabe.
+Offline173 Tests +99 Untertests,9 Wegstichproben/87 Schnittpruefungen und552
+Endpunktchecks ohne Kollision. KSS Exit1 nur6 bekannte IFS206-Referenzkonflikte;
+acht Achsecken und Korbauszug ohne Kollision, verformbare Baelge ausgeschlossen.
+
+Spannpaket, Retention, volle Bahn, Festigkeit, elektrische Ersatzfunktionen,
+35 Istmasse,6 Maschinenanschluss-Konflikte und Tankauszug weiter offen.
+Anleitung: projekt/Dokumentation/Entwicklungsstand_11.md. Native Nachweise:
+cad/README.md; Rohdaten: ergebnisse/entwicklung/20261101_revision11/.
+Nachfolgende Staende10/09 sind historisch.
+
 ## Aktueller Entwicklungsstand10, 01.11.2026
 
 Ausgangsrevision e87f522, neue Quellen durch native_source_hashes.json im

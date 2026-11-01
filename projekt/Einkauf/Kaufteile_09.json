@@ -1823,7 +1823,7 @@
     },
     "O10-TELLER": {
       "id": "O10-TELLER",
-      "description": "8-Platz-Teller, Indexierung, Gabelretention und ca419mm Teleskopzustellung",
+      "description": "8-Platz-Teller, Indexierung, Gabelretention und ca389mm Teleskopzustellung (Entwurf11)",
       "manufacturer": "OFFEN: Eigenbau oder Lieferant",
       "article": "KEIN BESTELLARTIKEL",
       "planned_quantity": 1,
@@ -1846,5 +1846,5 @@
       "delivery_confirmed": false
     }
   },
-  "version": "10 auf09-Katalogbasis"
+  "version": "11 auf09-Katalogbasis; rechte Tellerlage und Demontagestand"
 }

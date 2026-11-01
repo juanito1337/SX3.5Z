@@ -148,8 +148,8 @@ class NormalThicknessRegression073(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Dimension mismatch'):
             quantity_eval(original, values)
 
-    def test_all_ten_sloped_panels_have_length_result_and_same_values(self):
-        self.assertEqual(len(self.slopes), 10)
+    def test_all_fourteen_sloped_panels_have_length_result_and_same_values(self):
+        self.assertEqual(len(self.slopes), 14)
         for d in self.slopes:
             with self.subTest(part=d['name']):
                 end, _, _, _ = run_profile(d, self.params)

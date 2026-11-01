@@ -12,7 +12,7 @@ HERE=os.path.dirname(os.path.abspath(__file__))
 if HERE in sys.path:sys.path.remove(HERE)
 sys.path.insert(0,HERE)
 # NX retains modules between journal runs: explicitly reload this package only.
-for _n in ('cnc_ansichtsmodell','teller10','normteile09','cnc_ansichtsmodell08','umbau_daten09','cnc_ansichtsmodell07','umbau_daten08','cnc_ansichtsmodell01','modell_v4','v3_geometriebasis','nx_native','nx_files','nx_geometry','enclosure_checks03','blech06','nx_sheetmetal06','formeln07','ruecklauf07','nx_formeln073'):
+for _n in ('cnc_ansichtsmodell','revision11','teller10','normteile09','cnc_ansichtsmodell08','umbau_daten09','cnc_ansichtsmodell07','umbau_daten08','cnc_ansichtsmodell01','modell_v4','v3_geometriebasis','nx_native','nx_files','nx_geometry','enclosure_checks03','blech06','nx_sheetmetal06','formeln07','ruecklauf07','nx_formeln073'):
     if _n in sys.modules:del sys.modules[_n]
 import cnc_ansichtsmodell as model
 import nx_sheetmetal06
@@ -185,12 +185,12 @@ def probe(session,params,log,out,files):
     log('API-Vortest bestanden: Ausdruecke, Parameteraenderung, Features, Save und AddComponent.')
     return b.expression_factory.mode
 
-def main(probe_only=False,parts_only=False,part_filter=None,paths_only=False):
+def main(probe_only=False,parts_only=False,part_filter=None,paths_only=False,pose='park'):
     session=NXOpen.Session.GetSession();log=RunLog(session)
     current=None;builder=None;out=None;mark=None;files=None
     try:
         log('SX3.5Z CNC-GESAMTANSICHT -- gesamte Maschine, XYZ-Antriebe und Baugruppen in einem Lauf.')
-        log('UMSETZUNGSSTAND10: Teller-/Spannpaket-Entwurf; Maschinen-Aufmass und Lieferrevisionen offen. KEINE FERTIGUNGS-/BESTELLFREIGABE.')
+        log('UMSETZUNGSSTAND11: Fangbleche und rechter Teller; Stellung '+pose+'. KEINE FERTIGUNGS-/BESTELLFREIGABE.')
         log_environment(log)
         log('Geometriestand: '+model.VERSION+'; Untergestell/Einhausung/Schaltschrank als ENTWURF.')
         log('Startjournal: '+os.path.abspath(__file__))
@@ -201,12 +201,12 @@ def main(probe_only=False,parts_only=False,part_filter=None,paths_only=False):
         log('Blechadapterdatei: '+str(getattr(nx_sheetmetal06,'__file__','unbekannt')))
         if getattr(nx_sheetmetal06,'ADAPTER_VERSION',None) != '07.2':
             raise RuntimeError('Gemischter Blechpatch: NX_CNC_Gesamtansicht.py und nx_sheetmetal06.py aus 07.2 gemeinsam verwenden.')
-        if JOURNAL_VERSION != '4.8' or FILES_VERSION != '4.8' or GEOMETRY_VERSION != '4.6' or model.VERSION != 'CNC_UMSETZUNG_10_TELLER':
+        if JOURNAL_VERSION != '4.8' or FILES_VERSION != '4.8' or GEOMETRY_VERSION != '4.6' or model.VERSION != 'CNC_UMSETZUNG_11_FANGBLECHE':
             raise RuntimeError('Gemischte Journalversionen. Alle Patchdateien im selben Ordner ablegen.')
-        params=model.load_parameters(os.path.join(HERE,'Parameter.json'));values=model.check_recipe(params)
+        params=model.assembly_pose(model.load_parameters(os.path.join(HERE,'Parameter.json')),pose);values=model.check_recipe(params)
         stamp=datetime.now().strftime('%Y%m%d_%H%M%S_%f')
         run_id=uuid4().hex[:12]
-        out=prepare_output_directory(HERE,'SX35Z_'+model.VERSION+'_'+stamp+'_'+run_id,log)
+        out=prepare_output_directory(HERE,'SX35Z_'+model.VERSION+'_'+pose.upper()+'_'+stamp+'_'+run_id,log)
         log.set_output_directory(out)
         if paths_only:
             log('Nur Pfadtest: keine NX-Testteile oder Maschinenbauteile erzeugt.')
@@ -227,6 +227,8 @@ def main(probe_only=False,parts_only=False,part_filter=None,paths_only=False):
         definitions=model.recipe()
         with open(os.path.join(out,'Rezept_beim_Aufbau.json'),'w',encoding='utf8') as stream:
             json.dump(definitions,stream,sort_keys=True,separators=(',',':'))
+        with open(os.path.join(out,'Demontageliste_11.json'),'w',encoding='utf8') as stream:
+            json.dump(model.removal_report(),stream,indent=2,ensure_ascii=False)
         # Verify the new licensing/API path before building all machine parts.
         if not part_filter and SHEETMETAL_MODE=='required':
             coupon=dict(name='K06_Blechprobe',group='15_Einhausung',material='sheet',datum=['0','0','0'],ops=[],id='BLECHPROBE',filename='BLECHPROBE',source='K06',status='TEST',note='Native Blechprobe, keine Maschine')
@@ -260,6 +262,17 @@ def main(probe_only=False,parts_only=False,part_filter=None,paths_only=False):
             except Exception:pass
             files.save(p,path)
             with open(path+'.geometrie.json','w',encoding='utf8') as f:json.dump(builder.geometry_trace,f,indent=2)
+            if pose=='wechsel' and d['name']=='ATC_BT30_ER20_70_Raumhuelle_1':
+                bounds=builder.geometry_trace[-1]['tool_actual']['bounds_mm']
+                datum=[model.evaluate(x,values) for x in d['datum']]
+                measured=[(bounds[0]+bounds[3])/2+datum[0],(bounds[1]+bounds[4])/2+datum[1],bounds[2]+datum[2]]
+                target=[0.,0.,values['spindle_face_z']]
+                if any(abs(a-b)>1e-5 for a,b in zip(measured,target)):
+                    raise RuntimeError('Native Werkzeuglage erreicht nominelle Spindelachse/-hoehe nicht: '+str(measured))
+                with open(os.path.join(out,'NX_Werkzeuglage_11.json'),'w',encoding='utf8') as stream:
+                    json.dump(dict(native_nx_executed=True,pose=pose,measured_holder_cone_axis_and_gauge_mm=measured,
+                        nominal_spindle_axis_and_face_mm=target,tolerance_mm=1e-5,nominal_alignment_verified=True,
+                        spindle_interface_verified=False,spindle_clamping_verified=False,trajectory_verified=False),stream,indent=2)
             item=dict(id=d['id'],name=d['name'],file=os.path.relpath(path,out),group=d['group'],datum=[model.evaluate(x,values) for x in d['datum']],datum_formula=d['datum'],native_feature_count=builder.feature_count,expression_mode=mode,journal_version=JOURNAL_VERSION)
             item['sheetmetal']=builder.sheetmetal_result
             item.update(item_id=d.get('item_id'),supply_kind=d.get('supply_kind'),purchase_instance=d.get('purchase_instance'),source=d.get('source'),release=False)
@@ -282,7 +295,7 @@ def main(probe_only=False,parts_only=False,part_filter=None,paths_only=False):
                 attr(p,'SX_VERSION',model.VERSION);attr(p,'SX_JOURNAL_VERSION',JOURNAL_VERSION);attr(p,'SX_BAUGRUPPE',model.GROUPS[group])
                 files.save(p,path);subpaths.append((group,path))
                 log('Unterbaugruppe gespeichert: '+group)
-            current='FRAESMASCHINE_CNC_TELLER_SPANNPAKET_10_NICHT_FREIGEGEBEN'
+            current='FRAESMASCHINE_CNC_11_'+pose.upper()+'_NICHT_FREIGEGEBEN'
             rootpath=files.filename(out,current)
             root=files.create(rootpath,lambda target:newpart(session,target,log))
             for g,path in subpaths:add_component(root,path,g,(0,0,0))

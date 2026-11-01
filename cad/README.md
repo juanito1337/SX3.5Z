@@ -1,5 +1,29 @@
 # Native NX-Dateien im Git-Projekt
 
+## Aktuell11: Parkstellung und Wechselstellung, 01.11.2026
+
+- **PARK**: [fraesmaschine_cnc_11_park_nicht_freigegeben__7aecac2684bf.prt](nx/SX35Z_CNC_UMSETZUNG_11_FANGBLECHE_PARK_20261101_111503_626609_7aecac2684bf/fraesmaschine_cnc_11_park_nicht_freigegeben__7aecac2684bf.prt)
+- **WECHSEL**: [fraesmaschine_cnc_11_wechsel_nicht_freigegeben__5b021d005ea9.prt](nx/SX35Z_CNC_UMSETZUNG_11_FANGBLECHE_WECHSEL_20261101_111814_576079_5b021d005ea9/fraesmaschine_cnc_11_wechsel_nicht_freigegeben__5b021d005ea9.prt)
+
+WECHSEL zeigt den rechten Teller bis zur nominellen Spindelachse, Kopf auf
+Uebergabehoehe. PARK zeigt die eingefahrene Ablage. Jeweils den vollstaendigen
+Laufordner mit Teile/ und Unterbaugruppen/ zusammenhalten.454 Einzelteile,
+17 Unterbaugruppen,1 Hauptbaugruppe und3 API-Pruefteile pro Lauf (475 PRT).
+Beide Stellungen gespeichert und in frischer NX2406-Sitzung voll geoeffnet.
+19 native Blechkonvertierungen je Lauf; vier neue Fangbleche sind Vorformen.
+PRUEFSTATUS.json, PRT_SHA256.json und Pruefnachweise/ begleiten jeden Lauf.
+NX_Werkzeuglage_11.json im WECHSEL-Ordner dokumentiert die native Lagepruefung.
+
+Erzeugung: projekt/NX_CNC_Gesamtansicht.py bzw. NX_CNC_Wechselstellung.py.
+Wiedereroeffnen: SX35Z_VERIFY_RUN auf einen der obigen Laufordner setzen und
+projekt/NX_Git_Lieferstand_Pruefen.py in frischer NX-Sitzung starten.
+Nur mit passenden Quellen/Parametern pruefen; keine alten Parts ueberschreiben.
+
+Spannpaket/BT30-Passung, volle Bahn und Betriebsfreigabe bleiben offen.
+Aktuelle Anleitung: projekt/Dokumentation/Entwicklungsstand_11.md.
+Historische10/09-Dateien und HTML-Ansichten bleiben erhalten; untenstehende
+Angaben gelten nur fuer diese alten Lieferstaende.
+
 ## Aktueller Lieferstand10 vom01.11.2026
 
 Neu aus dem aktiven Git-Projekt erzeugt, keine alten CAD-Eingaben.

@@ -8,7 +8,7 @@ from collections import OrderedDict
 DEFAULTS = dict(teller_radius=180., teller_park_distance=math.hypot(540,260),
     teller_dir_x=540/math.hypot(540,260), teller_dir_y=260/math.hypot(540,260),
     teller_feed=0., teller_index_cos=1., teller_index_sin=0., teller_gauge_z=370.,
-    teller_plate_t=10., teller_post_side=40., teller_collar_top=125.,
+    teller_plate_t=10., teller_post_side=40., teller_collar_top=125.,teller_hood_radius=220.,
     clamp_space_d=80., clamp_space_h=100., release_space_d=100., release_space_h=80.)
 UNITLESS={'teller_dir_x','teller_dir_y','teller_feed','teller_index_cos','teller_index_sin'}
 DERIVED=OrderedDict([
@@ -16,7 +16,7 @@ DERIVED=OrderedDict([
     ('teller_park_y','-teller_park_distance*teller_dir_y'),
     ('teller_cx','-(teller_park_distance-teller_feed*(teller_park_distance-teller_radius))*teller_dir_x'),
     ('teller_cy','-(teller_park_distance-teller_feed*(teller_park_distance-teller_radius))*teller_dir_y'),
-    ('teller_post_x','enc_left+tube_side/2'),
+    ('teller_post_x','enc_right-tube_side/2'),
     ('teller_post_y','enc_front+115'),
 ])
 
@@ -32,12 +32,16 @@ def validate(p,v):
     for a,b in [('teller_dir_x','teller_dir_y'),('teller_index_cos','teller_index_sin')]:
         if not math.isclose(p[a]**2+p[b]**2,1,abs_tol=1e-9):
             raise ValueError('Teller-Richtungsvektor muss normiert sein')
-    if p['teller_dir_x']<=0 or p['teller_dir_y']<=0:raise ValueError('Parkrichtung vorn links erforderlich')
+    if p['teller_dir_x']>=0 or p['teller_dir_y']<=0:raise ValueError('Parkrichtung vorn rechts erforderlich')
     if p['teller_radius']<170 or p['teller_park_distance']<=p['teller_radius']:
         raise ValueError('Teilkreis/Hub zu klein fuer Kopf- und Halterstudie')
-    outer=p['teller_radius']+30
+    if p['teller_hood_radius']-2 < math.hypot(p['teller_radius']+25,28)+10:
+        raise ValueError('Parkhaube braucht10mm nominalen Abstand zu Gabelecken')
+    outer=max(p['teller_radius']+30,p['teller_hood_radius'])
     if not (v['enc_left']+p['window_t']+p['sheet_t'] < v['teller_park_x']-outer
-            and v['teller_park_y']-outer >= v['enc_front']+p['sheet_t']):
+            and v['teller_park_x']+outer < v['enc_right']-p['sheet_t']
+            and v['teller_park_y']-outer >= v['enc_front']+p['sheet_t']
+            and v['teller_park_y']+outer < v['enc_back']-p['sheet_t']):
         raise ValueError('Geparkte Tellerhuelle ausserhalb Einhausung')
     max_z=v['spindle_face_z']+p['head_down']
     if not max_z-p['z_travel_used'] <= p['teller_gauge_z'] <= max_z:
@@ -46,7 +50,7 @@ def validate(p,v):
         raise ValueError('Geparkte Werkzeughuelle unterschreitet85mm nominalen Tischabstand')
     if p['teller_post_side']!=40 or p['teller_plate_t']!=10:
         raise ValueError('Stuetzen-/Gabelanschluss fuer40mm-Stuetze und10mm-Teller ausgelegt; Neupruefung erforderlich')
-    wet_edge_max=-8-.14*(v['teller_post_x']-24+227)-.025*(v['teller_post_y']-24-382)
+    wet_edge_max=-8+.14*(v['teller_post_x']+24-227)-.025*(v['teller_post_y']-24-382)
     wet_edge_max+=p['sheet_t']*math.sqrt(1+.14**2+.025**2)
     if p['teller_collar_top'] < wet_edge_max+15 or p['teller_collar_top']>=250:
         raise ValueError('Kragen muss15mm ueber hoechster nasser Blechkante und unter Konsole enden')
@@ -64,7 +68,7 @@ def report(p,v):
         pockets.append(dict(pocket=i+1,index_rotation_deg=-i*45.,
             pickup_axis_xy_mm=[-ux*r+r*ux,-uy*r+r*uy],
             required_gauge_z_mm=p['teller_gauge_z']))
-    return dict(schema='ATC10_SPACE_STUDY',layout='RADIAL_TELESCOPIC_CAROUSEL',
+    return dict(schema='ATC11_SPACE_STUDY',layout='RADIAL_TELESCOPIC_CAROUSEL',
         original_spindle='SK30/M12 DIN2080',required_spindle_interface='BT30 automatic clamping',
         clamping_package_required=True,clamping_package_status='RESERVED_SPACE_NOT_ENGINEERED',
         machine_operation_enabled=False,spindle_clamping_verified=False,trajectory_verified=False,
@@ -74,7 +78,7 @@ def report(p,v):
         reserved_table_strip_mm=[0,0],table_mounting=False,
         gauge_z_mm=p['teller_gauge_z'],
         nominal_local_workpiece_height_under_park_mm=p['teller_gauge_z']-p['n09_tool_projection']-p['atc_tool_extra']-v['table_top_z']-15,
-        support='Upper left stand beam; strength, joints and sealed tray penetration unverified',
+        support='Upper right stand beam; strength, joints and sealed tray penetration unverified',
         required_sequence='Side-entry forks and separate magazine feed; no traverse above all stored tools',
         blockers=['Spannpaket/Patrone nicht ausgewaehlt oder ausgelegt',
           'SK30/M12 unveraendert; keine bestaetigte BT30-Schnittstelle',
@@ -102,7 +106,7 @@ def extend(parts,base,cat):
     base.box(d,('teller_post_x-20','teller_post_y-20',-12),(40,40,262))
     base.box(d,('teller_post_x-17','teller_post_y-17',-12.1),(34,34,262.2),'cut','Rohr_3mm_Entwurf')
     # Wet penetration: real opening, closed upstand, remaining gland/seal unselected.
-    base.box(by['KSS_Leitblech_links_vorn'],('teller_post_x-24','teller_post_y-24',-30),
+    base.box(by['KSS_Leitblech_rechts_vorn'],('teller_post_x-24','teller_post_y-24',-30),
              (48,48,200),'cut','ATC_Stuetzendurchfuehrung')
     d=part('ATC_KSS_Dichtkragen_Entwurf','sheet','MAKE',group='17_KSS')
     base.box(d,('teller_post_x-24','teller_post_y-24',60),(48,48,'teller_collar_top-60'))
@@ -110,9 +114,9 @@ def extend(parts,base,cat):
     d['note']+=' Stuetze40mm innen,44mm Innenoeffnung; Dichtmanschette und umlaufende Schweissnaht noch auszulegen.'
     # A structural console at the park point, cardinal outline avoids hidden rotation APIs.
     d=part('ATC_Standkonsole_Entwurf','design_blue','MAKE')
-    pts=[('teller_post_x-20','teller_post_y-20',250),('teller_post_x+20','teller_post_y-20',250),
-         ('teller_park_x+35','teller_park_y-30',250),('teller_park_x+35','teller_park_y+30',250),
-         ('teller_post_x-20','teller_post_y+20',250)]
+    pts=[('teller_post_x+20','teller_post_y-20',250),('teller_post_x-20','teller_post_y-20',250),
+         ('teller_park_x-35','teller_park_y-30',250),('teller_park_x-35','teller_park_y+30',250),
+         ('teller_post_x+20','teller_post_y+20',250)]
     base.prism(d,pts,15,(0,0,1),label='Konsole_Entwurf_ohne_Festigkeitsnachweis')
     # Explicit envelope only: no invented rail bearing or matching200mm supplier stroke.
     d=part('ATC_Teleskopzustellung_Bauraum')
@@ -129,16 +133,16 @@ def extend(parts,base,cat):
     d=part('ATC_Teller_Eigenentwurf','design_blue','MAKE')
     base.cyl(d,('teller_cx','teller_cy','teller_gauge_z-30'),'2*(teller_radius-25)','teller_plate_t',(0,0,1))
     d=part('ATC_Parkhaube_Ruecken_Entwurf','sheet','MAKE')
-    base.cyl(d,('teller_park_x','teller_park_y','teller_gauge_z-95'),416,185,(0,0,1))
-    base.cyl(d,('teller_park_x','teller_park_y','teller_gauge_z-95.1'),412,185.2,(0,0,1),'cut','Gerolltes_2mm_Blech_Entwurf')
-    pts=[feedpoint('teller_park_x','teller_park_y',0,-220,'teller_gauge_z-95.1'),
-         feedpoint('teller_park_x','teller_park_y',230,-220,'teller_gauge_z-95.1'),
-         feedpoint('teller_park_x','teller_park_y',230,220,'teller_gauge_z-95.1'),
-         feedpoint('teller_park_x','teller_park_y',0,220,'teller_gauge_z-95.1')]
+    base.cyl(d,('teller_park_x','teller_park_y','teller_gauge_z-95'),'2*teller_hood_radius',185,(0,0,1))
+    base.cyl(d,('teller_park_x','teller_park_y','teller_gauge_z-95.1'),'2*(teller_hood_radius-2)',185.2,(0,0,1),'cut','Gerolltes_2mm_Blech_Entwurf')
+    pts=[feedpoint('teller_park_x','teller_park_y',0,'-teller_hood_radius-10','teller_gauge_z-95.1'),
+         feedpoint('teller_park_x','teller_park_y',230,'-teller_hood_radius-10','teller_gauge_z-95.1'),
+         feedpoint('teller_park_x','teller_park_y','teller_hood_radius+10','teller_hood_radius+10','teller_gauge_z-95.1'),
+         feedpoint('teller_park_x','teller_park_y',0,'teller_hood_radius+10','teller_gauge_z-95.1')]
     base.prism(d,pts,185.2,(0,0,1),'cut','Offene_Zustellseite_KEIN_dichter_Abschluss')
     d['note']+=' Stationaerer halboffener Spritzschirm; Klappe/Dichtung/Montage noch offen.'
     d=part('ATC_Parkhaube_Dach_Entwurf','sheet','MAKE')
-    base.cyl(d,('teller_park_x','teller_park_y','teller_gauge_z+90'),416,2,(0,0,1))
+    base.cyl(d,('teller_park_x','teller_park_y','teller_gauge_z+90'),'2*teller_hood_radius',2,(0,0,1))
     for i in range(8):
         c=round(math.cos(i*math.pi/4),12);s=round(math.sin(i*math.pi/4),12)
         ca=f'(({c})*teller_index_cos-({s})*teller_index_sin)'

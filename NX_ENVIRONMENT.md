@@ -1,5 +1,16 @@
 # Ausführungsumgebungen – nicht miteinander verwechseln
 
+## Nativer Nachweis11, 01.11.2026
+
+NX2406/Python3.10.15 unveraendert. Neun Journallaeufe Exit0 einschliesslich
+zweier kompletter Baugruppen und frischer Wiedereroeffnungen. Neue
+NX_CNC_Wechselstellung.py erzeugt die Wechselposition; das Gesamtjournal erzeugt
+PARK. Beide454 Parts/17 Unterbaugruppen, je19 native Blechkonvertierungen.
+Native Werkzeuglagenpruefung in NX_Werkzeuglage_11.json des WECHSEL-Laufs.
+Separate Offline-Suite173 Tests und99 Untertests. Vollstaendige Laufmatrix:
+ergebnisse/entwicklung/20261101_revision11/native_matrix.json.
+Aktuelle Pfade: cad/README.md. Historische Lieferstaende mit ihrem Quellstand pruefen.
+
 ## Fortschreibung01.11.2026
 
 Gleiche unveraenderte Laufzeiten: NX2406/Python3.10.15, separate Offline-Umgebung

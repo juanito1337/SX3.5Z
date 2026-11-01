@@ -1,5 +1,12 @@
 # Übergabe des letzten Gesprächs: automatische Werkzeugspannung
 
+## Stand11
+
+Rechter Teller erreicht die nominelle Spindelachse/-hoehe in einer eigenen
+NX-Wechselbaugruppe; native Halterkegellage gemessen. Die mechanische Schnittstelle
+SK30/M12 zu BT30 und das automatische Spannpaket sind weiterhin offen. Sichtbare
+Koaxialitaet ist kein Greifer-/Federkraft-/Passungs-/Lagerlastnachweis.
+
 ## Fortschreibung01.11.2026: Pflichtanforderung und offener Nachweis
 
 Der Nutzer hat das Spannpaket ausdruecklich als zwingend bezeichnet. Neuer

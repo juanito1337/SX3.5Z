@@ -1,5 +1,15 @@
 # SX3.5Z CNC – Übergabe an Codex
 
+**Aktuell: Stand11 vom01.11.2026.** Rechter Teller mit eigener Park- und
+Wechselbaugruppe bis zur nominellen Spindelachse; vier beidseitige Fangbleche,
+61 entfallene Originalanbauten. Beide nativen NX-Stellungen neu gespeichert
+und frisch wieder geoeffnet, jeweils454 Einzelteile und17 Unterbaugruppen.
+[CAD-Einstieg mit beiden Dateien](cad/README.md) und
+[aktuelle Anleitung/Grenzen](projekt/Dokumentation/Entwicklungsstand_11.md).
+Aktuelle Tabellen tragen `_11`. Spannpaket/BT30-Passung und elektrische
+Ersatzfunktionen bleiben offen. HTML-Ansichten10/09 sind historisch.
+Die folgenden Stand10/09-Angaben sind durch diese Fortschreibung ueberholt.
+
 **Aktuell: Tellerentwurf10, 01.11.2026.** Der seitliche8er-Teller ersetzt das
 Tischmagazin. Neue native511 Einzelteile und20 Unterbaugruppen sind in NX2406
 erzeugt und erneut vollstaendig geladen. Einstieg: [native Dateien](cad/README.md),

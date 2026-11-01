@@ -1,5 +1,21 @@
 # Priorisierte Fortsetzung
 
+## Nach Stand11
+
+Rechte Tellerlage, sichtbare native Wechselstellung, vier seitliche Fangbleche
+und Demontagestand umgesetzt. Vor weiterer Detaillierung bleiben:
+
+1. Reale Spindel-/Spannpaketzeichnung und Kopfaufmass; SK30/BT30-Kopplung klaeren.
+2. Zustellmechanik389,33mm, Retention, Indexierung und gesamte Wechselbahn mit
+   realen Werkzeugen/Werkstuecken auslegen; jetzige Wegstichproben sind begrenzt.
+3. Fangblechhalter/Reinigung/Fugen, Tankwartung und Sensorhalter detaillieren.
+4. Entfernte Originalfunktionen (Not-Halt, Endlagen, XMT-Treiber, PE-Verteilung)
+   im neuen Elektrokonzept ersetzen und pruefen; keine Betriebsfreigabe.
+
+Aktuelle Anleitung: projekt/Dokumentation/Entwicklungsstand_11.md.
+Plan: docs/superpowers/plans/2026-11-01-wechselstellung-spaenefang11.md.
+Die folgenden Aufgabenlisten dokumentieren fruehere Arbeitsstaende.
+
 ## Naechste Schritte nach Tellerentwurf10 (01.11.2026)
 
 1. Nutzerartikel1005009887984460 anhand Titel, Variante und Preis identifizieren.

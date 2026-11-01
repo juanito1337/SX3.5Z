@@ -1,5 +1,18 @@
 # Entscheidungen und offene Annahmen
 
+## Nutzerkorrektur01.11.2026: rechte Parkseite, Spaenefang, Demontage
+
+Nutzer fordert Reichweite bis Spindel und Spaenefang links/rechts der Maschine.
+Original-Schutzabdeckungen, Elektroanbauten und Schutzbleche duerfen fuer den
+eingehausten CNC-Umbau entfallen. Auf Rueckfrage ausdruecklich bestaetigt:
+Teller rechts neben dem Kopf parken und von dort zur Spindel fahren.
+
+Umgesetzt als getrennte native Park-/Wechselstellungen, vier Fangbleche und
+61 explizit aufgelistete entfallene Originalanbauten. Werkzeugeingriff/Spannpaket
+ist dadurch nicht freigegeben. Tragende Gussbauteile, Motoren, neue CNC-Elektrik
+und Fuehrungsbaelge bleiben erhalten. Alte elektrische Funktionen muessen im
+Neuaufbau ersetzt werden. Abmessungen bleiben Entwurf, keine Bild-Istmasse.
+
 ## Nutzerentscheidung01.11.2026: Teller und zwingendes Spannpaket
 
 Werkzeugwechsler darf nicht auf dem Tisch stehen; Tellerbauform erforderlich.

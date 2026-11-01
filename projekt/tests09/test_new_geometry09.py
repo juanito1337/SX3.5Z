@@ -24,7 +24,7 @@ def test_carousel_head_screen_reports_scope_and_exclusions():
     assert result['excluded_selected_stock_spindle_joint'] is True
 
 
-@pytest.mark.parametrize('raw',[d for d in model.recipe() if d.get('revision_added')=='10'],ids=lambda d:d['name'])
+@pytest.mark.parametrize('raw',[d for d in model.recipe() if d.get('revision_added') in ('10','11')],ids=lambda d:d['name'])
 def test_new_study_parts_are_single_valid_solids(raw):
     v=model.all_values(model.load_parameters(ROOT/'Parameter.json'))
     shape=None

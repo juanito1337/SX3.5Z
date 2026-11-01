@@ -21,7 +21,7 @@ def test_all_indexed_pockets_reach_fixed_spindle_without_table_motion():
     assert len(r['pockets']) == 8
     for pocket in r['pockets']:
         assert pocket['pickup_axis_xy_mm'] == pytest.approx([0, 0], abs=1e-9)
-    assert r['required_feed_mm'] == pytest.approx(419.33296255)
+    assert r['required_feed_mm'] == pytest.approx(389.33296255)
     assert not r['spindle_clamping_verified']
     assert not r['trajectory_verified']
 
@@ -49,7 +49,7 @@ def test_support_penetration_has_real_cut_and_separate_collar():
     ds = {d['name']: d for d in model.recipe()}
     assert 'ATC_KSS_Dichtkragen_Entwurf' in ds
     assert any(o['op'] == 'cut' and o['label'] == 'ATC_Stuetzendurchfuehrung'
-               for o in ds['KSS_Leitblech_links_vorn']['ops'])
+               for o in ds['KSS_Leitblech_rechts_vorn']['ops'])
 
 
 def test_original_castings_and_stock_spindle_are_retained():
@@ -78,7 +78,7 @@ def test_current_export_preserves_historical_reports(tmp_path):
     import umbau_daten09 as data
     root=Path(__file__).resolve().parents[1]
     for relative in ('Parameter.json','CNC_Parameter.json','Ausbau_Parameter.json',
-                     'Detail_Parameter_09.json','Teller_Parameter_10.json',
+                     'Detail_Parameter_09.json','Teller_Parameter_10.json','Layout_Parameter_11.json',
                      'Einkauf/Kaufteile_09.json','Aufmass/Messwerte_08.json',
                      'Aufmass/Messwerte_09_Zusatz.json','Pruefung_08/Freigaben.json'):
         dest=tmp_path/relative;dest.parent.mkdir(parents=True,exist_ok=True)
@@ -88,8 +88,8 @@ def test_current_export_preserves_historical_reports(tmp_path):
     old.write_text('HISTORISCH',encoding='utf8')
     data.export(tmp_path)
     assert old.read_bytes()==b'HISTORISCH'
-    assert (tmp_path/'Einkauf/Modellzuordnung_10.csv').exists()
-    assert (tmp_path/'Werkzeugwechsler/ATC_Schnittstellenstatus_10.json').exists()
+    assert (tmp_path/'Einkauf/Modellzuordnung_11.csv').exists()
+    assert (tmp_path/'Werkzeugwechsler/ATC_Schnittstellenstatus_11.json').exists()
 
 
 def test_raised_gauge_keeps_park_roof_above_stored_tool_reserve():

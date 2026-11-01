@@ -14,6 +14,6 @@ if HERE not in sys.path:
     sys.path.insert(0, HERE)
 ns = runpy.run_path(os.path.join(HERE, 'NX_CNC_Gesamtansicht.py'), run_name='nx073_kss_test')
 selected = [d['name'] for d in ns['model'].recipe() if 'plate_normal_thickness' in d]
-if len(selected) != 10:
-    raise RuntimeError('KSS-Test 07.3 erwartet zehn geneigte Bleche; Rezept passt nicht.')
+if len(selected) != 14:
+    raise RuntimeError('KSS-Test11 erwartet zehn Leit-/Trichterbleche und vier Fangbleche.')
 ns['main'](parts_only=True, part_filter=selected)
