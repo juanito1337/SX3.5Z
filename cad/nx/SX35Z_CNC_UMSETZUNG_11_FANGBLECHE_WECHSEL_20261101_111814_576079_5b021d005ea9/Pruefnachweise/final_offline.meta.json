@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2026-11-01T11:11:09.685823+01:00",
+    "source_base": "7bffcd4",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-B",
+      "tools/wechselweg11_pruefen.py",
+      "--output",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision11\\final_wechselweg.json"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt",
+    "environment": "Windows CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "wechselweg",
+    "exitcode": 0,
+    "raw_log": "final_wechselweg.stdout.txt"
+  },
+  {
+    "date": "2026-11-01T11:11:16.496472+01:00",
+    "source_base": "7bffcd4",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-B",
+      "tools/teller_pruefung10.py",
+      "--output",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision11\\final_endpunkte.json"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt",
+    "environment": "Windows CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "endpunkte",
+    "exitcode": 0,
+    "raw_log": "final_endpunkte.stdout.txt"
+  },
+  {
+    "date": "2026-11-01T11:11:23.891928+01:00",
+    "source_base": "7bffcd4",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-B",
+      "tools/pruefen07.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision11\\arbeitskopie_final",
+    "environment": "Windows CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "kss",
+    "exitcode": 1,
+    "raw_log": "final_kss.stdout.txt"
+  },
+  {
+    "date": "2026-11-01T11:11:32.545691+01:00",
+    "source_base": "7bffcd4",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-B",
+      "Projekt09_Berichte.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision11\\arbeitskopie_final",
+    "environment": "Windows CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "berichte",
+    "exitcode": 0,
+    "raw_log": "final_berichte.stdout.txt"
+  }
+]

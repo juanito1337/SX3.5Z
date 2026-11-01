@@ -1,0 +1,56 @@
+FFFFF                                                                    [100%]
+================================== FAILURES ===================================
+________ test_original_external_equipment_is_removed_but_core_retained ________
+
+    def test_original_external_equipment_is_removed_but_core_retained():
+        ds = {d['name']:d for d in m.recipe()}
+>       assert 'Bediengehaeuse_Hohlschale' not in ds
+E       AssertionError: assert 'Bediengehaeuse_Hohlschale' not in {'24V_HDR6024': {'datum': ['cab_x+35', 'cab_y+330', 'cab_z+160'], 'filename': 'B428_24V_HDR6024', 'group': '16_Schalts...False, 'datum': ['0', '0', '0'], 'filename': 'D013_ATC_BT30_ER20_70_Raumhuelle_2', 'group': '20_ATC_Option', ...}, ...}
+
+tests09\test_revision11.py:8: AssertionError
+__________ test_right_magazine_and_actual_change_pose_reach_spindle ___________
+
+    def test_right_magazine_and_actual_change_pose_reach_spindle():
+>       p=m.load_parameters(); assert m.all_values(p)['teller_park_x']>0
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       assert -540.0 > 0
+
+tests09\test_revision11.py:17: AssertionError
+____________ test_four_side_catch_sheets_slope_to_open_rear_outlet ____________
+
+    def test_four_side_catch_sheets_slope_to_open_rear_outlet():
+        p=m.load_parameters();v=m.all_values(p)
+        sheets=[d for d in m.recipe() if d['name'].startswith('KSS_Fangblech_')]
+>       assert len(sheets)==4
+E       assert 0 == 4
+E        +  where 0 = len([])
+
+tests09\test_revision11.py:29: AssertionError
+_________________ test_old_left_tray_has_no_false_support_cut _________________
+
+    def test_old_left_tray_has_no_false_support_cut():
+        ds={d['name']:d for d in m.recipe()}
+        for side,expected in [('links',False),('rechts',True)]:
+>           assert any(o.get('label')=='ATC_Stuetzendurchfuehrung' for o in ds['KSS_Leitblech_'+side+'_vorn']['ops']) is expected
+E           assert True is False
+E            +  where True = any(<generator object test_old_left_tray_has_no_false_support_cut.<locals>.<genexpr> at 0x000001CA8C6E7D30>)
+
+tests09\test_revision11.py:42: AssertionError
+________ test_chip_catch_parameters_reject_missing_slope_and_too_high _________
+
+    def test_chip_catch_parameters_reject_missing_slope_and_too_high():
+        p=m.load_parameters()
+        for key,value in [('catch_slope',0),('catch_z',150)]:
+            q=dict(p);q[key]=value
+>           with pytest.raises(ValueError):m.validate(q)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+E           Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_revision11.py:49: Failed
+=========================== short test summary info ===========================
+FAILED tests09/test_revision11.py::test_original_external_equipment_is_removed_but_core_retained
+FAILED tests09/test_revision11.py::test_right_magazine_and_actual_change_pose_reach_spindle
+FAILED tests09/test_revision11.py::test_four_side_catch_sheets_slope_to_open_rear_outlet
+FAILED tests09/test_revision11.py::test_old_left_tray_has_no_false_support_cut
+FAILED tests09/test_revision11.py::test_chip_catch_parameters_reject_missing_slope_and_too_high
+5 failed in 0.68s

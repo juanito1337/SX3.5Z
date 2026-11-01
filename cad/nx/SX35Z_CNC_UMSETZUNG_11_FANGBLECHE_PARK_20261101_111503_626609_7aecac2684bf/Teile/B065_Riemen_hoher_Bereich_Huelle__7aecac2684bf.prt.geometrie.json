@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Riemen_Aussenkontur",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -48.960062925144,
+        -49.0,
+        0.0,
+        48.960062925144,
+        177.0,
+        8.0
+      ],
+      "volume_mm3": 141298.40948699106
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 114869,
+      "bounds_mm": [
+        -48.960062925144,
+        -49.0,
+        0.0,
+        48.960062925144,
+        176.99999999999997,
+        8.0
+      ],
+      "volume_mm3": 141298.4094869911,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 114869,
+      "bounds_mm": [
+        -48.960062925144,
+        -49.0,
+        0.0,
+        48.960062925144,
+        176.99999999999997,
+        8.0
+      ],
+      "volume_mm3": 141298.4094869911,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Riemen_Innenkontur",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.8617745140664,
+        -46.9,
+        -0.10000000000002274,
+        46.8617745140664,
+        174.9,
+        8.099999999999977
+      ],
+      "volume_mm3": 135501.05278304225
+    },
+    "target_before": {
+      "tag": 114869,
+      "bounds_mm": [
+        -48.960062925144,
+        -49.0,
+        0.0,
+        48.960062925144,
+        176.99999999999997,
+        8.0
+      ],
+      "volume_mm3": 141298.40948699106,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 116315,
+      "bounds_mm": [
+        -46.8617745140664,
+        -46.9,
+        -0.10000000000002275,
+        46.8617745140664,
+        174.9,
+        8.099999999999977
+      ],
+      "volume_mm3": 135501.05278304228,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 114869,
+      "bounds_mm": [
+        -48.960062925144,
+        -49.0,
+        0.0,
+        48.960062925144,
+        176.99999999999997,
+        8.0
+      ],
+      "volume_mm3": 9102.260430364455,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

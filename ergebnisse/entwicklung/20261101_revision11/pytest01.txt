@@ -1,0 +1,35 @@
+.F...........................................................................................................................F..... [ 77%]
+.....................................                                    [100%]
+================================== FAILURES ===================================
+_ NormalThicknessRegression073.test_all_ten_sloped_panels_have_length_result_and_same_values _
+
+self = <test_nx_normaldicke073.NormalThicknessRegression073 testMethod=test_all_ten_sloped_panels_have_length_result_and_same_values>
+
+    def test_all_ten_sloped_panels_have_length_result_and_same_values(self):
+>       self.assertEqual(len(self.slopes), 10)
+E       AssertionError: 14 != 10
+
+tests\test_nx_normaldicke073.py:152: AssertionError
+___ test_new_study_parts_are_single_valid_solids[ATC_Standkonsole_Entwurf] ____
+
+raw = {'atc_operational': False, 'datum': ['0', '0', '0'], 'filename': 'D004_ATC_Standkonsole_Entwurf', 'group': '20_ATC_Option', ...}
+
+    @pytest.mark.parametrize('raw',[d for d in model.recipe() if d.get('revision_added')=='10'],ids=lambda d:d['name'])
+    def test_new_study_parts_are_single_valid_solids(raw):
+        v=model.all_values(model.load_parameters(ROOT/'Parameter.json'))
+        shape=None
+        for op in model.local_definition(raw)['ops']:
+            tool=make_tool(op,v)
+            before=shape.Volume() if shape is not None else 0
+            shape=tool if shape is None else shape.fuse(tool).clean() if op['op']=='add' else shape.cut(tool).clean()
+>           assert shape.isValid() and len(shape.Solids())==1,op['label']
+E           AssertionError: Konsole_Entwurf_ohne_Festigkeitsnachweis
+E           assert (False)
+E            +  where False = isValid()
+E            +    where isValid = <cadquery.occ_impl.shapes.Solid object at 0x00000257AABDDC10>.isValid
+
+tests09\test_new_geometry09.py:35: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_nx_normaldicke073.py::NormalThicknessRegression073::test_all_ten_sloped_panels_have_length_result_and_same_values
+FAILED tests09/test_new_geometry09.py::test_new_study_parts_are_single_valid_solids[ATC_Standkonsole_Entwurf]
+2 failed, 166 passed, 85 subtests passed in 25.22s

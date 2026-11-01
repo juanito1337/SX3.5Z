@@ -1,0 +1,705 @@
+{
+  "native_nx_executed": false,
+  "trajectory_verified": false,
+  "sampled_poses": 9,
+  "scope": "Finite feed samples with head raised, then head descent; all drawn fixed bodies except clamping reserves and selected holder/stock head interface. No continuous proof, workpieces, tools beyond holder, real bearings or machine operation.",
+  "checks": [
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Indexierantrieb_Lager_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_1",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_1",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_2",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_2",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_3",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_4",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_7",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_8",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 0,
+      "feed": 0.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Indexierantrieb_Lager_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_1",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_2",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_3",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_3",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_4",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_7",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_7",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_8",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 1,
+      "feed": 0.25,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_8",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Indexierantrieb_Lager_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_3",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_4",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_7",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 2,
+      "feed": 0.5,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_8",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_Indexierantrieb_Lager_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_4",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_4",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 3,
+      "feed": 0.75,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 4,
+      "feed": 1.0,
+      "head_down": 0.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 4,
+      "feed": 1.0,
+      "head_down": 0.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 4,
+      "feed": 1.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 4,
+      "feed": 1.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 4,
+      "feed": 1.0,
+      "head_down": 0.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 4,
+      "feed": 1.0,
+      "head_down": 0.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 5,
+      "feed": 1.0,
+      "head_down": 40.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 5,
+      "feed": 1.0,
+      "head_down": 40.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 5,
+      "feed": 1.0,
+      "head_down": 40.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 5,
+      "feed": 1.0,
+      "head_down": 40.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 5,
+      "feed": 1.0,
+      "head_down": 40.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 5,
+      "feed": 1.0,
+      "head_down": 40.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 6,
+      "feed": 1.0,
+      "head_down": 80.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 6,
+      "feed": 1.0,
+      "head_down": 80.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 6,
+      "feed": 1.0,
+      "head_down": 80.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 6,
+      "feed": 1.0,
+      "head_down": 80.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 6,
+      "feed": 1.0,
+      "head_down": 80.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 6,
+      "feed": 1.0,
+      "head_down": 80.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 7,
+      "feed": 1.0,
+      "head_down": 120.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 7,
+      "feed": 1.0,
+      "head_down": 120.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 7,
+      "feed": 1.0,
+      "head_down": 120.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 7,
+      "feed": 1.0,
+      "head_down": 120.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 7,
+      "feed": 1.0,
+      "head_down": 120.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 7,
+      "feed": 1.0,
+      "head_down": 120.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 8,
+      "feed": 1.0,
+      "head_down": 160.0,
+      "a": "ATC_Teleskopzustellung_Bauraum",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 8,
+      "feed": 1.0,
+      "head_down": 160.0,
+      "a": "ATC_Teller_Eigenentwurf",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 8,
+      "feed": 1.0,
+      "head_down": 160.0,
+      "a": "ATC_Gabel_Raumreserve_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 8,
+      "feed": 1.0,
+      "head_down": 160.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_5",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 8,
+      "feed": 1.0,
+      "head_down": 160.0,
+      "a": "ATC_Gabel_Raumreserve_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    },
+    {
+      "sample": 8,
+      "feed": 1.0,
+      "head_down": 160.0,
+      "a": "ATC_BT30_ER20_70_Raumhuelle_6",
+      "b": "ATC_Parkhaube_Ruecken_Entwurf",
+      "mm3": 0.0
+    }
+  ],
+  "collisions": []
+}

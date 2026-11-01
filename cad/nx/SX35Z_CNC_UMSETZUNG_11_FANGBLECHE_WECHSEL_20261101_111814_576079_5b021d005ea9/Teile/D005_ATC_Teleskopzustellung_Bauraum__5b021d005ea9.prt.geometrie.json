@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Teleskop_Gesamthuelle_KEIN_Kaufteil",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        104.11574850549599,
+        -295.70636246823096,
+        265.0,
+        571.0345019583691,
+        -29.365980347704,
+        290.0
+      ],
+      "volume_mm3": 733999.4438263021
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 329155,
+      "bounds_mm": [
+        104.11574850547997,
+        -295.7063624683474,
+        265.0,
+        571.0345019584292,
+        -29.36598034772004,
+        290.0
+      ],
+      "volume_mm3": 733999.4438264329,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 329155,
+      "bounds_mm": [
+        104.11574850547997,
+        -295.7063624683474,
+        265.0,
+        571.0345019584292,
+        -29.36598034772004,
+        290.0
+      ],
+      "volume_mm3": 733999.4438264329,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

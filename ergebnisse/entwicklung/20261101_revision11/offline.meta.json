@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2026-11-01T11:08:46.918855+01:00",
+    "source_base": "7bffcd4",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-B",
+      "tools/wechselweg11_pruefen.py",
+      "--output",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision11\\wechselweg.json"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt",
+    "environment": "Windows CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "wechselweg",
+    "exitcode": 1,
+    "raw_log": "wechselweg.stdout.txt"
+  },
+  {
+    "date": "2026-11-01T11:08:53.670037+01:00",
+    "source_base": "7bffcd4",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-B",
+      "tools/teller_pruefung10.py",
+      "--output",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision11\\endpunkte.json"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt",
+    "environment": "Windows CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "endpunkte",
+    "exitcode": 0,
+    "raw_log": "endpunkte.stdout.txt"
+  },
+  {
+    "date": "2026-11-01T11:09:01.124942+01:00",
+    "source_base": "7bffcd4",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-B",
+      "tools/pruefen07.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision11\\arbeitskopie",
+    "environment": "Windows CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "kss",
+    "exitcode": 1,
+    "raw_log": "kss.stdout.txt"
+  },
+  {
+    "date": "2026-11-01T11:09:10.846710+01:00",
+    "source_base": "7bffcd4",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-B",
+      "Projekt09_Berichte.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision11\\arbeitskopie",
+    "environment": "Windows CPython3.12.14 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "berichte",
+    "exitcode": 0,
+    "raw_log": "berichte.stdout.txt"
+  }
+]

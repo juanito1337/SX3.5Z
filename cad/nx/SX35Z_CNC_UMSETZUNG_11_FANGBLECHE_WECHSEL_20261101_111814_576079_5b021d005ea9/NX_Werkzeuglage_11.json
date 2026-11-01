@@ -1,0 +1,19 @@
+{
+  "native_nx_executed": true,
+  "pose": "wechsel",
+  "measured_holder_cone_axis_and_gauge_mm": [
+    0.0,
+    0.0,
+    370.0
+  ],
+  "nominal_spindle_axis_and_face_mm": [
+    0.0,
+    0.0,
+    370.0
+  ],
+  "tolerance_mm": 1e-05,
+  "nominal_alignment_verified": true,
+  "spindle_interface_verified": false,
+  "spindle_clamping_verified": false,
+  "trajectory_verified": false
+}

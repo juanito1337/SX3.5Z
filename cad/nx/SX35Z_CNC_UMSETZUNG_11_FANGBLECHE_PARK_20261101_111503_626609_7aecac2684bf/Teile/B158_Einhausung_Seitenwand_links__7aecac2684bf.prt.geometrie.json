@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Kantprofil_Zwei_Biegungen_Vorform",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        25.0,
+        1004.0,
+        1200.0
+      ],
+      "volume_mm3": 2520000.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 137117,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        25.0,
+        1004.0,
+        1200.0
+      ],
+      "volume_mm3": 2519999.999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 137117,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        25.0,
+        1004.0,
+        1200.0
+      ],
+      "volume_mm3": 2519999.999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Fensterausschnitt",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -1.0,
+        162.0,
+        300.0,
+        3.0,
+        842.0,
+        1000.0
+      ],
+      "volume_mm3": 1904000.0
+    },
+    "target_before": {
+      "tag": 137117,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        25.0,
+        1004.0,
+        1200.0
+      ],
+      "volume_mm3": 2519999.999999998,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 137290,
+      "bounds_mm": [
+        -1.0,
+        161.99999999999997,
+        300.0,
+        3.0,
+        842.0000000000001,
+        1000.0
+      ],
+      "volume_mm3": 1904000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 137117,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        25.0,
+        1004.0,
+        1200.0
+      ],
+      "volume_mm3": 1568000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

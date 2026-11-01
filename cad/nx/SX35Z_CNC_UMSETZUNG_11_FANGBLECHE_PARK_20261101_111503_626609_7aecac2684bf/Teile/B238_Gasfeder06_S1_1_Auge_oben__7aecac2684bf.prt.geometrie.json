@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -10.0,
+        0.0,
+        -10.0,
+        10.0,
+        16.0,
+        10.0
+      ],
+      "volume_mm3": 5026.548245743669
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 186219,
+      "bounds_mm": [
+        -10.0,
+        0.0,
+        -10.0,
+        10.0,
+        16.0,
+        10.0
+      ],
+      "volume_mm3": 5026.54824574367,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 186219,
+      "bounds_mm": [
+        -10.0,
+        0.0,
+        -10.0,
+        10.0,
+        16.0,
+        10.0
+      ],
+      "volume_mm3": 5026.54824574367,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Bolzenloch_Studie",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -3.25,
+        -1.0,
+        -3.25,
+        3.25,
+        17.0,
+        3.25
+      ],
+      "volume_mm3": 597.2953032637594
+    },
+    "target_before": {
+      "tag": 186219,
+      "bounds_mm": [
+        -10.0,
+        0.0,
+        -10.0,
+        10.0,
+        16.0,
+        10.0
+      ],
+      "volume_mm3": 5026.54824574367,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 186288,
+      "bounds_mm": [
+        -3.2500000000000004,
+        -1.0,
+        -3.2500000000000004,
+        3.2500000000000004,
+        17.000000000000004,
+        3.2500000000000004
+      ],
+      "volume_mm3": 597.2953032637596,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 186219,
+      "bounds_mm": [
+        -10.0,
+        0.0,
+        -10.0,
+        10.0,
+        16.0,
+        10.0
+      ],
+      "volume_mm3": 4495.619087286996,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

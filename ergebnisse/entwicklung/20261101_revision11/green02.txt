@@ -1,0 +1,16 @@
+
+=================================== ERRORS ====================================
+_________________ ERROR collecting tests09/test_revision11.py _________________
+ImportError while importing test module 'C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt\tests09\test_revision11.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+projekt\tests09\test_revision11.py:2: in <module>
+    import cnc_ansichtsmodell as m
+E   ModuleNotFoundError: No module named 'cnc_ansichtsmodell'
+=========================== short test summary info ===========================
+ERROR projekt\tests09\test_revision11.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.24s

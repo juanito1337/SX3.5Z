@@ -1,0 +1,16 @@
+{
+  "version": "CNC_UMSETZUNG_11_FANGBLECHE",
+  "model_bodies": 454,
+  "operations": 1416,
+  "catalog_rows": 70,
+  "manufactured_item_rows": 148,
+  "new_bodies": 4,
+  "new_catalog_rows": 1,
+  "purchase_instances": 137,
+  "native_nx_executed": false,
+  "purchase_released": false,
+  "atc_operational": false,
+  "parameter_sha256": "93cadee2641669fef3dccea45f220a062dd38eaa6502a2a327e514df7f4c1c19",
+  "recipe_sha256": "4a7faa4abccf046debcbeb36301f01b17d6149b2969560da005252f1dabbd558",
+  "catalog_sha256": "e2ee07324db19da7b858482771e6d02b0cc1938c17f1078d3a3da93f1c6b3723"
+}

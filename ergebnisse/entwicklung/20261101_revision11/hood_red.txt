@@ -1,0 +1,20 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+____________________ test_park_forks_do_not_intersect_hood ____________________
+
+    def test_park_forks_do_not_intersect_hood():
+        from tools.atc_anschlusspruefung09 import world_body
+        p=m.load_parameters();ds={d['name']:d for d in m.recipe()}
+        fork=world_body(ds['ATC_Gabel_Raumreserve_5'],p)
+        hood=world_body(ds['ATC_Parkhaube_Ruecken_Entwurf'],p)
+>       assert fork.intersect(hood).Volume()<.01
+E       assert 66.64123733472353 < 0.01
+E        +  where 66.64123733472353 = Volume()
+E        +    where Volume = <cadquery.occ_impl.shapes.Compound object at 0x0000023E1C7CC470>.Volume
+E        +      where <cadquery.occ_impl.shapes.Compound object at 0x0000023E1C7CC470> = intersect(<cadquery.occ_impl.shapes.Compound object at 0x0000023E1C7CC800>)
+E        +        where intersect = <cadquery.occ_impl.shapes.Compound object at 0x0000023E3657DC10>.intersect
+
+tests09\test_revision11.py:57: AssertionError
+=========================== short test summary info ===========================
+FAILED tests09/test_revision11.py::test_park_forks_do_not_intersect_hood - as...
+1 failed in 3.46s

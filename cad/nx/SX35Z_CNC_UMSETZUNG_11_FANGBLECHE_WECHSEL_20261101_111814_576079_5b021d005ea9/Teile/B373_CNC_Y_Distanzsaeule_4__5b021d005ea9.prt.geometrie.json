@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Distanzrohr_Stahl_12x6_6",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -6.0,
+        -57.0,
+        -6.0,
+        6.0,
+        0.0,
+        6.0
+      ],
+      "volume_mm3": 6446.548125166256
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 264071,
+      "bounds_mm": [
+        -6.0,
+        -57.0,
+        -6.0,
+        6.0,
+        0.0,
+        6.0
+      ],
+      "volume_mm3": 6446.548125166255,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 264071,
+      "bounds_mm": [
+        -6.0,
+        -57.0,
+        -6.0,
+        6.0,
+        0.0,
+        6.0
+      ],
+      "volume_mm3": 6446.548125166255,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Durchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -3.3,
+        -58.0,
+        -3.3,
+        3.3,
+        1.0,
+        3.3
+      ],
+      "volume_mm3": 2018.5046958579776
+    },
+    "target_before": {
+      "tag": 264071,
+      "bounds_mm": [
+        -6.0,
+        -57.0,
+        -6.0,
+        6.0,
+        0.0,
+        6.0
+      ],
+      "volume_mm3": 6446.548125166256,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 264138,
+      "bounds_mm": [
+        -3.3,
+        -58.0,
+        -3.3,
+        3.3,
+        1.000000000000007,
+        3.3
+      ],
+      "volume_mm3": 2018.5046958579778,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 264071,
+      "bounds_mm": [
+        -6.0,
+        -57.0,
+        -6.0,
+        6.0,
+        0.0,
+        6.0
+      ],
+      "volume_mm3": 4496.467317303464,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

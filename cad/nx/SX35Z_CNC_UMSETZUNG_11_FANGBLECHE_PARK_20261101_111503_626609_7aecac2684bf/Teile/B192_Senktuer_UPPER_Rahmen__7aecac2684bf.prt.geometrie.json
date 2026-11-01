@@ -1,0 +1,314 @@
+[
+  {
+    "feature": "001_Kantprofil_Zwei_Biegungen_Vorform",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 1606960.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 1606960.000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 1606960.000000004,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Sichtausschnitt",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        42.0,
+        -1.0,
+        55.0,
+        1418.0,
+        31.0,
+        475.0
+      ],
+      "volume_mm3": 18493440.0
+    },
+    "target_before": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 1606960.0000000037,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 158960,
+      "bounds_mm": [
+        42.000000000000036,
+        -1.0000000000000009,
+        55.0,
+        1418.0,
+        31.0,
+        475.0
+      ],
+      "volume_mm3": 18493440.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 451120.0000000042,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_M4_Klemmrahmenloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        19.75,
+        -12.0,
+        27.75,
+        24.25,
+        6.0,
+        32.25
+      ],
+      "volume_mm3": 286.27763055836994
+    },
+    "target_before": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 451120.0000000037,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 159204,
+      "bounds_mm": [
+        19.749999999999996,
+        -12.0,
+        27.749999999999996,
+        24.25,
+        6.0000000000000036,
+        32.25
+      ],
+      "volume_mm3": 286.27763055837,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 451088.19137438596,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_M4_Klemmrahmenloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        19.75,
+        -12.0,
+        497.75,
+        24.25,
+        6.0,
+        502.25
+      ],
+      "volume_mm3": 286.27763055836994
+    },
+    "target_before": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 451088.1913743861,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 159280,
+      "bounds_mm": [
+        19.749999999999996,
+        -12.0,
+        497.75,
+        24.25,
+        6.0000000000000036,
+        502.24999999999994
+      ],
+      "volume_mm3": 286.27763055837,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 451056.38274876965,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_M4_Klemmrahmenloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        1435.75,
+        -12.0,
+        27.75,
+        1440.25,
+        6.0,
+        32.25
+      ],
+      "volume_mm3": 286.27763055836994
+    },
+    "target_before": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 451056.38274876925,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 159341,
+      "bounds_mm": [
+        1435.7499999999998,
+        -12.0,
+        27.749999999999996,
+        1440.25,
+        6.0000000000000036,
+        32.25
+      ],
+      "volume_mm3": 286.27763055837,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 451024.5741231508,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_M4_Klemmrahmenloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        1435.75,
+        -12.0,
+        497.75,
+        1440.25,
+        6.0,
+        502.25
+      ],
+      "volume_mm3": 286.27763055836994
+    },
+    "target_before": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 451024.5741231508,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 159393,
+      "bounds_mm": [
+        1435.7499999999998,
+        -12.0,
+        497.75,
+        1440.25,
+        6.0000000000000036,
+        502.24999999999994
+      ],
+      "volume_mm3": 286.27763055837,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 158992,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        1460.0,
+        30.0,
+        530.0
+      ],
+      "volume_mm3": 450992.7654975333,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

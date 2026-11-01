@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Elastomer_Nur_Raumhuelle",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -14.0,
+        -13.0,
+        -14.0,
+        14.0,
+        0.0,
+        14.0
+      ],
+      "volume_mm3": 8004.778081346793
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 260652,
+      "bounds_mm": [
+        -14.0,
+        -13.000000000000002,
+        -14.0,
+        14.0,
+        0.0,
+        14.0
+      ],
+      "volume_mm3": 8004.778081346794,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 260652,
+      "bounds_mm": [
+        -14.0,
+        -13.000000000000002,
+        -14.0,
+        14.0,
+        0.0,
+        14.0
+      ],
+      "volume_mm3": 8004.778081346794,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_KTR_Mittenfreiraum",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -5.25,
+        -14.0,
+        -5.25,
+        5.25,
+        1.0,
+        5.25
+      ],
+      "volume_mm3": 1298.85221271853
+    },
+    "target_before": {
+      "tag": 260652,
+      "bounds_mm": [
+        -14.0,
+        -13.000000000000002,
+        -14.0,
+        14.0,
+        0.0,
+        14.0
+      ],
+      "volume_mm3": 8004.778081346794,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 260726,
+      "bounds_mm": [
+        -5.25,
+        -13.999999999999998,
+        -5.25,
+        5.25,
+        1.0000000000000018,
+        5.25
+      ],
+      "volume_mm3": 1298.8522127185302,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 260652,
+      "bounds_mm": [
+        -14.0,
+        -13.000000000000002,
+        -14.0,
+        14.0,
+        0.0,
+        14.0
+      ],
+      "volume_mm3": 6879.106163657401,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

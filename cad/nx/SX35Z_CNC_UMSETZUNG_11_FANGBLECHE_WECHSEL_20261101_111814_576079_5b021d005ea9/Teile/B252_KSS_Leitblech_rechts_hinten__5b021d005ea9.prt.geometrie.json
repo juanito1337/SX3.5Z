@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Geneigtes_Blech_Normaldicke",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        660.0,
+        139.0,
+        94.4195048898183
+      ],
+      "volume_mm3": 185269.3785919303
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 195354,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        660.0,
+        139.0,
+        94.4195048898183
+      ],
+      "volume_mm3": 185269.37859193038,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 195354,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        660.0,
+        139.0,
+        94.4195048898183
+      ],
+      "volume_mm3": 185269.37859193038,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Freistellung_Rueckwand_Rueckkantung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        656.0,
+        117.0,
+        -22.0,
+        659.0,
+        147.0,
+        218.0
+      ],
+      "volume_mm3": 21600.0
+    },
+    "target_before": {
+      "tag": 195354,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        660.0,
+        139.0,
+        94.4195048898183
+      ],
+      "volume_mm3": 185269.37859193038,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 195296,
+      "bounds_mm": [
+        656.0,
+        117.0,
+        -22.0,
+        658.9999999999999,
+        147.0,
+        218.0
+      ],
+      "volume_mm3": 21599.99999999923,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 195354,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        660.0,
+        139.0,
+        94.4195048898183
+      ],
+      "volume_mm3": 185136.09126920218,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

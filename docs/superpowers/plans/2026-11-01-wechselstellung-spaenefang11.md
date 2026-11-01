@@ -32,7 +32,7 @@
 - [x] Geaenderte KSS-/ATC-Journale nativ pruefen, beide Gesamtstellungen neu speichern und jeweils frisch oeffnen.
 - [x] Quellhashes, Revision, Befehle, Datum, Umgebung, Exitcodes und Rohprotokolle sichern. Alte CAD-Laeufe erhalten.
 - [x] Status/Roadmap/CAD-Einstieg aktualisieren.
-- [ ] Git synchronisieren nach Liefercommit.
+- [x] Quellencommit9426740 erstellt; beide native Lieferstaende (950 PRT) gehasht und fuer Git vorbereitet. Remote-Abschluss im Chat bestaetigen.
 
 ## Review-Fokus
 

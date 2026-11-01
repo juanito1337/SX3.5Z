@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_ISO7089",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -1.6,
+        -6.0,
+        -6.0,
+        0.0,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 180.95573684677208
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 303138,
+      "bounds_mm": [
+        -1.6,
+        -6.0,
+        -6.0,
+        3.1086244689504383e-15,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 180.9557368467721,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 303138,
+      "bounds_mm": [
+        -1.6,
+        -6.0,
+        -6.0,
+        3.1086244689504383e-15,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 180.9557368467721,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Bohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -1.6999999999999773,
+        -3.2,
+        -3.2,
+        0.10000000000002274,
+        3.2,
+        3.2
+      ],
+      "volume_mm3": 57.905835790967075
+    },
+    "target_before": {
+      "tag": 303138,
+      "bounds_mm": [
+        -1.6,
+        -6.0,
+        -6.0,
+        3.1086244689504383e-15,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 180.9557368467721,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 303202,
+      "bounds_mm": [
+        -1.699999999999977,
+        -3.2,
+        -3.2,
+        0.10000000000002451,
+        3.2,
+        3.2
+      ],
+      "volume_mm3": 57.905835790967075,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 303138,
+      "bounds_mm": [
+        -1.6,
+        -6.0,
+        -6.0,
+        3.1086244689504383e-15,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 129.48388281035693,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

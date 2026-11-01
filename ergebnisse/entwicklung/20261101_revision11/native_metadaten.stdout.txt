@@ -1,0 +1,20 @@
+Ausgabeziel aus NX_Ausgabe.json: C:\Users\1337\Documents\ChatGPT\SX3.5Z\cad\nx
+Journal-/Eingabeordner: C:\Users\1337\Documents\ChatGPT\SX3.5Z\projekt
+Geplante Ausgabe: C:\Users\1337\Documents\ChatGPT\SX3.5Z\cad\nx\SX35Z_METADATA_20261101_111206_2d972308b219
+Pfadtest bestanden: Aufloesen, Schreiben, Ruecklesen, Umbenennen und Entfernen der eigenen Testdatei.
+Ausgabeordner: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261101_111206_2d972308b219
+Neues NX-Teil am endgueltigen Ziel: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261101_111206_2d972308b219\metada
+tenprobe__2d972308b219.prt
+NX FullPath bestaetigt: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261101_111206_2d972308b219\metadatenprobe__2d
+972308b219.prt
+Erzeuge 1 Eingabe- und 0 abgeleitete Ausdruecke; Attribute erst nach Geometrie.
+  Ausdruck 1/1: sx_sheet_t
+Ausdruecke vollstaendig erzeugt und numerisch geprueft: 1/1.
+Speichern mit Save, ohne SaveAs: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261101_111206_2d972308b219\metadaten
+probe__2d972308b219.prt
+Speicherstatus: ungespeicherte Teile=0, Objekte=0
+Gespeichert und Dateiexistenz geprueft: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261101_111206_2d972308b219\me
+tadatenprobe__2d972308b219.prt (56061 Bytes)
+METADATEN_REGRESSION_BESTANDEN: Herkunft am Part, Ausdruckswert unveraendert.
+Protokoll: c:\users\1337\documents\chatgpt\sx3.5z\cad\nx\sx35z_metadata_20261101_111206_2d972308b219\NX_Laufprotokoll_20261101_11120
+7_815695.txt

@@ -1,0 +1,94 @@
+{
+  "patch": "07.3",
+  "scope": "Vier lokale Trichter-Vorformen; keine Fertigungsfreigabe",
+  "parts": [
+    {
+      "part": "KSS_Trichter_links",
+      "formula": {
+        "recipe": "sheet_t*sqrt(1+(-8/(227-chip_outlet_w/2))*(-8/(227-chip_outlet_w/2))+(0)*(0))",
+        "native_rhs": "sx_sheet_t*sqrt(((1+(((-8)/(227-((sx_chip_outlet_w/sx_aux_0014)/2)))*((-8)/(227-((sx_chip_outlet_w/sx_aux_0014)/2)))))+(0*0)))",
+        "millimeter_reference": "sx_aux_0014",
+        "expression_mode": "CreateNumberExpression"
+      },
+      "measured": {
+        "tag": 43219,
+        "bounds_mm": [
+          0.0,
+          0.0,
+          -8.0,
+          52.00000000000001,
+          139.0,
+          2.0235302212255224
+        ],
+        "volume_mm3": 10469.74536462086,
+        "volume_backend": "manager_bodies_accuracy"
+      }
+    },
+    {
+      "part": "KSS_Trichter_rechts",
+      "formula": {
+        "recipe": "sheet_t*sqrt(1+(8/(227-chip_outlet_w/2))*(8/(227-chip_outlet_w/2))+(0)*(0))",
+        "native_rhs": "sx_sheet_t*sqrt(((1+((8/(227-((sx_chip_outlet_w/sx_aux_0017)/2)))*(8/(227-((sx_chip_outlet_w/sx_aux_0017)/2)))))+(0*0)))",
+        "millimeter_reference": "sx_aux_0017",
+        "expression_mode": "CreateNumberExpression"
+      },
+      "measured": {
+        "tag": 43342,
+        "bounds_mm": [
+          -52.00000000000002,
+          0.0,
+          -8.000000000000002,
+          0.0,
+          139.0,
+          2.023530221225524
+        ],
+        "volume_mm3": 10469.745364620861,
+        "volume_backend": "manager_bodies_accuracy"
+      }
+    },
+    {
+      "part": "KSS_Trichter_vorn",
+      "formula": {
+        "recipe": "sheet_t*sqrt(1+(0)*(0)+(-8/(chip_outlet_y-chip_outlet_d/2-382))*(-8/(chip_outlet_y-chip_outlet_d/2-382)))",
+        "native_rhs": "sx_sheet_t*sqrt(((1+(0*0))+(((-8)/(((sx_chip_outlet_y/sx_aux_0020)-((sx_chip_outlet_d/sx_aux_0020)/2))-382))*((-8)/(((sx_chip_outlet_y/sx_aux_0020)-((sx_chip_outlet_d/sx_aux_0020)/2))-382)))))",
+        "millimeter_reference": "sx_aux_0020",
+        "expression_mode": "CreateNumberExpression"
+      },
+      "measured": {
+        "tag": 43464,
+        "bounds_mm": [
+          0.0,
+          0.0,
+          -8.000000000000002,
+          454.0,
+          18.00000000000001,
+          2.1886350670657997
+        ],
+        "volume_mm3": 15836.963345288139,
+        "volume_backend": "manager_bodies_accuracy"
+      }
+    },
+    {
+      "part": "KSS_Trichter_hinten",
+      "formula": {
+        "recipe": "sheet_t*sqrt(1+(0)*(0)+(8/(enc_back-2*sheet_t-chip_outlet_y-chip_outlet_d/2))*(8/(enc_back-2*sheet_t-chip_outlet_y-chip_outlet_d/2)))",
+        "native_rhs": "sx_sheet_t*sqrt(((1+(0*0))+((8/((((sx_enc_back/sx_aux_0023)-(2*(sx_sheet_t/sx_aux_0023)))-(sx_chip_outlet_y/sx_aux_0023))-((sx_chip_outlet_d/sx_aux_0023)/2)))*(8/((((sx_enc_back/sx_aux_0023)-(2*(sx_sheet_t/sx_aux_0023)))-(sx_chip_outlet_y/sx_aux_0023))-((sx_chip_outlet_d/sx_aux_0023)/2))))))",
+        "millimeter_reference": "sx_aux_0023",
+        "expression_mode": "CreateNumberExpression"
+      },
+      "measured": {
+        "tag": 43594,
+        "bounds_mm": [
+          0.0,
+          -61.0,
+          -8.0,
+          454.0,
+          0.0,
+          2.0171263495438723
+        ],
+        "volume_mm3": 49463.97234351485,
+        "volume_backend": "manager_bodies_accuracy"
+      }
+    }
+  ]
+}

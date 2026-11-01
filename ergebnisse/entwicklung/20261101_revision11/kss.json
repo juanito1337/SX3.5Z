@@ -1,0 +1,52 @@
+{
+  "native_nx_executed": false,
+  "method": "Independent OpenCascade solid intersection after analytic AABB screen",
+  "exact_comparisons": 75,
+  "static_conflicts": [
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "IFS206_Referenz_1",
+      "mm3": 83.28983136100021
+    },
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "IFS206_Referenz_2",
+      "mm3": 228.47061453420113
+    },
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "IFS206_Referenz_3",
+      "mm3": 228.4706145358491
+    },
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "IFS206_Referenz_4",
+      "mm3": 228.47061453394159
+    },
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "IFS206_Referenz_5",
+      "mm3": 228.4706145351551
+    },
+    {
+      "a": "KSS_Leitblech_links_vorn",
+      "b": "IFS206_Referenz_6",
+      "mm3": 228.47061453542045
+    }
+  ],
+  "axis_poses_checked": 8,
+  "axis_pose_conflicts": [],
+  "nonrigid_parts_not_swept": [
+    "Faltenbalg_Z",
+    "Faltenbalg_Y_hinten"
+  ],
+  "basket_strokes_mm": [
+    0,
+    55,
+    110,
+    165,
+    220
+  ],
+  "basket_conflicts": [],
+  "limits": "Changed KSS vs drawn parts and cabinet vs stand/enclosure. Known original machine conflicts unchanged. Weld/contact tolerances, continuous motion, chip/fluid transport, strength, seals and safety not proven."
+}

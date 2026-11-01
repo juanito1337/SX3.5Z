@@ -1,0 +1,260 @@
+[
+  {
+    "feature": "001_Grifffuss_links",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        -74.0,
+        45.0,
+        6.0
+      ],
+      "volume_mm3": 5089.380098815464
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        -73.99999999999999,
+        45.0,
+        6.0
+      ],
+      "volume_mm3": 5089.380098815465,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        -73.99999999999999,
+        45.0,
+        6.0
+      ],
+      "volume_mm3": 5089.380098815465,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Griffsteg_Radien_vereinfacht",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -80.0,
+        39.0,
+        -6.0,
+        80.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 18095.57368467721
+    },
+    "target_before": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        -73.99999999999999,
+        45.0,
+        6.0
+      ],
+      "volume_mm3": 5089.380098815464,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 305178,
+      "bounds_mm": [
+        -80.0,
+        39.0,
+        -6.0,
+        80.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 18095.57368467721,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        80.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 22896.953800786156,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Grifffuss_rechts",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        74.0,
+        0.0,
+        -6.0,
+        86.0,
+        45.0,
+        6.0
+      ],
+      "volume_mm3": 5089.380098815464
+    },
+    "target_before": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        80.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 22896.953800786152,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 305471,
+      "bounds_mm": [
+        74.0,
+        0.0,
+        -6.0,
+        86.00000000000001,
+        45.0,
+        6.0
+      ],
+      "volume_mm3": 5089.380098815465,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        86.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 27698.3339176509,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_M6_Nenngewinde",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -83.0,
+        -0.10000000000002274,
+        -3.0,
+        -77.0,
+        11.999999999999977,
+        3.0
+      ],
+      "volume_mm3": 342.1194399759285
+    },
+    "target_before": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        86.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 27698.3339176509,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 305535,
+      "bounds_mm": [
+        -83.0,
+        -0.100000000000023,
+        -3.0,
+        -77.0,
+        11.999999999999977,
+        3.0
+      ],
+      "volume_mm3": 342.11943997592846,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        86.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 27359.041911063196,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_M6_Nenngewinde",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        77.0,
+        -0.10000000000002274,
+        -3.0,
+        83.0,
+        11.999999999999977,
+        3.0
+      ],
+      "volume_mm3": 342.1194399759285
+    },
+    "target_before": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        86.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 27359.0419110632,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 305592,
+      "bounds_mm": [
+        77.0,
+        -0.100000000000023,
+        -3.0,
+        83.0,
+        11.999999999999977,
+        3.0
+      ],
+      "volume_mm3": 342.11943997592846,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 305332,
+      "bounds_mm": [
+        -86.0,
+        0.0,
+        -6.0,
+        86.0,
+        51.0,
+        6.0
+      ],
+      "volume_mm3": 27019.749904475502,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

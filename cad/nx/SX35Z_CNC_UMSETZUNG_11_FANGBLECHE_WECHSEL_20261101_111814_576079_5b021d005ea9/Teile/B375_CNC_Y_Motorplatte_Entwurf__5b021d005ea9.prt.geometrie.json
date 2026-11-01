@@ -1,0 +1,530 @@
+[
+  {
+    "feature": "001_Motorplatte_10mm_S355_ENTWURF",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 70560.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 70560.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 70560.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Motorbund_Freiraum_Nenn",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -19.150000000000002,
+        -11.0,
+        -19.150000000000002,
+        19.150000000000002,
+        1.0,
+        19.150000000000002
+      ],
+      "volume_mm3": 13825.112542873
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 70560.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265170,
+      "bounds_mm": [
+        -19.150000000000002,
+        -11.0,
+        -19.150000000000002,
+        19.150000000000002,
+        1.0,
+        19.150000000000002
+      ],
+      "volume_mm3": 13825.112542873001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 59039.072880939166,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Motorgewindekern",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -25.22,
+        -11.0,
+        -25.22,
+        -21.92,
+        1.0,
+        -21.92
+      ],
+      "volume_mm3": 102.63583199277853
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 59039.07288093917,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265238,
+      "bounds_mm": [
+        -25.22,
+        -11.0,
+        -25.22,
+        -21.92,
+        1.0,
+        -21.92
+      ],
+      "volume_mm3": 102.63583199277853,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58953.54302094519,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Distanzschraube_Durchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -36.3,
+        -11.0,
+        -36.3,
+        -29.7,
+        1.0,
+        -29.7
+      ],
+      "volume_mm3": 410.54332797111414
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58953.54302094519,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265304,
+      "bounds_mm": [
+        -36.3,
+        -11.0,
+        -36.3,
+        -29.7,
+        1.0,
+        -29.7
+      ],
+      "volume_mm3": 410.5433279711141,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58611.42358096926,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Motorgewindekern",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -25.22,
+        -11.0,
+        21.919999999999995,
+        -21.92,
+        1.0,
+        25.21999999999999
+      ],
+      "volume_mm3": 102.63583199277853
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58611.42358096926,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265366,
+      "bounds_mm": [
+        -25.22,
+        -11.0,
+        21.92,
+        -21.92,
+        1.0,
+        25.22
+      ],
+      "volume_mm3": 102.63583199277853,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58525.893720975284,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Distanzschraube_Durchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -36.3,
+        -11.0,
+        29.7,
+        -29.7,
+        1.0,
+        36.3
+      ],
+      "volume_mm3": 410.54332797111414
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58525.893720975284,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265428,
+      "bounds_mm": [
+        -36.3,
+        -11.0,
+        29.7,
+        -29.7,
+        1.0,
+        36.3
+      ],
+      "volume_mm3": 410.54332797111414,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58183.77428099935,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Motorgewindekern",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        21.92,
+        -11.0,
+        -25.22,
+        25.22,
+        1.0,
+        -21.92
+      ],
+      "volume_mm3": 102.63583199277853
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58183.77428099935,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265483,
+      "bounds_mm": [
+        21.92,
+        -11.0,
+        -25.22,
+        25.22,
+        1.0,
+        -21.92
+      ],
+      "volume_mm3": 102.63583199277853,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58098.24442100537,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Distanzschraube_Durchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        29.7,
+        -11.0,
+        -36.3,
+        36.3,
+        1.0,
+        -29.7
+      ],
+      "volume_mm3": 410.54332797111414
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 58098.24442100537,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265542,
+      "bounds_mm": [
+        29.7,
+        -11.0,
+        -36.3,
+        36.3,
+        1.0,
+        -29.7
+      ],
+      "volume_mm3": 410.54332797111414,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 57756.12498102944,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Motorgewindekern",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        21.92,
+        -11.0,
+        21.919999999999995,
+        25.22,
+        1.0,
+        25.21999999999999
+      ],
+      "volume_mm3": 102.63583199277853
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 57756.12498102944,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265598,
+      "bounds_mm": [
+        21.92,
+        -11.0,
+        21.92,
+        25.22,
+        1.0,
+        25.22
+      ],
+      "volume_mm3": 102.63583199277853,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 57670.59512103546,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Distanzschraube_Durchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        29.7,
+        -11.0,
+        29.7,
+        36.3,
+        1.0,
+        36.3
+      ],
+      "volume_mm3": 410.54332797111414
+    },
+    "target_before": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 57670.595121035454,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 265650,
+      "bounds_mm": [
+        29.7,
+        -11.0,
+        29.7,
+        36.3,
+        1.0,
+        36.3
+      ],
+      "volume_mm3": 410.54332797111414,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 265058,
+      "bounds_mm": [
+        -42.0,
+        -10.0,
+        -42.0,
+        42.0,
+        0.0,
+        42.0
+      ],
+      "volume_mm3": 57328.47568105953,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

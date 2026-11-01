@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_KTR_Nabe_Hauptkontur",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        0.0,
+        20.0,
+        20.0,
+        25.0
+      ],
+      "volume_mm3": 31415.926535897932
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 282274,
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        0.0,
+        20.0,
+        20.0,
+        25.0
+      ],
+      "volume_mm3": 31415.926535897936,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 282274,
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        0.0,
+        20.0,
+        20.0,
+        25.0
+      ],
+      "volume_mm3": 31415.926535897936,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Klemmbohrung_Nenn",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        -7.0,
+        -1.0,
+        7.0,
+        7.0,
+        26.0
+      ],
+      "volume_mm3": 4156.327080699296
+    },
+    "target_before": {
+      "tag": 282274,
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        0.0,
+        20.0,
+        20.0,
+        25.0
+      ],
+      "volume_mm3": 31415.926535897936,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 282347,
+      "bounds_mm": [
+        -7.0,
+        -7.0,
+        -1.0,
+        7.0,
+        7.0,
+        26.0
+      ],
+      "volume_mm3": 4156.327080699296,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 282274,
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        0.0,
+        20.0,
+        20.0,
+        25.0
+      ],
+      "volume_mm3": 27567.475535250436,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "ok": false,
+  "scope": "Listed file SHA-256 identity only",
+  "verified": 449,
+  "listed": 477,
+  "errors": [
+    {
+      "path": "AGENTS.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "NX_ENVIRONMENT.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "README_START.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/Dokumentation/LIESMICH.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/Einkauf/Kaufteile_09.json",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/NX_Ausgabe.json",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/NX_CNC_Gesamtansicht.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/NX_KSS_Pruefen.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/NX_Normteile_ATC_Pruefen.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/cnc_ansichtsmodell.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/normteile09.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/nx_native.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/ruecklauf07.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tests/test_nx_normaldicke073.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tests/test_nx_sheetmetal072.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tests09/test_delivery09.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tests09/test_increment09.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tests09/test_new_geometry09.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tools/arbeitsmappe09_erzeugen.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tools/atc_anschlusspruefung09.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tools/bauanleitung09_erzeugen.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tools/browseransicht_erzeugen.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/tools/pruefen07.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "projekt/umbau_daten09.py",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "uebergabe/ENTSCHEIDUNGEN.md",
+      "error": "hash_mismatch"
+    },
+    {
+      "path": "uebergabe/SPANNPAKET_ATC.md",
+      "error": "hash_mismatch"
+    }
+  ],
+  "native_nx_executed": false,
+  "manufacturing_released": false
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-01T11:22:19.119215+01:00",
+  "code_commit": "94267402fc779255acfe850126f62bf1b6f0249f",
+  "environment": "CPython3.12.14 Windows",
+  "scope": "Saved PRT byte identity only",
+  "command": [
+    ".venv/Scripts/python.exe",
+    "tools_handoff/verify_package.py",
+    "--root",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_11_FANGBLECHE_PARK_20261101_111503_626609_7aecac2684bf",
+    "--manifest",
+    "PRT_SHA256.json"
+  ],
+  "exitcode": 0,
+  "raw_log": "hash_verification.stdout.txt"
+}

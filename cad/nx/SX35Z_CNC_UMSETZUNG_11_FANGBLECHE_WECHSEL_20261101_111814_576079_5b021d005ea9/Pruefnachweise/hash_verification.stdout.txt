@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "scope": "Listed file SHA-256 identity only",
+  "verified": 475,
+  "listed": 475,
+  "errors": [],
+  "native_nx_executed": false,
+  "manufacturing_released": false
+}

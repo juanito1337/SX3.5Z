@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-11-01T11:11:40.524836+01:00",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt",
+    "environment": "Windows CPython3.12.14 pytest9.0.2 CadQuery2.8 OCP7.9.3.1.1",
+    "scope": "Active offline suite",
+    "exitcode": 0,
+    "raw_log": "pytest_final.txt",
+    "tests": 173,
+    "subtests": 99,
+    "source_base": "7bffcd4",
+    "source_snapshot": "native_source_hashes.json"
+  },
+  {
+    "date": "2026-11-01T11:21:10.046120+01:00",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tools_handoff",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "environment": "Windows CPython3.12.14",
+    "scope": "handoff",
+    "exitcode": 0,
+    "raw_log": "handoff.stdout.txt",
+    "source_base": "7bffcd4",
+    "source_snapshot": "native_source_hashes.json"
+  },
+  {
+    "date": "2026-11-01T11:21:10.288711+01:00",
+    "command": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+      "tools_handoff/verify_package.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "environment": "Windows CPython3.12.14",
+    "scope": "package_original",
+    "exitcode": 1,
+    "raw_log": "package_original.stdout.txt",
+    "source_base": "7bffcd4",
+    "source_snapshot": "native_source_hashes.json"
+  }
+]

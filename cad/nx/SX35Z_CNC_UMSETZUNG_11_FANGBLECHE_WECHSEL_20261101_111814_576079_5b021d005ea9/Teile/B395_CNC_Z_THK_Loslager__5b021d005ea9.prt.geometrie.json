@@ -1,0 +1,584 @@
+[
+  {
+    "feature": "001_THK_Zentrierhuelle",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        -17.0,
+        20.0,
+        20.0,
+        0.0
+      ],
+      "volume_mm3": 21362.830044410595
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 277320,
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        -17.0,
+        20.0,
+        20.0,
+        0.0
+      ],
+      "volume_mm3": 21362.830044410595,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        -17.0,
+        20.0,
+        20.0,
+        0.0
+      ],
+      "volume_mm3": 21362.830044410595,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_THK_Flansch_konservative_Rundhuelle",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        -8.0
+      ],
+      "volume_mm3": 28055.20779472025
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        -17.0,
+        20.0,
+        20.0,
+        0.0
+      ],
+      "volume_mm3": 21362.830044410595,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277394,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        -7.999999999999998
+      ],
+      "volume_mm3": 28055.20779472026,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 38108.304286207596,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Lagerinnen_Darstellung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.5,
+        -7.5,
+        -18.0,
+        7.5,
+        7.5,
+        1.0
+      ],
+      "volume_mm3": 3357.577148524091
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 38108.3042862076,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277458,
+      "bounds_mm": [
+        -7.5,
+        -7.5,
+        -18.0,
+        7.5,
+        7.5,
+        1.0
+      ],
+      "volume_mm3": 3357.577148524091,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 35104.156311212355,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_THK_Flanschbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -27.75,
+        -2.75,
+        -17.099999999999977,
+        -22.25,
+        2.75,
+        -7.899999999999977
+      ],
+      "volume_mm3": 218.57630887350982
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 35104.156311212355,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277538,
+      "bounds_mm": [
+        -27.75,
+        -2.75,
+        -17.09999999999998,
+        -22.25,
+        2.75,
+        -7.899999999999981
+      ],
+      "volume_mm3": 218.57630887350982,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 34890.3316612274,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_THK_Senkung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -29.75,
+        -4.75,
+        -17.1,
+        -20.25,
+        4.75,
+        -11.5
+      ],
+      "volume_mm3": 396.9402317810704
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 34890.3316612274,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277619,
+      "bounds_mm": [
+        -29.750000000000004,
+        -4.75,
+        -17.1,
+        -20.25,
+        4.75,
+        -11.5
+      ],
+      "volume_mm3": 396.9402317810704,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 34631.15026730624,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_THK_Flanschbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -2.75,
+        22.25,
+        -17.099999999999977,
+        2.75,
+        27.75,
+        -7.899999999999977
+      ],
+      "volume_mm3": 218.57630887350982
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 34631.15026730624,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277690,
+      "bounds_mm": [
+        -2.75,
+        22.250000000000004,
+        -17.09999999999998,
+        2.75,
+        27.75,
+        -7.899999999999981
+      ],
+      "volume_mm3": 218.57630887350982,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 34417.325617321294,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_THK_Senkung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -4.75,
+        20.25,
+        -17.1,
+        4.75,
+        29.75,
+        -11.5
+      ],
+      "volume_mm3": 396.9402317810704
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 34417.32561732129,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277740,
+      "bounds_mm": [
+        -4.75,
+        20.25,
+        -17.1,
+        4.75,
+        29.75,
+        -11.5
+      ],
+      "volume_mm3": 396.9402317810704,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 34158.14422340013,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_THK_Flanschbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        22.25,
+        -2.75,
+        -17.099999999999977,
+        27.75,
+        2.75,
+        -7.899999999999977
+      ],
+      "volume_mm3": 218.57630887350982
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 34158.14422340012,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277806,
+      "bounds_mm": [
+        22.250000000000004,
+        -2.75,
+        -17.09999999999998,
+        27.75,
+        2.75,
+        -7.899999999999981
+      ],
+      "volume_mm3": 218.57630887350982,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 33944.31957341517,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_THK_Senkung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        20.25,
+        -4.75,
+        -17.1,
+        29.75,
+        4.75,
+        -11.5
+      ],
+      "volume_mm3": 396.9402317810704
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 33944.31957341517,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277860,
+      "bounds_mm": [
+        20.25,
+        -4.75,
+        -17.1,
+        29.75,
+        4.75,
+        -11.5
+      ],
+      "volume_mm3": 396.9402317810704,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 33685.13817949401,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_THK_Flanschbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -2.75,
+        -27.75,
+        -17.099999999999977,
+        2.75,
+        -22.25,
+        -7.899999999999977
+      ],
+      "volume_mm3": 218.57630887350982
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 33685.13817949402,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277912,
+      "bounds_mm": [
+        -2.75,
+        -27.75,
+        -17.09999999999998,
+        2.75,
+        -22.25,
+        -7.899999999999981
+      ],
+      "volume_mm3": 218.57630887350982,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 33471.31352950906,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_THK_Senkung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -4.75,
+        -29.75,
+        -17.1,
+        4.75,
+        -20.25,
+        -11.5
+      ],
+      "volume_mm3": 396.9402317810704
+    },
+    "target_before": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 33471.313529509054,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 277962,
+      "bounds_mm": [
+        -4.75,
+        -29.750000000000004,
+        -17.1,
+        4.75,
+        -20.25,
+        -11.5
+      ],
+      "volume_mm3": 396.9402317810704,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 277320,
+      "bounds_mm": [
+        -31.5,
+        -31.5,
+        -17.0,
+        31.5,
+        31.5,
+        0.0
+      ],
+      "volume_mm3": 33212.13213558789,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

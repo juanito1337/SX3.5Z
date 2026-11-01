@@ -1,0 +1,422 @@
+[
+  {
+    "feature": "001_Entwurfsblock",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 9600.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 9600.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 9600.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Dichtungsfenster",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        15.0,
+        15.0,
+        -0.09999999999999432,
+        105.0,
+        145.0,
+        0.6000000000000056
+      ],
+      "volume_mm3": 8189.999999999999
+    },
+    "target_before": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 9600.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 309682,
+      "bounds_mm": [
+        15.0,
+        15.0,
+        -0.0999999999999943,
+        105.0,
+        145.0,
+        0.6000000000000056
+      ],
+      "volume_mm3": 8189.999999999999,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3749.9999999999995,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_09_Plattenverschraubung_1",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        5.25,
+        5.25,
+        -2.0999999999999943,
+        10.75,
+        10.75,
+        3.7000000000000055
+      ],
+      "volume_mm3": 137.7981077680823
+    },
+    "target_before": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3749.9999999999995,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 309792,
+      "bounds_mm": [
+        5.25,
+        5.25,
+        -2.09999999999999,
+        10.75,
+        10.75,
+        3.70000000000001
+      ],
+      "volume_mm3": 137.79810776808228,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3738.120852778613,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_09_Plattenverschraubung_2",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        5.25,
+        77.25,
+        -2.0999999999999943,
+        10.75,
+        82.75,
+        3.7000000000000055
+      ],
+      "volume_mm3": 137.7981077680823
+    },
+    "target_before": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3738.1208527786134,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 309863,
+      "bounds_mm": [
+        5.25,
+        77.25,
+        -2.09999999999999,
+        10.75,
+        82.75,
+        3.70000000000001
+      ],
+      "volume_mm3": 137.79810776808228,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3726.2417055572273,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_09_Plattenverschraubung_3",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        5.25,
+        149.25,
+        -2.0999999999999943,
+        10.75,
+        154.75,
+        3.7000000000000055
+      ],
+      "volume_mm3": 137.7981077680823
+    },
+    "target_before": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3726.2417055572273,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 309907,
+      "bounds_mm": [
+        5.25,
+        149.25,
+        -2.09999999999999,
+        10.75,
+        154.75,
+        3.70000000000001
+      ],
+      "volume_mm3": 137.79810776808228,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3714.3625583358403,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_09_Plattenverschraubung_4",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        109.25,
+        5.25,
+        -2.0999999999999943,
+        114.75,
+        10.75,
+        3.7000000000000055
+      ],
+      "volume_mm3": 137.7981077680823
+    },
+    "target_before": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3714.3625583358403,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 309960,
+      "bounds_mm": [
+        109.25,
+        5.25,
+        -2.09999999999999,
+        114.75,
+        10.75,
+        3.70000000000001
+      ],
+      "volume_mm3": 137.79810776808228,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3702.483411114454,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_09_Plattenverschraubung_5",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        109.25,
+        77.25,
+        -2.0999999999999943,
+        114.75,
+        82.75,
+        3.7000000000000055
+      ],
+      "volume_mm3": 137.7981077680823
+    },
+    "target_before": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3702.4834111144532,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 310013,
+      "bounds_mm": [
+        109.25,
+        77.25,
+        -2.09999999999999,
+        114.75,
+        82.75,
+        3.70000000000001
+      ],
+      "volume_mm3": 137.79810776808228,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3690.604263893068,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_09_Plattenverschraubung_6",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        109.25,
+        149.25,
+        -2.0999999999999943,
+        114.75,
+        154.75,
+        3.7000000000000055
+      ],
+      "volume_mm3": 137.7981077680823
+    },
+    "target_before": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3690.604263893067,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 310062,
+      "bounds_mm": [
+        109.25,
+        149.25,
+        -2.09999999999999,
+        114.75,
+        154.75,
+        3.70000000000001
+      ],
+      "volume_mm3": 137.79810776808228,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 309566,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        120.0,
+        160.0,
+        0.5
+      ],
+      "volume_mm3": 3678.725116671681,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]
