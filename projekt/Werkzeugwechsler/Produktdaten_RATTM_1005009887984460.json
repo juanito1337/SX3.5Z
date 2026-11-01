@@ -5,7 +5,7 @@
   "url": "https://de.aliexpress.com/item/1005009887984460.html",
   "brand_on_image": "RATTM MOTOR",
   "selected_by_user": true,
-  "selected_tool_interface": null,
+  "selected_tool_interface": "BT30",
   "pocket_count": {
     "value": 8,
     "evidence": "visual_count",
@@ -295,7 +295,7 @@
     "note": "Vergleich mit altem Eigenentwurf, kein geometrischer Einbaunachweis des neuen Produkts."
   },
   "missing": [
-    "Selected tool interface / exact variant",
+    "Supplier drawing correspondence to user-selected BT30 variant",
     "Fork throat and retention geometry",
     "Actual tool-holder pitch circle",
     "Full outer envelope including forks/tools",
@@ -312,5 +312,12 @@
   "build_ready": false,
   "purchase_released": false,
   "machine_operation_enabled": false,
-  "atc_operational": false
+  "atc_operational": false,
+  "interface_confirmation": {
+    "source": "Explicit user reply",
+    "date": "2026-11-01",
+    "selected_variant_confirmed_by_user": true,
+    "supplier_drawing_matches_variant_verified": false,
+    "stock_spindle_compatibility_verified": false
+  }
 }

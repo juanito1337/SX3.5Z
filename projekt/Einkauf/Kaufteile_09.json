@@ -1823,9 +1823,9 @@
     },
     "O10-TELLER": {
       "id": "O10-TELLER",
-      "description": "Ausgewaehltes Tellerwechsler-Paket AliExpress1005009887984460;8 Greifer im Bild, Variante offen",
+      "description": "Ausgewaehltes BT30-Tellerwechsler-Paket AliExpress1005009887984460;8 Greifer im Bild",
       "manufacturer": "RATTM MOTOR (Logo im Nutzerbild)",
-      "article": "AliExpress1005009887984460 / Werkzeugaufnahme unbestaetigt",
+      "article": "AliExpress1005009887984460 / BT30 vom Nutzer bestaetigt",
       "planned_quantity": 1,
       "unit": "Paket",
       "dims": {},
@@ -1833,7 +1833,7 @@
         "S10-MARKT",
         "S11-RATTM-BILDER"
       ],
-      "release": "VOM NUTZER AUSGEWAEHLT / VARIANTE OFFEN / NICHT BESTELLFREIGEGEBEN",
+      "release": "BT30 VOM NUTZER BESTAETIGT / NICHT BESTELLFREIGEGEBEN",
       "gates": [
         "A09",
         "G05",
@@ -1841,14 +1841,17 @@
       ],
       "model_scope": "Modellkoerper weiterhin Eigenentwurf11 mit389mm Zustellung; KEIN Abbild des ausgewaehlten Kaufteils",
       "type": "Offene Beschaffung",
-      "note": "Ein Gesamtpaket statt Eigenbau vorgesehen, keine Doppelbestellung. Bildmasse/Typenschilder: Werkzeugwechsler/Produktdaten_RATTM_1005009887984460.json. Grundplatte330x175x22, Scheibe280x16.200mm Hub nur aus SU32X200-S abgeleitet; nutzbarer Magazinweg offen. Direktmontage an Fraese erlaubt; Konsole/Aufnahme/Spannpaket offen.",
+      "note": "Ein Gesamtpaket statt Eigenbau vorgesehen, keine Doppelbestellung. Bildmasse/Typenschilder: Werkzeugwechsler/Produktdaten_RATTM_1005009887984460.json. Grundplatte330x175x22, Scheibe280x16.200mm Hub nur aus SU32X200-S abgeleitet; nutzbarer Magazinweg offen. Direktmontage an Fraese erlaubt; Konsole, reale SK30/BT30-Passung und Spannpaket offen. BT30-Variante vom Nutzer bestaetigt; Zuordnung der Bildmasse zur Lieferausfuehrung noch nicht lieferantenseitig bestaetigt.",
       "unit_price_eur": null,
       "supplier_quote": null,
       "delivery_confirmed": false,
       "selected_by_user": true,
-      "selected_variant_verified": false,
+      "selected_variant_verified": true,
       "cad_matches_selected_product": false,
-      "image_evidence_file": "Werkzeugwechsler/Produktdaten_RATTM_1005009887984460.json"
+      "image_evidence_file": "Werkzeugwechsler/Produktdaten_RATTM_1005009887984460.json",
+      "selected_tool_interface": "BT30",
+      "variant_verification_basis": "User confirmation2026-11-01; no spindle fit or supplier drawing validation",
+      "supplier_variant_verified": false
     }
   },
   "version": "11 auf09-Katalogbasis; RATTM-Artikel gewaehlt, Bildbelege01.11.2026; Modell weiterhin Eigenentwurf11"

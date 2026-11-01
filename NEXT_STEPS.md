@@ -2,7 +2,8 @@
 
 ## Vorrang nach RATTM-Auswahl und Bildlieferung01.11.2026
 
-1. Gewaehlte Werkzeugaufnahme/Variante klaeren (Rueckfrage gestellt).
+1. BT30 ist vom Nutzer bestaetigt. Lieferantenzeichnung der BT30-Ausfuehrung
+   zuordnen und reale SK30/BT30-Spindelschnittstelle pruefen.
 2. Greiferteilkreis, aeussere Huellen, Schlitten-/Tellerbezuege, effektiven Hub
    und Betriebsorientierung belegen. Scheibe280mm ist kein Werkzeugteilkreis.
 3. Direkte rechte Saeulenkonsole als Bearbeitervorschlag pruefen; Lasten und

@@ -5,7 +5,7 @@
   "url": "https://de.aliexpress.com/item/1005009887984460.html",
   "selected_by_user": true,
   "product_title_verified": false,
-  "selected_variant_verified": false,
+  "selected_variant_verified": true,
   "dimension_images_retrieved": true,
   "dimensions_verified": false,
   "delivery_scope_verified": false,
@@ -13,8 +13,8 @@
   "cad_matches_selected_product": false,
   "purchase_released": false,
   "atc_operational": false,
-  "retrieval_result": "Earlier direct-page access failed. User supplied six original screenshots on2026-11-01; preserved byte-for-byte in repository. Variant still unknown.",
-  "next_required_input": "Selected tool interface/variant, actual fork pitch and envelope, slide/disc datums, effective travel and mounting drawing.",
+  "retrieval_result": "Earlier direct-page access failed. User supplied six original screenshots on2026-11-01; preserved byte-for-byte in repository. User subsequently confirmed the selected variant as BT30; supplier drawing correspondence remains unverified.",
+  "next_required_input": "Actual BT30 fork pitch and envelope, slide/disc datums, effective travel and mounting drawing; spindle/clamping compatibility.",
   "model_note": "Native revision11 remains the prior own-design space study (disc310x10, feed389.333). Supplier image shows disc280x16 and base330x175x22. Not yet integrated into NX. Direct machine mounting allowed; fixed right-column bracket is assistant proposal. Spindle clamping remains unresolved.",
   "dimension_images_received_from_user": true,
   "dimension_image_count": 6,
@@ -22,5 +22,9 @@
   "product_data_file": "Produktdaten_RATTM_1005009887984460.json",
   "source_manifest": "referenzen/kaufteile/rattm_1005009887984460/provenienz.json",
   "direct_machine_mount_allowed_by_user": true,
-  "park_side": "right_of_head"
+  "park_side": "right_of_head",
+  "selected_tool_interface": "BT30",
+  "selected_variant_confirmed_by_user": true,
+  "variant_verification_basis": "Explicit user reply BT30 on2026-11-01; selection confirmation only",
+  "supplier_variant_verified": false
 }

@@ -5,8 +5,8 @@
 AliExpress1005009887984460 vom Nutzer vorerst ausgewaehlt, sechs Original-
 Screenshots jetzt im Repository gesichert. Direkte Maschinenbefestigung erlaubt,
 Parkseite rechts bleibt. Grundplatte330x175x22mm und Scheibe280x16mm aus
-Bildbeschriftung; Variante/Werkzeugaufnahme, Greiferteilkreis und nutzbarer
-Hub offen. SU32X200-S legt200mm nahe, bestaetigt aber keinen nutzbaren Magazinweg.
+Bildbeschriftung; AngebotsvarianteBT30 inzwischen vom Nutzer bestaetigt.
+Greiferteilkreis, Bildzuordnung zur Lieferausfuehrung und nutzbarer Hub offen. SU32X200-S legt200mm nahe, bestaetigt aber keinen nutzbaren Magazinweg.
 
 KatalogpositionO10-TELLER und Einkaufsliste11 verweisen auf den gewaehlten
 Artikel (ein Paket) und weisen die abweichende Eigenentwurfsgeometrie klar aus.

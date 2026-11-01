@@ -1,5 +1,10 @@
 # Gewaehlter RATTM-Werkzeugwechsler: Bildauswertung und Einbau
 
+**Fortschreibung01.11.2026:** Nutzer bestaetigt die gewaehlte Angebotsvariante
+als **BT30**. Die Auswahl ist damit geklaert. Bildzuordnung zur konkreten
+Lieferausfuehrung und Passung an OriginalSK30/DIN2080/M12 bleiben unbestaetigt.
+
+
 Stand01.11.2026; Ausgangsrevision2b83f2c. Belege sind sechs vom Nutzer gelieferte
 Screenshots zum [AliExpress-Artikel1005009887984460](https://de.aliexpress.com/item/1005009887984460.html).
 Das sichtbare Logo lautet RATTM MOTOR. Nutzerentscheidung: diesen Wechsler
@@ -9,7 +14,7 @@ bleibt rechts neben dem Kopf. Der Tisch bleibt frei.
 Die Bildkopien sind unveraendert im Git-Repository gesichert:
 [Provenienz mit SHA256](../../referenzen/kaufteile/rattm_1005009887984460/provenienz.json).
 Die Zuordnung zum Artikel stammt vom Nutzer. Keine bekannte Zeichnungsrevision,
-keine Toleranzen, keine bestaetigte Angebotsvariante. Die folgenden Zahlen sind
+keine Toleranzen und keine lieferantenseitig bestaetigte Zeichnungszuordnung. Die folgenden Zahlen sind
 abgelesene Lieferantenbildangaben, keine Istmessung an der Maschine oder am Produkt.
 
 ## Ablesbare Angaben
@@ -23,7 +28,7 @@ abgelesene Lieferantenbildangaben, keine Istmessung an der Maschine oder am Prod
 | Metallscheibe |Durchmesser280mm, Dicke16mm|Bild5; ohne vorstehende Greifer|
 | Zentrale Massspanne |88mm|Bild5; genaue Funktion/Passung nicht belegt|
 | Vertikaler Schraubpunktabstand |145mm|Bild5; nicht als Lochkreis verwenden|
-| Werkzeuggabeln |8 sichtbar|Bild5/6; Greiferprofil, Retention und Variante offen|
+| Werkzeuggabeln |8 sichtbar|Bild5/6; Greiferprofil, Retention und Bildzuordnung zur BT30-Ausfuehrung offen|
 | Oberer Traeger / Schlitten |190,120,151,23.5,9,45,120,120,168,120,9mm|Bild1; getrennte Beschriftungen, Bezugssicherheit begrenzt|
 | Pneumatikzylinder |BAIDI SU32X200-S|Bild2;32mm Bohrung/200mm Hub nur Typcode-Arbeitshypothese|
 | Magazinmotor |ZD4RK25GN-CM, BRAKE MOTOR|Bild3|
@@ -61,7 +66,7 @@ Weitere Belege: [Zylinder](../../referenzen/kaufteile/rattm_1005009887984460/02_
 | Werkzeugteilkreis |Radius180mm als Entwurf|Nicht bemasst;280mm Scheibe ist kein Teilkreis|
 | Zustellweg |389.33296255086793mm|200mm aus Zylindertyp vermutet; nutzbarer Weg offen|
 | Befestigung |Stuetzung am rechten Einhausungsgestell|Direkt an Fraese erlaubt; Anschluss noch auszulegen|
-| Werkzeugaufnahme |BT30-Huellen bei unveraenderterSK30/M12-Spindel|Konkrete Angebotsvariante noch nicht bestaetigt|
+| Werkzeugaufnahme |BT30-Huellen bei unveraenderterSK30/M12-Spindel|BT30 vom Nutzer bestaetigt; Spindelpassung offen|
 
 Die Modellwerte sind aus `teller10.py` und `Layout_Parameter_11.json` abgeleitet.
 Gegenueber hypothetischen200mm fehlen der bisherigen Anordnung189.33mm Weg.
@@ -107,7 +112,7 @@ und Fehlerverhalten bleiben eigene Entwicklungsaufgaben.
 
 ## Noch notwendige Angaben und Nachweise
 
-- Exakte Angebotsvariante/Werkzeugaufnahme; Greiferzeichnung einschliesslich
+- Lieferantenzeichnung der bestaetigten BT30-Variante; Greiferzeichnung einschliesslich
   Haltekraft, Oeffnung und passendem Werkzeughalter.
 - Werkzeug-Teilkreis, aeussere Greifer-/Werkzeughuelle, Tellerachse und
   Aufnahmehoehe bezogen auf Grundplatte/Schlitten; nutzbarer Hub und Endlagen.

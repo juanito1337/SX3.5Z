@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-01T12:33:25.220898+01:00",
+  "base_revision": "0df36288521425fe2d01aee026106f5f005adb3f",
+  "environment": "Windows-10-10.0.19045-SP0 / 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "command": "Inline Python: selection/product/catalog/BOM and prior recipe/parameter hashes compared; git diff --name-only checked",
+  "exit_code": 0,
+  "user_selected_interface": "BT30",
+  "package_quantity": 1,
+  "recipe_and_parameters_unchanged": true,
+  "native_nx_executed": false,
+  "scope": "Data confirmation only; no physical fit verification"
+}

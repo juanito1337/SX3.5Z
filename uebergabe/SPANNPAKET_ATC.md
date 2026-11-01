@@ -1,5 +1,13 @@
 # Übergabe des letzten Gesprächs: automatische Werkzeugspannung
 
+## Bestaetigte Magazinvariante01.11.2026: BT30
+
+Der Nutzer bestaetigt BT30 als gewaehlte Angebotsvariante. Die untenstehenden
+Notizen zur offenen Magazinvariante sind damit ueberholt. Die bestehende
+Spindel bleibt SK30/DIN2080/M12; deren Umbau, Greifer/Zugstange/Federpaket und
+Passung sind durch die Magazinbestaetigung nicht nachgewiesen.
+
+
 ## Pruefoption01.11.2026: BT30-Halter an vorhandener SK30-Spindel
 
 Nutzer bestaetigt SK30 als vorhandene Aufnahme und schlaegt eine moegliche

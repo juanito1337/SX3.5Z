@@ -1,5 +1,14 @@
 # Entscheidungen und offene Annahmen
 
+## Nutzerbestaetigung01.11.2026: Angebotsvariante BT30
+
+Auf die Rueckfrage zur Werkzeugaufnahme des ausgewaehlten Wechslers antwortet
+der Nutzer ausdruecklich BT30. Damit ist die gewaehlte Variante festgelegt.
+Die bisherige offene AuswahlBT30/ISO20 ist erledigt. Das bestaetigt keine
+Passung der OriginalspindelSK30/DIN2080/M12 und keine Lieferantenzeichnung.
+Die Untersuchung des bestehenden Spindelsystems bleibt erforderlich.
+
+
 ## Nutzerhinweis01.11.2026: SK30 erhalten / BT30-Anpassung untersuchen
 
 Der Nutzer bestaetigt die vorhandene SK30-Aufnahme und nennt eine moegliche
