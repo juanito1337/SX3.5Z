@@ -1,5 +1,18 @@
 # Entscheidungen und offene Annahmen
 
+## Nutzerentscheidung01.11.2026: konkreter AliExpress-Werkzeugwechsler
+
+Der Nutzer legt Artikel1005009887984460 als zu verwendenden Werkzeugwechsler
+fest und verlangt die auf der Artikelseite enthaltenen Massbilder zur Ansicht.
+Quelle: https://de.aliexpress.com/item/1005009887984460.html
+Das ersetzt fuer das Magazin die bisherige offene Eigenbau-/Kaufproduktwahl.
+Die genaue Variante, Abmessungen und der Lieferumfang sind noch nicht auslesbar.
+Artikel- und Variantenkennungssuche lieferte keine zuordenbaren Massbilder;
+Direktzugriff schlug fehl. Keine fremden Produktzeichnungen als Ersatz zuordnen.
+CAD11 bleibt bis zu belegten Abmessungen die bisherige Eigenentwurfsgeometrie,
+nicht das Herstellerabbild dieses Artikels. Auswahl ist keine Bestellung oder
+Passungs-/Betriebsfreigabe. Spindel-/Spannpaketauswahl bleibt davon unabhaengig offen.
+
 ## Nutzerkorrektur01.11.2026: rechte Parkseite, Spaenefang, Demontage
 
 Nutzer fordert Reichweite bis Spindel und Spaenefang links/rechts der Maschine.
