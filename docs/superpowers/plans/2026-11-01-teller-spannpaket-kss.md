@@ -49,7 +49,7 @@ Dateien: projekt/ruecklauf07.py, projekt/normteile09.py, projekt/tools/pruefen07
 - [x] Native Teiljournale, Gesamtjournal, frisches vollstaendiges Wiedereroeffnen; Fehler nach systematic-debugging beheben.
 - [x] Neue native .prt-Dateien, Parameter, Quellrevision/Hashes, BOM und Rohprotokolle gemeinsam liefern.
 - [x] Unabhaengiges Review und Dokumentstatus/Roadmap fortschreiben.
-- [ ] Git synchronisieren (nach Abschlusspruefung).
+- [x] Git-Liefercommit4862e97 erstellt: Quellen0adcfb4,535 native PRT und Pruefnachweise versioniert.
 
 ## Review-Fokus
 
