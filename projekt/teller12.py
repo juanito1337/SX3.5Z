@@ -22,6 +22,7 @@ DERIVED=OrderedDict([
     ('atc12_base_x','-atc12_base_r*teller_dir_x'),
     ('atc12_base_y','-atc12_base_r*teller_dir_y'),
     ('atc12_base_z','teller_gauge_z-190'),
+    ('atc12_mount_x','column_x/2'),
 ])
 
 
@@ -88,6 +89,8 @@ def extend(parts,base,cat):
     keep=[d for d in old if d['name'].startswith(('ATC_Gabel_','ATC_BT30_','Spannpaket_','ATC_Parkhaube_'))]
     result=[d for d in parts if d['group']!='20_ATC_Option']
     for d in keep:
+        if d['name'].startswith('ATC_Gabel_'):
+            d['ops'][0]['points']=[[x.replace('teller_radius-40','atc12_disc_d/2-5') if isinstance(x,str) else x for x in pt] for pt in d['ops'][0]['points']]
         d['revision_added']='12'
         d['status']='EINBAUSTUDIE_12_UNBESTAETIGT'
         d['note']+=' Revision12: uebernommene Entwurfshuelle, keine RATTM-Herstellergeometrie.'
@@ -108,10 +111,10 @@ def extend(parts,base,cat):
     def rect(d,cx,cy,r0,r1,t0,t1,z,height,label):
         base.prism(d,[pt(cx,cy,r0,t0,z),pt(cx,cy,r1,t0,z),pt(cx,cy,r1,t1,z),pt(cx,cy,r0,t1,z)],height,(0,0,1),label=label)
     d=part('ATC_Saeulenanschluss_Entwurf','design_blue','MAKE')
-    base.box(d,(120,212,'atc12_base_z-70'),(12,100,210))
+    base.box(d,('atc12_mount_x',212,'atc12_base_z-70'),(12,100,210))
     d['note']+=' Liegt an nominaler rechter Saeulenflaeche; keine Gussbohrungen. Reales Aufmass und Befestigung fehlen.'
     d=part('ATC_Saeulenkonsole_Entwurf','design_blue','MAKE')
-    points=[(132,212,'atc12_base_z-15'),(132,312,'atc12_base_z-15'),
+    points=[('atc12_mount_x+12',212,'atc12_base_z-15'),('atc12_mount_x+12',312,'atc12_base_z-15'),
             pt('atc12_base_x','atc12_base_y',90,140,'atc12_base_z-15'),
             pt('atc12_base_x','atc12_base_y',90,-100,'atc12_base_z-15'),
             pt('atc12_base_x','atc12_base_y',-90,-100,'atc12_base_z-15')]
@@ -121,8 +124,8 @@ def extend(parts,base,cat):
     for i,ys,lateral in [(1,225,100),(2,275,120)]:
         d=part('ATC_Konsolenrippe_'+str(i)+'_Entwurf','design_blue','MAKE')
         ex=350*math.sqrt(3)/2+lateral*.5;ey=-175+lateral*math.sqrt(3)/2
-        vx,vy=ex-132,ey-ys;length=math.hypot(vx,vy)
-        base.prism(d,[(132,ys,'atc12_base_z'),(132,ys,'atc12_base_z+130'),
+        vx,vy=ex-81,ey-ys;length=math.hypot(vx,vy)
+        base.prism(d,[('atc12_mount_x+12',ys,'atc12_base_z'),('atc12_mount_x+12',ys,'atc12_base_z+130'),
                       (ex,ey,'atc12_base_z')],8,(-vy/length,vx/length,0),label='Obere_Konsolenrippe8mm_Entwurf')
     d=part('ATC_RATTM_Grundplatte_Bildmasse',source='S11-RATTM-BILDER Bild4; Aussenmasse330x175x22')
     rect(d,'atc12_base_x','atc12_base_y','-atc12_base_l/2','atc12_base_l/2',

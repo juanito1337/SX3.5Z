@@ -41,7 +41,9 @@ des ausgewaehlten Produkttyps mit zwei belegten Aussenkonturen.
 
 ## Aufbau und offene Befestigung
 
-Die Anschlussplatte liegt an der nominalen rechten Saeulenflaeche. Keine
+Die Anschlussplatte liegt an der nominalen rechten Saeulenwand bei
+`column_x/2` (69mm im aktuellen Modell). Kontakt zur realen Rezeptkontur
+ist als Regression bei138mm und148mm Saeulenbreite geprueft. Keine
 Bohrung, kein Gewinde und keine Freistellung wird in das Originalgussmodell
 eingebracht. Vor Fertigung: Anschlussflaeche/Wandstaerke/Rippen aufmessen,
 Schraubverband und Lastfall aus Wechslermasse/Werkzeuglast auslegen. Tragplatte
@@ -64,9 +66,15 @@ die Anordnung erneut pruefen. Orange Spannpaketkoerper bleiben Raumreserven.
 Die erste Offline-Pruefung fand52 Schnittbefunde der unteren Konsolenrippen
 mit Tisch/X-Antrieb in17 Stellungen. Ursache war der zu tief liegende
 Rippenverlauf. Rippen oberhalb der Tragplatte und hinter der Grundplatte
-beseitigten diese Befunde im gleichen Pruefumfang:470 BRep-Schnittpruefungen,
+beseitigten diese Befunde im gleichen Pruefumfang:540 BRep-Schnittpruefungen,
 keine Kollision bei5 Zustell-,4 Kopf-Absenk- und8 Park-Achseckstellungen.
-Das prueft den nominalen geometrischen Entwurf, nicht die reale Maschine.
+Ein anschliessender Review fand die urspruenglich an der Fussbreite statt
+der Saeulenwand platzierte Anschlussplatte. Der Anschluss wurde auf
+column_x/2 korrigiert und mit Kontakt-/Verbundpruefungen abgesichert. Auch
+die Gabelwurzel folgt jetzt der kleineren Scheibe mit5mm Ueberdeckung als
+Entwurf, statt nur tangential anzuliegen. Die oben genannte finale
+Bewegungspruefung wurde danach wiederholt. Das prueft den nominalen
+geometrischen Entwurf, nicht die reale Maschine.
 
 Ausgeschlossen: ausgewaehlter Halter gegen alte Spindel/Kopf, Spannpaketreserven,
 verformbare Baelge, innere Passungen der vereinfachten Kaufteilhuellen,

@@ -51,3 +51,28 @@ def test_console_and_magazine_clear_sampled_machine_motion():
     assert result['park_axis_samples']==8
     assert result['trajectory_verified'] is False
     assert result['supplier_internal_fit_verified'] is False
+
+
+def test_console_contacts_actual_column_wall_not_only_foot_bounds():
+    from tools.atc_anschlusspruefung09 import world_body
+    ds={d['name']:d for d in m.recipe()}
+    for width in (138.,148.):
+        p=m.load_parameters();p['column_x']=width
+        casting=world_body(ds['Saeule_Guss_Foto'],p)
+        plate=world_body(ds['ATC_Saeulenanschluss_Entwurf'],p)
+        arm=world_body(ds['ATC_Saeulenkonsole_Entwurf'],p)
+        assert plate.distance(casting)<1e-6
+        assert len(plate.fuse(casting).Solids())==1
+        assert len(plate.fuse(arm).Solids())==1
+        assert plate.intersect(casting).Volume()<.01
+
+
+def test_fork_root_remains_attached_to_smaller_disc_envelope():
+    from tools.atc_anschlusspruefung09 import world_body
+    ds={d['name']:d for d in m.recipe()}
+    for radius in (180.,185.):
+        p=m.load_parameters();p['teller_radius']=radius
+        fork=world_body(ds['ATC_Gabel_Raumreserve_1'],p)
+        disc=world_body(ds['ATC_RATTM_Tellerscheibe_Bildmasse'],p)
+        assert len(fork.fuse(disc).Solids())==1
+        assert fork.intersect(disc).Volume()>1.
