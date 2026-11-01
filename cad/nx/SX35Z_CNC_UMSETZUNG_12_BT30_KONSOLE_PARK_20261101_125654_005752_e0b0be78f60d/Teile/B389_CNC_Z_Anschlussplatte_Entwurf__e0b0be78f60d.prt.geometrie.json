@@ -1,0 +1,530 @@
+[
+  {
+    "feature": "001_Adapter_17mm_S355_ENTWURF",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 198288.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 198288.00000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 198288.00000000003,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_FK_Aufnahme_Nenn_H7_ENTWURF",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        -1.0,
+        20.0,
+        20.0,
+        18.0
+      ],
+      "volume_mm3": 23876.104167282425
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 198288.00000000006,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273301,
+      "bounds_mm": [
+        -20.0,
+        -20.0,
+        -1.0,
+        20.0,
+        20.0,
+        18.0
+      ],
+      "volume_mm3": 23876.104167282432,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 176925.1699555894,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_FK_Gewindekern_M5",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        22.9,
+        -2.1,
+        -1.0,
+        27.1,
+        2.1,
+        18.0
+      ],
+      "volume_mm3": 263.23404844428876
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 176925.16995558943,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273367,
+      "bounds_mm": [
+        22.9,
+        -2.1,
+        -1.0,
+        27.1,
+        2.1,
+        18.0
+      ],
+      "volume_mm3": 263.2340484442889,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 176689.6447543498,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_FK_Gewindekern_M5",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -2.1,
+        22.9,
+        -1.0,
+        2.1,
+        27.1,
+        18.0
+      ],
+      "volume_mm3": 263.23404844428876
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 176689.6447543498,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273433,
+      "bounds_mm": [
+        -2.1,
+        22.9,
+        -1.0,
+        2.1,
+        27.1,
+        18.0
+      ],
+      "volume_mm3": 263.2340484442889,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 176454.11955311018,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_FK_Gewindekern_M5",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -27.1,
+        -2.1,
+        -1.0,
+        -22.9,
+        2.1,
+        18.0
+      ],
+      "volume_mm3": 263.23404844428876
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 176454.11955311018,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273494,
+      "bounds_mm": [
+        -27.1,
+        -2.1,
+        -1.0,
+        -22.9,
+        2.1,
+        18.0
+      ],
+      "volume_mm3": 263.2340484442889,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 176218.59435187056,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_FK_Gewindekern_M5",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -2.1,
+        -27.1,
+        -1.0,
+        2.1,
+        -22.9,
+        18.0
+      ],
+      "volume_mm3": 263.23404844428876
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 176218.59435187056,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273556,
+      "bounds_mm": [
+        -2.1,
+        -27.1,
+        -1.0,
+        2.1,
+        -22.9,
+        18.0
+      ],
+      "volume_mm3": 263.2340484442889,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 175983.0691506309,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_M6_Gewindekern_Distanzsaeule",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.5,
+        -46.5,
+        -1.0,
+        -41.5,
+        -41.5,
+        18.0
+      ],
+      "volume_mm3": 373.0641276137879
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 175983.06915063094,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273622,
+      "bounds_mm": [
+        -46.5,
+        -46.5,
+        -1.0,
+        -41.49999999999999,
+        -41.49999999999999,
+        18.0
+      ],
+      "volume_mm3": 373.064127613788,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 175649.274931187,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_M6_Gewindekern_Distanzsaeule",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -46.5,
+        41.5,
+        -1.0,
+        -41.5,
+        46.5,
+        18.0
+      ],
+      "volume_mm3": 373.0641276137879
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 175649.274931187,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273684,
+      "bounds_mm": [
+        -46.5,
+        41.49999999999999,
+        -1.0,
+        -41.49999999999999,
+        46.5,
+        18.0
+      ],
+      "volume_mm3": 373.064127613788,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 175315.48071174312,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_M6_Gewindekern_Distanzsaeule",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        41.5,
+        -46.5,
+        -1.0,
+        46.5,
+        -41.5,
+        18.0
+      ],
+      "volume_mm3": 373.0641276137879
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 175315.48071174312,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273739,
+      "bounds_mm": [
+        41.49999999999999,
+        -46.5,
+        -1.0,
+        46.5,
+        -41.49999999999999,
+        18.0
+      ],
+      "volume_mm3": 373.064127613788,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 174981.6864922992,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_M6_Gewindekern_Distanzsaeule",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        41.5,
+        41.5,
+        -1.0,
+        46.5,
+        46.5,
+        18.0
+      ],
+      "volume_mm3": 373.0641276137879
+    },
+    "target_before": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 174981.6864922992,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 273721,
+      "bounds_mm": [
+        41.49999999999999,
+        41.49999999999999,
+        -1.0,
+        46.5,
+        46.5,
+        18.0
+      ],
+      "volume_mm3": 373.064127613788,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 273193,
+      "bounds_mm": [
+        -54.0,
+        -54.0,
+        0.0,
+        54.0,
+        54.0,
+        17.0
+      ],
+      "volume_mm3": 174647.8922728553,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

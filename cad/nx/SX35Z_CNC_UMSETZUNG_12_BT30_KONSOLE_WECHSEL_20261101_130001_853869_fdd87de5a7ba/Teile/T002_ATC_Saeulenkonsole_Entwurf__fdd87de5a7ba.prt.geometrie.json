@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Tragplatte15mm_Entwurf",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        81.0,
+        -306.60254037844385,
+        195.0,
+        451.051177665153,
+        312.0,
+        210.0
+      ],
+      "volume_mm3": 1571603.3499401996
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 341345,
+      "bounds_mm": [
+        81.0,
+        -306.60254037839996,
+        195.0,
+        451.05117766496,
+        311.99999999999994,
+        210.0
+      ],
+      "volume_mm3": 1571603.3499392907,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 341345,
+      "bounds_mm": [
+        81.0,
+        -306.60254037839996,
+        195.0,
+        451.05117766496,
+        311.99999999999994,
+        210.0
+      ],
+      "volume_mm3": 1571603.3499392907,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

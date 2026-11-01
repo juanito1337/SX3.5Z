@@ -1,5 +1,16 @@
 # Ausführungsumgebungen – nicht miteinander verwechseln
 
+## Nativer Nachweis12,01.11.2026
+
+Quellrevision b6e4643d5558780936f7b622af0102ad64041215. NX2406/Python3.10.15, separate eigene
+run_journal-Prozesse; gemeinsame Oberflaeche nicht benutzt. Fuenf erfolgreiche
+Journallaeufe: Normteil/ATC-Teilpruefung, PARK, frisches PARK-Oeffnen, WECHSEL,
+frisches WECHSEL-Oeffnen. Je461 Einzelteile/17 Gruppen/19 native Blechteile.
+Laufmatrix/Rohprotokolle: ergebnisse/entwicklung/20261101_revision12/.
+Ein vorheriger Lauf wurde wegen Reviewbefund kontrolliert gestoppt; dessen
+Zwischenstand ist als versuch01 erhalten und nicht ausgeliefert. Keine fremden
+NX-Prozesse beendet. Aktuelle Pfade und Pruefgrenzen: cad/README.md.
+
 ## Nativer Nachweis11, 01.11.2026
 
 NX2406/Python3.10.15 unveraendert. Neun Journallaeufe Exit0 einschliesslich

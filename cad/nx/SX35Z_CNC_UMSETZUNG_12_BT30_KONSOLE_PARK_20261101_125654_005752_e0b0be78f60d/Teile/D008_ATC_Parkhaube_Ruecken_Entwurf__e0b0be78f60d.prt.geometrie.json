@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "001_Zylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        109.08965343808666,
+        -410.0,
+        305.0,
+        549.0896534380867,
+        30.0,
+        490.0
+      ],
+      "volume_mm3": 28129820.62024301
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 326831,
+      "bounds_mm": [
+        109.08965343792002,
+        -410.00000000000006,
+        305.0,
+        549.0896534379201,
+        30.0,
+        490.0
+      ],
+      "volume_mm3": 28129820.620243005,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 326831,
+      "bounds_mm": [
+        109.08965343792002,
+        -410.00000000000006,
+        305.0,
+        549.0896534379201,
+        30.0,
+        490.0
+      ],
+      "volume_mm3": 28129820.620243005,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Gerolltes_2mm_Blech_Entwurf",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        111.08965343808666,
+        -408.0,
+        304.9,
+        547.0896534380867,
+        28.0,
+        490.09999999999997
+      ],
+      "volume_mm3": 27650554.324656084
+    },
+    "target_before": {
+      "tag": 326831,
+      "bounds_mm": [
+        109.08965343792002,
+        -410.00000000000006,
+        305.0,
+        549.0896534379201,
+        30.0,
+        490.0
+      ],
+      "volume_mm3": 28129820.620243005,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 326903,
+      "bounds_mm": [
+        111.08965343792002,
+        -408.00000000000006,
+        304.9,
+        547.0896534379201,
+        28.0,
+        490.09999999999997
+      ],
+      "volume_mm3": 27650554.32465608,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 326831,
+      "bounds_mm": [
+        109.08965343792002,
+        -410.00000000000006,
+        305.0,
+        549.0896534379201,
+        30.0,
+        490.0
+      ],
+      "volume_mm3": 509126.5054407539,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Offene_Zustellseite_KEIN_dichter_Abschluss",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        14.903810567665772,
+        -389.18584287042086,
+        304.9,
+        444.08965343808666,
+        124.18584287042088,
+        490.09999999999997
+      ],
+      "volume_mm3": 19594159.999999996
+    },
+    "target_before": {
+      "tag": 326831,
+      "bounds_mm": [
+        109.08965343792002,
+        -410.00000000000006,
+        305.0,
+        549.0896534379201,
+        30.0,
+        490.0
+      ],
+      "volume_mm3": 509126.5054407539,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 327106,
+      "bounds_mm": [
+        14.90381056760004,
+        -389.18584287031996,
+        304.9,
+        444.08965343792,
+        124.18584287031996,
+        490.09999999999997
+      ],
+      "volume_mm3": 19594159.999985114,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 326831,
+      "bounds_mm": [
+        219.08965343787824,
+        -410.00000000000006,
+        305.0,
+        549.0896534379201,
+        0.5255888325523301,
+        490.0
+      ],
+      "volume_mm3": 254563.25272037953,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

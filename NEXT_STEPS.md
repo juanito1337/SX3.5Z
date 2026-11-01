@@ -3,7 +3,7 @@
 ## Vorrang12: Wechslerlayout; Spindelwahl folgt separat
 
 Feste rechte Saeulenkonsole und200mm-Zustellung als Einbaustudie entwickelt.
-Native Park-/Wechsel-Erzeugung und Wiedereroeffnung laufen im neuen12-Paket.
+Native Park-/Wechsel-Erzeugung und Wiedereroeffnung sind im12-Paket nachgewiesen.
 Danach Anschlussaufmass, Lasten/Schrauben/Justage, Hersteller-Greiferteilkreis,
 wirksamen Hub und Schutzverschluss detaillieren. Die spaetere BT30-Spindelwahl
 blockiert diese Layoutarbeit ausdruecklich nicht. Tabellen tragen `_12`.

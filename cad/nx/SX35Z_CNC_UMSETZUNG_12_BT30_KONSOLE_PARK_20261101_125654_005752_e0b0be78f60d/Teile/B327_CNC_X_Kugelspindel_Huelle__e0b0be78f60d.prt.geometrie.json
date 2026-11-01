@@ -1,0 +1,206 @@
+[
+  {
+    "feature": "001_Gewindekern_Nennhuelle_ohne_Laufbahn",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -768.0,
+        -8.0,
+        -8.0,
+        -5.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 153410.2524600968
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 238257,
+      "bounds_mm": [
+        -768.0,
+        -8.0,
+        -8.0,
+        -5.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 153410.2524600968,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 238257,
+      "bounds_mm": [
+        -768.0,
+        -8.0,
+        -8.0,
+        -5.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 153410.2524600968,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Festlagerzapfen_Huelle_KEINE_ENDENZEICHNUNG",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -5.0,
+        -6.0,
+        -6.0,
+        38.0,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 4863.185427756999
+    },
+    "target_before": {
+      "tag": 238257,
+      "bounds_mm": [
+        -768.0,
+        -8.0,
+        -8.0,
+        -5.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 153410.25246009676,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 238334,
+      "bounds_mm": [
+        -5.0,
+        -6.0,
+        -6.0,
+        38.0,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 4863.185427757,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 238257,
+      "bounds_mm": [
+        -768.0,
+        -8.0,
+        -8.0,
+        38.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 158273.43788785374,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Kupplungszapfen_Entwurf",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        38.0,
+        -5.0,
+        -5.0,
+        60.0,
+        5.0,
+        5.0
+      ],
+      "volume_mm3": 1727.875959474386
+    },
+    "target_before": {
+      "tag": 238257,
+      "bounds_mm": [
+        -768.0,
+        -8.0,
+        -8.0,
+        38.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 158273.43788785374,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 238392,
+      "bounds_mm": [
+        38.0,
+        -5.0,
+        -5.0,
+        60.0,
+        5.0,
+        5.0
+      ],
+      "volume_mm3": 1727.8759594743865,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 238257,
+      "bounds_mm": [
+        -768.0,
+        -8.0,
+        -8.0,
+        60.000000000000114,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 160001.31384732816,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Loslagerzapfen_ohne_Sicherungsringnut",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -793.0,
+        -5.0,
+        -5.0,
+        -768.0,
+        5.0,
+        5.0
+      ],
+      "volume_mm3": 1963.4954084936207
+    },
+    "target_before": {
+      "tag": 238257,
+      "bounds_mm": [
+        -768.0,
+        -8.0,
+        -8.0,
+        60.000000000000114,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 160001.31384732816,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 238451,
+      "bounds_mm": [
+        -793.0,
+        -5.0,
+        -5.0,
+        -768.0,
+        5.0,
+        5.0
+      ],
+      "volume_mm3": 1963.4954084936226,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 238257,
+      "bounds_mm": [
+        -793.0,
+        -8.0,
+        -8.0,
+        60.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 161964.80925582178,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

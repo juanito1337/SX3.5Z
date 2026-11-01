@@ -1,0 +1,101 @@
+[
+  {
+    "label": "teller",
+    "journal": "NX_Normteile_ATC_Pruefen",
+    "date": "2026-11-01T12:55:44.8107633+01:00",
+    "command": [
+      "C:/Siemens/nx2406/NXBIN/run_journal.exe",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_Normteile_ATC_Pruefen.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "source_base": "b6e4643d5558780936f7b622af0102ad64041215",
+    "source_snapshot": "native_source_hashes.json",
+    "environment": "NX2406 Python3.10.15 Windows",
+    "exitcode": 0,
+    "seconds": 48.21,
+    "raw_log": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision12\\native_teller.stdout.txt",
+    "output_directories": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_125610_271244_703ec6cd1687"
+    ],
+    "verify_target": null,
+    "archived_output_directories": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision12\\NX_Prueflaeufe\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_125610_271244_703ec6cd1687"
+    ]
+  },
+  {
+    "label": "park",
+    "journal": "NX_CNC_Gesamtansicht",
+    "date": "2026-11-01T12:56:33.0427388+01:00",
+    "command": [
+      "C:/Siemens/nx2406/NXBIN/run_journal.exe",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_CNC_Gesamtansicht.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "source_base": "b6e4643d5558780936f7b622af0102ad64041215",
+    "source_snapshot": "native_source_hashes.json",
+    "environment": "NX2406 Python3.10.15 Windows",
+    "exitcode": 0,
+    "seconds": 162.37,
+    "raw_log": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision12\\native_park.stdout.txt",
+    "output_directories": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_125654_005752_e0b0be78f60d"
+    ],
+    "verify_target": null
+  },
+  {
+    "label": "park_open",
+    "journal": "NX_Git_Lieferstand_Pruefen",
+    "date": "2026-11-01T12:59:15.4365066+01:00",
+    "command": [
+      "C:/Siemens/nx2406/NXBIN/run_journal.exe",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_Git_Lieferstand_Pruefen.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "source_base": "b6e4643d5558780936f7b622af0102ad64041215",
+    "source_snapshot": "native_source_hashes.json",
+    "environment": "NX2406 Python3.10.15 Windows",
+    "exitcode": 0,
+    "seconds": 27.68,
+    "raw_log": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision12\\native_park_open.stdout.txt",
+    "output_directories": [],
+    "verify_target": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_125654_005752_e0b0be78f60d"
+  },
+  {
+    "label": "wechsel",
+    "journal": "NX_CNC_Wechselstellung",
+    "date": "2026-11-01T12:59:43.1259110+01:00",
+    "command": [
+      "C:/Siemens/nx2406/NXBIN/run_journal.exe",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_CNC_Wechselstellung.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "source_base": "b6e4643d5558780936f7b622af0102ad64041215",
+    "source_snapshot": "native_source_hashes.json",
+    "environment": "NX2406 Python3.10.15 Windows",
+    "exitcode": 0,
+    "seconds": 151.44,
+    "raw_log": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision12\\native_wechsel.stdout.txt",
+    "output_directories": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_WECHSEL_20261101_130001_853869_fdd87de5a7ba"
+    ],
+    "verify_target": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_125654_005752_e0b0be78f60d"
+  },
+  {
+    "label": "wechsel_open",
+    "journal": "NX_Git_Lieferstand_Pruefen",
+    "date": "2026-11-01T13:02:14.5715207+01:00",
+    "command": [
+      "C:/Siemens/nx2406/NXBIN/run_journal.exe",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_Git_Lieferstand_Pruefen.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "source_base": "b6e4643d5558780936f7b622af0102ad64041215",
+    "source_snapshot": "native_source_hashes.json",
+    "environment": "NX2406 Python3.10.15 Windows",
+    "exitcode": 0,
+    "seconds": 27.75,
+    "raw_log": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision12\\native_wechsel_open.stdout.txt",
+    "output_directories": [],
+    "verify_target": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_WECHSEL_20261101_130001_853869_fdd87de5a7ba"
+  }
+]

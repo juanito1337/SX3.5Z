@@ -1,0 +1,12 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+___________ test_console_and_magazine_clear_sampled_machine_motion ____________
+
+    def test_console_and_magazine_clear_sampled_machine_motion():
+>       from tools.wechselweg12_pruefen import run
+E       ModuleNotFoundError: No module named 'tools.wechselweg12_pruefen'
+
+tests09\test_teller12.py:48: ModuleNotFoundError
+=========================== short test summary info ===========================
+FAILED tests09/test_teller12.py::test_console_and_magazine_clear_sampled_machine_motion
+1 failed in 0.17s

@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Motor_Aussenhuelle",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        5.0
+      ],
+      "volume_mm3": 36980.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 291465,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        5.0
+      ],
+      "volume_mm3": 36980.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 291465,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        5.0
+      ],
+      "volume_mm3": 36980.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

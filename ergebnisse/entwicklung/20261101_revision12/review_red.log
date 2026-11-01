@@ -1,0 +1,40 @@
+FF                                                                       [100%]
+================================== FAILURES ===================================
+________ test_console_contacts_actual_column_wall_not_only_foot_bounds ________
+
+    def test_console_contacts_actual_column_wall_not_only_foot_bounds():
+        from tools.atc_anschlusspruefung09 import world_body
+        ds={d['name']:d for d in m.recipe()}
+        for width in (138.,148.):
+            p=m.load_parameters();p['column_x']=width
+            casting=world_body(ds['Saeule_Guss_Foto'],p)
+            plate=world_body(ds['ATC_Saeulenanschluss_Entwurf'],p)
+            arm=world_body(ds['ATC_Saeulenkonsole_Entwurf'],p)
+>           assert plate.distance(casting)<1e-6
+E           assert 38.0 < 1e-06
+E            +  where 38.0 = distance(<cadquery.occ_impl.shapes.Compound object at 0x000001F08E17CB00>)
+E            +    where distance = <cadquery.occ_impl.shapes.Solid object at 0x000001F08E3552E0>.distance
+
+tests09\test_teller12.py:64: AssertionError
+__________ test_fork_root_remains_attached_to_smaller_disc_envelope ___________
+
+    def test_fork_root_remains_attached_to_smaller_disc_envelope():
+        from tools.atc_anschlusspruefung09 import world_body
+        ds={d['name']:d for d in m.recipe()}
+        for radius in (180.,185.):
+            p=m.load_parameters();p['teller_radius']=radius
+            fork=world_body(ds['ATC_Gabel_Raumreserve_1'],p)
+            disc=world_body(ds['ATC_RATTM_Tellerscheibe_Bildmasse'],p)
+            assert len(fork.fuse(disc).Solids())==1
+>           assert fork.intersect(disc).Volume()>1.
+E           assert 0.0 > 1.0
+E            +  where 0.0 = Volume()
+E            +    where Volume = <cadquery.occ_impl.shapes.Compound object at 0x000001F08EB1DAC0>.Volume
+E            +      where <cadquery.occ_impl.shapes.Compound object at 0x000001F08EB1DAC0> = intersect(<cadquery.occ_impl.shapes.Solid object at 0x000001F08EB1E0F0>)
+E            +        where intersect = <cadquery.occ_impl.shapes.Compound object at 0x000001F08EB1DD30>.intersect
+
+tests09\test_teller12.py:78: AssertionError
+=========================== short test summary info ===========================
+FAILED tests09/test_teller12.py::test_console_contacts_actual_column_wall_not_only_foot_bounds
+FAILED tests09/test_teller12.py::test_fork_root_remains_attached_to_smaller_disc_envelope
+2 failed in 5.91s

@@ -1,0 +1,260 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5400000.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5400000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5400000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Maschinenfussloch_aus_Bestandsmodell",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        93.0,
+        100.0,
+        -1.0,
+        107.0,
+        114.0,
+        21.0
+      ],
+      "volume_mm3": 3386.6368805697966
+    },
+    "target_before": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5400000.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 133926,
+      "bounds_mm": [
+        93.0,
+        99.99999999999999,
+        -1.0,
+        107.00000000000001,
+        114.0,
+        21.0
+      ],
+      "volume_mm3": 3386.6368805697966,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5396921.239199482,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Maschinenfussloch_aus_Bestandsmodell",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        93.0,
+        460.0,
+        -1.0,
+        107.0,
+        474.0,
+        21.0
+      ],
+      "volume_mm3": 3386.6368805697966
+    },
+    "target_before": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5396921.239199483,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 134002,
+      "bounds_mm": [
+        93.0,
+        460.0,
+        -1.0,
+        107.00000000000001,
+        474.0,
+        21.0
+      ],
+      "volume_mm3": 3386.6368805697966,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5393842.478398964,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Maschinenfussloch_aus_Bestandsmodell",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        343.0,
+        100.0,
+        -1.0,
+        357.0,
+        114.0,
+        21.0
+      ],
+      "volume_mm3": 3386.6368805697966
+    },
+    "target_before": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5393842.478398963,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 134060,
+      "bounds_mm": [
+        343.0,
+        99.99999999999999,
+        -1.0,
+        357.0,
+        114.0,
+        21.0
+      ],
+      "volume_mm3": 3386.6368805697966,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5390763.717598446,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Maschinenfussloch_aus_Bestandsmodell",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        343.0,
+        460.0,
+        -1.0,
+        357.0,
+        474.0,
+        21.0
+      ],
+      "volume_mm3": 3386.6368805697966
+    },
+    "target_before": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5390763.717598446,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 134100,
+      "bounds_mm": [
+        343.0,
+        460.0,
+        -1.0,
+        357.0,
+        474.0,
+        21.0
+      ],
+      "volume_mm3": 3386.6368805697966,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 133820,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        450.0,
+        600.0,
+        20.0
+      ],
+      "volume_mm3": 5387684.956797928,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

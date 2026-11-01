@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Schlitten120x168x12_Entwurf_KEINE_Herstellerzeichnung",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        295.749907475931,
+        -327.74613391789285,
+        252.0,
+        483.67295593006367,
+        -122.25386608210715,
+        264.0
+      ],
+      "volume_mm3": 241920.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 344373,
+      "bounds_mm": [
+        295.74990747576,
+        -327.746133917856,
+        252.0,
+        483.67295592984,
+        -122.25386608214401,
+        264.0
+      ],
+      "volume_mm3": 241919.9999998165,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 344373,
+      "bounds_mm": [
+        295.74990747576,
+        -327.746133917856,
+        252.0,
+        483.67295592984,
+        -122.25386608214401,
+        264.0
+      ],
+      "volume_mm3": 241919.9999998165,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

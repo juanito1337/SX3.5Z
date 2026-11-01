@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Grundplatte_ohne_unbestaetigtes_Lochbild",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        116.46469970012112,
+        -333.2772228311384,
+        210.0,
+        489.7530829489859,
+        -16.722777168861626,
+        232.0
+      ],
+      "volume_mm3": 1270500.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 342770,
+      "bounds_mm": [
+        116.46469970004,
+        -333.2772228311,
+        210.0,
+        489.7530829487599,
+        -16.722777168899995,
+        232.0
+      ],
+      "volume_mm3": 1270499.9999990342,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 342770,
+      "bounds_mm": [
+        116.46469970004,
+        -333.2772228311,
+        210.0,
+        489.7530829487599,
+        -16.722777168899995,
+        232.0
+      ],
+      "volume_mm3": 1270499.9999990342,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

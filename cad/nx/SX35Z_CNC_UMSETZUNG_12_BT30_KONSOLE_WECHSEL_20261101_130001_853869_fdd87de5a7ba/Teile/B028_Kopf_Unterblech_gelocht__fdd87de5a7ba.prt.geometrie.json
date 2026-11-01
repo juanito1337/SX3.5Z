@@ -1,0 +1,2312 @@
+[
+  {
+    "feature": "001_Block",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -65.0,
+        -10.0,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35100.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35100.0,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35100.0,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -47.25,
+        4.75,
+        -2.1000000000000227,
+        -42.75,
+        9.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35100.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 75774,
+      "bounds_mm": [
+        -47.25,
+        4.75,
+        -2.10000000000002,
+        -42.75,
+        9.250000000000002,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35068.19137438241,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -47.25,
+        22.75,
+        -2.1000000000000227,
+        -42.75,
+        27.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35068.19137438241,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 75827,
+      "bounds_mm": [
+        -47.25,
+        22.75,
+        -2.10000000000002,
+        -42.75,
+        27.250000000000004,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35036.38274876481,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -47.25,
+        40.75,
+        -2.1000000000000227,
+        -42.75,
+        45.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35036.382748764816,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 75883,
+      "bounds_mm": [
+        -47.25,
+        40.75,
+        -2.10000000000002,
+        -42.75,
+        45.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35004.574123147206,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -47.25,
+        58.75,
+        -2.1000000000000227,
+        -42.75,
+        63.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 35004.57412314721,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 75942,
+      "bounds_mm": [
+        -47.25,
+        58.75,
+        -2.10000000000002,
+        -42.75,
+        63.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34972.76549752962,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -47.25,
+        76.75,
+        -2.1000000000000227,
+        -42.75,
+        81.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34972.76549752962,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 75984,
+      "bounds_mm": [
+        -47.25,
+        76.75,
+        -2.10000000000002,
+        -42.75,
+        81.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34940.95687191202,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "007_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -47.25,
+        94.75,
+        -2.1000000000000227,
+        -42.75,
+        99.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34940.956871912014,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76033,
+      "bounds_mm": [
+        -47.25,
+        94.75,
+        -2.10000000000002,
+        -42.75,
+        99.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34909.14824629442,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "008_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -47.25,
+        112.75,
+        -2.1000000000000227,
+        -42.75,
+        117.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34909.14824629443,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76091,
+      "bounds_mm": [
+        -47.25,
+        112.75,
+        -2.10000000000002,
+        -42.75,
+        117.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34877.33962067683,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "009_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -29.25,
+        4.75,
+        -2.1000000000000227,
+        -24.75,
+        9.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34877.33962067683,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76145,
+      "bounds_mm": [
+        -29.25,
+        4.75,
+        -2.10000000000002,
+        -24.750000000000004,
+        9.250000000000002,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34845.53099505922,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "010_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -29.25,
+        22.75,
+        -2.1000000000000227,
+        -24.75,
+        27.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34845.53099505923,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76198,
+      "bounds_mm": [
+        -29.25,
+        22.75,
+        -2.10000000000002,
+        -24.750000000000004,
+        27.250000000000004,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34813.72236944164,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "011_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -29.25,
+        40.75,
+        -2.1000000000000227,
+        -24.75,
+        45.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34813.72236944164,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76239,
+      "bounds_mm": [
+        -29.25,
+        40.75,
+        -2.10000000000002,
+        -24.750000000000004,
+        45.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34781.91374382402,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "012_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -29.25,
+        58.75,
+        -2.1000000000000227,
+        -24.75,
+        63.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34781.91374382406,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76186,
+      "bounds_mm": [
+        -29.25,
+        58.75,
+        -2.10000000000002,
+        -24.750000000000004,
+        63.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34750.10511820645,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "013_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -29.25,
+        76.75,
+        -2.1000000000000227,
+        -24.75,
+        81.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34750.10511820645,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76337,
+      "bounds_mm": [
+        -29.25,
+        76.75,
+        -2.10000000000002,
+        -24.750000000000004,
+        81.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34718.29649258882,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "014_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -29.25,
+        94.75,
+        -2.1000000000000227,
+        -24.75,
+        99.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34718.29649258887,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76390,
+      "bounds_mm": [
+        -29.25,
+        94.75,
+        -2.10000000000002,
+        -24.750000000000004,
+        99.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34686.487866971234,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "015_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -29.25,
+        112.75,
+        -2.1000000000000227,
+        -24.75,
+        117.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34686.48786697127,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76431,
+      "bounds_mm": [
+        -29.25,
+        112.75,
+        -2.10000000000002,
+        -24.750000000000004,
+        117.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34654.67924135364,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "016_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.25,
+        4.75,
+        -2.1000000000000227,
+        -6.75,
+        9.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34654.679241353675,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76480,
+      "bounds_mm": [
+        -11.250000000000002,
+        4.75,
+        -2.10000000000002,
+        -6.750000000000001,
+        9.250000000000002,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34622.870615736036,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "017_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.25,
+        22.75,
+        -2.1000000000000227,
+        -6.75,
+        27.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34622.87061573608,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76533,
+      "bounds_mm": [
+        -11.250000000000002,
+        22.75,
+        -2.10000000000002,
+        -6.750000000000001,
+        27.250000000000004,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34591.06199011844,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "018_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.25,
+        40.75,
+        -2.1000000000000227,
+        -6.75,
+        45.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34591.06199011845,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76582,
+      "bounds_mm": [
+        -11.250000000000002,
+        40.75,
+        -2.10000000000002,
+        -6.750000000000001,
+        45.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34559.253364500866,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "019_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.25,
+        58.75,
+        -2.1000000000000227,
+        -6.75,
+        63.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34559.25336450087,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76639,
+      "bounds_mm": [
+        -11.250000000000002,
+        58.75,
+        -2.10000000000002,
+        -6.750000000000001,
+        63.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34527.444738883234,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "020_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.25,
+        76.75,
+        -2.1000000000000227,
+        -6.75,
+        81.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34527.44473888328,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76672,
+      "bounds_mm": [
+        -11.250000000000002,
+        76.75,
+        -2.10000000000002,
+        -6.750000000000001,
+        81.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34495.63611326564,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "021_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.25,
+        94.75,
+        -2.1000000000000227,
+        -6.75,
+        99.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34495.636113265704,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76725,
+      "bounds_mm": [
+        -11.250000000000002,
+        94.75,
+        -2.10000000000002,
+        -6.750000000000001,
+        99.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34463.82748764806,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "022_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -11.25,
+        112.75,
+        -2.1000000000000227,
+        -6.75,
+        117.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34463.827487648065,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76774,
+      "bounds_mm": [
+        -11.250000000000002,
+        112.75,
+        -2.10000000000002,
+        -6.750000000000001,
+        117.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34432.01886203046,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "023_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        6.75,
+        4.75,
+        -2.1000000000000227,
+        11.25,
+        9.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34432.01886203048,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76836,
+      "bounds_mm": [
+        6.750000000000001,
+        4.75,
+        -2.10000000000002,
+        11.250000000000002,
+        9.250000000000002,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34400.21023641285,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "024_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        6.75,
+        22.75,
+        -2.1000000000000227,
+        11.25,
+        27.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34400.210236412866,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76869,
+      "bounds_mm": [
+        6.750000000000001,
+        22.75,
+        -2.10000000000002,
+        11.250000000000002,
+        27.250000000000004,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34368.401610795256,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "025_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        6.75,
+        40.75,
+        -2.1000000000000227,
+        11.25,
+        45.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34368.401610795314,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76922,
+      "bounds_mm": [
+        6.750000000000001,
+        40.75,
+        -2.10000000000002,
+        11.250000000000002,
+        45.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34336.592985177645,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "026_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        6.75,
+        58.75,
+        -2.1000000000000227,
+        11.25,
+        63.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34336.59298517773,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 76971,
+      "bounds_mm": [
+        6.750000000000001,
+        58.75,
+        -2.10000000000002,
+        11.250000000000002,
+        63.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34304.78435956005,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "027_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        6.75,
+        76.75,
+        -2.1000000000000227,
+        11.25,
+        81.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34304.784359560115,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77029,
+      "bounds_mm": [
+        6.750000000000001,
+        76.75,
+        -2.10000000000002,
+        11.250000000000002,
+        81.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34272.975733942454,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "028_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        6.75,
+        94.75,
+        -2.1000000000000227,
+        11.25,
+        99.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34272.97573394251,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77061,
+      "bounds_mm": [
+        6.750000000000001,
+        94.75,
+        -2.10000000000002,
+        11.250000000000002,
+        99.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34241.167108324924,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "029_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        6.75,
+        112.75,
+        -2.1000000000000227,
+        11.25,
+        117.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34241.1671083249,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77114,
+      "bounds_mm": [
+        6.750000000000001,
+        112.75,
+        -2.10000000000002,
+        11.250000000000002,
+        117.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34209.3584827073,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "030_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        24.75,
+        4.75,
+        -2.1000000000000227,
+        29.25,
+        9.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34209.358482707335,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77168,
+      "bounds_mm": [
+        24.75,
+        4.75,
+        -2.10000000000002,
+        29.249999999999996,
+        9.250000000000002,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34177.549857089725,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "031_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        24.75,
+        22.75,
+        -2.1000000000000227,
+        29.25,
+        27.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34177.54985708975,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77222,
+      "bounds_mm": [
+        24.75,
+        22.75,
+        -2.10000000000002,
+        29.249999999999996,
+        27.250000000000004,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34145.74123147209,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "032_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        24.75,
+        40.75,
+        -2.1000000000000227,
+        29.25,
+        45.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34145.741231472064,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77258,
+      "bounds_mm": [
+        24.75,
+        40.75,
+        -2.10000000000002,
+        29.249999999999996,
+        45.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34113.93260585447,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "033_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        24.75,
+        58.75,
+        -2.1000000000000227,
+        29.25,
+        63.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34113.93260585455,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77311,
+      "bounds_mm": [
+        24.75,
+        58.75,
+        -2.10000000000002,
+        29.249999999999996,
+        63.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34082.12398023692,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "034_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        24.75,
+        76.75,
+        -2.1000000000000227,
+        29.25,
+        81.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34082.12398023693,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77360,
+      "bounds_mm": [
+        24.75,
+        76.75,
+        -2.10000000000002,
+        29.249999999999996,
+        81.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34050.3153546193,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "035_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        24.75,
+        94.75,
+        -2.1000000000000227,
+        29.25,
+        99.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34050.31535461936,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77414,
+      "bounds_mm": [
+        24.75,
+        94.75,
+        -2.10000000000002,
+        29.249999999999996,
+        99.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34018.506729001674,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "036_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        24.75,
+        112.75,
+        -2.1000000000000227,
+        29.25,
+        117.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 34018.50672900172,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77450,
+      "bounds_mm": [
+        24.75,
+        112.75,
+        -2.10000000000002,
+        29.249999999999996,
+        117.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33986.69810338412,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "037_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        42.75,
+        4.75,
+        -2.1000000000000227,
+        47.25,
+        9.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33986.698103384144,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77297,
+      "bounds_mm": [
+        42.74999999999999,
+        4.75,
+        -2.10000000000002,
+        47.25,
+        9.250000000000002,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33954.88947776655,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "038_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        42.75,
+        22.75,
+        -2.1000000000000227,
+        47.25,
+        27.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33954.88947776657,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77556,
+      "bounds_mm": [
+        42.74999999999999,
+        22.75,
+        -2.10000000000002,
+        47.25,
+        27.250000000000004,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33923.08085214888,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "039_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        42.75,
+        40.75,
+        -2.1000000000000227,
+        47.25,
+        45.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33923.08085214888,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77606,
+      "bounds_mm": [
+        42.74999999999999,
+        40.75,
+        -2.10000000000002,
+        47.25,
+        45.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33891.27222653128,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "040_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        42.75,
+        58.75,
+        -2.1000000000000227,
+        47.25,
+        63.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33891.27222653133,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77662,
+      "bounds_mm": [
+        42.74999999999999,
+        58.75,
+        -2.10000000000002,
+        47.25,
+        63.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33859.463600913754,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "041_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        42.75,
+        76.75,
+        -2.1000000000000227,
+        47.25,
+        81.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33859.463600913805,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77630,
+      "bounds_mm": [
+        42.74999999999999,
+        76.75,
+        -2.10000000000002,
+        47.25,
+        81.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33827.65497529609,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "042_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        42.75,
+        94.75,
+        -2.1000000000000227,
+        47.25,
+        99.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33827.65497529621,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77748,
+      "bounds_mm": [
+        42.74999999999999,
+        94.75,
+        -2.10000000000002,
+        47.25,
+        99.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33795.846349678526,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "043_Lueftungsloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        42.75,
+        112.75,
+        -2.1000000000000227,
+        47.25,
+        117.25,
+        0.09999999999997744
+      ],
+      "volume_mm3": 34.98948817935632
+    },
+    "target_before": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33795.846349678526,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 77798,
+      "bounds_mm": [
+        42.74999999999999,
+        112.75,
+        -2.10000000000002,
+        47.25,
+        117.25,
+        0.0999999999999801
+      ],
+      "volume_mm3": 34.989488179356336,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 75669,
+      "bounds_mm": [
+        -65.0,
+        -10.000000000000002,
+        -2.0,
+        65.0,
+        125.0,
+        0.0
+      ],
+      "volume_mm3": 33764.037724060894,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

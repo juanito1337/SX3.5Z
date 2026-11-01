@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Geneigtes_Blech_Normaldicke",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -536.0,
+        0.0,
+        0.0,
+        0.0,
+        139.0,
+        77.0595048898183
+      ],
+      "volume_mm3": 150461.1923110222
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 194101,
+      "bounds_mm": [
+        -536.0000000000001,
+        0.0,
+        0.0,
+        1.1368683772161603e-13,
+        139.0,
+        77.0595048898183
+      ],
+      "volume_mm3": 150461.19231102202,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 194101,
+      "bounds_mm": [
+        -536.0000000000001,
+        0.0,
+        0.0,
+        1.1368683772161603e-13,
+        139.0,
+        77.0595048898183
+      ],
+      "volume_mm3": 150461.19231102202,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Freistellung_Rueckwand_Rueckkantung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -535.0,
+        117.0,
+        -22.0,
+        -532.0,
+        147.0,
+        218.0
+      ],
+      "volume_mm3": 21600.0
+    },
+    "target_before": {
+      "tag": 194101,
+      "bounds_mm": [
+        -536.0000000000001,
+        0.0,
+        0.0,
+        1.1368683772161603e-13,
+        139.0,
+        77.0595048898183
+      ],
+      "volume_mm3": 150461.19231102202,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 194248,
+      "bounds_mm": [
+        -535.0,
+        117.0,
+        -22.0,
+        -532.0000000000001,
+        147.0,
+        218.0
+      ],
+      "volume_mm3": 21599.99999999923,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 194101,
+      "bounds_mm": [
+        -536.0000000000001,
+        0.0,
+        0.0,
+        1.1368683772161603e-13,
+        139.0,
+        77.0595048898183
+      ],
+      "volume_mm3": 150327.904988294,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

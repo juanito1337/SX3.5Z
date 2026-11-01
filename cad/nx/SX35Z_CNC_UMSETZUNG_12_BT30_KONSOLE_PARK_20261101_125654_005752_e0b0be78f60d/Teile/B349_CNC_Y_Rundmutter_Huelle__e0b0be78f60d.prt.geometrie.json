@@ -1,0 +1,98 @@
+[
+  {
+    "feature": "001_Huellzylinder",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -14.0,
+        -25.0,
+        -14.0,
+        14.0,
+        25.0,
+        14.0
+      ],
+      "volume_mm3": 30787.608005179976
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 250076,
+      "bounds_mm": [
+        -14.0,
+        -25.0,
+        -14.0,
+        14.0,
+        25.0,
+        14.0
+      ],
+      "volume_mm3": 30787.608005179976,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 250076,
+      "bounds_mm": [
+        -14.0,
+        -25.0,
+        -14.0,
+        14.0,
+        25.0,
+        14.0
+      ],
+      "volume_mm3": 30787.608005179976,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Darstellungsbohrung",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -8.0,
+        -25.5,
+        -8.0,
+        8.0,
+        25.5,
+        8.0
+      ],
+      "volume_mm3": 10254.158421317085
+    },
+    "target_before": {
+      "tag": 250076,
+      "bounds_mm": [
+        -14.0,
+        -25.0,
+        -14.0,
+        14.0,
+        25.0,
+        14.0
+      ],
+      "volume_mm3": 30787.608005179976,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 250144,
+      "bounds_mm": [
+        -8.0,
+        -25.500000000000004,
+        -8.0,
+        8.0,
+        25.500000000000004,
+        8.0
+      ],
+      "volume_mm3": 10254.158421317088,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 250076,
+      "bounds_mm": [
+        -14.0,
+        -25.0,
+        -14.0,
+        14.0,
+        25.0,
+        14.0
+      ],
+      "volume_mm3": 20734.511513692636,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

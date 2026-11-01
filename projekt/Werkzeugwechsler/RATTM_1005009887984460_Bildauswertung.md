@@ -1,5 +1,10 @@
 # Gewaehlter RATTM-Werkzeugwechsler: Bildauswertung und Einbau
 
+**CAD-Fortschreibung12:** Die Einbaustudie auf rechter Saeulenkonsole ist jetzt
+nativ erzeugt; [aktuelle Anleitung12](../Dokumentation/Entwicklungsstand_12.md).
+Die folgende Bildauswertung dokumentiert den vorherigen Belegstand; ihre
+Massunsicherheiten gelten weiter. Spindelwahl blockiert das Layout nicht.
+
 **Fortschreibung01.11.2026:** Nutzer bestaetigt die gewaehlte Angebotsvariante
 als **BT30**. Die Auswahl ist damit geklaert. Bildzuordnung zur konkreten
 Lieferausfuehrung und Passung an OriginalSK30/DIN2080/M12 bleiben unbestaetigt.

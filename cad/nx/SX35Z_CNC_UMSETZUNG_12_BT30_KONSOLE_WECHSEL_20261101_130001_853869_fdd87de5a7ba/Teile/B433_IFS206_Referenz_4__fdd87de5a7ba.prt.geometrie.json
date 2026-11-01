@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_M12_Huelle_ohne_Gewinde_45mm",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -6.0,
+        -6.0,
+        0.0,
+        6.0,
+        6.0,
+        45.0
+      ],
+      "volume_mm3": 5089.380098815464
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 297286,
+      "bounds_mm": [
+        -6.0,
+        -6.0,
+        0.0,
+        6.0,
+        6.0,
+        45.0
+      ],
+      "volume_mm3": 5089.380098815465,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 297286,
+      "bounds_mm": [
+        -6.0,
+        -6.0,
+        0.0,
+        6.0,
+        6.0,
+        45.0
+      ],
+      "volume_mm3": 5089.380098815465,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

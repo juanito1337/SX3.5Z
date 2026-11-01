@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-01T13:02:49.740317+01:00",
+  "source_revision": "b6e4643d5558780936f7b622af0102ad64041215",
+  "environment": "Windows; CPython3.12.14/CadQuery2.8/OCP7.9.3.1.1; nativeNX2406/Python3.10.15 separately",
+  "checks": [
+    {
+      "command": "../.venv/Scripts/python.exe -m pytest -q -p no:cacheprovider",
+      "cwd": "projekt",
+      "exitcode": 0,
+      "raw_log": "offline_final.log",
+      "result": "190passed99subtests"
+    },
+    {
+      "command": ".venv/Scripts/python.exe projekt/tools/wechselweg12_pruefen.py --output ergebnisse/entwicklung/20261101_revision12/motion_final.json",
+      "cwd": "repository root",
+      "exitcode": 0,
+      "raw_log": "motion_final.log",
+      "result": "17poses540BRep0hits"
+    },
+    {
+      "command": ".venv/Scripts/python.exe projekt/tools/teller_pruefung10.py --output ergebnisse/entwicklung/20261101_revision12/endpoints_final.json",
+      "cwd": "repository root",
+      "exitcode": 0,
+      "raw_log": "endpoints_final.log",
+      "result": "744checks0hits"
+    },
+    {
+      "command": ".venv/Scripts/python.exe ergebnisse/entwicklung/20261101_revision12/arbeitskopie/projekt/tools/pruefen07.py",
+      "cwd": "repository root",
+      "exitcode": 1,
+      "raw_log": "kss_final.log",
+      "result": "6knownIFS206referencehits;0axis0basket"
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools_handoff/verify_package.py",
+      "cwd": "repository root",
+      "exitcode": 1,
+      "raw_log": "package.log",
+      "result": "449of477originalhashesmatch;28intentionalhistoricalchanges"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tools_handoff -p test_*.py -v",
+      "cwd": "repository root",
+      "exitcode": 0,
+      "raw_log": "handoff_tests.log",
+      "result": "9pass1Windows-symlinkskip"
+    },
+    {
+      "command": "ergebnisse/entwicklung/20261101_revision12/run_native.ps1",
+      "cwd": "repository root",
+      "exitcode": 0,
+      "raw_log": "native_matrix.json",
+      "result": "5journals;2completeassemblies;2freshreopens"
+    }
+  ],
+  "native_nx_executed": true,
+  "physical_fit_verified": false,
+  "machine_operation_enabled": false
+}

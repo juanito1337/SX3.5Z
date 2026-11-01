@@ -1,0 +1,96 @@
+FFFFFFF                                                                  [100%]
+================================== FAILURES ===================================
+____________ test_selected_product_image_dimensions_and_short_feed ____________
+
+    def test_selected_product_image_dimensions_and_short_feed():
+        p=m.load_parameters(); r=m.atc_report(p)
+>       assert r['required_feed_mm']==pytest.approx(200.)
+E       assert 389.33296255086793 == 200.0 � 2.0e-04
+E         
+E         comparison failed
+E         Obtained: 389.33296255086793
+E         Expected: 200.0 � 2.0e-04
+
+tests09\test_teller12.py:9: AssertionError
+_____________ test_stationary_column_console_and_closed_wet_tray ______________
+
+    def test_stationary_column_console_and_closed_wet_tray():
+        ds={d['name']:d for d in m.recipe()}
+>       assert 'ATC_Saeulenanschluss_Entwurf' in ds
+E       AssertionError: assert 'ATC_Saeulenanschluss_Entwurf' in {'24V_HDR6024': {'datum': ['cab_x+35', 'cab_y+330', 'cab_z+160'], 'filename': 'B428_24V_HDR6024', 'group': '16_Schalts...False, 'datum': ['0', '0', '0'], 'filename': 'D013_ATC_BT30_ER20_70_Raumhuelle_2', 'group': '20_ATC_Option', ...}, ...}
+
+tests09\test_teller12.py:20: AssertionError
+________ test_feed_moves_actual_tool_axis_two_hundred_mm_without_table ________
+
+    def test_feed_moves_actual_tool_axis_two_hundred_mm_without_table():
+        ds={d['name']:d for d in m.recipe()};tool=ds['ATC_BT30_ER20_70_Raumhuelle_1']
+        p=m.load_parameters();q=m.assembly_pose(p,'wechsel')
+        def axis(params):
+            v=m.all_values(params)
+            return [m.evaluate(x,v) for x in tool['ops'][-1]['origin']]
+        a,b=axis(p),axis(q)
+>       assert math.dist(a[:2],b[:2])==pytest.approx(200.)
+E       assert 389.33296255086793 == 200.0 � 2.0e-04
+E         
+E         comparison failed
+E         Obtained: 389.33296255086793
+E         Expected: 200.0 � 2.0e-04
+
+tests09\test_teller12.py:37: AssertionError
+_________ test_unreviewed_product_dimensions_rejected[atc12_stroke-0] _________
+
+key = 'atc12_stroke', value = 0
+
+    @pytest.mark.parametrize('key,value',[('atc12_stroke',0),('atc12_base_l',300),('atc12_disc_d',310),('teller_plate_t',10)])
+    def test_unreviewed_product_dimensions_rejected(key,value):
+        p=m.load_parameters();p[key]=value
+>       with pytest.raises(ValueError):m.validate(p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller12.py:44: Failed
+________ test_unreviewed_product_dimensions_rejected[atc12_base_l-300] ________
+
+key = 'atc12_base_l', value = 300
+
+    @pytest.mark.parametrize('key,value',[('atc12_stroke',0),('atc12_base_l',300),('atc12_disc_d',310),('teller_plate_t',10)])
+    def test_unreviewed_product_dimensions_rejected(key,value):
+        p=m.load_parameters();p[key]=value
+>       with pytest.raises(ValueError):m.validate(p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller12.py:44: Failed
+________ test_unreviewed_product_dimensions_rejected[atc12_disc_d-310] ________
+
+key = 'atc12_disc_d', value = 310
+
+    @pytest.mark.parametrize('key,value',[('atc12_stroke',0),('atc12_base_l',300),('atc12_disc_d',310),('teller_plate_t',10)])
+    def test_unreviewed_product_dimensions_rejected(key,value):
+        p=m.load_parameters();p[key]=value
+>       with pytest.raises(ValueError):m.validate(p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller12.py:44: Failed
+_______ test_unreviewed_product_dimensions_rejected[teller_plate_t-10] ________
+
+key = 'teller_plate_t', value = 10
+
+    @pytest.mark.parametrize('key,value',[('atc12_stroke',0),('atc12_base_l',300),('atc12_disc_d',310),('teller_plate_t',10)])
+    def test_unreviewed_product_dimensions_rejected(key,value):
+        p=m.load_parameters();p[key]=value
+>       with pytest.raises(ValueError):m.validate(p)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests09\test_teller12.py:44: Failed
+=========================== short test summary info ===========================
+FAILED tests09/test_teller12.py::test_selected_product_image_dimensions_and_short_feed
+FAILED tests09/test_teller12.py::test_stationary_column_console_and_closed_wet_tray
+FAILED tests09/test_teller12.py::test_feed_moves_actual_tool_axis_two_hundred_mm_without_table
+FAILED tests09/test_teller12.py::test_unreviewed_product_dimensions_rejected[atc12_stroke-0]
+FAILED tests09/test_teller12.py::test_unreviewed_product_dimensions_rejected[atc12_base_l-300]
+FAILED tests09/test_teller12.py::test_unreviewed_product_dimensions_rejected[atc12_disc_d-310]
+FAILED tests09/test_teller12.py::test_unreviewed_product_dimensions_rejected[teller_plate_t-10]
+7 failed in 0.61s

@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Kantprofil_Zwei_Biegungen_Vorform",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        350.0,
+        60.0,
+        159.0
+      ],
+      "volume_mm3": 148188.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 200889,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        350.00000000000006,
+        60.0,
+        159.0
+      ],
+      "volume_mm3": 148188.00000000023,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 200889,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        0.0,
+        350.00000000000006,
+        60.0,
+        159.0
+      ],
+      "volume_mm3": 148188.00000000023,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

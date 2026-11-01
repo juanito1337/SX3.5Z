@@ -1,5 +1,28 @@
 # Native NX-Dateien im Git-Projekt
 
+## Aktuell12: BT30 auf fester rechter Saeulenkonsole,01.11.2026
+
+- **PARK**: [fraesmaschine_cnc_12_park_nicht_freigegeben__e0b0be78f60d.prt](nx/SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_125654_005752_e0b0be78f60d/fraesmaschine_cnc_12_park_nicht_freigegeben__e0b0be78f60d.prt)
+- **WECHSEL**: [fraesmaschine_cnc_12_wechsel_nicht_freigegeben__fdd87de5a7ba.prt](nx/SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_WECHSEL_20261101_130001_853869_fdd87de5a7ba/fraesmaschine_cnc_12_wechsel_nicht_freigegeben__fdd87de5a7ba.prt)
+
+Beide Gesamtbaugruppen in NX2406 neu erzeugt, gespeichert und in frischen
+Prozessen vollstaendig geoeffnet: je461 Einzelteile,17 Unterbaugruppen und
+19 native Blechkonvertierungen im Pflichtmodus required. Vier Fangbleche
+sind geneigte Vorformen.482PRT pro Lauf inklusive3 API-Pruefteilen.
+Native Halterkegellage in WECHSEL:0/0/400mm, Toleranz0.00001mm. Dies prueft
+die nominale Ausrichtung, nicht SK30/BT30-Passung oder automatisches Spannen.
+
+Die Laufordner mit Teile/ und Unterbaugruppen/ vollstaendig zusammenhalten.
+PRUEFSTATUS.json, PRT_SHA256.json und Pruefnachweise/ gehoeren zum Lieferstand.
+Quellrevision b6e4643d5558780936f7b622af0102ad64041215. Bei Wiederoeffnungspruefungen passende Quellen
+verwenden. Alte11/10/09-Lieferstaende nicht ueberschreiben.
+
+[Park-/Wechselvorschau](vorschau/SX35Z_12_Park_Wechsel.png) aus dem Modellrezept,
+offline gerendert. [Anleitung und Grenzen12](../projekt/Dokumentation/Entwicklungsstand_12.md).
+Grundplatte/Scheibe nach Bild;200mm Hub, Werkzeugteilkreis und Antriebs-/
+Greiferhuellen bleiben Entwurf. Konsole braucht Istaufmass, Befestigung und
+Festigkeitsnachweis. Die folgenden Eintraege beschreiben historische Staende.
+
 **Abgrenzung zur neuen Produktauswahl01.11.2026:** Die nachfolgend verlinkten
 NX-Dateien11 enthalten weiterhin den eigenen Tellerentwurf (Scheibe310x10mm,
 Zustellung389,33mm). Sie sind **kein Modell des gewaehlten RATTM-Artikels**.

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\tools_handoff\\verify_package.py",
+    "--root",
+    "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_WECHSEL_20261101_130001_853869_fdd87de5a7ba",
+    "--manifest",
+    "PRT_SHA256.json"
+  ],
+  "exitcode": 0,
+  "code_commit": "b6e4643d5558780936f7b622af0102ad64041215",
+  "date": "2026-11-01T13:02:57.786424+01:00",
+  "scope": "File byte identity only; separate NX reopening proof required"
+}

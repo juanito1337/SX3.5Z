@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "001_Gabel_Raumreserve_KEINE_Retention",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        137.55444566227675,
+        -146.7487113059643,
+        380.0,
+        226.17622392718744,
+        -63.25128869403572,
+        390.0
+      ],
+      "volume_mm3": 39199.99999999999
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 327994,
+      "bounds_mm": [
+        137.5544456622,
+        -146.74871130595199,
+        380.0,
+        226.17622392708,
+        -63.251288694048,
+        390.0
+      ],
+      "volume_mm3": 39199.99999997025,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 327994,
+      "bounds_mm": [
+        137.5544456622,
+        -146.74871130595199,
+        380.0,
+        226.17622392708,
+        -63.251288694048,
+        390.0
+      ],
+      "volume_mm3": 39199.99999997025,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Halterdurchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        155.90508075688768,
+        -117.3,
+        379.9,
+        190.5050807568877,
+        -82.7,
+        390.09999999999997
+      ],
+      "volume_mm3": 9590.52210598747
+    },
+    "target_before": {
+      "tag": 327994,
+      "bounds_mm": [
+        137.5544456622,
+        -146.74871130595199,
+        380.0,
+        226.17622392708,
+        -63.251288694048,
+        390.0
+      ],
+      "volume_mm3": 39199.99999997025,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 328142,
+      "bounds_mm": [
+        155.90508075679998,
+        -117.3,
+        379.9,
+        190.5050807568,
+        -82.7,
+        390.09999999999997
+      ],
+      "volume_mm3": 9590.522105987455,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 327994,
+      "bounds_mm": [
+        137.5544456622,
+        -146.74871130595199,
+        380.0,
+        226.17622392708,
+        -63.251288694048,
+        390.0
+      ],
+      "volume_mm3": 29797.52734704135,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Radial_offener_Entnahmeweg",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        138.57431864335456,
+        -114.98223948547079,
+        379.9,
+        181.8550807568877,
+        -70.01776051452921,
+        390.09999999999997
+      ],
+      "volume_mm3": 10587.59999999999
+    },
+    "target_before": {
+      "tag": 327994,
+      "bounds_mm": [
+        137.5544456622,
+        -146.74871130595199,
+        380.0,
+        226.17622392708,
+        -63.251288694048,
+        390.0
+      ],
+      "volume_mm3": 29797.52734704135,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 328366,
+      "bounds_mm": [
+        138.57431864328,
+        -114.9822394854632,
+        379.9,
+        181.85508075680002,
+        -70.0177605145368,
+        390.09999999999997
+      ],
+      "volume_mm3": 10587.59999999194,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 327994,
+      "bounds_mm": [
+        137.5544456622,
+        -146.74871130595199,
+        380.0,
+        226.17622392708,
+        -63.251288694048,
+        390.0
+      ],
+      "volume_mm3": 25848.763673511843,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "label": "teller",
+    "journal": "NX_Normteile_ATC_Pruefen",
+    "date": "2026-11-01T12:48:16.8259867+01:00",
+    "command": [
+      "C:/Siemens/nx2406/NXBIN/run_journal.exe",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_Normteile_ATC_Pruefen.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "source_base": "92ce68f",
+    "source_snapshot": "native_source_hashes.json",
+    "environment": "NX2406 Python3.10.15 Windows",
+    "exitcode": 0,
+    "seconds": 67.23,
+    "raw_log": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision12\\native_teller.stdout.txt",
+    "output_directories": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_124841_163071_6aaed001262c"
+    ],
+    "verify_target": null
+  },
+  {
+    "label": "park",
+    "journal": "NX_CNC_Gesamtansicht",
+    "date": "2026-11-01T12:49:24.0954865+01:00",
+    "command": [
+      "C:/Siemens/nx2406/NXBIN/run_journal.exe",
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt\\NX_CNC_Gesamtansicht.py"
+    ],
+    "cwd": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z",
+    "source_base": "92ce68f",
+    "source_snapshot": "native_source_hashes.json",
+    "environment": "NX2406 Python3.10.15 Windows",
+    "exitcode": -1,
+    "seconds": 238.74,
+    "raw_log": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\ergebnisse\\entwicklung\\20261101_revision12\\native_park.stdout.txt",
+    "output_directories": [
+      "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\cad\\nx\\SX35Z_CNC_UMSETZUNG_12_BT30_KONSOLE_PARK_20261101_124949_136963_8a92132f0d19"
+    ],
+    "verify_target": null
+  }
+]

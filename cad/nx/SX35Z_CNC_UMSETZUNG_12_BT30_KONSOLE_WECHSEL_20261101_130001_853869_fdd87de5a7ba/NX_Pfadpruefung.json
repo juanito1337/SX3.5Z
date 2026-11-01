@@ -1,0 +1,14 @@
+{
+  "journal_directory": "C:\\Users\\1337\\Documents\\ChatGPT\\SX3.5Z\\projekt",
+  "output_directory": "c:\\users\\1337\\documents\\chatgpt\\sx3.5z\\cad\\nx\\sx35z_cnc_umsetzung_12_bt30_konsole_wechsel_20261101_130001_853869_fdd87de5a7ba",
+  "io_probe_passed": true,
+  "tested": [
+    "realpath",
+    "exclusive_write",
+    "flush_fsync",
+    "read",
+    "rename",
+    "delete_own_probe"
+  ],
+  "nx_save_verified": false
+}

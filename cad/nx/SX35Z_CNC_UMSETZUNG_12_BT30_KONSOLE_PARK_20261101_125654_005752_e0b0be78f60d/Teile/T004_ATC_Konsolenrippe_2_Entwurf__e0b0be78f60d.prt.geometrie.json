@@ -1,0 +1,44 @@
+[
+  {
+    "feature": "001_Obere_Konsolenrippe8mm_Entwurf",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        81.0,
+        -71.07695154586737,
+        210.0,
+        369.30971586431275,
+        280.0546785285634,
+        340.0
+      ],
+      "volume_mm3": 232175.59361657198
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 342235,
+      "bounds_mm": [
+        81.0,
+        -71.0769515458674,
+        210.0,
+        369.30971586431275,
+        280.0546785285634,
+        340.0
+      ],
+      "volume_mm3": 232175.59361657186,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 342235,
+      "bounds_mm": [
+        81.0,
+        -71.0769515458674,
+        210.0,
+        369.30971586431275,
+        280.0546785285634,
+        340.0
+      ],
+      "volume_mm3": 232175.59361657186,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]

@@ -7,7 +7,11 @@ separat.461 Modellkoerper,17 Gruppen. Grundplatte330x175x22/Scheibe280x16 nach
 Bild,200mm Hub und180mm Werkzeugradius als unbestaetigte Arbeitsannahmen.
 Feste Konsole mit oberen Rippen; alte Gestellstuetze/Kragen/Wannenoeffnung
 entfallen. Vier Fangbleche bleiben. Offline190 Tests/99 Untertests sowie17
-Stellungen/540 BRep-Pruefungen bestanden; native12-Lieferung separat nachweisen.
+Stellungen/540 BRep-Pruefungen bestanden. Fuenf native Journallaeufe Exit0,
+beide Gesamtstellungen gespeichert/frisch geoeffnet, je19 native Blech-
+konvertierungen. Native Werkzeugachse0/0/400mm nachgewiesen; keine Passung.
+KSS weiterhin6 IFS206-Referenzkonflikte, keine neuen Achs-/Korbbefunde.
+Native Lieferpfade/Quellrevision: cad/README.md.
 [Anleitung12](projekt/Dokumentation/Entwicklungsstand_12.md).
 
 

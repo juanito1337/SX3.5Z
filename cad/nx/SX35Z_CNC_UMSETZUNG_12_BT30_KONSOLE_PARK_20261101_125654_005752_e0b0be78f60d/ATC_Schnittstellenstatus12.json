@@ -1,0 +1,116 @@
+{
+  "schema": "ATC12_COLUMN_PLACEMENT_STUDY",
+  "layout": "RADIAL_LINEAR_CAROUSEL",
+  "selected_product": "1005009887984460",
+  "selected_interface": "BT30",
+  "supplier_geometry_verified": false,
+  "original_spindle": "SK30/M12 DIN2080",
+  "required_spindle_interface": "BT30 automatic clamping; replacement or retrofit remains open",
+  "clamping_package_required": true,
+  "clamping_package_status": "RESERVED_SPACE_NOT_ENGINEERED",
+  "machine_operation_enabled": false,
+  "spindle_clamping_verified": false,
+  "trajectory_verified": false,
+  "atc_operational": false,
+  "nominal_reach_ok": false,
+  "pockets": [
+    {
+      "pocket": 1,
+      "index_rotation_deg": 0.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 400.0
+    },
+    {
+      "pocket": 2,
+      "index_rotation_deg": -45.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 400.0
+    },
+    {
+      "pocket": 3,
+      "index_rotation_deg": -90.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 400.0
+    },
+    {
+      "pocket": 4,
+      "index_rotation_deg": -135.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 400.0
+    },
+    {
+      "pocket": 5,
+      "index_rotation_deg": -180.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 400.0
+    },
+    {
+      "pocket": 6,
+      "index_rotation_deg": -225.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 400.0
+    },
+    {
+      "pocket": 7,
+      "index_rotation_deg": -270.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 400.0
+    },
+    {
+      "pocket": 8,
+      "index_rotation_deg": -315.0,
+      "pickup_axis_xy_mm": [
+        0.0,
+        0.0
+      ],
+      "required_gauge_z_mm": 400.0
+    }
+  ],
+  "park_center_xy_mm": [
+    329.08965343808666,
+    -190.0
+  ],
+  "pickup_center_xy_mm": [
+    155.88457268119896,
+    -90.0
+  ],
+  "required_feed_mm": 200.0,
+  "stroke_status": "200mm inferred from SU32X200-S; usable travel unconfirmed",
+  "tool_pitch_radius_mm": 180.0,
+  "tool_pitch_status": "180mm draft; NOT the280mm disc diameter",
+  "reserved_table_strip_mm": [
+    0,
+    0
+  ],
+  "table_mounting": false,
+  "gauge_z_mm": 400.0,
+  "support": "Fixed right-column console; casting face, fasteners and strength unverified",
+  "spindle_choice_blocks_layout": false,
+  "blockers": [
+    "Herstellerbezuege/Greiferteilkreis/Lasten und nutzbarer Hub fehlen",
+    "Konsole und unbestaetigte Antriebs-/Greiferhuellen sind Entwurf",
+    "Spindel/Spannpaket spaeter auszulegen; kein Betriebsnachweis",
+    "Gesamte Bahn, Werkzeuge/Werkstuecke und Verriegelung noch nicht freigegeben"
+  ]
+}

@@ -1,0 +1,314 @@
+[
+  {
+    "feature": "001_Motor_Aussenhuelle",
+    "operation": "add",
+    "tool_expected": {
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 73960.0
+    },
+    "target_before": null,
+    "tool_actual": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 73960.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 73960.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "002_Welle_Durchgang",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -7.0,
+        -7.0,
+        -1.0,
+        7.0,
+        7.0,
+        11.0
+      ],
+      "volume_mm3": 1847.2564803107982
+    },
+    "target_before": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 73960.00000000001,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 290006,
+      "bounds_mm": [
+        -7.0,
+        -7.0,
+        -1.0,
+        7.0,
+        7.0,
+        11.0
+      ],
+      "volume_mm3": 1847.2564803107982,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 72420.61959974103,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "003_Motor_Katalogloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -38.05,
+        -38.05000000000001,
+        -1.0,
+        -31.549999999999997,
+        -31.55000000000001,
+        11.0
+      ],
+      "volume_mm3": 398.19686884250626
+    },
+    "target_before": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 72420.61959974103,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 289785,
+      "bounds_mm": [
+        -38.05,
+        -38.05,
+        -1.0,
+        -31.54999999999999,
+        -31.54999999999999,
+        11.0
+      ],
+      "volume_mm3": 398.1968688425063,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 72088.78887570559,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "004_Motor_Katalogloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        -38.05,
+        31.55000000000001,
+        -1.0,
+        -31.549999999999997,
+        38.05000000000001,
+        11.0
+      ],
+      "volume_mm3": 398.19686884250626
+    },
+    "target_before": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 72088.7888757056,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 290237,
+      "bounds_mm": [
+        -38.05,
+        31.549999999999994,
+        -1.0,
+        -31.54999999999999,
+        38.05,
+        11.0
+      ],
+      "volume_mm3": 398.1968688425063,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 71756.95815167019,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "005_Motor_Katalogloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        31.549999999999997,
+        -38.05000000000001,
+        -1.0,
+        38.05,
+        -31.55000000000001,
+        11.0
+      ],
+      "volume_mm3": 398.19686884250626
+    },
+    "target_before": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 71756.9581516702,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 290294,
+      "bounds_mm": [
+        31.549999999999994,
+        -38.05,
+        -1.0,
+        38.05,
+        -31.54999999999999,
+        11.0
+      ],
+      "volume_mm3": 398.1968688425064,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 71425.12742763475,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  },
+  {
+    "feature": "006_Motor_Katalogloch",
+    "operation": "cut",
+    "tool_expected": {
+      "bounds_mm": [
+        31.549999999999997,
+        31.55000000000001,
+        -1.0,
+        38.05,
+        38.05000000000001,
+        11.0
+      ],
+      "volume_mm3": 398.19686884250626
+    },
+    "target_before": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 71425.12742763477,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "tool_actual": {
+      "tag": 290342,
+      "bounds_mm": [
+        31.549999999999994,
+        31.549999999999994,
+        -1.0,
+        38.05,
+        38.05,
+        11.0
+      ],
+      "volume_mm3": 398.1968688425063,
+      "volume_backend": "manager_bodies_accuracy"
+    },
+    "result": {
+      "tag": 290003,
+      "bounds_mm": [
+        -43.0,
+        -43.0,
+        0.0,
+        43.0,
+        43.0,
+        10.0
+      ],
+      "volume_mm3": 71093.29670359934,
+      "volume_backend": "manager_bodies_accuracy"
+    }
+  }
+]
