@@ -1,5 +1,15 @@
 # Entscheidungen und offene Annahmen
 
+## Nutzerhinweis01.11.2026: SK30 erhalten / BT30-Anpassung untersuchen
+
+Der Nutzer bestaetigt die vorhandene SK30-Aufnahme und nennt eine moegliche
+Anpassung des BT30-Halters. Als Pruefoption aufgenommen, nicht als bereits
+machbare oder freigegebene Bearbeitung. Weder Spindeltausch noch konkrete
+BT30-Magazinvariante dadurch endgueltig festgelegt. Vorzugsweise zunaechst
+den unveraenderten Standardhalter mit vorhandener Spindel und auszulegendem
+Spannmechanismus vergleichen; das ist ein Bearbeitervorschlag.
+[Technische Einordnung und Quellen](SPANNPAKET_ATC.md).
+
 ## Fortschreibung01.11.2026: RATTM-Bilder und direkte Maschinenbefestigung
 
 Nutzer bestaetigt Artikel1005009887984460 als vorerst zu verwendenden Wechsler

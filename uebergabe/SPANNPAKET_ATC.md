@@ -1,5 +1,44 @@
 # Übergabe des letzten Gesprächs: automatische Werkzeugspannung
 
+## Pruefoption01.11.2026: BT30-Halter an vorhandener SK30-Spindel
+
+Nutzer bestaetigt SK30 als vorhandene Aufnahme und schlaegt eine moegliche
+Anpassung des BT30-Halters vor. Das ist eine zu untersuchende Option, keine
+Freigabe zur Bearbeitung des Halters oder zum Austausch der Spindel.
+Das vorhandene Maschinenhandbuch nennt SK30/M12(DIN2080).
+
+Herstellerunterlagen zeigen fuer DIN2080-Groesse30 und BT30 denselben
+nominellen7:24-Kegel/Bezugsdurchmesser31.75mm. Das begruendet eine geometrische
+Machbarkeitspruefung, aber keine Austauschbarkeit der gesamten Schnittstelle.
+Hinterer Schaft/Anschluss, Flansch, Mitnehmer, axiale Sitzlage und Anzug sind
+am konkreten Halter und an der Spindel gegeneinander zu pruefen.
+
+Eine M12-Schraubzugstange und eine automatische Greiferzugstange sind
+unterschiedliche Spannkonzepte. SYIC zeigt BT30-Anzugsbolzen mit M12, aber
+verschiedenen Greiferwinkeln. Das Gewinde allein legt den passenden Bolzen
+nicht fest. Fuer ATC werden zusaetzlich Greiferraum, Feder-/Spannmechanismus,
+Loese-/Ausstosshub und Lastabstuetzung benoetigt; der freie Innenquerschnitt
+der vorhandenen Spindel ist noch nicht vermessen.
+
+Bearbeitervorschlag: zuerst untersuchen, ob ein unveraenderter Standard-BT30-
+Halter mit geeignetem Spannmechanismus in der bestehenden Spindel nutzbar ist.
+Erst nach Schnittvergleich ueber eine Sonderloesung am Halter/Anzugsbolzen
+entscheiden. Keine Aenderung an Kegelflaeche, Greifernut oder Bolzenkontur aus
+der allgemeinen Groessenuebereinstimmung ableiten. Einbau/Betrieb nicht
+nachgewiesen; die aktuelle Magazinauswahl bestaetigt weiterhin keine Variante.
+
+Primaerquellen, eingesehen01.11.2026:
+- [PTP-BT-Geometrie](https://www.ptpcnctoolings.com/products/tool-holders/bt)
+  und [Schaftvergleich einschliesslichDIN2080](https://www.ptpcnctoolings.com/shanks).
+- [SYIC-Anzugsbolzen](https://www.syic.com/pull-stud.html): BT30/M12 mit
+  unterschiedlichen Greiferwinkeln; Hersteller fordert Maschinenzuordnung.
+- [OTT-JAKOB-Steilkegelspannsysteme](https://www.ott-jakob.de/en/steep_taper/):
+  unterschiedliche Werkzeugnormen mit eigens vorgesehener Spindelinnenkontur;
+  DIN2080(OTT-Rille) ist keine Aussage ueber die unveraenderte SX3.5Z-Spindel.
+
+Diese Fortschreibung dokumentiert die Pruefrichtung. Keine CAD-Aenderung,
+kein neuer NX-Lauf und keine bestaetigte Passung.
+
 ## Produktauswahl01.11.2026 ergaenzt
 
 Magazinartikel1005009887984460 ist vorerst gewaehlt; sechs Lieferantenbildkopien
